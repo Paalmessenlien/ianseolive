@@ -173,6 +173,19 @@ def parse_rank_page(page: str, code: str) -> dict:
             }
         )
     field.sort(key=lambda f: f["pos"] or 9999)
+    if is_team:
+        # label rows as "Lag" (numbered when a club has several teams);
+        # keep the archer names in a separate members field
+        counts = {}
+        for f in field:
+            counts[f["club"]] = counts.get(f["club"], 0) + 1
+        seen = {}
+        for f in field:
+            f["members"] = f["name"]
+            seen[f["club"]] = seen.get(f["club"], 0) + 1
+            f["name"] = (
+                f"Lag {seen[f['club']]}" if counts[f["club"]] > 1 else "Lag"
+            )
     return {
         "name": f"{title} (lag)" if is_team else title,
         "team": is_team,

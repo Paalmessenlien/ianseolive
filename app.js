@@ -226,8 +226,9 @@ function vTabKlubb() {
 }
 
 function vTabKlasser() {
-  const rowsRaw = clubRows();
-  const names = [...new Set(rowsRaw.map((r) => r.cls))];
+  const names = (DATA.classes || [])
+    .filter((c) => (c.field || []).some((f) => f.club === state.club))
+    .map((c) => c.name);
   const items = names.map((name) => {
     const cl = (DATA.classes || []).find((c) => c.name === name) || { field: [] };
     const mine = (cl.field || []).filter((f) => f.club === state.club);
@@ -404,7 +405,7 @@ function vAthleteSheet() {
   }
 
   const hasScores = (a.ends && a.ends.length) || Object.keys(a.dist || {}).length > 0;
-  const note = hasScores
+  const note = hasScores || a.members
     ? (live
       ? `Runden pågår. Nye tall kommer inn ved neste henting fra ianseo — normalt innen ti minutter.`
       : `Hele runden er publisert. Eliminering settes opp når klassen er ferdig.`)
@@ -421,6 +422,7 @@ function vAthleteSheet() {
       </div>
       <p style="position:relative;margin:0 0 6px;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:27px;line-height:1.14;color:#fff">${esc(a.name)}</p>
       <p style="position:relative;margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.accent}">${esc(a.cls)}</p>
+      ${a.members ? `<p style="position:relative;margin:6px 0 0;font-size:13px;color:${CLR.border}">${esc(a.members)}</p>` : ''}
       <div style="position:relative;display:flex;align-items:flex-end;gap:18px;margin-top:18px">
         <div><span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:700;font-size:46px;line-height:1;font-variant-numeric:tabular-nums">${a.total || '–'}</span><span style="display:block;margin-top:4px;font-size:12px;color:${CLR.border}">${a.arrows} av ${totalArrows} piler</span></div>
         <div style="margin-left:auto;text-align:right;display:flex;flex-direction:column;gap:7px">
@@ -452,7 +454,7 @@ function vClassSheet() {
       border: '0', 'border-bottom': '2px solid #e8e3da',
       'border-left': mine ? '2px solid ' + CLR.accent : '0', cursor: 'pointer' });
     return `
-    <button data-action="open-athlete" data-cls="${esc(name)}" data-name="${esc(f.name)}" style="${rowSt}">
+    <button data-action="open-athlete" data-cls="${esc(name)}" data-name="${esc(f.name)}" data-club="${esc(f.club)}" style="${rowSt}">
       <span style="${rankStyle(f.pos, mine)}">${f.pos}</span>
       <span style="flex:1;min-width:0;text-align:left">
         <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:16px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(f.name)}</span>
@@ -536,9 +538,9 @@ function setState(patch) {
   render();
 }
 
-function openAthlete(cls, name) {
+function openAthlete(cls, name, club) {
   const cl = (DATA.classes || []).find((c) => c.name === cls);
-  const f = cl && (cl.field || []).find((x) => x.name === name);
+  const f = cl && (cl.field || []).find((x) => x.name === name && (!club || x.club === club));
   if (f) {
     setState({ athlete: Object.assign({ cls: cls, totalArrows: cl.totalArrows || 72 }, f), classView: null });
     return;
@@ -584,7 +586,7 @@ document.getElementById('frame').addEventListener('click', (e) => {
     store.set('ianseolive-club', el.dataset.short);
     setState({ club: el.dataset.short, picker: false, search: '', athlete: null, classView: null });
   }
-  else if (a === 'open-athlete') openAthlete(el.dataset.cls, el.dataset.name);
+  else if (a === 'open-athlete') openAthlete(el.dataset.cls, el.dataset.name, el.dataset.club);
   else if (a === 'close-athlete') setState({ athlete: null });
   else if (a === 'open-class') setState({ classView: el.dataset.cls });
   else if (a === 'close-class') setState({ classView: null });
