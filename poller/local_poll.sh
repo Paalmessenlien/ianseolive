@@ -6,7 +6,7 @@
 # for when this machine is off.
 set -u
 export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
-REPO="/home/paal/ianseo_feed"
+REPO="${REPO:-/home/paal/ianseo_feed}"
 LOCK="/tmp/ianseolive-poll.lock"
 LOG="/tmp/ianseolive-poll.log"
 
