@@ -9,11 +9,15 @@ design (see `design/Ianseo Live.html` for the original design bundle).
 
 ianseo.net has no CORS-enabled API, so the polling happens server-side:
 
-1. **GitHub Actions** (`.github/workflows/poll.yml`) runs `poller/poll.py`
-   every 5 minutes. The script fetches the tournament's Details page,
-   discovers uploaded result files (`/TourData/{year}/{toId}/{CODE}.php`),
-   parses the HTML tables, and commits `data/results.json` when anything
-   changed.
+1. **Cron on admin.lillehammerbueskyttere.no** (user `ianseo`) runs
+   `poller/local_poll.sh` every 5 minutes. The script fetches the
+   tournament's Details page, discovers uploaded result files
+   (`/TourData/{year}/{toId}/{CODE}.php`), parses the HTML tables, and
+   commits `data/results.json` when anything changed (push via a repo
+   deploy key). **GitHub Actions** (`.github/workflows/poll.yml`) runs
+   the same `poller/poll.py` every 5 minutes as a fallback — its
+   schedule is delayed up to ~30 min under load, so the server cron is
+   the primary path.
 2. **GitHub Pages** serves the static app (`index.html` + `app.js` +
    `style.css`), which reads `data/results.json` and renders a
    mobile-first «app»: club selector, club scores, classes, start list,
