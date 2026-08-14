@@ -39,7 +39,12 @@ OUT_FILE = ROOT / "data" / "results.json"
 SKIP_CODES = {"STC", "STE", "FOP", "SCHEDULE"}
 ROSTER_CODE = "ENC"  # entries grouped by club
 RANK_PREFIXES = ("IQ", "TQ")  # qualification rankings (individual/team)
-FIXED_COLS = {"Pos.", "Athlete", "Country", "Tot.", "X", "10"}
+# Non-distance columns, English and Norwegian ianseo templates
+FIXED_COLS = {
+    "Pos.", "Athlete", "Country", "Tot.", "X", "10",
+    "Pl.", "Skytter", "Skyttere", "Klubb", "Tot. dist.", "Totalt", "10+X", "SO/CT",
+}
+HEADER_MARKERS = ("Pos.", "Athlete", "Pl.", "Skytter")
 
 
 def fetch(url: str) -> str:
@@ -49,6 +54,7 @@ def fetch(url: str) -> str:
 
 
 def clean(cell: str) -> str:
+    cell = re.sub(r"<br\s*/?>", ", ", cell, flags=re.I)
     cell = re.sub(r"<[^>]+>", "", cell)
     cell = html.unescape(cell).replace("\xa0", " ")
     return re.sub(r"\s+", " ", cell).strip()
@@ -87,8 +93,17 @@ def discover_files(details_page: str) -> dict:
     return files
 
 
-def parse_rank_page(page: str) -> dict:
-    """Parse a qualification ranking page into a class entry."""
+def unique_labels(columns: list) -> list:
+    """Disambiguate repeated column labels: ['70 m', '70 m'] -> ['70 m', '70 m (2)']"""
+    labels, seen = [], {}
+    for c in columns:
+        seen[c] = seen.get(c, 0) + 1
+        labels.append(f"{c} ({seen[c]})" if seen[c] > 1 else c)
+    return labels
+
+
+def parse_rank_page(page: str, code: str) -> dict:
+    """Parse a qualification ranking page (individual or team) into a class entry."""
     rows = parse_rows(page)
     title, status = "", ""
     header_idx = None
@@ -97,52 +112,72 @@ def parse_rank_page(page: str) -> dict:
             m = re.search(r"\[(.*?)\]\s*$", cells[0])
             status = m.group(1) if m else ""
             title = re.sub(r"\s*\[.*?\]\s*$", "", cells[0])
-        if ("Pos." in cells or "Athlete" in cells) and len(cells) >= 3:
+        if any(m_ in cells for m_ in HEADER_MARKERS) and len(cells) >= 3:
             header_idx = i
             break
     if header_idx is None:
         return {}
     columns = rows[header_idx]
-    dist_cols = [c for c in columns if c and c not in FIXED_COLS and not c.startswith("col")]
+    labels = unique_labels(columns)
+    dist_idx = [i for i, c in enumerate(columns) if c and c not in FIXED_COLS]
+    dist_labels = [labels[i] for i in dist_idx]
+    is_team = code.startswith("TQ")
 
-    official = "OFFICIAL" in status.upper()
-    m = re.search(r"After (\d+) Arrows", status, re.I)
-    total_arrows = int(m.group(1)) if m else 72
+    status_up = status.upper()
+    official = "OFFICIAL" in status_up or "OFFISIELL" in status_up
+    m = re.search(r"(?:After|Etter) (\d+) (?:Arrows|piler)", status, re.I)
+    progress = int(m.group(1)) if m else None
+    # totalArrows is the full round length; ianseo's "Etter N piler" is progress.
+    # Qualification rounds are 36 arrows per distance; teams are 3 archers.
+    total_arrows = 216 if is_team else 36 * max(1, len(dist_idx))
+
+    def first(row: dict, *keys: str) -> str:
+        for k in keys:
+            if row.get(k):
+                return row[k]
+        return ""
 
     field = []
     for cells in rows[header_idx + 1:]:
         if len(cells) != len(columns):
             continue  # subtotal rows, mobile duplicate rows, etc.
         row = dict(zip(columns, cells))
-        if not row.get("Athlete"):
+        if is_team:
+            club_short, club_name = split_club(first(row, "Klubb", "Country"))
+            name = first(row, "Skyttere") or club_name
+        else:
+            name = first(row, "Athlete", "Skytter")
+            club_short, _ = split_club(first(row, "Country", "Klubb"))
+        if not name:
             continue
-        club_short, _ = split_club(row.get("Country", ""))
-        dist = {c: row.get(c, "") for c in dist_cols}
+        dist = {labels[i]: cells[i] for i in dist_idx}
         if official:
             arrows = total_arrows
+        elif progress is not None:
+            arrows = progress
         else:
-            # estimate progress from how many distance columns have a score
-            filled = sum(1 for v in dist.values() if re.match(r"^\d", v or ""))
-            per = total_arrows / max(1, len(dist_cols))
+            # estimate progress from how many distance columns have a real score
+            filled = sum(1 for v in dist.values() if re.match(r"^[1-9]", v or ""))
+            per = total_arrows / max(1, len(dist_idx))
             arrows = int(round(filled * per))
         field.append(
             {
                 "club": club_short,
-                "name": row["Athlete"],
-                "pos": to_int(row.get("Pos.", "")),
-                "total": to_int(row.get("Tot.", "")),
+                "name": name,
+                "pos": to_int(first(row, "Pos.", "Pl.")),
+                "total": to_int(first(row, "Tot.", "Tot. dist.", "Totalt")),
                 "arrows": arrows,
-                "tens": to_int(row.get("10", "")),
+                "tens": to_int(first(row, "10", "10+X")),
                 "xs": to_int(row.get("X", "")),
                 "dist": dist,
             }
         )
     field.sort(key=lambda f: f["pos"] or 9999)
     return {
-        "name": title,
+        "name": f"{title} (lag)" if is_team else title,
         "official": official,
         "totalArrows": total_arrows,
-        "distances": dist_cols,
+        "distances": dist_labels,
         "field": field,
     }
 
@@ -191,7 +226,7 @@ def main() -> int:
         except Exception as exc:  # keep polling even if one file fails
             print(f"warn: {code}: {exc}", file=sys.stderr)
             continue
-        cls = parse_rank_page(page)
+        cls = parse_rank_page(page, code)
         if cls and cls["field"]:
             cls["code"] = code
             classes.append(cls)
