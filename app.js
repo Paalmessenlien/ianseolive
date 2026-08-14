@@ -24,6 +24,7 @@ const state = {
   club: store.get('ianseolive-club', null),
   athlete: null,
   classView: null,
+  bracketView: null,
   picker: false,
   search: '',
   refreshing: false,
@@ -114,6 +115,7 @@ const SVG = {
   target: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4"/></svg>',
   list: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
   grid: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>',
+  medal: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="15" r="5"/><path d="m8.5 10.5-4-7h5l2.5 4 2.5-4h5l-4 7"/></svg>',
   dots: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>',
 };
 
@@ -336,9 +338,10 @@ function vTabBar() {
   const tab = (id, icon, label) =>
     `<button data-action="tab" data-tab="${id}" style="${tabStyle(id)}">${icon}${label}</button>`;
   return `
-  <div style="flex:none;display:grid;grid-template-columns:repeat(4,1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
+  <div style="flex:none;display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
     ${tab('klubb', SVG.target, 'Klubben')}
     ${tab('klasser', SVG.list, 'Klasser')}
+    ${tab('finale', SVG.medal, 'Finale')}
     ${tab('start', SVG.grid, 'Startliste')}
     ${tab('mer', SVG.dots, 'Mer')}
   </div>`;
@@ -486,6 +489,105 @@ function vClassSheet() {
   </div>`;
 }
 
+/* ---------- finale/brackets ---------- */
+
+const ROUND_NAMES = { '1/16': '1/16-finaler', '1/8': '1/8-finaler', '1/4': 'Kvartfinaler',
+  '1/2': 'Semifinaler', Finals: 'Finaler' };
+
+function bracketMine(br) {
+  let n = 0;
+  for (const r of br.rounds || [])
+    for (const m of r.matches)
+      for (const p of [m.a, m.b])
+        if (p.club === state.club) n++;
+  return n;
+}
+
+function matchWinner(m) {
+  const sa = parseInt(m.a.score), sb = parseInt(m.b.score);
+  if (isNaN(sa) || isNaN(sb)) return null;
+  if (sa !== sb) return sa > sb ? 'a' : 'b';
+  const oa = parseInt(m.a.so), ob = parseInt(m.b.so);
+  if (!isNaN(oa) && !isNaN(ob) && oa !== ob) return oa > ob ? 'a' : 'b';
+  return null;
+}
+
+function fmtWhen(w) {
+  const m = /^(\d+)-(\d+)-\d+\s+(.*)$/.exec(w || '');
+  return m ? `${parseInt(m[1], 10)}.${parseInt(m[2], 10)} · ${m[3]}` : w;
+}
+
+function vTabFinale() {
+  const brackets = (DATA.brackets || [])
+    .map((br) => ({ br, mine: bracketMine(br) }))
+    .sort((x, y) => (y.mine > 0) - (x.mine > 0) || String(y.br.updated).localeCompare(String(x.br.updated)));
+  const items = brackets.map(({ br, mine }) => {
+    const nMatches = (br.rounds || []).reduce((n, r) => n + r.matches.length, 0);
+    const badge = style({ flex: 'none', display: 'grid', 'place-items': 'center', 'min-width': '42px',
+      height: '32px', padding: '0 9px', 'border-radius': '9999px',
+      border: '2px solid ' + (mine ? CLR.accent : CLR.border),
+      font: '700 13px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums', color: CLR.fg });
+    return `
+    <button data-action="open-bracket" data-code="${esc(br.code)}" style="display:flex;align-items:center;gap:13px;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:14px 15px;cursor:pointer;box-shadow:4px 4px 0 0 ${CLR.border}">
+      <span style="flex:1;min-width:0">
+        <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:17px;line-height:1.2;color:${CLR.fg}">${esc(br.name)}</span>
+        <span style="display:block;margin-top:4px;font-size:12.5px;color:${CLR.muted}">${nMatches} ${nMatches === 1 ? 'kamp' : 'kamper'}${mine ? ` · ${mine} fra ${esc(state.club)}` : ''}</span>
+      </span>
+      ${mine ? `<span style="${badge}">${mine}</span>` : ''}
+      ${SVG.chevronRight}
+    </button>`;
+  }).join('');
+  return `
+  <div>
+    <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Eliminering og finaler</p>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      ${items || '<p style="font-size:14px;color:' + CLR.muted + '">Ingen brackets publisert ennå.</p>'}
+    </div>
+  </div>`;
+}
+
+function vBracketSheet() {
+  const br = (DATA.brackets || []).find((b) => b.code === state.bracketView) || { rounds: [] };
+  const sections = (br.rounds || []).map((r) => {
+    const cards = r.matches.map((m) => {
+      const winner = matchWinner(m);
+      const mine = [m.a, m.b].some((p) => p.club === state.club);
+      const when = m.a.when || m.b.when;
+      const row = (p, side) => {
+        const won = winner === side;
+        const lost = winner && !won;
+        return `
+        <div style="display:flex;align-items:center;gap:8px;padding:8px 0">
+          <span style="flex:1;min-width:0;font-size:15px;font-weight:${won ? '700' : lost ? '400' : '600'};color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
+          ${!br.team && p.club ? `<span style="flex:none;font-size:11px;font-weight:600;letter-spacing:0.08em;color:${CLR.muted}">${esc(p.club)}</span>` : ''}
+          <span style="flex:none;min-width:30px;text-align:right;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:${won ? CLR.action : lost ? CLR.muted : CLR.fg}">${p.score ? esc(p.score) + (p.so ? `<span style="font-size:11px;color:${CLR.muted}"> (${esc(p.so)})</span>` : '') : p.target ? `<span style="font-size:12px;font-weight:600;color:${CLR.muted}">T# ${esc(p.target)}</span>` : ''}</span>
+        </div>`;
+      };
+      return `
+      <div style="background:${mine ? CLR.surface : '#fff'};border:2px solid ${CLR.fg};border-radius:14px;padding:8px 12px;${mine ? 'border-left:6px solid ' + CLR.accent + ';' : ''}">
+        ${m.label ? `<p style="margin:2px 0 0;font-size:10.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${esc(m.label === 'Bronse' ? 'Bronsefinale' : m.label)}${when ? ` · ${esc(fmtWhen(when))}` : ''}</p>` : when ? `<p style="margin:2px 0 0;font-size:10.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:${CLR.muted}">${esc(fmtWhen(when))}</p>` : ''}
+        ${row(m.a, 'a')}
+        <div style="border-top:2px solid #e8e3da"></div>
+        ${row(m.b, 'b')}
+      </div>`;
+    }).join('');
+    return `
+    <p style="margin:18px 0 8px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${esc(ROUND_NAMES[r.name] || r.name)}</p>
+    <div style="display:flex;flex-direction:column;gap:8px">${cards}</div>`;
+  }).join('');
+  return `
+  <div style="position:absolute;inset:0;background:${CLR.paper};display:flex;flex-direction:column;animation:sheet-up .34s cubic-bezier(0.34,1.56,0.64,1)">
+    <div style="flex:none;background:${CLR.fg};color:#fff;padding:14px 18px 16px">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+        <button data-action="close-bracket" style="flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:9999px;border:2px solid ${CLR.accent};background:transparent;color:#fff;cursor:pointer;padding:0">${SVG.chevronLeft}</button>
+        <span style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border}">Eliminering</span>
+      </div>
+      <p style="margin:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:23px;line-height:1.16">${esc(br.name || '')}</p>
+    </div>
+    <div style="flex:1;min-height:0;overflow-y:auto;padding:14px 18px 26px">${sections}</div>
+  </div>`;
+}
+
 function vPickerList() {
   const q = state.search.trim().toLowerCase();
   return (DATA.clubs || [])
@@ -524,9 +626,10 @@ function vPicker() {
 /* ---------- render ---------- */
 
 function render() {
-  const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, start: vTabStart, mer: vTabMer }[state.tab];
+  const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, finale: vTabFinale, start: vTabStart, mer: vTabMer }[state.tab];
   const sheets = (state.athlete ? vAthleteSheet() : '') +
     (!state.athlete && state.classView ? vClassSheet() : '') +
+    (!state.athlete && !state.classView && state.bracketView ? vBracketSheet() : '') +
     (state.picker ? vPicker() : '');
   document.getElementById('frame').innerHTML =
     vHeader() + vStrip() +
@@ -593,6 +696,8 @@ document.getElementById('frame').addEventListener('click', (e) => {
   else if (a === 'close-athlete') setState({ athlete: null });
   else if (a === 'open-class') setState({ classView: el.dataset.cls });
   else if (a === 'close-class') setState({ classView: null });
+  else if (a === 'open-bracket') setState({ bracketView: el.dataset.code });
+  else if (a === 'close-bracket') setState({ bracketView: null });
   else if (a === 'toggle-follow') {
     const n = state.athlete && state.athlete.name;
     if (!n) return;

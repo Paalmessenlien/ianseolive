@@ -27,8 +27,11 @@ ianseo.net has no CORS-enabled API, so the polling happens server-side:
 Result-file codes used by ianseo: `IQ{event}` qualification ranks,
 `IE` eliminations, `IF` final ranks, `IB` brackets, `TQ/TF/TB` team
 equivalents, `ENA/ENC/ENE/ENS` start lists (`ENC` = by club, used for the
-roster). The poller currently turns the `IQ*`/`TQ*` pages into per-class
-fields with position, total, estimated arrow count, 10s and Xs.
+roster). The poller turns the `IQ*`/`TQ*` pages into per-class fields with
+position, total, arrow counts, 10s and Xs, and the `IB*`/`TB*` bracket
+grids into rounds of matches (participants, scores, shoot-offs, target
+and start time) for the «Finale» tab. `IF*`/`TF*` final ranks are not
+parsed — the brackets carry the same information.
 
 ## Configuration
 
