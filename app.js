@@ -135,15 +135,12 @@ function vStrip() {
   const nextText = state.refreshing ? '' : age >= 5 ? 'neste snart' : `neste om ${Math.max(1, 5 - age)} min`;
   const bar = style({ display: 'block', height: '100%', width: Math.min(100, age * 20) + '%',
     background: age >= 4 ? CLR.signal : CLR.action, transition: 'width .4s ease-out' });
-  const spin = style({ display: 'grid', 'place-items': 'center',
-    animation: state.refreshing ? 'spin .9s linear infinite' : 'none' });
   return `
   <div style="flex:none;background:#fff;border-bottom:2px solid ${CLR.fg};padding:9px 18px 10px">
     <div style="display:flex;align-items:center;gap:9px">
       <span style="flex:none;width:10px;height:10px;border-radius:50%;background:${CLR.signal};border:2px solid ${CLR.fg};animation:amber-pulse 2.6s ease-out infinite"></span>
       <span style="font-size:13px;font-weight:600;color:${CLR.fg};white-space:nowrap">${esc(updatedText)}</span>
       <span style="font-size:12px;color:${CLR.muted};margin-left:auto;white-space:nowrap">${esc(nextText)}</span>
-      <button data-action="refresh" style="flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:9999px;border:2px solid ${CLR.fg};background:${CLR.paper};color:${CLR.action};cursor:pointer;padding:0"><span style="${spin}">${SVG.refresh}</span></button>
     </div>
     <div style="margin-top:8px;height:4px;border-radius:9999px;background:${CLR.border};overflow:hidden"><span style="${bar}"></span></div>
   </div>`;
@@ -604,7 +601,6 @@ document.getElementById('frame').addEventListener('click', (e) => {
     store.set('ianseolive-notify', state.notify);
     render();
   }
-  else if (a === 'refresh') refreshData();
 });
 
 // søk i klubbvelgeren uten full re-render (beholder fokus)
