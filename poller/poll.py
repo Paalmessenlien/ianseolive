@@ -96,6 +96,8 @@ def parse_roster(page: str) -> dict:
             club = cells[0]
             roster.setdefault(club, [])
         elif club and len(cells) >= 3 and cells[0] != "Skytter":
+            if not cells[1] or cells[2].lower().startswith("vip"):
+                continue  # officials/team leaders, not archers
             roster[club].append(
                 {
                     "name": cells[0],
