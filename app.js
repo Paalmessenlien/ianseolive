@@ -43,7 +43,7 @@ function clubRows() {
   const out = [];
   for (const c of DATA.classes || [])
     for (const f of c.field || [])
-      if (f.club === state.club)
+      if (f.club === state.club && !c.team)
         out.push(Object.assign({ cls: c.name, totalArrows: c.totalArrows || 72 }, f));
   return out.sort((a, b) => a.pos - b.pos || b.total - a.total);
 }

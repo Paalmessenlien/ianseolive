@@ -175,6 +175,7 @@ def parse_rank_page(page: str, code: str) -> dict:
     field.sort(key=lambda f: f["pos"] or 9999)
     return {
         "name": f"{title} (lag)" if is_team else title,
+        "team": is_team,
         "official": official,
         "totalArrows": total_arrows,
         "distances": dist_labels,
