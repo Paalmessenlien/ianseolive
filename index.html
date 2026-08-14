@@ -1,35 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ianseolive</title>
+  <title>Ianseolive · NM Skive 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Spectral:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1 id="tournament-name">ianseolive</h1>
-    <div class="controls">
-      <label for="club-select">Club</label>
-      <select id="club-select"></select>
-      <span id="last-updated"></span>
-    </div>
-  </header>
-
-  <main>
-    <p id="status-line">Loading…</p>
-    <section id="events"></section>
-    <section id="roster">
-      <h2>Roster</h2>
-      <div id="roster-body"></div>
-    </section>
-  </main>
-
-  <footer>
-    <a id="source-link" href="#" target="_blank" rel="noopener">Source: ianseo.net</a>
-    · page reloads data every 60 s
-  </footer>
-
+  <div id="page">
+    <p id="caption-top">ᛇ&nbsp;&nbsp;Ianseolive · NM Skive 2026</p>
+    <div id="frame"></div>
+    <p id="caption-bottom"></p>
+  </div>
+  <noscript>Denne siden krever JavaScript.</noscript>
   <script src="app.js"></script>
 </body>
 </html>

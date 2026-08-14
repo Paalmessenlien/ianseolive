@@ -1,11 +1,14 @@
 {
- "generated": "2026-08-14T07:51:18Z",
+ "generated": "2026-08-14T08:06:11Z",
  "tournament": {
   "toId": "28659",
   "name": "NM Skive 2026",
-  "detailsUrl": "https://ianseo.net/Details.php?toId=28659"
+  "code": "2026070",
+  "detailsUrl": "https://ianseo.net/Details.php?toId=28659",
+  "place": "Sandefjord",
+  "round": "72 piler"
  },
- "defaultClub": "SANDE - SANDEFJORD BUESKYTTERE",
+ "defaultClub": "LILLH",
  "files": {
   "ENS": "2026-08-14 06:50:59",
   "ENC": "2026-08-14 06:50:59",
@@ -13,58 +16,193 @@
   "ENE": "2026-08-14 06:50:59",
   "STC": "2026-08-14 06:50:59",
   "STE": "2026-08-14 06:50:59",
-  "SCHEDULE": "2026-07-18 10:05:10",
-  "FOP": "2026-08-14 06:51:50"
+  "SCHEDULE": "2026-08-14 07:58:27",
+  "FOP": "2026-08-14 07:58:27"
  },
  "clubs": [
-  "AREND - ARENDAL OG OMEGN BUESKYTTTERE",
-  "AURSK - AURSKOG-HØLAND BUESKYTTERE",
-  "BERGE - BERGEN BUESKYTTERE",
-  "BREIV - BREIVOLL BUESKYTTERKLUBB",
-  "BÆRUM - BÆRUM OG OMEGN BUESKYTTERE",
-  "DRAMM - DRAMMEN BUESKYTTERE",
-  "EIDSV - EIDSVOLL BUESKYTTERE",
-  "ELVER - ELVERUM BUESKYTTERE",
-  "FANA - FANA BUESKYTTERKLUBB",
-  "FLAKT - FLAKTVEIT IK - BUESKYTTERGRUPP",
-  "FLIK - FARSUND OG LISTA IDRETTSKLUBB",
-  "FREDR - FREDRIKSTAD BUESKYTTERE",
-  "FØRDE - FØRDE BOGESKYTTARKLUBB",
-  "GRENL - GRENLAND BUESKYTTERE",
-  "HAMAR - HAMAR OG OMEGN BUESKYTTERE",
-  "HAROY - HARØY BOGESKYTARLAG",
-  "HEGIL - H.E.G. IL - BUESKYTTERGRUPPE",
-  "KONGS - KONGSVINGER BUESKYTTERKLUBB",
-  "KRIST - KRISTIANSAND BUESKYTTERE",
-  "KVINN - KVINNHERAD BOGESKYTTARKLUBB",
-  "LAND - LAND BUESKYTTERKLUBB",
-  "LARVI - LARVIK BUESKYTTERE",
-  "LILLE - LILLESTRØM & OMEGN BUESKYTTERE",
-  "LILLH - LILLEHAMMER BUESKYTTERKLUBB",
-  "MOSS - MOSS BUESKYTTERE",
-  "OSLO - OSLO BUESKYTTERE",
-  "RAUMA - RAUMA BUESKYTTERKLUBB",
-  "SANDE - SANDEFJORD BUESKYTTERE",
-  "SARPS - SARPSBORG BUESKYTTERE",
-  "SKREI - SKREIA IL - BUESKYTTERE",
-  "SKRIM - IL SKRIM - BUESKYTTERE",
-  "SKUDE - SKUDENESHAVN BUESKYTTERKLUBB",
-  "SOLOR - SOLØR BUESKYTTERE",
-  "SORT - SORTLAND BUESKYTTERKLUBB",
-  "SORUM - SØRUMSAND IF - BUESKYTTERGRUPP",
-  "STAVA - STAVANGER BUESKYTTERE",
-  "STORD - STORD BUESKYTTERE",
-  "SVERR - SVERRESBORG BUESKYTTERE",
-  "TINDE - TINDEN BUESKYTTERKLUBB",
-  "TØNSB - TØNSBERG & OMEGN BUESKYTTERE",
-  "ULLEN - ULLENSAKER BUESKYTTERKLUBB",
-  "VALNE - VALNESFJORD IL - BUESKYTTERGRU",
-  "VIGRA - VIGRA IL - BUESKYTTERE",
-  "YRJAR - YRJAR IL - BUESKYTTERGRUPPA",
-  "ÅS - ÅS BUESKYTTERE"
+  {
+   "short": "AREND",
+   "name": "ARENDAL OG OMEGN BUESKYTTTERE"
+  },
+  {
+   "short": "AURSK",
+   "name": "AURSKOG-HØLAND BUESKYTTERE"
+  },
+  {
+   "short": "BERGE",
+   "name": "BERGEN BUESKYTTERE"
+  },
+  {
+   "short": "BREIV",
+   "name": "BREIVOLL BUESKYTTERKLUBB"
+  },
+  {
+   "short": "BÆRUM",
+   "name": "BÆRUM OG OMEGN BUESKYTTERE"
+  },
+  {
+   "short": "DRAMM",
+   "name": "DRAMMEN BUESKYTTERE"
+  },
+  {
+   "short": "EIDSV",
+   "name": "EIDSVOLL BUESKYTTERE"
+  },
+  {
+   "short": "ELVER",
+   "name": "ELVERUM BUESKYTTERE"
+  },
+  {
+   "short": "FANA",
+   "name": "FANA BUESKYTTERKLUBB"
+  },
+  {
+   "short": "FLIK",
+   "name": "FARSUND OG LISTA IDRETTSKLUBB"
+  },
+  {
+   "short": "FLAKT",
+   "name": "FLAKTVEIT IK - BUESKYTTERGRUPP"
+  },
+  {
+   "short": "FREDR",
+   "name": "FREDRIKSTAD BUESKYTTERE"
+  },
+  {
+   "short": "FØRDE",
+   "name": "FØRDE BOGESKYTTARKLUBB"
+  },
+  {
+   "short": "GRENL",
+   "name": "GRENLAND BUESKYTTERE"
+  },
+  {
+   "short": "HEGIL",
+   "name": "H.E.G. IL - BUESKYTTERGRUPPE"
+  },
+  {
+   "short": "HAMAR",
+   "name": "HAMAR OG OMEGN BUESKYTTERE"
+  },
+  {
+   "short": "HAROY",
+   "name": "HARØY BOGESKYTARLAG"
+  },
+  {
+   "short": "SKRIM",
+   "name": "IL SKRIM - BUESKYTTERE"
+  },
+  {
+   "short": "KONGS",
+   "name": "KONGSVINGER BUESKYTTERKLUBB"
+  },
+  {
+   "short": "KRIST",
+   "name": "KRISTIANSAND BUESKYTTERE"
+  },
+  {
+   "short": "KVINN",
+   "name": "KVINNHERAD BOGESKYTTARKLUBB"
+  },
+  {
+   "short": "LAND",
+   "name": "LAND BUESKYTTERKLUBB"
+  },
+  {
+   "short": "LARVI",
+   "name": "LARVIK BUESKYTTERE"
+  },
+  {
+   "short": "LILLH",
+   "name": "LILLEHAMMER BUESKYTTERKLUBB"
+  },
+  {
+   "short": "LILLE",
+   "name": "LILLESTRØM & OMEGN BUESKYTTERE"
+  },
+  {
+   "short": "MOSS",
+   "name": "MOSS BUESKYTTERE"
+  },
+  {
+   "short": "OSLO",
+   "name": "OSLO BUESKYTTERE"
+  },
+  {
+   "short": "RAUMA",
+   "name": "RAUMA BUESKYTTERKLUBB"
+  },
+  {
+   "short": "SANDE",
+   "name": "SANDEFJORD BUESKYTTERE"
+  },
+  {
+   "short": "SARPS",
+   "name": "SARPSBORG BUESKYTTERE"
+  },
+  {
+   "short": "SKREI",
+   "name": "SKREIA IL - BUESKYTTERE"
+  },
+  {
+   "short": "SKUDE",
+   "name": "SKUDENESHAVN BUESKYTTERKLUBB"
+  },
+  {
+   "short": "SOLOR",
+   "name": "SOLØR BUESKYTTERE"
+  },
+  {
+   "short": "SORT",
+   "name": "SORTLAND BUESKYTTERKLUBB"
+  },
+  {
+   "short": "STAVA",
+   "name": "STAVANGER BUESKYTTERE"
+  },
+  {
+   "short": "STORD",
+   "name": "STORD BUESKYTTERE"
+  },
+  {
+   "short": "SVERR",
+   "name": "SVERRESBORG BUESKYTTERE"
+  },
+  {
+   "short": "SORUM",
+   "name": "SØRUMSAND IF - BUESKYTTERGRUPP"
+  },
+  {
+   "short": "TINDE",
+   "name": "TINDEN BUESKYTTERKLUBB"
+  },
+  {
+   "short": "TØNSB",
+   "name": "TØNSBERG & OMEGN BUESKYTTERE"
+  },
+  {
+   "short": "ULLEN",
+   "name": "ULLENSAKER BUESKYTTERKLUBB"
+  },
+  {
+   "short": "VALNE",
+   "name": "VALNESFJORD IL - BUESKYTTERGRU"
+  },
+  {
+   "short": "VIGRA",
+   "name": "VIGRA IL - BUESKYTTERE"
+  },
+  {
+   "short": "YRJAR",
+   "name": "YRJAR IL - BUESKYTTERGRUPPA"
+  },
+  {
+   "short": "ÅS",
+   "name": "ÅS BUESKYTTERE"
+  }
  ],
  "roster": {
-  "AREND - ARENDAL OG OMEGN BUESKYTTTERE": [
+  "AREND": [
    {
     "name": "SUNDE Dag",
     "target": "13B",
@@ -78,7 +216,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "ÅS - ÅS BUESKYTTERE": [
+  "ÅS": [
    {
     "name": "BLÆNES Stian",
     "target": "47B",
@@ -98,7 +236,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "AURSK - AURSKOG-HØLAND BUESKYTTERE": [
+  "AURSK": [
    {
     "name": "HESLAND Kristoffer Johannes",
     "target": "16C",
@@ -106,7 +244,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "BERGE - BERGEN BUESKYTTERE": [
+  "BERGE": [
    {
     "name": "DAHL Johan Malkenes",
     "target": "35A",
@@ -210,7 +348,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "BREIV - BREIVOLL BUESKYTTERKLUBB": [
+  "BREIV": [
    {
     "name": "HENRIKSEN Stine",
     "target": "18B",
@@ -218,7 +356,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "BÆRUM - BÆRUM OG OMEGN BUESKYTTERE": [
+  "BÆRUM": [
    {
     "name": "GRANUM Aksel",
     "target": "42C",
@@ -250,7 +388,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "DRAMM - DRAMMEN BUESKYTTERE": [
+  "DRAMM": [
    {
     "name": "BECHER Jarl",
     "target": "27B",
@@ -264,7 +402,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "EIDSV - EIDSVOLL BUESKYTTERE": [
+  "EIDSV": [
    {
     "name": "ARNESEN Eirik Mathias",
     "target": "16A",
@@ -314,7 +452,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "ELVER - ELVERUM BUESKYTTERE": [
+  "ELVER": [
    {
     "name": "HAGEN Paul Ole",
     "target": "42C",
@@ -328,7 +466,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "FANA - FANA BUESKYTTERKLUBB": [
+  "FANA": [
    {
     "name": "BOMMANNAN Sathish Raja",
     "target": "43B",
@@ -444,7 +582,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "FLAKT - FLAKTVEIT IK - BUESKYTTERGRUPP": [
+  "FLAKT": [
    {
     "name": "EILERTSEN Lars Cedolf",
     "target": "7C",
@@ -458,7 +596,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "FLIK - FARSUND OG LISTA IDRETTSKLUBB": [
+  "FLIK": [
    {
     "name": "KONRADSEN Tom Egil",
     "target": "28C",
@@ -472,7 +610,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "FREDR - FREDRIKSTAD BUESKYTTERE": [
+  "FREDR": [
    {
     "name": "DUBEC Tomas René",
     "target": "35C",
@@ -494,12 +632,6 @@
    {
     "name": "DYRNES Sigurd",
     "target": "22B",
-    "class": "Recurve Herrer",
-    "pool": "Pulje 1"
-   },
-   {
-    "name": "HARVEG Hans Petter",
-    "target": "21B",
     "class": "Recurve Herrer",
     "pool": "Pulje 1"
    },
@@ -546,7 +678,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "FØRDE - FØRDE BOGESKYTTARKLUBB": [
+  "FØRDE": [
    {
     "name": "LAUKELAND Terje",
     "target": "30C",
@@ -560,7 +692,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "GRENL - GRENLAND BUESKYTTERE": [
+  "GRENL": [
    {
     "name": "GRØNSTEIN Morten",
     "target": "44A",
@@ -616,7 +748,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "HAMAR - HAMAR OG OMEGN BUESKYTTERE": [
+  "HAMAR": [
    {
     "name": "LARSEN Marius Nyhus",
     "target": "46A",
@@ -708,7 +840,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "HAROY - HARØY BOGESKYTARLAG": [
+  "HAROY": [
    {
     "name": "HUSE Kjell Håvar",
     "target": "15B",
@@ -716,7 +848,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "HEGIL - H.E.G. IL - BUESKYTTERGRUPPE": [
+  "HEGIL": [
    {
     "name": "NERGAARD Monicha",
     "target": "6B",
@@ -730,7 +862,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "KONGS - KONGSVINGER BUESKYTTERKLUBB": [
+  "KONGS": [
    {
     "name": "NIKOLAISEN Tom-Are",
     "target": "44C",
@@ -762,7 +894,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "KRIST - KRISTIANSAND BUESKYTTERE": [
+  "KRIST": [
    {
     "name": "SYVERTSEN Svein Erik",
     "target": "37C",
@@ -806,7 +938,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "KVINN - KVINNHERAD BOGESKYTTARKLUBB": [
+  "KVINN": [
    {
     "name": "HOLMEDAL Hans Einar",
     "target": "3C",
@@ -814,7 +946,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "LAND - LAND BUESKYTTERKLUBB": [
+  "LAND": [
    {
     "name": "BAKKEN Odd Olav",
     "target": "10A",
@@ -822,7 +954,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "LARVI - LARVIK BUESKYTTERE": [
+  "LARVI": [
    {
     "name": "HANSEN Christoffer",
     "target": "16B",
@@ -902,7 +1034,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "LILLE - LILLESTRØM & OMEGN BUESKYTTERE": [
+  "LILLE": [
    {
     "name": "SJØTUN Svein-Ole",
     "target": "47A",
@@ -970,7 +1102,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "LILLH - LILLEHAMMER BUESKYTTERKLUBB": [
+  "LILLH": [
    {
     "name": "STEILE Ragnvald B",
     "target": "39B",
@@ -1044,7 +1176,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "MOSS - MOSS BUESKYTTERE": [
+  "MOSS": [
    {
     "name": "LINDBÄCK Per Andreas",
     "target": "46B",
@@ -1070,7 +1202,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "OSLO - OSLO BUESKYTTERE": [
+  "OSLO": [
    {
     "name": "KARAKRAH Yousef",
     "target": "45B",
@@ -1144,13 +1276,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "RAUMA - RAUMA BUESKYTTERKLUBB": [
-   {
-    "name": "ASLAKSEN Geir",
-    "target": "29B",
-    "class": "Recurve Herrer 50",
-    "pool": "Pulje 2"
-   },
+  "RAUMA": [
    {
     "name": "GJELSVIK Veslemøy",
     "target": "30A",
@@ -1164,7 +1290,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "SANDE - SANDEFJORD BUESKYTTERE": [
+  "SANDE": [
    {
     "name": "BØE Terje",
     "target": "41A",
@@ -1262,7 +1388,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "SARPS - SARPSBORG BUESKYTTERE": [
+  "SARPS": [
    {
     "name": "RUSÅS Per-Olav",
     "target": "30B",
@@ -1288,7 +1414,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "SKREI - SKREIA IL - BUESKYTTERE": [
+  "SKREI": [
    {
     "name": "JOHANNESSEN Mats Kristoffer",
     "target": "29C",
@@ -1306,15 +1432,9 @@
     "target": "41B",
     "class": "Compound Damer",
     "pool": "Pulje 1"
-   },
-   {
-    "name": "LEIRA Hanne",
-    "target": "10C",
-    "class": "Tradisjonell Damer",
-    "pool": "Pulje 1"
    }
   ],
-  "SKRIM - IL SKRIM - BUESKYTTERE": [
+  "SKRIM": [
    {
     "name": "LINDE-NIELSEN Erik",
     "target": "39A",
@@ -1346,7 +1466,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "SKUDE - SKUDENESHAVN BUESKYTTERKLUBB": [
+  "SKUDE": [
    {
     "name": "HEMNES Ole Kristian Vikra",
     "target": "26A",
@@ -1360,7 +1480,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "SOLOR - SOLØR BUESKYTTERE": [
+  "SOLOR": [
    {
     "name": "ØYEN Eddie Asgeir",
     "target": "43B",
@@ -1368,7 +1488,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "SORT - SORTLAND BUESKYTTERKLUBB": [
+  "SORT": [
    {
     "name": "LYKSETH Kåre",
     "target": "28C",
@@ -1376,7 +1496,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "SORUM - SØRUMSAND IF - BUESKYTTERGRUPP": [
+  "SORUM": [
    {
     "name": "GRAN Anders",
     "target": "46C",
@@ -1450,7 +1570,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "STAVA - STAVANGER BUESKYTTERE": [
+  "STAVA": [
    {
     "name": "GHASEMPOUR Mohammad",
     "target": "27A",
@@ -1458,7 +1578,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "STORD - STORD BUESKYTTERE": [
+  "STORD": [
    {
     "name": "HENRIKSEN Terje",
     "target": "28A",
@@ -1472,7 +1592,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "SVERR - SVERRESBORG BUESKYTTERE": [
+  "SVERR": [
    {
     "name": "RAPHAUG Petter",
     "target": "36B",
@@ -1528,7 +1648,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "TINDE - TINDEN BUESKYTTERKLUBB": [
+  "TINDE": [
    {
     "name": "STORELV Jon-Arne",
     "target": "29A",
@@ -1554,7 +1674,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "TØNSB - TØNSBERG & OMEGN BUESKYTTERE": [
+  "TØNSB": [
    {
     "name": "SOLBERG Frank",
     "target": "36B",
@@ -1604,7 +1724,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "ULLEN - ULLENSAKER BUESKYTTERKLUBB": [
+  "ULLEN": [
    {
     "name": "FRØHAUG Lars-Åke",
     "target": "29A",
@@ -1684,7 +1804,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "VALNE - VALNESFJORD IL - BUESKYTTERGRU": [
+  "VALNE": [
    {
     "name": "STIFJELL Arvid Martin",
     "target": "38B",
@@ -1692,7 +1812,7 @@
     "pool": "Pulje 1"
    }
   ],
-  "VIGRA - VIGRA IL - BUESKYTTERE": [
+  "VIGRA": [
    {
     "name": "ROALD Magnus I Lagabø",
     "target": "27C",
@@ -1712,7 +1832,7 @@
     "pool": "Pulje 2"
    }
   ],
-  "YRJAR - YRJAR IL - BUESKYTTERGRUPPA": [
+  "YRJAR": [
    {
     "name": "FAUGSTAD Anders",
     "target": "33C",
@@ -1751,5 +1871,5 @@
    }
   ]
  },
- "events": []
+ "classes": []
 }
