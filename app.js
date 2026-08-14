@@ -132,9 +132,9 @@ function vHeader() {
 function vStrip() {
   const age = ageMin();
   const updatedText = state.refreshing ? 'Henter fra ianseo…' : age === 0 ? 'Oppdatert nå' : `Oppdatert ${age} min siden`;
-  const nextText = state.refreshing ? '' : age >= 10 ? 'neste snart' : `neste om ${Math.max(1, 10 - age)} min`;
-  const bar = style({ display: 'block', height: '100%', width: Math.min(100, age * 10) + '%',
-    background: age >= 9 ? CLR.signal : CLR.action, transition: 'width .4s ease-out' });
+  const nextText = state.refreshing ? '' : age >= 5 ? 'neste snart' : `neste om ${Math.max(1, 5 - age)} min`;
+  const bar = style({ display: 'block', height: '100%', width: Math.min(100, age * 20) + '%',
+    background: age >= 4 ? CLR.signal : CLR.action, transition: 'width .4s ease-out' });
   const spin = style({ display: 'grid', 'place-items': 'center',
     animation: state.refreshing ? 'spin .9s linear infinite' : 'none' });
   return `
@@ -407,7 +407,7 @@ function vAthleteSheet() {
   const hasScores = (a.ends && a.ends.length) || Object.keys(a.dist || {}).length > 0;
   const note = hasScores || a.members
     ? (live
-      ? `Runden pågår. Nye tall kommer inn ved neste henting fra ianseo — normalt innen ti minutter.`
+      ? `Runden pågår. Nye tall kommer inn ved neste henting fra ianseo — normalt innen fem minutter.`
       : `Hele runden er publisert. Eliminering settes opp når klassen er ferdig.`)
     : `Ingen poeng publisert ennå — mål og pulje er fra startlisten.`;
 
@@ -626,7 +626,7 @@ document.getElementById('frame').addEventListener('input', (e) => {
     return;
   }
   const t = DATA.tournament || {};
-  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — hentes hvert 10. minutt mens stevnet pågår.`;
+  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — hentes hvert 5. minutt mens stevnet pågår.`;
   render();
   setInterval(render, TICK_MS);
   setInterval(refreshData, REFRESH_DATA_MS);

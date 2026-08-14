@@ -2,8 +2,8 @@ name: Poll ianseo results
 
 on:
   schedule:
-    # every 10 minutes, offset from the herd minute marks
-    - cron: "7-57/10 * * * *"
+    # every 5 minutes, offset from the herd minute marks
+    - cron: "2-57/5 * * * *"
   workflow_dispatch:
 
 permissions:

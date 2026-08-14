@@ -10,7 +10,7 @@ design (see `design/Ianseo Live.html` for the original design bundle).
 ianseo.net has no CORS-enabled API, so the polling happens server-side:
 
 1. **GitHub Actions** (`.github/workflows/poll.yml`) runs `poller/poll.py`
-   every 10 minutes. The script fetches the tournament's Details page,
+   every 5 minutes. The script fetches the tournament's Details page,
    discovers uploaded result files (`/TourData/{year}/{toId}/{CODE}.php`),
    parses the HTML tables, and commits `data/results.json` when anything
    changed.
@@ -52,7 +52,7 @@ for demos/previews).
 
 ## Notes / limits
 
-- Update latency = workflow interval (10 min) + GitHub's scheduler jitter.
+- Update latency = workflow interval (5 min) + GitHub's scheduler jitter.
 - Only files the organizer has uploaded are shown. Before/early in the
   tournament this may be start lists only; arrow counts during the round
   are estimates derived from which distance columns have scores.
