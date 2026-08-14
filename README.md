@@ -2,7 +2,8 @@
 
 Live-ish results follower for archery tournaments published on
 [ianseo.net](https://ianseo.net) — currently tracking **NM Skive 2026**
-(`Details.php?toId=28659`).
+(`Details.php?toId=28659`). The frontend implements the «Ianseo Live»
+design (see `design/Ianseo Live.html` for the original design bundle).
 
 ## How it works
 
@@ -13,14 +14,17 @@ ianseo.net has no CORS-enabled API, so the polling happens server-side:
    discovers uploaded result files (`/TourData/{year}/{toId}/{CODE}.php`),
    parses the HTML tables, and commits `data/results.json` when anything
    changed.
-2. **GitHub Pages** serves the static frontend (`index.html` + `app.js`),
-   which reads `data/results.json`, lets you pick a club, and shows that
-   club's archers in every published result file plus the club roster.
+2. **GitHub Pages** serves the static app (`index.html` + `app.js` +
+   `style.css`), which reads `data/results.json` and renders a
+   mobile-first «app»: club selector, club scores, classes, start list,
+   athlete sheets. Club, followed archers and notification toggle persist
+   in localStorage.
 
 Result-file codes used by ianseo: `IQ{event}` qualification ranks,
 `IE` eliminations, `IF` final ranks, `IB` brackets, `TQ/TF/TB` team
 equivalents, `ENA/ENC/ENE/ENS` start lists (`ENC` = by club, used for the
-roster).
+roster). The poller currently turns the `IQ*`/`TQ*` pages into per-class
+fields with position, total, estimated arrow count, 10s and Xs.
 
 ## Configuration
 
@@ -32,10 +36,11 @@ roster).
 | `year` | tournament year (part of the TourData URL) |
 | `tournamentName` | display name |
 | `tournamentCode` | ianseo short code (see `TourList.php`) |
-| `defaultClub` | club preselected in the UI (exact ianseo spelling) |
+| `tournamentPlace` / `tournamentRound` | subtitle line in the header |
+| `defaultClub` | club short code preselected in the UI (e.g. `LILLH`) |
 
-The club can also be switched in the UI; the choice is stored in the
-browser's localStorage.
+`app.js` accepts `?data=<url>` to render an alternate data file (useful
+for demos/previews).
 
 ## Setup on a fresh fork
 
@@ -45,15 +50,15 @@ browser's localStorage.
 3. **Actions → Poll ianseo results → Run workflow** to fetch the first
    data set (or wait for the schedule).
 
-To follow a different tournament, change `toId`, `year` and names in
-`config.json` — that's it.
-
 ## Notes / limits
 
 - Update latency = workflow interval (10 min) + GitHub's scheduler jitter.
-  The schedule can be tightened or the workflow triggered manually.
 - Only files the organizer has uploaded are shown. Before/early in the
-  tournament this may be start lists only.
-- True arrow-by-arrow live data exists on `info.ianseo.net/{code}/` for
-  tournaments with the paid ISK-NG live service; this tournament is not
-  (currently) one of them.
+  tournament this may be start lists only; arrow counts during the round
+  are estimates derived from which distance columns have scores.
+- Arrow-by-arrow detail is not present in ianseo's uploaded files, so the
+  athlete sheet shows per-distance totals (it renders serie-for-serie
+  automatically if `ends` data ever becomes available).
+- True live data exists on `info.ianseo.net/{code}/` for tournaments with
+  the paid ISK-NG live service; this tournament is not (currently) one of
+  them.
