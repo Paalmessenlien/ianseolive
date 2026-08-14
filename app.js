@@ -44,8 +44,14 @@ function clubRows() {
   for (const c of DATA.classes || [])
     for (const f of c.field || [])
       if (f.club === state.club && !c.team)
-        out.push(Object.assign({ cls: c.name, totalArrows: c.totalArrows || 72 }, f));
-  return out.sort((a, b) => a.pos - b.pos || b.total - a.total);
+        out.push(Object.assign({ cls: c.name, totalArrows: c.totalArrows || 72,
+          updated: (DATA.files || {})[c.code] || '' }, f));
+  // ferskest data øverst — de som er helt ferdige samles i bunnen
+  const done = (r) => (r.arrows >= r.totalArrows ? 1 : 0);
+  return out.sort((a, b) =>
+    done(a) - done(b) ||
+    String(b.updated).localeCompare(String(a.updated)) ||
+    a.pos - b.pos || b.total - a.total);
 }
 
 function shortCls(n) {
