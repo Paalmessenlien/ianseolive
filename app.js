@@ -37,11 +37,11 @@ function renderEvent(event, club, clubs) {
     const cols = event.columns.filter(
       (c) => c && (!c.startsWith("col") || rows.some((r) => norm(r[c]) !== ""))
     );
-    let html = "<table><thead><tr>" + cols.map((c) => `<th>${c}</th>`).join("") + "</tr></thead><tbody>";
+    let html = '<div class="table-wrap"><table><thead><tr>' + cols.map((c) => `<th>${c}</th>`).join("") + "</tr></thead><tbody>";
     for (const r of rows) {
       html += "<tr>" + cols.map((c) => `<td>${r[c] ?? ""}</td>`).join("") + "</tr>";
     }
-    div.innerHTML += html + "</tbody></table>";
+    div.innerHTML += html + "</tbody></table></div>";
   }
   return div;
 }
@@ -53,11 +53,11 @@ function renderRoster(roster, club) {
     body.innerHTML = `<p class="muted">No roster entries for ${club}.</p>`;
     return;
   }
-  let html = "<table><thead><tr><th>Name</th><th>Target</th><th>Class</th><th>Pool</th></tr></thead><tbody>";
+  let html = '<div class="table-wrap"><table><thead><tr><th>Name</th><th>Target</th><th>Class</th><th>Pool</th></tr></thead><tbody>';
   for (const a of archers) {
     html += `<tr><td>${a.name}</td><td>${a.target}</td><td>${a.class}</td><td>${a.pool}</td></tr>`;
   }
-  body.innerHTML = html + "</tbody></table>";
+  body.innerHTML = html + "</tbody></table></div>";
 }
 
 async function refresh() {

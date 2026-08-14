@@ -47,6 +47,12 @@ table {
   font-size: 0.95rem;
 }
 
+/* wide result tables scroll horizontally instead of breaking the layout */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 th, td {
   border-bottom: 1px solid color-mix(in srgb, CanvasText 15%, transparent);
   padding: 0.3rem 0.55rem;
@@ -69,5 +75,17 @@ footer {
 }
 
 @media (max-width: 600px) {
-  th, td { padding: 0.25rem 0.35rem; font-size: 0.85rem; }
+  header { position: static; padding: 0.5rem 0; }
+
+  h1 { font-size: 1.15rem; width: 100%; }
+
+  .controls { width: 100%; }
+
+  #club-select { flex: 1; min-width: 0; }
+
+  th, td { padding: 0.25rem 0.35rem; font-size: 0.82rem; }
+
+  th:first-child, td:first-child { white-space: normal; }
+
+  td:nth-child(2) { white-space: normal; }
 }
