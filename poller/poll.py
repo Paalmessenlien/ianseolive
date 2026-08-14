@@ -121,8 +121,13 @@ def _subst_set_points(text: str) -> str:
             # continue searching after the marker
             continue
         inner = m.group(1)
-        sets = [s.strip() for s in re.findall(r'td-set-points[^>]*>([^<]*)<', inner)]
-        repl = "\x01" + "·".join(sets) + "\x01" if sets else ""
+        # keep per-archer rows: "set·set|set·set" (top archer first)
+        set_rows = [
+            [s.strip() for s in re.findall(r'td-set-points[^>]*>([^<]*)<', row)]
+            for row in re.findall(r"<tr[^>]*>(.*?)</tr>", inner, re.S)
+        ]
+        set_rows = [r for r in set_rows if r]
+        repl = "\x01" + "|".join("·".join(r) for r in set_rows) + "\x01" if set_rows else ""
         text = text[: m.start()] + repl + text[m.end():]
 
 
@@ -165,9 +170,10 @@ def parse_bracket_page(page: str, code: str) -> dict:
     def cell_text(c: dict) -> tuple:
         sets_m = re.search(r"\x01([^\x01]*)\x01", c["html"])
         sets = sets_m.group(1).split("·") if sets_m and sets_m.group(1) else []
-        return clean(c["html"].replace("\x01", "").replace("·", " ") if sets_m else c["html"]), sets
+        return clean(c["html"].replace("\x01", "").replace("·", " ").replace("|", " ") if sets_m else c["html"]), sets
 
     entries = {r["name"]: [] for r in rounds}
+    set_queues = {r["name"]: [] for r in rounds}  # per-set rows awaiting match pairing
     for r in rows[2:]:
         cells = row_cells(r)
         for rd in rounds:
@@ -177,6 +183,13 @@ def parse_bracket_page(page: str, code: str) -> dict:
             label = next((clean(c["html"]) for c in band if c["cls"] == "w" and clean(c["html"])), None)
             if label:
                 entries[rd["name"]].append({"label": label})
+                continue
+            # spacer rows between a match's two participant rows carry the
+            # per-set table marker — queue it for the next pairing
+            marker = next((re.search(r"\x01([^\x01]*)\x01", c["html"]).group(1)
+                           for c in band if "\x01" in c["html"]), "")
+            if marker and not any("data-cell" in c["cls"] for c in band):
+                set_queues[rd["name"]].append([s.split("·") for s in marker.split("|")])
                 continue
             c_cells = [c for c in band if "c data-cell" in c["cls"]]
             short = next((clean(c["html"]) for c in band if c["cls"] == "t b data-cell" and clean(c["html"])), "")
@@ -239,6 +252,7 @@ def parse_bracket_page(page: str, code: str) -> dict:
     out_rounds = []
     for rd in rounds:
         ents = entries[rd["name"]]
+        queue = set_queues[rd["name"]]
         matches, pending, label = [], [], ""
         final_n = 0
         for e in ents:
@@ -253,6 +267,12 @@ def parse_bracket_page(page: str, code: str) -> dict:
                     final_n += 1
                     if not label:
                         label = "Finale" if final_n == 1 else "Bronse"
+                if queue:
+                    set_rows = queue.pop(0)
+                    if set_rows:
+                        pending[0]["sets"] = set_rows[0]
+                    if len(set_rows) > 1:
+                        pending[1]["sets"] = set_rows[1]
                 matches.append({"label": label, "a": pending[0], "b": pending[1]})
                 pending, label = [], ""
         if matches:

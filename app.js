@@ -220,6 +220,7 @@ function vTabKlubb() {
   return `
   <div style="display:flex;flex-direction:column;gap:22px">
     ${cards}
+    ${vFinalsSection()}
     <div>
       <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:10px">
         <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Klubbens skyttere</p>
@@ -517,6 +518,86 @@ function fmtWhen(w) {
   return m ? `${parseInt(m[1], 10)}.${parseInt(m[2], 10)} · ${m[3]}` : w;
 }
 
+function matchTime(m) {
+  const t = /^(\d+)-(\d+)-(\d+)\s+(\d+):(\d+)/.exec(((m.a && m.a.when) || (m.b && m.b.when) || '').trim());
+  return t ? new Date(+t[3], +t[2] - 1, +t[1], +t[4], +t[5]).getTime() : null;
+}
+
+function matchStatus(m) {
+  if (matchWinner(m)) return 'done';
+  if ([m.a, m.b].some((p) => p.score || (p.sets || []).length)) return 'live';
+  const t = matchTime(m);
+  if (t && Date.now() >= t && Date.now() <= t + 30 * 60000) return 'live';
+  return 'upcoming';
+}
+
+function vSets(p) {
+  const sets = p.sets || [];
+  if (!sets.length) return '';
+  return `<span style="display:block;margin-top:2px;font-size:11.5px;font-weight:600;color:${CLR.muted};font-variant-numeric:tabular-nums;letter-spacing:0.04em">${sets.map(esc).join(' · ')}</span>`;
+}
+
+/* Klubbens finale-/elimineringskamper: live først, deretter kommende på
+ * starttid, og ferdige (nyeste først) i bunnen. */
+function clubFinalMatches() {
+  const out = [];
+  for (const br of DATA.brackets || [])
+    for (const r of br.rounds || [])
+      for (const m of r.matches || [])
+        if ([m.a, m.b].some((p) => p.club === state.club && p.name))
+          out.push({ br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
+  const rank = { live: 0, upcoming: 1, done: 2 };
+  return out.sort((x, y) =>
+    rank[x.status] - rank[y.status] ||
+    (x.status === 'done' ? (y.t || 0) - (x.t || 0) : (x.t || 9e15) - (y.t || 9e15)));
+}
+
+function vFinalsSection() {
+  const items = clubFinalMatches();
+  if (!items.length) return '';
+  const cards = items.map(({ br, round, m, status }) => {
+    const winner = matchWinner(m);
+    const when = m.a.when || m.b.when;
+    const updated = String(br.updated || '').slice(11, 16);
+    const row = (p, side) => {
+      const won = winner === side;
+      const lost = winner && !won;
+      return `
+      <div style="display:flex;align-items:center;gap:8px;padding:5px 0">
+        <span style="flex:1;min-width:0">
+          <span style="display:block;font-size:15px;font-weight:${won ? '700' : lost ? '400' : '600'};color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
+          ${vSets(p)}
+        </span>
+        <span style="flex:none;min-width:30px;text-align:right;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:${won ? CLR.action : lost ? CLR.muted : CLR.fg}">${p.score ? esc(p.score) + (p.so ? `<span style="font-size:11px;color:${CLR.muted}"> (${esc(p.so)})</span>` : '') : p.target ? `<span style="font-size:12px;font-weight:600;color:${CLR.muted}">T# ${esc(p.target)}</span>` : ''}</span>
+      </div>`;
+    };
+    const badge = status === 'live'
+      ? `<span style="flex:none;display:inline-flex;align-items:center;background:${CLR.signal};color:#fff;border:2px solid ${CLR.fg};border-radius:9999px;padding:3px 10px;font:700 10.5px &quot;Inter&quot;,sans-serif;letter-spacing:0.12em;text-transform:uppercase;animation:amber-pulse 2s infinite">Live</span>`
+      : status === 'done'
+        ? `<span style="flex:none;display:inline-flex;align-items:center;background:transparent;color:${CLR.muted};border:2px solid ${CLR.border};border-radius:9999px;padding:3px 10px;font:600 10.5px &quot;Inter&quot;,sans-serif;letter-spacing:0.12em;text-transform:uppercase">Ferdig</span>`
+        : '';
+    const roundLabel = m.label ? (m.label === 'Bronse' ? 'Bronsefinale' : m.label) : (ROUND_NAMES[round] || round);
+    const meta = [roundLabel, when ? fmtWhen(when) : '', status === 'live' && updated ? `oppdatert ${updated}` : '']
+      .filter(Boolean).join(' · ');
+    return `
+    <button data-action="open-bracket" data-code="${esc(br.code)}" style="display:block;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;cursor:pointer;box-shadow:4px 4px 0 0 ${status === 'live' ? CLR.signal : CLR.border};${status === 'done' ? 'opacity:0.75;' : ''}">
+      <span style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+        <span style="flex:1;min-width:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:15.5px;color:${CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(br.name))}</span>
+        ${badge}
+      </span>
+      <span style="display:block;margin-bottom:4px;font-size:10.5px;font-weight:${status === 'live' ? '700' : '600'};letter-spacing:0.1em;text-transform:uppercase;color:${status === 'live' ? CLR.signal : CLR.muted}">${esc(meta)}</span>
+      ${row(m.a, 'a')}
+      <span style="display:block;border-top:2px solid #e8e3da"></span>
+      ${row(m.b, 'b')}
+    </button>`;
+  }).join('');
+  return `
+  <div>
+    <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Finaler og eliminering</p>
+    <div style="display:flex;flex-direction:column;gap:10px">${cards}</div>
+  </div>`;
+}
+
 function vTabFinale() {
   const brackets = (DATA.brackets || [])
     .map((br) => ({ br, mine: bracketMine(br) }))
@@ -558,7 +639,10 @@ function vBracketSheet() {
         const lost = winner && !won;
         return `
         <div style="display:flex;align-items:center;gap:8px;padding:8px 0">
-          <span style="flex:1;min-width:0;font-size:15px;font-weight:${won ? '700' : lost ? '400' : '600'};color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
+          <span style="flex:1;min-width:0">
+            <span style="display:block;font-size:15px;font-weight:${won ? '700' : lost ? '400' : '600'};color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
+            ${vSets(p)}
+          </span>
           ${!br.team && p.club ? `<span style="flex:none;font-size:11px;font-weight:600;letter-spacing:0.08em;color:${CLR.muted}">${esc(p.club)}</span>` : ''}
           <span style="flex:none;min-width:30px;text-align:right;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:${won ? CLR.action : lost ? CLR.muted : CLR.fg}">${p.score ? esc(p.score) + (p.so ? `<span style="font-size:11px;color:${CLR.muted}"> (${esc(p.so)})</span>` : '') : p.target ? `<span style="font-size:12px;font-weight:600;color:${CLR.muted}">T# ${esc(p.target)}</span>` : ''}</span>
         </div>`;
