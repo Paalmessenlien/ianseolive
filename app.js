@@ -25,10 +25,12 @@ const state = {
   athlete: null,
   classView: null,
   bracketView: null,
+  matchView: null,
   picker: false,
   search: '',
   refreshing: false,
   follows: store.get('ianseolive-follows', []),
+  followMatches: store.get('ianseolive-follow-matches', []),
   notify: store.get('ianseolive-notify', true),
 };
 
@@ -220,6 +222,7 @@ function vTabKlubb() {
   return `
   <div style="display:flex;flex-direction:column;gap:22px">
     ${cards}
+    ${vFollowedMatches()}
     ${vFinalsSection()}
     <div>
       <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:10px">
@@ -552,13 +555,28 @@ function sortFinalMatches(out) {
     (x.status === 'done' ? (y.t || 0) - (x.t || 0) : (x.t || 9e15) - (y.t || 9e15)));
 }
 
+/* Stabil nok kamp-id: bracketkode + rundenavn + indeks i runden. */
+function matchId(br, round, idx) {
+  return br.code + '|' + round + '|' + idx;
+}
+
+function findMatch(id) {
+  const [code, round, idx] = String(id || '').split('|');
+  const br = (DATA.brackets || []).find((b) => b.code === code);
+  if (!br) return null;
+  const r = (br.rounds || []).find((x) => x.name === round);
+  const m = r && r.matches[+idx];
+  return m ? { id, br, round: r.name, m, status: matchStatus(m), t: matchTime(m) } : null;
+}
+
 function clubFinalMatches() {
   const out = [];
   for (const br of DATA.brackets || [])
     for (const r of br.rounds || [])
-      for (const m of r.matches || [])
+      r.matches.forEach((m, mi) => {
         if ([m.a, m.b].some((p) => p.club === state.club && p.name))
-          out.push({ br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
+          out.push({ id: matchId(br, r.name, mi), br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
+      });
   return sortFinalMatches(out);
 }
 
@@ -571,16 +589,23 @@ function athleteFinalMatches(name) {
   const out = [];
   for (const br of DATA.brackets || [])
     for (const r of br.rounds || [])
-      for (const m of r.matches || [])
+      r.matches.forEach((m, mi) => {
         if ([m.a, m.b].some((p) => p.name && hit(p)))
-          out.push({ br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
+          out.push({ id: matchId(br, r.name, mi), br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
+      });
   return sortFinalMatches(out);
 }
 
-function vMatchCard({ br, round, m, status }) {
+/* Kamper brukeren følger, uavhengig av klubb. */
+function followedMatchItems() {
+  return sortFinalMatches(state.followMatches.map(findMatch).filter(Boolean));
+}
+
+function vMatchCard({ id, br, round, m, status }) {
   const winner = matchWinner(m);
   const when = m.a.when || m.b.when;
   const updated = String(br.updated || '').slice(11, 16);
+  const followed = state.followMatches.includes(id);
   const row = (p, side) => {
     const won = winner === side;
     const lost = winner && !won;
@@ -602,8 +627,9 @@ function vMatchCard({ br, round, m, status }) {
   const meta = [roundLabel, when ? fmtWhen(when) : '', status === 'live' && updated ? `oppdatert ${updated}` : '']
     .filter(Boolean).join(' · ');
   return `
-  <button data-action="open-bracket" data-code="${esc(br.code)}" style="display:block;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;cursor:pointer;box-shadow:4px 4px 0 0 ${status === 'live' ? CLR.signal : CLR.border};${status === 'done' ? 'opacity:0.75;' : ''}">
+  <button data-action="open-match" data-id="${esc(id)}" style="display:block;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;cursor:pointer;box-shadow:4px 4px 0 0 ${status === 'live' ? CLR.signal : CLR.border};${status === 'done' ? 'opacity:0.75;' : ''}">
     <span style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      ${followed ? `<span style="flex:none;color:${CLR.signal};font-size:14px">ᛇ</span>` : ''}
       <span style="flex:1;min-width:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:15.5px;color:${CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(br.name))}</span>
       ${badge}
     </span>
@@ -614,12 +640,108 @@ function vMatchCard({ br, round, m, status }) {
   </button>`;
 }
 
+function vMatchSheet() {
+  const f = findMatch(state.matchView);
+  if (!f) return '';
+  const { br, round, m, status } = f;
+  const winner = matchWinner(m);
+  const when = m.a.when || m.b.when;
+  const updated = String(br.updated || '').slice(11, 16);
+  const isFollowing = state.followMatches.includes(state.matchView);
+  const followBtn = style({ 'margin-left': 'auto', flex: 'none', display: 'inline-flex',
+    'align-items': 'center', gap: '7px', 'min-height': '38px', padding: '0 15px',
+    'border-radius': '9999px', border: '2px solid ' + CLR.accent,
+    background: isFollowing ? CLR.accent : 'transparent',
+    color: isFollowing ? CLR.fg : '#fff', font: '700 13.5px "Inter",sans-serif', cursor: 'pointer' });
+  const roundLabel = m.label ? (m.label === 'Bronse' ? 'Bronsefinale' : m.label) : (ROUND_NAMES[round] || round);
+  const meta = [roundLabel, when ? fmtWhen(when) : '', m.a.target ? `T# ${m.a.target}–${m.b.target}` : '']
+    .filter(Boolean).join(' · ');
+  const statusLine = status === 'live'
+    ? `<span style="${liveStyle(true, false)};animation:amber-pulse 2s infinite">Live</span><span style="font-size:12.5px;color:${CLR.muted}">oppdateres automatisk${updated ? ` · sist ${updated}` : ''}</span>`
+    : status === 'done'
+      ? `<span style="${liveStyle(false, false)}">Ferdig</span>${winner ? `<span style="font-size:13px;font-weight:700;color:${CLR.action}">Vinner: ${esc((winner === 'a' ? m.a : m.b).name)}</span>` : ''}`
+      : `<span style="${liveStyle(false, false)}">Venter</span><span style="font-size:12.5px;color:${CLR.muted}">${when ? 'Starter ' + esc(fmtWhen(when)) : 'Ikke startet ennå'}</span>`;
+  const prow = (p, side) => {
+    const won = winner === side;
+    const lost = winner && !won;
+    return `
+    <div style="display:flex;align-items:center;gap:12px;padding:14px 4px">
+      <span style="flex:1;min-width:0">
+        <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:19px;line-height:1.2;color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
+        ${p.club && !br.team ? `<span style="display:block;margin-top:3px;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:${CLR.muted}">${esc(clubMeta(p.club).name || p.club)}</span>` : ''}
+        ${p.members ? `<span style="display:block;margin-top:3px;font-size:12px;color:${CLR.muted}">${esc(p.members)}</span>` : ''}
+      </span>
+      <span style="flex:none;font-family:'Spectral',Georgia,serif;font-weight:700;font-size:38px;line-height:1;font-variant-numeric:tabular-nums;color:${won ? CLR.action : lost ? CLR.muted : CLR.fg}">${p.score ? esc(p.score) : '–'}${p.so ? `<span style="font-size:15px;color:${CLR.muted}"> (${esc(p.so)})</span>` : ''}</span>
+    </div>`;
+  };
+  // sett-for-sett: én rad per ende, vinneren av enden i uthevet skrift
+  const nSets = Math.max((m.a.sets || []).length, (m.b.sets || []).length);
+  let setTable = '';
+  if (nSets) {
+    const rows = [];
+    for (let i = 0; i < nSets; i++) {
+      const av = (m.a.sets || [])[i], bv = (m.b.sets || [])[i];
+      const aWon = av !== undefined && bv !== undefined && parseInt(av) > parseInt(bv);
+      const bWon = av !== undefined && bv !== undefined && parseInt(bv) > parseInt(av);
+      rows.push(`
+      <div style="display:flex;align-items:center;gap:8px;padding:7px 4px;border-bottom:2px solid #e8e3da">
+        <span style="flex:1;text-align:right;font-size:15px;font-weight:${aWon ? '800' : '500'};font-variant-numeric:tabular-nums;color:${aWon ? CLR.fg : CLR.muted}">${av !== undefined ? esc(av) : '–'}</span>
+        <span style="flex:none;width:52px;text-align:center;white-space:nowrap;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:${CLR.muted}">ende ${i + 1}</span>
+        <span style="flex:1;text-align:left;font-size:15px;font-weight:${bWon ? '800' : '500'};font-variant-numeric:tabular-nums;color:${bWon ? CLR.fg : CLR.muted}">${bv !== undefined ? esc(bv) : '–'}</span>
+      </div>`);
+    }
+    setTable = `
+    <p style="margin:20px 0 8px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Sett for sett</p>
+    <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:6px 12px">
+      <div style="display:flex;gap:8px;padding:7px 4px;border-bottom:2px solid ${CLR.fg};font-size:10.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:${CLR.muted}">
+        <span style="flex:1;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(m.a.name || '–')}</span>
+        <span style="flex:none;width:52px"></span>
+        <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(m.b.name || '–')}</span>
+      </div>
+      ${rows.join('')}
+    </div>`;
+  }
+  return `
+  <div style="position:absolute;inset:0;background:${CLR.paper};display:flex;flex-direction:column;animation:sheet-up .34s cubic-bezier(0.34,1.56,0.64,1)">
+    <div style="flex:none;background:${CLR.fg};color:#fff;padding:14px 18px 16px">
+      <div style="position:relative;display:flex;align-items:center;gap:12px;margin-bottom:12px">
+        <button data-action="close-match" style="flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:9999px;border:2px solid ${CLR.accent};background:transparent;color:#fff;cursor:pointer;padding:0">${SVG.chevronLeft}</button>
+        <span style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border}">Eliminering</span>
+        <button data-action="toggle-follow-match" style="${followBtn}">${isFollowing ? 'Følger ᛇ' : 'Følg'}</button>
+      </div>
+      <p style="margin:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:23px;line-height:1.16">${esc(br.name)}</p>
+      <p style="margin:6px 0 0;font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:${CLR.accent}">${esc(meta)}</p>
+    </div>
+    <div style="flex:1;min-height:0;overflow-y:auto;padding:16px 18px 26px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">${statusLine}</div>
+      <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:4px 14px;box-shadow:4px 4px 0 0 ${status === 'live' ? CLR.signal : CLR.border}">
+        ${prow(m.a, 'a')}
+        <div style="border-top:2px solid #e8e3da"></div>
+        ${prow(m.b, 'b')}
+      </div>
+      ${setTable}
+      <button data-action="open-match-bracket" data-code="${esc(br.code)}" style="display:inline-flex;align-items:center;gap:9px;margin-top:20px;background:${CLR.action};color:#fff;border:2px solid ${CLR.fg};border-radius:9999px;padding:12px 22px;min-height:48px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:4px 4px 0 0 ${CLR.fg}">Hele bracket-treet${SVG.arrowRight}</button>
+    </div>
+  </div>`;
+}
+
 function vFinalsSection() {
-  const items = clubFinalMatches();
+  const items = clubFinalMatches().filter((x) => !state.followMatches.includes(x.id));
   if (!items.length) return '';
   return `
   <div>
     <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Finaler og eliminering</p>
+    <div style="display:flex;flex-direction:column;gap:10px">${items.map(vMatchCard).join('')}</div>
+  </div>`;
+}
+
+/* Fulgte kamper øverst på klubbforsiden — også kamper uten klubbtilknytning. */
+function vFollowedMatches() {
+  const items = followedMatchItems();
+  if (!items.length) return '';
+  return `
+  <div>
+    <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Fulgte kamper</p>
     <div style="display:flex;flex-direction:column;gap:10px">${items.map(vMatchCard).join('')}</div>
   </div>`;
 }
@@ -656,7 +778,7 @@ function vTabFinale() {
 function vBracketSheet() {
   const br = (DATA.brackets || []).find((b) => b.code === state.bracketView) || { rounds: [] };
   const sections = (br.rounds || []).map((r) => {
-    const cards = r.matches.map((m) => {
+    const cards = r.matches.map((m, mi) => {
       const winner = matchWinner(m);
       const mine = [m.a, m.b].some((p) => p.club === state.club);
       const when = m.a.when || m.b.when;
@@ -674,12 +796,12 @@ function vBracketSheet() {
         </div>`;
       };
       return `
-      <div style="background:${mine ? CLR.surface : '#fff'};border:2px solid ${CLR.fg};border-radius:14px;padding:8px 12px;${mine ? 'border-left:6px solid ' + CLR.accent + ';' : ''}">
+      <button data-action="open-match" data-id="${esc(matchId(br, r.name, mi))}" style="display:block;width:100%;text-align:left;background:${mine ? CLR.surface : '#fff'};border:2px solid ${CLR.fg};border-radius:14px;padding:8px 12px;cursor:pointer;${mine ? 'border-left:6px solid ' + CLR.accent + ';' : ''}">
         ${m.label ? `<p style="margin:2px 0 0;font-size:10.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${esc(m.label === 'Bronse' ? 'Bronsefinale' : m.label)}${when ? ` · ${esc(fmtWhen(when))}` : ''}</p>` : when ? `<p style="margin:2px 0 0;font-size:10.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:${CLR.muted}">${esc(fmtWhen(when))}</p>` : ''}
         ${row(m.a, 'a')}
         <div style="border-top:2px solid #e8e3da"></div>
         ${row(m.b, 'b')}
-      </div>`;
+      </button>`;
     }).join('');
     return `
     <p style="margin:18px 0 8px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${esc(ROUND_NAMES[r.name] || r.name)}</p>
@@ -737,7 +859,8 @@ function vPicker() {
 
 function render() {
   const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, finale: vTabFinale, start: vTabStart, mer: vTabMer }[state.tab];
-  const sheets = (state.athlete ? vAthleteSheet() : '') +
+  const sheets = (state.matchView ? vMatchSheet() : '') +
+    (state.athlete ? vAthleteSheet() : '') +
     (!state.athlete && state.classView ? vClassSheet() : '') +
     (!state.athlete && !state.classView && state.bracketView ? vBracketSheet() : '') +
     (state.picker ? vPicker() : '');
@@ -808,6 +931,18 @@ document.getElementById('frame').addEventListener('click', (e) => {
   else if (a === 'close-class') setState({ classView: null });
   else if (a === 'open-bracket') setState({ bracketView: el.dataset.code });
   else if (a === 'close-bracket') setState({ bracketView: null });
+  else if (a === 'open-match') setState({ matchView: el.dataset.id });
+  else if (a === 'close-match') setState({ matchView: null });
+  else if (a === 'open-match-bracket') setState({ bracketView: el.dataset.code, matchView: null });
+  else if (a === 'toggle-follow-match') {
+    const id = state.matchView;
+    if (!id) return;
+    state.followMatches = state.followMatches.includes(id)
+      ? state.followMatches.filter((x) => x !== id)
+      : state.followMatches.concat(id);
+    store.set('ianseolive-follow-matches', state.followMatches);
+    render();
+  }
   else if (a === 'toggle-follow') {
     const n = state.athlete && state.athlete.name;
     if (!n) return;
