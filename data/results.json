@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T08:00:16Z",
+ "generated": "2026-08-15T08:05:15Z",
  "tournament": {
   "toId": "28659",
   "name": "NM Skive 2026",
@@ -50,12 +50,12 @@
   "IBBH": "2026-08-14 11:54:24",
   "IBCH": "2026-08-14 11:54:32",
   "IBRH": "2026-08-14 11:54:44",
-  "TBL": "2026-08-15 07:44:13",
-  "TBT": "2026-08-15 09:48:41",
-  "TBB": "2026-08-15 09:49:17",
-  "TBC": "2026-08-15 09:49:11",
-  "TBR": "2026-08-15 09:49:51",
-  "TBR60M": "2026-08-15 09:49:05",
+  "TBL": "2026-08-15 09:59:54",
+  "TBT": "2026-08-15 09:59:23",
+  "TBB": "2026-08-15 09:59:40",
+  "TBC": "2026-08-15 09:59:45",
+  "TBR": "2026-08-15 10:00:13",
+  "TBR60M": "2026-08-15 10:00:08",
   "TBRU16": "2026-08-14 16:00:50",
   "IQOC": "2026-08-14 15:39:38",
   "IQTD16": "2026-08-14 15:41:04",
@@ -12525,10 +12525,71 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Finale",
+       "a": {
+        "label": null,
+        "name": "Fana Bueskytterklubb",
+        "club": "FANA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "45",
+        "when": "15-08-2026 10:45",
+        "sets": [
+         "44"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Grenland Bueskyttere",
+        "club": "GRENL",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "46",
+        "when": "",
+        "sets": [
+         "37"
+        ]
+       }
+      },
+      {
+       "label": "Bronse",
+       "a": {
+        "label": null,
+        "name": "Hamar og Omegn Bueskyttere",
+        "club": "HAMAR",
+        "members": "",
+        "score": "2",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Kongsvinger Bueskytterklubb",
+        "club": "KONGS",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBB",
-   "updated": "2026-08-15 09:49:17"
+   "updated": "2026-08-15 09:59:40"
   },
   {
    "name": "Compound (lag)",
@@ -12728,10 +12789,71 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Finale",
+       "a": {
+        "label": null,
+        "name": "Yrjar IL - Bueskyttergruppa",
+        "club": "YRJAR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "39",
+        "when": "15-08-2026 10:45",
+        "sets": [
+         "51"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Bergen Bueskyttere",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "40",
+        "when": "",
+        "sets": [
+         "58"
+        ]
+       }
+      },
+      {
+       "label": "Bronse",
+       "a": {
+        "label": null,
+        "name": "Bergen Bueskyttere (2)",
+        "club": "BERGE",
+        "members": "",
+        "score": "51",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Eidsvoll Bueskyttere",
+        "club": "EIDSV",
+        "members": "",
+        "score": "58",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBC",
-   "updated": "2026-08-15 09:49:11"
+   "updated": "2026-08-15 09:59:45"
   },
   {
    "name": "Langbue (lag)",
@@ -12826,7 +12948,10 @@
         "bye": false,
         "so": "",
         "target": "2",
-        "when": "15-08-2026 10:45"
+        "when": "15-08-2026 10:45",
+        "sets": [
+         "29"
+        ]
        },
        "b": {
         "label": null,
@@ -12837,7 +12962,10 @@
         "bye": false,
         "so": "",
         "target": "3",
-        "when": ""
+        "when": "",
+        "sets": [
+         "44"
+        ]
        }
       },
       {
@@ -12847,21 +12975,21 @@
         "name": "Tønsberg & Omegn Bueskyttere",
         "club": "TØNSB",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "5",
-        "when": "15-08-2026 10:05"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Sørumsand IF - Bueskyttergrupp (2)",
         "club": "SORUM",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "6",
+        "target": "",
         "when": ""
        }
       }
@@ -12869,7 +12997,7 @@
     }
    ],
    "code": "TBL",
-   "updated": "2026-08-15 07:44:13"
+   "updated": "2026-08-15 09:59:54"
   },
   {
    "name": "Recurve (lag)",
@@ -13102,10 +13230,71 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Finale",
+       "a": {
+        "label": null,
+        "name": "Bergen Bueskyttere",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "21",
+        "when": "15-08-2026 10:45",
+        "sets": [
+         "40"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Oslo Bueskyttere",
+        "club": "OSLO",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "22",
+        "when": "",
+        "sets": [
+         "51"
+        ]
+       }
+      },
+      {
+       "label": "Bronse",
+       "a": {
+        "label": null,
+        "name": "Sandefjord Bueskyttere",
+        "club": "SANDE",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Lillestrøm & Omegn Bueskyttere",
+        "club": "LILLE",
+        "members": "",
+        "score": "2",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBR",
-   "updated": "2026-08-15 09:49:51"
+   "updated": "2026-08-15 10:00:13"
   },
   {
    "name": "Recurve 60m (lag)",
@@ -13187,10 +13376,71 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Finale",
+       "a": {
+        "label": null,
+        "name": "Fredrikstad Bueskyttere",
+        "club": "FREDR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "33",
+        "when": "15-08-2026 10:45",
+        "sets": [
+         "51"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Ullensaker Bueskytterklubb",
+        "club": "ULLEN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "34",
+        "when": "",
+        "sets": [
+         "44"
+        ]
+       }
+      },
+      {
+       "label": "Bronse",
+       "a": {
+        "label": null,
+        "name": "Ullensaker Bueskytterklubb (2)",
+        "club": "ULLEN",
+        "members": "",
+        "score": "2",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Lillestrøm & Omegn Bueskyttere",
+        "club": "LILLE",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBR60M",
-   "updated": "2026-08-15 09:49:05"
+   "updated": "2026-08-15 10:00:08"
   },
   {
    "name": "Recurve Under 16 (lag)",
@@ -13455,10 +13705,71 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Finale",
+       "a": {
+        "label": null,
+        "name": "Bergen Bueskyttere",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "8",
+        "when": "15-08-2026 10:45",
+        "sets": [
+         "51"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Sørumsand IF - Bueskyttergrupp",
+        "club": "SORUM",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "9",
+        "when": "",
+        "sets": [
+         "56"
+        ]
+       }
+      },
+      {
+       "label": "Bronse",
+       "a": {
+        "label": null,
+        "name": "Lillehammer Bueskytterklubb",
+        "club": "LILLH",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Hamar og Omegn Bueskyttere",
+        "club": "HAMAR",
+        "members": "",
+        "score": "2",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBT",
-   "updated": "2026-08-15 09:48:41"
+   "updated": "2026-08-15 09:59:23"
   }
  ]
 }
