@@ -418,6 +418,11 @@ function vAthleteSheet() {
       : `Hele runden er publisert. Eliminering settes opp når klassen er ferdig.`)
     : `Ingen poeng publisert ennå — mål og pulje er fra startlisten.`;
 
+  const finalsItems = athleteFinalMatches(a.name);
+  const finalsSection = finalsItems.length ? `
+      <p style="margin:0 0 10px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Finaler og eliminering</p>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px">${finalsItems.map(vMatchCard).join('')}</div>` : '';
+
   return `
   <div style="position:absolute;inset:0;background:${CLR.paper};display:flex;flex-direction:column;animation:sheet-up .34s cubic-bezier(0.34,1.56,0.64,1)">
     <div style="flex:none;background:${CLR.fg};color:#fff;padding:14px 18px 20px;position:relative;overflow:hidden">
@@ -440,6 +445,7 @@ function vAthleteSheet() {
     </div>
     <div style="flex:1;min-height:0;overflow-y:auto;padding:16px 18px 26px">
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:20px">${stats}</div>
+      ${finalsSection}
       ${scoreSection}
       <p style="margin:14px 0 0;font-size:13px;line-height:1.6;color:${CLR.muted}">${esc(note)}</p>
     </div>
@@ -537,8 +543,15 @@ function vSets(p) {
   return `<span style="display:block;margin-top:2px;font-size:11.5px;font-weight:600;color:${CLR.muted};font-variant-numeric:tabular-nums;letter-spacing:0.04em">${sets.map(esc).join(' · ')}</span>`;
 }
 
-/* Klubbens finale-/elimineringskamper: live først, deretter kommende på
+/* Finale-/elimineringskamper: live først, deretter kommende på
  * starttid, og ferdige (nyeste først) i bunnen. */
+function sortFinalMatches(out) {
+  const rank = { live: 0, upcoming: 1, done: 2 };
+  return out.sort((x, y) =>
+    rank[x.status] - rank[y.status] ||
+    (x.status === 'done' ? (y.t || 0) - (x.t || 0) : (x.t || 9e15) - (y.t || 9e15)));
+}
+
 function clubFinalMatches() {
   const out = [];
   for (const br of DATA.brackets || [])
@@ -546,55 +559,68 @@ function clubFinalMatches() {
       for (const m of r.matches || [])
         if ([m.a, m.b].some((p) => p.club === state.club && p.name))
           out.push({ br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
-  const rank = { live: 0, upcoming: 1, done: 2 };
-  return out.sort((x, y) =>
-    rank[x.status] - rank[y.status] ||
-    (x.status === 'done' ? (y.t || 0) - (x.t || 0) : (x.t || 9e15) - (y.t || 9e15)));
+  return sortFinalMatches(out);
+}
+
+/* Kamper der skytteren selv deltar — direkte, eller som medlem av et lag. */
+function athleteFinalMatches(name) {
+  const norm = (s) => String(s || '').trim().toUpperCase();
+  const n = norm(name);
+  const hit = (p) => norm(p.name) === n ||
+    (p.members || '').split(',').map((s) => norm(s)).includes(n);
+  const out = [];
+  for (const br of DATA.brackets || [])
+    for (const r of br.rounds || [])
+      for (const m of r.matches || [])
+        if ([m.a, m.b].some((p) => p.name && hit(p)))
+          out.push({ br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
+  return sortFinalMatches(out);
+}
+
+function vMatchCard({ br, round, m, status }) {
+  const winner = matchWinner(m);
+  const when = m.a.when || m.b.when;
+  const updated = String(br.updated || '').slice(11, 16);
+  const row = (p, side) => {
+    const won = winner === side;
+    const lost = winner && !won;
+    return `
+    <div style="display:flex;align-items:center;gap:8px;padding:5px 0">
+      <span style="flex:1;min-width:0">
+        <span style="display:block;font-size:15px;font-weight:${won ? '700' : lost ? '400' : '600'};color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
+        ${vSets(p)}
+      </span>
+      <span style="flex:none;min-width:30px;text-align:right;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:${won ? CLR.action : lost ? CLR.muted : CLR.fg}">${p.score ? esc(p.score) + (p.so ? `<span style="font-size:11px;color:${CLR.muted}"> (${esc(p.so)})</span>` : '') : p.target ? `<span style="font-size:12px;font-weight:600;color:${CLR.muted}">T# ${esc(p.target)}</span>` : ''}</span>
+    </div>`;
+  };
+  const badge = status === 'live'
+    ? `<span style="flex:none;display:inline-flex;align-items:center;background:${CLR.signal};color:#fff;border:2px solid ${CLR.fg};border-radius:9999px;padding:3px 10px;font:700 10.5px &quot;Inter&quot;,sans-serif;letter-spacing:0.12em;text-transform:uppercase;animation:amber-pulse 2s infinite">Live</span>`
+    : status === 'done'
+      ? `<span style="flex:none;display:inline-flex;align-items:center;background:transparent;color:${CLR.muted};border:2px solid ${CLR.border};border-radius:9999px;padding:3px 10px;font:600 10.5px &quot;Inter&quot;,sans-serif;letter-spacing:0.12em;text-transform:uppercase">Ferdig</span>`
+      : '';
+  const roundLabel = m.label ? (m.label === 'Bronse' ? 'Bronsefinale' : m.label) : (ROUND_NAMES[round] || round);
+  const meta = [roundLabel, when ? fmtWhen(when) : '', status === 'live' && updated ? `oppdatert ${updated}` : '']
+    .filter(Boolean).join(' · ');
+  return `
+  <button data-action="open-bracket" data-code="${esc(br.code)}" style="display:block;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;cursor:pointer;box-shadow:4px 4px 0 0 ${status === 'live' ? CLR.signal : CLR.border};${status === 'done' ? 'opacity:0.75;' : ''}">
+    <span style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <span style="flex:1;min-width:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:15.5px;color:${CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(br.name))}</span>
+      ${badge}
+    </span>
+    <span style="display:block;margin-bottom:4px;font-size:10.5px;font-weight:${status === 'live' ? '700' : '600'};letter-spacing:0.1em;text-transform:uppercase;color:${status === 'live' ? CLR.signal : CLR.muted}">${esc(meta)}</span>
+    ${row(m.a, 'a')}
+    <span style="display:block;border-top:2px solid #e8e3da"></span>
+    ${row(m.b, 'b')}
+  </button>`;
 }
 
 function vFinalsSection() {
   const items = clubFinalMatches();
   if (!items.length) return '';
-  const cards = items.map(({ br, round, m, status }) => {
-    const winner = matchWinner(m);
-    const when = m.a.when || m.b.when;
-    const updated = String(br.updated || '').slice(11, 16);
-    const row = (p, side) => {
-      const won = winner === side;
-      const lost = winner && !won;
-      return `
-      <div style="display:flex;align-items:center;gap:8px;padding:5px 0">
-        <span style="flex:1;min-width:0">
-          <span style="display:block;font-size:15px;font-weight:${won ? '700' : lost ? '400' : '600'};color:${lost ? CLR.muted : CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.name || '–')}</span>
-          ${vSets(p)}
-        </span>
-        <span style="flex:none;min-width:30px;text-align:right;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;color:${won ? CLR.action : lost ? CLR.muted : CLR.fg}">${p.score ? esc(p.score) + (p.so ? `<span style="font-size:11px;color:${CLR.muted}"> (${esc(p.so)})</span>` : '') : p.target ? `<span style="font-size:12px;font-weight:600;color:${CLR.muted}">T# ${esc(p.target)}</span>` : ''}</span>
-      </div>`;
-    };
-    const badge = status === 'live'
-      ? `<span style="flex:none;display:inline-flex;align-items:center;background:${CLR.signal};color:#fff;border:2px solid ${CLR.fg};border-radius:9999px;padding:3px 10px;font:700 10.5px &quot;Inter&quot;,sans-serif;letter-spacing:0.12em;text-transform:uppercase;animation:amber-pulse 2s infinite">Live</span>`
-      : status === 'done'
-        ? `<span style="flex:none;display:inline-flex;align-items:center;background:transparent;color:${CLR.muted};border:2px solid ${CLR.border};border-radius:9999px;padding:3px 10px;font:600 10.5px &quot;Inter&quot;,sans-serif;letter-spacing:0.12em;text-transform:uppercase">Ferdig</span>`
-        : '';
-    const roundLabel = m.label ? (m.label === 'Bronse' ? 'Bronsefinale' : m.label) : (ROUND_NAMES[round] || round);
-    const meta = [roundLabel, when ? fmtWhen(when) : '', status === 'live' && updated ? `oppdatert ${updated}` : '']
-      .filter(Boolean).join(' · ');
-    return `
-    <button data-action="open-bracket" data-code="${esc(br.code)}" style="display:block;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;cursor:pointer;box-shadow:4px 4px 0 0 ${status === 'live' ? CLR.signal : CLR.border};${status === 'done' ? 'opacity:0.75;' : ''}">
-      <span style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
-        <span style="flex:1;min-width:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:15.5px;color:${CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(br.name))}</span>
-        ${badge}
-      </span>
-      <span style="display:block;margin-bottom:4px;font-size:10.5px;font-weight:${status === 'live' ? '700' : '600'};letter-spacing:0.1em;text-transform:uppercase;color:${status === 'live' ? CLR.signal : CLR.muted}">${esc(meta)}</span>
-      ${row(m.a, 'a')}
-      <span style="display:block;border-top:2px solid #e8e3da"></span>
-      ${row(m.b, 'b')}
-    </button>`;
-  }).join('');
   return `
   <div>
     <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Finaler og eliminering</p>
-    <div style="display:flex;flex-direction:column;gap:10px">${cards}</div>
+    <div style="display:flex;flex-direction:column;gap:10px">${items.map(vMatchCard).join('')}</div>
   </div>`;
 }
 
