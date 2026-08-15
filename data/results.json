@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T07:05:16Z",
+ "generated": "2026-08-15T07:07:40Z",
  "tournament": {
   "toId": "28659",
   "name": "NM Skive 2026",
@@ -10,9 +10,13 @@
  },
  "defaultClub": "LILLH",
  "files": {
-  "TFL": "2026-08-15 06:41:09",
+  "TFL": "2026-08-15 07:05:55",
+  "TFT": "2026-08-15 07:05:55",
+  "TFB": "2026-08-15 07:05:55",
   "TFC": "2026-08-15 06:33:24",
   "TFR": "2026-08-15 06:33:24",
+  "TFR60M": "2026-08-14 16:00:45",
+  "TFRU16": "2026-08-14 16:00:50",
   "IBTD16": "2026-08-14 16:03:24",
   "IBBD16": "2026-08-14 16:03:26",
   "IBCD16": "2026-08-14 16:03:29",
@@ -46,9 +50,9 @@
   "IBBH": "2026-08-14 11:54:24",
   "IBCH": "2026-08-14 11:54:32",
   "IBRH": "2026-08-14 11:54:44",
-  "TBL": "2026-08-15 08:57:46",
-  "TBT": "2026-08-15 09:03:41",
-  "TBB": "2026-08-15 09:03:45",
+  "TBL": "2026-08-15 07:05:55",
+  "TBT": "2026-08-15 07:05:55",
+  "TBB": "2026-08-15 07:05:55",
   "TBC": "2026-08-15 06:33:24",
   "TBR": "2026-08-15 06:33:24",
   "TBR60M": "2026-08-14 16:00:45",
@@ -12463,6 +12467,20 @@
        },
        "b": {
         "label": null,
+        "name": "Hamar og Omegn Bueskyttere",
+        "club": "HAMAR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "46",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
         "name": "Kongsvinger Bueskytterklubb",
         "club": "KONGS",
         "members": "",
@@ -12471,13 +12489,24 @@
         "so": "",
         "target": "48",
         "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Grenland Bueskyttere",
+        "club": "GRENL",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "49",
+        "when": ""
        }
       }
      ]
     }
    ],
    "code": "TBB",
-   "updated": "2026-08-15 09:03:45"
+   "updated": "2026-08-15 07:05:55"
   },
   {
    "name": "Compound (lag)",
@@ -12719,7 +12748,7 @@
     }
    ],
    "code": "TBL",
-   "updated": "2026-08-15 08:57:46"
+   "updated": "2026-08-15 07:05:55"
   },
   {
    "name": "Recurve (lag)",
@@ -13184,10 +13213,65 @@
        }
       }
      ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Lillehammer Bueskytterklubb",
+        "club": "LILLH",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "8",
+        "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Bergen Bueskyttere",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "9",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Sørumsand IF - Bueskyttergrupp",
+        "club": "SORUM",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "11",
+        "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Hamar og Omegn Bueskyttere",
+        "club": "HAMAR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "12",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBT",
-   "updated": "2026-08-15 09:03:41"
+   "updated": "2026-08-15 07:05:55"
   }
  ]
 }
