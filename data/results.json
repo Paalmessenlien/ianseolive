@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T06:35:16Z",
+ "generated": "2026-08-15T06:40:16Z",
  "tournament": {
   "toId": "28659",
   "name": "NM Skive 2026",
@@ -10,6 +10,8 @@
  },
  "defaultClub": "LILLH",
  "files": {
+  "TFC": "2026-08-15 06:33:24",
+  "TFR": "2026-08-15 06:33:24",
   "IBTD16": "2026-08-14 16:03:24",
   "IBBD16": "2026-08-14 16:03:26",
   "IBCD16": "2026-08-14 16:03:29",
@@ -46,8 +48,8 @@
   "TBL": "2026-08-14 16:00:02",
   "TBT": "2026-08-14 16:00:05",
   "TBB": "2026-08-14 16:00:10",
-  "TBC": "2026-08-15 08:32:12",
-  "TBR": "2026-08-15 08:32:57",
+  "TBC": "2026-08-15 06:33:24",
+  "TBR": "2026-08-15 06:33:24",
   "TBR60M": "2026-08-14 16:00:45",
   "TBRU16": "2026-08-14 16:00:50",
   "IQOC": "2026-08-14 15:39:38",
@@ -12585,10 +12587,65 @@
        }
       }
      ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Yrjar IL - Bueskyttergruppa",
+        "club": "YRJAR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "39",
+        "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Bergen Bueskyttere (2)",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "40",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Eidsvoll Bueskyttere",
+        "club": "EIDSV",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "42",
+        "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Bergen Bueskyttere",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "43",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBC",
-   "updated": "2026-08-15 08:32:12"
+   "updated": "2026-08-15 06:33:24"
   },
   {
    "name": "Langbue (lag)",
@@ -12812,10 +12869,65 @@
        }
       }
      ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Sandefjord Bueskyttere",
+        "club": "SANDE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "21",
+        "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Bergen Bueskyttere",
+        "club": "BERGE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "22",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Lillestrøm & Omegn Bueskyttere",
+        "club": "LILLE",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "24",
+        "when": "15-08-2026 09:25"
+       },
+       "b": {
+        "label": null,
+        "name": "Oslo Bueskyttere",
+        "club": "OSLO",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "25",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "TBR",
-   "updated": "2026-08-15 08:32:57"
+   "updated": "2026-08-15 06:33:24"
   },
   {
    "name": "Recurve 60m (lag)",
