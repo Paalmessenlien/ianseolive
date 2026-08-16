@@ -17,7 +17,7 @@ cd "$REPO" || exit 1
 {
   echo "--- $(date -u +%Y-%m-%dT%H:%M:%SZ)"
   python3 poller/poll.py || exit 1
-  git add data/results.json
+  git add data/results.json index.html
   if git diff --cached --quiet; then
     echo "no changes"
     exit 0
@@ -28,7 +28,7 @@ cd "$REPO" || exit 1
     # take theirs, regenerate with our parser, continue
     git checkout --theirs data/results.json
     python3 poller/poll.py
-    git add data/results.json
+    git add data/results.json index.html
     git -c core.editor=true rebase --continue || git rebase --abort
   fi
   git push

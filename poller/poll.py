@@ -19,6 +19,7 @@ expects:
 }
 """
 import html
+import hashlib
 import json
 import re
 import sys
@@ -477,7 +478,29 @@ def main() -> int:
         f"{sum(len(r) for r in roster.values())} roster entries, "
         f"{len(classes)} classes, {len(brackets)} brackets"
     )
+    bust_asset_cache()
     return 0
+
+
+def bust_asset_cache() -> None:
+    """Pin app.js/style.css in index.html to a content hash (?v=...) so
+    browsers and GitHub Pages' edge cache don't serve stale code after a
+    frontend change. Runs on every poll; index.html only changes when the
+    frontend does."""
+    index = ROOT / "index.html"
+    if not index.exists():
+        return
+    h = hashlib.md5()
+    for name in ("app.js", "style.css"):
+        p = ROOT / name
+        if p.exists():
+            h.update(p.read_bytes())
+    v = h.hexdigest()[:8]
+    old = index.read_text(encoding="utf-8")
+    new = re.sub(r'(app\.js|style\.css)(\?v=[0-9a-f]+)?', rf"\1?v={v}", old)
+    if new != old:
+        index.write_text(new, encoding="utf-8")
+        print(f"index.html: asset version -> {v}")
 
 
 if __name__ == "__main__":
