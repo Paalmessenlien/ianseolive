@@ -221,6 +221,7 @@ function vTabKlubb() {
       </div>`;
   return `
   <div style="display:flex;flex-direction:column;gap:22px">
+    ${vMedalSection()}
     ${cards}
     ${vFollowedMatches()}
     ${vFinalsSection()}
@@ -544,6 +545,63 @@ function vSets(p) {
   const sets = p.sets || [];
   if (!sets.length) return '';
   return `<span style="display:block;margin-top:2px;font-size:11.5px;font-weight:600;color:${CLR.muted};font-variant-numeric:tabular-nums;letter-spacing:0.04em">${sets.map(esc).join(' · ')}</span>`;
+}
+
+/* Medaljer og finaleplasseringer for valgt klubb, fra Finals-rundene:
+ * Finale-vinner = gull, taper = sølv; bronsekamp-vinner = bronse, taper = 4. */
+function clubPlacements() {
+  const out = [];
+  for (const br of DATA.brackets || []) {
+    const r = (br.rounds || []).find((x) => x.name === 'Finals');
+    if (!r) continue;
+    for (const m of r.matches) {
+      const w = matchWinner(m);
+      if (!w) continue;
+      const win = w === 'a' ? m.a : m.b;
+      const los = w === 'a' ? m.b : m.a;
+      const add = (p, place) => {
+        if (p.club === state.club && p.name) {
+          const o = p === win ? los : win;
+          const res = `${p.score}${p.so ? ` (${p.so})` : ''}–${o.score}${o.so ? ` (${o.so})` : ''}`;
+          out.push({ place, name: p.name, cls: br.name, team: br.team, res });
+        }
+      };
+      if (m.label === 'Bronse') { add(win, 3); add(los, 4); }
+      else { add(win, 1); add(los, 2); }
+    }
+  }
+  return out.sort((x, y) => x.place - y.place || x.name.localeCompare(y.name));
+}
+
+function vMedalSection() {
+  const items = clubPlacements();
+  if (!items.length) return '';
+  const tally = [1, 2, 3].map((p) => items.filter((i) => i.place === p).length);
+  const MEDAL_CLR = { 1: '#C4762E', 2: '#9aa5ab', 3: '#8c5a33', 4: '#c9c4bb' };
+  const MEDAL_TXT = { 1: 'Gull', 2: 'Sølv', 3: 'Bronse', 4: '4. plass' };
+  const tallyHtml = [1, 2, 3].map((p) => `
+    <div style="flex:1;text-align:center">
+      <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:700;font-size:32px;line-height:1;color:${tally[p - 1] ? MEDAL_CLR[p] : 'rgba(255,255,255,.35)'};font-variant-numeric:tabular-nums">${tally[p - 1]}</span>
+      <span style="display:block;margin-top:5px;font-size:10.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border}">${MEDAL_TXT[p]}</span>
+    </div>`).join('');
+  const rows = items.map((i) => `
+    <div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-top:2px solid rgba(221,228,232,.18)">
+      <span style="flex:none;display:grid;place-items:center;width:30px;height:30px;border-radius:9999px;border:2px solid ${MEDAL_CLR[i.place]};color:#fff;font-size:13px;font-weight:700;font-variant-numeric:tabular-nums">${i.place}</span>
+      <span style="flex:1;min-width:0">
+        <span style="display:block;font-size:15px;font-weight:600;color:#fff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(i.name)}${i.team ? ' (lag)' : ''}</span>
+        <span style="display:block;margin-top:2px;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:${CLR.border};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(i.cls))}</span>
+      </span>
+      <span style="flex:none;text-align:right">
+        <span style="display:block;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:${MEDAL_CLR[i.place]}">${MEDAL_TXT[i.place]}</span>
+        <span style="display:block;margin-top:2px;font-size:12px;color:${CLR.border};font-variant-numeric:tabular-nums">${esc(i.res)}</span>
+      </span>
+    </div>`).join('');
+  return `
+  <div style="background:${CLR.fg};border:2px solid ${CLR.fg};border-radius:24px;padding:18px 18px 12px;overflow:hidden">
+    <p style="margin:0 0 12px;font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border}">Medaljer og plasseringer</p>
+    <div style="display:flex;gap:8px;margin-bottom:10px">${tallyHtml}</div>
+    ${rows}
+  </div>`;
 }
 
 /* Finale-/elimineringskamper: live først, deretter kommende på
