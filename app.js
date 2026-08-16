@@ -570,6 +570,18 @@ function clubPlacements() {
       else { add(win, 1); add(los, 2); }
     }
   }
+  // klasser med kun én deltaker: automatisk gull når runden er ferdig
+  // (det spilles ingen finale i slike klasser)
+  const brNames = new Set((DATA.brackets || []).map((b) => b.name));
+  for (const c of DATA.classes || []) {
+    const field = c.field || [];
+    if (field.length !== 1 || brNames.has(c.name)) continue;
+    const f = field[0];
+    if (f.club !== state.club) continue;
+    if ((f.arrows || 0) < (c.totalArrows || 72)) continue;
+    if (out.some((i) => i.cls === c.name)) continue;
+    out.push({ place: 1, name: f.name, cls: c.name, team: !!c.team, res: `${f.total} poeng` });
+  }
   return out.sort((x, y) => x.place - y.place || x.name.localeCompare(y.name));
 }
 
