@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T08:25:12Z",
+ "generated": "2026-08-16T08:30:12Z",
  "tournament": {
   "toId": "28659",
   "name": "NM Skive 2026",
@@ -52,37 +52,37 @@
   "TFRU16": "2026-08-15 08:55:38",
   "IBTD16": "2026-08-14 16:03:24",
   "IBBD16": "2026-08-16 08:12:13",
-  "IBCD16": "2026-08-16 08:12:13",
-  "IBRD16": "2026-08-16 07:31:51",
+  "IBCD16": "2026-08-16 10:25:33",
+  "IBRD16": "2026-08-16 10:25:33",
   "IBBH16": "2026-08-14 16:03:37",
-  "IBRH16": "2026-08-16 07:31:51",
+  "IBRH16": "2026-08-16 10:25:45",
   "IBTD18": "2026-08-16 08:12:13",
   "IBBD18": "2026-08-16 08:12:13",
   "IBCD18": "2026-08-16 07:31:51",
-  "IBRD18": "2026-08-16 07:31:51",
+  "IBRD18": "2026-08-16 10:25:33",
   "IBBH18": "2026-08-16 08:12:13",
-  "IBRH18": "2026-08-16 07:31:51",
-  "IBRD21": "2026-08-16 07:31:51",
+  "IBRH18": "2026-08-16 10:25:45",
+  "IBRD21": "2026-08-16 10:25:54",
   "IBTH21": "2026-08-14 16:04:14",
   "IBRH21": "2026-08-14 16:04:18",
   "IBTD5": "2026-08-16 07:31:51",
   "IBCD5": "2026-08-16 07:31:51",
-  "IBRD5": "2026-08-16 08:12:13",
+  "IBRD5": "2026-08-16 10:26:10",
   "IBLH5": "2026-08-16 07:31:51",
-  "IBTH5": "2026-08-16 08:12:13",
+  "IBTH5": "2026-08-16 10:25:33",
   "IBBH5": "2026-08-16 08:12:13",
-  "IBCH5": "2026-08-16 08:12:13",
-  "IBRH5": "2026-08-16 08:12:13",
-  "IBLD": "2026-08-16 08:12:13",
-  "IBTD": "2026-08-16 08:12:13",
-  "IBBD": "2026-08-16 08:12:13",
-  "IBCD": "2026-08-16 08:12:13",
-  "IBRD": "2026-08-16 08:12:13",
-  "IBLH": "2026-08-16 07:31:51",
-  "IBTH": "2026-08-16 07:31:52",
-  "IBBH": "2026-08-16 07:31:52",
-  "IBCH": "2026-08-16 08:12:13",
-  "IBRH": "2026-08-16 08:12:13",
+  "IBCH5": "2026-08-16 10:25:38",
+  "IBRH5": "2026-08-16 10:25:49",
+  "IBLD": "2026-08-16 10:25:33",
+  "IBTD": "2026-08-16 10:25:40",
+  "IBBD": "2026-08-16 10:25:54",
+  "IBCD": "2026-08-16 10:25:33",
+  "IBRD": "2026-08-16 10:26:00",
+  "IBLH": "2026-08-16 10:25:40",
+  "IBTH": "2026-08-16 10:25:33",
+  "IBBH": "2026-08-16 10:25:34",
+  "IBCH": "2026-08-16 10:25:33",
+  "IBRH": "2026-08-16 10:26:05",
   "TBL": "2026-08-15 08:55:38",
   "TBT": "2026-08-15 08:55:38",
   "TBB": "2026-08-15 08:55:38",
@@ -7453,7 +7453,11 @@
         "bye": false,
         "so": "",
         "target": "25A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "16",
+         "26"
+        ]
        },
        "b": {
         "label": null,
@@ -7464,7 +7468,11 @@
         "bye": false,
         "so": "",
         "target": "25B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "22",
+         "17"
+        ]
        }
       },
       {
@@ -7474,21 +7482,21 @@
         "name": "Gulbrandsøy Kristine",
         "club": "BERGE",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "25A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Lønhøiden Silje Anett",
         "club": "KONGS",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "25B",
+        "target": "",
         "when": ""
        }
       }
@@ -7496,7 +7504,7 @@
     }
    ],
    "code": "IBBD",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:54"
   },
   {
    "name": "Barebow Damer Under 16",
@@ -8245,7 +8253,11 @@
         "bye": false,
         "so": "",
         "target": "24A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "22",
+         "28"
+        ]
        },
        "b": {
         "label": null,
@@ -8256,7 +8268,11 @@
         "bye": false,
         "so": "",
         "target": "24B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "16",
+         "28"
+        ]
        }
       },
       {
@@ -8266,21 +8282,21 @@
         "name": "Sørlie Lars Marius",
         "club": "KONGS",
         "members": "",
-        "score": "",
+        "score": "3",
         "bye": false,
         "so": "",
-        "target": "24A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Granum Aksel",
         "club": "BÆRUM",
         "members": "",
-        "score": "",
+        "score": "1",
         "bye": false,
         "so": "",
-        "target": "24B",
+        "target": "",
         "when": ""
        }
       }
@@ -8288,7 +8304,7 @@
     }
    ],
    "code": "IBBH",
-   "updated": "2026-08-16 07:31:52"
+   "updated": "2026-08-16 10:25:34"
   },
   {
    "name": "Barebow Herrer Under 16",
@@ -8709,7 +8725,11 @@
         "bye": false,
         "so": "",
         "target": "36A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "28",
+         "27"
+        ]
        },
        "b": {
         "label": null,
@@ -8720,7 +8740,11 @@
         "bye": false,
         "so": "",
         "target": "36B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "27",
+         "27"
+        ]
        }
       },
       {
@@ -8730,21 +8754,21 @@
         "name": "Schytte Nathalie",
         "club": "TØNSB",
         "members": "",
-        "score": "",
+        "score": "55",
         "bye": false,
         "so": "",
-        "target": "37A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Storelv Adele",
         "club": "TINDE",
         "members": "",
-        "score": "",
+        "score": "54",
         "bye": false,
         "so": "",
-        "target": "37B",
+        "target": "",
         "when": ""
        }
       }
@@ -8752,7 +8776,7 @@
     }
    ],
    "code": "IBCD",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Compound Damer Under 16",
@@ -8855,7 +8879,11 @@
         "bye": false,
         "so": "",
         "target": "46A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "22",
+         "24"
+        ]
        },
        "b": {
         "label": null,
@@ -8866,7 +8894,11 @@
         "bye": false,
         "so": "",
         "target": "46B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "26",
+         "21"
+        ]
        }
       },
       {
@@ -8876,21 +8908,21 @@
         "name": "Skogen Jenssen Thilde",
         "club": "YRJAR",
         "members": "",
-        "score": "",
+        "score": "46",
         "bye": false,
         "so": "",
-        "target": "47A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Kleiven Eivor Margareta",
         "club": "LILLH",
         "members": "",
-        "score": "",
+        "score": "47",
         "bye": false,
         "so": "",
-        "target": "47B",
+        "target": "",
         "when": ""
        }
       }
@@ -8898,7 +8930,7 @@
     }
    ],
    "code": "IBCD16",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Compound Damer Under 18",
@@ -9882,7 +9914,11 @@
         "bye": false,
         "so": "",
         "target": "38A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "29",
+         "28"
+        ]
        },
        "b": {
         "label": null,
@@ -9893,7 +9929,11 @@
         "bye": false,
         "so": "",
         "target": "38B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "29",
+         "28"
+        ]
        }
       },
       {
@@ -9903,21 +9943,21 @@
         "name": "Faugstad Anders",
         "club": "YRJAR",
         "members": "",
-        "score": "",
+        "score": "57",
         "bye": false,
         "so": "",
-        "target": "39A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Sævareid Ole Sæbø",
         "club": "BERGE",
         "members": "",
-        "score": "",
+        "score": "57",
         "bye": false,
         "so": "",
-        "target": "39B",
+        "target": "",
         "when": ""
        }
       }
@@ -9925,7 +9965,7 @@
     }
    ],
    "code": "IBCH",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Compound Herrer 50",
@@ -10428,7 +10468,11 @@
         "bye": false,
         "so": "",
         "target": "40A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "27",
+         "26"
+        ]
        },
        "b": {
         "label": null,
@@ -10439,7 +10483,11 @@
         "bye": false,
         "so": "",
         "target": "40B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "29",
+         "26"
+        ]
        }
       },
       {
@@ -10449,21 +10497,21 @@
         "name": "Bøe Terje",
         "club": "SANDE",
         "members": "",
-        "score": "",
+        "score": "53",
         "bye": false,
         "so": "",
-        "target": "41A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Sekkenes Yngve",
         "club": "BERGE",
         "members": "",
-        "score": "",
+        "score": "55",
         "bye": false,
         "so": "",
-        "target": "41B",
+        "target": "",
         "when": ""
        }
       }
@@ -10471,7 +10519,7 @@
     }
    ],
    "code": "IBCH5",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:38"
   },
   {
    "name": "Langbue Damer",
@@ -10721,7 +10769,11 @@
         "bye": false,
         "so": "",
         "target": "16A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "26",
+         "28"
+        ]
        },
        "b": {
         "label": null,
@@ -10732,7 +10784,11 @@
         "bye": false,
         "so": "",
         "target": "16B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "26",
+         "21"
+        ]
        }
       },
       {
@@ -10742,21 +10798,21 @@
         "name": "Angvik Cicilie",
         "club": "MOSS",
         "members": "",
-        "score": "",
+        "score": "3",
         "bye": false,
         "so": "",
-        "target": "16A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Hafting Helena",
         "club": "SORUM",
         "members": "",
-        "score": "",
+        "score": "1",
         "bye": false,
         "so": "",
-        "target": "16B",
+        "target": "",
         "when": ""
        }
       }
@@ -10764,7 +10820,7 @@
     }
    ],
    "code": "IBLD",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Langbue Herrer",
@@ -11058,7 +11114,11 @@
         "bye": false,
         "so": "",
         "target": "17A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "25",
+         "23"
+        ]
        },
        "b": {
         "label": null,
@@ -11069,7 +11129,11 @@
         "bye": false,
         "so": "",
         "target": "17B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "28",
+         "16"
+        ]
        }
       },
       {
@@ -11079,21 +11143,21 @@
         "name": "Huse Kjell Håvar",
         "club": "HAROY",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "17A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Sigvartsen Morten",
         "club": "SORUM",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "17B",
+        "target": "",
         "when": ""
        }
       }
@@ -11101,7 +11165,7 @@
     }
    ],
    "code": "IBLH",
-   "updated": "2026-08-16 07:31:51"
+   "updated": "2026-08-16 10:25:40"
   },
   {
    "name": "Langbue Herrer 50",
@@ -11494,7 +11558,11 @@
         "bye": false,
         "so": "",
         "target": "30A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "19",
+         "18"
+        ]
        },
        "b": {
         "label": null,
@@ -11505,7 +11573,11 @@
         "bye": false,
         "so": "",
         "target": "30B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "15",
+         "18"
+        ]
        }
       },
       {
@@ -11515,21 +11587,21 @@
         "name": "Nilsen Solveig",
         "club": "SANDE",
         "members": "",
-        "score": "",
+        "score": "3",
         "bye": false,
         "so": "",
-        "target": "30A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Battakh Miriam",
         "club": "OSLO",
         "members": "",
-        "score": "",
+        "score": "1",
         "bye": false,
         "so": "",
-        "target": "30B",
+        "target": "",
         "when": ""
        }
       }
@@ -11537,7 +11609,7 @@
     }
    ],
    "code": "IBRD",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:26:00"
   },
   {
    "name": "Recurve Damer Under 16",
@@ -11674,7 +11746,11 @@
         "bye": false,
         "so": "",
         "target": "42A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "23",
+         "22"
+        ]
        },
        "b": {
         "label": null,
@@ -11685,7 +11761,11 @@
         "bye": false,
         "so": "",
         "target": "42B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "24",
+         "25"
+        ]
        }
       },
       {
@@ -11695,21 +11775,21 @@
         "name": "Eriksen Amalie Wiik",
         "club": "FANA",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "43A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Sandvik Emily",
         "club": "ULLEN",
         "members": "",
-        "score": "",
+        "score": "4",
         "bye": false,
         "so": "",
-        "target": "43B",
+        "target": "",
         "when": ""
        }
       }
@@ -11717,7 +11797,7 @@
     }
    ],
    "code": "IBRD16",
-   "updated": "2026-08-16 07:31:51"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Recurve Damer Under 18",
@@ -12007,7 +12087,11 @@
         "bye": false,
         "so": "",
         "target": "33A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "19",
+         "24"
+        ]
        },
        "b": {
         "label": null,
@@ -12018,7 +12102,11 @@
         "bye": false,
         "so": "",
         "target": "33B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "19",
+         "19"
+        ]
        }
       },
       {
@@ -12028,21 +12116,21 @@
         "name": "Halle Vilde Helene",
         "club": "LILLE",
         "members": "",
-        "score": "",
+        "score": "3",
         "bye": false,
         "so": "",
-        "target": "33A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Gjelsvik Wilhelmine Adelheid",
         "club": "RAUMA",
         "members": "",
-        "score": "",
+        "score": "1",
         "bye": false,
         "so": "",
-        "target": "33B",
+        "target": "",
         "when": ""
        }
       }
@@ -12050,7 +12138,7 @@
     }
    ],
    "code": "IBRD18",
-   "updated": "2026-08-16 07:31:51"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Recurve Damer Under 21",
@@ -12147,7 +12235,11 @@
         "bye": false,
         "so": "",
         "target": "31A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "12",
+         "12"
+        ]
        },
        "b": {
         "label": null,
@@ -12158,7 +12250,11 @@
         "bye": false,
         "so": "",
         "target": "31B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "18",
+         "16"
+        ]
        }
       },
       {
@@ -12168,21 +12264,21 @@
         "name": "Yasir Mohamed Mahmoud Khalil Nora",
         "club": "OSLO",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "31A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Mangelrød Hedda Lindhjem",
         "club": "SANDE",
         "members": "",
-        "score": "",
+        "score": "4",
         "bye": false,
         "so": "",
-        "target": "31B",
+        "target": "",
         "when": ""
        }
       }
@@ -12190,7 +12286,7 @@
     }
    ],
    "code": "IBRD21",
-   "updated": "2026-08-16 07:31:51"
+   "updated": "2026-08-16 10:25:54"
   },
   {
    "name": "Recurve Damer 50",
@@ -12333,7 +12429,11 @@
         "bye": false,
         "so": "",
         "target": "32A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "22",
+         "20"
+        ]
        },
        "b": {
         "label": null,
@@ -12344,7 +12444,11 @@
         "bye": false,
         "so": "",
         "target": "32B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "28",
+         "25"
+        ]
        }
       },
       {
@@ -12354,21 +12458,21 @@
         "name": "Bjelland Heidi",
         "club": "LARVI",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "32A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Vestlund Lin Kristin",
         "club": "FREDR",
         "members": "",
-        "score": "",
+        "score": "4",
         "bye": false,
         "so": "",
-        "target": "32B",
+        "target": "",
         "when": ""
        }
       }
@@ -12376,7 +12480,7 @@
     }
    ],
    "code": "IBRD5",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:26:10"
   },
   {
    "name": "Recurve Herrer",
@@ -13489,7 +13593,11 @@
         "bye": false,
         "so": "",
         "target": "28A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "25",
+         "27"
+        ]
        },
        "b": {
         "label": null,
@@ -13500,7 +13608,11 @@
         "bye": false,
         "so": "",
         "target": "28B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "25",
+         "27"
+        ]
        }
       },
       {
@@ -13510,21 +13622,21 @@
         "name": "Jakub Zbiciak David",
         "club": "OSLO",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "29A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Storjord David",
         "club": "FREDR",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "29B",
+        "target": "",
         "when": ""
        }
       }
@@ -13532,7 +13644,7 @@
     }
    ],
    "code": "IBRH",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:26:05"
   },
   {
    "name": "Recurve Herrer Under 16",
@@ -13629,7 +13741,11 @@
         "bye": false,
         "so": "",
         "target": "44A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "12",
+         "27"
+        ]
        },
        "b": {
         "label": null,
@@ -13640,7 +13756,11 @@
         "bye": false,
         "so": "",
         "target": "44B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "26",
+         "23"
+        ]
        }
       },
       {
@@ -13650,21 +13770,21 @@
         "name": "Teigen Martin Mortensen",
         "club": "ULLEN",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "45A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Jørvum Trym Steinar",
         "club": "SANDE",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "45B",
+        "target": "",
         "when": ""
        }
       }
@@ -13672,7 +13792,7 @@
     }
    ],
    "code": "IBRH16",
-   "updated": "2026-08-16 07:31:51"
+   "updated": "2026-08-16 10:25:45"
   },
   {
    "name": "Recurve Herrer Under 18",
@@ -13887,7 +14007,11 @@
         "bye": false,
         "so": "",
         "target": "35A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "21",
+         "25"
+        ]
        },
        "b": {
         "label": null,
@@ -13898,7 +14022,11 @@
         "bye": false,
         "so": "",
         "target": "35B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "20",
+         "17"
+        ]
        }
       },
       {
@@ -13908,21 +14036,21 @@
         "name": "Becher Tommy",
         "club": "DRAMM",
         "members": "",
-        "score": "",
+        "score": "4",
         "bye": false,
         "so": "",
-        "target": "35A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Frøhaug Linus Aleksander",
         "club": "ULLEN",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "35B",
+        "target": "",
         "when": ""
        }
       }
@@ -13930,7 +14058,7 @@
     }
    ],
    "code": "IBRH18",
-   "updated": "2026-08-16 07:31:51"
+   "updated": "2026-08-16 10:25:45"
   },
   {
    "name": "Recurve Herrer Under 21",
@@ -14262,7 +14390,11 @@
         "bye": false,
         "so": "",
         "target": "34A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "25",
+         "19"
+        ]
        },
        "b": {
         "label": null,
@@ -14273,7 +14405,11 @@
         "bye": false,
         "so": "",
         "target": "34B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "25",
+         "22"
+        ]
        }
       },
       {
@@ -14283,21 +14419,21 @@
         "name": "Laukeland Terje",
         "club": "FØRDE",
         "members": "",
-        "score": "",
+        "score": "1",
         "bye": false,
         "so": "",
-        "target": "34A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Frøhaug Lars-Åke",
         "club": "ULLEN",
         "members": "",
-        "score": "",
+        "score": "3",
         "bye": false,
         "so": "",
-        "target": "34B",
+        "target": "",
         "when": ""
        }
       }
@@ -14305,7 +14441,7 @@
     }
    ],
    "code": "IBRH5",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:49"
   },
   {
    "name": "Tradisjonell Damer",
@@ -14900,7 +15036,11 @@
         "bye": false,
         "so": "",
         "target": "23A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "25",
+         "26"
+        ]
        },
        "b": {
         "label": null,
@@ -14911,7 +15051,11 @@
         "bye": false,
         "so": "",
         "target": "23B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "25",
+         "26"
+        ]
        }
       },
       {
@@ -14921,21 +15065,21 @@
         "name": "Claussen Benedicte Hjortland",
         "club": "FANA",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "23A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Lien Britt-Ingunn",
         "club": "EIDSV",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "23B",
+        "target": "",
         "when": ""
        }
       }
@@ -14943,7 +15087,7 @@
     }
    ],
    "code": "IBTD",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:40"
   },
   {
    "name": "Tradisjonell Damer Under 16",
@@ -15659,7 +15803,11 @@
         "bye": false,
         "so": "",
         "target": "22A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "24",
+         "27"
+        ]
        },
        "b": {
         "label": null,
@@ -15670,7 +15818,11 @@
         "bye": false,
         "so": "",
         "target": "22B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "26",
+         "23"
+        ]
        }
       },
       {
@@ -15680,21 +15832,21 @@
         "name": "Brænden Roger",
         "club": "HAMAR",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "22A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Andreassen Bernt",
         "club": "LILLH",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "22B",
+        "target": "",
         "when": ""
        }
       }
@@ -15702,7 +15854,7 @@
     }
    ],
    "code": "IBTH",
-   "updated": "2026-08-16 07:31:52"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Tradisjonell Herrer Under 21",
@@ -16108,7 +16260,11 @@
         "bye": false,
         "so": "",
         "target": "21A",
-        "when": "16-08-2026 11:20"
+        "when": "16-08-2026 11:20",
+        "sets": [
+         "25",
+         "24"
+        ]
        },
        "b": {
         "label": null,
@@ -16119,7 +16275,11 @@
         "bye": false,
         "so": "",
         "target": "21B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "23",
+         "29"
+        ]
        }
       },
       {
@@ -16129,21 +16289,21 @@
         "name": "Hoff Victor Archer",
         "club": "FANA",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "21A",
-        "when": "16-08-2026 10:35"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Henriksen Harald",
         "club": "FANA",
         "members": "",
-        "score": "",
+        "score": "2",
         "bye": false,
         "so": "",
-        "target": "21B",
+        "target": "",
         "when": ""
        }
       }
@@ -16151,7 +16311,7 @@
     }
    ],
    "code": "IBTH5",
-   "updated": "2026-08-16 08:12:13"
+   "updated": "2026-08-16 10:25:33"
   },
   {
    "name": "Barebow (lag)",
