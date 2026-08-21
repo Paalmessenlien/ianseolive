@@ -1048,6 +1048,10 @@ document.getElementById('frame').addEventListener('input', (e) => {
     return;
   }
   const t = DATA.tournament || {};
+  if (t.name) {
+    document.title = `Ianseolive · ${t.name}`;
+    document.getElementById('caption-top').innerHTML = `ᛇ&nbsp;&nbsp;Ianseolive · ${esc(t.name)}`;
+  }
   caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — hentes hvert 5. minutt mens stevnet pågår.`;
   render();
   setInterval(render, TICK_MS);
