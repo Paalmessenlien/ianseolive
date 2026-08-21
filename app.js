@@ -42,11 +42,14 @@ const style = (o) => Object.entries(o).map(([k, v]) =>
 
 /* ---------- data-logikk (portert fra designets support.js) ---------- */
 
+const ALL_CLUBS = 'ALLE';          // pseudo-klubb: vis alt uten klubbfilter
+const allClubs = () => state.club === ALL_CLUBS;
+
 function clubRows() {
   const out = [];
   for (const c of DATA.classes || [])
     for (const f of c.field || [])
-      if (f.club === state.club && !c.team)
+      if ((allClubs() || f.club === state.club) && !c.team)
         out.push(Object.assign({ cls: c.name, totalArrows: c.totalArrows || 72,
           fs: !!c.fieldScoring, updated: (DATA.files || {})[c.code] || '' }, f));
   // ferskest data øverst — de som er helt ferdige samles i bunnen
@@ -63,6 +66,7 @@ function shortCls(n) {
 }
 
 function clubMeta(short) {
+  if (short === ALL_CLUBS) return { short, name: 'Alle klubber' };
   return (DATA.clubs || []).find((c) => c.short === short) || { short, name: '' };
 }
 
@@ -134,7 +138,7 @@ function vHeader() {
         <span style="font-family:'Spectral',Georgia,serif;font-weight:600;font-size:19px;line-height:1.1;letter-spacing:-0.005em;white-space:nowrap">${esc(t.name)}</span>
         <span style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border};white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(tMeta)}</span>
       </div>
-      <button data-action="open-picker" style="margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:7px;background:${CLR.accent};color:${CLR.fg};border:2px solid ${CLR.paper};border-radius:9999px;padding:8px 13px;min-height:40px;font-size:12.5px;font-weight:700;letter-spacing:0.06em;cursor:pointer">${esc(state.club || '…')}${SVG.chevronDown}</button>
+      <button data-action="open-picker" style="margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:7px;background:${CLR.accent};color:${CLR.fg};border:2px solid ${CLR.paper};border-radius:9999px;padding:8px 13px;min-height:40px;font-size:12.5px;font-weight:700;letter-spacing:0.06em;cursor:pointer">${esc(allClubs() ? 'Alle' : state.club || '…')}${SVG.chevronDown}</button>
     </div>
   </div>`;
 }
@@ -197,7 +201,7 @@ function vClubRow(r) {
     <span style="${rankStyle(r.pos, true)}">${r.pos}</span>
     <span style="flex:1;min-width:0;text-align:left">
       <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:17px;line-height:1.2;color:${CLR.fg};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(r.name)}</span>
-      <span style="display:block;margin-top:3px;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:${CLR.muted};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(r.cls))}</span>
+      <span style="display:block;margin-top:3px;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:${CLR.muted};overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(shortCls(r.cls))}${allClubs() ? ' · ' + esc(clubMeta(r.club).name || r.club) : ''}</span>
     </span>
     <span style="flex:none;text-align:right">
       <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:21px;line-height:1;color:${CLR.fg};font-variant-numeric:tabular-nums">${r.total}</span>
@@ -227,7 +231,7 @@ function vTabKlubb() {
     ${vFinalsSection()}
     <div>
       <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:10px">
-        <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Klubbens skyttere</p>
+        <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${allClubs() ? 'Alle skyttere' : 'Klubbens skyttere'}</p>
         <span style="margin-left:auto;font-size:12.5px;color:${CLR.muted};font-variant-numeric:tabular-nums">${esc(rowsNote)}</span>
       </div>
       ${list}
@@ -237,12 +241,12 @@ function vTabKlubb() {
 
 function vTabKlasser() {
   const names = (DATA.classes || [])
-    .filter((c) => (c.field || []).some((f) => f.club === state.club))
+    .filter((c) => allClubs() || (c.field || []).some((f) => f.club === state.club))
     .map((c) => c.name);
   const items = names.map((name) => {
     const cl = (DATA.classes || []).find((c) => c.name === name) || { field: [] };
-    const mine = (cl.field || []).filter((f) => f.club === state.club);
-    const best = Math.min(...mine.map((f) => f.pos));
+    const mine = allClubs() ? [] : (cl.field || []).filter((f) => f.club === state.club);
+    const best = mine.length ? Math.min(...mine.map((f) => f.pos)) : 0;
     const badge = style({ flex: 'none', display: 'grid', 'place-items': 'center', 'min-width': '42px',
       height: '32px', padding: '0 9px', 'border-radius': '9999px',
       border: '2px solid ' + (best === 1 ? CLR.signal : CLR.border),
@@ -251,15 +255,15 @@ function vTabKlasser() {
     <button data-action="open-class" data-cls="${esc(name)}" style="display:flex;align-items:center;gap:13px;width:100%;text-align:left;background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:14px 15px;cursor:pointer;box-shadow:4px 4px 0 0 ${CLR.border}">
       <span style="flex:1;min-width:0">
         <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:17px;line-height:1.2;color:${CLR.fg}">${esc(name)}</span>
-        <span style="display:block;margin-top:4px;font-size:12.5px;color:${CLR.muted}">${(cl.field || []).length} skyttere · ${mine.length} fra ${esc(state.club)}</span>
+        <span style="display:block;margin-top:4px;font-size:12.5px;color:${CLR.muted}">${(cl.field || []).length} skyttere${allClubs() ? '' : ` · ${mine.length} fra ${esc(state.club)}`}</span>
       </span>
-      <span style="${badge}">#${best}</span>
+      ${mine.length ? `<span style="${badge}">#${best}</span>` : ''}
       ${SVG.chevronRight}
     </button>`;
   }).join('');
   return `
   <div>
-    <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Klasser med ${esc(state.club)}</p>
+    <p style="margin:0 0 12px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${allClubs() ? 'Alle klasser' : `Klasser med ${esc(state.club)}`}</p>
     <div style="display:flex;flex-direction:column;gap:10px">
       ${items || '<p style="font-size:14px;color:' + CLR.muted + '">Ingen klasser med publiserte resultater ennå.</p>'}
     </div>
@@ -267,10 +271,15 @@ function vTabKlasser() {
 }
 
 function vTabStart() {
-  const rosterArr = (DATA.roster || {})[state.club] || [];
-  const pools = [...new Set(rosterArr.map((a) => a.pool))].sort();
-  const groups = pools.map((p) => {
-    const items = rosterArr.filter((a) => a.pool === p)
+  // «Alle klubber»: én seksjon per klubb; ellers gruppert på pulje
+  const clubKeys = allClubs()
+    ? (DATA.clubs || []).map((c) => c.short).filter((s) => (DATA.roster || {})[s])
+    : [state.club];
+  const groups = allClubs() ? clubKeys : [...new Set(clubKeys.flatMap((k) => ((DATA.roster || {})[k] || []).map((a) => a.pool)))].sort();
+  const sections = groups.map((p) => {
+    const items = (allClubs()
+      ? (DATA.roster || {})[p] || []
+      : ((DATA.roster || {})[state.club] || []).filter((a) => a.pool === p))
       .sort((a, b) => a.target.localeCompare(b.target, 'nb', { numeric: true }));
     const rows = items.map((a) => `
       <div style="display:flex;align-items:center;gap:13px;padding:12px 4px;border-bottom:2px solid #e8e3da">
@@ -283,7 +292,7 @@ function vTabStart() {
     return `
     <div>
       <div style="display:flex;align-items:center;gap:9px;margin-bottom:8px">
-        <span style="font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${esc(p)}</span>
+        <span style="font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${esc(allClubs() ? clubMeta(p).name : p)}</span>
         <span style="color:${CLR.action};font-size:14px">ᛇ</span>
         <span style="font-size:12.5px;color:${CLR.muted}">${items.length} skyttere</span>
       </div>
@@ -293,7 +302,7 @@ function vTabStart() {
   return `
   <div style="display:flex;flex-direction:column;gap:20px">
     <p style="margin:0;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Startliste hentet fra ianseos <span style="font-weight:600;color:${CLR.fg}">ENC</span> — påmeldte gruppert etter klubb. Målnummer og pulje er arrangørens.</p>
-    ${groups || '<p style="font-size:14px;color:' + CLR.muted + '">Ingen startliste for klubben ennå.</p>'}
+    ${sections || '<p style="font-size:14px;color:' + CLR.muted + '">Ingen startliste ennå.</p>'}
   </div>`;
 }
 
@@ -562,7 +571,7 @@ function clubPlacements() {
       const win = w === 'a' ? m.a : m.b;
       const los = w === 'a' ? m.b : m.a;
       const add = (p, place) => {
-        if (p.club === state.club && p.name) {
+        if ((allClubs() || p.club === state.club) && p.name) {
           const o = p === win ? los : win;
           const res = `${p.score}${p.so ? ` (${p.so})` : ''}–${o.score}${o.so ? ` (${o.so})` : ''}`;
           out.push({ place, name: p.name, cls: br.name, team: br.team, res });
@@ -582,7 +591,7 @@ function clubPlacements() {
     if (!done) continue;
     const places = c.fieldScoring ? [1, 2, 3] : (field.length === 1 ? [1] : []);
     for (const f of field) {
-      if (f.club !== state.club || !places.includes(f.pos)) continue;
+      if ((!allClubs() && f.club !== state.club) || !places.includes(f.pos)) continue;
       const teamN = /^Lag (\d+)$/.exec(f.name || '');
       const name = c.team ? (clubMeta(f.club).name || f.club) + (teamN ? ` (${teamN[1]})` : '') : f.name;
       if (out.some((i) => i.cls === c.name && i.name === name)) continue;
@@ -651,7 +660,7 @@ function clubFinalMatches() {
   for (const br of DATA.brackets || [])
     for (const r of br.rounds || [])
       r.matches.forEach((m, mi) => {
-        if ([m.a, m.b].some((p) => p.club === state.club && p.name))
+        if ([m.a, m.b].some((p) => p.name && (allClubs() || p.club === state.club)))
           out.push({ id: matchId(br, r.name, mi), br, round: r.name, m, status: matchStatus(m), t: matchTime(m) });
       });
   return sortFinalMatches(out);
@@ -899,17 +908,20 @@ function vBracketSheet() {
 
 function vPickerList() {
   const q = state.search.trim().toLowerCase();
-  return (DATA.clubs || [])
+  const entries = [{ short: ALL_CLUBS, name: 'Se resultater for alle klubber' }, ...(DATA.clubs || [])];
+  return entries
     .filter((c) => !q || (c.short + ' ' + c.name).toLowerCase().includes(q))
     .map((c) => {
       const on = c.short === state.club;
       const st = style({ display: 'flex', 'align-items': 'center', gap: '10px', width: '100%',
         padding: '13px 12px', background: on ? CLR.surface : 'none',
         border: '2px solid ' + (on ? CLR.fg : 'transparent'), 'border-radius': '14px', cursor: 'pointer' });
-      const count = ((DATA.roster || {})[c.short] || []).length;
+      const count = c.short === ALL_CLUBS
+        ? Object.values(DATA.roster || {}).reduce((n, arr) => n + arr.length, 0)
+        : ((DATA.roster || {})[c.short] || []).length;
       return `
       <button data-action="pick-club" data-short="${esc(c.short)}" style="${st}">
-        <span style="flex:none;font-size:12px;font-weight:700;letter-spacing:0.08em;color:${CLR.action};width:52px;text-align:left">${esc(c.short)}</span>
+        <span style="flex:none;font-size:12px;font-weight:700;letter-spacing:0.08em;color:${CLR.action};width:52px;text-align:left">${esc(c.short === ALL_CLUBS ? 'Alle' : c.short)}</span>
         <span style="flex:1;min-width:0;text-align:left;font-size:14.5px;line-height:1.35;color:${CLR.fg}">${esc(c.name)}</span>
         <span style="flex:none;font-size:12.5px;color:${CLR.muted};font-variant-numeric:tabular-nums">${count}</span>
       </button>`;
@@ -962,10 +974,11 @@ function openAthlete(cls, name, club) {
     return;
   }
   // utøver uten publiserte poeng — vis info fra startlisten
-  const r = ((DATA.roster || {})[state.club] || []).find((x) => x.name === name);
+  const pool = allClubs() ? Object.values(DATA.roster || {}).flat() : ((DATA.roster || {})[state.club] || []);
+  const r = pool.find((x) => x.name === name);
   if (r) {
     setState({
-      athlete: { cls: r.class, name: r.name, club: state.club, pos: 0, total: 0, arrows: 0,
+      athlete: { cls: r.class, name: r.name, club: allClubs() ? club : state.club, pos: 0, total: 0, arrows: 0,
         tens: 0, xs: 0, target: r.target, pool: r.pool, dist: {}, totalArrows: 72 },
       classView: null,
     });
@@ -976,7 +989,7 @@ async function loadData() {
   const r = await fetch(`${DATA_URL}?_=${Date.now()}`, { cache: 'no-store' });
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   DATA = await r.json();
-  if (!state.club || !(DATA.clubs || []).some((c) => c.short === state.club)) {
+  if (!state.club || (state.club !== ALL_CLUBS && !(DATA.clubs || []).some((c) => c.short === state.club))) {
     state.club = DATA.defaultClub || ((DATA.clubs || [])[0] || {}).short || null;
   }
 }
