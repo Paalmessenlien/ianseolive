@@ -329,7 +329,7 @@ function vTabMer() {
     </div>
     <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:16px;box-shadow:4px 4px 0 0 ${CLR.border}">
       <p style="margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Slik oppdateres tallene</p>
-      <p style="margin:0 0 12px;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Ianseo har ingen åpen API, så en jobb henter turneringssiden hvert tiende minutt og lagrer det som endres. Appen er derfor <span style="font-weight:600;color:${CLR.fg}">nesten sanntid</span> — ikke pil for pil.</p>
+      <p style="margin:0 0 12px;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Ianseo har ingen åpen API, så en jobb henter turneringssiden hvert kvarter og lagrer det som endres. Appen er derfor <span style="font-weight:600;color:${CLR.fg}">nesten sanntid</span> — ikke pil for pil.</p>
       <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px">
         <li style="display:flex;gap:11px;font-size:14px;color:${CLR.fg}">${dot(CLR.accent)}Sist hentet: ${esc(generatedLabel)}</li>
         <li style="display:flex;gap:11px;font-size:14px;color:${CLR.fg}">${dot(CLR.signal)}Turnerings-ID ${esc(t.toId || '28659')} · kode ${esc(t.code || '')}</li>
@@ -427,7 +427,7 @@ function vAthleteSheet() {
   const hasScores = (a.ends && a.ends.length) || Object.keys(a.dist || {}).length > 0;
   const note = hasScores || a.members
     ? (live
-      ? `Runden pågår. Nye tall kommer inn ved neste henting fra ianseo — normalt innen fem minutter.`
+      ? `Runden pågår. Nye tall kommer inn ved neste henting fra ianseo — normalt innen et kvarter.`
       : cl.fieldScoring
         ? `Hele runden er publisert. I felt avgjøres medaljene av sluttstillingen.`
         : `Hele runden er publisert. Eliminering settes opp når klassen er ferdig.`)
@@ -1072,7 +1072,7 @@ document.getElementById('frame').addEventListener('input', (e) => {
     document.title = `Ianseolive · ${t.name}`;
     document.getElementById('caption-top').innerHTML = `ᛇ&nbsp;&nbsp;Ianseolive · ${esc(t.name)}`;
   }
-  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — hentes hvert 5. minutt mens stevnet pågår.`;
+  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — hentes hvert 15. minutt mens stevnet pågår.`;
   render();
   setInterval(render, TICK_MS);
   setInterval(refreshData, REFRESH_DATA_MS);
