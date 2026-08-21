@@ -45,6 +45,7 @@ BRACKET_PREFIXES = ("IB", "TB")  # elimination brackets (individual/team)
 FIXED_COLS = {
     "Pos.", "Athlete", "Country", "Tot.", "X", "10",
     "Pl.", "Skytter", "Skyttere", "Klubb", "Tot. dist.", "Totalt", "10+X", "SO/CT",
+    "Snitt", "Piler", "6", "5",  # felt: snitt, pil-antall og 6/5-telling
 }
 HEADER_MARKERS = ("Pos.", "Athlete", "Pl.", "Skytter")
 
@@ -293,6 +294,7 @@ def parse_rank_page(page: str, code: str) -> dict:
             m = re.search(r"\[(.*?)\]\s*$", cells[0])
             status = m.group(1) if m else ""
             title = re.sub(r"\s*\[.*?\]\s*$", "", cells[0])
+            title = re.sub(r"\s*-\s*Average Scoring Enabled\s*$", "", title)
         if any(m_ in cells for m_ in HEADER_MARKERS) and len(cells) >= 3:
             header_idx = i
             break
@@ -303,14 +305,23 @@ def parse_rank_page(page: str, code: str) -> dict:
     dist_idx = [i for i, c in enumerate(columns) if c and c not in FIXED_COLS]
     dist_labels = [labels[i] for i in dist_idx]
     is_team = code.startswith("TQ")
+    # felt: løypekolonner (Rød/Gul/Blå) i stedet for meterdistanser, og
+    # Snitt/Piler-kolonner i stedet for 10/X
+    meter = bool(dist_labels) and all(re.match(r"^\d+\s*m\b", l) for l in dist_labels)
+    field_scoring = "Piler" in columns or "Snitt" in columns or not meter
 
     status_up = status.upper()
     official = "OFFICIAL" in status_up or "OFFISIELL" in status_up
     m = re.search(r"(?:After|Etter) (\d+) (?:Arrows|piler)", status, re.I)
     progress = int(m.group(1)) if m else None
     # totalArrows is the full round length; ianseo's "Etter N piler" is progress.
-    # Qualification rounds are 36 arrows per distance; teams are 3 archers.
-    total_arrows = 216 if is_team else 36 * max(1, len(dist_idx))
+    # Innendørs: 36 piler per distanse. Felt: 72 piler per løype
+    # (24 blink x 3 piler), 2 løyper = 144; lag skyter 3 utøvere.
+    if meter:
+        base = 36 * max(1, len(dist_idx))
+    else:
+        base = 72 * len(dist_idx) if dist_idx else 144
+    total_arrows = base * 3 if is_team else base
 
     def first(row: dict, *keys: str) -> str:
         for k in keys:
@@ -332,8 +343,11 @@ def parse_rank_page(page: str, code: str) -> dict:
         if not name:
             continue
         dist = {labels[i]: cells[i] for i in dist_idx}
+        piler = to_int(first(row, "Piler"))  # felt: faktisk pil-antall per utøver
         if official:
             arrows = total_arrows
+        elif piler:
+            arrows = piler
         elif progress is not None:
             arrows = progress
         else:
@@ -341,15 +355,23 @@ def parse_rank_page(page: str, code: str) -> dict:
             filled = sum(1 for v in dist.values() if re.match(r"^[1-9]", v or ""))
             per = total_arrows / max(1, len(dist_idx))
             arrows = int(round(filled * per))
+        total = to_int(first(row, "Tot.", "Tot. dist.", "Totalt"))
+        if is_team and not total:
+            # felt-lag har ingen Totalt-kolonne — estimer fra snittet
+            snitt = first(row, "Snitt").replace(",", ".")
+            try:
+                total = round(float(snitt) * arrows)
+            except ValueError:
+                pass
         field.append(
             {
                 "club": club_short,
                 "name": name,
                 "pos": to_int(first(row, "Pos.", "Pl.")),
-                "total": to_int(first(row, "Tot.", "Tot. dist.", "Totalt")),
+                "total": total,
                 "arrows": arrows,
-                "tens": to_int(first(row, "10", "10+X")),
-                "xs": to_int(row.get("X", "")),
+                "tens": to_int(first(row, "10", "10+X", "6")),
+                "xs": to_int(row.get("X", "") or row.get("5", "")),
                 "dist": dist,
             }
         )
@@ -371,10 +393,72 @@ def parse_rank_page(page: str, code: str) -> dict:
         "name": f"{title} (lag)" if is_team else title,
         "team": is_team,
         "official": official,
+        "fieldScoring": field_scoring,
         "totalArrows": total_arrows,
         "distances": dist_labels,
         "field": field,
     }
+
+
+def parse_ic_page(page: str) -> list:
+    """Parse IC.php (felt: endelig resultatliste individuelt).
+
+    Én fil med én seksjon per klasse:
+      ['Tradisjonell - Damer [Etter 144 piler]']   <- klassetittel
+      ['', '', '', 'Gul', 'Gul', 'Totalt', '6', '5'] <- kolonneheadere
+      ['1', 'NAVN', 'KORT - Klubb', '306/ 1', ...] <- datarader
+    """
+    rows = parse_rows(page)
+    classes = []
+    title, header = None, None
+    field = []
+
+    def flush():
+        if title and field:
+            classes.append({
+                "name": title,
+                "code": "IC",
+                "team": False,
+                "official": True,  # IC er den endelige resultatlisten
+                "fieldScoring": True,
+                "totalArrows": 72 * max(1, len(header_courses)),
+                "distances": [lbl for _, lbl in header_courses],
+                "field": sorted(field, key=lambda f: f["pos"] or 9999),
+            })
+
+    header_courses = []
+    for cells in rows:
+        if len(cells) == 1 and "[" in cells[0]:
+            flush()
+            raw = re.sub(r"\s*\[.*?\]\s*$", "", cells[0])
+            title = re.sub(r" - (?=(Damer|Herrer|U|50|60))", " ", raw)  # samme navn som IQ-filene
+            title = re.sub(r"\bU(\d+)\b", r"Under \1", title)  # IC forkorter til U16
+            header, header_courses, field = None, [], []
+            continue
+        if title is None:
+            continue
+        if header is None:
+            if "Totalt" in cells:
+                header = cells
+                uniq = unique_labels(cells)
+                header_courses = [(i, uniq[i]) for i, c in enumerate(cells)
+                                  if c and c not in FIXED_COLS]
+            continue
+        if len(cells) != len(header) or not re.match(r"^\d+$", cells[0] or ""):
+            continue  # mobil-duplikatrader og subtotaler
+        club_short, _ = split_club(cells[2])
+        field.append({
+            "club": club_short,
+            "name": cells[1],
+            "pos": to_int(cells[0]),
+            "total": to_int(cells[-3]),
+            "arrows": 72 * max(1, len(header_courses)),
+            "tens": to_int(cells[-2]),
+            "xs": to_int(cells[-1]),
+            "dist": {c: cells[i] for i, c in header_courses},
+        })
+    flush()
+    return classes
 
 
 def parse_roster(page: str) -> dict:
@@ -411,20 +495,23 @@ def main() -> int:
         club_full_names = [c[0] for c in parse_rows(enc) if len(c) == 1 and " - " in c[0]]
 
     classes = []
+    ic_classes = []
     brackets = []
     for code in sorted(files):
         if code in SKIP_CODES or code in ("ENA", "ENC", "ENE", "ENS"):
             continue
         is_rank = code.startswith(RANK_PREFIXES)
         is_bracket = code.startswith(BRACKET_PREFIXES)
-        if not (is_rank or is_bracket):
+        if not (is_rank or is_bracket or code == "IC"):
             continue
         try:
             page = fetch(f"{TOURDATA_URL}/{code}.php")
         except Exception as exc:  # keep polling even if one file fails
             print(f"warn: {code}: {exc}", file=sys.stderr)
             continue
-        if is_rank:
+        if code == "IC":
+            ic_classes.extend(parse_ic_page(page))
+        elif is_rank:
             cls = parse_rank_page(page, code)
             if cls and cls["field"]:
                 cls["code"] = code
@@ -435,6 +522,10 @@ def main() -> int:
                 br["code"] = code
                 br["updated"] = files.get(code, "")
                 brackets.append(br)
+
+    # IC (endelige felt-resultater) overstyrer IQ-klasser med samme navn
+    ic_names = {c["name"] for c in ic_classes}
+    classes = ic_classes + [c for c in classes if c["name"] not in ic_names]
 
     # join roster info (target/pool) onto result rows
     for cls in classes:

@@ -48,7 +48,7 @@ function clubRows() {
     for (const f of c.field || [])
       if (f.club === state.club && !c.team)
         out.push(Object.assign({ cls: c.name, totalArrows: c.totalArrows || 72,
-          updated: (DATA.files || {})[c.code] || '' }, f));
+          fs: !!c.fieldScoring, updated: (DATA.files || {})[c.code] || '' }, f));
   // ferskest data øverst — de som er helt ferdige samles i bunnen
   const done = (r) => (r.arrows >= r.totalArrows ? 1 : 0);
   return out.sort((a, b) =>
@@ -59,7 +59,7 @@ function clubRows() {
 
 function shortCls(n) {
   return String(n || '').replace('Tradisjonell', 'Trad.').replace('Under ', 'U')
-    .replace(' Open Class', '').replace('Visual Impaired ', '');
+    .replace(' Open Class', '').replace('Visual Impaired ', '').replace('Lag (lag)', 'Lag');
 }
 
 function clubMeta(short) {
@@ -189,7 +189,7 @@ function vFollowCard(f, cl) {
 
 function vClubRow(r) {
   const live = r.arrows < r.totalArrows;
-  const meta = live ? `skyter · ${r.arrows}/${r.totalArrows}` : `${r.tens} tiere`;
+  const meta = live ? `skyter · ${r.arrows}/${r.totalArrows}` : `${r.tens} ${r.fs ? 'seksere' : 'tiere'}`;
   const metaSt = style({ display: 'block', 'margin-top': '4px', font: '600 11px "Inter",sans-serif',
     'letter-spacing': '0.06em', color: live ? CLR.action : CLR.muted });
   return `
@@ -367,7 +367,7 @@ function vAthleteSheet() {
   const stats = [
     { k: 'Plass', v: `${a.pos}/${(cl.field || []).length}` },
     { k: 'Snitt pr. pil', v: a.arrows ? (a.total / a.arrows).toFixed(2) : '–' },
-    { k: '10 + X', v: `${a.tens}+${a.xs}` },
+    { k: cl.fieldScoring ? '6 + 5' : '10 + X', v: `${a.tens}+${a.xs}` },
   ].map((s) => `
     <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 11px">
       <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:24px;line-height:1;color:${CLR.action};font-variant-numeric:tabular-nums">${esc(s.v)}</span>
@@ -399,7 +399,7 @@ function vAthleteSheet() {
     const distRows = distEntries.map(([label, val], i) => {
       const m = /^(\d+)\s*\/\s*(\d+)?$/.exec((val || '').trim());
       const score = m ? m[1] : val;
-      const distRank = m && m[2] ? `nr. ${m[2]} på distansen` : '';
+      const distRank = m && m[2] ? (cl.fieldScoring ? `nr. ${m[2]} på løypa` : `nr. ${m[2]} på distansen`) : '';
       return `
       <div style="display:flex;align-items:center;gap:8px;padding:9px 0;border-bottom:2px solid #e8e3da">
         <span style="flex:none;width:20px;font-size:12px;font-weight:600;color:${CLR.muted};font-variant-numeric:tabular-nums">${i + 1}</span>
@@ -411,7 +411,7 @@ function vAthleteSheet() {
       </div>`;
     }).join('');
     scoreSection = distEntries.length ? `
-    <p style="margin:0 0 10px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Per distanse</p>
+    <p style="margin:0 0 10px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${cl.fieldScoring ? 'Per løype' : 'Per distanse'}</p>
     <div style="display:flex;flex-direction:column;gap:0">${distRows}</div>` : '';
   }
 
@@ -419,7 +419,9 @@ function vAthleteSheet() {
   const note = hasScores || a.members
     ? (live
       ? `Runden pågår. Nye tall kommer inn ved neste henting fra ianseo — normalt innen fem minutter.`
-      : `Hele runden er publisert. Eliminering settes opp når klassen er ferdig.`)
+      : cl.fieldScoring
+        ? `Hele runden er publisert. I felt avgjøres medaljene av sluttstillingen.`
+        : `Hele runden er publisert. Eliminering settes opp når klassen er ferdig.`)
     : `Ingen poeng publisert ennå — mål og pulje er fra startlisten.`;
 
   const finalsItems = athleteFinalMatches(a.name);
@@ -463,7 +465,7 @@ function vClassSheet() {
   const waiting = (cl.field || []).filter((f) => f.arrows < totalArrows).length;
   const note = waiting
     ? `${waiting} av ${(cl.field || []).length} skyttere er midt i runden. Rekkefølgen er foreløpig.`
-    : 'Hele klassen er ferdig med kvalifiseringen.';
+    : cl.fieldScoring ? 'Endelig resultat — felt skytes uten eliminering.' : 'Hele klassen er ferdig med kvalifiseringen.';
   const rows = (cl.field || []).map((f) => {
     const mine = f.club === state.club;
     const rowSt = style({ display: 'flex', 'align-items': 'center', gap: '10px', width: '100%',
@@ -486,13 +488,13 @@ function vClassSheet() {
     <div style="flex:none;background:${CLR.fg};color:#fff;padding:14px 18px 16px">
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
         <button data-action="close-class" style="flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:9999px;border:2px solid ${CLR.accent};background:transparent;color:#fff;cursor:pointer;padding:0">${SVG.chevronLeft}</button>
-        <span style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border}">Kvalifisering</span>
+        <span style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.border}">${cl.fieldScoring ? 'Felt' : 'Kvalifisering'}</span>
       </div>
       <p style="margin:0;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:23px;line-height:1.16">${esc(name)}</p>
     </div>
     <div style="flex:1;min-height:0;overflow-y:auto;padding:14px 18px 26px">
       <div style="display:flex;align-items:center;gap:10px;padding:0 4px 8px;border-bottom:2px solid ${CLR.fg};font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.muted}">
-        <span style="width:34px">Pl.</span><span style="flex:1">Skytter</span><span style="width:46px;text-align:right">Sum</span><span style="width:34px;text-align:right">10+X</span>
+        <span style="width:34px">Pl.</span><span style="flex:1">Skytter</span><span style="width:46px;text-align:right">Sum</span><span style="width:34px;text-align:right">${cl.fieldScoring ? '6+5' : '10+X'}</span>
       </div>
       ${rows}
       <p style="margin:14px 0 0;font-size:13px;line-height:1.6;color:${CLR.muted}">${esc(note)}</p>
@@ -570,17 +572,22 @@ function clubPlacements() {
       else { add(win, 1); add(los, 2); }
     }
   }
-  // klasser med kun én deltaker: automatisk gull når runden er ferdig
-  // (det spilles ingen finale i slike klasser)
+  // Feltstevner har ingen finaler — medaljer avgjøres av sluttstillingen
+  // i klassen (topp 3). Innendørs gjelder bare en-deltaker-klasser (gull).
   const brNames = new Set((DATA.brackets || []).map((b) => b.name));
   for (const c of DATA.classes || []) {
     const field = c.field || [];
-    if (field.length !== 1 || brNames.has(c.name)) continue;
-    const f = field[0];
-    if (f.club !== state.club) continue;
-    if ((f.arrows || 0) < (c.totalArrows || 72)) continue;
-    if (out.some((i) => i.cls === c.name)) continue;
-    out.push({ place: 1, name: f.name, cls: c.name, team: !!c.team, res: `${f.total} poeng` });
+    if (!field.length || brNames.has(c.name)) continue;
+    const done = c.official || field.every((f) => (f.arrows || 0) >= (c.totalArrows || 72));
+    if (!done) continue;
+    const places = c.fieldScoring ? [1, 2, 3] : (field.length === 1 ? [1] : []);
+    for (const f of field) {
+      if (f.club !== state.club || !places.includes(f.pos)) continue;
+      const teamN = /^Lag (\d+)$/.exec(f.name || '');
+      const name = c.team ? (clubMeta(f.club).name || f.club) + (teamN ? ` (${teamN[1]})` : '') : f.name;
+      if (out.some((i) => i.cls === c.name && i.name === name)) continue;
+      out.push({ place: f.pos, name, cls: c.name, team: !!c.team, res: `${f.total} poeng` });
+    }
   }
   return out.sort((x, y) => x.place - y.place || x.name.localeCompare(y.name));
 }
