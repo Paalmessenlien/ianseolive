@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T13:58:34Z",
+ "generated": "2026-08-22T14:07:08Z",
  "tournament": {
   "toId": "29207",
   "name": "NM Felt 2026",
@@ -24,10 +24,10 @@
   "IQBH": "2026-08-22 12:52:05",
   "IQTH": "2026-08-22 12:36:44",
   "IQLH": "2026-08-22 12:51:29",
-  "IQRH": "2026-08-22 13:54:07",
+  "IQRH": "2026-08-22 14:01:35",
   "IQCH": "2026-08-22 13:38:51",
-  "TQLag": "2026-08-22 15:54:21",
-  "IC": "2026-08-22 13:54:21",
+  "TQLag": "2026-08-22 16:01:35",
+  "IC": "2026-08-22 14:01:35",
   "ENS": "2026-08-17 15:44:00",
   "ENC": "2026-08-17 15:44:00",
   "ENA": "2026-08-17 15:44:00",
@@ -912,33 +912,33 @@
    ],
    "field": [
     {
+     "club": "SORUM",
+     "name": "AARHAUG Sigmund",
+     "pos": 1,
+     "total": 334,
+     "arrows": 144,
+     "tens": 15,
+     "xs": 21,
+     "dist": {
+      "Rød": "334/ 1",
+      "Rød (2)": "0"
+     },
+     "target": "19C",
+     "pool": "Pulje 1"
+    },
+    {
      "club": "LILLE",
      "name": "BURHOL Simen S.",
-     "pos": 1,
+     "pos": 2,
      "total": 331,
      "arrows": 144,
      "tens": 21,
      "xs": 18,
      "dist": {
-      "Rød": "331/ 1",
+      "Rød": "331/ 2",
       "Rød (2)": "0"
      },
      "target": "23A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "AARHAUG Sigmund",
-     "pos": 2,
-     "total": 318,
-     "arrows": 144,
-     "tens": 14,
-     "xs": 19,
-     "dist": {
-      "Rød": "318/ 2",
-      "Rød (2)": "0"
-     },
-     "target": "19C",
      "pool": "Pulje 1"
     },
     {
@@ -957,63 +957,63 @@
      "pool": "Pulje 1"
     },
     {
-     "club": "SORT",
-     "name": "LYKSETH Kåre",
-     "pos": 4,
-     "total": 259,
-     "arrows": 144,
-     "tens": 8,
-     "xs": 9,
-     "dist": {
-      "Rød": "259/ 4",
-      "Rød (2)": "0"
-     },
-     "target": "17C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "TINDE",
-     "name": "ERIKSEN Arnt Marius",
-     "pos": 5,
-     "total": 249,
-     "arrows": 144,
-     "tens": 8,
-     "xs": 15,
-     "dist": {
-      "Rød": "249/ 5",
-      "Rød (2)": "0"
-     },
-     "target": "23B",
-     "pool": "Pulje 1"
-    },
-    {
      "club": "SANDE",
      "name": "LUND Sondre Westgård",
-     "pos": 6,
-     "total": 248,
+     "pos": 4,
+     "total": 260,
      "arrows": 144,
      "tens": 8,
-     "xs": 13,
+     "xs": 14,
      "dist": {
-      "Rød": "248/ 6",
+      "Rød": "260/ 4",
       "Rød (2)": "0"
      },
      "target": "19B",
      "pool": "Pulje 1"
     },
     {
+     "club": "SORT",
+     "name": "LYKSETH Kåre",
+     "pos": 5,
+     "total": 259,
+     "arrows": 144,
+     "tens": 8,
+     "xs": 9,
+     "dist": {
+      "Rød": "259/ 5",
+      "Rød (2)": "0"
+     },
+     "target": "17C",
+     "pool": "Pulje 1"
+    },
+    {
      "club": "BERGE",
      "name": "STORESUND Benjamin",
-     "pos": 7,
-     "total": 239,
+     "pos": 6,
+     "total": 250,
      "arrows": 144,
      "tens": 6,
      "xs": 12,
      "dist": {
-      "Rød": "239/ 7",
+      "Rød": "250/ 6",
       "Rød (2)": "0"
      },
      "target": "19A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "TINDE",
+     "name": "ERIKSEN Arnt Marius",
+     "pos": 7,
+     "total": 249,
+     "arrows": 144,
+     "tens": 8,
+     "xs": 15,
+     "dist": {
+      "Rød": "249/ 7",
+      "Rød (2)": "0"
+     },
+     "target": "23B",
      "pool": "Pulje 1"
     },
     {
@@ -1222,10 +1222,10 @@
      "club": "SORUM",
      "name": "Lag",
      "pos": 1,
-     "total": 851,
-     "arrows": 207,
-     "tens": 31,
-     "xs": 47,
+     "total": 867,
+     "arrows": 210,
+     "tens": 32,
+     "xs": 49,
      "dist": {},
      "members": "AARHAUG Sigmund, FLATEBY Knut, SIGVARTSEN Morten",
      "target": "",
