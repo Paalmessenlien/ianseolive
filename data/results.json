@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T11:52:08Z",
+ "generated": "2026-08-23T11:58:07Z",
  "tournament": {
   "toId": "29207",
   "name": "NM Felt 2026",
@@ -19,15 +19,15 @@
   "IQBD": "2026-08-23 11:04:46",
   "IQTD": "2026-08-23 11:26:46",
   "IQLD": "2026-08-23 11:28:43",
-  "IQRD": "2026-08-23 11:43:18",
+  "IQRD": "2026-08-23 11:53:50",
   "IQCD": "2026-08-23 11:37:19",
   "IQBH": "2026-08-23 11:30:02",
   "IQTH": "2026-08-23 11:28:04",
   "IQLH": "2026-08-23 11:26:35",
-  "IQRH": "2026-08-23 11:48:05",
+  "IQRH": "2026-08-23 11:54:25",
   "IQCH": "2026-08-23 11:38:13",
-  "TQLag": "2026-08-23 13:48:05",
-  "IC": "2026-08-23 11:48:05",
+  "TQLag": "2026-08-23 13:54:25",
+  "IC": "2026-08-23 11:54:25",
   "ENS": "2026-08-22 15:19:36",
   "ENC": "2026-08-22 15:19:36",
   "ENA": "2026-08-22 15:19:36",
@@ -829,13 +829,13 @@
      "club": "LILLE",
      "name": "HALLE Vilde Helene",
      "pos": 1,
-     "total": 539,
+     "total": 551,
      "arrows": 144,
      "tens": 19,
      "xs": 27,
      "dist": {
       "Rød": "296/ 1",
-      "Rød (2)": "243/ 1"
+      "Rød (2)": "255/ 1"
      },
      "target": "9A",
      "pool": "Pulje 1"
@@ -844,13 +844,13 @@
      "club": "SANDE",
      "name": "NILSEN Solveig",
      "pos": 2,
-     "total": 473,
+     "total": 487,
      "arrows": 144,
-     "tens": 15,
+     "tens": 16,
      "xs": 14,
      "dist": {
       "Rød": "243/ 2",
-      "Rød (2)": "230/ 2"
+      "Rød (2)": "244/ 2"
      },
      "target": "9B",
      "pool": "Pulje 1"
@@ -874,13 +874,13 @@
      "club": "SANDE",
      "name": "MANGELRØD Hedda Lindhjem",
      "pos": 4,
-     "total": 439,
+     "total": 447,
      "arrows": 144,
      "tens": 11,
      "xs": 11,
      "dist": {
       "Rød": "232/ 3",
-      "Rød (2)": "207/ 4"
+      "Rød (2)": "215/ 4"
      },
      "target": "5C",
      "pool": "Pulje 1"
@@ -933,13 +933,13 @@
      "club": "SORUM",
      "name": "SIGVARTSEN Morten",
      "pos": 3,
-     "total": 555,
+     "total": 567,
      "arrows": 144,
      "tens": 20,
      "xs": 24,
      "dist": {
       "Rød": "311/ 3",
-      "Rød (2)": "244/ 3"
+      "Rød (2)": "256/ 3"
      },
      "target": "7C",
      "pool": "Pulje 1"
@@ -948,45 +948,45 @@
      "club": "SANDE",
      "name": "LUND Sondre Westgård",
      "pos": 4,
-     "total": 500,
+     "total": 508,
      "arrows": 144,
      "tens": 10,
      "xs": 22,
      "dist": {
       "Rød": "260/ 4",
-      "Rød (2)": "240/ 4"
+      "Rød (2)": "248/ 4"
      },
      "target": "7A",
      "pool": "Pulje 1"
     },
     {
+     "club": "SORT",
+     "name": "LYKSETH Kåre",
+     "pos": 5,
+     "total": 491,
+     "arrows": 144,
+     "tens": 14,
+     "xs": 19,
+     "dist": {
+      "Rød": "259/ 5",
+      "Rød (2)": "232/ 6"
+     },
+     "target": "9C",
+     "pool": "Pulje 1"
+    },
+    {
      "club": "BERGE",
      "name": "STORESUND Benjamin",
-     "pos": 5,
-     "total": 482,
+     "pos": 6,
+     "total": 491,
      "arrows": 144,
      "tens": 12,
      "xs": 18,
      "dist": {
       "Rød": "250/ 6",
-      "Rød (2)": "232/ 5"
+      "Rød (2)": "241/ 5"
      },
      "target": "7B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORT",
-     "name": "LYKSETH Kåre",
-     "pos": 6,
-     "total": 480,
-     "arrows": 144,
-     "tens": 14,
-     "xs": 18,
-     "dist": {
-      "Rød": "259/ 5",
-      "Rød (2)": "221/ 6"
-     },
-     "target": "9C",
      "pool": "Pulje 1"
     },
     {
@@ -1023,13 +1023,13 @@
      "club": "ULLEN",
      "name": "TEIGEN Yngve Konrad Mortensen",
      "pos": 9,
-     "total": 291,
+     "total": 297,
      "arrows": 144,
      "tens": 3,
      "xs": 6,
      "dist": {
       "Rød": "180/ 9",
-      "Rød (2)": "111/ 9"
+      "Rød (2)": "117/ 9"
      },
      "target": "9D",
      "pool": "Pulje 1"
@@ -1210,8 +1210,8 @@
      "club": "SORUM",
      "name": "Lag",
      "pos": 1,
-     "total": 1667,
-     "arrows": 426,
+     "total": 1679,
+     "arrows": 429,
      "tens": 56,
      "xs": 81,
      "dist": {},
