@@ -126,7 +126,22 @@ def parse_meta(meta: str) -> tuple:
     return (day.group(1) if day else "", target.group(1) if target else "")
 
 
+def paused() -> str:
+    """Returnerer pause-fristen fra config.json hvis synken er pauset nå."""
+    try:
+        cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+        until = (cfg.get("hdhiaa") or {}).get("pausedUntil")
+        if until and datetime.now(timezone.utc) < datetime.fromisoformat(until):
+            return until
+    except Exception:
+        pass
+    return ""
+
+
 def main() -> int:
+    if (until := paused()):
+        print(f"paused until {until}")
+        return 0
     live_mode = "--live" in sys.argv
     standings = standings_raw = None
     if live_mode:
