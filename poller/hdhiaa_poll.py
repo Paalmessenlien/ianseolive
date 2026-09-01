@@ -28,6 +28,7 @@ import hashlib
 import json
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -42,14 +43,70 @@ GROUPS_URL = f"{BASE}/competition/{SLUG}/groups.json"
 INBOX_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/live-inbox.json"
 PAGE_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}"
 OUT_FILE = ROOT / "data" / "hdhiaa.json"
+STATE_FILE = ROOT / "data" / ".hdhiaa_state.json"      # siste inbox-id (ikke i git)
+GROUPS_CACHE = ROOT / "data" / ".hdhiaa_groups.json"   # bufret startliste (ikke i git)
 
 GENDER = {1: "Male", 2: "Female"}
 
 
 def fetch_json(url: str) -> dict:
-    req = urllib.request.Request(url, headers={"User-Agent": "ianseolive-poller/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8", "replace"))
+    last = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "ianseolive-poller/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8", "replace"))
+        except Exception as exc:
+            last = exc
+            time.sleep(2 * (attempt + 1))
+    raise last
+
+
+def load_state() -> dict:
+    try:
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_state(state: dict) -> None:
+    STATE_FILE.write_text(json.dumps(state), encoding="utf-8")
+
+
+def has_new_scores() -> bool:
+    """Sjekk inbox-feeden (~7 KB) mot siste kjente opplastings-id.
+
+    Brukes av --live-modus: full henting (meta + stillinger, ~70 KB) kun når
+    det faktisk er nye scorer, slik at vi kan polle ofte uten å belaste
+    hdhiaa.net. (Diff-endepunktet viste seg å ha kort retensjon og er ikke
+    pålitelig for dette.)"""
+    state = load_state()
+    last = state.get("lastInboxId")
+    if last is None:
+        return True  # første kjøring: alltid full henting
+    inbox = fetch_json(INBOX_URL)
+    ids = [i.get("id", 0) for i in inbox.get("items", [])]
+    return bool(ids) and max(ids) > last
+
+
+def load_groups(standings: dict) -> dict:
+    """Startlista (419 KB) endrer seg ikke under stevnet — bruk lokal buffer,
+    men hent på nytt hvis bufferen er gammel eller live-scorene viser en
+    utøver vi ikke kjenner."""
+    known = {l.get("raceApplyId") for c in standings.get("categories", [])
+             for l in c.get("leaders", [])}
+    try:
+        cache = json.loads(GROUPS_CACHE.read_text(encoding="utf-8"))
+        age_ok = cache.get("fetched", 0) > datetime.now(timezone.utc).timestamp() - 3600
+        ids = {m.get("id") for t in cache["data"].get("teams", []) for m in t.get("members", [])}
+        if age_ok and known <= ids:
+            return cache["data"]
+    except Exception:
+        pass
+    groups = fetch_json(GROUPS_URL)
+    GROUPS_CACHE.write_text(json.dumps({
+        "fetched": datetime.now(timezone.utc).timestamp(), "data": groups}))
+    return groups
 
 
 def parse_meta(meta: str) -> tuple:
@@ -60,9 +117,17 @@ def parse_meta(meta: str) -> tuple:
 
 
 def main() -> int:
+    live_mode = "--live" in sys.argv
+    if live_mode:
+        try:
+            if not has_new_scores():
+                print("no new scores")
+                return 0
+        except Exception as exc:  # ved diff-feil: gjør full henting likevel
+            print(f"warn: diff-check: {exc}", file=sys.stderr)
     race = fetch_json(RACE_URL).get("data", {})
-    groups = fetch_json(GROUPS_URL)
     standings = fetch_json(STANDINGS_URL)
+    groups = load_groups(standings)
     try:
         inbox = fetch_json(INBOX_URL)
     except Exception as exc:  # feed er pynt — ikke la den stoppe pollen
@@ -106,6 +171,8 @@ def main() -> int:
                 "arrows": l.get("shotsRecorded") or 0,
                 "day": day,
                 "target": target,
+                "shots": [str(s) for s in (l.get("shots") or [])][-12:],
+                "photo": l.get("photoUrl") or "",
             }
 
     # One category per sectionTitle, in the site's own filter order
@@ -130,6 +197,8 @@ def main() -> int:
                 "arrows": s.get("arrows", 0),
                 "day": s.get("day", ""),
                 "target": s.get("target", ""),
+                "shots": s.get("shots", []),
+                "photo": s.get("photo", ""),
             })
         # plassering: poeng desc (delt plass ved likt), uskoredede til slutt
         scored = sorted((r for r in results if r["scored"]),
@@ -184,6 +253,9 @@ def main() -> int:
     n_scored = sum(1 for c in categories for r in c["results"] if r["scored"])
     print(f"wrote {OUT_FILE}: {len(country_list)} countries, "
           f"{len(members)} athletes, {len(categories)} categories, {n_scored} with scores")
+    inbox_ids = [i.get("id", 0) for i in inbox.get("items", [])]
+    if inbox_ids:
+        save_state({"lastInboxId": max(inbox_ids)})
     bust_asset_cache()
     return 0
 

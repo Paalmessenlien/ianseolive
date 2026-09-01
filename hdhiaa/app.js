@@ -184,7 +184,28 @@ function vSummary() {
   </section>`;
 }
 
-function vRow(r, cat, mine, showCode) {
+function vAvatar(r, size) {
+  const ini = esc(r.name.split(/\s+/).map((w) => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase());
+  const base = { width: size + 'px', height: size + 'px', 'border-radius': '9999px', flex: 'none' };
+  const fb = `<span style="${style(Object.assign({}, base, { display: 'grid', 'place-items': 'center',
+    background: CLR.border, font: '600 11px "Inter",sans-serif', color: CLR.fg }))}">${ini}</span>`;
+  if (!r.photo) return fb;
+  return `<span style="${style(Object.assign({}, base, { position: 'relative', display: 'inline-block' }))}">${fb}<img
+    src="${esc(r.photo)}" loading="lazy" alt="" onerror="this.remove()"
+    style="${style({ position: 'absolute', inset: '0', width: '100%', height: '100%',
+      'object-fit': 'cover', 'border-radius': '9999px', border: '1px solid ' + CLR.border })}"></span>`;
+}
+
+function vShots(shots) {
+  if (!shots || !shots.length) return '';
+  const col = (s) => s === '11' ? CLR.signal : s === '10' ? CLR.fg : s === '0' ? '#B23A2E' : CLR.muted;
+  return `<span style="${style({ display: 'flex', 'flex-wrap': 'wrap', gap: '3px', 'margin-top': '4px' })}">${shots.map((s) =>
+    `<span style="${style({ 'min-width': '18px', 'text-align': 'center', padding: '1px 3px',
+      'border-radius': '5px', border: '1px solid ' + CLR.border, background: CLR.paper,
+      font: '600 10.5px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums', color: col(String(s)) })}">${esc(s)}</span>`).join('')}</span>`;
+}
+
+function vRow(r, cat, mine, showCode, detail) {
   const sub = r.scored
     ? [r.day && `dag ${r.day}`, r.target && `blink ${r.target}`, `${r.arrows} ${r.arrows === 1 ? 'pil' : 'piler'}`].filter(Boolean).join(' · ')
     : (r.group ? `gruppe ${r.group} · ikke startet` : 'ikke startet');
@@ -195,10 +216,12 @@ function vRow(r, cat, mine, showCode) {
       margin: mine ? '0 -6px' : '0', 'padding-left': mine ? '6px' : '0', 'padding-right': mine ? '6px' : '0',
       'border-radius': mine ? '10px' : '0' })}">
     <span style="${rankStyle(r.scored ? r.pos : 0, mine)}">${r.scored ? r.pos : '–'}</span>
+    ${detail ? vAvatar(r, 30) : ''}
     <span style="${style({ flex: '1 1 auto', 'min-width': '0' })}">
       <span style="${style({ display: 'block', font: '600 13.5px "Inter",sans-serif', 'white-space': 'nowrap',
         overflow: 'hidden', 'text-overflow': 'ellipsis' })}">${esc(r.name)}${code}</span>
       <span style="${style({ display: 'block', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">${esc(sub)}</span>
+      ${detail ? vShots(r.shots) : ''}
     </span>
     ${r.scored ? `<span style="${style({ 'text-align': 'right', flex: 'none' })}">
       <span style="${style({ display: 'block', font: '700 16px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums' })}">${r.total}</span>
@@ -210,11 +233,17 @@ function vRow(r, cat, mine, showCode) {
 function vCatCard(cat) {
   const rows = catRows(cat);
   if (!rows.length) return '';
-  const anyScored = rows.some((r) => r.scored);
   const shown = allCountries() ? rows.filter((r) => r.scored).slice(0, 3) : rows;
   const more = allCountries() && rows.filter((r) => r.scored).length > 3;
+  // «pågår nå»: siste score i klassen er under 20 minutter gammel
+  const updMs = Date.parse((cat.updated || '').replace(' ', 'T'));
+  const live = !isNaN(updMs) && (Date.now() - updMs) < 20 * 60000;
   const updated = cat.updated
-    ? `<span style="${style({ font: '400 11px "Inter",sans-serif', color: CLR.muted, 'white-space': 'nowrap' })}">sist score ${esc(cat.updated.slice(11, 16))}</span>`
+    ? `<span style="${style({ display: 'inline-flex', 'align-items': 'center', gap: '6px',
+        font: '400 11px "Inter",sans-serif', color: CLR.muted, 'white-space': 'nowrap' })}">${live
+        ? `<span style="${style({ width: '8px', height: '8px', 'border-radius': '9999px', background: CLR.signal,
+            display: 'inline-block', animation: 'amber-pulse 1.6s infinite' })}"></span><strong style="color:${CLR.signal}">LIVE</strong>`
+        : ''} sist score ${esc(cat.updated.slice(11, 16))}</span>`
     : '';
   return `<section data-action="cat" data-cat="${esc(cat.title)}" style="${style({ background: CLR.surface,
       border: '2px solid ' + CLR.fg, 'border-radius': '18px', padding: '12px 14px 8px', cursor: 'pointer',
@@ -256,7 +285,7 @@ function vMain() {
     ${cards || `<p style="${style({ color: CLR.muted, font: '400 13px "Inter",sans-serif', 'text-align': 'center', padding: '30px 10px' })}">Ingen resultater ennå for ${esc(countryMeta(state.country).name)}.</p>`}
     <p style="${style({ margin: '4px 0 0', 'text-align': 'center', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">
       Data fra <a href="${esc(DATA.competition.url || 'https://hdhiaa.net')}">hdhiaa.net</a> · hentet for ${ageMin()} min siden ·
-      synkes hvert 15. minutt · ${state.refreshing ? 'oppdaterer …' : ''}</p>
+      live-synk hvert 2. minutt når det skytes · ${state.refreshing ? 'oppdaterer …' : ''}</p>
   </main>`;
 }
 
@@ -289,7 +318,7 @@ function vCatSheet() {
   return sheet(esc(shortCat(cat.title)), `
     <p style="${style({ margin: '0 0 8px', font: '400 12px "Inter",sans-serif', color: CLR.muted })}">
       ${esc(cat.title)}${cat.updated ? ' · siste score ' + esc(cat.updated.slice(5, 16)) : ''}</p>
-    ${rows.map((r) => vRow(r, cat, !allCountries() && r.country === state.country, true)).join('')
+    ${rows.map((r) => vRow(r, cat, !allCountries() && r.country === state.country, true, true)).join('')
       || `<p style="${style({ color: CLR.muted })}">Ingen påmeldte funnet.</p>`}`);
 }
 
@@ -355,7 +384,7 @@ async function load() {
   document.title = (c.name || 'HDH-IAA') + ' · Live';
   document.getElementById('caption-top').innerHTML = `ᛇ&nbsp;&nbsp;HDH-IAA Live · ${esc(c.name || '')}`;
   caption.innerHTML = `Resultater fra <a href="${esc(c.url || 'https://hdhiaa.net')}">hdhiaa.net</a>`
-    + ' · synkes hvert 15. minutt · <a href="../">Ianseolive</a>';
+    + ' · live-synk hvert 2. minutt når det skytes · <a href="../">Ianseolive</a>';
   if (!state.country) state.country = DATA.defaultCountry || ALL_COUNTRIES;
   if (!store.get('ianseolive-hdhiaa-country', null)) state.picker = true;
   render();
