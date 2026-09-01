@@ -17,7 +17,8 @@ cd "$REPO" || exit 1
 {
   echo "--- $(date -u +%Y-%m-%dT%H:%M:%SZ)"
   python3 poller/poll.py || exit 1
-  git add data/results.json index.html
+  python3 poller/hdhiaa_poll.py || exit 1
+  git add data/results.json data/hdhiaa.json index.html hdhiaa/index.html
   if git diff --cached --quiet; then
     echo "no changes"
     exit 0
@@ -26,9 +27,10 @@ cd "$REPO" || exit 1
   if ! git pull --rebase; then
     # conflict will be on data/results.json (Actions bot pushed too) —
     # take theirs, regenerate with our parser, continue
-    git checkout --theirs data/results.json
+    git checkout --theirs data/results.json data/hdhiaa.json
     python3 poller/poll.py
-    git add data/results.json index.html
+    python3 poller/hdhiaa_poll.py
+    git add data/results.json data/hdhiaa.json index.html hdhiaa/index.html
     git -c core.editor=true rebase --continue || git rebase --abort
   fi
   git push

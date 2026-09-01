@@ -22,11 +22,14 @@ jobs:
       - name: Fetch and parse ianseo results
         run: python poller/poll.py
 
+      - name: Fetch and parse HDH-IAA results
+        run: python poller/hdhiaa_poll.py
+
       - name: Commit updated results
         run: |
           git config user.name "ianseolive-bot"
           git config user.email "ianseolive-bot@users.noreply.github.com"
-          git add data/results.json index.html
+          git add data/results.json data/hdhiaa.json index.html hdhiaa/index.html
           if git diff --cached --quiet; then
             echo "no changes"
           else
