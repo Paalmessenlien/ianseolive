@@ -49,17 +49,21 @@ GROUPS_CACHE = ROOT / "data" / ".hdhiaa_groups.json"   # bufret startliste (ikke
 GENDER = {1: "Male", 2: "Female"}
 
 
-def fetch_json(url: str) -> dict:
+def fetch_text(url: str) -> str:
     last = None
     for attempt in range(3):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "ianseolive-poller/1.0"})
             with urllib.request.urlopen(req, timeout=30) as resp:
-                return json.loads(resp.read().decode("utf-8", "replace"))
+                return resp.read().decode("utf-8", "replace")
         except Exception as exc:
             last = exc
             time.sleep(2 * (attempt + 1))
     raise last
+
+
+def fetch_json(url: str) -> dict:
+    return json.loads(fetch_text(url))
 
 
 def load_state() -> dict:
@@ -73,20 +77,26 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state), encoding="utf-8")
 
 
-def has_new_scores() -> bool:
-    """Sjekk inbox-feeden (~7 KB) mot siste kjente opplastings-id.
+def check_live() -> tuple:
+    """Er det kommet nye data siden sist? Returnerer (endret, standings|None).
 
-    Brukes av --live-modus: full henting (meta + stillinger, ~70 KB) kun når
-    det faktisk er nye scorer, slik at vi kan polle ofte uten å belaste
-    hdhiaa.net. (Diff-endepunktet viste seg å ha kort retensjon og er ikke
-    pålitelig for dette.)"""
+    To signaler, billigste først:
+    1. inbox-feeden (~7 KB): nye opplastings-id-er enn state.lastInboxId.
+    2. Hvis inbox er tom/uendret (skjer når hdhiaa slår av live-feeden,
+       f.eks. i pauser): hent stillingene (~60 KB) og sammenlign innholds-
+       hash. De oppdateres også via andre kanaler enn inbox.
+    """
     state = load_state()
-    last = state.get("lastInboxId")
-    if last is None:
-        return True  # første kjøring: alltid full henting
+    if state.get("lastInboxId") is None and not state.get("lastStandingsHash"):
+        return True, None, None  # første kjøring: alltid full henting
     inbox = fetch_json(INBOX_URL)
     ids = [i.get("id", 0) for i in inbox.get("items", [])]
-    return bool(ids) and max(ids) > last
+    if ids and max(ids) > state.get("lastInboxId", 0):
+        return True, None, None
+    raw = fetch_text(STANDINGS_URL)
+    if hashlib.md5(raw.encode()).hexdigest() != state.get("lastStandingsHash"):
+        return True, json.loads(raw), raw
+    return False, None, None
 
 
 def load_groups(standings: dict) -> dict:
@@ -118,15 +128,20 @@ def parse_meta(meta: str) -> tuple:
 
 def main() -> int:
     live_mode = "--live" in sys.argv
+    standings = standings_raw = None
     if live_mode:
         try:
-            if not has_new_scores():
+            changed, standings, standings_raw = check_live()
+            if not changed:
                 print("no new scores")
                 return 0
-        except Exception as exc:  # ved diff-feil: gjør full henting likevel
-            print(f"warn: diff-check: {exc}", file=sys.stderr)
+        except Exception as exc:  # ved sjekk-feil: gjør full henting likevel
+            print(f"warn: live-check: {exc}", file=sys.stderr)
+            standings = standings_raw = None
     race = fetch_json(RACE_URL).get("data", {})
-    standings = fetch_json(STANDINGS_URL)
+    if standings is None:
+        standings_raw = fetch_text(STANDINGS_URL)
+        standings = json.loads(standings_raw)
     groups = load_groups(standings)
     try:
         inbox = fetch_json(INBOX_URL)
@@ -253,9 +268,13 @@ def main() -> int:
     n_scored = sum(1 for c in categories for r in c["results"] if r["scored"])
     print(f"wrote {OUT_FILE}: {len(country_list)} countries, "
           f"{len(members)} athletes, {len(categories)} categories, {n_scored} with scores")
+    prev_state = load_state()
     inbox_ids = [i.get("id", 0) for i in inbox.get("items", [])]
-    if inbox_ids:
-        save_state({"lastInboxId": max(inbox_ids)})
+    save_state({
+        # id-ene kan resettes av hdhiaa — behold alltid høyeste sette
+        "lastInboxId": max([prev_state.get("lastInboxId", 0)] + inbox_ids),
+        "lastStandingsHash": hashlib.md5(standings_raw.encode()).hexdigest(),
+    })
     bust_asset_cache()
     return 0
 
