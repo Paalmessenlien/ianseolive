@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T08:22:09Z",
+ "generated": "2026-09-01T08:31:52Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -202,8 +202,20 @@
    "bow": "CU",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "updated": "2026-09-01 10:22:07",
+   "updated": "",
    "results": [
+    {
+     "name": "Árpád Hahn",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 8:50",
+     "scored": true,
+     "total": 75,
+     "arrows": 8,
+     "day": "1",
+     "target": "9",
+     "pos": 1
+    },
     {
      "name": "András Novákovics",
      "country": "HUN",
@@ -211,19 +223,7 @@
      "group": "OR 8:50",
      "scored": true,
      "total": 70,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 1
-    },
-    {
-     "name": "Árpád Hahn",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 8:50",
-     "scored": true,
-     "total": 64,
-     "arrows": 7,
+     "arrows": 8,
      "day": "1",
      "target": "8",
      "pos": 2
@@ -234,11 +234,35 @@
      "countryName": "Hungary",
      "group": "OR 8:50",
      "scored": true,
+     "total": 70,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 2
+    },
+    {
+     "name": "Robert Brnad",
+     "country": "CRO",
+     "countryName": "Croatia",
+     "group": "OR 9:10",
+     "scored": true,
      "total": 60,
      "arrows": 7,
      "day": "1",
      "target": "7",
-     "pos": 3
+     "pos": 4
+    },
+    {
+     "name": "Johann List",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "OR 9:00",
+     "scored": true,
+     "total": 59,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 5
     },
     {
      "name": "Gábor Király",
@@ -250,7 +274,55 @@
      "arrows": 7,
      "day": "1",
      "target": "7",
-     "pos": 4
+     "pos": 6
+    },
+    {
+     "name": "József Torma",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 9:00",
+     "scored": true,
+     "total": 58,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 6
+    },
+    {
+     "name": "Karl Welsch",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "OR 9:10",
+     "scored": true,
+     "total": 57,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 8
+    },
+    {
+     "name": "Jenő Neufeld",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 9:00",
+     "scored": true,
+     "total": 54,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 9
+    },
+    {
+     "name": "Branko Starčević",
+     "country": "CRO",
+     "countryName": "Croatia",
+     "group": "OR 8:50",
+     "scored": true,
+     "total": 52,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 10
     },
     {
      "name": "Frank Hansen",
@@ -261,67 +333,7 @@
      "total": 52,
      "arrows": 7,
      "day": "1",
-     "target": "7",
-     "pos": 5
-    },
-    {
-     "name": "Johann List",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "OR 9:00",
-     "scored": true,
-     "total": 51,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 6
-    },
-    {
-     "name": "József Torma",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 9:00",
-     "scored": true,
-     "total": 50,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 7
-    },
-    {
-     "name": "Robert Brnad",
-     "country": "CRO",
-     "countryName": "Croatia",
-     "group": "OR 9:10",
-     "scored": true,
-     "total": 50,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 7
-    },
-    {
-     "name": "Jenő Neufeld",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 9:00",
-     "scored": true,
-     "total": 49,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 9
-    },
-    {
-     "name": "Karl Welsch",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "OR 9:10",
-     "scored": true,
-     "total": 47,
-     "arrows": 6,
-     "day": "1",
-     "target": "7",
+     "target": "8",
      "pos": 10
     },
     {
@@ -330,32 +342,8 @@
      "countryName": "Austria",
      "group": "OR 9:10",
      "scored": true,
-     "total": 42,
-     "arrows": 6,
-     "day": "1",
-     "target": "7",
-     "pos": 11
-    },
-    {
-     "name": "Branko Starčević",
-     "country": "CRO",
-     "countryName": "Croatia",
-     "group": "OR 8:50",
-     "scored": true,
-     "total": 41,
+     "total": 50,
      "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 12
-    },
-    {
-     "name": "Ivan Poljanec",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "OR 9:00",
-     "scored": true,
-     "total": 41,
-     "arrows": 6,
      "day": "1",
      "target": "7",
      "pos": 12
@@ -366,7 +354,19 @@
      "countryName": "Hungary",
      "group": "OR 8:50",
      "scored": true,
-     "total": 40,
+     "total": 48,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 13
+    },
+    {
+     "name": "Ivan Poljanec",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "OR 9:00",
+     "scored": true,
+     "total": 46,
      "arrows": 7,
      "day": "1",
      "target": "7",
@@ -379,9 +379,9 @@
      "group": "OR 9:10",
      "scored": true,
      "total": 39,
-     "arrows": 6,
+     "arrows": 7,
      "day": "1",
-     "target": "6",
+     "target": "7",
      "pos": 15
     },
     {
@@ -390,10 +390,10 @@
      "countryName": "Hungary",
      "group": "OR 9:10",
      "scored": true,
-     "total": 21,
-     "arrows": 6,
+     "total": 26,
+     "arrows": 7,
      "day": "1",
-     "target": "4",
+     "target": "7",
      "pos": 16
     },
     {
@@ -460,9 +460,9 @@
      "group": "OR 8:40",
      "scored": true,
      "total": 67,
-     "arrows": 8,
+     "arrows": 9,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 1
     },
     {
@@ -471,10 +471,10 @@
      "countryName": "Germany",
      "group": "OR 8:40",
      "scored": true,
-     "total": 58,
-     "arrows": 8,
+     "total": 66,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 2
     },
     {
@@ -483,10 +483,10 @@
      "countryName": "Hungary",
      "group": "OR 8:40",
      "scored": true,
-     "total": 56,
-     "arrows": 8,
+     "total": 61,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 3
     },
     {
@@ -496,9 +496,9 @@
      "group": "OR 8:40",
      "scored": true,
      "total": 52,
-     "arrows": 8,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 4
     },
     {
@@ -507,10 +507,10 @@
      "countryName": "Austria",
      "group": "OR 8:40",
      "scored": true,
-     "total": 34,
-     "arrows": 7,
+     "total": 42,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 5
     }
    ]
@@ -520,8 +520,20 @@
    "bow": "CU",
    "age": "Adults (21-54 years)",
    "gender": "Male",
-   "updated": "2026-09-01 10:22:01",
+   "updated": "",
    "results": [
+    {
+     "name": "Eddie Øyen",
+     "country": "NOR",
+     "countryName": "Norway",
+     "group": "OR 9:40",
+     "scored": true,
+     "total": 48,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 1
+    },
     {
      "name": "Ifj. Bóka László",
      "country": "HUN",
@@ -532,7 +544,55 @@
      "arrows": 5,
      "day": "1",
      "target": "5",
-     "pos": 1
+     "pos": 2
+    },
+    {
+     "name": "Calle Kieler jensen",
+     "country": "DEN",
+     "countryName": "Denmark",
+     "group": "OR 9:40",
+     "scored": true,
+     "total": 42,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 3
+    },
+    {
+     "name": "Gernot Leitner",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "OR 9:40",
+     "scored": true,
+     "total": 42,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 3
+    },
+    {
+     "name": "Luca Tistarelli",
+     "country": "ITA",
+     "countryName": "Italy",
+     "group": "OR 9:40",
+     "scored": true,
+     "total": 42,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 3
+    },
+    {
+     "name": "Dávid Kondicz",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 9:40",
+     "scored": true,
+     "total": 41,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 6
     },
     {
      "name": "Matjaž Zorjan",
@@ -544,7 +604,7 @@
      "arrows": 5,
      "day": "1",
      "target": "5",
-     "pos": 2
+     "pos": 7
     },
     {
      "name": "Andreas Schober",
@@ -556,67 +616,55 @@
      "arrows": 5,
      "day": "1",
      "target": "6",
-     "pos": 3
+     "pos": 8
     },
     {
-     "name": "Eddie Øyen",
-     "country": "NOR",
-     "countryName": "Norway",
-     "group": "OR 9:40",
-     "scored": true,
-     "total": 37,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 4
-    },
-    {
-     "name": "Calle Kieler jensen",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "OR 9:40",
-     "scored": true,
-     "total": 34,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 5
-    },
-    {
-     "name": "Gernot Leitner",
+     "name": "Harald Ruhmer",
      "country": "AUT",
      "countryName": "Austria",
-     "group": "OR 9:40",
+     "group": "OR 9:50",
      "scored": true,
      "total": 34,
      "arrows": 4,
      "day": "1",
      "target": "4",
-     "pos": 5
+     "pos": 9
     },
     {
-     "name": "Luca Tistarelli",
-     "country": "ITA",
-     "countryName": "Italy",
-     "group": "OR 9:40",
+     "name": "István Szabó",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 9:50",
      "scored": true,
-     "total": 34,
+     "total": 32,
      "arrows": 4,
      "day": "1",
      "target": "4",
-     "pos": 5
+     "pos": 10
     },
     {
-     "name": "Dávid Kondicz",
-     "country": "SVK",
-     "countryName": "Slovakia",
+     "name": "Attila Nyeste",
+     "country": "HUN",
+     "countryName": "Hungary",
      "group": "OR 9:40",
      "scored": true,
-     "total": 33,
+     "total": 31,
+     "arrows": 5,
+     "day": "1",
+     "target": "6",
+     "pos": 11
+    },
+    {
+     "name": "Ádám Horváth",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 9:50",
+     "scored": true,
+     "total": 31,
      "arrows": 4,
      "day": "1",
      "target": "4",
-     "pos": 8
+     "pos": 11
     },
     {
      "name": "Timotej Obreza Škerjanec",
@@ -628,7 +676,7 @@
      "arrows": 5,
      "day": "1",
      "target": "5",
-     "pos": 9
+     "pos": 13
     },
     {
      "name": "Peter Levente Soós",
@@ -640,42 +688,18 @@
      "arrows": 5,
      "day": "1",
      "target": "5",
-     "pos": 9
+     "pos": 13
     },
     {
-     "name": "Attila Nyeste",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 9:40",
+     "name": "Ivan Mustapić",
+     "country": "CRO",
+     "countryName": "Croatia",
+     "group": "OR 10:00",
      "scored": true,
-     "total": 26,
-     "arrows": 4,
-     "day": "1",
-     "target": "5",
-     "pos": 11
-    },
-    {
-     "name": "István Szabó",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 9:50",
-     "scored": true,
-     "total": 24,
+     "total": 29,
      "arrows": 3,
      "day": "1",
-     "target": "3",
-     "pos": 12
-    },
-    {
-     "name": "Ádám Horváth",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 9:50",
-     "scored": true,
-     "total": 21,
-     "arrows": 3,
-     "day": "1",
-     "target": "3",
+     "target": "4",
      "pos": 13
     },
     {
@@ -684,34 +708,10 @@
      "countryName": "Slovenia",
      "group": "OR 10:00",
      "scored": true,
-     "total": 20,
-     "arrows": 2,
+     "total": 28,
+     "arrows": 3,
      "day": "1",
-     "target": "2",
-     "pos": 14
-    },
-    {
-     "name": "Ivan Mustapić",
-     "country": "CRO",
-     "countryName": "Croatia",
-     "group": "OR 10:00",
-     "scored": true,
-     "total": 19,
-     "arrows": 2,
-     "day": "1",
-     "target": "2",
-     "pos": 15
-    },
-    {
-     "name": "Martin Pitschmann",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "OR 10:00",
-     "scored": true,
-     "total": 18,
-     "arrows": 2,
-     "day": "1",
-     "target": "2",
+     "target": "4",
      "pos": 16
     },
     {
@@ -720,10 +720,22 @@
      "countryName": "Hungary",
      "group": "OR 10:00",
      "scored": true,
-     "total": 16,
-     "arrows": 2,
+     "total": 26,
+     "arrows": 3,
      "day": "1",
-     "target": "3",
+     "target": "4",
+     "pos": 17
+    },
+    {
+     "name": "Martin Pitschmann",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "OR 10:00",
+     "scored": true,
+     "total": 26,
+     "arrows": 3,
+     "day": "1",
+     "target": "4",
      "pos": 17
     },
     {
@@ -732,23 +744,11 @@
      "countryName": "Romania",
      "group": "OR 9:50",
      "scored": true,
-     "total": 13,
-     "arrows": 3,
+     "total": 24,
+     "arrows": 4,
      "day": "1",
-     "target": "4",
-     "pos": 18
-    },
-    {
-     "name": "Harald Ruhmer",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "OR 9:50",
-     "scored": true,
-     "total": 13,
-     "arrows": 2,
-     "day": "1",
-     "target": "3",
-     "pos": 18
+     "target": "5",
+     "pos": 19
     },
     {
      "name": "István Tógyer",
@@ -756,11 +756,11 @@
      "countryName": "Hungary",
      "group": "OR 10:00",
      "scored": true,
-     "total": 13,
-     "arrows": 2,
+     "total": 24,
+     "arrows": 3,
      "day": "1",
-     "target": "2",
-     "pos": 18
+     "target": "4",
+     "pos": 19
     },
     {
      "name": "Lehel Papp",
@@ -768,11 +768,47 @@
      "countryName": "Croatia",
      "group": "OR 10:00",
      "scored": true,
-     "total": 13,
+     "total": 21,
+     "arrows": 3,
+     "day": "1",
+     "target": "4",
+     "pos": 21
+    },
+    {
+     "name": "Nikolaus Schaschinger",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "OR 9:50",
+     "scored": true,
+     "total": 18,
+     "arrows": 4,
+     "day": "1",
+     "target": "4",
+     "pos": 22
+    },
+    {
+     "name": "Tonny Gram",
+     "country": "DEN",
+     "countryName": "Denmark",
+     "group": "OR 10:10",
+     "scored": true,
+     "total": 18,
      "arrows": 2,
      "day": "1",
      "target": "2",
-     "pos": 18
+     "pos": 22
+    },
+    {
+     "name": "Giorgios Stavroulakis",
+     "country": "GRE",
+     "countryName": "Greece",
+     "group": "OR 10:10",
+     "scored": true,
+     "total": 16,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 24
     },
     {
      "name": "Tibor Vitányi",
@@ -784,7 +820,7 @@
      "arrows": 5,
      "day": "1",
      "target": "5",
-     "pos": 22
+     "pos": 25
     },
     {
      "name": "Yngve Sekkenes",
@@ -793,10 +829,10 @@
      "group": "OR 10:10",
      "scored": true,
      "total": 10,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "2",
-     "pos": 22
+     "target": "3",
+     "pos": 25
     },
     {
      "name": "Varga Zsolt Árpád",
@@ -805,10 +841,10 @@
      "group": "OR 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 24
+     "target": "2",
+     "pos": 27
     },
     {
      "name": "Zoltan Pataki",
@@ -817,34 +853,10 @@
      "group": "OR 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 24
-    },
-    {
-     "name": "Tonny Gram",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "OR 10:10",
-     "scored": true,
-     "total": 8,
-     "arrows": 1,
-     "day": "1",
-     "target": "1",
-     "pos": 24
-    },
-    {
-     "name": "Giorgios Stavroulakis",
-     "country": "GRE",
-     "countryName": "Greece",
-     "group": "OR 10:10",
-     "scored": true,
-     "total": 8,
-     "arrows": 1,
-     "day": "1",
-     "target": "1",
-     "pos": 24
+     "target": "2",
+     "pos": 27
     },
     {
      "name": "Márton Pintér",
@@ -853,22 +865,10 @@
      "group": "OR 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
-     "day": "1",
-     "target": "1",
-     "pos": 24
-    },
-    {
-     "name": "Nikolaus Schaschinger",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "OR 9:50",
-     "scored": true,
-     "total": 0,
      "arrows": 2,
      "day": "1",
-     "target": "3",
-     "pos": 29
+     "target": "2",
+     "pos": 27
     },
     {
      "name": "Biró Gergő",
@@ -1828,7 +1828,7 @@
    "bow": "TR-RB",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "updated": "",
+   "updated": "2026-09-01 10:31:40",
    "results": [
     {
      "name": "Petr Madurkay",
@@ -1836,47 +1836,11 @@
      "countryName": "Czech Republic",
      "group": "PR 9:20",
      "scored": true,
-     "total": 61,
-     "arrows": 8,
+     "total": 69,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 1
-    },
-    {
-     "name": "Jakab László",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 9:20",
-     "scored": true,
-     "total": 49,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 2
-    },
-    {
-     "name": "Ladislav Toth",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "PR 9:20",
-     "scored": true,
-     "total": 45,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 3
-    },
-    {
-     "name": "Guenter Herold",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 9:30",
-     "scored": true,
-     "total": 44,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 4
     },
     {
      "name": "Dušan Miškić",
@@ -1884,11 +1848,35 @@
      "countryName": "Serbia",
      "group": "PR 9:30",
      "scored": true,
-     "total": 42,
-     "arrows": 6,
+     "total": 60,
+     "arrows": 8,
      "day": "1",
-     "target": "6",
-     "pos": 5
+     "target": "8",
+     "pos": 2
+    },
+    {
+     "name": "Guenter Herold",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 9:30",
+     "scored": true,
+     "total": 59,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 3
+    },
+    {
+     "name": "Jakab László",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 9:20",
+     "scored": true,
+     "total": 54,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 4
     },
     {
      "name": "Leos Bracha",
@@ -1896,35 +1884,23 @@
      "countryName": "Czech Republic",
      "group": "PR 9:30",
      "scored": true,
-     "total": 39,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 6
-    },
-    {
-     "name": "Ferenc Midesz Molnár",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 9:40",
-     "scored": true,
-     "total": 35,
-     "arrows": 4,
-     "day": "1",
-     "target": "5",
-     "pos": 7
-    },
-    {
-     "name": "Luděk Malinka",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "PR 9:20",
-     "scored": true,
-     "total": 34,
+     "total": 54,
      "arrows": 8,
      "day": "1",
      "target": "8",
-     "pos": 8
+     "pos": 4
+    },
+    {
+     "name": "Ladislav Toth",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "PR 9:20",
+     "scored": true,
+     "total": 50,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 6
     },
     {
      "name": "Jaroslav Kondicz",
@@ -1932,35 +1908,35 @@
      "countryName": "Czech Republic",
      "group": "PR 9:30",
      "scored": true,
-     "total": 31,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 9
-    },
-    {
-     "name": "Michael Witschaß",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "PR 9:40",
-     "scored": true,
-     "total": 31,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 9
-    },
-    {
-     "name": "Agostino Mercurio",
-     "country": "ITA",
-     "countryName": "Italy",
-     "group": "PR 9:20",
-     "scored": true,
-     "total": 30,
+     "total": 46,
      "arrows": 8,
      "day": "1",
+     "target": "8",
+     "pos": 7
+    },
+    {
+     "name": "Ferenc Midesz Molnár",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 9:40",
+     "scored": true,
+     "total": 43,
+     "arrows": 5,
+     "day": "1",
+     "target": "6",
+     "pos": 8
+    },
+    {
+     "name": "Luděk Malinka",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "PR 9:20",
+     "scored": true,
+     "total": 42,
+     "arrows": 9,
+     "day": "1",
      "target": "9",
-     "pos": 11
+     "pos": 9
     },
     {
      "name": "Gabriele Pizzingrilli",
@@ -1968,10 +1944,34 @@
      "countryName": "Italy",
      "group": "PR 9:40",
      "scored": true,
-     "total": 29,
-     "arrows": 4,
+     "total": 40,
+     "arrows": 5,
      "day": "1",
-     "target": "4",
+     "target": "5",
+     "pos": 10
+    },
+    {
+     "name": "Agostino Mercurio",
+     "country": "ITA",
+     "countryName": "Italy",
+     "group": "PR 9:20",
+     "scored": true,
+     "total": 35,
+     "arrows": 9,
+     "day": "1",
+     "target": "10",
+     "pos": 11
+    },
+    {
+     "name": "Tibor Bagi",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "PR 9:50",
+     "scored": true,
+     "total": 34,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
      "pos": 12
     },
     {
@@ -1980,10 +1980,10 @@
      "countryName": "Serbia",
      "group": "PR 9:20",
      "scored": true,
-     "total": 28,
-     "arrows": 8,
+     "total": 33,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 13
     },
     {
@@ -1992,10 +1992,58 @@
      "countryName": "Hungary",
      "group": "PR 9:30",
      "scored": true,
-     "total": 23,
-     "arrows": 6,
+     "total": 31,
+     "arrows": 7,
      "day": "1",
-     "target": "6",
+     "target": "8",
+     "pos": 14
+    },
+    {
+     "name": "Michael Witschaß",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "PR 9:40",
+     "scored": true,
+     "total": 31,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 14
+    },
+    {
+     "name": "Sven Gehritz",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "PR 9:50",
+     "scored": true,
+     "total": 31,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 14
+    },
+    {
+     "name": "Tamás Kalmár",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 9:50",
+     "scored": true,
+     "total": 31,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 14
+    },
+    {
+     "name": "Dragisa Zivkovic",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 9:50",
+     "scored": true,
+     "total": 31,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
      "pos": 14
     },
     {
@@ -2004,23 +2052,59 @@
      "countryName": "Slovakia",
      "group": "PR 9:40",
      "scored": true,
-     "total": 21,
-     "arrows": 3,
+     "total": 26,
+     "arrows": 5,
      "day": "1",
-     "target": "4",
-     "pos": 15
+     "target": "5",
+     "pos": 19
     },
     {
-     "name": "Dragisa Zivkovic",
+     "name": "Peter Panzenböck",
      "country": "AUT",
      "countryName": "Austria",
      "group": "PR 9:50",
+     "scored": true,
+     "total": 24,
+     "arrows": 5,
+     "day": "1",
+     "target": "6",
+     "pos": 20
+    },
+    {
+     "name": "Peter Sartorius",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "PR 9:30",
+     "scored": true,
+     "total": 23,
+     "arrows": 8,
+     "day": "1",
+     "target": "9",
+     "pos": 21
+    },
+    {
+     "name": "Ferenc Kalmár",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 23,
+     "arrows": 3,
+     "day": "1",
+     "target": "3",
+     "pos": 21
+    },
+    {
+     "name": "Robert Tomaszewski",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "PR 10:00",
      "scored": true,
      "total": 21,
      "arrows": 3,
      "day": "1",
      "target": "3",
-     "pos": 15
+     "pos": 23
     },
     {
      "name": "Ales Hybner",
@@ -2029,70 +2113,70 @@
      "group": "PR 9:40",
      "scored": true,
      "total": 20,
-     "arrows": 4,
+     "arrows": 5,
      "day": "1",
-     "target": "4",
-     "pos": 17
+     "target": "5",
+     "pos": 24
     },
     {
-     "name": "Sven Gehritz",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "PR 9:50",
+     "name": "Reinhold Marx",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 10:10",
      "scored": true,
      "total": 20,
-     "arrows": 3,
+     "arrows": 2,
      "day": "1",
-     "target": "3",
-     "pos": 17
+     "target": "2",
+     "pos": 24
     },
     {
-     "name": "Tamás Kalmár",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 9:50",
+     "name": "Horst Kollmer",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 10:00",
      "scored": true,
      "total": 18,
      "arrows": 3,
      "day": "1",
-     "target": "3",
-     "pos": 19
+     "target": "4",
+     "pos": 26
     },
     {
-     "name": "Ferenc Kalmár",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 10:00",
+     "name": "Zdenek Lukáč",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "PR 10:10",
      "scored": true,
      "total": 18,
      "arrows": 2,
      "day": "1",
      "target": "2",
-     "pos": 19
+     "pos": 26
     },
     {
-     "name": "Tibor Bagi",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "PR 9:50",
+     "name": "Joachim Razenberger",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 9:40",
+     "scored": true,
+     "total": 15,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 28
+    },
+    {
+     "name": "Michael Wengerter",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "PR 10:00",
      "scored": true,
      "total": 15,
      "arrows": 3,
      "day": "1",
      "target": "3",
-     "pos": 21
-    },
-    {
-     "name": "Peter Panzenböck",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 9:50",
-     "scored": true,
-     "total": 13,
-     "arrows": 3,
-     "day": "1",
-     "target": "4",
-     "pos": 22
+     "pos": 28
     },
     {
      "name": "Antonio Mastrangelo",
@@ -2101,58 +2185,22 @@
      "group": "PR 9:50",
      "scored": true,
      "total": 13,
-     "arrows": 2,
+     "arrows": 5,
      "day": "1",
-     "target": "3",
-     "pos": 22
+     "target": "5",
+     "pos": 30
     },
     {
-     "name": "Robert Tomaszewski",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "PR 10:00",
+     "name": "Terje Bakke",
+     "country": "NOR",
+     "countryName": "Norway",
+     "group": "PR 10:10",
      "scored": true,
      "total": 13,
      "arrows": 2,
      "day": "1",
-     "target": "2",
-     "pos": 22
-    },
-    {
-     "name": "Peter Sartorius",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "PR 9:30",
-     "scored": true,
-     "total": 10,
-     "arrows": 6,
-     "day": "1",
-     "target": "7",
-     "pos": 25
-    },
-    {
-     "name": "Joachim Razenberger",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 9:40",
-     "scored": true,
-     "total": 10,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 25
-    },
-    {
-     "name": "Horst Kollmer",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 10,
-     "arrows": 2,
-     "day": "1",
      "target": "3",
-     "pos": 25
+     "pos": 30
     },
     {
      "name": "Tibor Dezso",
@@ -2161,10 +2209,10 @@
      "group": "PR 10:00",
      "scored": true,
      "total": 10,
-     "arrows": 2,
+     "arrows": 3,
      "day": "1",
-     "target": "2",
-     "pos": 25
+     "target": "3",
+     "pos": 32
     },
     {
      "name": "Wolfgang Wenzl",
@@ -2173,45 +2221,9 @@
      "group": "PR 10:00",
      "scored": true,
      "total": 10,
-     "arrows": 2,
+     "arrows": 3,
      "day": "1",
-     "target": "2",
-     "pos": 25
-    },
-    {
-     "name": "Michael Wengerter",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 10,
-     "arrows": 2,
-     "day": "1",
-     "target": "2",
-     "pos": 25
-    },
-    {
-     "name": "Reinhold Marx",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 10:10",
-     "scored": true,
-     "total": 10,
-     "arrows": 1,
-     "day": "1",
-     "target": "1",
-     "pos": 25
-    },
-    {
-     "name": "Zdenek Lukáč",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "PR 10:10",
-     "scored": true,
-     "total": 8,
-     "arrows": 1,
-     "day": "1",
-     "target": "1",
+     "target": "3",
      "pos": 32
     },
     {
@@ -2221,22 +2233,70 @@
      "group": "PR 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 32
+     "target": "2",
+     "pos": 34
     },
     {
-     "name": "Terje Bakke",
-     "country": "NOR",
-     "countryName": "Norway",
-     "group": "PR 10:10",
+     "name": "Wolfgang Spitzer",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 10:20",
      "scored": true,
      "total": 8,
      "arrows": 1,
      "day": "1",
+     "target": "1",
+     "pos": 34
+    },
+    {
+     "name": "László Major",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 10:20",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
      "target": "2",
-     "pos": 32
+     "pos": 36
+    },
+    {
+     "name": "Thomas Leski",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 10:20",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 36
+    },
+    {
+     "name": "Hermann Reindl",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "PR 10:20",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 36
+    },
+    {
+     "name": "Borbély Péter",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 10:20",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 36
     },
     {
      "name": "Bálint Papp",
@@ -2245,22 +2305,10 @@
      "group": "PR 10:10",
      "scored": true,
      "total": 0,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 35
-    },
-    {
-     "name": "Borbély Péter",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "target": "2",
+     "pos": 40
     },
     {
      "name": "Denni Wiss",
@@ -2279,54 +2327,6 @@
      "country": "AUT",
      "countryName": "Austria",
      "group": "PR 11:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Hermann Reindl",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "László Major",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Thomas Leski",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Wolfgang Spitzer",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "PR 10:20",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -2581,6 +2581,18 @@
    "updated": "",
    "results": [
     {
+     "name": "Erik Bilić-Erić",
+     "country": "GRE",
+     "countryName": "Greece",
+     "group": "PR 10:20",
+     "scored": true,
+     "total": 8,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 1
+    },
+    {
      "name": "Alexander Schultz",
      "country": "AUT",
      "countryName": "Austria",
@@ -2693,18 +2705,6 @@
      "country": "HUN",
      "countryName": "Hungary",
      "group": "PR 11:10",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Erik Bilić-Erić",
-     "country": "GRE",
-     "countryName": "Greece",
-     "group": "PR 10:20",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -4456,7 +4456,7 @@
    "bow": "HU",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "updated": "",
+   "updated": "2026-09-01 10:31:51",
    "results": [
     {
      "name": "Mihály Farkas",
@@ -4471,6 +4471,54 @@
      "pos": 1
     },
     {
+     "name": "Slavko Brezovnik",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "GR 8:40",
+     "scored": true,
+     "total": 101,
+     "arrows": 12,
+     "day": "1",
+     "target": "12",
+     "pos": 2
+    },
+    {
+     "name": "Manfred Fiedler",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "GR 8:40",
+     "scored": true,
+     "total": 96,
+     "arrows": 12,
+     "day": "1",
+     "target": "12",
+     "pos": 3
+    },
+    {
+     "name": "Sándor Kelemen",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 8:40",
+     "scored": true,
+     "total": 94,
+     "arrows": 12,
+     "day": "1",
+     "target": "12",
+     "pos": 4
+    },
+    {
+     "name": "Zsolt Péter",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 8:40",
+     "scored": true,
+     "total": 94,
+     "arrows": 12,
+     "day": "1",
+     "target": "12",
+     "pos": 4
+    },
+    {
      "name": "Karol Spanyo",
      "country": "SVK",
      "countryName": "Slovakia",
@@ -4479,20 +4527,20 @@
      "total": 93,
      "arrows": 12,
      "day": "1",
-     "target": "12",
-     "pos": 2
+     "target": "13",
+     "pos": 6
     },
     {
-     "name": "Slavko Brezovnik",
-     "country": "SLO",
-     "countryName": "Slovenia",
+     "name": "Peter Kaplavka",
+     "country": "SVK",
+     "countryName": "Slovakia",
      "group": "GR 8:40",
      "scored": true,
-     "total": 93,
-     "arrows": 11,
+     "total": 92,
+     "arrows": 12,
      "day": "1",
-     "target": "11",
-     "pos": 2
+     "target": "13",
+     "pos": 7
     },
     {
      "name": "Kovacs Marius",
@@ -4504,54 +4552,6 @@
      "arrows": 12,
      "day": "1",
      "target": "12",
-     "pos": 4
-    },
-    {
-     "name": "Manfred Fiedler",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "GR 8:40",
-     "scored": true,
-     "total": 86,
-     "arrows": 11,
-     "day": "1",
-     "target": "11",
-     "pos": 5
-    },
-    {
-     "name": "Sándor Kelemen",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 8:40",
-     "scored": true,
-     "total": 86,
-     "arrows": 11,
-     "day": "1",
-     "target": "11",
-     "pos": 5
-    },
-    {
-     "name": "Zsolt Péter",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 8:40",
-     "scored": true,
-     "total": 86,
-     "arrows": 11,
-     "day": "1",
-     "target": "11",
-     "pos": 5
-    },
-    {
-     "name": "Peter Kaplavka",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 8:40",
-     "scored": true,
-     "total": 81,
-     "arrows": 11,
-     "day": "1",
-     "target": "12",
      "pos": 8
     },
     {
@@ -4560,35 +4560,11 @@
      "countryName": "Slovakia",
      "group": "GR 8:50",
      "scored": true,
-     "total": 80,
-     "arrows": 9,
+     "total": 90,
+     "arrows": 10,
      "day": "1",
      "target": "10",
-     "pos": 9
-    },
-    {
-     "name": "Edvin Ambrož",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "GR 8:50",
-     "scored": true,
-     "total": 79,
-     "arrows": 9,
-     "day": "1",
-     "target": "10",
-     "pos": 10
-    },
-    {
-     "name": "Grecu Alexandru Ovidiu",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "GR 8:50",
-     "scored": true,
-     "total": 76,
-     "arrows": 9,
-     "day": "1",
-     "target": "10",
-     "pos": 11
+     "pos": 8
     },
     {
      "name": "DRAGAN RUBEŠA",
@@ -4596,11 +4572,11 @@
      "countryName": "Croatia",
      "group": "GR 8:40",
      "scored": true,
-     "total": 75,
-     "arrows": 11,
+     "total": 85,
+     "arrows": 12,
      "day": "1",
-     "target": "11",
-     "pos": 12
+     "target": "12",
+     "pos": 10
     },
     {
      "name": "Barna Nagy",
@@ -4608,11 +4584,59 @@
      "countryName": "Hungary",
      "group": "GR 9:00",
      "scored": true,
-     "total": 74,
-     "arrows": 9,
+     "total": 85,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
+     "target": "10",
+     "pos": 10
+    },
+    {
+     "name": "Edvin Ambrož",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "GR 8:50",
+     "scored": true,
+     "total": 84,
+     "arrows": 10,
+     "day": "1",
+     "target": "11",
+     "pos": 12
+    },
+    {
+     "name": "Grecu Alexandru Ovidiu",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "GR 8:50",
+     "scored": true,
+     "total": 81,
+     "arrows": 10,
+     "day": "1",
+     "target": "10",
      "pos": 13
+    },
+    {
+     "name": "Danilo Trost",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "GR 8:50",
+     "scored": true,
+     "total": 78,
+     "arrows": 10,
+     "day": "1",
+     "target": "10",
+     "pos": 14
+    },
+    {
+     "name": "Ferenc Császár",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 8:50",
+     "scored": true,
+     "total": 74,
+     "arrows": 10,
+     "day": "1",
+     "target": "10",
+     "pos": 15
     },
     {
      "name": "József Füleki",
@@ -4624,7 +4648,19 @@
      "arrows": 12,
      "day": "1",
      "target": "12",
-     "pos": 14
+     "pos": 16
+    },
+    {
+     "name": "Doda Mircea Cornel",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "GR 9:00",
+     "scored": true,
+     "total": 72,
+     "arrows": 10,
+     "day": "1",
+     "target": "11",
+     "pos": 17
     },
     {
      "name": "Miroslav Učeň",
@@ -4636,42 +4672,6 @@
      "arrows": 12,
      "day": "1",
      "target": "12",
-     "pos": 15
-    },
-    {
-     "name": "Danilo Trost",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "GR 8:50",
-     "scored": true,
-     "total": 70,
-     "arrows": 9,
-     "day": "1",
-     "target": "10",
-     "pos": 15
-    },
-    {
-     "name": "Ferenc Császár",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 8:50",
-     "scored": true,
-     "total": 69,
-     "arrows": 9,
-     "day": "1",
-     "target": "10",
-     "pos": 17
-    },
-    {
-     "name": "Doda Mircea Cornel",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "GR 9:00",
-     "scored": true,
-     "total": 67,
-     "arrows": 9,
-     "day": "1",
-     "target": "10",
      "pos": 18
     },
     {
@@ -4680,8 +4680,8 @@
      "countryName": "Hungary",
      "group": "GR 8:50",
      "scored": true,
-     "total": 54,
-     "arrows": 9,
+     "total": 59,
+     "arrows": 10,
      "day": "1",
      "target": "10",
      "pos": 19
@@ -4713,8 +4713,8 @@
      "countryName": "Slovakia",
      "group": "GR 8:30",
      "scored": true,
-     "total": 41,
-     "arrows": 12,
+     "total": 46,
+     "arrows": 13,
      "day": "1",
      "target": "13",
      "pos": 1
@@ -4726,7 +4726,7 @@
    "bow": "HU",
    "age": "Adults (21-54 years)",
    "gender": "Male",
-   "updated": "",
+   "updated": "2026-09-01 10:31:51",
    "results": [
     {
      "name": "Falk Köhler",
@@ -4734,10 +4734,10 @@
      "countryName": "Germany",
      "group": "GR 9:00",
      "scored": true,
-     "total": 85,
-     "arrows": 9,
+     "total": 93,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 1
     },
     {
@@ -4746,10 +4746,10 @@
      "countryName": "Russian Federation",
      "group": "GR 9:00",
      "scored": true,
-     "total": 84,
-     "arrows": 9,
+     "total": 92,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 2
     },
     {
@@ -4758,10 +4758,10 @@
      "countryName": "Italy",
      "group": "GR 9:00",
      "scored": true,
-     "total": 81,
-     "arrows": 9,
+     "total": 89,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 3
     },
     {
@@ -4770,35 +4770,11 @@
      "countryName": "Slovakia",
      "group": "GR 9:10",
      "scored": true,
-     "total": 67,
-     "arrows": 8,
+     "total": 77,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 4
-    },
-    {
-     "name": "Marek Běhula",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 9:10",
-     "scored": true,
-     "total": 66,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 5
-    },
-    {
-     "name": "József Sipeki",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 9:10",
-     "scored": true,
-     "total": 65,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 6
     },
     {
      "name": "Peter Vilim",
@@ -4806,10 +4782,34 @@
      "countryName": "Slovakia",
      "group": "GR 9:20",
      "scored": true,
-     "total": 65,
-     "arrows": 7,
+     "total": 76,
+     "arrows": 8,
      "day": "1",
-     "target": "7",
+     "target": "8",
+     "pos": 5
+    },
+    {
+     "name": "Marek Běhula",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "GR 9:10",
+     "scored": true,
+     "total": 74,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 6
+    },
+    {
+     "name": "Fülemits Kristián",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "GR 9:20",
+     "scored": true,
+     "total": 74,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
      "pos": 6
     },
     {
@@ -4818,83 +4818,23 @@
      "countryName": "Serbia",
      "group": "GR 9:10",
      "scored": true,
-     "total": 63,
-     "arrows": 8,
+     "total": 71,
+     "arrows": 9,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 8
     },
     {
-     "name": "Fülemits Kristián",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 9:20",
-     "scored": true,
-     "total": 63,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 8
-    },
-    {
-     "name": "Csaba Zsankó",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 9:20",
-     "scored": true,
-     "total": 58,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 10
-    },
-    {
-     "name": "Janos Szabo",
+     "name": "József Sipeki",
      "country": "HUN",
      "countryName": "Hungary",
      "group": "GR 9:10",
      "scored": true,
-     "total": 57,
-     "arrows": 8,
+     "total": 70,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
-     "pos": 11
-    },
-    {
-     "name": "Martin Kostrouch",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "GR 9:20",
-     "scored": true,
-     "total": 55,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 12
-    },
-    {
-     "name": "Zdenko Vicen",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 9:30",
-     "scored": true,
-     "total": 55,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 12
-    },
-    {
-     "name": "ANDREA FANTONI",
-     "country": "ITA",
-     "countryName": "Italy",
-     "group": "GR 9:20",
-     "scored": true,
-     "total": 54,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 14
+     "target": "9",
+     "pos": 9
     },
     {
      "name": "Róbert Goč",
@@ -4902,11 +4842,23 @@
      "countryName": "Slovakia",
      "group": "GR 9:30",
      "scored": true,
-     "total": 51,
-     "arrows": 6,
+     "total": 70,
+     "arrows": 8,
      "day": "1",
-     "target": "6",
-     "pos": 15
+     "target": "8",
+     "pos": 9
+    },
+    {
+     "name": "Csaba Zsankó",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 9:20",
+     "scored": true,
+     "total": 66,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 11
     },
     {
      "name": "Petre Manu",
@@ -4914,11 +4866,35 @@
      "countryName": "Romania",
      "group": "GR 9:30",
      "scored": true,
-     "total": 48,
-     "arrows": 6,
+     "total": 66,
+     "arrows": 8,
      "day": "1",
-     "target": "7",
-     "pos": 16
+     "target": "8",
+     "pos": 11
+    },
+    {
+     "name": "Janos Szabo",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 9:10",
+     "scored": true,
+     "total": 65,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 13
+    },
+    {
+     "name": "ANDREA FANTONI",
+     "country": "ITA",
+     "countryName": "Italy",
+     "group": "GR 9:20",
+     "scored": true,
+     "total": 64,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 14
     },
     {
      "name": "Roland Lörincz",
@@ -4926,10 +4902,34 @@
      "countryName": "Czech Republic",
      "group": "GR 9:30",
      "scored": true,
-     "total": 46,
-     "arrows": 6,
+     "total": 64,
+     "arrows": 8,
      "day": "1",
-     "target": "6",
+     "target": "8",
+     "pos": 14
+    },
+    {
+     "name": "Martin Kostrouch",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "GR 9:20",
+     "scored": true,
+     "total": 63,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 16
+    },
+    {
+     "name": "Zdenko Vicen",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "GR 9:30",
+     "scored": true,
+     "total": 60,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
      "pos": 17
     },
     {
@@ -4938,23 +4938,11 @@
      "countryName": "Romania",
      "group": "GR 9:20",
      "scored": true,
-     "total": 45,
-     "arrows": 7,
+     "total": 53,
+     "arrows": 8,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 18
-    },
-    {
-     "name": "Vladimír Búran",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 44,
-     "arrows": 5,
-     "day": "1",
-     "target": "5",
-     "pos": 19
     },
     {
      "name": "Mariusz Portnicki-Boras",
@@ -4962,10 +4950,10 @@
      "countryName": "Poland",
      "group": "GR 9:40",
      "scored": true,
-     "total": 44,
-     "arrows": 5,
+     "total": 52,
+     "arrows": 6,
      "day": "1",
-     "target": "5",
+     "target": "6",
      "pos": 19
     },
     {
@@ -4974,8 +4962,32 @@
      "countryName": "Austria",
      "group": "GR 9:30",
      "scored": true,
-     "total": 42,
-     "arrows": 5,
+     "total": 50,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 20
+    },
+    {
+     "name": "Krzysztof Garbulski",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "GR 9:10",
+     "scored": true,
+     "total": 49,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 21
+    },
+    {
+     "name": "Vladimír Búran",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 49,
+     "arrows": 6,
      "day": "1",
      "target": "6",
      "pos": 21
@@ -4986,23 +4998,11 @@
      "countryName": "Slovakia",
      "group": "GR 9:40",
      "scored": true,
-     "total": 41,
-     "arrows": 5,
+     "total": 49,
+     "arrows": 6,
      "day": "1",
-     "target": "5",
-     "pos": 22
-    },
-    {
-     "name": "Krzysztof Garbulski",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "GR 9:10",
-     "scored": true,
-     "total": 39,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 23
+     "target": "6",
+     "pos": 21
     },
     {
      "name": "István Gulyás",
@@ -5010,11 +5010,71 @@
      "countryName": "Hungary",
      "group": "GR 9:50",
      "scored": true,
-     "total": 37,
+     "total": 45,
+     "arrows": 5,
+     "day": "1",
+     "target": "6",
+     "pos": 24
+    },
+    {
+     "name": "Rade Božić",
+     "country": "SRB",
+     "countryName": "Serbia",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 41,
+     "arrows": 6,
+     "day": "1",
+     "target": "6",
+     "pos": 25
+    },
+    {
+     "name": "Viktor Fenesi",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 9:50",
+     "scored": true,
+     "total": 41,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 25
+    },
+    {
+     "name": "Michael Lechner",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "GR 10:00",
+     "scored": true,
+     "total": 41,
      "arrows": 4,
      "day": "1",
      "target": "5",
-     "pos": 24
+     "pos": 25
+    },
+    {
+     "name": "Peter Brindza",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 39,
+     "arrows": 6,
+     "day": "1",
+     "target": "6",
+     "pos": 28
+    },
+    {
+     "name": "Zoran Tapavički",
+     "country": "SRB",
+     "countryName": "Serbia",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 36,
+     "arrows": 6,
+     "day": "1",
+     "target": "7",
+     "pos": 29
     },
     {
      "name": "Zoltán Huszár",
@@ -5025,68 +5085,8 @@
      "total": 34,
      "arrows": 4,
      "day": "1",
-     "target": "4",
-     "pos": 25
-    },
-    {
-     "name": "Zoran Tapavički",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 31,
-     "arrows": 5,
-     "day": "1",
-     "target": "6",
-     "pos": 26
-    },
-    {
-     "name": "Peter Brindza",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 31,
-     "arrows": 5,
-     "day": "1",
      "target": "5",
-     "pos": 26
-    },
-    {
-     "name": "Rade Božić",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 31,
-     "arrows": 5,
-     "day": "1",
-     "target": "5",
-     "pos": 26
-    },
-    {
-     "name": "Viktor Fenesi",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 9:50",
-     "scored": true,
-     "total": 31,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 26
-    },
-    {
-     "name": "Michael Lechner",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "GR 10:00",
-     "scored": true,
-     "total": 31,
-     "arrows": 3,
-     "day": "1",
-     "target": "4",
-     "pos": 26
+     "pos": 30
     },
     {
      "name": "Martin Kubeček",
@@ -5094,22 +5094,10 @@
      "countryName": "Czech Republic",
      "group": "GR 9:50",
      "scored": true,
-     "total": 23,
-     "arrows": 4,
+     "total": 33,
+     "arrows": 5,
      "day": "1",
-     "target": "4",
-     "pos": 31
-    },
-    {
-     "name": "Martin Šudy",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "GR 9:50",
-     "scored": true,
-     "total": 23,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
+     "target": "5",
      "pos": 31
     },
     {
@@ -5118,10 +5106,10 @@
      "countryName": "Hungary",
      "group": "GR 10:00",
      "scored": true,
-     "total": 23,
-     "arrows": 3,
+     "total": 33,
+     "arrows": 4,
      "day": "1",
-     "target": "3",
+     "target": "4",
      "pos": 31
     },
     {
@@ -5130,11 +5118,11 @@
      "countryName": "Hungary",
      "group": "GR 10:00",
      "scored": true,
-     "total": 21,
-     "arrows": 3,
+     "total": 31,
+     "arrows": 4,
      "day": "1",
-     "target": "3",
-     "pos": 34
+     "target": "4",
+     "pos": 33
     },
     {
      "name": "Razvan-Gabriel Gheorghiu",
@@ -5142,10 +5130,22 @@
      "countryName": "Romania",
      "group": "GR 10:00",
      "scored": true,
-     "total": 18,
-     "arrows": 3,
+     "total": 26,
+     "arrows": 4,
      "day": "1",
-     "target": "3",
+     "target": "4",
+     "pos": 34
+    },
+    {
+     "name": "Martin Šudy",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "GR 9:50",
+     "scored": true,
+     "total": 23,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
      "pos": 35
     },
     {
@@ -5154,10 +5154,10 @@
      "countryName": "Hungary",
      "group": "GR 10:10",
      "scored": true,
-     "total": 11,
-     "arrows": 1,
+     "total": 21,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
+     "target": "2",
      "pos": 36
     },
     {
@@ -5166,10 +5166,10 @@
      "countryName": "Hungary",
      "group": "GR 10:10",
      "scored": true,
-     "total": 10,
-     "arrows": 1,
+     "total": 20,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
+     "target": "2",
      "pos": 37
     },
     {
@@ -5178,11 +5178,23 @@
      "countryName": "Slovakia",
      "group": "GR 10:10",
      "scored": true,
-     "total": 8,
-     "arrows": 1,
+     "total": 19,
+     "arrows": 2,
      "day": "1",
-     "target": "2",
+     "target": "3",
      "pos": 38
+    },
+    {
+     "name": "Filip Vodenik",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "GR 10:20",
+     "scored": true,
+     "total": 18,
+     "arrows": 2,
+     "day": "1",
+     "target": "3",
+     "pos": 39
     },
     {
      "name": "Ciprian Avram",
@@ -5190,11 +5202,11 @@
      "countryName": "Romania",
      "group": "GR 10:10",
      "scored": true,
-     "total": 8,
-     "arrows": 1,
+     "total": 16,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 38
+     "target": "2",
+     "pos": 40
     },
     {
      "name": "Miroslav Horník",
@@ -5202,11 +5214,23 @@
      "countryName": "Czech Republic",
      "group": "GR 10:10",
      "scored": true,
-     "total": 8,
-     "arrows": 1,
+     "total": 16,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 38
+     "target": "2",
+     "pos": 40
+    },
+    {
+     "name": "Milan Dragosavac",
+     "country": "SRB",
+     "countryName": "Serbia",
+     "group": "GR 10:20",
+     "scored": true,
+     "total": 16,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 40
     },
     {
      "name": "Mihai Patrascu",
@@ -5214,65 +5238,41 @@
      "countryName": "Romania",
      "group": "GR 10:10",
      "scored": true,
-     "total": 8,
-     "arrows": 1,
+     "total": 13,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 38
-    },
-    {
-     "name": "Bojan Živković",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "GR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "target": "2",
+     "pos": 43
     },
     {
      "name": "Eduard Novotný",
      "country": "SVK",
      "countryName": "Slovakia",
      "group": "GR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 5,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 44
     },
     {
-     "name": "Filip Vodenik",
-     "country": "SLO",
-     "countryName": "Slovenia",
+     "name": "Bojan Živković",
+     "country": "SRB",
+     "countryName": "Serbia",
      "group": "GR 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 5,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 44
     },
     {
      "name": "Massimiliano Pagliai",
      "country": "ITA",
      "countryName": "Italy",
      "group": "GR 10:00",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Milan Dragosavac",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "GR 10:20",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -6196,7 +6196,7 @@
    "bow": "BB",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "updated": "2026-09-01 10:22:06",
+   "updated": "2026-09-01 10:31:50",
    "results": [
     {
      "name": "Armin Margreiter",
@@ -6204,10 +6204,10 @@
      "countryName": "Austria",
      "group": "BL 9:20",
      "scored": true,
-     "total": 72,
-     "arrows": 8,
+     "total": 93,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 1
     },
     {
@@ -6216,11 +6216,35 @@
      "countryName": "Austria",
      "group": "BL 9:20",
      "scored": true,
-     "total": 70,
-     "arrows": 8,
+     "total": 78,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
      "pos": 2
+    },
+    {
+     "name": "Heine Joergensen",
+     "country": "DEN",
+     "countryName": "Denmark",
+     "group": "BL 9:20",
+     "scored": true,
+     "total": 68,
+     "arrows": 9,
+     "day": "1",
+     "target": "10",
+     "pos": 3
+    },
+    {
+     "name": "Zoran Velagić",
+     "country": "CRO",
+     "countryName": "Croatia",
+     "group": "BL 9:20",
+     "scored": true,
+     "total": 65,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 4
     },
     {
      "name": "István Pongrácz",
@@ -6229,30 +6253,6 @@
      "group": "BL 9:30",
      "scored": true,
      "total": 63,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 3
-    },
-    {
-     "name": "Heine Joergensen",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "BL 9:20",
-     "scored": true,
-     "total": 60,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 4
-    },
-    {
-     "name": "Zoran Velagić",
-     "country": "CRO",
-     "countryName": "Croatia",
-     "group": "BL 9:20",
-     "scored": true,
-     "total": 57,
      "arrows": 8,
      "day": "1",
      "target": "8",
@@ -6264,47 +6264,11 @@
      "countryName": "Croatia",
      "group": "BL 9:30",
      "scored": true,
-     "total": 57,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 5
-    },
-    {
-     "name": "Karl Jany",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 9:30",
-     "scored": true,
-     "total": 56,
-     "arrows": 7,
-     "day": "1",
-     "target": "8",
-     "pos": 7
-    },
-    {
-     "name": "Kurt Jelinek",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 9:30",
-     "scored": true,
-     "total": 54,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 8
-    },
-    {
-     "name": "Lars Gunnes",
-     "country": "SWE",
-     "countryName": "Sweden",
-     "group": "BL 9:20",
-     "scored": true,
-     "total": 50,
+     "total": 62,
      "arrows": 8,
      "day": "1",
      "target": "8",
-     "pos": 9
+     "pos": 6
     },
     {
      "name": "Friedrich Robeischl",
@@ -6312,11 +6276,23 @@
      "countryName": "Austria",
      "group": "BL 9:40",
      "scored": true,
-     "total": 47,
-     "arrows": 5,
+     "total": 62,
+     "arrows": 7,
      "day": "1",
-     "target": "5",
-     "pos": 10
+     "target": "7",
+     "pos": 6
+    },
+    {
+     "name": "Karl Jany",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 9:30",
+     "scored": true,
+     "total": 61,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 8
     },
     {
      "name": "Robert Pálfalvi",
@@ -6324,35 +6300,23 @@
      "countryName": "Hungary",
      "group": "BL 9:40",
      "scored": true,
-     "total": 45,
-     "arrows": 5,
+     "total": 61,
+     "arrows": 7,
      "day": "1",
-     "target": "5",
-     "pos": 11
+     "target": "7",
+     "pos": 8
     },
     {
-     "name": "Hermann Kinberger",
+     "name": "Kurt Jelinek",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 9:30",
      "scored": true,
-     "total": 43,
-     "arrows": 7,
+     "total": 59,
+     "arrows": 8,
      "day": "1",
-     "target": "7",
-     "pos": 12
-    },
-    {
-     "name": "Michael Wölck",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "BL 9:30",
-     "scored": true,
-     "total": 41,
-     "arrows": 7,
-     "day": "1",
-     "target": "7",
-     "pos": 13
+     "target": "8",
+     "pos": 10
     },
     {
      "name": "Aleš Mahdal",
@@ -6360,11 +6324,11 @@
      "countryName": "Czech Republic",
      "group": "BL 9:40",
      "scored": true,
-     "total": 41,
-     "arrows": 5,
+     "total": 59,
+     "arrows": 7,
      "day": "1",
-     "target": "5",
-     "pos": 13
+     "target": "7",
+     "pos": 10
     },
     {
      "name": "Peter Mädl",
@@ -6372,11 +6336,23 @@
      "countryName": "Austria",
      "group": "BL 9:40",
      "scored": true,
-     "total": 40,
-     "arrows": 5,
+     "total": 58,
+     "arrows": 7,
      "day": "1",
-     "target": "5",
-     "pos": 15
+     "target": "7",
+     "pos": 12
+    },
+    {
+     "name": "Lars Gunnes",
+     "country": "SWE",
+     "countryName": "Sweden",
+     "group": "BL 9:20",
+     "scored": true,
+     "total": 55,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
+     "pos": 13
     },
     {
      "name": "Juraj Čulák",
@@ -6384,22 +6360,46 @@
      "countryName": "Slovakia",
      "group": "BL 9:40",
      "scored": true,
-     "total": 39,
-     "arrows": 5,
+     "total": 54,
+     "arrows": 7,
      "day": "1",
-     "target": "5",
+     "target": "7",
+     "pos": 14
+    },
+    {
+     "name": "Hermann Kinberger",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 9:30",
+     "scored": true,
+     "total": 51,
+     "arrows": 8,
+     "day": "1",
+     "target": "8",
+     "pos": 15
+    },
+    {
+     "name": "Hermann Göltl",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 9:40",
+     "scored": true,
+     "total": 49,
+     "arrows": 7,
+     "day": "1",
+     "target": "8",
      "pos": 16
     },
     {
-     "name": "Robert Paczona",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 9:50",
+     "name": "Michael Wölck",
+     "country": "DEN",
+     "countryName": "Denmark",
+     "group": "BL 9:30",
      "scored": true,
-     "total": 38,
-     "arrows": 4,
+     "total": 46,
+     "arrows": 8,
      "day": "1",
-     "target": "4",
+     "target": "8",
      "pos": 17
     },
     {
@@ -6408,23 +6408,23 @@
      "countryName": "Austria",
      "group": "BL 9:50",
      "scored": true,
-     "total": 35,
-     "arrows": 4,
-     "day": "1",
-     "target": "5",
-     "pos": 18
-    },
-    {
-     "name": "Hermann Göltl",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 9:40",
-     "scored": true,
-     "total": 34,
+     "total": 43,
      "arrows": 5,
      "day": "1",
      "target": "6",
-     "pos": 19
+     "pos": 18
+    },
+    {
+     "name": "Robert Paczona",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 9:50",
+     "scored": true,
+     "total": 43,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 18
     },
     {
      "name": "Edgar Loehr",
@@ -6432,11 +6432,83 @@
      "countryName": "Germany",
      "group": "BL 9:50",
      "scored": true,
-     "total": 34,
+     "total": 42,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 20
+    },
+    {
+     "name": "Mihály Pap",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 9:50",
+     "scored": true,
+     "total": 39,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 21
+    },
+    {
+     "name": "Eugeniu Viorel Tamirjan",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "BL 10:00",
+     "scored": true,
+     "total": 38,
      "arrows": 4,
      "day": "1",
-     "target": "4",
-     "pos": 19
+     "target": "5",
+     "pos": 22
+    },
+    {
+     "name": "Josef Ehrenreiter",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 10:00",
+     "scored": true,
+     "total": 38,
+     "arrows": 4,
+     "day": "1",
+     "target": "5",
+     "pos": 22
+    },
+    {
+     "name": "Martin Duschl",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 10:00",
+     "scored": true,
+     "total": 38,
+     "arrows": 4,
+     "day": "1",
+     "target": "5",
+     "pos": 22
+    },
+    {
+     "name": "Dragutin Posavec",
+     "country": "CRO",
+     "countryName": "Croatia",
+     "group": "BL 9:50",
+     "scored": true,
+     "total": 34,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 25
+    },
+    {
+     "name": "Ladislav Kolínko",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 10:00",
+     "scored": true,
+     "total": 33,
+     "arrows": 4,
+     "day": "1",
+     "target": "5",
+     "pos": 26
     },
     {
      "name": "Ladislav Dorčák",
@@ -6445,70 +6517,10 @@
      "group": "BL 9:20",
      "scored": true,
      "total": 31,
-     "arrows": 8,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
-     "pos": 21
-    },
-    {
-     "name": "Mihály Pap",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 9:50",
-     "scored": true,
-     "total": 31,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 21
-    },
-    {
-     "name": "Josef Ehrenreiter",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 10:00",
-     "scored": true,
-     "total": 30,
-     "arrows": 3,
-     "day": "1",
-     "target": "3",
-     "pos": 23
-    },
-    {
-     "name": "Dragutin Posavec",
-     "country": "CRO",
-     "countryName": "Croatia",
-     "group": "BL 9:50",
-     "scored": true,
-     "total": 26,
-     "arrows": 4,
-     "day": "1",
-     "target": "4",
-     "pos": 24
-    },
-    {
-     "name": "Ladislav Kolínko",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 10:00",
-     "scored": true,
-     "total": 23,
-     "arrows": 3,
-     "day": "1",
-     "target": "3",
-     "pos": 25
-    },
-    {
-     "name": "Eduard Krajčík",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "BL 10:00",
-     "scored": true,
-     "total": 21,
-     "arrows": 3,
-     "day": "1",
-     "target": "3",
-     "pos": 26
+     "target": "9",
+     "pos": 27
     },
     {
      "name": "Josef Jelinek",
@@ -6516,35 +6528,23 @@
      "countryName": "Czech Republic",
      "group": "BL 9:50",
      "scored": true,
-     "total": 20,
+     "total": 28,
+     "arrows": 5,
+     "day": "1",
+     "target": "5",
+     "pos": 28
+    },
+    {
+     "name": "Eduard Krajčík",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 10:00",
+     "scored": true,
+     "total": 26,
      "arrows": 4,
      "day": "1",
-     "target": "4",
-     "pos": 27
-    },
-    {
-     "name": "Eugeniu Viorel Tamirjan",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "BL 10:00",
-     "scored": true,
-     "total": 20,
-     "arrows": 2,
-     "day": "1",
-     "target": "2",
-     "pos": 27
-    },
-    {
-     "name": "Martin Duschl",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 10:00",
-     "scored": true,
-     "total": 20,
-     "arrows": 2,
-     "day": "1",
-     "target": "3",
-     "pos": 27
+     "target": "5",
+     "pos": 29
     },
     {
      "name": "Jürgen Valis",
@@ -6552,11 +6552,11 @@
      "countryName": "Austria",
      "group": "BL 10:00",
      "scored": true,
-     "total": 8,
-     "arrows": 2,
+     "total": 26,
+     "arrows": 4,
      "day": "1",
-     "target": "2",
-     "pos": 30
+     "target": "5",
+     "pos": 29
     },
     {
      "name": "Ján Kúdela",
@@ -6564,23 +6564,23 @@
      "countryName": "Slovakia",
      "group": "BL 10:10",
      "scored": true,
-     "total": 8,
-     "arrows": 1,
+     "total": 18,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 30
+     "target": "2",
+     "pos": 31
     },
     {
      "name": "Friedrich Ruhmer",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 18,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 31
     },
     {
      "name": "Teo Božiković",
@@ -6601,19 +6601,55 @@
    "bow": "BB",
    "age": "Veteran (55 years of age or older)",
    "gender": "Female",
-   "updated": "",
+   "updated": "2026-09-01 10:31:50",
    "results": [
+    {
+     "name": "Kovácsné Bulin Andrea",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 10:10",
+     "scored": true,
+     "total": 19,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 1
+    },
     {
      "name": "Margarete Robeischl",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 10:10",
      "scored": true,
-     "total": 10,
-     "arrows": 1,
+     "total": 18,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 1
+     "target": "2",
+     "pos": 2
+    },
+    {
+     "name": "Zita Tamirjan",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "BL 10:20",
+     "scored": true,
+     "total": 13,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 3
+    },
+    {
+     "name": "Vera Majerova",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 10:20",
+     "scored": true,
+     "total": 11,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 4
     },
     {
      "name": "Ana Pustovrh",
@@ -6622,10 +6658,10 @@
      "group": "BL 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "2",
-     "pos": 2
+     "target": "3",
+     "pos": 5
     },
     {
      "name": "Elke Haas",
@@ -6634,10 +6670,10 @@
      "group": "BL 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 2
+     "target": "2",
+     "pos": 5
     },
     {
      "name": "Heidelinde Jeitler",
@@ -6646,58 +6682,22 @@
      "group": "BL 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 1,
+     "arrows": 2,
      "day": "1",
-     "target": "1",
-     "pos": 2
-    },
-    {
-     "name": "Kovácsné Bulin Andrea",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 10:10",
-     "scored": true,
-     "total": 8,
-     "arrows": 1,
-     "day": "1",
-     "target": "1",
-     "pos": 2
+     "target": "2",
+     "pos": 5
     },
     {
      "name": "Petra Ammer",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Vera Majerova",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Zita Tamirjan",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "BL 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 5,
+     "arrows": 2,
+     "day": "1",
+     "target": "3",
+     "pos": 8
     }
    ]
   },
@@ -7351,61 +7351,97 @@
    "bow": "BB",
    "age": "Adults (21-54 years)",
    "gender": "Female",
-   "updated": "",
+   "updated": "2026-09-01 10:31:40",
    "results": [
     {
      "name": "Andrea Valis",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 10,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 1
     },
     {
-     "name": "Barbara Obreza",
-     "country": "SLO",
-     "countryName": "Slovenia",
+     "name": "Kateřina Čejpová",
+     "country": "CZE",
+     "countryName": "Czech Republic",
      "group": "BL 10:30",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 8,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 2
+    },
+    {
+     "name": "Mogos Loredana",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "BL 10:30",
+     "scored": true,
+     "total": 8,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 2
     },
     {
      "name": "Camelia Avram",
      "country": "ROU",
      "countryName": "Romania",
      "group": "BL 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "scored": true,
+     "total": 5,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 4
     },
     {
-     "name": "Csilla Jelinek",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 10:50",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
+     "name": "Barbara Obreza",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "BL 10:30",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 4
     },
     {
      "name": "Daniela Ruhmer",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 10:30",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 4
+    },
+    {
+     "name": "Tamara Stuhlberger",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 10:30",
+     "scored": true,
+     "total": 5,
+     "arrows": 1,
+     "day": "1",
+     "target": "1",
+     "pos": 4
+    },
+    {
+     "name": "Csilla Jelinek",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 10:50",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -7474,18 +7510,6 @@
      "pos": 0
     },
     {
-     "name": "Kateřina Čejpová",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 10:30",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
      "name": "Laura Słomiany",
      "country": "POL",
      "countryName": "Poland",
@@ -7502,18 +7526,6 @@
      "country": "CZE",
      "countryName": "Czech Republic",
      "group": "BL 10:40",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Mogos Loredana",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "BL 10:30",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -7562,18 +7574,6 @@
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 10:40",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Tamara Stuhlberger",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 10:30",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -8056,31 +8056,31 @@
    "bow": "TR-LB",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "updated": "2026-09-01 10:22:07",
+   "updated": "",
    "results": [
-    {
-     "name": "Dušan Binder",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "WH 8:30",
-     "scored": true,
-     "total": 128,
-     "arrows": 18,
-     "day": "1",
-     "target": "18",
-     "pos": 1
-    },
     {
      "name": "Ingmar Spendier",
      "country": "AUT",
      "countryName": "Austria",
      "group": "WH 8:30",
      "scored": true,
-     "total": 128,
-     "arrows": 18,
+     "total": 144,
+     "arrows": 20,
      "day": "1",
-     "target": "18",
+     "target": "20",
      "pos": 1
+    },
+    {
+     "name": "Dušan Binder",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 8:30",
+     "scored": true,
+     "total": 143,
+     "arrows": 20,
+     "day": "1",
+     "target": "20",
+     "pos": 2
     },
     {
      "name": "Flemming Malmquist Obling",
@@ -8088,10 +8088,10 @@
      "countryName": "Denmark",
      "group": "WH 8:30",
      "scored": true,
-     "total": 111,
-     "arrows": 18,
+     "total": 124,
+     "arrows": 20,
      "day": "1",
-     "target": "18",
+     "target": "20",
      "pos": 3
     },
     {
@@ -8100,10 +8100,10 @@
      "countryName": "Slovakia",
      "group": "WH 8:30",
      "scored": true,
-     "total": 101,
-     "arrows": 18,
+     "total": 109,
+     "arrows": 20,
      "day": "1",
-     "target": "18",
+     "target": "20",
      "pos": 4
     },
     {
@@ -8112,10 +8112,10 @@
      "countryName": "Austria",
      "group": "WH 8:30",
      "scored": true,
-     "total": 70,
-     "arrows": 18,
+     "total": 80,
+     "arrows": 20,
      "day": "1",
-     "target": "19",
+     "target": "21",
      "pos": 5
     },
     {
@@ -8124,10 +8124,10 @@
      "countryName": "Germany",
      "group": "WH 9:00",
      "scored": true,
-     "total": 69,
-     "arrows": 10,
+     "total": 79,
+     "arrows": 12,
      "day": "1",
-     "target": "11",
+     "target": "13",
      "pos": 6
     },
     {
@@ -8136,10 +8136,10 @@
      "countryName": "Serbia",
      "group": "WH 8:40",
      "scored": true,
-     "total": 68,
-     "arrows": 13,
+     "total": 76,
+     "arrows": 14,
      "day": "1",
-     "target": "13",
+     "target": "1",
      "pos": 7
     },
     {
@@ -8148,8 +8148,8 @@
      "countryName": "Germany",
      "group": "WH 9:10",
      "scored": true,
-     "total": 65,
-     "arrows": 10,
+     "total": 70,
+     "arrows": 11,
      "day": "1",
      "target": "11",
      "pos": 8
@@ -8160,10 +8160,10 @@
      "countryName": "Czech Republic",
      "group": "WH 9:20",
      "scored": true,
-     "total": 65,
-     "arrows": 9,
+     "total": 70,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
+     "target": "10",
      "pos": 8
     },
     {
@@ -8172,11 +8172,11 @@
      "countryName": "Italy",
      "group": "WH 9:20",
      "scored": true,
-     "total": 60,
-     "arrows": 9,
+     "total": 70,
+     "arrows": 10,
      "day": "1",
-     "target": "9",
-     "pos": 10
+     "target": "10",
+     "pos": 8
     },
     {
      "name": "Meho Sortland",
@@ -8184,10 +8184,10 @@
      "countryName": "Norway",
      "group": "WH 9:10",
      "scored": true,
-     "total": 58,
-     "arrows": 10,
+     "total": 68,
+     "arrows": 11,
      "day": "1",
-     "target": "10",
+     "target": "11",
      "pos": 11
     },
     {
@@ -8196,10 +8196,10 @@
      "countryName": "Slovakia",
      "group": "WH 8:40",
      "scored": true,
-     "total": 57,
-     "arrows": 13,
+     "total": 65,
+     "arrows": 14,
      "day": "1",
-     "target": "13",
+     "target": "1",
      "pos": 12
     },
     {
@@ -8208,10 +8208,10 @@
      "countryName": "Serbia",
      "group": "WH 8:40",
      "scored": true,
-     "total": 57,
-     "arrows": 13,
+     "total": 65,
+     "arrows": 14,
      "day": "1",
-     "target": "13",
+     "target": "14",
      "pos": 12
     },
     {
@@ -8220,11 +8220,71 @@
      "countryName": "Sweden",
      "group": "WH 8:40",
      "scored": true,
-     "total": 57,
-     "arrows": 13,
+     "total": 62,
+     "arrows": 14,
      "day": "1",
-     "target": "13",
-     "pos": 12
+     "target": "14",
+     "pos": 14
+    },
+    {
+     "name": "František Kondicz",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 9:20",
+     "scored": true,
+     "total": 62,
+     "arrows": 10,
+     "day": "1",
+     "target": "10",
+     "pos": 14
+    },
+    {
+     "name": "Franz Ammer",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 9:40",
+     "scored": true,
+     "total": 62,
+     "arrows": 9,
+     "day": "1",
+     "target": "10",
+     "pos": 14
+    },
+    {
+     "name": "Mihaly Vas",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "WH 9:20",
+     "scored": true,
+     "total": 60,
+     "arrows": 10,
+     "day": "1",
+     "target": "11",
+     "pos": 17
+    },
+    {
+     "name": "Bjarne Klausen",
+     "country": "DEN",
+     "countryName": "Denmark",
+     "group": "WH 9:20",
+     "scored": true,
+     "total": 60,
+     "arrows": 10,
+     "day": "1",
+     "target": "10",
+     "pos": 17
+    },
+    {
+     "name": "Milan Kejzar",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "WH 8:40",
+     "scored": true,
+     "total": 58,
+     "arrows": 14,
+     "day": "1",
+     "target": "1",
+     "pos": 19
     },
     {
      "name": "Manfred Hanus",
@@ -8236,7 +8296,31 @@
      "arrows": 10,
      "day": "1",
      "target": "10",
-     "pos": 15
+     "pos": 20
+    },
+    {
+     "name": "Peter Mekýš",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 9:20",
+     "scored": true,
+     "total": 56,
+     "arrows": 10,
+     "day": "1",
+     "target": "10",
+     "pos": 20
+    },
+    {
+     "name": "Heiko Thiele",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "WH 9:00",
+     "scored": true,
+     "total": 54,
+     "arrows": 12,
+     "day": "1",
+     "target": "12",
+     "pos": 22
     },
     {
      "name": "Martin Červinka",
@@ -8248,19 +8332,19 @@
      "arrows": 10,
      "day": "1",
      "target": "10",
-     "pos": 16
+     "pos": 22
     },
     {
-     "name": "František Kondicz",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "WH 9:20",
+     "name": "Gerhard Schaumberger",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 9:30",
      "scored": true,
      "total": 54,
      "arrows": 9,
      "day": "1",
      "target": "9",
-     "pos": 16
+     "pos": 22
     },
     {
      "name": "Jan Prevaj",
@@ -8269,10 +8353,10 @@
      "group": "WH 8:40",
      "scored": true,
      "total": 53,
-     "arrows": 13,
+     "arrows": 14,
      "day": "1",
-     "target": "14",
-     "pos": 18
+     "target": "2",
+     "pos": 25
     },
     {
      "name": "Robert Moebs",
@@ -8283,103 +8367,7 @@
      "total": 53,
      "arrows": 10,
      "day": "1",
-     "target": "10",
-     "pos": 18
-    },
-    {
-     "name": "Mihaly Vas",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "WH 9:20",
-     "scored": true,
-     "total": 52,
-     "arrows": 9,
-     "day": "1",
-     "target": "10",
-     "pos": 20
-    },
-    {
-     "name": "Bjarne Klausen",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "WH 9:20",
-     "scored": true,
-     "total": 52,
-     "arrows": 9,
-     "day": "1",
-     "target": "9",
-     "pos": 20
-    },
-    {
-     "name": "Franz Ammer",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 9:40",
-     "scored": true,
-     "total": 52,
-     "arrows": 7,
-     "day": "1",
-     "target": "8",
-     "pos": 20
-    },
-    {
-     "name": "Heiko Thiele",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "WH 9:00",
-     "scored": true,
-     "total": 49,
-     "arrows": 10,
-     "day": "1",
-     "target": "10",
-     "pos": 23
-    },
-    {
-     "name": "Milan Kejzar",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "WH 8:40",
-     "scored": true,
-     "total": 48,
-     "arrows": 13,
-     "day": "1",
-     "target": "13",
-     "pos": 24
-    },
-    {
-     "name": "Peter Mekýš",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "WH 9:20",
-     "scored": true,
-     "total": 46,
-     "arrows": 9,
-     "day": "1",
-     "target": "9",
-     "pos": 25
-    },
-    {
-     "name": "Peter Bergkvist",
-     "country": "SWE",
-     "countryName": "Sweden",
-     "group": "WH 9:30",
-     "scored": true,
-     "total": 46,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
-     "pos": 25
-    },
-    {
-     "name": "Gerhard Schaumberger",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 9:30",
-     "scored": true,
-     "total": 46,
-     "arrows": 8,
-     "day": "1",
-     "target": "8",
+     "target": "11",
      "pos": 25
     },
     {
@@ -8388,11 +8376,11 @@
      "countryName": "Austria",
      "group": "WH 9:30",
      "scored": true,
-     "total": 44,
-     "arrows": 8,
+     "total": 52,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
-     "pos": 28
+     "target": "9",
+     "pos": 27
     },
     {
      "name": "Giuseppe Ambrosini",
@@ -8400,11 +8388,11 @@
      "countryName": "Italy",
      "group": "WH 9:00",
      "scored": true,
-     "total": 41,
-     "arrows": 10,
+     "total": 51,
+     "arrows": 12,
      "day": "1",
-     "target": "10",
-     "pos": 29
+     "target": "12",
+     "pos": 28
     },
     {
      "name": "Hermann Josef Kreindl",
@@ -8412,11 +8400,11 @@
      "countryName": "Austria",
      "group": "WH 9:00",
      "scored": true,
-     "total": 41,
-     "arrows": 10,
+     "total": 51,
+     "arrows": 12,
      "day": "1",
-     "target": "10",
-     "pos": 29
+     "target": "12",
+     "pos": 28
     },
     {
      "name": "Christian Velasquez",
@@ -8424,11 +8412,11 @@
      "countryName": "Denmark",
      "group": "WH 9:30",
      "scored": true,
-     "total": 41,
-     "arrows": 8,
+     "total": 49,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
-     "pos": 29
+     "target": "10",
+     "pos": 30
     },
     {
      "name": "reinhard Kerschbaummayr",
@@ -8436,10 +8424,22 @@
      "countryName": "Austria",
      "group": "WH 9:30",
      "scored": true,
-     "total": 38,
-     "arrows": 8,
+     "total": 48,
+     "arrows": 9,
      "day": "1",
-     "target": "8",
+     "target": "9",
+     "pos": 31
+    },
+    {
+     "name": "Peter Bergkvist",
+     "country": "SWE",
+     "countryName": "Sweden",
+     "group": "WH 9:30",
+     "scored": true,
+     "total": 46,
+     "arrows": 9,
+     "day": "1",
+     "target": "9",
      "pos": 32
     },
     {
@@ -8448,10 +8448,10 @@
      "countryName": "Slovakia",
      "group": "WH 9:00",
      "scored": true,
-     "total": 36,
-     "arrows": 10,
+     "total": 41,
+     "arrows": 12,
      "day": "1",
-     "target": "10",
+     "target": "12",
      "pos": 33
     },
     {
@@ -8460,10 +8460,10 @@
      "countryName": "Hungary",
      "group": "WH 9:00",
      "scored": true,
-     "total": 36,
-     "arrows": 10,
+     "total": 41,
+     "arrows": 12,
      "day": "1",
-     "target": "10",
+     "target": "12",
      "pos": 33
     },
     {
@@ -8473,9 +8473,9 @@
      "group": "WH 8:30",
      "scored": true,
      "total": 0,
-     "arrows": 18,
+     "arrows": 20,
      "day": "1",
-     "target": "18",
+     "target": "20",
      "pos": 35
     },
     {
@@ -8485,9 +8485,9 @@
      "group": "WH 9:30",
      "scored": true,
      "total": 0,
-     "arrows": 7,
+     "arrows": 9,
      "day": "1",
-     "target": "7",
+     "target": "9",
      "pos": 35
     },
     {
@@ -8589,10 +8589,10 @@
      "countryName": "Germany",
      "group": "WH 9:40",
      "scored": true,
-     "total": 36,
-     "arrows": 7,
+     "total": 54,
+     "arrows": 9,
      "day": "1",
-     "target": "7",
+     "target": "9",
      "pos": 1
     },
     {
@@ -8601,10 +8601,10 @@
      "countryName": "Hungary",
      "group": "WH 9:40",
      "scored": true,
-     "total": 32,
-     "arrows": 7,
+     "total": 45,
+     "arrows": 9,
      "day": "1",
-     "target": "7",
+     "target": "9",
      "pos": 2
     },
     {
@@ -8613,10 +8613,10 @@
      "countryName": "Germany",
      "group": "WH 9:40",
      "scored": true,
-     "total": 21,
-     "arrows": 7,
+     "total": 26,
+     "arrows": 9,
      "day": "1",
-     "target": "7",
+     "target": "9",
      "pos": 3
     },
     {
@@ -8626,9 +8626,9 @@
      "group": "WH 9:40",
      "scored": true,
      "total": 0,
-     "arrows": 7,
+     "arrows": 9,
      "day": "1",
-     "target": "7",
+     "target": "9",
      "pos": 4
     }
    ]
@@ -8638,7 +8638,7 @@
    "bow": "TR-LB",
    "age": "Adults (21-54 years)",
    "gender": "Male",
-   "updated": "",
+   "updated": "2026-09-01 10:31:44",
    "results": [
     {
      "name": "Anders Skjoedt",
@@ -8646,10 +8646,10 @@
      "countryName": "Denmark",
      "group": "WH 9:50",
      "scored": true,
-     "total": 44,
-     "arrows": 6,
+     "total": 49,
+     "arrows": 7,
      "day": "1",
-     "target": "7",
+     "target": "8",
      "pos": 1
     },
     {
@@ -8658,10 +8658,10 @@
      "countryName": "Slovakia",
      "group": "WH 9:50",
      "scored": true,
-     "total": 35,
-     "arrows": 6,
+     "total": 40,
+     "arrows": 7,
      "day": "1",
-     "target": "6",
+     "target": "7",
      "pos": 2
     },
     {
@@ -8670,10 +8670,10 @@
      "countryName": "Czech Republic",
      "group": "WH 9:50",
      "scored": true,
-     "total": 33,
-     "arrows": 6,
+     "total": 38,
+     "arrows": 7,
      "day": "1",
-     "target": "6",
+     "target": "7",
      "pos": 3
     },
     {
@@ -8683,21 +8683,21 @@
      "group": "WH 9:50",
      "scored": true,
      "total": 33,
-     "arrows": 6,
+     "arrows": 7,
      "day": "1",
-     "target": "6",
-     "pos": 3
+     "target": "7",
+     "pos": 4
     },
     {
-     "name": "Juraj Svitek",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "WH 9:50",
+     "name": "Thomas Jensen",
+     "country": "DEN",
+     "countryName": "Denmark",
+     "group": "WH 10:00",
      "scored": true,
-     "total": 25,
-     "arrows": 6,
+     "total": 29,
+     "arrows": 4,
      "day": "1",
-     "target": "6",
+     "target": "4",
      "pos": 5
     },
     {
@@ -8706,11 +8706,47 @@
      "countryName": "Hungary",
      "group": "WH 10:00",
      "scored": true,
-     "total": 23,
-     "arrows": 3,
+     "total": 28,
+     "arrows": 4,
      "day": "1",
      "target": "4",
      "pos": 6
+    },
+    {
+     "name": "Gunnar Huuse",
+     "country": "NOR",
+     "countryName": "Norway",
+     "group": "WH 9:50",
+     "scored": true,
+     "total": 25,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 7
+    },
+    {
+     "name": "Juraj Svitek",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 9:50",
+     "scored": true,
+     "total": 25,
+     "arrows": 7,
+     "day": "1",
+     "target": "7",
+     "pos": 7
+    },
+    {
+     "name": "Miroslav Králl",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 10:00",
+     "scored": true,
+     "total": 23,
+     "arrows": 4,
+     "day": "1",
+     "target": "4",
+     "pos": 9
     },
     {
      "name": "Imre Csombók",
@@ -8719,46 +8755,34 @@
      "group": "WH 10:00",
      "scored": true,
      "total": 21,
-     "arrows": 3,
+     "arrows": 4,
      "day": "1",
-     "target": "3",
-     "pos": 7
+     "target": "4",
+     "pos": 10
     },
     {
-     "name": "Thomas Jensen",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "WH 10:00",
+     "name": "Antonín Bartošík",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "WH 10:10",
      "scored": true,
      "total": 21,
      "arrows": 3,
      "day": "1",
      "target": "3",
-     "pos": 7
+     "pos": 10
     },
     {
-     "name": "Gunnar Huuse",
-     "country": "NOR",
-     "countryName": "Norway",
-     "group": "WH 9:50",
-     "scored": true,
-     "total": 20,
-     "arrows": 6,
-     "day": "1",
-     "target": "6",
-     "pos": 9
-    },
-    {
-     "name": "Miroslav Králl",
-     "country": "SVK",
-     "countryName": "Slovakia",
+     "name": "Zoltán Németh",
+     "country": "HUN",
+     "countryName": "Hungary",
      "group": "WH 10:00",
      "scored": true,
      "total": 18,
-     "arrows": 3,
+     "arrows": 4,
      "day": "1",
-     "target": "3",
-     "pos": 10
+     "target": "4",
+     "pos": 12
     },
     {
      "name": "Christoph Haunschmied",
@@ -8767,34 +8791,34 @@
      "group": "WH 10:10",
      "scored": true,
      "total": 16,
-     "arrows": 2,
-     "day": "1",
-     "target": "3",
-     "pos": 11
-    },
-    {
-     "name": "Zoltán Németh",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "WH 10:00",
-     "scored": true,
-     "total": 13,
      "arrows": 3,
      "day": "1",
-     "target": "3",
-     "pos": 12
+     "target": "4",
+     "pos": 13
     },
     {
-     "name": "Antonín Bartošík",
+     "name": "Jakub Opálka",
      "country": "CZE",
      "countryName": "Czech Republic",
-     "group": "WH 10:10",
+     "group": "WH 10:20",
      "scored": true,
-     "total": 13,
+     "total": 16,
      "arrows": 2,
      "day": "1",
      "target": "2",
-     "pos": 12
+     "pos": 13
+    },
+    {
+     "name": "Ivan Racek",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "WH 10:20",
+     "scored": true,
+     "total": 16,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 13
     },
     {
      "name": "Lontea Alin",
@@ -8802,11 +8826,35 @@
      "countryName": "Romania",
      "group": "WH 10:10",
      "scored": true,
-     "total": 8,
+     "total": 13,
+     "arrows": 3,
+     "day": "1",
+     "target": "3",
+     "pos": 16
+    },
+    {
+     "name": "Marian Meller",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "WH 10:20",
+     "scored": true,
+     "total": 13,
      "arrows": 2,
      "day": "1",
      "target": "2",
-     "pos": 14
+     "pos": 16
+    },
+    {
+     "name": "VLADIMÍR FRYK",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 10:10",
+     "scored": true,
+     "total": 10,
+     "arrows": 3,
+     "day": "1",
+     "target": "3",
+     "pos": 18
     },
     {
      "name": "László Németh",
@@ -8815,22 +8863,10 @@
      "group": "WH 10:10",
      "scored": true,
      "total": 8,
-     "arrows": 2,
+     "arrows": 3,
      "day": "1",
-     "target": "2",
-     "pos": 14
-    },
-    {
-     "name": "VLADIMÍR FRYK",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "WH 10:10",
-     "scored": true,
-     "total": 5,
-     "arrows": 2,
-     "day": "1",
-     "target": "2",
-     "pos": 16
+     "target": "3",
+     "pos": 19
     },
     {
      "name": "Jan Tajzich",
@@ -8839,10 +8875,22 @@
      "group": "WH 10:10",
      "scored": true,
      "total": 5,
+     "arrows": 3,
+     "day": "1",
+     "target": "3",
+     "pos": 20
+    },
+    {
+     "name": "Miroslav Lazarević",
+     "country": "SRB",
+     "countryName": "Serbia",
+     "group": "WH 10:20",
+     "scored": true,
+     "total": 5,
      "arrows": 2,
      "day": "1",
      "target": "2",
-     "pos": 16
+     "pos": 20
     },
     {
      "name": "Christian Isaksen",
@@ -8851,10 +8899,34 @@
      "group": "WH 10:00",
      "scored": true,
      "total": 0,
-     "arrows": 3,
+     "arrows": 4,
      "day": "1",
-     "target": "3",
-     "pos": 18
+     "target": "4",
+     "pos": 22
+    },
+    {
+     "name": "Miklós Kónya",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "WH 10:20",
+     "scored": true,
+     "total": 0,
+     "arrows": 2,
+     "day": "1",
+     "target": "2",
+     "pos": 22
+    },
+    {
+     "name": "Radu Liteanu",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "WH 10:20",
+     "scored": true,
+     "total": 0,
+     "arrows": 1,
+     "day": "1",
+     "target": "2",
+     "pos": 22
     },
     {
      "name": "Adrian Zavacky",
@@ -8917,46 +8989,10 @@
      "pos": 0
     },
     {
-     "name": "Ivan Racek",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "WH 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Jakub Opálka",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "WH 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
      "name": "Jošt Trdan",
      "country": "SLO",
      "countryName": "Slovenia",
      "group": "WH 10:30",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Marian Meller",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "WH 10:20",
      "scored": false,
      "total": 0,
      "arrows": 0,
@@ -9013,46 +9049,10 @@
      "pos": 0
     },
     {
-     "name": "Miklós Kónya",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "WH 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Miroslav Lazarević",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "WH 10:20",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
      "name": "Peter Baca",
      "country": "SVK",
      "countryName": "Slovakia",
      "group": "WH 10:30",
-     "scored": false,
-     "total": 0,
-     "arrows": 0,
-     "day": "",
-     "target": "",
-     "pos": 0
-    },
-    {
-     "name": "Radu Liteanu",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "WH 10:20",
      "scored": false,
      "total": 0,
      "arrows": 0,
