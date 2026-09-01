@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T14:52:08Z",
+ "generated": "2026-09-01T14:53:02Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -2428,6 +2428,33 @@
      "pos": 1
     },
     {
+     "name": "Vitányi Tibor",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 13:10",
+     "scored": true,
+     "total": 205,
+     "arrows": 20,
+     "day": "1",
+     "target": "20",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "8"
+     ],
+     "photo": "",
+     "pos": 2
+    },
+    {
      "name": "Máté Botond Pintér",
      "country": "HUN",
      "countryName": "Hungary",
@@ -2452,7 +2479,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 2
+     "pos": 3
     },
     {
      "name": "Kovacs Krisztian",
@@ -2479,33 +2506,6 @@
       "8"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_61_6a579ea4bedc94.66030477.jpg?v=1787211889",
-     "pos": 3
-    },
-    {
-     "name": "Vitányi Tibor",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 13:10",
-     "scored": true,
-     "total": 195,
-     "arrows": 19,
-     "day": "1",
-     "target": "20",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "8"
-     ],
-     "photo": "",
      "pos": 4
     },
     {
@@ -3026,6 +3026,33 @@
    "updated": "",
    "results": [
     {
+     "name": "Lubos Belacek",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 11:20",
+     "scored": true,
+     "total": 269,
+     "arrows": 28,
+     "day": "1",
+     "target": "28",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_493_6a833dd24a4af6.42218592.jpg?v=1787211890",
+     "pos": 1
+    },
+    {
      "name": "Domenik Scharf",
      "country": "CZE",
      "countryName": "Czech Republic",
@@ -3051,33 +3078,6 @@
      ],
      "photo": "",
      "pos": 1
-    },
-    {
-     "name": "Lubos Belacek",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "OR 11:20",
-     "scored": true,
-     "total": 259,
-     "arrows": 27,
-     "day": "1",
-     "target": "27",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_493_6a833dd24a4af6.42218592.jpg?v=1787211890",
-     "pos": 2
     },
     {
      "name": "Frantisek Cerman",
@@ -3107,6 +3107,33 @@
      "pos": 3
     },
     {
+     "name": "Josef Kočí",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "OR 11:20",
+     "scored": true,
+     "total": 253,
+     "arrows": 28,
+     "day": "1",
+     "target": "28",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "pos": 4
+    },
+    {
      "name": "František Průša",
      "country": "CZE",
      "countryName": "Czech Republic",
@@ -3131,33 +3158,6 @@
       "5"
      ],
      "photo": "",
-     "pos": 4
-    },
-    {
-     "name": "Josef Kočí",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "OR 11:20",
-     "scored": true,
-     "total": 245,
-     "arrows": 27,
-     "day": "1",
-     "target": "27",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "",
      "pos": 5
     },
     {
@@ -3166,8 +3166,8 @@
      "countryName": "Slovakia",
      "group": "OR 11:20",
      "scored": true,
-     "total": 236,
-     "arrows": 27,
+     "total": 244,
+     "arrows": 28,
      "day": "1",
      "target": "28",
      "shots": [
@@ -7916,15 +7916,15 @@
      "countryName": "Slovakia",
      "group": "OR 12:10",
      "scored": true,
-     "total": 151,
-     "arrows": 22,
+     "total": 161,
+     "arrows": 24,
      "day": "1",
-     "target": "23",
+     "target": "24",
      "shots": [
       "8",
       "8",
-      "8",
-      "8",
+      "5",
+      "5",
       "5",
       "5",
       "5",
@@ -7970,8 +7970,8 @@
      "countryName": "Slovakia",
      "group": "OR 12:10",
      "scored": true,
-     "total": 128,
-     "arrows": 23,
+     "total": 136,
+     "arrows": 24,
      "day": "1",
      "target": "24",
      "shots": [
@@ -8000,7 +8000,7 @@
      "total": 126,
      "arrows": 23,
      "day": "1",
-     "target": "23",
+     "target": "24",
      "shots": [
       "5",
       "5",
@@ -8222,10 +8222,10 @@
      "countryName": "Slovakia",
      "group": "OR 12:10",
      "scored": true,
-     "total": 148,
-     "arrows": 23,
+     "total": 153,
+     "arrows": 24,
      "day": "1",
-     "target": "23",
+     "target": "24",
      "shots": [
       "5",
       "5",
@@ -8442,6 +8442,33 @@
      "pos": 1
     },
     {
+     "name": "Orbán András",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 12:40",
+     "scored": true,
+     "total": 61,
+     "arrows": 22,
+     "day": "1",
+     "target": "22",
+     "shots": [
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 2
+    },
+    {
      "name": "Márk Hermecz",
      "country": "HUN",
      "countryName": "Hungary",
@@ -8458,33 +8485,6 @@
       "5",
       "5",
       "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 2
-    },
-    {
-     "name": "Orbán András",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 12:40",
-     "scored": true,
-     "total": 56,
-     "arrows": 21,
-     "day": "1",
-     "target": "21",
-     "shots": [
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
       "0",
       "0",
       "0",
@@ -14501,7 +14501,7 @@
       "0",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_1107_6a96ce0b7e1646.09028960.jpg",
+     "photo": "https://hdhiaa.net/uploads/profile/user_1107_6a96e667210f94.32350201.jpg?v=1788274278",
      "pos": 31
     },
     {
