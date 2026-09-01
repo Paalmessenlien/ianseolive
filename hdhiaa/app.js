@@ -92,11 +92,10 @@ function ageMin() {
 function shortCat(title) {
   const m = String(title || '').match(/^(.+?\([^)]+\))\s+—\s+(.+?)\s+—\s+(Male|Female)$/);
   if (!m) return title;
-  const bow = m[1].replace(/^(Barebow|Olympic|Hunter 3D|Crossbow)\s*/, '');
   const age = m[2].replace(' (55 years of age or older)', ' 55+')
     .replace(' (21-54 years)', '').replace(' (18-20 years)', ' 18–20')
     .replace(' (15-17 years)', '').replace(' (13-14 years)', '').replace(' (10-12 years)', '');
-  return `${bow} · ${age} · ${m[3] === 'Male' ? 'Herrer' : 'Damer'}`;
+  return `${m[1]} · ${age} · ${m[3] === 'Male' ? 'Herrer' : 'Damer'}`;
 }
 
 function fmtDateRange() {
