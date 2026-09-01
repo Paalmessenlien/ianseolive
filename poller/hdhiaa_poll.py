@@ -142,6 +142,16 @@ def main() -> int:
     if standings is None:
         standings_raw = fetch_text(STANDINGS_URL)
         standings = json.loads(standings_raw)
+    # hdhiaa skrur av live-feeden i pauser (enabled=false, 0 kategorier) —
+    # ikke overskriv gode data med en tom stilling
+    if not any(c.get("leaders") for c in standings.get("categories", [])) and OUT_FILE.exists():
+        try:
+            old = json.loads(OUT_FILE.read_text(encoding="utf-8"))
+            if any(r.get("scored") for c in old.get("categories", []) for r in c.get("results", [])):
+                print("live-standings tom (hdhiaa-feed av) — beholder forrige data")
+                return 0
+        except Exception:
+            pass
     groups = load_groups(standings)
     try:
         inbox = fetch_json(INBOX_URL)
