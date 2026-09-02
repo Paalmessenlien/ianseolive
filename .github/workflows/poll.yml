@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "ianseolive-bot"
           git config user.email "ianseolive-bot@users.noreply.github.com"
-          git add data/results.json data/hdhiaa.json index.html hdhiaa/index.html
+          git add data/results.json data/hdhiaa.json data/hdhiaa_days.json index.html hdhiaa/index.html
           if git diff --cached --quiet; then
             echo "no changes"
           else

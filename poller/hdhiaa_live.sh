@@ -16,7 +16,7 @@ cd "$REPO" || exit 1
 {
   echo "--- $(date -u +%Y-%m-%dT%H:%M:%SZ) hdhiaa live-check"
   python3 poller/hdhiaa_poll.py --live || exit 1
-  git add data/hdhiaa.json hdhiaa/index.html
+  git add data/hdhiaa.json data/hdhiaa_days.json hdhiaa/index.html
   if git diff --cached --quiet; then
     echo "no changes"
     exit 0
@@ -25,9 +25,9 @@ cd "$REPO" || exit 1
   if ! git pull --rebase; then
     # konflikt vil være på datafiler (annen poll pushet også) —
     # ta theirs, regenerer med vår parser, fortsett
-    git checkout --theirs data/results.json data/hdhiaa.json
+    git checkout --theirs data/results.json data/hdhiaa.json data/hdhiaa_days.json
     python3 poller/hdhiaa_poll.py
-    git add data/hdhiaa.json hdhiaa/index.html
+    git add data/hdhiaa.json data/hdhiaa_days.json hdhiaa/index.html
     git -c core.editor=true rebase --continue || git rebase --abort
   fi
   git push

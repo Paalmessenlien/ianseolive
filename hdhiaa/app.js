@@ -2,7 +2,8 @@
  * Leser data/hdhiaa.json (produsert av poller/hdhiaa_poll.py) og tegner
  * appen i #frame. Samme designspråk og sorteringslogikk som hovedsiden:
  * land-picker i stedet for klubb-picker, ferskest aktivitet øverst.
- * Vanilla JS, ingen avhengigheter.
+ * Dag-velger: hver dags resultater lagres per utøver (r.days), og man kan
+ * se enkelt-dager eller sammenlagt. Vanilla JS, ingen avhengigheter.
  */
 
 const CLR = {
@@ -23,6 +24,7 @@ const store = {
 
 const state = {
   country: store.get('ianseolive-hdhiaa-country', null),
+  day: store.get('ianseolive-hdhiaa-day', 'tot'),   // 'tot' | '1' | '2' | ...
   catView: null,   // tittel på åpen klasse-sheet
   picker: false,
   search: '',
@@ -45,6 +47,47 @@ function countryMeta(code) {
   return (DATA.countries || []).find((c) => c.code === code) || { code, name: code, athletes: 0 };
 }
 
+// Poeng for aktiv visning (valgt dag eller sammenlagt) for èn utøver
+function viewOf(r) {
+  const days = r.days || {};
+  if (state.day !== 'tot') {
+    const d = days[state.day];
+    return d
+      ? { scored: true, pts: d.pts || 0, arrows: d.arrows || 0, hits: d.hits || null,
+          shots: d.shots || null, live: !!d.live, official: !!d.official }
+      : { scored: false, pts: 0, arrows: 0 };
+  }
+  const ks = Object.keys(days);
+  if (!ks.length) {
+    // rad uten dagdata (eldre dataformat eller ikke startet)
+    return r.scored
+      ? { scored: true, pts: r.total || 0, arrows: r.arrows || 0, hits: r.hits || null,
+          shots: (r.shots || []).length ? r.shots : null, live: false, official: !!r.hits }
+      : { scored: false, pts: 0, arrows: 0 };
+  }
+  let pts = 0, arrows = 0, hits = null, live = false, official = true;
+  for (const k of ks) {
+    const d = days[k];
+    pts += d.pts || 0; arrows += d.arrows || 0;
+    if (d.hits) { hits = hits || {}; for (const h of Object.keys(d.hits)) hits[h] = (hits[h] || 0) + d.hits[h]; }
+    live = live || !!d.live;
+    official = official && !!d.official;
+  }
+  return { scored: true, pts, arrows, hits, live, official };
+}
+
+// Rader i klassen med plassering for aktiv visning (delt plass ved likt)
+function rankedRows(cat) {
+  const rows = (cat.results || []).map((r) => Object.assign({}, r, { view: viewOf(r) }));
+  const sc = rows.filter((r) => r.view.scored)
+    .sort((a, b) => b.view.pts - a.view.pts || a.name.localeCompare(b.name));
+  let prev = null, pos = 0;
+  sc.forEach((r, i) => { pos = r.view.pts === prev ? pos : i + 1; r.vpos = pos; prev = r.view.pts; });
+  const rest = rows.filter((r) => !r.view.scored).sort((a, b) => a.name.localeCompare(b.name));
+  rest.forEach((r) => { r.vpos = 0; });
+  return sc.concat(rest);
+}
+
 // Klasser sortert på fersk aktivitet — de med nyest data øverst
 function sortedCategories() {
   return [...(DATA.categories || [])].sort((a, b) =>
@@ -52,28 +95,28 @@ function sortedCategories() {
 }
 
 function catRows(cat) {
-  const rows = (cat.results || []).filter((r) => allCountries() || r.country === state.country);
+  const rows = rankedRows(cat).filter((r) => allCountries() || r.country === state.country);
   // «Alle land» viser kun de med score; et valgt land viser også de som ikke har startet
-  return allCountries() ? rows.filter((r) => r.scored) : rows;
+  return allCountries() ? rows.filter((r) => r.view.scored) : rows;
 }
 
-// pallposisjoner (pos 1–3 blant de som har score) for valgt land
+// pallposisjoner (1–3 blant de som har score i aktiv visning) for valgt land
 function podiumRows() {
   const out = [];
   for (const c of DATA.categories || [])
-    for (const r of c.results || [])
-      if (r.scored && r.pos >= 1 && r.pos <= 3 && (allCountries() || r.country === state.country))
+    for (const r of rankedRows(c))
+      if (r.view.scored && r.vpos >= 1 && r.vpos <= 3 && (allCountries() || r.country === state.country))
         out.push(Object.assign({ cat: c }, r));
-  return out.sort((a, b) => a.pos - b.pos || a.cat.title.localeCompare(b.cat.title));
+  return out.sort((a, b) => a.vpos - b.vpos || a.cat.title.localeCompare(b.cat.title));
 }
 
 function medalTable() {
   const t = {};
   for (const c of DATA.categories || [])
-    for (const r of c.results || [])
-      if (r.scored && r.pos >= 1 && r.pos <= 3) {
+    for (const r of rankedRows(c))
+      if (r.view.scored && r.vpos >= 1 && r.vpos <= 3) {
         const e = t[r.country] || (t[r.country] = { code: r.country, name: r.countryName, g: 0, s: 0, b: 0 });
-        if (r.pos === 1) e.g++; else if (r.pos === 2) e.s++; else e.b++;
+        if (r.vpos === 1) e.g++; else if (r.vpos === 2) e.s++; else e.b++;
       }
   return Object.values(t).sort((a, b) => b.g - a.g || b.s - a.s || b.b - a.b || a.name.localeCompare(b.name));
 }
@@ -109,6 +152,17 @@ function fmtDateRange() {
     (same ? '' : ` (${mn[ds.getMonth()]}–${mn[de.getMonth()]})`);
 }
 
+// Tilgjengelige dag-faner: dager med data + gjeldende dag om den pågår
+function dayTabs() {
+  const set = new Set((DATA.daysAvailable || []).map(String));
+  if (DATA.currentDay) set.add(String(DATA.currentDay));
+  return [...set].sort((a, b) => Number(a) - Number(b));
+}
+
+function viewLabel() {
+  return state.day === 'tot' ? 'Sammenlagt' : `Dag ${state.day}`;
+}
+
 /* ---------- stil-hjelpere (samme idiom som hovedappen) ---------- */
 
 function rankStyle(pos, mine) {
@@ -125,7 +179,7 @@ function chipStyle(on) {
   return style({ display: 'inline-flex', 'align-items': 'center', gap: '6px', padding: '7px 12px',
     'border-radius': '9999px', border: '2px solid ' + (on ? CLR.fg : CLR.border),
     background: on ? CLR.accent : CLR.surface, color: CLR.fg,
-    font: '600 12.5px "Inter",sans-serif', cursor: 'pointer' });
+    font: '600 12.5px "Inter",sans-serif', cursor: 'pointer', 'white-space': 'nowrap' });
 }
 
 const SVG = {
@@ -162,21 +216,34 @@ function vHeader() {
   </header>`;
 }
 
+function vDayBar() {
+  const tabs = dayTabs();
+  if (!tabs.length) return '';
+  const live = DATA.liveActive && DATA.currentDay;
+  return `<nav style="${style({ display: 'flex', gap: '8px', 'overflow-x': 'auto', padding: '10px 14px',
+    background: CLR.paper, 'border-bottom': '2px solid ' + CLR.fg, flex: 'none' })}">
+    <button data-action="day" data-day="tot" style="${chipStyle(state.day === 'tot')}">Sammenlagt</button>
+    ${tabs.map((d) => `<button data-action="day" data-day="${esc(d)}" style="${chipStyle(state.day === d)}">Dag ${esc(d)}${live && d === String(DATA.currentDay)
+      ? ` <span style="${style({ width: '7px', height: '7px', 'border-radius': '9999px', background: CLR.signal,
+          display: 'inline-block', animation: 'amber-pulse 1.6s infinite' })}"></span>` : ''}</button>`).join('')}
+  </nav>`;
+}
+
 function vSummary() {
   const podium = podiumRows();
   const athletes = allCountries()
     ? (DATA.countries || []).reduce((n, c) => n + c.athletes, 0)
     : countryMeta(state.country).athletes;
-  const g = podium.filter((r) => r.pos === 1).length;
-  const s = podium.filter((r) => r.pos === 2).length;
-  const b = podium.filter((r) => r.pos === 3).length;
-  const label = eventOver() ? 'Medaljer' : 'Pallposisjoner nå';
+  const g = podium.filter((r) => r.vpos === 1).length;
+  const s = podium.filter((r) => r.vpos === 2).length;
+  const b = podium.filter((r) => r.vpos === 3).length;
+  const label = eventOver() ? 'Medaljer' : `Pallposisjoner nå · ${viewLabel().toLowerCase()}`;
   const medal = (n, col, txt) => `<span style="${style({ display: 'inline-flex', 'align-items': 'center',
       gap: '5px', marginRight: '12px', font: '600 13px "Inter",sans-serif', color: CLR.fg })}">
     <span style="${style({ width: '12px', height: '12px', 'border-radius': '9999px', background: col, display: 'inline-block' })}"></span>${n} ${txt}</span>`;
   return `<section style="${style({ padding: '14px 18px', background: CLR.surface, 'border-bottom': '2px solid ' + CLR.fg })}">
     <div style="${style({ display: 'flex', 'justify-content': 'space-between', 'align-items': 'baseline' })}">
-      <h2 style="${style({ margin: 0, font: '700 15px "Spectral",serif' })}">${SVG.trophy} ${label}</h2>
+      <h2 style="${style({ margin: 0, font: '700 15px "Spectral",serif' })}">${SVG.trophy} ${esc(label)}</h2>
       <span style="${style({ font: '400 12px "Inter",sans-serif', color: CLR.muted })}">${athletes} utøvere</span>
     </div>
     <p style="${style({ margin: '8px 0 0' })}">${medal(g, '#E3B23C', 'gull')}${medal(s, '#B9C4C9', 'sølv')}${medal(b, CLR.signal, 'bronse')}</p>
@@ -204,29 +271,50 @@ function vShots(shots) {
       font: '600 10.5px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums', color: col(String(s)) })}">${esc(s)}</span>`).join('')}</span>`;
 }
 
+function vHits(hits) {
+  if (!hits) return '';
+  return `<span style="${style({ display: 'block', 'margin-top': '4px', font: '600 10.5px "Inter",sans-serif',
+    color: CLR.muted, 'font-variant-numeric': 'tabular-nums' })}">${['11', '10', '8', '5', '0']
+    .filter((k) => hits[k]).map((k) => `${k}×${hits[k]}`).join(' · ')}</span>`;
+}
+
 function vRow(r, cat, mine, showCode, detail) {
-  const sub = r.scored
-    ? [r.day && `dag ${r.day}`, r.target && `blink ${r.target}`, `${r.arrows} ${r.arrows === 1 ? 'pil' : 'piler'}`].filter(Boolean).join(' · ')
-    : (r.group ? `gruppe ${r.group} · ikke startet` : 'ikke startet');
+  const v = r.view || viewOf(r);
+  const pos = r.vpos ?? r.pos ?? 0;
+  const dayKeys = Object.keys(r.days || {}).sort((a, b) => Number(a) - Number(b));
+  let sub;
+  if (v.scored) {
+    if (state.day === 'tot') {
+      sub = dayKeys.length > 1
+        ? dayKeys.map((k) => `d${k} ${r.days[k].pts}`).join(' · ') + ` · ${v.arrows} piler`
+        : `${v.arrows} ${v.arrows === 1 ? 'pil' : 'piler'}`;
+    } else {
+      sub = [r.target && v.live ? `blink ${r.target}` : '',
+        `${v.arrows} ${v.arrows === 1 ? 'pil' : 'piler'}`,
+        v.official ? 'offisiell' : v.live ? 'live' : ''].filter(Boolean).join(' · ');
+    }
+  } else {
+    sub = state.day !== 'tot' && (r.days && Object.keys(r.days).length)
+      ? `ikke på løp dag ${state.day}`
+      : (r.group ? `gruppe ${r.group} · ikke startet` : 'ikke startet');
+  }
   const code = (showCode || allCountries())
     ? `<span style="${style({ font: '600 11px "Inter",sans-serif', color: CLR.muted })}">&nbsp;${esc(r.country)}</span>` : '';
   return `<div style="${style({ display: 'flex', 'align-items': 'center', gap: '10px', padding: '9px 0',
       'border-top': '1px solid ' + CLR.border, background: mine ? CLR.paper : 'transparent',
       margin: mine ? '0 -6px' : '0', 'padding-left': mine ? '6px' : '0', 'padding-right': mine ? '6px' : '0',
       'border-radius': mine ? '10px' : '0' })}">
-    <span style="${rankStyle(r.scored ? r.pos : 0, mine)}">${r.scored ? r.pos : '–'}</span>
+    <span style="${rankStyle(v.scored ? pos : 0, mine)}">${v.scored ? pos : '–'}</span>
     ${detail ? vAvatar(r, 30) : ''}
     <span style="${style({ flex: '1 1 auto', 'min-width': '0' })}">
       <span style="${style({ display: 'block', font: '600 13.5px "Inter",sans-serif', 'white-space': 'nowrap',
         overflow: 'hidden', 'text-overflow': 'ellipsis' })}">${esc(r.name)}${code}</span>
       <span style="${style({ display: 'block', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">${esc(sub)}</span>
-      ${detail && r.hits ? `<span style="${style({ display: 'block', 'margin-top': '4px', font: '600 10.5px "Inter",sans-serif',
-        color: CLR.muted, 'font-variant-numeric': 'tabular-nums' })}">${['11', '10', '8', '5', '0']
-        .filter((k) => r.hits[k]).map((k) => `${k}×${r.hits[k]}`).join(' · ')}</span>` : ''}
-      ${detail ? vShots(r.shots) : ''}
+      ${detail ? vHits(v.hits) : ''}
+      ${detail ? vShots(v.shots) : ''}
     </span>
-    ${r.scored ? `<span style="${style({ 'text-align': 'right', flex: 'none' })}">
-      <span style="${style({ display: 'block', font: '700 16px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums' })}">${r.total}</span>
+    ${v.scored ? `<span style="${style({ 'text-align': 'right', flex: 'none' })}">
+      <span style="${style({ display: 'block', font: '700 16px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums' })}">${v.pts}</span>
       <span style="${style({ display: 'block', font: '400 10.5px "Inter",sans-serif', color: CLR.muted, 'text-transform': 'uppercase', 'letter-spacing': '0.08em' })}">poeng</span>
     </span>` : ''}
   </div>`;
@@ -235,16 +323,18 @@ function vRow(r, cat, mine, showCode, detail) {
 function vCatCard(cat) {
   const rows = catRows(cat);
   if (!rows.length) return '';
-  const shown = allCountries() ? rows.filter((r) => r.scored).slice(0, 3) : rows;
-  const more = allCountries() && rows.filter((r) => r.scored).length > 3;
-  // «pågår nå»: siste score i klassen er under 20 minutter gammel
-  // (aldri for offisielle dagslister — de er ferdige)
+  const shown = allCountries() ? rows.slice(0, 3) : rows;
+  const more = allCountries() && rows.length > 3;
+  // «pågår nå»: klassen har live-scorer og siste score er under 20 min gammel
+  const scoredRows = rows.filter((r) => r.view.scored);
+  const anyLive = scoredRows.some((r) => r.view.live);
+  const allOff = scoredRows.length > 0 && scoredRows.every((r) => r.view.official);
   const updMs = Date.parse((cat.updated || '').replace(' ', 'T'));
-  const live = !cat.official && !isNaN(updMs) && (Date.now() - updMs) < 20 * 60000;
-  const updated = cat.official
+  const live = anyLive && !isNaN(updMs) && (Date.now() - updMs) < 20 * 60000;
+  const updated = allOff && !anyLive
     ? `<span style="${style({ display: 'inline-block', 'margin-top': '3px', padding: '2px 8px',
         'border-radius': '9999px', border: '1.5px solid ' + CLR.action, color: CLR.action,
-        font: '600 10px "Inter",sans-serif', 'letter-spacing': '0.1em', 'text-transform': 'uppercase' })}">Offisiell dagsliste</span>`
+        font: '600 10px "Inter",sans-serif', 'letter-spacing': '0.1em', 'text-transform': 'uppercase' })}">Offisiell${state.day !== 'tot' ? ' dag ' + esc(state.day) : ''}</span>`
     : cat.updated
     ? `<span style="${style({ display: 'inline-flex', 'align-items': 'center', gap: '6px',
         font: '400 11px "Inter",sans-serif', color: CLR.muted, 'white-space': 'nowrap' })}">${live
@@ -263,7 +353,7 @@ function vCatCard(cat) {
       ${SVG.chevronRight}
     </div>
     ${shown.map((r) => vRow(r, cat, false)).join('')}
-    ${more ? `<p style="${style({ margin: '6px 0 8px', font: '600 11.5px "Inter",sans-serif', color: CLR.action })}">Vis alle ${rows.filter((r) => r.scored).length} →</p>` : '<div style="height:4px"></div>'}
+    ${more ? `<p style="${style({ margin: '6px 0 8px', font: '600 11.5px "Inter",sans-serif', color: CLR.action })}">Vis alle ${rows.length} →</p>` : '<div style="height:4px"></div>'}
   </section>`;
 }
 
@@ -272,7 +362,7 @@ function vMedalTable() {
   if (!t.length) return '';
   return `<section style="${style({ background: CLR.surface, border: '2px solid ' + CLR.fg, 'border-radius': '18px',
       padding: '12px 14px', 'box-shadow': '4px 4px 0 0 ' + CLR.border })}">
-    <h3 style="${style({ margin: '0 0 8px', font: '700 14px "Spectral",serif' })}">${SVG.trophy} Medaljestatistikk ${eventOver() ? '' : '(stilling nå)'}</h3>
+    <h3 style="${style({ margin: '0 0 8px', font: '700 14px "Spectral",serif' })}">${SVG.trophy} Medaljestatistikk ${eventOver() ? '' : `(stilling nå · ${esc(viewLabel().toLowerCase())})`}</h3>
     ${t.map((e, i) => `<div style="${style({ display: 'flex', 'align-items': 'center', gap: '10px',
         padding: '6px 0', 'border-top': i ? '1px solid ' + CLR.border : 'none' })}">
       <span style="${style({ flex: '1', font: '600 13px "Inter",sans-serif' })}">${esc(e.name)}</span>
@@ -289,7 +379,7 @@ function vMain() {
       display: 'flex', 'flex-direction': 'column', gap: '12px' })}">
     ${vSummary()}
     ${allCountries() ? vMedalTable() : ''}
-    ${cards || `<p style="${style({ color: CLR.muted, font: '400 13px "Inter",sans-serif', 'text-align': 'center', padding: '30px 10px' })}">Ingen resultater ennå for ${esc(countryMeta(state.country).name)}.</p>`}
+    ${cards || `<p style="${style({ color: CLR.muted, font: '400 13px "Inter",sans-serif', 'text-align': 'center', padding: '30px 10px' })}">Ingen resultater ennå for ${esc(countryMeta(state.country).name)}${state.day !== 'tot' ? ' dag ' + esc(state.day) : ''}.</p>`}
     <p style="${style({ margin: '4px 0 0', 'text-align': 'center', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">
       Data fra <a href="${esc(DATA.competition.url || 'https://hdhiaa.net')}">hdhiaa.net</a> · hentet for ${ageMin()} min siden ·
       live-synk hvert 2. minutt når det skytes · ${state.refreshing ? 'oppdaterer …' : ''}</p>
@@ -321,11 +411,14 @@ function vPicker() {
 function vCatSheet() {
   const cat = (DATA.categories || []).find((c) => c.title === state.catView);
   if (!cat) return '';
-  const rows = (cat.results || []);
+  const rows = rankedRows(cat);
+  const dayInfo = state.day === 'tot'
+    ? (DATA.daysAvailable || []).map((d) => `dag ${d}`).join(' + ') || ''
+    : `dag ${state.day}`;
   return sheet(esc(shortCat(cat.title)), `
     <p style="${style({ margin: '0 0 8px', font: '400 12px "Inter",sans-serif', color: CLR.muted })}">
-      ${esc(cat.title)}${cat.official
-        ? ' · offisiell dagsliste, generert ' + esc((cat.updated || '').slice(5, 16))
+      ${esc(cat.title)}${dayInfo ? ' · ' + esc(dayInfo) : ''}${cat.official
+        ? ' · offisiell liste, generert ' + esc((cat.updated || '').slice(5, 16))
         : cat.updated ? ' · siste score ' + esc(cat.updated.slice(5, 16)) : ''}</p>
     ${rows.map((r) => vRow(r, cat, !allCountries() && r.country === state.country, true, true)).join('')
       || `<p style="${style({ color: CLR.muted })}">Ingen påmeldte funnet.</p>`}`);
@@ -352,7 +445,7 @@ function sheet(title, body) {
 
 function render() {
   const frame = document.getElementById('frame');
-  frame.innerHTML = vHeader() + vMain()
+  frame.innerHTML = vHeader() + vDayBar() + vMain()
     + (state.catView ? vCatSheet() : state.picker || !state.country ? vPicker() : '');
 }
 
@@ -365,6 +458,10 @@ document.getElementById('frame').addEventListener('click', (e) => {
     state.country = el.dataset.code;
     store.set('ianseolive-hdhiaa-country', state.country);
     state.picker = false;
+  }
+  else if (a === 'day') {
+    state.day = el.dataset.day;
+    store.set('ianseolive-hdhiaa-day', state.day);
   }
   else if (a === 'cat') { state.catView = el.dataset.cat; }
   else if (a === 'close-sheet' && !e.target.closest('[data-sheet]') || a === 'close-sheet' && e.target.closest('button')) {
@@ -384,6 +481,8 @@ async function load() {
     const resp = await fetch(DATA_URL + (DATA_URL.includes('?') ? '&' : '?') + 't=' + Date.now());
     if (resp.ok) DATA = await resp.json();
   } catch { /* beholder gamle data */ }
+  // valgt dag finnes ikke (lenger) i dataene -> tilbake til sammenlagt
+  if (state.day !== 'tot' && !dayTabs().includes(state.day)) state.day = 'tot';
 }
 
 (async function boot() {

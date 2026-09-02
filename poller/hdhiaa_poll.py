@@ -6,22 +6,28 @@ hdhiaa.net is not ianseo — it exposes small JSON endpoints instead of static
 result pages:
 
   /api/races/{id}                                   competition metadata
-  /api/races/{id}/live-standings                    live scores per category
+  /api/races/{id}/live-standings                    live scores per category (current day)
   /competition/{slug}/groups.json                   full start list (all entries)
   /competition/{id}/{slug}/live-inbox.json          latest score uploads feed
+  /competition/{id}/{slug}/results/export.csv       official results (completed days)
 
-The start list member id matches live-standings raceApplyId, and the category
-title matches the start list sectionTitle, so scores join exactly onto
-participants. Output schema:
+Per-day model: live-standings covers the day being shot ("DAY 2/3" in each
+leader's meta) while the CSV covers completed day(s). Each poll merges both
+into a persistent day store (data/hdhiaa_days.json, tracked in git) so a day's
+scores survive after the live feed rolls over to the next day. data/hdhiaa.json
+then carries per-archer `days` plus an aggregate `total`:
 
 {
   competition: {id, name, location, country, startDate, endDate, url},
   generated: iso timestamp,
+  totalDays: 3, currentDay: 2, daysAvailable: [1, 2],
   defaultCountry: "NOR",
   countries: [{code, name, athletes}],
-  categories: [{title, bow, age, gender, updated,
+  categories: [{title, bow, age, gender, official, updated,
                 results: [{pos, name, country, countryName, total, arrows,
-                           day, target, group, scored}]}]
+                           day, target, group, scored, photo, hits,
+                           days: {"1": {pts, arrows, hits, official},
+                                  "2": {pts, arrows, shots, live, updated}}}]}]
 }
 """
 import hashlib
@@ -44,8 +50,11 @@ INBOX_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/live-inbox.json"
 CSV_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/results/export.csv"
 PAGE_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}"
 OUT_FILE = ROOT / "data" / "hdhiaa.json"
-STATE_FILE = ROOT / "data" / ".hdhiaa_state.json"      # siste inbox-id (ikke i git)
-GROUPS_CACHE = ROOT / "data" / ".hdhiaa_groups.json"   # bufret startliste (ikke i git)
+DAYS_FILE = ROOT / "data" / "hdhiaa_days.json"        # per-dag resultatlager (i git)
+STATE_FILE = ROOT / "data" / ".hdhiaa_state.json"     # siste inbox-id (ikke i git)
+GROUPS_CACHE = ROOT / "data" / ".hdhiaa_groups.json"  # bufret startliste (ikke i git)
+
+ARROWS_PER_DAY = 28  # èn dags runde i 3D-VM (CSV "Max" 308 = 28×11)
 
 GENDER = {1: "Male", 2: "Female"}
 
@@ -67,6 +76,10 @@ def fetch_json(url: str) -> dict:
     return json.loads(fetch_text(url))
 
 
+def now_iso() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def load_state() -> dict:
     try:
         return json.loads(STATE_FILE.read_text(encoding="utf-8"))
@@ -83,17 +96,20 @@ def check_live() -> tuple:
 
     To signaler, billigste først:
     1. inbox-feeden (~7 KB): nye opplastings-id-er enn state.lastInboxId.
-    2. Hvis inbox er tom/uendret (skjer når hdhiaa slår av live-feeden,
-       f.eks. i pauser): hent stillingene (~60 KB) og sammenlign innholds-
-       hash. De oppdateres også via andre kanaler enn inbox.
+       (Kan være avslått/404 — da hoppes den over.)
+    2. Hvis inbox er tom/uendret: hent stillingene (~325 KB) og sammenlign
+       innholds-hash. De oppdateres også via andre kanaler enn inbox.
     """
     state = load_state()
     if state.get("lastInboxId") is None and not state.get("lastStandingsHash"):
         return True, None, None  # første kjøring: alltid full henting
-    inbox = fetch_json(INBOX_URL)
-    ids = [i.get("id", 0) for i in inbox.get("items", [])]
-    if ids and max(ids) > state.get("lastInboxId", 0):
-        return True, None, None
+    try:
+        inbox = fetch_json(INBOX_URL)
+        ids = [i.get("id", 0) for i in inbox.get("items", [])]
+        if ids and max(ids) > state.get("lastInboxId", 0):
+            return True, None, None
+    except Exception as exc:
+        print(f"warn: inbox-sjekk: {exc}", file=sys.stderr)
     raw = fetch_text(STANDINGS_URL)
     if hashlib.md5(raw.encode()).hexdigest() != state.get("lastStandingsHash"):
         return True, json.loads(raw), raw
@@ -103,9 +119,11 @@ def check_live() -> tuple:
 def load_groups(standings: dict) -> dict:
     """Startlista (419 KB) endrer seg ikke under stevnet — bruk lokal buffer,
     men hent på nytt hvis bufferen er gammel eller live-scorene viser en
-    utøver vi ikke kjenner."""
+    utøver vi ikke kjenner. Faller tilbake på foreldet buffer hvis endepunktet
+    er nede (bedre enn å stoppe pollen)."""
     known = {l.get("raceApplyId") for c in standings.get("categories", [])
              for l in c.get("leaders", [])}
+    cache = None
     try:
         cache = json.loads(GROUPS_CACHE.read_text(encoding="utf-8"))
         age_ok = cache.get("fetched", 0) > datetime.now(timezone.utc).timestamp() - 3600
@@ -113,11 +131,17 @@ def load_groups(standings: dict) -> dict:
         if age_ok and known <= ids:
             return cache["data"]
     except Exception:
-        pass
-    groups = fetch_json(GROUPS_URL)
-    GROUPS_CACHE.write_text(json.dumps({
-        "fetched": datetime.now(timezone.utc).timestamp(), "data": groups}))
-    return groups
+        cache = None
+    try:
+        groups = fetch_json(GROUPS_URL)
+        GROUPS_CACHE.write_text(json.dumps({
+            "fetched": datetime.now(timezone.utc).timestamp(), "data": groups}))
+        return groups
+    except Exception as exc:
+        if cache is not None:
+            print(f"warn: groups: {exc} — bruker foreldet buffer", file=sys.stderr)
+            return cache["data"]
+        raise
 
 
 def parse_meta(meta: str) -> tuple:
@@ -131,13 +155,18 @@ def norm_name(name: str) -> str:
     return re.sub(r"\s+", " ", name or "").strip().casefold()
 
 
+def akey(title: str, name: str) -> str:
+    """Nøkkel i dag-lageret: klasse + normalisert navn (CSV har ingen id-er)."""
+    return f"{title}\x1f{norm_name(name)}"
+
+
 def to_int(s: str) -> int:
     m = re.search(r"\d+", s or "")
     return int(m.group(0)) if m else 0
 
 
 def parse_results_csv(text: str) -> tuple:
-    """Parse results/export.csv (offisiell dags-stilling) ->
+    """Parse results/export.csv (offisiell stilling) ->
     ({sectionTitle: [rows]}, generated). Seksjoner:
       "Buestil (KODE) — Alder — Kjønn"
       "Rank","Name","Country","Club","Gender","11","10","8","5","0","Avg","Perf %","Max","Pts"
@@ -185,6 +214,135 @@ def paused() -> str:
     return ""
 
 
+# ---------- dag-lager ----------
+
+def load_days() -> dict:
+    try:
+        return json.loads(DAYS_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_days(store: dict) -> None:
+    store["updated"] = now_iso()
+    DAYS_FILE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def merge_live(store: dict, standings: dict) -> tuple:
+    """Flett gjeldende dags live-scorer inn i lageret.
+    Returnerer (current_day, total_days, antall flettet)."""
+    cur = tot = n = 0
+    archers = store.setdefault("archers", {})
+    ts = now_iso()
+    for cat in standings.get("categories", []):
+        title = cat.get("title") or ""
+        for l in cat.get("leaders", []):
+            m = re.search(r"DAY\s+(\d+)\s*/\s*(\d+)", l.get("meta") or "")
+            if not m:
+                continue
+            d, t = int(m.group(1)), int(m.group(2))
+            cur, tot = max(cur, d), max(tot, t)
+            rec = archers.setdefault(akey(title, l.get("name")), {"days": {}})
+            rec["name"] = re.sub(r"\s+", " ", l.get("name") or "").strip()
+            if l.get("raceApplyId"):
+                rec["rid"] = l["raceApplyId"]
+            entry = {
+                "pts": l.get("totalPoints") or 0,
+                "arrows": l.get("shotsRecorded") or 0,
+                "shots": [str(s) for s in (l.get("shots") or [])],
+                "live": True, "official": False, "updated": ts,
+            }
+            old = rec["days"].get(str(d))
+            # offisiell liste for dagen står seg mot live-data med færre piler
+            if old and old.get("official") and old.get("arrows", 0) >= entry["arrows"]:
+                continue
+            rec["days"][str(d)] = entry
+            n += 1
+    if cur:
+        meta = store.setdefault("meta", {})
+        meta["currentDay"] = cur
+        meta["totalDays"] = max(tot, meta.get("totalDays", 0))
+    return cur, tot, n
+
+
+def guess_single_day(store: dict, sections: dict, current_day: int):
+    """Hvilken dag hører en CSV med èn dags piler (28) til? Sammenlign
+    poengsummene med lagrede offisielle dager: stort sett lik -> samme dag;
+    tydelig forskjellig -> neste dag uten offisiell liste."""
+    archers = store.get("archers", {})
+    for d in range(1, 10):
+        comp = match = 0
+        for title, rows in sections.items():
+            for row in rows:
+                old = archers.get(akey(title, row["name"]), {}).get("days", {}).get(str(d))
+                if old and old.get("official"):
+                    comp += 1
+                    match += old.get("pts") == row["total"]
+        if comp < 20:
+            continue
+        if match / comp >= 0.6:
+            return d
+        official_days = {int(dd) for rec in archers.values()
+                         for dd, v in rec.get("days", {}).items() if v.get("official")}
+        for cand in range(1, (current_day or 2)):
+            if cand not in official_days:
+                return cand
+        return (max(official_days) + 1) if official_days else 1
+    return 1  # ingen offisielle dager å sammenligne med
+
+
+def merge_csv(store: dict, sections: dict, generated: str, current_day: int) -> int:
+    """Flett offisiell CSV inn i dag-lageret. Returnerer antall oppdaterte rader."""
+    if not sections:
+        return 0
+    arrows = next((r["arrows"] for rows in sections.values() for r in rows if r["arrows"]), 0)
+    n_days = arrows // ARROWS_PER_DAY if arrows and arrows % ARROWS_PER_DAY == 0 else 0
+    archers = store.setdefault("archers", {})
+    updated = 0
+    if n_days == 1:
+        day_no = guess_single_day(store, sections, current_day)
+        if day_no is None:
+            print("csv: kunne ikke plassere dagslisten — hopper over", file=sys.stderr)
+            return 0
+        for title, rows in sections.items():
+            for row in rows:
+                rec = archers.setdefault(akey(title, row["name"]), {"days": {}})
+                rec["name"] = row["name"]
+                rec["days"][str(day_no)] = {
+                    "pts": row["total"], "arrows": row["arrows"],
+                    "hits": row["hits"], "official": True,
+                }
+                updated += 1
+        store.setdefault("meta", {})[f"day{day_no}Csv"] = generated
+        print(f"csv: offisiell dag {day_no} ({arrows} piler, {updated} rader)")
+    elif n_days > 1:
+        # sammenlagtliste t.o.m. dag n_days: fyll manglende enkelt-dag ved
+        # subtraksjon når alle andre dager er kjente, ellers lagre totalsummen
+        for title, rows in sections.items():
+            for row in rows:
+                rec = archers.setdefault(akey(title, row["name"]), {"days": {}})
+                rec["name"] = row["name"]
+                days = rec["days"]
+                known = {int(d) for d in days if str(d).isdigit() and int(d) <= n_days}
+                missing = [d for d in range(1, n_days + 1) if d not in known]
+                if len(missing) == 1:
+                    rest = sum(days[str(d)].get("pts", 0) for d in known)
+                    days[str(missing[0])] = {
+                        "pts": max(0, row["total"] - rest), "arrows": ARROWS_PER_DAY,
+                        "official": True,
+                    }
+                    updated += 1
+                elif len(missing) > 1:
+                    rec["cum"] = {"through": n_days, "pts": row["total"],
+                                  "hits": row["hits"], "official": True}
+                    updated += 1
+        store.setdefault("meta", {})[f"cum{n_days}Csv"] = generated
+        print(f"csv: sammenlagt t.o.m. dag {n_days} ({arrows} piler, {updated} rader)")
+    else:
+        print(f"csv: uventet pil-antall ({arrows}) — hopper over", file=sys.stderr)
+    return updated
+
+
 def main() -> int:
     if "--force" not in sys.argv and (until := paused()):
         print(f"paused until {until}")
@@ -204,24 +362,32 @@ def main() -> int:
     if standings is None:
         standings_raw = fetch_text(STANDINGS_URL)
         standings = json.loads(standings_raw)
-    # Er live-feeden av (enabled=false, 0 kategorier) brukes den offisielle
-    # CSV-eksporten (dags-stillinger) i stedet. Heller ikke den har data →
-    # behold forrige gode datafil.
+    # Offisiell CSV hentes alltid — den bekrefter fullførte dager. Verken
+    # live eller CSV har data, og lageret er tomt → behold forrige gode fil.
     official, csv_generated = {}, ""
-    if not any(c.get("leaders") for c in standings.get("categories", [])):
-        try:
-            official, csv_generated = parse_results_csv(fetch_text(CSV_URL))
-            official = {t: rows for t, rows in official.items() if rows}
-        except Exception as exc:
-            print(f"warn: csv: {exc}", file=sys.stderr)
-        if not official and OUT_FILE.exists():
+    try:
+        official, csv_generated = parse_results_csv(fetch_text(CSV_URL))
+        official = {t: rows for t, rows in official.items() if rows}
+    except Exception as exc:
+        print(f"warn: csv: {exc}", file=sys.stderr)
+
+    store = load_days()
+    current_day, total_days, n_live = merge_live(store, standings)
+    if not current_day:
+        current_day = store.get("meta", {}).get("currentDay", 0)
+    n_csv = merge_csv(store, official, csv_generated, current_day)
+    live_active = n_live > 0
+
+    if not store.get("archers"):
+        if OUT_FILE.exists():
             try:
                 old = json.loads(OUT_FILE.read_text(encoding="utf-8"))
                 if any(r.get("scored") for c in old.get("categories", []) for r in c.get("results", [])):
-                    print("live-feed av og ingen CSV-resultater — beholder forrige data")
+                    print("verken live eller CSV har data — beholder forrige data")
                     return 0
             except Exception:
                 pass
+
     groups = load_groups(standings)
     try:
         inbox = fetch_json(INBOX_URL)
@@ -244,10 +410,6 @@ def main() -> int:
     for m in members:
         code_by_name.setdefault(m.get("countryName") or "", m.get("countryCode") or "")
 
-    def code3(two_letter: str) -> str:
-        name = country_names.get(two_letter, "")
-        return code_by_name.get(name, two_letter)
-
     # Latest activity per category from the inbox feed
     updated_by_cat = {}
     for item in inbox.get("items", []):
@@ -256,16 +418,15 @@ def main() -> int:
         if cat and ts > updated_by_cat.get(cat, ""):
             updated_by_cat[cat] = ts
 
-    # Scores per (category, raceApplyId)
-    scores = {}
+    # Live-ekstra per (category, raceApplyId): blink, foto, siste piler
+    live_extra = {}
+    live_titles = set()
     for cat in standings.get("categories", []):
         for l in cat.get("leaders", []):
             day, target = parse_meta(l.get("meta") or "")
-            scores[(cat.get("title"), l.get("raceApplyId"))] = {
-                "total": l.get("totalPoints") or 0,
-                "arrows": l.get("shotsRecorded") or 0,
-                "day": day,
-                "target": target,
+            live_titles.add(cat.get("title"))
+            live_extra[(cat.get("title"), l.get("raceApplyId"))] = {
+                "day": day, "target": target,
                 "shots": [str(s) for s in (l.get("shots") or [])][-12:],
                 "photo": l.get("photoUrl") or "",
             }
@@ -277,89 +438,80 @@ def main() -> int:
     for m in members:
         by_section.setdefault(m.get("sectionTitle") or "", []).append(m)
 
+    archers = store.get("archers", {})
+
+    def build_row(name, country, country_name, group, rid):
+        rec = archers.get(akey(title, name), {})
+        days = rec.get("days", {})
+        cum = rec.get("cum") or {}
+        ex = live_extra.get((title, rid)) or {}
+        total = sum(d.get("pts", 0) for d in days.values())
+        if cum.get("through", 0) >= max([int(d) for d in days if str(d).isdigit()] or [0]):
+            total = max(total, cum.get("pts", 0))
+        hits = {}
+        for d in days.values():
+            for hk, hv in (d.get("hits") or {}).items():
+                hits[hk] = hits.get(hk, 0) + hv
+        if not hits and cum.get("hits"):
+            hits = cum["hits"]
+        row = {
+            "name": name,
+            "country": country,
+            "countryName": country_name,
+            "group": group,
+            "scored": bool(days) or bool(cum),
+            "total": total,
+            "arrows": sum(d.get("arrows", 0) for d in days.values()) or cum.get("through", 0) * ARROWS_PER_DAY,
+            "day": ex.get("day", ""),
+            "target": ex.get("target", ""),
+            "shots": ex.get("shots", []),
+            "photo": ex.get("photo", ""),
+        }
+        if hits:
+            row["hits"] = hits
+        if days:
+            row["days"] = {d: days[d] for d in sorted(days, key=lambda x: int(x) if str(x).isdigit() else 99)}
+        return row
+
     categories = []
     for title, ms in by_section.items():
-        if official.get(title):
-            # offisiell dags-stilling fra CSV: rangeringen er gitt, treff-
-            # fordeling (11/10/8/5/0) i stedet for enkeltpiler
-            by_name = {norm_name(m.get("fullName")): m for m in ms}
-            used = set()
-            results = []
-            for row in official[title]:
-                m = by_name.get(norm_name(row["name"]))
-                if m is not None:
-                    used.add(id(m))
-                results.append({
-                    "name": (m or {}).get("fullName") or row["name"],
-                    "country": (m or {}).get("countryCode") or row["country"],
-                    "countryName": (m or {}).get("countryName") or country_names.get(row["country"], ""),
-                    "group": (m or {}).get("group") or "",
-                    "scored": True,
-                    "pos": row["pos"],
-                    "total": row["total"],
-                    "arrows": row["arrows"],
-                    "day": "", "target": "", "shots": [], "photo": "",
-                    "hits": row["hits"],
-                })
-            rest = [m for m in ms if id(m) not in used]
-            for m in sorted(rest, key=lambda m: m.get("fullName") or ""):
-                results.append({
-                    "name": m.get("fullName") or "",
-                    "country": m.get("countryCode") or "",
-                    "countryName": m.get("countryName") or "",
-                    "group": m.get("group") or "",
-                    "scored": False, "pos": 0, "total": 0, "arrows": 0,
-                    "day": "", "target": "", "shots": [], "photo": "",
-                })
-            first = ms[0]
-            bow_m = re.search(r"\(([^)]+)\)", first.get("category") or "")
-            categories.append({
-                "title": title,
-                "bow": bow_m.group(1) if bow_m else "",
-                "age": first.get("ageGroup") or "",
-                "gender": GENDER.get(first.get("gender"), ""),
-                "official": True,
-                "updated": csv_generated,
-                "results": results,
-            })
-            continue
+        used_keys = set()
         results = []
         for m in ms:
-            s = scores.get((title, m.get("id"))) or {}
-            results.append({
-                "name": m.get("fullName") or "",
-                "country": m.get("countryCode") or "",
-                "countryName": m.get("countryName") or "",
-                "group": m.get("group") or "",
-                "scored": bool(s),
-                "total": s.get("total", 0),
-                "arrows": s.get("arrows", 0),
-                "day": s.get("day", ""),
-                "target": s.get("target", ""),
-                "shots": s.get("shots", []),
-                "photo": s.get("photo", ""),
-            })
-        # plassering: poeng desc (delt plass ved likt), uskoredede til slutt
-        scored = sorted((r for r in results if r["scored"]),
-                        key=lambda r: -r["total"])
+            used_keys.add(akey(title, m.get("fullName")))
+            results.append(build_row(m.get("fullName") or "", m.get("countryCode") or "",
+                                     m.get("countryName") or "", m.get("group") or "", m.get("id")))
+        # utøvere som bare finnes i lageret (ikke matchet mot startlista)
+        for k, rec in archers.items():
+            t, _sep, nname = k.partition("\x1f")
+            if t != title or k in used_keys:
+                continue
+            c3 = next((l.get("countryCode") for c in standings.get("categories", [])
+                       if c.get("title") == title for l in c.get("leaders", [])
+                       if norm_name(l.get("name")) == nname), "")
+            results.append(build_row(rec.get("name") or nname,
+                                     code_by_name.get(country_names.get(c3, ""), c3) or c3,
+                                     country_names.get(c3, ""), "", rec.get("rid")))
+        # plassering: sammenlagt poeng desc (delt plass ved likt), uskoredede til slutt
+        scored = sorted((r for r in results if r["scored"]), key=lambda r: -r["total"])
         prev_total, prev_pos = None, 0
         for i, r in enumerate(scored, 1):
             prev_pos = prev_pos if r["total"] == prev_total else i
             r["pos"] = prev_pos
             prev_total = r["total"]
-        rest = sorted((r for r in results if not r["scored"]),
-                      key=lambda r: r["name"])
+        rest = sorted((r for r in results if not r["scored"]), key=lambda r: r["name"])
         for r in rest:
             r["pos"] = 0
         first = ms[0]
         bow_m = re.search(r"\(([^)]+)\)", first.get("category") or "")
+        cat_official = title not in live_titles
         categories.append({
             "title": title,
             "bow": bow_m.group(1) if bow_m else "",
             "age": first.get("ageGroup") or "",
             "gender": GENDER.get(first.get("gender"), ""),
-            "official": False,
-            "updated": updated_by_cat.get(title, ""),
+            "official": cat_official,
+            "updated": csv_generated if cat_official else updated_by_cat.get(title, ""),
             "results": scored + rest,
         })
     categories.sort(key=lambda c: (order.get(next(
@@ -373,8 +525,11 @@ def main() -> int:
         c["athletes"] += 1
     country_list = sorted(countries.values(), key=lambda c: c["name"])
 
+    meta = store.get("meta", {})
+    days_avail = sorted({int(d) for rec in archers.values() for d in rec.get("days", {})
+                         if str(d).isdigit()})
     out = {
-        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated": now_iso(),
         "competition": {
             "id": RACE_ID,
             "name": race.get("name") or "World 3D Archery Championships 2026",
@@ -384,15 +539,22 @@ def main() -> int:
             "endDate": race.get("endDate") or "",
             "url": PAGE_URL,
         },
+        "totalDays": meta.get("totalDays") or total_days or (max(days_avail) if days_avail else 0),
+        "currentDay": current_day or (max(days_avail) if days_avail else 0),
+        "daysAvailable": days_avail,
+        "liveActive": live_active,
         "defaultCountry": "NOR" if "NOR" in countries else (country_list[0]["code"] if country_list else ""),
         "countries": country_list,
         "categories": categories,
     }
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    save_days(store)
     n_scored = sum(1 for c in categories for r in c["results"] if r["scored"])
     print(f"wrote {OUT_FILE}: {len(country_list)} countries, "
-          f"{len(members)} athletes, {len(categories)} categories, {n_scored} with scores")
+          f"{len(members)} athletes, {len(categories)} categories, {n_scored} with scores, "
+          f"dager {days_avail} (dag {out['currentDay']}/{out['totalDays']}"
+          f"{', live' if live_active else ''})")
     prev_state = load_state()
     inbox_ids = [i.get("id", 0) for i in inbox.get("items", [])]
     save_state({
