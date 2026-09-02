@@ -220,6 +220,9 @@ function vRow(r, cat, mine, showCode, detail) {
       <span style="${style({ display: 'block', font: '600 13.5px "Inter",sans-serif', 'white-space': 'nowrap',
         overflow: 'hidden', 'text-overflow': 'ellipsis' })}">${esc(r.name)}${code}</span>
       <span style="${style({ display: 'block', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">${esc(sub)}</span>
+      ${detail && r.hits ? `<span style="${style({ display: 'block', 'margin-top': '4px', font: '600 10.5px "Inter",sans-serif',
+        color: CLR.muted, 'font-variant-numeric': 'tabular-nums' })}">${['11', '10', '8', '5', '0']
+        .filter((k) => r.hits[k]).map((k) => `${k}×${r.hits[k]}`).join(' · ')}</span>` : ''}
       ${detail ? vShots(r.shots) : ''}
     </span>
     ${r.scored ? `<span style="${style({ 'text-align': 'right', flex: 'none' })}">
@@ -235,9 +238,14 @@ function vCatCard(cat) {
   const shown = allCountries() ? rows.filter((r) => r.scored).slice(0, 3) : rows;
   const more = allCountries() && rows.filter((r) => r.scored).length > 3;
   // «pågår nå»: siste score i klassen er under 20 minutter gammel
+  // (aldri for offisielle dagslister — de er ferdige)
   const updMs = Date.parse((cat.updated || '').replace(' ', 'T'));
-  const live = !isNaN(updMs) && (Date.now() - updMs) < 20 * 60000;
-  const updated = cat.updated
+  const live = !cat.official && !isNaN(updMs) && (Date.now() - updMs) < 20 * 60000;
+  const updated = cat.official
+    ? `<span style="${style({ display: 'inline-block', 'margin-top': '3px', padding: '2px 8px',
+        'border-radius': '9999px', border: '1.5px solid ' + CLR.action, color: CLR.action,
+        font: '600 10px "Inter",sans-serif', 'letter-spacing': '0.1em', 'text-transform': 'uppercase' })}">Offisiell dagsliste</span>`
+    : cat.updated
     ? `<span style="${style({ display: 'inline-flex', 'align-items': 'center', gap: '6px',
         font: '400 11px "Inter",sans-serif', color: CLR.muted, 'white-space': 'nowrap' })}">${live
         ? `<span style="${style({ width: '8px', height: '8px', 'border-radius': '9999px', background: CLR.signal,
@@ -316,7 +324,9 @@ function vCatSheet() {
   const rows = (cat.results || []);
   return sheet(esc(shortCat(cat.title)), `
     <p style="${style({ margin: '0 0 8px', font: '400 12px "Inter",sans-serif', color: CLR.muted })}">
-      ${esc(cat.title)}${cat.updated ? ' · siste score ' + esc(cat.updated.slice(5, 16)) : ''}</p>
+      ${esc(cat.title)}${cat.official
+        ? ' · offisiell dagsliste, generert ' + esc((cat.updated || '').slice(5, 16))
+        : cat.updated ? ' · siste score ' + esc(cat.updated.slice(5, 16)) : ''}</p>
     ${rows.map((r) => vRow(r, cat, !allCountries() && r.country === state.country, true, true)).join('')
       || `<p style="${style({ color: CLR.muted })}">Ingen påmeldte funnet.</p>`}`);
 }

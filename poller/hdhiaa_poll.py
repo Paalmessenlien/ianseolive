@@ -41,6 +41,7 @@ RACE_URL = f"{BASE}/api/races/{RACE_ID}"
 STANDINGS_URL = f"{BASE}/api/races/{RACE_ID}/live-standings"
 GROUPS_URL = f"{BASE}/competition/{SLUG}/groups.json"
 INBOX_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/live-inbox.json"
+CSV_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/results/export.csv"
 PAGE_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}"
 OUT_FILE = ROOT / "data" / "hdhiaa.json"
 STATE_FILE = ROOT / "data" / ".hdhiaa_state.json"      # siste inbox-id (ikke i git)
@@ -126,6 +127,52 @@ def parse_meta(meta: str) -> tuple:
     return (day.group(1) if day else "", target.group(1) if target else "")
 
 
+def norm_name(name: str) -> str:
+    return re.sub(r"\s+", " ", name or "").strip().casefold()
+
+
+def to_int(s: str) -> int:
+    m = re.search(r"\d+", s or "")
+    return int(m.group(0)) if m else 0
+
+
+def parse_results_csv(text: str) -> tuple:
+    """Parse results/export.csv (offisiell dags-stilling) ->
+    ({sectionTitle: [rows]}, generated). Seksjoner:
+      "Buestil (KODE) — Alder — Kjønn"
+      "Rank","Name","Country","Club","Gender","11","10","8","5","0","Avg","Perf %","Max","Pts"
+    """
+    import csv
+    import io
+    sections, generated = {}, ""
+    cur, header = None, None
+    for r in csv.reader(io.StringIO(text.lstrip("\ufeff"))):
+        if not r:
+            continue
+        if r[0] == "Generated" and len(r) > 1:
+            generated = r[1]
+            continue
+        if len(r) == 1 and "—" in r[0]:
+            cur, header = r[0], None
+            sections[cur] = []
+            continue
+        if cur and r[0] == "Rank":
+            header = r
+            continue
+        if cur and header and re.match(r"^\d+$", r[0] or ""):
+            d = dict(zip(header, r))
+            hits = {k: to_int(d.get(k, "")) for k in ("11", "10", "8", "5", "0") if k in d}
+            sections[cur].append({
+                "pos": int(d["Rank"]),
+                "name": re.sub(r"\s+", " ", d.get("Name", "")).strip(),
+                "country": d.get("Country", ""),
+                "total": to_int(d.get("Pts", "")),
+                "arrows": sum(hits.values()),
+                "hits": hits,
+            })
+    return sections, generated
+
+
 def paused() -> str:
     """Returnerer pause-fristen fra config.json hvis synken er pauset nå."""
     try:
@@ -139,7 +186,7 @@ def paused() -> str:
 
 
 def main() -> int:
-    if (until := paused()):
+    if "--force" not in sys.argv and (until := paused()):
         print(f"paused until {until}")
         return 0
     live_mode = "--live" in sys.argv
@@ -157,16 +204,24 @@ def main() -> int:
     if standings is None:
         standings_raw = fetch_text(STANDINGS_URL)
         standings = json.loads(standings_raw)
-    # hdhiaa skrur av live-feeden i pauser (enabled=false, 0 kategorier) —
-    # ikke overskriv gode data med en tom stilling
-    if not any(c.get("leaders") for c in standings.get("categories", [])) and OUT_FILE.exists():
+    # Er live-feeden av (enabled=false, 0 kategorier) brukes den offisielle
+    # CSV-eksporten (dags-stillinger) i stedet. Heller ikke den har data →
+    # behold forrige gode datafil.
+    official, csv_generated = {}, ""
+    if not any(c.get("leaders") for c in standings.get("categories", [])):
         try:
-            old = json.loads(OUT_FILE.read_text(encoding="utf-8"))
-            if any(r.get("scored") for c in old.get("categories", []) for r in c.get("results", [])):
-                print("live-standings tom (hdhiaa-feed av) — beholder forrige data")
-                return 0
-        except Exception:
-            pass
+            official, csv_generated = parse_results_csv(fetch_text(CSV_URL))
+            official = {t: rows for t, rows in official.items() if rows}
+        except Exception as exc:
+            print(f"warn: csv: {exc}", file=sys.stderr)
+        if not official and OUT_FILE.exists():
+            try:
+                old = json.loads(OUT_FILE.read_text(encoding="utf-8"))
+                if any(r.get("scored") for c in old.get("categories", []) for r in c.get("results", [])):
+                    print("live-feed av og ingen CSV-resultater — beholder forrige data")
+                    return 0
+            except Exception:
+                pass
     groups = load_groups(standings)
     try:
         inbox = fetch_json(INBOX_URL)
@@ -224,6 +279,50 @@ def main() -> int:
 
     categories = []
     for title, ms in by_section.items():
+        if official.get(title):
+            # offisiell dags-stilling fra CSV: rangeringen er gitt, treff-
+            # fordeling (11/10/8/5/0) i stedet for enkeltpiler
+            by_name = {norm_name(m.get("fullName")): m for m in ms}
+            used = set()
+            results = []
+            for row in official[title]:
+                m = by_name.get(norm_name(row["name"]))
+                if m is not None:
+                    used.add(id(m))
+                results.append({
+                    "name": (m or {}).get("fullName") or row["name"],
+                    "country": (m or {}).get("countryCode") or row["country"],
+                    "countryName": (m or {}).get("countryName") or country_names.get(row["country"], ""),
+                    "group": (m or {}).get("group") or "",
+                    "scored": True,
+                    "pos": row["pos"],
+                    "total": row["total"],
+                    "arrows": row["arrows"],
+                    "day": "", "target": "", "shots": [], "photo": "",
+                    "hits": row["hits"],
+                })
+            rest = [m for m in ms if id(m) not in used]
+            for m in sorted(rest, key=lambda m: m.get("fullName") or ""):
+                results.append({
+                    "name": m.get("fullName") or "",
+                    "country": m.get("countryCode") or "",
+                    "countryName": m.get("countryName") or "",
+                    "group": m.get("group") or "",
+                    "scored": False, "pos": 0, "total": 0, "arrows": 0,
+                    "day": "", "target": "", "shots": [], "photo": "",
+                })
+            first = ms[0]
+            bow_m = re.search(r"\(([^)]+)\)", first.get("category") or "")
+            categories.append({
+                "title": title,
+                "bow": bow_m.group(1) if bow_m else "",
+                "age": first.get("ageGroup") or "",
+                "gender": GENDER.get(first.get("gender"), ""),
+                "official": True,
+                "updated": csv_generated,
+                "results": results,
+            })
+            continue
         results = []
         for m in ms:
             s = scores.get((title, m.get("id"))) or {}
@@ -259,6 +358,7 @@ def main() -> int:
             "bow": bow_m.group(1) if bow_m else "",
             "age": first.get("ageGroup") or "",
             "gender": GENDER.get(first.get("gender"), ""),
+            "official": False,
             "updated": updated_by_cat.get(title, ""),
             "results": scored + rest,
         })
