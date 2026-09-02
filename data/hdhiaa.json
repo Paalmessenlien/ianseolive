@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T12:05:01Z",
+ "generated": "2026-09-02T12:07:01Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -104,7 +104,7 @@
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
    "official": false,
-   "updated": "",
+   "updated": "2026-09-02 12:06:57",
    "results": [
     {
      "name": "Dirk Oestreich",
@@ -1285,7 +1285,7 @@
    "age": "Adults (21-54 years)",
    "gender": "Male",
    "official": false,
-   "updated": "",
+   "updated": "2026-09-02 12:07:01",
    "results": [
     {
      "name": "Szilárd Szarvas",
@@ -1342,6 +1342,33 @@
      "pos": 2
     },
     {
+     "name": "Zoltán Németh",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 10:40",
+     "scored": true,
+     "total": 154,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_19_6a95074c3e30e3.87557274.jpg?v=1788151598",
+     "pos": 3
+    },
+    {
      "name": "Miha Šket",
      "country": "SLO",
      "countryName": "Slovenia",
@@ -1366,7 +1393,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 3
+     "pos": 4
     },
     {
      "name": "Martin Müller",
@@ -1393,7 +1420,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_657_6a94220bd11482.83436876.jpg?v=1788092938",
-     "pos": 4
+     "pos": 5
     },
     {
      "name": "Ivan Racek",
@@ -1420,7 +1447,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_425_6a91e9f812f071.49210913.jpg?v=1787947511",
-     "pos": 5
+     "pos": 6
     },
     {
      "name": "Miroslav Králl",
@@ -1447,7 +1474,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 6
+     "pos": 7
     },
     {
      "name": "Thomas Jensen",
@@ -1474,7 +1501,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 7
+     "pos": 8
     },
     {
      "name": "René Engel-Nielsen",
@@ -1501,33 +1528,6 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_825_6a94fd5323e486.90269684.jpg?v=1788149075",
-     "pos": 8
-    },
-    {
-     "name": "Zoltán Németh",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 10:40",
-     "scored": true,
-     "total": 143,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_19_6a95074c3e30e3.87557274.jpg?v=1788151598",
      "pos": 9
     },
     {
@@ -1774,6 +1774,87 @@
      "pos": 18
     },
     {
+     "name": "NOVÁK ATTILA",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 10:40",
+     "scored": true,
+     "total": 129,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 19
+    },
+    {
+     "name": "Daniel Tarbaj",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 10:40",
+     "scored": true,
+     "total": 127,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 20
+    },
+    {
+     "name": "Martin Macko",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 10:40",
+     "scored": true,
+     "total": 126,
+     "arrows": 24,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 21
+    },
+    {
      "name": "Attila Bircsák",
      "country": "SVK",
      "countryName": "Slovakia",
@@ -1798,7 +1879,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 19
+     "pos": 21
     },
     {
      "name": "Christoph Haunschmied",
@@ -1825,87 +1906,6 @@
       "0"
      ],
      "photo": "",
-     "pos": 20
-    },
-    {
-     "name": "NOVÁK ATTILA",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "OR 10:40",
-     "scored": true,
-     "total": 121,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 21
-    },
-    {
-     "name": "Daniel Tarbaj",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "OR 10:40",
-     "scored": true,
-     "total": 119,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 22
-    },
-    {
-     "name": "Martin Macko",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "OR 10:40",
-     "scored": true,
-     "total": 118,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
      "pos": 23
     },
     {
@@ -1915,7 +1915,7 @@
      "group": "OR 10:40",
      "scored": true,
      "total": 115,
-     "arrows": 23,
+     "arrows": 24,
      "day": "2",
      "target": "24",
      "shots": [
@@ -1923,7 +1923,7 @@
       "5",
       "5",
       "5",
-      "5",
+      "0",
       "0",
       "0",
       "0",
@@ -2017,6 +2017,33 @@
      "pos": 27
     },
     {
+     "name": "VLADIMÍR FRYK",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 10:40",
+     "scored": true,
+     "total": 110,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 28
+    },
+    {
      "name": "Jan Tajzich",
      "country": "CZE",
      "countryName": "Czech Republic",
@@ -2041,34 +2068,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_995_6a94635f1985f0.76601346.jpg?v=1788109661",
-     "pos": 28
-    },
-    {
-     "name": "VLADIMÍR FRYK",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "OR 10:40",
-     "scored": true,
-     "total": 105,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 28
+     "pos": 29
     },
     {
      "name": "Lontea Alin",
@@ -2216,6 +2216,33 @@
    "updated": "",
    "results": [
     {
+     "name": "Annamaria Mattei",
+     "country": "ITA",
+     "countryName": "Italy",
+     "group": "OR 10:10",
+     "scored": true,
+     "total": 165,
+     "arrows": 27,
+     "day": "2",
+     "target": "27",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_65_6a96f581040e05.71415804.jpg?v=1788278144",
+     "pos": 1
+    },
+    {
      "name": "Johanna Pitschmann",
      "country": "AUT",
      "countryName": "Austria",
@@ -2224,7 +2251,7 @@
      "total": 163,
      "arrows": 27,
      "day": "2",
-     "target": "27",
+     "target": "28",
      "shots": [
       "5",
       "5",
@@ -2240,7 +2267,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 1
+     "pos": 2
     },
     {
      "name": "Daniela Maurer",
@@ -2267,18 +2294,18 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_800_6a7e9e4d683871.40747732.jpg?v=1787211890",
-     "pos": 2
+     "pos": 3
     },
     {
-     "name": "Annamaria Mattei",
-     "country": "ITA",
-     "countryName": "Italy",
+     "name": "Bente Huuse",
+     "country": "NOR",
+     "countryName": "Norway",
      "group": "OR 10:10",
      "scored": true,
-     "total": 157,
-     "arrows": 26,
+     "total": 155,
+     "arrows": 27,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "5",
       "5",
@@ -2288,13 +2315,13 @@
       "5",
       "5",
       "5",
-      "0",
+      "5",
       "0",
       "0",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_65_6a96f581040e05.71415804.jpg?v=1788278144",
-     "pos": 3
+     "photo": "https://hdhiaa.net/uploads/profile/user_836_6a9571e07d6593.52479890.jpg?v=1788178912",
+     "pos": 4
     },
     {
      "name": "Stefanie Wengerter",
@@ -2321,33 +2348,6 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1013_6a919f35a99e36.92612879.jpg?v=1787928373",
-     "pos": 4
-    },
-    {
-     "name": "Bente Huuse",
-     "country": "NOR",
-     "countryName": "Norway",
-     "group": "OR 10:10",
-     "scored": true,
-     "total": 150,
-     "arrows": 26,
-     "day": "2",
-     "target": "26",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_836_6a9571e07d6593.52479890.jpg?v=1788178912",
      "pos": 5
     },
     {
@@ -2783,12 +2783,13 @@
      "group": "BL 13:40",
      "scored": true,
      "total": 10,
-     "arrows": 4,
+     "arrows": 5,
      "day": "2",
-     "target": "4",
+     "target": "5",
      "shots": [
       "5",
       "5",
+      "0",
       "0",
       "0"
      ],
@@ -2812,11 +2813,12 @@
      "group": "BL 13:40",
      "scored": true,
      "total": 8,
-     "arrows": 4,
+     "arrows": 5,
      "day": "2",
-     "target": "4",
+     "target": "5",
      "shots": [
       "8",
+      "0",
       "0",
       "0",
       "0"
@@ -2843,7 +2845,7 @@
      "total": 30,
      "arrows": 5,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "10",
       "5",
@@ -2890,12 +2892,13 @@
      "countryName": "Austria",
      "group": "BL 13:40",
      "scored": true,
-     "total": 18,
-     "arrows": 4,
+     "total": 23,
+     "arrows": 5,
      "day": "2",
      "target": "5",
      "shots": [
       "8",
+      "5",
       "5",
       "5",
       "0"
@@ -2910,17 +2913,18 @@
      "group": "BL 13:40",
      "scored": true,
      "total": 18,
-     "arrows": 4,
+     "arrows": 5,
      "day": "2",
-     "target": "4",
+     "target": "5",
      "shots": [
       "8",
       "5",
       "5",
+      "0",
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_375_6a8ee4728ac830.95870435.jpg?v=1787749490",
-     "pos": 1
+     "pos": 2
     }
    ]
   },
@@ -2938,11 +2942,12 @@
      "countryName": "Austria",
      "group": "WH 13:00",
      "scored": true,
-     "total": 15,
-     "arrows": 7,
+     "total": 20,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
+      "5",
       "5",
       "5",
       "5",
@@ -2970,15 +2975,16 @@
      "countryName": "Slovakia",
      "group": "WH 13:00",
      "scored": true,
-     "total": 42,
-     "arrows": 7,
+     "total": 47,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
       "8",
       "8",
       "8",
       "8",
+      "5",
       "5",
       "5",
       "0"
@@ -3024,20 +3030,20 @@
      "pos": 1
     },
     {
-     "name": "Rosario Lungarini",
-     "country": "ITA",
-     "countryName": "Italy",
+     "name": "Laszlo Olah",
+     "country": "HUN",
+     "countryName": "Hungary",
      "group": "OR 11:40",
      "scored": true,
-     "total": 91,
-     "arrows": 16,
+     "total": 100,
+     "arrows": 17,
      "day": "2",
-     "target": "16",
+     "target": "17",
      "shots": [
       "8",
       "8",
       "8",
-      "8",
+      "5",
       "5",
       "5",
       "5",
@@ -3051,20 +3057,20 @@
      "pos": 2
     },
     {
-     "name": "Laszlo Olah",
-     "country": "HUN",
-     "countryName": "Hungary",
+     "name": "Rosario Lungarini",
+     "country": "ITA",
+     "countryName": "Italy",
      "group": "OR 11:40",
      "scored": true,
-     "total": 90,
-     "arrows": 16,
+     "total": 99,
+     "arrows": 17,
      "day": "2",
-     "target": "16",
+     "target": "17",
      "shots": [
       "8",
       "8",
       "8",
-      "5",
+      "8",
       "5",
       "5",
       "5",
@@ -3084,12 +3090,11 @@
      "group": "OR 11:40",
      "scored": true,
      "total": 88,
-     "arrows": 16,
+     "arrows": 17,
      "day": "2",
-     "target": "16",
+     "target": "17",
      "shots": [
       "8",
-      "8",
       "5",
       "5",
       "5",
@@ -3098,6 +3103,7 @@
       "5",
       "5",
       "5",
+      "0",
       "0",
       "0"
      ],
@@ -3138,17 +3144,17 @@
      "group": "OR 11:40",
      "scored": true,
      "total": 82,
-     "arrows": 16,
+     "arrows": 17,
      "day": "2",
-     "target": "16",
+     "target": "17",
      "shots": [
       "8",
       "8",
-      "8",
       "5",
       "5",
       "5",
       "5",
+      "0",
       "0",
       "0",
       "0",
@@ -3186,15 +3192,15 @@
      "pos": 7
     },
     {
-     "name": "Nagy Tibor",
-     "country": "SVK",
-     "countryName": "Slovakia",
+     "name": "Eliseo Tuzi",
+     "country": "ITA",
+     "countryName": "Italy",
      "group": "OR 11:40",
      "scored": true,
-     "total": 49,
-     "arrows": 16,
+     "total": 54,
+     "arrows": 17,
      "day": "2",
-     "target": "16",
+     "target": "18",
      "shots": [
       "5",
       "5",
@@ -3209,17 +3215,17 @@
       "0",
       "0"
      ],
-     "photo": "",
+     "photo": "https://hdhiaa.net/uploads/profile/user_50_6a95aba2df9fb5.14748651.jpg?v=1788193697",
      "pos": 8
     },
     {
-     "name": "Eliseo Tuzi",
-     "country": "ITA",
-     "countryName": "Italy",
+     "name": "Nagy Tibor",
+     "country": "SVK",
+     "countryName": "Slovakia",
      "group": "OR 11:40",
      "scored": true,
-     "total": 46,
-     "arrows": 16,
+     "total": 54,
+     "arrows": 17,
      "day": "2",
      "target": "17",
      "shots": [
@@ -3236,8 +3242,8 @@
       "0",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_50_6a95aba2df9fb5.14748651.jpg?v=1788193697",
-     "pos": 9
+     "photo": "",
+     "pos": 8
     },
     {
      "name": "Haklik Szabolcs",
@@ -3415,6 +3421,33 @@
      "pos": 3
     },
     {
+     "name": "Mező Anikó",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 11:30",
+     "scored": true,
+     "total": 87,
+     "arrows": 21,
+     "day": "2",
+     "target": "21",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 4
+    },
+    {
      "name": "Viola Szigetiné Varga",
      "country": "HUN",
      "countryName": "Hungary",
@@ -3439,33 +3472,6 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_857_6a91e4cd6f4534.07068344.jpg?v=1787946189",
-     "pos": 4
-    },
-    {
-     "name": "Mező Anikó",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 11:30",
-     "scored": true,
-     "total": 82,
-     "arrows": 20,
-     "day": "2",
-     "target": "21",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
      "pos": 5
     },
     {
@@ -3529,9 +3535,9 @@
      "group": "OR 11:30",
      "scored": true,
      "total": 43,
-     "arrows": 20,
+     "arrows": 21,
      "day": "2",
-     "target": "20",
+     "target": "21",
      "shots": [
       "0",
       "0",
@@ -3668,6 +3674,32 @@
      "pos": 4
     },
     {
+     "name": "Vartnal Botond",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 12:50",
+     "scored": true,
+     "total": 86,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1084_6a7327a381d858.08857092.jpg?v=1787211891",
+     "pos": 4
+    },
+    {
      "name": "Saša Radovanović",
      "country": "SRB",
      "countryName": "Serbia",
@@ -3692,32 +3724,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 5
-    },
-    {
-     "name": "Vartnal Botond",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 12:50",
-     "scored": true,
-     "total": 78,
-     "arrows": 10,
-     "day": "2",
-     "target": "10",
-     "shots": [
-      "11",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_1084_6a7327a381d858.08857092.jpg?v=1787211891",
-     "pos": 5
+     "pos": 6
     },
     {
      "name": "Csaba Baranyi",
@@ -3801,6 +3808,32 @@
      "pos": 9
     },
     {
+     "name": "Richárd Deme",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "OR 12:50",
+     "scored": true,
+     "total": 70,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_922_6a958299c6d466.90651472.jpg?v=1788183193",
+     "pos": 10
+    },
+    {
      "name": "Ľubomír Králik",
      "country": "SVK",
      "countryName": "Slovakia",
@@ -3822,7 +3855,34 @@
       "5"
      ],
      "photo": "",
-     "pos": 10
+     "pos": 11
+    },
+    {
+     "name": "Paweł Szura",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "OR 12:20",
+     "scored": true,
+     "total": 66,
+     "arrows": 14,
+     "day": "2",
+     "target": "14",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_459_6a743870ee7581.07232173.jpg?v=1787211887",
+     "pos": 12
     },
     {
      "name": "Juraj Zajac",
@@ -3846,7 +3906,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 11
+     "pos": 13
     },
     {
      "name": "László Lelkes",
@@ -3857,7 +3917,7 @@
      "total": 62,
      "arrows": 11,
      "day": "2",
-     "target": "11",
+     "target": "12",
      "shots": [
       "10",
       "8",
@@ -3872,58 +3932,6 @@
       "0"
      ],
      "photo": "",
-     "pos": 12
-    },
-    {
-     "name": "Richárd Deme",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "OR 12:50",
-     "scored": true,
-     "total": 62,
-     "arrows": 10,
-     "day": "2",
-     "target": "10",
-     "shots": [
-      "11",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_922_6a958299c6d466.90651472.jpg?v=1788183193",
-     "pos": 12
-    },
-    {
-     "name": "Paweł Szura",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "OR 12:20",
-     "scored": true,
-     "total": 61,
-     "arrows": 13,
-     "day": "2",
-     "target": "14",
-     "shots": [
-      "10",
-      "10",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_459_6a743870ee7581.07232173.jpg?v=1787211887",
      "pos": 14
     },
     {
@@ -3978,6 +3986,59 @@
      "pos": 16
     },
     {
+     "name": "Libor Vaněk",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "OR 12:50",
+     "scored": true,
+     "total": 57,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 17
+    },
+    {
+     "name": "Gergely Dancs",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "OR 12:20",
+     "scored": true,
+     "total": 56,
+     "arrows": 14,
+     "day": "2",
+     "target": "14",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 18
+    },
+    {
      "name": "Peter Horváth",
      "country": "SVK",
      "countryName": "Slovakia",
@@ -4002,7 +4063,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 17
+     "pos": 18
     },
     {
      "name": "Norbert Zolnyánszki",
@@ -4010,10 +4071,10 @@
      "countryName": "Hungary",
      "group": "OR 12:50",
      "scored": true,
-     "total": 49,
-     "arrows": 10,
+     "total": 54,
+     "arrows": 11,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
       "8",
       "8",
@@ -4023,58 +4084,7 @@
       "5",
       "5",
       "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 18
-    },
-    {
-     "name": "Libor Vaněk",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "OR 12:50",
-     "scored": true,
-     "total": 49,
-     "arrows": 10,
-     "day": "2",
-     "target": "10",
-     "shots": [
-      "11",
-      "8",
       "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 18
-    },
-    {
-     "name": "Gergely Dancs",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "OR 12:20",
-     "scored": true,
-     "total": 48,
-     "arrows": 13,
-     "day": "2",
-     "target": "13",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
       "0",
       "0"
      ],
@@ -4133,6 +4143,32 @@
      "pos": 21
     },
     {
+     "name": "Adrian Popa",
+     "country": "ROU",
+     "countryName": "Romania",
+     "group": "OR 12:50",
+     "scored": true,
+     "total": 44,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "10",
+      "8",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 23
+    },
+    {
      "name": "Gyurkovics Tomáš",
      "country": "SVK",
      "countryName": "Slovakia",
@@ -4154,7 +4190,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 23
+     "pos": 24
     },
     {
      "name": "Ladislav Lancz",
@@ -4163,7 +4199,7 @@
      "group": "OR 12:20",
      "scored": true,
      "total": 38,
-     "arrows": 13,
+     "arrows": 14,
      "day": "2",
      "target": "14",
      "shots": [
@@ -4172,33 +4208,8 @@
       "5",
       "5",
       "5",
-      "5",
       "0",
       "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 24
-    },
-    {
-     "name": "Adrian Popa",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "OR 12:50",
-     "scored": true,
-     "total": 36,
-     "arrows": 10,
-     "day": "2",
-     "target": "10",
-     "shots": [
-      "11",
-      "10",
-      "5",
-      "5",
-      "5",
       "0",
       "0",
       "0",
@@ -4278,7 +4289,7 @@
      "total": 74,
      "arrows": 14,
      "day": "2",
-     "target": "14",
+     "target": "15",
      "shots": [
       "8",
       "5",
@@ -4572,10 +4583,10 @@
      "countryName": "Hungary",
      "group": "OR 12:20",
      "scored": true,
-     "total": 20,
-     "arrows": 13,
+     "total": 25,
+     "arrows": 14,
      "day": "2",
-     "target": "14",
+     "target": "15",
      "shots": [
       "5",
       "5",
@@ -4968,8 +4979,8 @@
      "countryName": "Hungary",
      "group": "WH 12:50",
      "scored": true,
-     "total": 50,
-     "arrows": 8,
+     "total": 55,
+     "arrows": 9,
      "day": "2",
      "target": "9",
      "shots": [
@@ -4977,6 +4988,7 @@
       "8",
       "8",
       "8",
+      "5",
       "5",
       "5",
       "5",
@@ -5057,7 +5069,7 @@
    "age": "Adults (21-54 years)",
    "gender": "Male",
    "official": false,
-   "updated": "",
+   "updated": "2026-09-02 12:06:59",
    "results": [
     {
      "name": "Zoltán Boholy",
@@ -5679,10 +5691,10 @@
      "countryName": "Hungary",
      "group": "GR 9:20",
      "scored": true,
-     "total": 177,
-     "arrows": 25,
+     "total": 187,
+     "arrows": 26,
      "day": "2",
-     "target": "25",
+     "target": "26",
      "shots": [
       "8",
       "8",
@@ -5706,10 +5718,10 @@
      "countryName": "Romania",
      "group": "GR 9:20",
      "scored": true,
-     "total": 166,
-     "arrows": 25,
+     "total": 176,
+     "arrows": 26,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "5",
       "5",
@@ -5743,10 +5755,10 @@
      "countryName": "Germany",
      "group": "GR 9:10",
      "scored": true,
-     "total": 235,
-     "arrows": 26,
+     "total": 246,
+     "arrows": 27,
      "day": "2",
-     "target": "27",
+     "target": "28",
      "shots": [
       "8",
       "8",
@@ -5770,10 +5782,10 @@
      "countryName": "Italy",
      "group": "GR 9:10",
      "scored": true,
-     "total": 216,
-     "arrows": 26,
+     "total": 226,
+     "arrows": 27,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "8",
       "8",
@@ -5797,10 +5809,10 @@
      "countryName": "Hungary",
      "group": "GR 9:10",
      "scored": true,
-     "total": 200,
-     "arrows": 26,
+     "total": 208,
+     "arrows": 27,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "8",
       "8",
@@ -5824,10 +5836,10 @@
      "countryName": "Austria",
      "group": "GR 9:10",
      "scored": true,
-     "total": 197,
-     "arrows": 26,
+     "total": 205,
+     "arrows": 27,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "8",
       "8",
@@ -5851,10 +5863,10 @@
      "countryName": "Hungary",
      "group": "GR 9:10",
      "scored": true,
-     "total": 194,
-     "arrows": 26,
+     "total": 202,
+     "arrows": 27,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "8",
       "8",
@@ -5883,6 +5895,60 @@
    "updated": "",
    "results": [
     {
+     "name": "Andreas Schober",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 217,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_794_6a8b2669ee7d20.72883466.jpg?v=1787504233",
+     "pos": 1
+    },
+    {
+     "name": "Varga Zsolt Árpád",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 10:00",
+     "scored": true,
+     "total": 217,
+     "arrows": 22,
+     "day": "2",
+     "target": "22",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "5"
+     ],
+     "photo": "",
+     "pos": 1
+    },
+    {
      "name": "Luca Tistarelli",
      "country": "ITA",
      "countryName": "Italy",
@@ -5891,7 +5957,7 @@
      "total": 214,
      "arrows": 22,
      "day": "2",
-     "target": "22",
+     "target": "23",
      "shots": [
       "10",
       "10",
@@ -5907,7 +5973,34 @@
       "8"
      ],
      "photo": "",
-     "pos": 1
+     "pos": 3
+    },
+    {
+     "name": "Peter Levente Soós",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 212,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "pos": 4
     },
     {
      "name": "Timotej Obreza Škerjanec",
@@ -5934,48 +6027,19 @@
       "5"
      ],
      "photo": "",
-     "pos": 2
+     "pos": 5
     },
     {
-     "name": "Varga Zsolt Árpád",
+     "name": "Attila Nyeste",
      "country": "HUN",
      "countryName": "Hungary",
-     "group": "GR 10:00",
-     "scored": true,
-     "total": 209,
-     "arrows": 21,
-     "day": "2",
-     "target": "22",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "5"
-     ],
-     "photo": "",
-     "pos": 2
-    },
-    {
-     "name": "Andreas Schober",
-     "country": "AUT",
-     "countryName": "Austria",
      "group": "GR 9:40",
      "scored": true,
      "total": 207,
-     "arrows": 23,
+     "arrows": 24,
      "day": "2",
-     "target": "23",
+     "target": "25",
      "shots": [
-      "10",
-      "10",
       "8",
       "8",
       "8",
@@ -5983,12 +6047,14 @@
       "8",
       "8",
       "8",
+      "8",
+      "5",
       "5",
       "5",
       "5"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_794_6a8b2669ee7d20.72883466.jpg?v=1787504233",
-     "pos": 4
+     "photo": "",
+     "pos": 6
     },
     {
      "name": "Robert Schiefer",
@@ -6015,7 +6081,7 @@
       "8"
      ],
      "photo": "",
-     "pos": 5
+     "pos": 7
     },
     {
      "name": "Tonny Gram",
@@ -6042,7 +6108,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 6
+     "pos": 8
     },
     {
      "name": "Martin Pitschmann",
@@ -6069,7 +6135,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_802_6a95af27eeeab9.33550123.jpg?v=1788194599",
-     "pos": 6
+     "pos": 8
     },
     {
      "name": "Harald Ruhmer",
@@ -6096,34 +6162,7 @@
       "8"
      ],
      "photo": "",
-     "pos": 6
-    },
-    {
-     "name": "Peter Levente Soós",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 201,
-     "arrows": 23,
-     "day": "2",
-     "target": "23",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5"
-     ],
-     "photo": "",
-     "pos": 9
+     "pos": 8
     },
     {
      "name": "Ádám Horváth",
@@ -6150,7 +6189,7 @@
       "8"
      ],
      "photo": "",
-     "pos": 10
+     "pos": 11
     },
     {
      "name": "Matjaž Zorjan",
@@ -6177,34 +6216,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 10
-    },
-    {
-     "name": "Attila Nyeste",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 199,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "",
-     "pos": 12
+     "pos": 11
     },
     {
      "name": "Rune Soldal",
@@ -6423,6 +6435,33 @@
      "pos": 20
     },
     {
+     "name": "Piotr Grabowski",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 187,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_184_6a95250534a489.16528763.jpg?v=1788159236",
+     "pos": 21
+    },
+    {
      "name": "JON REBERNIK",
      "country": "SLO",
      "countryName": "Slovenia",
@@ -6447,7 +6486,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_775_6a9516a86a43b3.50101070.jpg?v=1788155559",
-     "pos": 21
+     "pos": 22
     },
     {
      "name": "Zoltán Bertalan",
@@ -6474,7 +6513,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 21
+     "pos": 22
     },
     {
      "name": "Eddie Øyen",
@@ -6501,7 +6540,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 23
+     "pos": 24
     },
     {
      "name": "Ifj. Bóka László",
@@ -6528,33 +6567,6 @@
       "8"
      ],
      "photo": "",
-     "pos": 24
-    },
-    {
-     "name": "Piotr Grabowski",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 179,
-     "arrows": 23,
-     "day": "2",
-     "target": "23",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_184_6a95250534a489.16528763.jpg?v=1788159236",
      "pos": 25
     },
     {
@@ -6582,7 +6594,34 @@
       "5"
      ],
      "photo": "",
-     "pos": 25
+     "pos": 26
+    },
+    {
+     "name": "Márton Pintér",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 9:40",
+     "scored": true,
+     "total": 168,
+     "arrows": 24,
+     "day": "2",
+     "target": "24",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_351_6a95b8bb7f2446.36674679.jpg?v=1788197040",
+     "pos": 27
     },
     {
      "name": "István Tógyer",
@@ -6609,33 +6648,6 @@
       "0"
      ],
      "photo": "",
-     "pos": 27
-    },
-    {
-     "name": "Márton Pintér",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "GR 9:40",
-     "scored": true,
-     "total": 160,
-     "arrows": 23,
-     "day": "2",
-     "target": "23",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_351_6a95b8bb7f2446.36674679.jpg?v=1788197040",
      "pos": 28
     },
     {
@@ -6644,10 +6656,10 @@
      "countryName": "Greece",
      "group": "GR 9:40",
      "scored": true,
-     "total": 157,
-     "arrows": 23,
+     "total": 165,
+     "arrows": 24,
      "day": "2",
-     "target": "23",
+     "target": "24",
      "shots": [
       "8",
       "5",
@@ -6690,7 +6702,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_536_6a917612bf4a91.06424570.jpg?v=1787917842",
-     "pos": 29
+     "pos": 30
     },
     {
      "name": "Tibor Vitányi",
@@ -6698,10 +6710,10 @@
      "countryName": "Hungary",
      "group": "GR 9:20",
      "scored": true,
-     "total": 100,
-     "arrows": 25,
+     "total": 110,
+     "arrows": 26,
      "day": "2",
-     "target": "25",
+     "target": "26",
      "shots": [
       "5",
       "5",
@@ -6814,42 +6826,15 @@
    "updated": "",
    "results": [
     {
-     "name": "Sisse Gram",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "GR 9:30",
-     "scored": true,
-     "total": 223,
-     "arrows": 24,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_549_6a97003c124602.70451303.jpg?v=1788280891",
-     "pos": 1
-    },
-    {
      "name": "Alíz Kun",
      "country": "HUN",
      "countryName": "Hungary",
      "group": "GR 9:30",
      "scored": true,
-     "total": 222,
-     "arrows": 24,
+     "total": 233,
+     "arrows": 25,
      "day": "2",
-     "target": "25",
+     "target": "26",
      "shots": [
       "10",
       "10",
@@ -6865,19 +6850,23 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_34_6a773cf109d243.04488460.jpg?v=1787211886",
-     "pos": 2
+     "pos": 1
     },
     {
-     "name": "Ana Kostanjevec",
-     "country": "SLO",
-     "countryName": "Slovenia",
+     "name": "Sisse Gram",
+     "country": "DEN",
+     "countryName": "Denmark",
      "group": "GR 9:30",
      "scored": true,
-     "total": 194,
-     "arrows": 24,
+     "total": 231,
+     "arrows": 25,
      "day": "2",
-     "target": "24",
+     "target": "26",
      "shots": [
+      "10",
+      "10",
+      "10",
+      "8",
       "8",
       "8",
       "8",
@@ -6885,14 +6874,10 @@
       "8",
       "8",
       "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5"
+      "0"
      ],
-     "photo": "",
-     "pos": 3
+     "photo": "https://hdhiaa.net/uploads/profile/user_549_6a97003c124602.70451303.jpg?v=1788280891",
+     "pos": 2
     },
     {
      "name": "Ilona Rada",
@@ -6900,10 +6885,10 @@
      "countryName": "Hungary",
      "group": "GR 9:30",
      "scored": true,
-     "total": 194,
-     "arrows": 23,
+     "total": 213,
+     "arrows": 25,
      "day": "2",
-     "target": "24",
+     "target": "25",
      "shots": [
       "8",
       "8",
@@ -6922,15 +6907,42 @@
      "pos": 3
     },
     {
+     "name": "Ana Kostanjevec",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "GR 9:30",
+     "scored": true,
+     "total": 202,
+     "arrows": 25,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "pos": 4
+    },
+    {
      "name": "Andrea Farkas",
      "country": "HUN",
      "countryName": "Hungary",
      "group": "GR 9:30",
      "scored": true,
-     "total": 180,
-     "arrows": 24,
+     "total": 190,
+     "arrows": 25,
      "day": "2",
-     "target": "24",
+     "target": "25",
      "shots": [
       "8",
       "8",
@@ -6954,10 +6966,10 @@
      "countryName": "Norway",
      "group": "GR 9:20",
      "scored": true,
-     "total": 174,
-     "arrows": 25,
+     "total": 185,
+     "arrows": 26,
      "day": "2",
-     "target": "25",
+     "target": "26",
      "shots": [
       "8",
       "8",
@@ -6981,10 +6993,10 @@
      "countryName": "Croatia",
      "group": "GR 9:30",
      "scored": true,
-     "total": 171,
-     "arrows": 24,
+     "total": 179,
+     "arrows": 25,
      "day": "2",
-     "target": "24",
+     "target": "25",
      "shots": [
       "8",
       "8",
@@ -7008,10 +7020,10 @@
      "countryName": "Hungary",
      "group": "GR 9:20",
      "scored": true,
-     "total": 163,
-     "arrows": 25,
+     "total": 174,
+     "arrows": 26,
      "day": "2",
-     "target": "25",
+     "target": "26",
      "shots": [
       "5",
       "5",
@@ -7203,7 +7215,7 @@
      "total": 71,
      "arrows": 7,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
       "11",
       "11",
@@ -7215,6 +7227,28 @@
      ],
      "photo": "",
      "pos": 1
+    },
+    {
+     "name": "Simon Dravetz",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "GR 13:00",
+     "scored": true,
+     "total": 69,
+     "arrows": 7,
+     "day": "2",
+     "target": "7",
+     "shots": [
+      "11",
+      "11",
+      "11",
+      "10",
+      "10",
+      "8",
+      "8"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_251_6a8896c093ae70.13213139.jpg?v=1787336383",
+     "pos": 2
     },
     {
      "name": "Hunor Szabó",
@@ -7236,27 +7270,6 @@
       "8"
      ],
      "photo": "",
-     "pos": 2
-    },
-    {
-     "name": "Simon Dravetz",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "GR 13:00",
-     "scored": true,
-     "total": 61,
-     "arrows": 6,
-     "day": "2",
-     "target": "7",
-     "shots": [
-      "11",
-      "11",
-      "11",
-      "10",
-      "10",
-      "8"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_251_6a8896c093ae70.13213139.jpg?v=1787336383",
      "pos": 3
     }
    ]
@@ -7275,16 +7288,17 @@
      "countryName": "Slovenia",
      "group": "GR 13:00",
      "scored": true,
-     "total": 60,
-     "arrows": 6,
+     "total": 68,
+     "arrows": 7,
      "day": "2",
-     "target": "6",
+     "target": "7",
      "shots": [
       "11",
       "11",
       "10",
       "10",
       "10",
+      "8",
       "8"
      ],
      "photo": "",
@@ -7296,16 +7310,17 @@
      "countryName": "Hungary",
      "group": "GR 13:00",
      "scored": true,
-     "total": 56,
-     "arrows": 6,
+     "total": 64,
+     "arrows": 7,
      "day": "2",
-     "target": "6",
+     "target": "7",
      "shots": [
       "11",
       "10",
       "10",
       "10",
       "10",
+      "8",
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_32_6a889e63c041a2.21554061.jpg?v=1787338339",
@@ -7336,41 +7351,17 @@
    "updated": "",
    "results": [
     {
-     "name": "Leonard Pikla",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "GR 12:40",
-     "scored": true,
-     "total": 107,
-     "arrows": 10,
-     "day": "2",
-     "target": "10",
-     "shots": [
-      "11",
-      "11",
-      "11",
-      "11",
-      "11",
-      "11",
-      "11",
-      "10",
-      "10",
-      "10"
-     ],
-     "photo": "",
-     "pos": 1
-    },
-    {
      "name": "Kovacs Krisztian",
      "country": "HUN",
      "countryName": "Hungary",
      "group": "GR 12:40",
      "scored": true,
-     "total": 106,
-     "arrows": 10,
+     "total": 117,
+     "arrows": 11,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
+      "11",
       "11",
       "11",
       "11",
@@ -7383,7 +7374,7 @@
       "10"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_61_6a579ea4bedc94.66030477.jpg?v=1787211889",
-     "pos": 2
+     "pos": 1
     },
     {
      "name": "Máté Botond Pintér",
@@ -7391,11 +7382,12 @@
      "countryName": "Hungary",
      "group": "GR 12:40",
      "scored": true,
-     "total": 105,
-     "arrows": 10,
+     "total": 116,
+     "arrows": 11,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
+      "11",
       "11",
       "11",
       "11",
@@ -7408,7 +7400,7 @@
       "8"
      ],
      "photo": "",
-     "pos": 3
+     "pos": 2
     },
     {
      "name": "Tomáš Karas",
@@ -7416,16 +7408,43 @@
      "countryName": "Slovakia",
      "group": "GR 12:40",
      "scored": true,
-     "total": 101,
-     "arrows": 10,
+     "total": 112,
+     "arrows": 11,
      "day": "2",
-     "target": "11",
+     "target": "12",
      "shots": [
       "11",
       "11",
       "11",
       "11",
       "11",
+      "11",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8"
+     ],
+     "photo": "",
+     "pos": 3
+    },
+    {
+     "name": "Vitányi Tibor",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "GR 12:40",
+     "scored": true,
+     "total": 109,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "11",
+      "11",
+      "10",
+      "10",
+      "10",
       "10",
       "10",
       "10",
@@ -7436,26 +7455,26 @@
      "pos": 4
     },
     {
-     "name": "Vitányi Tibor",
-     "country": "HUN",
-     "countryName": "Hungary",
+     "name": "Leonard Pikla",
+     "country": "SVK",
+     "countryName": "Slovakia",
      "group": "GR 12:40",
      "scored": true,
-     "total": 99,
+     "total": 107,
      "arrows": 10,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
       "11",
       "11",
       "11",
+      "11",
+      "11",
+      "11",
+      "11",
       "10",
       "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8"
+      "10"
      ],
      "photo": "",
      "pos": 5
@@ -7466,13 +7485,14 @@
      "countryName": "Hungary",
      "group": "GR 12:40",
      "scored": true,
-     "total": 84,
-     "arrows": 10,
+     "total": 94,
+     "arrows": 11,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
       "11",
       "11",
+      "10",
       "10",
       "10",
       "8",
@@ -7678,14 +7698,15 @@
      "countryName": "Hungary",
      "group": "WH 12:40",
      "scored": true,
-     "total": 76,
-     "arrows": 9,
+     "total": 84,
+     "arrows": 10,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
       "11",
       "10",
       "10",
+      "8",
       "8",
       "8",
       "8",
@@ -7702,15 +7723,16 @@
      "countryName": "Slovenia",
      "group": "WH 12:40",
      "scored": true,
-     "total": 71,
-     "arrows": 9,
+     "total": 79,
+     "arrows": 10,
      "day": "2",
-     "target": "10",
+     "target": "11",
      "shots": [
       "10",
       "10",
       "10",
       "10",
+      "8",
       "8",
       "8",
       "5",
@@ -8292,16 +8314,17 @@
      "countryName": "Hungary",
      "group": "GR 13:00",
      "scored": true,
-     "total": 60,
-     "arrows": 6,
+     "total": 68,
+     "arrows": 7,
      "day": "2",
-     "target": "6",
+     "target": "7",
      "shots": [
       "11",
       "11",
       "10",
       "10",
       "10",
+      "8",
       "8"
      ],
      "photo": "",
@@ -9910,7 +9933,7 @@
    "age": "Adults (21-54 years)",
    "gender": "Male",
    "official": false,
-   "updated": "",
+   "updated": "2026-09-02 12:07:00",
    "results": [
     {
      "name": "Jan Štursa",
@@ -9940,42 +9963,15 @@
      "pos": 1
     },
     {
-     "name": "Norbert Grenerczy",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 11:30",
-     "scored": true,
-     "total": 160,
-     "arrows": 22,
-     "day": "2",
-     "target": "22",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_305_6a88bba2c3e2e7.99670984.jpg?v=1787345826",
-     "pos": 2
-    },
-    {
      "name": "Marcel Skalický",
      "country": "CZE",
      "countryName": "Czech Republic",
      "group": "BL 11:30",
      "scored": true,
-     "total": 156,
-     "arrows": 21,
+     "total": 167,
+     "arrows": 22,
      "day": "2",
-     "target": "21",
+     "target": "22",
      "shots": [
       "8",
       "8",
@@ -9991,7 +9987,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_820_6a9722e522b264.60960328.jpg?v=1788289764",
-     "pos": 3
+     "pos": 2
     },
     {
      "name": "Ferencz Laszlo",
@@ -9999,8 +9995,8 @@
      "countryName": "Romania",
      "group": "BL 11:20",
      "scored": true,
-     "total": 155,
-     "arrows": 22,
+     "total": 160,
+     "arrows": 23,
      "day": "2",
      "target": "23",
      "shots": [
@@ -10009,7 +10005,7 @@
       "8",
       "8",
       "8",
-      "8",
+      "5",
       "5",
       "5",
       "5",
@@ -10018,7 +10014,61 @@
       "0"
      ],
      "photo": "",
-     "pos": 4
+     "pos": 3
+    },
+    {
+     "name": "Norbert Grenerczy",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 11:30",
+     "scored": true,
+     "total": 160,
+     "arrows": 22,
+     "day": "2",
+     "target": "23",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_305_6a88bba2c3e2e7.99670984.jpg?v=1787345826",
+     "pos": 3
+    },
+    {
+     "name": "Marian Žigó",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 11:30",
+     "scored": true,
+     "total": 159,
+     "arrows": 22,
+     "day": "2",
+     "target": "22",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_383_6a967a486c5414.31185358.jpg?v=1788246599",
+     "pos": 5
     },
     {
      "name": "Michal Šúň",
@@ -10045,7 +10095,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_539_6a84319b57cc23.52510777.jpg?v=1787211891",
-     "pos": 5
+     "pos": 6
     },
     {
      "name": "Manuel Maurer",
@@ -10072,7 +10122,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 6
+     "pos": 7
     },
     {
      "name": "Erwin Heßl",
@@ -10099,24 +10149,51 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_475_6a7ce54004fd16.78918583.jpg?v=1787211888",
-     "pos": 7
+     "pos": 8
     },
     {
-     "name": "Marian Žigó",
-     "country": "SVK",
-     "countryName": "Slovakia",
+     "name": "Tamás Zoltán Medve",
+     "country": "HUN",
+     "countryName": "Hungary",
      "group": "BL 11:30",
      "scored": true,
-     "total": 149,
-     "arrows": 21,
+     "total": 146,
+     "arrows": 22,
      "day": "2",
-     "target": "21",
+     "target": "22",
      "shots": [
       "8",
       "8",
       "8",
-      "8",
-      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 9
+    },
+    {
+     "name": "Gábor Erdei",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 11:20",
+     "scored": true,
+     "total": 145,
+     "arrows": 23,
+     "day": "2",
+     "target": "23",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
       "5",
       "5",
       "5",
@@ -10125,8 +10202,8 @@
       "5",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_383_6a967a486c5414.31185358.jpg?v=1788246599",
-     "pos": 8
+     "photo": "",
+     "pos": 10
     },
     {
      "name": "Ivan Olšovec",
@@ -10153,7 +10230,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 9
+     "pos": 10
     },
     {
      "name": "Sándor Balogh",
@@ -10180,34 +10257,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_902_6a96d21de65d43.67403831.jpg?v=1788269084",
-     "pos": 10
-    },
-    {
-     "name": "Tamás Zoltán Medve",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 11:30",
-     "scored": true,
-     "total": 141,
-     "arrows": 21,
-     "day": "2",
-     "target": "21",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 11
+     "pos": 12
     },
     {
      "name": "Franz Leis",
@@ -10218,7 +10268,7 @@
      "total": 141,
      "arrows": 21,
      "day": "2",
-     "target": "21",
+     "target": "22",
      "shots": [
       "8",
       "8",
@@ -10234,7 +10284,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 11
+     "pos": 13
     },
     {
      "name": "Dario Marošević",
@@ -10261,7 +10311,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_924_6a94916e146440.04492169.jpg?v=1788121453",
-     "pos": 11
+     "pos": 13
     },
     {
      "name": "István Szalóky",
@@ -10288,33 +10338,6 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1077_6a9521da7d24e9.45165143.jpg?v=1788158425",
-     "pos": 14
-    },
-    {
-     "name": "Gábor Erdei",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 11:20",
-     "scored": true,
-     "total": 137,
-     "arrows": 22,
-     "day": "2",
-     "target": "22",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "",
      "pos": 15
     },
     {
@@ -10342,7 +10365,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_220_6a90b7245a1808.03743243.jpg?v=1787868964",
-     "pos": 15
+     "pos": 16
     },
     {
      "name": "Zsolt Baranyai",
@@ -10351,19 +10374,19 @@
      "group": "BL 11:20",
      "scored": true,
      "total": 136,
-     "arrows": 22,
+     "arrows": 23,
      "day": "2",
-     "target": "22",
+     "target": "23",
      "shots": [
       "8",
       "8",
-      "8",
       "5",
       "5",
       "5",
       "5",
       "5",
       "5",
+      "0",
       "0",
       "0",
       "0"
@@ -10380,7 +10403,7 @@
      "total": 135,
      "arrows": 18,
      "day": "2",
-     "target": "18",
+     "target": "19",
      "shots": [
       "8",
       "8",
@@ -10534,15 +10557,42 @@
      "pos": 22
     },
     {
-     "name": "Željko Savičić",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "BL 11:20",
+     "name": "Balázs Bujáki",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 11:50",
      "scored": true,
-     "total": 128,
-     "arrows": 22,
+     "total": 131,
+     "arrows": 18,
      "day": "2",
-     "target": "22",
+     "target": "19",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_508_6a8f586b314845.09078334.jpg?v=1787779179",
+     "pos": 24
+    },
+    {
+     "name": "Gábor Csàki",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 11:40",
+     "scored": true,
+     "total": 129,
+     "arrows": 21,
+     "day": "2",
+     "target": "21",
      "shots": [
       "5",
       "5",
@@ -10552,13 +10602,40 @@
       "5",
       "5",
       "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_9_6a7361a3a077e2.46683485.jpg?v=1787211889",
+     "pos": 25
+    },
+    {
+     "name": "Željko Savičić",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "BL 11:20",
+     "scored": true,
+     "total": 128,
+     "arrows": 23,
+     "day": "2",
+     "target": "23",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
       "0",
       "0",
       "0",
       "0"
      ],
      "photo": "",
-     "pos": 24
+     "pos": 26
     },
     {
      "name": "Fogas Zsombor",
@@ -10569,7 +10646,7 @@
      "total": 127,
      "arrows": 18,
      "day": "2",
-     "target": "18",
+     "target": "19",
      "shots": [
       "8",
       "8",
@@ -10585,7 +10662,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 25
+     "pos": 27
     },
     {
      "name": "Pavel Kulhavy",
@@ -10612,7 +10689,34 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_779_6a931078538714.73078294.jpg?v=1788022902",
-     "pos": 26
+     "pos": 28
+    },
+    {
+     "name": "Valeriy Bezusyy",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "BL 11:30",
+     "scored": true,
+     "total": 125,
+     "arrows": 22,
+     "day": "2",
+     "target": "22",
+     "shots": [
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 29
     },
     {
      "name": "GÜNTGER Demuth",
@@ -10623,7 +10727,7 @@
      "total": 125,
      "arrows": 18,
      "day": "2",
-     "target": "18",
+     "target": "19",
      "shots": [
       "8",
       "8",
@@ -10639,7 +10743,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 27
+     "pos": 29
     },
     {
      "name": "Marek Balaz",
@@ -10666,7 +10770,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_476_6a95cb80d6bcf8.45663790.jpg?v=1788201855",
-     "pos": 28
+     "pos": 31
     },
     {
      "name": "Lukas Maurer",
@@ -10693,34 +10797,61 @@
       "5"
      ],
      "photo": "",
-     "pos": 28
+     "pos": 31
     },
     {
-     "name": "Balázs Bujáki",
+     "name": "István Jámbor",
      "country": "HUN",
      "countryName": "Hungary",
+     "group": "BL 11:20",
+     "scored": true,
+     "total": 122,
+     "arrows": 23,
+     "day": "2",
+     "target": "23",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1083_6a949d73f363a6.62707955.jpg?v=1788124531",
+     "pos": 33
+    },
+    {
+     "name": "Sergiu Dangulea",
+     "country": "ROU",
+     "countryName": "Romania",
      "group": "BL 11:50",
      "scored": true,
-     "total": 123,
-     "arrows": 17,
+     "total": 122,
+     "arrows": 18,
      "day": "2",
-     "target": "18",
+     "target": "19",
      "shots": [
       "8",
       "8",
       "8",
       "8",
       "8",
-      "8",
-      "8",
       "5",
       "5",
       "5",
       "5",
+      "5",
+      "0",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_508_6a8f586b314845.09078334.jpg?v=1787779179",
-     "pos": 30
+     "photo": "https://hdhiaa.net/uploads/profile/user_872_6a96eb0e6de0b4.42958722.jpg?v=1788275470",
+     "pos": 33
     },
     {
      "name": "Markus Tobisch",
@@ -10747,7 +10878,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_524_6a965f49068205.57315954.jpg?v=1788239686",
-     "pos": 31
+     "pos": 33
     },
     {
      "name": "Balázs Tomsics",
@@ -10774,33 +10905,6 @@
       "5"
      ],
      "photo": "",
-     "pos": 31
-    },
-    {
-     "name": "Gábor Csàki",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 11:40",
-     "scored": true,
-     "total": 121,
-     "arrows": 20,
-     "day": "2",
-     "target": "20",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_9_6a7361a3a077e2.46683485.jpg?v=1787211889",
      "pos": 33
     },
     {
@@ -10828,34 +10932,61 @@
       "0"
      ],
      "photo": "",
-     "pos": 34
+     "pos": 37
     },
     {
-     "name": "Valeriy Bezusyy",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "BL 11:30",
+     "name": "Károly Hegedűs",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 12:40",
      "scored": true,
      "total": 117,
-     "arrows": 21,
+     "arrows": 13,
      "day": "2",
-     "target": "21",
+     "target": "14",
      "shots": [
+      "11",
+      "11",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
       "8",
       "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_533_6a8aa983409a56.59580657.jpg?v=1787472257",
+     "pos": 38
+    },
+    {
+     "name": "Thomas Pusemann",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 11:30",
+     "scored": true,
+     "total": 116,
+     "arrows": 22,
+     "day": "2",
+     "target": "22",
+     "shots": [
       "5",
       "5",
       "5",
       "5",
       "5",
+      "5",
+      "0",
       "0",
       "0",
       "0",
       "0",
       "0"
      ],
-     "photo": "",
-     "pos": 35
+     "photo": "https://hdhiaa.net/uploads/profile/user_288_6a896f099a6645.92473321.jpg?v=1787391753",
+     "pos": 39
     },
     {
      "name": "MACIEJ ŁAKOMY",
@@ -10882,7 +11013,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_196_6a9440c9947c47.21360447.jpg?v=1788100809",
-     "pos": 36
+     "pos": 39
     },
     {
      "name": "Franja Polik",
@@ -10909,7 +11040,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_632_6a95be0e117450.40635933.jpg?v=1788198414",
-     "pos": 36
+     "pos": 39
     },
     {
      "name": "Csaba Dürgő",
@@ -10918,79 +11049,25 @@
      "group": "BL 11:50",
      "scored": true,
      "total": 115,
-     "arrows": 17,
+     "arrows": 18,
      "day": "2",
-     "target": "17",
+     "target": "19",
      "shots": [
       "8",
       "8",
       "8",
       "8",
-      "8",
       "5",
       "5",
       "5",
       "5",
       "5",
+      "0",
       "0",
       "0"
      ],
      "photo": "",
-     "pos": 38
-    },
-    {
-     "name": "István Jámbor",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 11:20",
-     "scored": true,
-     "total": 114,
-     "arrows": 22,
-     "day": "2",
-     "target": "22",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_1083_6a949d73f363a6.62707955.jpg?v=1788124531",
-     "pos": 39
-    },
-    {
-     "name": "Sergiu Dangulea",
-     "country": "ROU",
-     "countryName": "Romania",
-     "group": "BL 11:50",
-     "scored": true,
-     "total": 114,
-     "arrows": 17,
-     "day": "2",
-     "target": "17",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_872_6a96eb0e6de0b4.42958722.jpg?v=1788275470",
-     "pos": 39
+     "pos": 42
     },
     {
      "name": "branko čolić",
@@ -11017,7 +11094,34 @@
       "0"
      ],
      "photo": "",
-     "pos": 39
+     "pos": 43
+    },
+    {
+     "name": "Stanislav Vejčík",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 12:40",
+     "scored": true,
+     "total": 113,
+     "arrows": 13,
+     "day": "2",
+     "target": "13",
+     "shots": [
+      "11",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5"
+     ],
+     "photo": "",
+     "pos": 44
     },
     {
      "name": "Peter MÁLEK",
@@ -11044,7 +11148,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_193_6a95afc7ef1339.38830565.jpg?v=1788194756",
-     "pos": 42
+     "pos": 45
     },
     {
      "name": "Szerencsi Gyula",
@@ -11071,34 +11175,34 @@
       "0"
      ],
      "photo": "",
-     "pos": 42
+     "pos": 45
     },
     {
-     "name": "Thomas Pusemann",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 11:30",
+     "name": "Martin Sporek",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 12:40",
      "scored": true,
-     "total": 111,
-     "arrows": 21,
+     "total": 112,
+     "arrows": 13,
      "day": "2",
-     "target": "21",
+     "target": "13",
      "shots": [
+      "11",
+      "11",
+      "10",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
       "5",
       "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
+      "5"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_288_6a896f099a6645.92473321.jpg?v=1787391753",
-     "pos": 44
+     "photo": "",
+     "pos": 45
     },
     {
      "name": "Christian Walgram",
@@ -11125,7 +11229,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_222_6a91f37e86ffa4.61660906.jpg?v=1787949946",
-     "pos": 44
+     "pos": 48
     },
     {
      "name": "Ferenc Korbács",
@@ -11152,7 +11256,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 46
+     "pos": 49
     },
     {
      "name": "Nemanja Pavlov",
@@ -11179,61 +11283,34 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_512_6a91e14f52a5b0.46788013.jpg?v=1787945295",
-     "pos": 47
+     "pos": 50
     },
     {
-     "name": "Károly Hegedűs",
-     "country": "HUN",
-     "countryName": "Hungary",
+     "name": "Zibrandt Christensen",
+     "country": "DEN",
+     "countryName": "Denmark",
      "group": "BL 12:40",
      "scored": true,
-     "total": 107,
-     "arrows": 12,
+     "total": 108,
+     "arrows": 13,
      "day": "2",
      "target": "13",
      "shots": [
-      "11",
-      "11",
-      "11",
       "10",
       "10",
       "10",
       "10",
+      "10",
+      "8",
       "8",
       "8",
       "8",
       "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_533_6a8aa983409a56.59580657.jpg?v=1787472257",
-     "pos": 48
-    },
-    {
-     "name": "Martin Sporek",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 12:40",
-     "scored": true,
-     "total": 107,
-     "arrows": 12,
-     "day": "2",
-     "target": "12",
-     "shots": [
-      "11",
-      "11",
-      "11",
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
       "5",
       "5"
      ],
      "photo": "",
-     "pos": 48
+     "pos": 50
     },
     {
      "name": "Mihai Mangu",
@@ -11260,34 +11337,34 @@
       "0"
      ],
      "photo": "",
-     "pos": 50
+     "pos": 52
     },
     {
-     "name": "Stanislav Vejčík",
+     "name": "Martin Karas",
      "country": "SVK",
      "countryName": "Slovakia",
      "group": "BL 12:40",
      "scored": true,
      "total": 105,
-     "arrows": 12,
+     "arrows": 13,
      "day": "2",
-     "target": "12",
+     "target": "13",
      "shots": [
       "11",
-      "11",
       "10",
       "10",
-      "10",
       "8",
       "8",
       "8",
       "8",
       "8",
       "8",
+      "5",
+      "5",
       "5"
      ],
-     "photo": "",
-     "pos": 50
+     "photo": "https://hdhiaa.net/uploads/profile/user_154_6a93c1c1249f07.34683941.jpg?v=1788068288",
+     "pos": 52
     },
     {
      "name": "Michal Jellinek",
@@ -11314,34 +11391,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 52
-    },
-    {
-     "name": "Zibrandt Christensen",
-     "country": "DEN",
-     "countryName": "Denmark",
-     "group": "BL 12:40",
-     "scored": true,
-     "total": 103,
-     "arrows": 12,
-     "day": "2",
-     "target": "12",
-     "shots": [
-      "11",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5"
-     ],
-     "photo": "",
-     "pos": 53
+     "pos": 54
     },
     {
      "name": "Lukáš Koutský",
@@ -11368,7 +11418,34 @@
       "0"
      ],
      "photo": "",
-     "pos": 54
+     "pos": 55
+    },
+    {
+     "name": "Jiří Kocfelda",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 12:40",
+     "scored": true,
+     "total": 101,
+     "arrows": 13,
+     "day": "2",
+     "target": "13",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "pos": 56
     },
     {
      "name": "Róbert Vas",
@@ -11395,60 +11472,6 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1117_6a9704aa109ef4.34862425.jpg?v=1788282025",
-     "pos": 55
-    },
-    {
-     "name": "Martin Karas",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "BL 12:40",
-     "scored": true,
-     "total": 97,
-     "arrows": 12,
-     "day": "2",
-     "target": "12",
-     "shots": [
-      "11",
-      "11",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_154_6a93c1c1249f07.34683941.jpg?v=1788068288",
-     "pos": 56
-    },
-    {
-     "name": "Jiří Kocfelda",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 12:40",
-     "scored": true,
-     "total": 93,
-     "arrows": 12,
-     "day": "2",
-     "target": "12",
-     "shots": [
-      "11",
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "",
      "pos": 57
     },
     {
@@ -11571,6 +11594,107 @@
    "updated": "",
    "results": [
     {
+     "name": "Alexandra Vollmeier",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 13:00",
+     "scored": true,
+     "total": 70,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "10",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "pos": 1
+    },
+    {
+     "name": "Sabine Leinung",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "BL 13:00",
+     "scored": true,
+     "total": 70,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "11",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_776_6a967ed6596795.21943292.jpg?v=1788247766",
+     "pos": 1
+    },
+    {
+     "name": "Anett Kirschnerné Katona",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 13:20",
+     "scored": true,
+     "total": 70,
+     "arrows": 8,
+     "day": "2",
+     "target": "9",
+     "shots": [
+      "11",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_90_6a81d022d7a593.31104142.jpg?v=1787211891",
+     "pos": 1
+    },
+    {
+     "name": "Daniela Plekancova",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 13:00",
+     "scored": true,
+     "total": 68,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 4
+    },
+    {
      "name": "Dana Vondrackova",
      "country": "CZE",
      "countryName": "Czech Republic",
@@ -11595,7 +11719,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 1
+     "pos": 5
     },
     {
      "name": "Eszter Kovácsné Gém",
@@ -11606,7 +11730,7 @@
      "total": 64,
      "arrows": 9,
      "day": "2",
-     "target": "9",
+     "target": "10",
      "shots": [
       "10",
       "10",
@@ -11619,57 +11743,30 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1079_6a73997202e528.53246129.jpg?v=1787211886",
-     "pos": 1
+     "pos": 5
     },
     {
-     "name": "Daniela Plekancova",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "BL 13:00",
+     "name": "Dürgőné Kovács Piroska",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "BL 13:20",
      "scored": true,
-     "total": 63,
-     "arrows": 10,
+     "total": 64,
+     "arrows": 8,
      "day": "2",
-     "target": "11",
-     "shots": [
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 3
-    },
-    {
-     "name": "Alexandra Vollmeier",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 13:00",
-     "scored": true,
-     "total": 62,
-     "arrows": 10,
-     "day": "2",
-     "target": "11",
+     "target": "8",
      "shots": [
       "11",
       "10",
+      "10",
+      "10",
       "8",
-      "8",
       "5",
       "5",
-      "5",
-      "5",
-      "5",
-      "0"
+      "5"
      ],
-     "photo": "",
-     "pos": 4
+     "photo": "https://hdhiaa.net/uploads/profile/user_920_6a91d4a1912776.78537572.jpg?v=1787942048",
+     "pos": 5
     },
     {
      "name": "Ewa Gillner",
@@ -11696,54 +11793,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_226_6a90b9ca133ba2.98055174.jpg?v=1787869641",
-     "pos": 5
-    },
-    {
-     "name": "Sabine Leinung",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "BL 13:00",
-     "scored": true,
-     "total": 60,
-     "arrows": 10,
-     "day": "2",
-     "target": "11",
-     "shots": [
-      "11",
-      "10",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_776_6a967ed6596795.21943292.jpg?v=1788247766",
-     "pos": 5
-    },
-    {
-     "name": "Anett Kirschnerné Katona",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 13:20",
-     "scored": true,
-     "total": 60,
-     "arrows": 7,
-     "day": "2",
-     "target": "8",
-     "shots": [
-      "11",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_90_6a81d022d7a593.31104142.jpg?v=1787211891",
-     "pos": 5
+     "pos": 8
     },
     {
      "name": "Viviane Bota",
@@ -11770,29 +11820,79 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_242_6a90011259c852.14797038.jpg?v=1787822354",
-     "pos": 8
+     "pos": 9
     },
     {
-     "name": "Dürgőné Kovács Piroska",
+     "name": "Veronika Szalai",
      "country": "HUN",
      "countryName": "Hungary",
      "group": "BL 13:20",
      "scored": true,
-     "total": 53,
-     "arrows": 7,
+     "total": 58,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
+     "shots": [
+      "11",
+      "11",
+      "10",
+      "8",
+      "8",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_507_6a9449cbea0576.42463946.jpg?v=1788103115",
+     "pos": 10
+    },
+    {
+     "name": "Andrea Kalvodová",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 13:00",
+     "scored": true,
+     "total": 56,
+     "arrows": 11,
+     "day": "2",
+     "target": "11",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_198_6a7b69b7e078b1.96465634.jpg?v=1787211890",
+     "pos": 11
+    },
+    {
+     "name": "Lenka Búbelová",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 13:20",
+     "scored": true,
+     "total": 56,
+     "arrows": 8,
+     "day": "2",
+     "target": "8",
      "shots": [
       "10",
       "10",
-      "10",
       "8",
+      "8",
+      "5",
       "5",
       "5",
       "5"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_920_6a91d4a1912776.78537572.jpg?v=1787942048",
-     "pos": 9
+     "photo": "https://hdhiaa.net/uploads/profile/user_272_6a93e7a9e1f4e6.56194589.jpg?v=1788077993",
+     "pos": 11
     },
     {
      "name": "Jitka Prejzova",
@@ -11819,7 +11919,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_684_6a8dc6648a7622.99621276.jpg?v=1787676260",
-     "pos": 10
+     "pos": 13
     },
     {
      "name": "Aleksandra Łakoma",
@@ -11845,76 +11945,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_593_6a9417b04b10e9.23399553.jpg?v=1788090287",
-     "pos": 10
-    },
-    {
-     "name": "Andrea Kalvodová",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 13:00",
-     "scored": true,
-     "total": 51,
-     "arrows": 10,
-     "day": "2",
-     "target": "11",
-     "shots": [
-      "10",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_198_6a7b69b7e078b1.96465634.jpg?v=1787211890",
-     "pos": 12
-    },
-    {
-     "name": "Lenka Búbelová",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 13:20",
-     "scored": true,
-     "total": 51,
-     "arrows": 7,
-     "day": "2",
-     "target": "7",
-     "shots": [
-      "10",
-      "10",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_272_6a93e7a9e1f4e6.56194589.jpg?v=1788077993",
-     "pos": 12
-    },
-    {
-     "name": "Veronika Szalai",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "BL 13:20",
-     "scored": true,
-     "total": 47,
-     "arrows": 7,
-     "day": "2",
-     "target": "7",
-     "shots": [
-      "11",
-      "10",
-      "8",
-      "8",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_507_6a9449cbea0576.42463946.jpg?v=1788103115",
-     "pos": 14
+     "pos": 13
     },
     {
      "name": "Katrin Göltl",
@@ -11922,13 +11953,14 @@
      "countryName": "Austria",
      "group": "BL 13:00",
      "scored": true,
-     "total": 46,
-     "arrows": 10,
+     "total": 51,
+     "arrows": 11,
      "day": "2",
-     "target": "11",
+     "target": "12",
      "shots": [
       "8",
       "8",
+      "5",
       "5",
       "5",
       "5",
@@ -11947,13 +11979,14 @@
      "countryName": "Slovenia",
      "group": "BL 13:00",
      "scored": true,
-     "total": 46,
-     "arrows": 10,
+     "total": 51,
+     "arrows": 11,
      "day": "2",
      "target": "11",
      "shots": [
       "8",
       "8",
+      "5",
       "5",
       "5",
       "5",
@@ -11972,7 +12005,31 @@
      "countryName": "Czech Republic",
      "group": "BL 13:10",
      "scored": true,
-     "total": 45,
+     "total": 50,
+     "arrows": 9,
+     "day": "2",
+     "target": "9",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_201_6a954d92600619.32950621.jpg?v=1788169617",
+     "pos": 17
+    },
+    {
+     "name": "Sára Čubová",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "BL 13:20",
+     "scored": true,
+     "total": 50,
      "arrows": 8,
      "day": "2",
      "target": "8",
@@ -11983,11 +12040,56 @@
       "8",
       "8",
       "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "pos": 17
+    },
+    {
+     "name": "ERIKA MALKOVA",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 13:10",
+     "scored": true,
+     "total": 49,
+     "arrows": 9,
+     "day": "2",
+     "target": "9",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
       "0",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_201_6a954d92600619.32950621.jpg?v=1788169617",
-     "pos": 17
+     "photo": "",
+     "pos": 19
+    },
+    {
+     "name": "Lívia Rakovská",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 13:30",
+     "scored": true,
+     "total": 46,
+     "arrows": 6,
+     "day": "2",
+     "target": "6",
+     "shots": [
+      "10",
+      "10",
+      "8",
+      "8",
+      "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_158_6a96f277608d40.95274004.jpg?v=1788277366",
+     "pos": 20
     },
     {
      "name": "Elene Nilsen",
@@ -11998,7 +12100,7 @@
      "total": 45,
      "arrows": 5,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "11",
       "10",
@@ -12007,7 +12109,7 @@
       "8"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_944_6a968319790d78.53706402.jpg?v=1788248856",
-     "pos": 17
+     "pos": 21
     },
     {
      "name": "Melanie Schindlauer",
@@ -12034,71 +12136,6 @@
       "0"
      ],
      "photo": "",
-     "pos": 19
-    },
-    {
-     "name": "ERIKA MALKOVA",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "BL 13:10",
-     "scored": true,
-     "total": 44,
-     "arrows": 8,
-     "day": "2",
-     "target": "8",
-     "shots": [
-      "10",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 19
-    },
-    {
-     "name": "Sára Čubová",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "BL 13:20",
-     "scored": true,
-     "total": 42,
-     "arrows": 7,
-     "day": "2",
-     "target": "7",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "",
-     "pos": 21
-    },
-    {
-     "name": "Lívia Rakovská",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "BL 13:30",
-     "scored": true,
-     "total": 41,
-     "arrows": 5,
-     "day": "2",
-     "target": "5",
-     "shots": [
-      "10",
-      "10",
-      "8",
-      "8",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_158_6a96f277608d40.95274004.jpg?v=1788277366",
      "pos": 22
     },
     {
@@ -12107,13 +12144,14 @@
      "countryName": "Austria",
      "group": "BL 13:10",
      "scored": true,
-     "total": 38,
-     "arrows": 8,
+     "total": 43,
+     "arrows": 9,
      "day": "2",
      "target": "9",
      "shots": [
       "10",
       "8",
+      "5",
       "5",
       "5",
       "5",
@@ -12130,13 +12168,14 @@
      "countryName": "Serbia",
      "group": "BL 13:10",
      "scored": true,
-     "total": 38,
-     "arrows": 8,
+     "total": 43,
+     "arrows": 9,
      "day": "2",
-     "target": "8",
+     "target": "9",
      "shots": [
       "10",
       "8",
+      "5",
       "5",
       "5",
       "5",
@@ -12148,44 +12187,46 @@
      "pos": 23
     },
     {
-     "name": "Jennifer Stepan",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "BL 13:10",
-     "scored": true,
-     "total": 36,
-     "arrows": 8,
-     "day": "2",
-     "target": "8",
-     "shots": [
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 25
-    },
-    {
      "name": "Maria Steiner",
      "country": "AUT",
      "countryName": "Austria",
      "group": "BL 13:30",
      "scored": true,
-     "total": 34,
-     "arrows": 5,
+     "total": 42,
+     "arrows": 6,
      "day": "2",
      "target": "6",
      "shots": [
       "8",
       "8",
       "8",
+      "8",
       "5",
       "5"
+     ],
+     "photo": "",
+     "pos": 25
+    },
+    {
+     "name": "Jennifer Stepan",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "BL 13:10",
+     "scored": true,
+     "total": 41,
+     "arrows": 9,
+     "day": "2",
+     "target": "9",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
      ],
      "photo": "",
      "pos": 26
@@ -12196,19 +12237,20 @@
      "countryName": "Hungary",
      "group": "BL 13:30",
      "scored": true,
-     "total": 34,
-     "arrows": 5,
+     "total": 39,
+     "arrows": 6,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "11",
       "8",
       "5",
       "5",
+      "5",
       "5"
      ],
      "photo": "",
-     "pos": 26
+     "pos": 27
     },
     {
      "name": "Erzsébet Rakonczai",
@@ -12216,19 +12258,20 @@
      "countryName": "Hungary",
      "group": "BL 13:30",
      "scored": true,
-     "total": 34,
-     "arrows": 5,
+     "total": 39,
+     "arrows": 6,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "11",
       "10",
       "8",
       "5",
+      "5",
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_4_6a832914592ef0.93387114.jpg?v=1787211890",
-     "pos": 26
+     "pos": 27
     },
     {
      "name": "Zuzana Kulhava",
@@ -12236,11 +12279,12 @@
      "countryName": "Czech Republic",
      "group": "BL 13:20",
      "scored": true,
-     "total": 28,
-     "arrows": 7,
+     "total": 38,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
+      "10",
       "8",
       "5",
       "5",
@@ -12258,13 +12302,14 @@
      "countryName": "Hungary",
      "group": "BL 13:30",
      "scored": true,
-     "total": 26,
-     "arrows": 5,
+     "total": 31,
+     "arrows": 6,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "8",
       "8",
+      "5",
       "5",
       "5",
       "0"
@@ -12554,11 +12599,10 @@
      "group": "GR 11:50",
      "scored": true,
      "total": 65,
-     "arrows": 13,
+     "arrows": 14,
      "day": "2",
      "target": "14",
      "shots": [
-      "11",
       "8",
       "5",
       "5",
@@ -12567,6 +12611,7 @@
       "5",
       "5",
       "5",
+      "0",
       "0",
       "0",
       "0"
@@ -13550,11 +13595,12 @@
      "countryName": "Austria",
      "group": "WH 13:00",
      "scored": true,
-     "total": 36,
-     "arrows": 7,
+     "total": 46,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
+      "10",
       "8",
       "8",
       "5",
@@ -13572,12 +13618,13 @@
      "countryName": "Hungary",
      "group": "WH 13:00",
      "scored": true,
-     "total": 35,
-     "arrows": 7,
+     "total": 40,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
       "10",
+      "5",
       "5",
       "5",
       "5",
@@ -14723,7 +14770,7 @@
    "age": "Adults (21-54 years)",
    "gender": "Male",
    "official": false,
-   "updated": "",
+   "updated": "2026-09-02 12:07:01",
    "results": [
     {
      "name": "Andreas Haas",
@@ -14753,6 +14800,33 @@
      "pos": 1
     },
     {
+     "name": "Michael Robeischl",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 10:50",
+     "scored": true,
+     "total": 228,
+     "arrows": 27,
+     "day": "2",
+     "target": "27",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "pos": 2
+    },
+    {
      "name": "Grzegorz Twardawa",
      "country": "POL",
      "countryName": "Poland",
@@ -14775,33 +14849,6 @@
       "5",
       "5",
       "5"
-     ],
-     "photo": "",
-     "pos": 2
-    },
-    {
-     "name": "Michael Robeischl",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 10:50",
-     "scored": true,
-     "total": 217,
-     "arrows": 26,
-     "day": "2",
-     "target": "26",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "0"
      ],
      "photo": "",
      "pos": 3
@@ -15058,7 +15105,7 @@
      "total": 203,
      "arrows": 26,
      "day": "2",
-     "target": "26",
+     "target": "27",
      "shots": [
       "8",
       "8",
@@ -15185,6 +15232,33 @@
      "pos": 17
     },
     {
+     "name": "Rami Al-Doori",
+     "country": "IRQ",
+     "countryName": "Iraq",
+     "group": "WH 10:40",
+     "scored": true,
+     "total": 196,
+     "arrows": 28,
+     "day": "2",
+     "target": "28",
+     "shots": [
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1107_6a96e667210f94.32350201.jpg?v=1788274278",
+     "pos": 18
+    },
+    {
      "name": "Péter Kovács",
      "country": "HUN",
      "countryName": "Hungary",
@@ -15209,7 +15283,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_598_6a7323b35f46e8.51797614.jpg?v=1787211887",
-     "pos": 18
+     "pos": 19
     },
     {
      "name": "Tomáš Ehl",
@@ -15236,7 +15310,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1076_6a95a612cd3323.38632698.jpg?v=1788192272",
-     "pos": 19
+     "pos": 20
     },
     {
      "name": "Christian Tober",
@@ -15263,7 +15337,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_864_6a96fc891852d3.73785789.jpg?v=1788279944",
-     "pos": 20
+     "pos": 21
     },
     {
      "name": "Jozef Žitňanský",
@@ -15290,7 +15364,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_244_6a83371f1d5118.94502202.jpg?v=1787211886",
-     "pos": 20
+     "pos": 21
     },
     {
      "name": "Tomislav Vugrinec",
@@ -15317,21 +15391,19 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_541_6a8599993c6db4.61830450.jpg?v=1787211886",
-     "pos": 22
+     "pos": 23
     },
     {
-     "name": "Rami Al-Doori",
-     "country": "IRQ",
-     "countryName": "Iraq",
-     "group": "WH 10:40",
+     "name": "Roman Kolář",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "WH 10:50",
      "scored": true,
-     "total": 191,
+     "total": 189,
      "arrows": 27,
      "day": "2",
-     "target": "28",
+     "target": "27",
      "shots": [
-      "8",
-      "8",
       "5",
       "5",
       "5",
@@ -15340,11 +15412,40 @@
       "5",
       "5",
       "5",
-      "0",
-      "0"
+      "5",
+      "5",
+      "5",
+      "5"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_1107_6a96e667210f94.32350201.jpg?v=1788274278",
-     "pos": 22
+     "photo": "https://hdhiaa.net/uploads/profile/user_187_6a90cd94db0610.38264284.jpg?v=1787874708",
+     "pos": 24
+    },
+    {
+     "name": "Müller Olivér",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "WH 11:30",
+     "scored": true,
+     "total": 189,
+     "arrows": 21,
+     "day": "2",
+     "target": "21",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "pos": 24
     },
     {
      "name": "Kurt Kreindl",
@@ -15371,7 +15472,34 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_320_6a96ea803bc110.63967327.jpg?v=1788275328",
-     "pos": 24
+     "pos": 26
+    },
+    {
+     "name": "Gergely Mészáros",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "WH 11:30",
+     "scored": true,
+     "total": 186,
+     "arrows": 21,
+     "day": "2",
+     "target": "21",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_851_6a970055bac5a3.25824680.jpg?v=1788280901",
+     "pos": 26
     },
     {
      "name": "Dejan Miličić",
@@ -15398,7 +15526,34 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_631_6a972a8c7c6e87.96792516.jpg?v=1788291724",
-     "pos": 25
+     "pos": 28
+    },
+    {
+     "name": "Juraj Halo",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "WH 10:50",
+     "scored": true,
+     "total": 185,
+     "arrows": 27,
+     "day": "2",
+     "target": "27",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "pos": 28
     },
     {
      "name": "Martin Šafr",
@@ -15425,7 +15580,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_444_6a9453e1b07104.38406817.jpg?v=1788105697",
-     "pos": 25
+     "pos": 28
     },
     {
      "name": "Péter Varga",
@@ -15452,34 +15607,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 27
-    },
-    {
-     "name": "Roman Kolář",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "WH 10:50",
-     "scored": true,
-     "total": 184,
-     "arrows": 26,
-     "day": "2",
-     "target": "27",
-     "shots": [
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_187_6a90cd94db0610.38264284.jpg?v=1787874708",
-     "pos": 27
+     "pos": 31
     },
     {
      "name": "Marchis Andrei",
@@ -15506,7 +15634,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_178_6a7d73579def58.02530331.jpg?v=1787211891",
-     "pos": 29
+     "pos": 32
     },
     {
      "name": "Bálint Csaba",
@@ -15533,34 +15661,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_683_6a94227bc451d3.05539882.jpg?v=1788093051",
-     "pos": 30
-    },
-    {
-     "name": "Juraj Halo",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "WH 10:50",
-     "scored": true,
-     "total": 180,
-     "arrows": 26,
-     "day": "2",
-     "target": "26",
-     "shots": [
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "",
-     "pos": 31
+     "pos": 33
     },
     {
      "name": "Ignacz Zsolt Istvan",
@@ -15587,7 +15688,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1292_6a96ec56b4cc47.94907720.jpg?v=1788275798",
-     "pos": 31
+     "pos": 34
     },
     {
      "name": "Dávid Holló",
@@ -15614,61 +15715,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 33
-    },
-    {
-     "name": "Gergely Mészáros",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "WH 11:30",
-     "scored": true,
-     "total": 178,
-     "arrows": 20,
-     "day": "2",
-     "target": "21",
-     "shots": [
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_851_6a970055bac5a3.25824680.jpg?v=1788280901",
-     "pos": 33
-    },
-    {
-     "name": "Müller Olivér",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "WH 11:30",
-     "scored": true,
-     "total": 178,
-     "arrows": 20,
-     "day": "2",
-     "target": "21",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5"
-     ],
-     "photo": "",
-     "pos": 33
+     "pos": 35
     },
     {
      "name": "Vigh Csaba",
@@ -16022,6 +16069,33 @@
      "pos": 48
     },
     {
+     "name": "Balogh László",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "WH 11:30",
+     "scored": true,
+     "total": 155,
+     "arrows": 21,
+     "day": "2",
+     "target": "21",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1042_6a9725e352fbe2.90836471.jpg?v=1788290530",
+     "pos": 49
+    },
+    {
      "name": "Ioan-Jarko Vatlavic",
      "country": "SVK",
      "countryName": "Slovakia",
@@ -16046,7 +16120,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 49
+     "pos": 50
     },
     {
      "name": "Alexander Mikowitsch",
@@ -16073,7 +16147,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 50
+     "pos": 51
     },
     {
      "name": "Lukas Segner",
@@ -16100,33 +16174,6 @@
       "0"
      ],
      "photo": "",
-     "pos": 51
-    },
-    {
-     "name": "Balogh László",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "WH 11:30",
-     "scored": true,
-     "total": 147,
-     "arrows": 20,
-     "day": "2",
-     "target": "21",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_1042_6a9725e352fbe2.90836471.jpg?v=1788290530",
      "pos": 52
     }
    ]
@@ -16460,7 +16507,7 @@
       "0",
       "0"
      ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_442_6a980f6e6099f7.72982461.jpg",
+     "photo": "https://hdhiaa.net/uploads/profile/user_442_6a9811032deb05.45991097.jpg?v=1788350721",
      "pos": 12
     },
     {
@@ -17195,10 +17242,10 @@
      "countryName": "Austria",
      "group": "PR 12:40",
      "scored": true,
-     "total": 58,
-     "arrows": 8,
+     "total": 63,
+     "arrows": 9,
      "day": "2",
-     "target": "9",
+     "target": "10",
      "shots": [
       "8",
       "8",
@@ -17206,6 +17253,7 @@
       "8",
       "8",
       "8",
+      "5",
       "5",
       "5"
      ],
@@ -17218,11 +17266,12 @@
      "countryName": "Austria",
      "group": "PR 12:40",
      "scored": true,
-     "total": 51,
-     "arrows": 8,
+     "total": 61,
+     "arrows": 9,
      "day": "2",
-     "target": "8",
+     "target": "9",
      "shots": [
+      "10",
       "10",
       "10",
       "8",
@@ -17241,15 +17290,16 @@
      "countryName": "Slovakia",
      "group": "PR 12:40",
      "scored": true,
-     "total": 47,
-     "arrows": 8,
+     "total": 52,
+     "arrows": 9,
      "day": "2",
-     "target": "8",
+     "target": "9",
      "shots": [
       "8",
       "8",
       "8",
       "8",
+      "5",
       "5",
       "5",
       "5",
@@ -17264,11 +17314,12 @@
      "countryName": "Czech Republic",
      "group": "PR 12:40",
      "scored": true,
-     "total": 39,
-     "arrows": 8,
+     "total": 47,
+     "arrows": 9,
      "day": "2",
-     "target": "8",
+     "target": "9",
      "shots": [
+      "8",
       "8",
       "8",
       "8",
@@ -17288,15 +17339,16 @@
      "group": "PR 12:40",
      "scored": true,
      "total": 31,
-     "arrows": 8,
+     "arrows": 9,
      "day": "2",
-     "target": "8",
+     "target": "9",
      "shots": [
       "8",
       "8",
       "5",
       "5",
       "5",
+      "0",
       "0",
       "0",
       "0"
@@ -17450,13 +17502,14 @@
      "countryName": "Denmark",
      "group": "WH 13:00",
      "scored": true,
-     "total": 55,
-     "arrows": 7,
+     "total": 63,
+     "arrows": 8,
      "day": "2",
-     "target": "7",
+     "target": "8",
      "shots": [
       "11",
       "10",
+      "8",
       "8",
       "8",
       "8",
@@ -17472,12 +17525,13 @@
      "countryName": "Slovenia",
      "group": "WH 13:00",
      "scored": true,
-     "total": 52,
-     "arrows": 7,
+     "total": 60,
+     "arrows": 8,
      "day": "2",
-     "target": "8",
+     "target": "9",
      "shots": [
       "10",
+      "8",
       "8",
       "8",
       "8",
@@ -18140,6 +18194,33 @@
      "pos": 3
     },
     {
+     "name": "Martin Kubeček",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 191,
+     "arrows": 25,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_693_6a951ada3d2442.03913618.jpg?v=1788156633",
+     "pos": 4
+    },
+    {
      "name": "Mariusz Portnicki-Boras",
      "country": "POL",
      "countryName": "Poland",
@@ -18191,7 +18272,34 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_803_6a96ff44e33b75.27252127.jpg?v=1788280644",
-     "pos": 5
+     "pos": 6
+    },
+    {
+     "name": "Zoran Tapavički",
+     "country": "SRB",
+     "countryName": "Serbia",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 189,
+     "arrows": 25,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_503_6a9575a3baaa10.29184983.jpg?v=1788179875",
+     "pos": 7
     },
     {
      "name": "Zdenko Vicen",
@@ -18218,7 +18326,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 6
+     "pos": 7
     },
     {
      "name": "Petre Manu",
@@ -18245,7 +18353,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 6
+     "pos": 7
     },
     {
      "name": "Roland Lörincz",
@@ -18272,7 +18380,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 8
+     "pos": 10
     },
     {
      "name": "Peter Vilim",
@@ -18299,7 +18407,7 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_256_6a81a163cbff30.93658190.jpg?v=1787211891",
-     "pos": 9
+     "pos": 11
     },
     {
      "name": "Ciprian Avram",
@@ -18326,7 +18434,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 10
+     "pos": 12
     },
     {
      "name": "Ivan Stojanović",
@@ -18353,33 +18461,6 @@
       "0"
      ],
      "photo": "",
-     "pos": 10
-    },
-    {
-     "name": "Martin Kubeček",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 183,
-     "arrows": 24,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_693_6a951ada3d2442.03913618.jpg?v=1788156633",
      "pos": 12
     },
     {
@@ -18407,7 +18488,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 13
+     "pos": 14
     },
     {
      "name": "Róbert Goč",
@@ -18434,7 +18515,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 14
+     "pos": 15
     },
     {
      "name": "Bojan Živković",
@@ -18461,7 +18542,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 15
+     "pos": 16
     },
     {
      "name": "Viktor Fenesi",
@@ -18488,7 +18569,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 16
+     "pos": 17
     },
     {
      "name": "Alessandro Ronchetti",
@@ -18515,7 +18596,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 17
+     "pos": 18
     },
     {
      "name": "Németh Róbert",
@@ -18542,7 +18623,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 18
+     "pos": 19
     },
     {
      "name": "Sándor Bodogán",
@@ -18569,33 +18650,6 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_260_6a970ea9937977.30712238.jpg?v=1788284584",
-     "pos": 19
-    },
-    {
-     "name": "Zoran Tapavički",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 173,
-     "arrows": 23,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_503_6a9575a3baaa10.29184983.jpg?v=1788179875",
      "pos": 20
     },
     {
@@ -18623,7 +18677,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 20
+     "pos": 21
     },
     {
      "name": "Milan Dragosavac",
@@ -18734,6 +18788,60 @@
      "pos": 25
     },
     {
+     "name": "Zoltán Huszár",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 11:00",
+     "scored": true,
+     "total": 169,
+     "arrows": 18,
+     "day": "2",
+     "target": "18",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8"
+     ],
+     "photo": "",
+     "pos": 25
+    },
+    {
+     "name": "Eduard Novotný",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 168,
+     "arrows": 25,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "pos": 27
+    },
+    {
      "name": "Andras Szollar",
      "country": "HUN",
      "countryName": "Hungary",
@@ -18758,7 +18866,7 @@
       "8"
      ],
      "photo": "",
-     "pos": 26
+     "pos": 27
     },
     {
      "name": "Razvan-Gabriel Gheorghiu",
@@ -18785,7 +18893,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 27
+     "pos": 29
     },
     {
      "name": "Miroslav Horník",
@@ -18812,7 +18920,34 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_1761_6a954dcedcd164.32234742.jpg?v=1788169678",
-     "pos": 27
+     "pos": 29
+    },
+    {
+     "name": "ANDREA FANTONI",
+     "country": "ITA",
+     "countryName": "Italy",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 166,
+     "arrows": 25,
+     "day": "2",
+     "target": "26",
+     "shots": [
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_41_6a7c83cea62e03.50189500.jpg?v=1787211887",
+     "pos": 31
     },
     {
      "name": "Matej Macko",
@@ -18839,7 +18974,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 29
+     "pos": 32
     },
     {
      "name": "Vladimír Búran",
@@ -18866,7 +19001,7 @@
       "5"
      ],
      "photo": "",
-     "pos": 30
+     "pos": 33
     },
     {
      "name": "Martin Šudy",
@@ -18893,88 +19028,7 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_997_6a9503d5201b28.10342136.jpg?v=1788150740",
-     "pos": 31
-    },
-    {
-     "name": "Eduard Novotný",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 163,
-     "arrows": 24,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "pos": 31
-    },
-    {
-     "name": "ANDREA FANTONI",
-     "country": "ITA",
-     "countryName": "Italy",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 161,
-     "arrows": 24,
-     "day": "2",
-     "target": "25",
-     "shots": [
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_41_6a7c83cea62e03.50189500.jpg?v=1787211887",
-     "pos": 33
-    },
-    {
-     "name": "Zoltán Huszár",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 11:00",
-     "scored": true,
-     "total": 161,
-     "arrows": 17,
-     "day": "2",
-     "target": "17",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8",
-      "8"
-     ],
-     "photo": "",
-     "pos": 33
+     "pos": 34
     },
     {
      "name": "Falk Köhler",
@@ -19058,6 +19112,33 @@
      "pos": 37
     },
     {
+     "name": "Filip Vodenik",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "PR 11:00",
+     "scored": true,
+     "total": 151,
+     "arrows": 18,
+     "day": "2",
+     "target": "18",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_254_6a9726f163e978.57939401.jpg?v=1788290801",
+     "pos": 38
+    },
+    {
      "name": "Attila Dula",
      "country": "HUN",
      "countryName": "Hungary",
@@ -19082,7 +19163,61 @@
       "5"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_16_6a64f13b8379a3.88657300.jpg?v=1787211888",
-     "pos": 38
+     "pos": 39
+    },
+    {
+     "name": "Krzysztof Garbulski",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 149,
+     "arrows": 25,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_312_6a956b5bdffb45.04293100.jpg?v=1788177241",
+     "pos": 40
+    },
+    {
+     "name": "Janos Szabo",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 10:00",
+     "scored": true,
+     "total": 147,
+     "arrows": 25,
+     "day": "2",
+     "target": "25",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_401_6a949d2c15c258.45675877.jpg?v=1788124460",
+     "pos": 41
     },
     {
      "name": "Marek Běhula",
@@ -19109,34 +19244,7 @@
       "0"
      ],
      "photo": "",
-     "pos": 39
-    },
-    {
-     "name": "Krzysztof Garbulski",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 144,
-     "arrows": 24,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_312_6a956b5bdffb45.04293100.jpg?v=1788177241",
-     "pos": 40
+     "pos": 42
     },
     {
      "name": "Michael Lechner",
@@ -19147,7 +19255,7 @@
      "total": 144,
      "arrows": 18,
      "day": "2",
-     "target": "18",
+     "target": "19",
      "shots": [
       "10",
       "10",
@@ -19163,60 +19271,6 @@
       "0"
      ],
      "photo": "https://hdhiaa.net/uploads/profile/user_626_6a9705755ddc79.43405021.jpg?v=1788282228",
-     "pos": 40
-    },
-    {
-     "name": "Janos Szabo",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 10:00",
-     "scored": true,
-     "total": 142,
-     "arrows": 24,
-     "day": "2",
-     "target": "24",
-     "shots": [
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5",
-      "0",
-      "0",
-      "0",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_401_6a949d2c15c258.45675877.jpg?v=1788124460",
-     "pos": 42
-    },
-    {
-     "name": "Filip Vodenik",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "PR 11:00",
-     "scored": true,
-     "total": 140,
-     "arrows": 17,
-     "day": "2",
-     "target": "18",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "8",
-      "8",
-      "8",
-      "8",
-      "5",
-      "5",
-      "5",
-      "5",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_254_6a9726f163e978.57939401.jpg?v=1788290801",
      "pos": 43
     },
     {
@@ -19252,10 +19306,10 @@
      "countryName": "Russian Federation",
      "group": "PR 11:00",
      "scored": true,
-     "total": 128,
-     "arrows": 17,
+     "total": 136,
+     "arrows": 18,
      "day": "2",
-     "target": "17",
+     "target": "18",
      "shots": [
       "8",
       "8",
@@ -19646,8 +19700,8 @@
      "countryName": "Slovakia",
      "group": "PR 13:20",
      "scored": true,
-     "total": 50,
-     "arrows": 5,
+     "total": 58,
+     "arrows": 6,
      "day": "2",
      "target": "6",
      "shots": [
@@ -19655,10 +19709,53 @@
       "11",
       "10",
       "10",
+      "8",
       "8"
      ],
      "photo": "",
      "pos": 1
+    },
+    {
+     "name": "László Tánczos",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 13:20",
+     "scored": true,
+     "total": 54,
+     "arrows": 6,
+     "day": "2",
+     "target": "6",
+     "shots": [
+      "10",
+      "10",
+      "10",
+      "8",
+      "8",
+      "8"
+     ],
+     "photo": "",
+     "pos": 2
+    },
+    {
+     "name": "Pèter Simon",
+     "country": "HUN",
+     "countryName": "Hungary",
+     "group": "PR 13:20",
+     "scored": true,
+     "total": 52,
+     "arrows": 6,
+     "day": "2",
+     "target": "7",
+     "shots": [
+      "11",
+      "10",
+      "10",
+      "8",
+      "8",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1162_6a95b54d880177.29023965.jpg?v=1788196172",
+     "pos": 3
     },
     {
      "name": "Nagy Zoltán Tamás",
@@ -19667,7 +19764,7 @@
      "group": "PR 13:20",
      "scored": true,
      "total": 48,
-     "arrows": 5,
+     "arrows": 6,
      "day": "2",
      "target": "6",
      "shots": [
@@ -19675,49 +19772,10 @@
       "11",
       "10",
       "8",
-      "8"
+      "8",
+      "0"
      ],
      "photo": "",
-     "pos": 2
-    },
-    {
-     "name": "László Tánczos",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 13:20",
-     "scored": true,
-     "total": 46,
-     "arrows": 5,
-     "day": "2",
-     "target": "5",
-     "shots": [
-      "10",
-      "10",
-      "10",
-      "8",
-      "8"
-     ],
-     "photo": "",
-     "pos": 3
-    },
-    {
-     "name": "Pèter Simon",
-     "country": "HUN",
-     "countryName": "Hungary",
-     "group": "PR 13:20",
-     "scored": true,
-     "total": 44,
-     "arrows": 5,
-     "day": "2",
-     "target": "6",
-     "shots": [
-      "11",
-      "10",
-      "10",
-      "8",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_1162_6a95b54d880177.29023965.jpg?v=1788196172",
      "pos": 4
     },
     {
@@ -19726,12 +19784,13 @@
      "countryName": "Hungary",
      "group": "PR 13:20",
      "scored": true,
-     "total": 28,
-     "arrows": 5,
+     "total": 36,
+     "arrows": 6,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "10",
+      "8",
       "8",
       "5",
       "5",
@@ -19757,15 +19816,16 @@
      "group": "PR 13:20",
      "scored": true,
      "total": 31,
-     "arrows": 5,
+     "arrows": 6,
      "day": "2",
-     "target": "5",
+     "target": "6",
      "shots": [
       "8",
       "8",
       "5",
       "5",
-      "5"
+      "5",
+      "0"
      ],
      "photo": "",
      "pos": 1
@@ -20052,14 +20112,15 @@
      "countryName": "Hungary",
      "group": "WH 12:40",
      "scored": true,
-     "total": 89,
-     "arrows": 9,
+     "total": 99,
+     "arrows": 10,
      "day": "2",
-     "target": "9",
+     "target": "10",
      "shots": [
       "11",
       "11",
       "11",
+      "10",
       "10",
       "10",
       "10",
@@ -20076,14 +20137,15 @@
      "countryName": "Slovakia",
      "group": "WH 12:40",
      "scored": true,
-     "total": 83,
-     "arrows": 9,
+     "total": 93,
+     "arrows": 10,
      "day": "2",
-     "target": "9",
+     "target": "10",
      "shots": [
       "11",
       "11",
       "11",
+      "10",
       "10",
       "8",
       "8",
@@ -20190,12 +20252,13 @@
      "countryName": "Slovakia",
      "group": "PR 12:00",
      "scored": true,
-     "total": 72,
-     "arrows": 11,
+     "total": 80,
+     "arrows": 12,
      "day": "2",
      "target": "12",
      "shots": [
       "10",
+      "8",
       "8",
       "8",
       "8",
@@ -20216,13 +20279,14 @@
      "countryName": "Slovakia",
      "group": "PR 12:00",
      "scored": true,
-     "total": 60,
-     "arrows": 11,
+     "total": 68,
+     "arrows": 12,
      "day": "2",
-     "target": "11",
+     "target": "12",
      "shots": [
       "11",
       "10",
+      "8",
       "8",
       "8",
       "8",
@@ -20641,14 +20705,15 @@
      "countryName": "Hungary",
      "group": "WH 12:40",
      "scored": true,
-     "total": 74,
-     "arrows": 9,
+     "total": 82,
+     "arrows": 10,
      "day": "2",
-     "target": "9",
+     "target": "10",
      "shots": [
       "11",
       "11",
       "10",
+      "8",
       "8",
       "8",
       "8",
@@ -20675,14 +20740,15 @@
      "countryName": "Hungary",
      "group": "WH 12:40",
      "scored": true,
-     "total": 49,
-     "arrows": 9,
+     "total": 54,
+     "arrows": 10,
      "day": "2",
-     "target": "9",
+     "target": "10",
      "shots": [
       "8",
       "8",
       "8",
+      "5",
       "5",
       "5",
       "5",
