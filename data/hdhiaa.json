@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T07:17:02Z",
+ "generated": "2026-09-03T07:19:02Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -180,7 +180,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 1
@@ -251,7 +251,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 2
@@ -322,7 +322,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 3
@@ -393,7 +393,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 4
@@ -464,7 +464,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 5
@@ -735,7 +735,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 1
@@ -798,7 +798,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 2
@@ -861,7 +861,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 3
@@ -924,7 +924,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 4
@@ -936,8 +936,8 @@
    "bow": "BB",
    "age": "Junior (15-17 years)",
    "gender": "Female",
-   "official": true,
-   "updated": "2026-09-03 08:52:05",
+   "official": false,
+   "updated": "",
    "results": [
     {
      "name": "Helena Matyus",
@@ -945,11 +945,16 @@
      "countryName": "Austria",
      "group": "OR 8:50",
      "scored": true,
-     "total": 407,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 438,
+     "arrows": 60,
+     "day": "3",
+     "target": "5",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "5"
+     ],
      "photo": "",
      "hits": {
       "11": 3,
@@ -982,6 +987,19 @@
         "0": 1
        },
        "official": true
+      },
+      "3": {
+       "pts": 31,
+       "arrows": 4,
+       "shots": [
+        "10",
+        "8",
+        "8",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 1
@@ -992,11 +1010,15 @@
      "countryName": "Austria",
      "group": "OR 8:50",
      "scored": true,
-     "total": 390,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 405,
+     "arrows": 59,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "5",
+      "5",
+      "5"
+     ],
      "photo": "",
      "hits": {
       "11": 3,
@@ -1029,9 +1051,86 @@
         "0": 2
        },
        "official": true
+      },
+      "3": {
+       "pts": 15,
+       "arrows": 3,
+       "shots": [
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 2
+    },
+    {
+     "name": "Alja Brejc",
+     "country": "SLO",
+     "countryName": "Slovenia",
+     "group": "OR 8:50",
+     "scored": true,
+     "total": 342,
+     "arrows": 60,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "10",
+      "10",
+      "8",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1273_6a943aaf6a0329.53784431.jpg?v=1788099247",
+     "hits": {
+      "11": 3,
+      "10": 5,
+      "8": 17,
+      "5": 18,
+      "0": 13
+     },
+     "days": {
+      "1": {
+       "pts": 177,
+       "arrows": 28,
+       "hits": {
+        "11": 3,
+        "10": 3,
+        "8": 8,
+        "5": 10,
+        "0": 4
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 132,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 2,
+        "8": 9,
+        "5": 8,
+        "0": 9
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 33,
+       "arrows": 4,
+       "shots": [
+        "10",
+        "10",
+        "8",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
+      }
+     },
+     "pos": 3
     },
     {
      "name": "Andrea Simkova",
@@ -1039,11 +1138,16 @@
      "countryName": "Slovakia",
      "group": "OR 8:50",
      "scored": true,
-     "total": 318,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 333,
+     "arrows": 60,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 1,
@@ -1076,53 +1180,19 @@
         "0": 5
        },
        "official": true
-      }
-     },
-     "pos": 3
-    },
-    {
-     "name": "Alja Brejc",
-     "country": "SLO",
-     "countryName": "Slovenia",
-     "group": "OR 8:50",
-     "scored": true,
-     "total": 309,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 3,
-      "10": 5,
-      "8": 17,
-      "5": 18,
-      "0": 13
-     },
-     "days": {
-      "1": {
-       "pts": 177,
-       "arrows": 28,
-       "hits": {
-        "11": 3,
-        "10": 3,
-        "8": 8,
-        "5": 10,
-        "0": 4
-       },
-       "official": true
       },
-      "2": {
-       "pts": 132,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 2,
-        "8": 9,
-        "5": 8,
-        "0": 9
-       },
-       "official": true
+      "3": {
+       "pts": 15,
+       "arrows": 4,
+       "shots": [
+        "5",
+        "5",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 4
@@ -1133,11 +1203,16 @@
      "countryName": "Czech Republic",
      "group": "OR 8:50",
      "scored": true,
-     "total": 245,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 265,
+     "arrows": 60,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5"
+     ],
      "photo": "",
      "hits": {
       "11": 2,
@@ -1170,6 +1245,19 @@
         "0": 7
        },
        "official": true
+      },
+      "3": {
+       "pts": 20,
+       "arrows": 4,
+       "shots": [
+        "5",
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 5
@@ -1242,7 +1330,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 1
@@ -1305,7 +1393,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 2
@@ -1563,7 +1651,7 @@
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
    "official": false,
-   "updated": "2026-09-03 09:16:28",
+   "updated": "",
    "results": [
     {
      "name": "Armin Margreiter",
@@ -1907,7 +1995,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 7
@@ -1966,7 +2054,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 8
@@ -2027,7 +2115,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 9
@@ -2086,7 +2174,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 10
@@ -2147,7 +2235,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 11
@@ -2206,7 +2294,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 12
@@ -2267,7 +2355,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 13
@@ -2326,7 +2414,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 13
@@ -2387,7 +2475,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 15
@@ -2446,7 +2534,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 15
@@ -2505,7 +2593,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 17
@@ -2566,7 +2654,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 17
@@ -2625,7 +2713,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 19
@@ -2688,7 +2776,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 20
@@ -2751,7 +2839,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 21
@@ -2814,7 +2902,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 22
@@ -2877,7 +2965,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 23
@@ -2940,7 +3028,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 24
@@ -3244,7 +3332,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 30
@@ -3360,7 +3448,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 32
@@ -3429,7 +3517,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 33
@@ -3649,7 +3737,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 4
@@ -3763,7 +3851,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 6
@@ -19544,7 +19632,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 6
@@ -19652,7 +19740,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 8
@@ -19713,7 +19801,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 9
@@ -19774,7 +19862,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 10
@@ -19835,7 +19923,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 11
@@ -19900,7 +19988,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 12
@@ -19961,7 +20049,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 13
@@ -20026,7 +20114,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 14
@@ -20091,7 +20179,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 15
@@ -20104,7 +20192,7 @@
    "age": "Veteran (55 years of age or older)",
    "gender": "Female",
    "official": false,
-   "updated": "",
+   "updated": "2026-09-03 09:18:56",
    "results": [
     {
      "name": "Monia Fagiani",
@@ -20112,12 +20200,14 @@
      "countryName": "Italy",
      "group": "BL 9:30",
      "scored": true,
-     "total": 268,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
+     "total": 279,
+     "arrows": 57,
+     "day": "3",
+     "target": "1",
+     "shots": [
+      "11"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_51_6a94767e9a9b86.33468602.jpg?v=1788114557",
      "hits": {
       "11": 1,
       "10": 5,
@@ -20149,6 +20239,16 @@
         "0": 7
        },
        "official": true
+      },
+      "3": {
+       "pts": 11,
+       "arrows": 1,
+       "shots": [
+        "11"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 1
@@ -20159,12 +20259,14 @@
      "countryName": "Hungary",
      "group": "BL 9:30",
      "scored": true,
-     "total": 253,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
+     "total": 258,
+     "arrows": 57,
+     "day": "3",
+     "target": "1",
+     "shots": [
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_857_6a91e4cd6f4534.07068344.jpg?v=1787946189",
      "hits": {
       "11": 0,
       "10": 1,
@@ -20196,6 +20298,16 @@
         "0": 7
        },
        "official": true
+      },
+      "3": {
+       "pts": 5,
+       "arrows": 1,
+       "shots": [
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 2
@@ -20207,11 +20319,13 @@
      "group": "BL 9:30",
      "scored": true,
      "total": 249,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
+     "arrows": 57,
+     "day": "3",
+     "target": "1",
+     "shots": [
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_74_6a978dc3ba0e94.48485685.jpg?v=1788317123",
      "hits": {
       "11": 2,
       "10": 1,
@@ -20243,6 +20357,16 @@
         "0": 7
        },
        "official": true
+      },
+      "3": {
+       "pts": 0,
+       "arrows": 1,
+       "shots": [
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 3
@@ -20253,11 +20377,13 @@
      "countryName": "Hungary",
      "group": "BL 9:30",
      "scored": true,
-     "total": 238,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 248,
+     "arrows": 57,
+     "day": "3",
+     "target": "1",
+     "shots": [
+      "10"
+     ],
      "photo": "",
      "hits": {
       "11": 2,
@@ -20290,21 +20416,33 @@
         "0": 12
        },
        "official": true
+      },
+      "3": {
+       "pts": 10,
+       "arrows": 1,
+       "shots": [
+        "10"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 4
     },
     {
      "name": "Oľga Nagyová",
-     "country": "",
-     "countryName": "",
+     "country": "SVK",
+     "countryName": "Slovakia",
      "group": "",
      "scored": true,
      "total": 228,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "arrows": 57,
+     "day": "3",
+     "target": "1",
+     "shots": [
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 1,
@@ -20337,6 +20475,16 @@
         "0": 9
        },
        "official": true
+      },
+      "3": {
+       "pts": 0,
+       "arrows": 1,
+       "shots": [
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 5
@@ -20448,7 +20596,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 7
@@ -20513,7 +20661,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 8
@@ -20545,9 +20693,11 @@
      "scored": false,
      "total": 0,
      "arrows": 0,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "day": "3",
+     "target": "1",
+     "shots": [
+      "0"
+     ],
      "photo": "",
      "pos": 0
     }
@@ -22752,7 +22902,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 1
@@ -22813,7 +22963,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 2
@@ -22874,7 +23024,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 3
@@ -22935,7 +23085,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 4
@@ -22996,7 +23146,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 5
@@ -23057,7 +23207,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 6
@@ -24567,7 +24717,7 @@
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
    "official": false,
-   "updated": "2026-09-03 09:16:58",
+   "updated": "2026-09-03 09:19:00",
    "results": [
     {
      "name": "Ferenc Midesz Molnár",
@@ -25046,7 +25196,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 10
@@ -25199,7 +25349,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 13
@@ -25258,7 +25408,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 14
@@ -25316,11 +25466,12 @@
      "countryName": "Hungary",
      "group": "WH 9:00",
      "scored": true,
-     "total": 384,
-     "arrows": 59,
+     "total": 392,
+     "arrows": 60,
      "day": "3",
      "target": "4",
      "shots": [
+      "8",
       "8",
       "8",
       "5"
@@ -25359,19 +25510,85 @@
        "official": true
       },
       "3": {
-       "pts": 21,
-       "arrows": 3,
+       "pts": 29,
+       "arrows": 4,
        "shots": [
+        "8",
         "8",
         "8",
         "5"
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 16
+    },
+    {
+     "name": "Ales Hybner",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "WH 9:00",
+     "scored": true,
+     "total": 380,
+     "arrows": 60,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "11",
+      "8",
+      "8",
+      "5"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_978_6a96e036531562.59012751.jpg?v=1788272692",
+     "hits": {
+      "11": 2,
+      "10": 9,
+      "8": 17,
+      "5": 20,
+      "0": 8
+     },
+     "days": {
+      "1": {
+       "pts": 175,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 5,
+        "8": 8,
+        "5": 10,
+        "0": 4
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 173,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 4,
+        "8": 9,
+        "5": 10,
+        "0": 4
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 32,
+       "arrows": 4,
+       "shots": [
+        "11",
+        "8",
+        "8",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
+      }
+     },
+     "pos": 17
     },
     {
      "name": "Tibor Dezso",
@@ -25427,10 +25644,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 17
+     "pos": 18
     },
     {
      "name": "Terje Bakke",
@@ -25496,10 +25713,75 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 18
+     "pos": 19
+    },
+    {
+     "name": "Guenter Herold",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 9:00",
+     "scored": true,
+     "total": 374,
+     "arrows": 60,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "8",
+      "8",
+      "8",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_215_6a908df13d96b3.68024294.jpg?v=1787858416",
+     "hits": {
+      "11": 4,
+      "10": 6,
+      "8": 17,
+      "5": 22,
+      "0": 7
+     },
+     "days": {
+      "1": {
+       "pts": 176,
+       "arrows": 28,
+       "hits": {
+        "11": 3,
+        "10": 3,
+        "8": 6,
+        "5": 13,
+        "0": 3
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 174,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 3,
+        "8": 11,
+        "5": 9,
+        "0": 4
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 24,
+       "arrows": 4,
+       "shots": [
+        "8",
+        "8",
+        "8",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
+      }
+     },
+     "pos": 19
     },
     {
      "name": "Leos Bracha",
@@ -25555,10 +25837,75 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 18
+     "pos": 19
+    },
+    {
+     "name": "Horst Kollmer",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 9:00",
+     "scored": true,
+     "total": 373,
+     "arrows": 60,
+     "day": "3",
+     "target": "4",
+     "shots": [
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 3,
+      "10": 8,
+      "8": 19,
+      "5": 17,
+      "0": 9
+     },
+     "days": {
+      "1": {
+       "pts": 180,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 5,
+        "8": 8,
+        "5": 11,
+        "0": 3
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 170,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 3,
+        "8": 11,
+        "5": 6,
+        "0": 6
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 23,
+       "arrows": 4,
+       "shots": [
+        "8",
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
+      }
+     },
+     "pos": 22
     },
     {
      "name": "Robert Tomaszewski",
@@ -25626,73 +25973,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 20
-    },
-    {
-     "name": "Ales Hybner",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "WH 9:00",
-     "scored": true,
-     "total": 372,
-     "arrows": 59,
-     "day": "3",
-     "target": "3",
-     "shots": [
-      "11",
-      "8",
-      "5"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_978_6a96e036531562.59012751.jpg?v=1788272692",
-     "hits": {
-      "11": 2,
-      "10": 9,
-      "8": 17,
-      "5": 20,
-      "0": 8
-     },
-     "days": {
-      "1": {
-       "pts": 175,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 5,
-        "8": 8,
-        "5": 10,
-        "0": 4
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 173,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 4,
-        "8": 9,
-        "5": 10,
-        "0": 4
-       },
-       "official": true
-      },
-      "3": {
-       "pts": 24,
-       "arrows": 3,
-       "shots": [
-        "11",
-        "8",
-        "5"
-       ],
-       "live": true,
-       "official": false,
-       "updated": "2026-09-03T07:17:02Z"
-      }
-     },
-     "pos": 20
+     "pos": 23
     },
     {
      "name": "Ferenc Kalmár",
@@ -25748,10 +26032,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 20
+     "pos": 23
     },
     {
      "name": "Sven Gehritz",
@@ -25817,73 +26101,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 23
-    },
-    {
-     "name": "Horst Kollmer",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 9:00",
-     "scored": true,
-     "total": 368,
-     "arrows": 59,
-     "day": "3",
-     "target": "3",
-     "shots": [
-      "8",
-      "5",
-      "5"
-     ],
-     "photo": "",
-     "hits": {
-      "11": 3,
-      "10": 8,
-      "8": 19,
-      "5": 17,
-      "0": 9
-     },
-     "days": {
-      "1": {
-       "pts": 180,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 5,
-        "8": 8,
-        "5": 11,
-        "0": 3
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 170,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 3,
-        "8": 11,
-        "5": 6,
-        "0": 6
-       },
-       "official": true
-      },
-      "3": {
-       "pts": 18,
-       "arrows": 3,
-       "shots": [
-        "8",
-        "5",
-        "5"
-       ],
-       "live": true,
-       "official": false,
-       "updated": "2026-09-03T07:17:02Z"
-      }
-     },
-     "pos": 23
+     "pos": 25
     },
     {
      "name": "Jaroslav Kondicz",
@@ -25949,73 +26170,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 25
-    },
-    {
-     "name": "Guenter Herold",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 9:00",
-     "scored": true,
-     "total": 366,
-     "arrows": 59,
-     "day": "3",
-     "target": "3",
-     "shots": [
-      "8",
-      "8",
-      "0"
-     ],
-     "photo": "https://hdhiaa.net/uploads/profile/user_215_6a908df13d96b3.68024294.jpg?v=1787858416",
-     "hits": {
-      "11": 4,
-      "10": 6,
-      "8": 17,
-      "5": 22,
-      "0": 7
-     },
-     "days": {
-      "1": {
-       "pts": 176,
-       "arrows": 28,
-       "hits": {
-        "11": 3,
-        "10": 3,
-        "8": 6,
-        "5": 13,
-        "0": 3
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 174,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 3,
-        "8": 11,
-        "5": 9,
-        "0": 4
-       },
-       "official": true
-      },
-      "3": {
-       "pts": 16,
-       "arrows": 3,
-       "shots": [
-        "8",
-        "8",
-        "0"
-       ],
-       "live": true,
-       "official": false,
-       "updated": "2026-09-03T07:17:02Z"
-      }
-     },
-     "pos": 25
+     "pos": 26
     },
     {
      "name": "Luděk Malinka",
@@ -26026,7 +26184,7 @@
      "total": 366,
      "arrows": 59,
      "day": "3",
-     "target": "3",
+     "target": "4",
      "shots": [
       "8",
       "5",
@@ -26075,10 +26233,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 25
+     "pos": 26
     },
     {
      "name": "Peter Panzenböck",
@@ -26089,7 +26247,7 @@
      "total": 365,
      "arrows": 63,
      "day": "3",
-     "target": "7",
+     "target": "8",
      "shots": [
       "8",
       "8",
@@ -26146,7 +26304,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 28
@@ -26215,7 +26373,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 29
@@ -26284,7 +26442,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 30
@@ -26347,7 +26505,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 31
@@ -26418,7 +26576,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 32
@@ -26487,7 +26645,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 33
@@ -26558,7 +26716,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 34
@@ -26629,10 +26787,81 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 35
+    },
+    {
+     "name": "Joachim Razenberger",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 8:40",
+     "scored": true,
+     "total": 334,
+     "arrows": 63,
+     "day": "3",
+     "target": "7",
+     "shots": [
+      "11",
+      "8",
+      "8",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 1,
+      "10": 7,
+      "8": 12,
+      "5": 24,
+      "0": 12
+     },
+     "days": {
+      "1": {
+       "pts": 134,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 4,
+        "8": 3,
+        "5": 14,
+        "0": 7
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 163,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 3,
+        "8": 9,
+        "5": 10,
+        "0": 5
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 37,
+       "arrows": 7,
+       "shots": [
+        "11",
+        "8",
+        "8",
+        "5",
+        "5",
+        "0",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:19:02Z"
+      }
+     },
+     "pos": 36
     },
     {
      "name": "Wolfgang Wenzl",
@@ -26704,79 +26933,10 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
-     "pos": 36
-    },
-    {
-     "name": "Joachim Razenberger",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 8:40",
-     "scored": true,
-     "total": 323,
-     "arrows": 62,
-     "day": "3",
-     "target": "7",
-     "shots": [
-      "8",
-      "8",
-      "5",
-      "5",
-      "0",
-      "0"
-     ],
-     "photo": "",
-     "hits": {
-      "11": 1,
-      "10": 7,
-      "8": 12,
-      "5": 24,
-      "0": 12
-     },
-     "days": {
-      "1": {
-       "pts": 134,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 4,
-        "8": 3,
-        "5": 14,
-        "0": 7
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 163,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 3,
-        "8": 9,
-        "5": 10,
-        "0": 5
-       },
-       "official": true
-      },
-      "3": {
-       "pts": 26,
-       "arrows": 6,
-       "shots": [
-        "8",
-        "8",
-        "5",
-        "5",
-        "0",
-        "0"
-       ],
-       "live": true,
-       "official": false,
-       "updated": "2026-09-03T07:17:02Z"
-      }
-     },
-     "pos": 36
+     "pos": 37
     },
     {
      "name": "Michael Wengerter",
@@ -26848,7 +27008,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 38
@@ -26923,7 +27083,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 39
@@ -26998,7 +27158,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 40
@@ -27073,7 +27233,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 41
@@ -27086,7 +27246,7 @@
    "age": "Veteran (55 years of age or older)",
    "gender": "Female",
    "official": false,
-   "updated": "2026-09-03 09:16:35",
+   "updated": "",
    "results": [
     {
      "name": "Kerstin Sandburg",
@@ -28004,7 +28164,7 @@
        ],
        "live": true,
        "official": false,
-       "updated": "2026-09-03T07:17:02Z"
+       "updated": "2026-09-03T07:19:02Z"
       }
      },
      "pos": 19
