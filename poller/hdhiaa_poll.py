@@ -9,7 +9,10 @@ result pages:
   /api/races/{id}/live-standings                    live scores per category (current day)
   /competition/{slug}/groups.json                   full start list (all entries)
   /competition/{id}/{slug}/live-inbox.json          latest score uploads feed
-  /competition/{id}/{slug}/results/export.csv       official results (completed days)
+  /competition/{id}/{slug}/results/export.csv       official results, cumulative
+  .../export.csv?partial_round={roundId}            official results per day; the
+                                                    round ids are read from the
+                                                    competition page's day selector
 
 Per-day model: live-standings covers the day being shot ("DAY 2/3" in each
 leader's meta) while the CSV covers completed day(s). Each poll merges both
@@ -343,6 +346,73 @@ def merge_csv(store: dict, sections: dict, generated: str, current_day: int) -> 
     return updated
 
 
+def fetch_partial_rounds(store: dict) -> dict:
+    """Stevnesiden har en dags-velger med interne runde-id-er
+    (<option value="142">1st day</option>). Returnerer {dag(str): id(str)}.
+    Mappet bufres i meta og hentes på nytt daglig, eller når live-feeden
+    viser en nyere dag enn vi har id for."""
+    meta = store.setdefault("meta", {})
+    rounds = meta.get("partialRounds") or {}
+    cur = int(meta.get("currentDay") or 0)
+    fresh = meta.get("partialRoundsFetched", "") == now_iso()[:10]
+    if rounds and fresh and max(map(int, rounds), default=0) >= max(1, cur - 1):
+        return rounds
+    try:
+        html = fetch_text(PAGE_URL)
+    except Exception as exc:
+        print(f"warn: stevneside: {exc}", file=sys.stderr)
+        return rounds
+    found = {m.group(2): m.group(1) for m in re.finditer(
+        r'<option value="(\d+)"[^>]*>\s*(\d+)(?:st|nd|rd|th) day', html)}
+    if found:
+        if found != rounds:
+            print(f"stevneside: dags-runder {found}")
+        meta["partialRounds"] = found
+        meta["partialRoundsFetched"] = now_iso()[:10]
+    return meta.get("partialRounds") or {}
+
+
+def merge_daily_csvs(store: dict, rounds: dict, current_day: int, live_active: bool) -> int:
+    """Hent og flett offisiell CSV per dag (partial_round=<id>). En dag som
+    skytes akkurat nå (live) dekkes av live-feeden; ellers hentes listen —
+    på nytt en gang i timen slik at score-korrigeringer blir med."""
+    archers = store.setdefault("archers", {})
+    meta = store.setdefault("meta", {})
+    updated = 0
+    now = time.time()
+    for day_no, pr_id in sorted(rounds.items(), key=lambda kv: int(kv[0])):
+        if live_active and int(day_no) >= current_day:
+            continue  # dagen skytes nå — live-feeden dekker den
+        fetched_key = f"day{day_no}Fetched"
+        has_official = any(rec.get("days", {}).get(day_no, {}).get("official")
+                           for rec in archers.values())
+        if has_official and now - meta.get(fetched_key, 0) < 3600:
+            continue
+        try:
+            sections, generated = parse_results_csv(
+                fetch_text(f"{CSV_URL}?partial_round={pr_id}"))
+        except Exception as exc:
+            print(f"warn: csv dag {day_no}: {exc}", file=sys.stderr)
+            continue
+        rows_n = 0
+        for title, rows in sections.items():
+            for row in rows:
+                rec = archers.setdefault(akey(title, row["name"]), {"days": {}})
+                rec["name"] = row["name"]
+                rec["days"][day_no] = {
+                    "pts": row["total"], "arrows": row["arrows"],
+                    "hits": row["hits"], "official": True,
+                }
+                rows_n += 1
+        if rows_n:
+            meta[fetched_key] = now
+            meta[f"day{day_no}Csv"] = generated
+            meta["lastCsvGenerated"] = generated
+            updated += rows_n
+            print(f"csv: offisiell dag {day_no} ({rows_n} rader)")
+    return updated
+
+
 def main() -> int:
     if "--force" not in sys.argv and (until := paused()):
         print(f"paused until {until}")
@@ -362,21 +432,28 @@ def main() -> int:
     if standings is None:
         standings_raw = fetch_text(STANDINGS_URL)
         standings = json.loads(standings_raw)
-    # Offisiell CSV hentes alltid — den bekrefter fullførte dager. Verken
-    # live eller CSV har data, og lageret er tomt → behold forrige gode fil.
-    official, csv_generated = {}, ""
-    try:
-        official, csv_generated = parse_results_csv(fetch_text(CSV_URL))
-        official = {t: rows for t, rows in official.items() if rows}
-    except Exception as exc:
-        print(f"warn: csv: {exc}", file=sys.stderr)
 
     store = load_days()
     current_day, total_days, n_live = merge_live(store, standings)
     if not current_day:
         current_day = store.get("meta", {}).get("currentDay", 0)
-    n_csv = merge_csv(store, official, csv_generated, current_day)
+
+    # Offisielle dagsresultater: per-dag CSV via runde-id-ene på stevnesiden
+    # (fanger også score-korrigeringer). Fallback uten id-er: sammenlagt-CSV
+    # med dag-gjetting. Verken live eller CSV har data, og lageret er tomt →
+    # behold forrige gode fil.
+    csv_generated = store.get("meta", {}).get("lastCsvGenerated", "")
+    rounds = fetch_partial_rounds(store)
     live_active = n_live > 0
+    if rounds:
+        merge_daily_csvs(store, rounds, current_day, live_active)
+    else:
+        try:
+            official, csv_generated = parse_results_csv(fetch_text(CSV_URL))
+            official = {t: rows for t, rows in official.items() if rows}
+            merge_csv(store, official, csv_generated, current_day)
+        except Exception as exc:
+            print(f"warn: csv: {exc}", file=sys.stderr)
 
     if not store.get("archers"):
         if OUT_FILE.exists():
