@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T07:07:10Z",
+ "generated": "2026-09-03T07:11:02Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -10,12 +10,13 @@
   "url": "https://hdhiaa.net/competition/4/world-3d-archery-championships-2026"
  },
  "totalDays": 3,
- "currentDay": 2,
+ "currentDay": 3,
  "daysAvailable": [
   1,
-  2
+  2,
+  3
  ],
- "liveActive": false,
+ "liveActive": true,
  "defaultCountry": "NOR",
  "countries": [
   {
@@ -553,8 +554,8 @@
    "bow": "BB",
    "age": "Junior (15-17 years)",
    "gender": "Male",
-   "official": true,
-   "updated": "2026-09-03 08:52:05",
+   "official": false,
+   "updated": "",
    "results": [
     {
      "name": "Balazs Juhasz",
@@ -562,11 +563,14 @@
      "countryName": "Hungary",
      "group": "OR 9:00",
      "scored": true,
-     "total": 338,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 348,
+     "arrows": 58,
+     "day": "3",
+     "target": "3",
+     "shots": [
+      "10",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 4,
@@ -599,6 +603,17 @@
         "0": 8
        },
        "official": true
+      },
+      "3": {
+       "pts": 10,
+       "arrows": 2,
+       "shots": [
+        "10",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 1
@@ -656,11 +671,14 @@
      "countryName": "Austria",
      "group": "OR 9:00",
      "scored": true,
-     "total": 318,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 331,
+     "arrows": 58,
+     "day": "3",
+     "target": "2",
+     "shots": [
+      "8",
+      "5"
+     ],
      "photo": "",
      "hits": {
       "11": 2,
@@ -693,6 +711,17 @@
         "0": 8
        },
        "official": true
+      },
+      "3": {
+       "pts": 13,
+       "arrows": 2,
+       "shots": [
+        "8",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 3
@@ -703,12 +732,15 @@
      "countryName": "Slovakia",
      "group": "OR 9:00",
      "scored": true,
-     "total": 311,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
+     "total": 316,
+     "arrows": 58,
+     "day": "3",
+     "target": "2",
+     "shots": [
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_415_6a95111d7fe921.40683360.jpg?v=1788154141",
      "hits": {
       "11": 4,
       "10": 3,
@@ -740,6 +772,17 @@
         "0": 4
        },
        "official": true
+      },
+      "3": {
+       "pts": 5,
+       "arrows": 2,
+       "shots": [
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 4
@@ -996,8 +1039,8 @@
    "bow": "BB",
    "age": "Cadet (13-14 years)",
    "gender": "Male",
-   "official": true,
-   "updated": "2026-09-03 08:52:05",
+   "official": false,
+   "updated": "",
    "results": [
     {
      "name": "David Vollmeier",
@@ -1005,11 +1048,14 @@
      "countryName": "Austria",
      "group": "OR 9:00",
      "scored": true,
-     "total": 368,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 376,
+     "arrows": 58,
+     "day": "3",
+     "target": "2",
+     "shots": [
+      "8",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 5,
@@ -1042,6 +1088,17 @@
         "0": 2
        },
        "official": true
+      },
+      "3": {
+       "pts": 8,
+       "arrows": 2,
+       "shots": [
+        "8",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 1
@@ -1052,11 +1109,14 @@
      "countryName": "Hungary",
      "group": "OR 9:00",
      "scored": true,
-     "total": 219,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 224,
+     "arrows": 58,
+     "day": "3",
+     "target": "2",
+     "shots": [
+      "5",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 1,
@@ -1089,6 +1149,17 @@
         "0": 11
        },
        "official": true
+      },
+      "3": {
+       "pts": 5,
+       "arrows": 2,
+       "shots": [
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 2
@@ -18673,8 +18744,8 @@
    "bow": "PB-HB",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "official": true,
-   "updated": "2026-09-03 08:52:05",
+   "official": false,
+   "updated": "",
    "results": [
     {
      "name": "Miklós Csaba",
@@ -19194,6 +19265,132 @@
      "pos": 11
     },
     {
+     "name": "Nagy Tibor",
+     "country": "SVK",
+     "countryName": "Slovakia",
+     "group": "BL 9:00",
+     "scored": true,
+     "total": 266,
+     "arrows": 59,
+     "day": "3",
+     "target": "3",
+     "shots": [
+      "10",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 2,
+      "10": 1,
+      "8": 8,
+      "5": 31,
+      "0": 14
+     },
+     "days": {
+      "1": {
+       "pts": 149,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 0,
+        "8": 4,
+        "5": 19,
+        "0": 3
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 102,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 1,
+        "8": 4,
+        "5": 12,
+        "0": 11
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 15,
+       "arrows": 3,
+       "shots": [
+        "10",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 12
+    },
+    {
+     "name": "Michael Meininger",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "BL 9:00",
+     "scored": true,
+     "total": 264,
+     "arrows": 59,
+     "day": "3",
+     "target": "3",
+     "shots": [
+      "8",
+      "5",
+      "0"
+     ],
+     "photo": "https://hdhiaa.net/uploads/profile/user_1015_6a951e05282c92.26937070.jpg?v=1788157442",
+     "hits": {
+      "11": 0,
+      "10": 6,
+      "8": 7,
+      "5": 27,
+      "0": 16
+     },
+     "days": {
+      "1": {
+       "pts": 125,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 1,
+        "8": 5,
+        "5": 15,
+        "0": 7
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 126,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 5,
+        "8": 2,
+        "5": 12,
+        "0": 9
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 13,
+       "arrows": 3,
+       "shots": [
+        "8",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 13
+    },
+    {
      "name": "Eliseo Tuzi",
      "country": "ITA",
      "countryName": "Italy",
@@ -19238,101 +19435,7 @@
        "official": true
       }
      },
-     "pos": 12
-    },
-    {
-     "name": "Michael Meininger",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "BL 9:00",
-     "scored": true,
-     "total": 251,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 0,
-      "10": 6,
-      "8": 7,
-      "5": 27,
-      "0": 16
-     },
-     "days": {
-      "1": {
-       "pts": 125,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 1,
-        "8": 5,
-        "5": 15,
-        "0": 7
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 126,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 5,
-        "8": 2,
-        "5": 12,
-        "0": 9
-       },
-       "official": true
-      }
-     },
-     "pos": 13
-    },
-    {
-     "name": "Nagy Tibor",
-     "country": "SVK",
-     "countryName": "Slovakia",
-     "group": "BL 9:00",
-     "scored": true,
-     "total": 251,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 2,
-      "10": 1,
-      "8": 8,
-      "5": 31,
-      "0": 14
-     },
-     "days": {
-      "1": {
-       "pts": 149,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 0,
-        "8": 4,
-        "5": 19,
-        "0": 3
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 102,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 1,
-        "8": 4,
-        "5": 12,
-        "0": 11
-       },
-       "official": true
-      }
-     },
-     "pos": 13
+     "pos": 14
     },
     {
      "name": "Bernd Wicht",
@@ -19340,11 +19443,14 @@
      "countryName": "Germany",
      "group": "BL 9:00",
      "scored": true,
-     "total": 226,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 231,
+     "arrows": 58,
+     "day": "3",
+     "target": "3",
+     "shots": [
+      "5",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 1,
@@ -19377,6 +19483,17 @@
         "0": 13
        },
        "official": true
+      },
+      "3": {
+       "pts": 5,
+       "arrows": 2,
+       "shots": [
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 15
@@ -23726,8 +23843,8 @@
    "bow": "TR-RB",
    "age": "Veteran (55 years of age or older)",
    "gender": "Male",
-   "official": true,
-   "updated": "2026-09-03 08:52:05",
+   "official": false,
+   "updated": "",
    "results": [
     {
      "name": "Ferenc Midesz Molnár",
@@ -24482,6 +24599,73 @@
      "pos": 16
     },
     {
+     "name": "Terje Bakke",
+     "country": "NOR",
+     "countryName": "Norway",
+     "group": "WH 8:50",
+     "scored": true,
+     "total": 369,
+     "arrows": 61,
+     "day": "3",
+     "target": "6",
+     "shots": [
+      "10",
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 2,
+      "10": 6,
+      "8": 18,
+      "5": 22,
+      "0": 8
+     },
+     "days": {
+      "1": {
+       "pts": 176,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 4,
+        "8": 8,
+        "5": 10,
+        "0": 4
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 160,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 2,
+        "8": 10,
+        "5": 12,
+        "0": 4
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 33,
+       "arrows": 5,
+       "shots": [
+        "10",
+        "8",
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 17
+    },
+    {
      "name": "Leos Bracha",
      "country": "CZE",
      "countryName": "Czech Republic",
@@ -24529,6 +24713,75 @@
      "pos": 17
     },
     {
+     "name": "Robert Tomaszewski",
+     "country": "POL",
+     "countryName": "Poland",
+     "group": "WH 8:40",
+     "scored": true,
+     "total": 367,
+     "arrows": 62,
+     "day": "3",
+     "target": "6",
+     "shots": [
+      "10",
+      "8",
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 2,
+      "10": 7,
+      "8": 13,
+      "5": 26,
+      "0": 8
+     },
+     "days": {
+      "1": {
+       "pts": 159,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 4,
+        "8": 6,
+        "5": 12,
+        "0": 5
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 167,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 3,
+        "8": 7,
+        "5": 14,
+        "0": 3
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 41,
+       "arrows": 6,
+       "shots": [
+        "10",
+        "8",
+        "8",
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 19
+    },
+    {
      "name": "Ferenc Kalmár",
      "country": "HUN",
      "countryName": "Hungary",
@@ -24573,7 +24826,7 @@
        "official": true
       }
      },
-     "pos": 18
+     "pos": 20
     },
     {
      "name": "Borbély Péter",
@@ -24620,7 +24873,344 @@
        "official": true
       }
      },
-     "pos": 19
+     "pos": 21
+    },
+    {
+     "name": "Jaroslav Kondicz",
+     "country": "CZE",
+     "countryName": "Czech Republic",
+     "group": "WH 8:50",
+     "scored": true,
+     "total": 361,
+     "arrows": 61,
+     "day": "3",
+     "target": "5",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 1,
+      "10": 6,
+      "8": 18,
+      "5": 24,
+      "0": 7
+     },
+     "days": {
+      "1": {
+       "pts": 162,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 3,
+        "8": 7,
+        "5": 13,
+        "0": 4
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 173,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 3,
+        "8": 11,
+        "5": 11,
+        "0": 3
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 26,
+       "arrows": 5,
+       "shots": [
+        "8",
+        "8",
+        "5",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 22
+    },
+    {
+     "name": "Sven Gehritz",
+     "country": "GER",
+     "countryName": "Germany",
+     "group": "WH 8:50",
+     "scored": true,
+     "total": 360,
+     "arrows": 61,
+     "day": "3",
+     "target": "5",
+     "shots": [
+      "10",
+      "8",
+      "5",
+      "5",
+      "5"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 3,
+      "10": 7,
+      "8": 18,
+      "5": 16,
+      "0": 12
+     },
+     "days": {
+      "1": {
+       "pts": 146,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 5,
+        "8": 5,
+        "5": 9,
+        "0": 8
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 181,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 2,
+        "8": 13,
+        "5": 7,
+        "0": 4
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 33,
+       "arrows": 5,
+       "shots": [
+        "10",
+        "8",
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 23
+    },
+    {
+     "name": "Thomas Leski",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 8:50",
+     "scored": true,
+     "total": 359,
+     "arrows": 61,
+     "day": "3",
+     "target": "5",
+     "shots": [
+      "8",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 3,
+      "10": 5,
+      "8": 16,
+      "5": 25,
+      "0": 7
+     },
+     "days": {
+      "1": {
+       "pts": 172,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 1,
+        "8": 10,
+        "5": 12,
+        "0": 3
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 164,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 4,
+        "8": 6,
+        "5": 13,
+        "0": 4
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 23,
+       "arrows": 5,
+       "shots": [
+        "8",
+        "5",
+        "5",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 24
+    },
+    {
+     "name": "Peter Panzenböck",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 8:40",
+     "scored": true,
+     "total": 357,
+     "arrows": 62,
+     "day": "3",
+     "target": "7",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 5,
+      "10": 7,
+      "8": 12,
+      "5": 21,
+      "0": 11
+     },
+     "days": {
+      "1": {
+       "pts": 153,
+       "arrows": 28,
+       "hits": {
+        "11": 3,
+        "10": 3,
+        "8": 5,
+        "5": 10,
+        "0": 7
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 173,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 4,
+        "8": 7,
+        "5": 11,
+        "0": 4
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 31,
+       "arrows": 6,
+       "shots": [
+        "8",
+        "8",
+        "5",
+        "5",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 25
+    },
+    {
+     "name": "Reinhold Marx",
+     "country": "AUT",
+     "countryName": "Austria",
+     "group": "WH 8:50",
+     "scored": true,
+     "total": 354,
+     "arrows": 61,
+     "day": "3",
+     "target": "5",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "5",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 3,
+      "10": 7,
+      "8": 12,
+      "5": 27,
+      "0": 7
+     },
+     "days": {
+      "1": {
+       "pts": 164,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 5,
+        "8": 6,
+        "5": 11,
+        "0": 5
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 170,
+       "arrows": 28,
+       "hits": {
+        "11": 2,
+        "10": 2,
+        "8": 6,
+        "5": 16,
+        "0": 2
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 20,
+       "arrows": 5,
+       "shots": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 26
     },
     {
      "name": "Horst Kollmer",
@@ -24667,7 +25257,7 @@
        "official": true
       }
      },
-     "pos": 20
+     "pos": 27
     },
     {
      "name": "Guenter Herold",
@@ -24714,7 +25304,7 @@
        "official": true
       }
      },
-     "pos": 20
+     "pos": 27
     },
     {
      "name": "Ales Hybner",
@@ -24761,7 +25351,7 @@
        "official": true
       }
      },
-     "pos": 22
+     "pos": 29
     },
     {
      "name": "Luděk Malinka",
@@ -24808,7 +25398,7 @@
        "official": true
       }
      },
-     "pos": 22
+     "pos": 29
     },
     {
      "name": "Eduard Reindl",
@@ -24855,242 +25445,7 @@
        "official": true
       }
      },
-     "pos": 24
-    },
-    {
-     "name": "Terje Bakke",
-     "country": "NOR",
-     "countryName": "Norway",
-     "group": "WH 8:50",
-     "scored": true,
-     "total": 336,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 2,
-      "10": 6,
-      "8": 18,
-      "5": 22,
-      "0": 8
-     },
-     "days": {
-      "1": {
-       "pts": 176,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 4,
-        "8": 8,
-        "5": 10,
-        "0": 4
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 160,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 2,
-        "8": 10,
-        "5": 12,
-        "0": 4
-       },
-       "official": true
-      }
-     },
-     "pos": 25
-    },
-    {
-     "name": "Thomas Leski",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 8:50",
-     "scored": true,
-     "total": 336,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 3,
-      "10": 5,
-      "8": 16,
-      "5": 25,
-      "0": 7
-     },
-     "days": {
-      "1": {
-       "pts": 172,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 1,
-        "8": 10,
-        "5": 12,
-        "0": 3
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 164,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 4,
-        "8": 6,
-        "5": 13,
-        "0": 4
-       },
-       "official": true
-      }
-     },
-     "pos": 25
-    },
-    {
-     "name": "Jaroslav Kondicz",
-     "country": "CZE",
-     "countryName": "Czech Republic",
-     "group": "WH 8:50",
-     "scored": true,
-     "total": 335,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 1,
-      "10": 6,
-      "8": 18,
-      "5": 24,
-      "0": 7
-     },
-     "days": {
-      "1": {
-       "pts": 162,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 3,
-        "8": 7,
-        "5": 13,
-        "0": 4
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 173,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 3,
-        "8": 11,
-        "5": 11,
-        "0": 3
-       },
-       "official": true
-      }
-     },
-     "pos": 27
-    },
-    {
-     "name": "Reinhold Marx",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 8:50",
-     "scored": true,
-     "total": 334,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 3,
-      "10": 7,
-      "8": 12,
-      "5": 27,
-      "0": 7
-     },
-     "days": {
-      "1": {
-       "pts": 164,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 5,
-        "8": 6,
-        "5": 11,
-        "0": 5
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 170,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 2,
-        "8": 6,
-        "5": 16,
-        "0": 2
-       },
-       "official": true
-      }
-     },
-     "pos": 28
-    },
-    {
-     "name": "Sven Gehritz",
-     "country": "GER",
-     "countryName": "Germany",
-     "group": "WH 8:50",
-     "scored": true,
-     "total": 327,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 3,
-      "10": 7,
-      "8": 18,
-      "5": 16,
-      "0": 12
-     },
-     "days": {
-      "1": {
-       "pts": 146,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 5,
-        "8": 5,
-        "5": 9,
-        "0": 8
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 181,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 2,
-        "8": 13,
-        "5": 7,
-        "0": 4
-       },
-       "official": true
-      }
-     },
-     "pos": 29
+     "pos": 31
     },
     {
      "name": "Hermann Reindl",
@@ -25098,11 +25453,17 @@
      "countryName": "Austria",
      "group": "WH 8:50",
      "scored": true,
-     "total": 327,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 342,
+     "arrows": 61,
+     "day": "3",
+     "target": "5",
+     "shots": [
+      "5",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 1,
@@ -25135,197 +25496,23 @@
         "0": 4
        },
        "official": true
-      }
-     },
-     "pos": 29
-    },
-    {
-     "name": "Peter Panzenböck",
-     "country": "AUT",
-     "countryName": "Austria",
-     "group": "WH 8:40",
-     "scored": true,
-     "total": 326,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 5,
-      "10": 7,
-      "8": 12,
-      "5": 21,
-      "0": 11
-     },
-     "days": {
-      "1": {
-       "pts": 153,
-       "arrows": 28,
-       "hits": {
-        "11": 3,
-        "10": 3,
-        "8": 5,
-        "5": 10,
-        "0": 7
-       },
-       "official": true
       },
-      "2": {
-       "pts": 173,
-       "arrows": 28,
-       "hits": {
-        "11": 2,
-        "10": 4,
-        "8": 7,
-        "5": 11,
-        "0": 4
-       },
-       "official": true
+      "3": {
+       "pts": 15,
+       "arrows": 5,
+       "shots": [
+        "5",
+        "5",
+        "5",
+        "0",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
-     "pos": 31
-    },
-    {
-     "name": "Robert Tomaszewski",
-     "country": "POL",
-     "countryName": "Poland",
-     "group": "WH 8:40",
-     "scored": true,
-     "total": 326,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 2,
-      "10": 7,
-      "8": 13,
-      "5": 26,
-      "0": 8
-     },
-     "days": {
-      "1": {
-       "pts": 159,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 4,
-        "8": 6,
-        "5": 12,
-        "0": 5
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 167,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 3,
-        "8": 7,
-        "5": 14,
-        "0": 3
-       },
-       "official": true
-      }
-     },
-     "pos": 31
-    },
-    {
-     "name": "Agostino Mercurio",
-     "country": "ITA",
-     "countryName": "Italy",
-     "group": "WH 8:40",
-     "scored": true,
-     "total": 311,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 0,
-      "10": 9,
-      "8": 12,
-      "5": 25,
-      "0": 10
-     },
-     "days": {
-      "1": {
-       "pts": 132,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 4,
-        "8": 4,
-        "5": 12,
-        "0": 8
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 179,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 5,
-        "8": 8,
-        "5": 13,
-        "0": 2
-       },
-       "official": true
-      }
-     },
-     "pos": 33
-    },
-    {
-     "name": "Mišel Sabo",
-     "country": "SRB",
-     "countryName": "Serbia",
-     "group": "WH 8:40",
-     "scored": true,
-     "total": 310,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
-     "photo": "",
-     "hits": {
-      "11": 1,
-      "10": 4,
-      "8": 18,
-      "5": 23,
-      "0": 10
-     },
-     "days": {
-      "1": {
-       "pts": 139,
-       "arrows": 28,
-       "hits": {
-        "11": 1,
-        "10": 3,
-        "8": 6,
-        "5": 10,
-        "0": 8
-       },
-       "official": true
-      },
-      "2": {
-       "pts": 171,
-       "arrows": 28,
-       "hits": {
-        "11": 0,
-        "10": 1,
-        "8": 12,
-        "5": 13,
-        "0": 2
-       },
-       "official": true
-      }
-     },
-     "pos": 34
+     "pos": 32
     },
     {
      "name": "Antonio Mastrangelo",
@@ -25333,11 +25520,18 @@
      "countryName": "Italy",
      "group": "WH 8:40",
      "scored": true,
-     "total": 302,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 340,
+     "arrows": 62,
+     "day": "3",
+     "target": "6",
+     "shots": [
+      "10",
+      "8",
+      "5",
+      "5",
+      "5",
+      "5"
+     ],
      "photo": "",
      "hits": {
       "11": 0,
@@ -25370,6 +25564,159 @@
         "0": 4
        },
        "official": true
+      },
+      "3": {
+       "pts": 38,
+       "arrows": 6,
+       "shots": [
+        "10",
+        "8",
+        "5",
+        "5",
+        "5",
+        "5"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 33
+    },
+    {
+     "name": "Agostino Mercurio",
+     "country": "ITA",
+     "countryName": "Italy",
+     "group": "WH 8:40",
+     "scored": true,
+     "total": 337,
+     "arrows": 62,
+     "day": "3",
+     "target": "6",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 0,
+      "10": 9,
+      "8": 12,
+      "5": 25,
+      "0": 10
+     },
+     "days": {
+      "1": {
+       "pts": 132,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 4,
+        "8": 4,
+        "5": 12,
+        "0": 8
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 179,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 5,
+        "8": 8,
+        "5": 13,
+        "0": 2
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 26,
+       "arrows": 6,
+       "shots": [
+        "8",
+        "8",
+        "5",
+        "5",
+        "0",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
+      }
+     },
+     "pos": 34
+    },
+    {
+     "name": "Mišel Sabo",
+     "country": "SRB",
+     "countryName": "Serbia",
+     "group": "WH 8:40",
+     "scored": true,
+     "total": 328,
+     "arrows": 62,
+     "day": "3",
+     "target": "6",
+     "shots": [
+      "8",
+      "5",
+      "5",
+      "0",
+      "0",
+      "0"
+     ],
+     "photo": "",
+     "hits": {
+      "11": 1,
+      "10": 4,
+      "8": 18,
+      "5": 23,
+      "0": 10
+     },
+     "days": {
+      "1": {
+       "pts": 139,
+       "arrows": 28,
+       "hits": {
+        "11": 1,
+        "10": 3,
+        "8": 6,
+        "5": 10,
+        "0": 8
+       },
+       "official": true
+      },
+      "2": {
+       "pts": 171,
+       "arrows": 28,
+       "hits": {
+        "11": 0,
+        "10": 1,
+        "8": 12,
+        "5": 13,
+        "0": 2
+       },
+       "official": true
+      },
+      "3": {
+       "pts": 18,
+       "arrows": 6,
+       "shots": [
+        "8",
+        "5",
+        "5",
+        "0",
+        "0",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 35
@@ -25380,11 +25727,18 @@
      "countryName": "Austria",
      "group": "WH 8:40",
      "scored": true,
-     "total": 297,
-     "arrows": 56,
-     "day": "",
-     "target": "",
-     "shots": [],
+     "total": 323,
+     "arrows": 62,
+     "day": "3",
+     "target": "6",
+     "shots": [
+      "8",
+      "8",
+      "5",
+      "5",
+      "0",
+      "0"
+     ],
      "photo": "",
      "hits": {
       "11": 1,
@@ -25417,6 +25771,21 @@
         "0": 5
        },
        "official": true
+      },
+      "3": {
+       "pts": 26,
+       "arrows": 6,
+       "shots": [
+        "8",
+        "8",
+        "5",
+        "5",
+        "0",
+        "0"
+       ],
+       "live": true,
+       "official": false,
+       "updated": "2026-09-03T07:11:02Z"
       }
      },
      "pos": 36
