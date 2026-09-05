@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788594782.2861798,
   "day3Csv": "2026-09-05 09:53:03"
  },
- "updated": "2026-09-05T07:55:15Z",
+ "updated": "2026-09-05T07:57:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33113,7 +33113,7 @@
     "id": 97578,
     "title": "Barebow (BB) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T07:55:02Z",
+    "updated": "2026-09-05T07:57:02Z",
     "rows": [
      {
       "rid": 577,
@@ -33159,11 +33159,11 @@
        5,
        5,
        12,
-       null,
+       5,
        null
       ],
-      "finalPts": 30,
-      "total": 652,
+      "finalPts": 35,
+      "total": 657,
       "rank": 3
      },
      {
@@ -33176,11 +33176,11 @@
        8,
        5,
        8,
-       null,
+       8,
        null
       ],
-      "finalPts": 26,
-      "total": 628,
+      "finalPts": 34,
+      "total": 636,
       "rank": 4
      },
      {
@@ -33193,7 +33193,7 @@
        10,
        8,
        8,
-       null,
+       0,
        null
       ],
       "finalPts": 36,
@@ -33210,11 +33210,11 @@
        8,
        5,
        5,
-       null,
+       8,
        null
       ],
-      "finalPts": 18,
-      "total": 590,
+      "finalPts": 26,
+      "total": 598,
       "rank": 6
      }
     ]
@@ -35313,25 +35313,8 @@
     "id": 97598,
     "title": "Traditional Recurve (TR-RB) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T07:53:02Z",
+    "updated": "2026-09-05T07:57:02Z",
     "rows": [
-     {
-      "rid": 208,
-      "name": "Anett Kirschnerné Katona",
-      "country": "HUN",
-      "sum": 595,
-      "targets": [
-       8,
-       10,
-       5,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 23,
-      "total": 618,
-      "rank": 1
-     },
      {
       "rid": 981,
       "name": "Dürgőné Kovács Piroska",
@@ -35342,11 +35325,28 @@
        12,
        12,
        8,
+       12,
+       null
+      ],
+      "finalPts": 44,
+      "total": 629,
+      "rank": 1
+     },
+     {
+      "rid": 208,
+      "name": "Anett Kirschnerné Katona",
+      "country": "HUN",
+      "sum": 595,
+      "targets": [
+       8,
+       10,
+       5,
+       5,
        null,
        null
       ],
-      "finalPts": 32,
-      "total": 617,
+      "finalPts": 28,
+      "total": 623,
       "rank": 2
      },
      {
@@ -35360,10 +35360,10 @@
        8,
        8,
        8,
-       null
+       10
       ],
-      "finalPts": 24,
-      "total": 591,
+      "finalPts": 34,
+      "total": 601,
       "rank": 3
      },
      {
@@ -35372,15 +35372,15 @@
       "country": "HUN",
       "sum": 559,
       "targets": [
-       null,
+       12,
        null,
        null,
        8,
        8,
        8
       ],
-      "finalPts": 24,
-      "total": 583,
+      "finalPts": 36,
+      "total": 595,
       "rank": 4
      },
      {
@@ -35390,14 +35390,14 @@
       "sum": 545,
       "targets": [
        8,
-       null,
+       5,
        null,
        null,
        12,
        12
       ],
-      "finalPts": 32,
-      "total": 577,
+      "finalPts": 37,
+      "total": 582,
       "rank": 5
      },
      {
@@ -35408,13 +35408,13 @@
       "targets": [
        0,
        8,
-       null,
+       10,
        null,
        null,
        10
       ],
-      "finalPts": 18,
-      "total": 553,
+      "finalPts": 28,
+      "total": 563,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T07:55:02Z"
+  "updated": "2026-09-05T07:57:02Z"
  }
 }
