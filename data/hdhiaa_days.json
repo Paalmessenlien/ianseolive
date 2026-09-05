@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788594782.2861798,
   "day3Csv": "2026-09-05 09:53:03"
  },
- "updated": "2026-09-05T08:17:14Z",
+ "updated": "2026-09-05T08:19:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33333,25 +33333,8 @@
     "id": 97580,
     "title": "Barebow (BB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T08:17:02Z",
+    "updated": "2026-09-05T08:19:01Z",
     "rows": [
-     {
-      "rid": 412,
-      "name": "Vera Majerova",
-      "country": "CZE",
-      "sum": 640,
-      "targets": [
-       8,
-       8,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 16,
-      "total": 656,
-      "rank": 1
-     },
      {
       "rid": 715,
       "name": "Kovácsné Bulin Andrea",
@@ -33360,13 +33343,30 @@
       "targets": [
        8,
        8,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 652,
+      "finalPts": 26,
+      "total": 662,
+      "rank": 1
+     },
+     {
+      "rid": 412,
+      "name": "Vera Majerova",
+      "country": "CZE",
+      "sum": 640,
+      "targets": [
+       8,
+       8,
+       5,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 21,
+      "total": 661,
       "rank": 2
      },
      {
@@ -33377,14 +33377,31 @@
       "targets": [
        0,
        5,
-       null,
+       5,
        null,
        null,
        null
       ],
-      "finalPts": 5,
-      "total": 612,
+      "finalPts": 10,
+      "total": 617,
       "rank": 3
+     },
+     {
+      "rid": 852,
+      "name": "Elke Haas",
+      "country": "AUT",
+      "sum": 567,
+      "targets": [
+       5,
+       5,
+       5,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 15,
+      "total": 582,
+      "rank": 4
      },
      {
       "rid": 489,
@@ -33401,23 +33418,6 @@
       ],
       "finalPts": 28,
       "total": 582,
-      "rank": 4
-     },
-     {
-      "rid": 852,
-      "name": "Elke Haas",
-      "country": "AUT",
-      "sum": 567,
-      "targets": [
-       5,
-       5,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 10,
-      "total": 577,
       "rank": 5
      },
      {
@@ -35643,7 +35643,7 @@
     "id": 97601,
     "title": "Traditional Recurve (TR-RB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T08:17:02Z",
+    "updated": "2026-09-05T08:19:01Z",
     "rows": [
      {
       "rid": 915,
@@ -35653,13 +35653,13 @@
       "targets": [
        10,
        8,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 780,
+      "finalPts": 28,
+      "total": 790,
       "rank": 1
      },
      {
@@ -35670,13 +35670,13 @@
       "targets": [
        8,
        12,
-       null,
+       12,
        null,
        null,
        null
       ],
-      "finalPts": 20,
-      "total": 721,
+      "finalPts": 32,
+      "total": 733,
       "rank": 2
      },
      {
@@ -35687,13 +35687,13 @@
       "targets": [
        8,
        8,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 675,
+      "finalPts": 24,
+      "total": 683,
       "rank": 3
      },
      {
@@ -35721,13 +35721,13 @@
       "targets": [
        8,
        8,
-       null,
+       5,
        null,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 659,
+      "finalPts": 21,
+      "total": 664,
       "rank": 5
      },
      {
@@ -35738,18 +35738,18 @@
       "targets": [
        10,
        5,
-       null,
+       5,
        null,
        null,
        null
       ],
-      "finalPts": 15,
-      "total": 642,
+      "finalPts": 20,
+      "total": 647,
       "rank": 6
      }
     ]
    }
   },
-  "updated": "2026-09-05T08:17:02Z"
+  "updated": "2026-09-05T08:19:01Z"
  }
 }
