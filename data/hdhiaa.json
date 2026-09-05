@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T07:27:14Z",
+ "generated": "2026-09-05T07:29:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T07:27:01Z",
+  "updated": "2026-09-05T07:29:01Z",
   "groups": [
    {
     "id": 97578,
@@ -50851,9 +50851,26 @@
    {
     "id": 97599,
     "title": "Traditional Recurve (TR-RB) Adults (21-54 years) · Male",
-    "complete": false,
-    "updated": "2026-09-05T07:27:01Z",
+    "complete": true,
+    "updated": "2026-09-05T07:29:01Z",
     "rows": [
+     {
+      "rid": 573,
+      "name": "Károly Hegedűs",
+      "country": "HUN",
+      "sum": 732,
+      "targets": [
+       8,
+       8,
+       8,
+       10,
+       8,
+       12
+      ],
+      "finalPts": 54,
+      "total": 786,
+      "rank": 1
+     },
      {
       "rid": 183,
       "name": "Stanislav Vejčík",
@@ -50869,7 +50886,7 @@
       ],
       "finalPts": 58,
       "total": 777,
-      "rank": 1
+      "rank": 2
      },
      {
       "rid": 965,
@@ -50886,23 +50903,6 @@
       ],
       "finalPts": 62,
       "total": 777,
-      "rank": 2
-     },
-     {
-      "rid": 573,
-      "name": "Károly Hegedűs",
-      "country": "HUN",
-      "sum": 732,
-      "targets": [
-       8,
-       8,
-       8,
-       10,
-       8,
-       null
-      ],
-      "finalPts": 42,
-      "total": 774,
       "rank": 3
      },
      {
@@ -50949,11 +50949,11 @@
        8,
        8,
        8,
-       null,
+       8,
        8
       ],
-      "finalPts": 37,
-      "total": 741,
+      "finalPts": 45,
+      "total": 749,
       "rank": 6
      }
     ]

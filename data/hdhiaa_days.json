@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788591125.8700697,
   "day3Csv": "2026-09-05 08:52:07"
  },
- "updated": "2026-09-05T07:27:14Z",
+ "updated": "2026-09-05T07:29:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -35422,9 +35422,26 @@
    "97599": {
     "id": 97599,
     "title": "Traditional Recurve (TR-RB) Adults (21-54 years) · Male",
-    "complete": false,
-    "updated": "2026-09-05T07:27:01Z",
+    "complete": true,
+    "updated": "2026-09-05T07:29:01Z",
     "rows": [
+     {
+      "rid": 573,
+      "name": "Károly Hegedűs",
+      "country": "HUN",
+      "sum": 732,
+      "targets": [
+       8,
+       8,
+       8,
+       10,
+       8,
+       12
+      ],
+      "finalPts": 54,
+      "total": 786,
+      "rank": 1
+     },
      {
       "rid": 183,
       "name": "Stanislav Vejčík",
@@ -35440,7 +35457,7 @@
       ],
       "finalPts": 58,
       "total": 777,
-      "rank": 1
+      "rank": 2
      },
      {
       "rid": 965,
@@ -35457,23 +35474,6 @@
       ],
       "finalPts": 62,
       "total": 777,
-      "rank": 2
-     },
-     {
-      "rid": 573,
-      "name": "Károly Hegedűs",
-      "country": "HUN",
-      "sum": 732,
-      "targets": [
-       8,
-       8,
-       8,
-       10,
-       8,
-       null
-      ],
-      "finalPts": 42,
-      "total": 774,
       "rank": 3
      },
      {
@@ -35520,11 +35520,11 @@
        8,
        8,
        8,
-       null,
+       8,
        8
       ],
-      "finalPts": 37,
-      "total": 741,
+      "finalPts": 45,
+      "total": 749,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T07:27:01Z"
+  "updated": "2026-09-05T07:29:01Z"
  }
 }
