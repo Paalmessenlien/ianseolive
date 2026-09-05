@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:31:15Z",
+ "updated": "2026-09-05T11:33:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34323,7 +34323,7 @@
     "id": 97589,
     "title": "Hunter 3D (HU) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:31:02Z",
+    "updated": "2026-09-05T11:33:02Z",
     "rows": [
      {
       "rid": 990,
@@ -34367,13 +34367,13 @@
       "targets": [
        5,
        5,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 705,
+      "finalPts": 18,
+      "total": 713,
       "rank": 3
      },
      {
@@ -34394,6 +34394,23 @@
       "rank": 4
      },
      {
+      "rid": 524,
+      "name": "Barna Nagy",
+      "country": "HUN",
+      "sum": 679,
+      "targets": [
+       5,
+       8,
+       8,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 21,
+      "total": 700,
+      "rank": 5
+     },
+     {
       "rid": 387,
       "name": "Mihály Farkas",
       "country": "HUN",
@@ -34408,23 +34425,6 @@
       ],
       "finalPts": 26,
       "total": 695,
-      "rank": 5
-     },
-     {
-      "rid": 524,
-      "name": "Barna Nagy",
-      "country": "HUN",
-      "sum": 679,
-      "targets": [
-       5,
-       8,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 13,
-      "total": 692,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:31:02Z"
+  "updated": "2026-09-05T11:33:02Z"
  }
 }
