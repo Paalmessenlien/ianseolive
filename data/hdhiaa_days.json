@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:39:14Z",
+ "updated": "2026-09-05T11:41:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33993,7 +33993,7 @@
     "id": 97586,
     "title": "Crossbow (CRB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:39:02Z",
+    "updated": "2026-09-05T11:41:01Z",
     "rows": [
      {
       "rid": 646,
@@ -34006,11 +34006,28 @@
        8,
        8,
        12,
-       null
+       8
       ],
-      "finalPts": 46,
-      "total": 830,
+      "finalPts": 54,
+      "total": 838,
       "rank": 1
+     },
+     {
+      "rid": 1060,
+      "name": "Jiří Klabouch",
+      "country": "CZE",
+      "sum": 770,
+      "targets": [
+       8,
+       12,
+       10,
+       8,
+       10,
+       10
+      ],
+      "finalPts": 58,
+      "total": 828,
+      "rank": 2
      },
      {
       "rid": 917,
@@ -34027,24 +34044,24 @@
       ],
       "finalPts": 55,
       "total": 827,
-      "rank": 2
+      "rank": 3
      },
      {
-      "rid": 1060,
-      "name": "Jiří Klabouch",
-      "country": "CZE",
-      "sum": 770,
+      "rid": 267,
+      "name": "Thomas Wienerroither",
+      "country": "AUT",
+      "sum": 746,
       "targets": [
+       10,
+       12,
        8,
        12,
        10,
-       8,
-       10,
-       null
+       8
       ],
-      "finalPts": 48,
-      "total": 818,
-      "rank": 3
+      "finalPts": 60,
+      "total": 806,
+      "rank": 4
      },
      {
       "rid": 219,
@@ -34061,23 +34078,6 @@
       ],
       "finalPts": 52,
       "total": 805,
-      "rank": 4
-     },
-     {
-      "rid": 267,
-      "name": "Thomas Wienerroither",
-      "country": "AUT",
-      "sum": 746,
-      "targets": [
-       10,
-       12,
-       8,
-       12,
-       null,
-       null
-      ],
-      "finalPts": 42,
-      "total": 788,
       "rank": 5
      },
      {
@@ -34091,10 +34091,10 @@
        10,
        8,
        5,
-       null
+       12
       ],
-      "finalPts": 38,
-      "total": 775,
+      "finalPts": 50,
+      "total": 787,
       "rank": 6
      }
     ]
@@ -34322,8 +34322,8 @@
    "97589": {
     "id": 97589,
     "title": "Hunter 3D (HU) Veteran (55 years of age or older) · Male",
-    "complete": false,
-    "updated": "2026-09-05T11:39:02Z",
+    "complete": true,
+    "updated": "2026-09-05T11:41:01Z",
     "rows": [
      {
       "rid": 990,
@@ -34336,10 +34336,10 @@
        8,
        8,
        8,
-       null
+       10
       ],
-      "finalPts": 44,
-      "total": 771,
+      "finalPts": 54,
+      "total": 781,
       "rank": 1
      },
      {
@@ -34353,10 +34353,10 @@
        8,
        8,
        5,
-       null
+       8
       ],
-      "finalPts": 34,
-      "total": 762,
+      "finalPts": 42,
+      "total": 770,
       "rank": 2
      },
      {
@@ -34370,10 +34370,10 @@
        8,
        8,
        10,
-       null
+       12
       ],
-      "finalPts": 36,
-      "total": 731,
+      "finalPts": 48,
+      "total": 743,
       "rank": 3
      },
      {
@@ -34387,10 +34387,10 @@
        12,
        10,
        8,
-       null
+       8
       ],
-      "finalPts": 48,
-      "total": 723,
+      "finalPts": 56,
+      "total": 731,
       "rank": 4
      },
      {
@@ -34404,10 +34404,10 @@
        8,
        10,
        5,
-       null
+       5
       ],
-      "finalPts": 36,
-      "total": 715,
+      "finalPts": 41,
+      "total": 720,
       "rank": 5
      },
      {
@@ -34421,10 +34421,10 @@
        10,
        10,
        8,
-       null
+       5
       ],
-      "finalPts": 44,
-      "total": 713,
+      "finalPts": 49,
+      "total": 718,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:39:02Z"
+  "updated": "2026-09-05T11:41:01Z"
  }
 }
