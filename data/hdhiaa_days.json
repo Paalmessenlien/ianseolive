@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:55:14Z",
+ "updated": "2026-09-05T11:57:15Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33773,7 +33773,7 @@
     "id": 97584,
     "title": "Compound Unlimited (CU) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:55:02Z",
+    "updated": "2026-09-05T11:57:02Z",
     "rows": [
      {
       "rid": 476,
@@ -33816,15 +33816,49 @@
       "sum": 787,
       "targets": [
        10,
-       null,
+       8,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 797,
+      "finalPts": 18,
+      "total": 805,
       "rank": 3
+     },
+     {
+      "rid": 651,
+      "name": "Gábor Király",
+      "country": "HUN",
+      "sum": 769,
+      "targets": [
+       12,
+       10,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 22,
+      "total": 791,
+      "rank": 4
+     },
+     {
+      "rid": 941,
+      "name": "Branko Starčević",
+      "country": "CRO",
+      "sum": 763,
+      "targets": [
+       10,
+       10,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 20,
+      "total": 783,
+      "rank": 5
      },
      {
       "rid": 520,
@@ -33841,40 +33875,6 @@
       ],
       "finalPts": 20,
       "total": 782,
-      "rank": 4
-     },
-     {
-      "rid": 651,
-      "name": "Gábor Király",
-      "country": "HUN",
-      "sum": 769,
-      "targets": [
-       12,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 12,
-      "total": 781,
-      "rank": 5
-     },
-     {
-      "rid": 941,
-      "name": "Branko Starčević",
-      "country": "CRO",
-      "sum": 763,
-      "targets": [
-       10,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 10,
-      "total": 773,
       "rank": 6
      }
     ]
@@ -34103,7 +34103,7 @@
     "id": 97587,
     "title": "Hunter 3D (HU) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T11:55:02Z",
+    "updated": "2026-09-05T11:57:02Z",
     "rows": [
      {
       "rid": 1141,
@@ -34146,14 +34146,14 @@
       "sum": 606,
       "targets": [
        5,
-       null,
+       5,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 5,
-      "total": 611,
+      "finalPts": 10,
+      "total": 616,
       "rank": 3
      },
      {
@@ -34163,14 +34163,14 @@
       "sum": 551,
       "targets": [
        5,
-       null,
+       5,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 5,
-      "total": 556,
+      "finalPts": 10,
+      "total": 561,
       "rank": 4
      },
      {
@@ -34180,14 +34180,14 @@
       "sum": 542,
       "targets": [
        8,
-       null,
+       5,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 550,
+      "finalPts": 13,
+      "total": 555,
       "rank": 5
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:55:02Z"
+  "updated": "2026-09-05T11:57:02Z"
  }
 }
