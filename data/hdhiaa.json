@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T10:15:14Z",
+ "generated": "2026-09-05T10:17:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T10:15:02Z",
+  "updated": "2026-09-05T10:17:01Z",
   "groups": [
    {
     "id": 97578,
@@ -50302,7 +50302,7 @@
     "id": 97594,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T10:15:02Z",
+    "updated": "2026-09-05T10:17:01Z",
     "rows": [
      {
       "rid": 724,
@@ -50322,6 +50322,23 @@
       "rank": 1
      },
      {
+      "rid": 705,
+      "name": "Zsolt Kovács",
+      "country": "HUN",
+      "sum": 529,
+      "targets": [
+       8,
+       5,
+       5,
+       8,
+       null,
+       null
+      ],
+      "finalPts": 26,
+      "total": 555,
+      "rank": 2
+     },
+     {
       "rid": 973,
       "name": "Rudolf Bábi",
       "country": "SRB",
@@ -50336,7 +50353,7 @@
       ],
       "finalPts": 26,
       "total": 554,
-      "rank": 2
+      "rank": 3
      },
      {
       "rid": 642,
@@ -50347,29 +50364,12 @@
        8,
        8,
        8,
-       null,
+       0,
        null,
        null
       ],
       "finalPts": 24,
       "total": 553,
-      "rank": 3
-     },
-     {
-      "rid": 705,
-      "name": "Zsolt Kovács",
-      "country": "HUN",
-      "sum": 529,
-      "targets": [
-       8,
-       5,
-       5,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 18,
-      "total": 547,
       "rank": 4
      },
      {
@@ -50632,7 +50632,7 @@
     "id": 97597,
     "title": "Traditional Longbow (TR-LB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T10:15:02Z",
+    "updated": "2026-09-05T10:17:01Z",
     "rows": [
      {
       "rid": 585,
@@ -50643,12 +50643,12 @@
        5,
        10,
        5,
-       null,
+       12,
        null,
        null
       ],
-      "finalPts": 20,
-      "total": 643,
+      "finalPts": 32,
+      "total": 655,
       "rank": 1
      },
      {
@@ -50660,12 +50660,12 @@
        10,
        12,
        10,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 32,
-      "total": 638,
+      "finalPts": 40,
+      "total": 646,
       "rank": 2
      },
      {
@@ -50677,12 +50677,12 @@
        5,
        5,
        5,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 15,
-      "total": 623,
+      "finalPts": 23,
+      "total": 631,
       "rank": 3
      },
      {
@@ -50728,12 +50728,12 @@
        8,
        8,
        5,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 21,
-      "total": 567,
+      "finalPts": 26,
+      "total": 572,
       "rank": 6
      }
     ]
