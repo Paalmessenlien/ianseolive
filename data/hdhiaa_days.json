@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788610025.329816,
   "day3Csv": "2026-09-05 14:07:06"
  },
- "updated": "2026-09-05T12:25:14Z",
+ "updated": "2026-09-05T12:27:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33553,7 +33553,7 @@
     "id": 97582,
     "title": "Compound Unlimited (CU) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T12:25:01Z",
+    "updated": "2026-09-05T12:27:01Z",
     "rows": [
      {
       "rid": 327,
@@ -33630,14 +33630,14 @@
       "sum": 615,
       "targets": [
        10,
-       null,
+       5,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 625,
+      "finalPts": 15,
+      "total": 630,
       "rank": 5
      },
      {
@@ -33663,7 +33663,7 @@
     "id": 97583,
     "title": "Compound Unlimited (CU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T12:25:01Z",
+    "updated": "2026-09-05T12:27:01Z",
     "rows": [
      {
       "rid": 738,
@@ -33717,6 +33717,23 @@
       "rank": 3
      },
      {
+      "rid": 832,
+      "name": "Jon Rebernik",
+      "country": "SLO",
+      "sum": 812,
+      "targets": [
+       12,
+       12,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 24,
+      "total": 836,
+      "rank": 4
+     },
+     {
       "rid": 409,
       "name": "Harald Ruhmer",
       "country": "AUT",
@@ -33731,23 +33748,6 @@
       ],
       "finalPts": 20,
       "total": 835,
-      "rank": 4
-     },
-     {
-      "rid": 832,
-      "name": "Jon Rebernik",
-      "country": "SLO",
-      "sum": 812,
-      "targets": [
-       12,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 12,
-      "total": 824,
       "rank": 5
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T12:25:01Z"
+  "updated": "2026-09-05T12:27:01Z"
  }
 }
