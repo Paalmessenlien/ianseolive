@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:29:14Z",
+ "updated": "2026-09-05T11:31:15Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33993,7 +33993,7 @@
     "id": 97586,
     "title": "Crossbow (CRB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:29:01Z",
+    "updated": "2026-09-05T11:31:02Z",
     "rows": [
      {
       "rid": 646,
@@ -34003,13 +34003,13 @@
       "targets": [
        10,
        8,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 802,
+      "finalPts": 26,
+      "total": 810,
       "rank": 1
      },
      {
@@ -34020,13 +34020,13 @@
       "targets": [
        10,
        10,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 20,
-      "total": 792,
+      "finalPts": 30,
+      "total": 802,
       "rank": 2
      },
      {
@@ -34037,13 +34037,13 @@
       "targets": [
        8,
        12,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 20,
-      "total": 790,
+      "finalPts": 30,
+      "total": 800,
       "rank": 3
      },
      {
@@ -34054,13 +34054,13 @@
       "targets": [
        10,
        12,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 22,
-      "total": 775,
+      "finalPts": 32,
+      "total": 785,
       "rank": 4
      },
      {
@@ -34071,13 +34071,13 @@
       "targets": [
        10,
        12,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 22,
-      "total": 768,
+      "finalPts": 30,
+      "total": 776,
       "rank": 5
      },
      {
@@ -34088,13 +34088,13 @@
       "targets": [
        5,
        10,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 15,
-      "total": 752,
+      "finalPts": 25,
+      "total": 762,
       "rank": 6
      }
     ]
@@ -34323,7 +34323,7 @@
     "id": 97589,
     "title": "Hunter 3D (HU) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:29:01Z",
+    "updated": "2026-09-05T11:31:02Z",
     "rows": [
      {
       "rid": 990,
@@ -34333,13 +34333,13 @@
       "targets": [
        12,
        8,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 20,
-      "total": 747,
+      "finalPts": 28,
+      "total": 755,
       "rank": 1
      },
      {
@@ -34350,13 +34350,13 @@
       "targets": [
        8,
        5,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 13,
-      "total": 741,
+      "finalPts": 21,
+      "total": 749,
       "rank": 2
      },
      {
@@ -34384,14 +34384,31 @@
       "targets": [
        10,
        8,
-       null,
+       12,
        null,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 693,
+      "finalPts": 30,
+      "total": 705,
       "rank": 4
+     },
+     {
+      "rid": 387,
+      "name": "Mihály Farkas",
+      "country": "HUN",
+      "sum": 669,
+      "targets": [
+       8,
+       8,
+       10,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 26,
+      "total": 695,
+      "rank": 5
      },
      {
       "rid": 524,
@@ -34408,23 +34425,6 @@
       ],
       "finalPts": 13,
       "total": 692,
-      "rank": 5
-     },
-     {
-      "rid": 387,
-      "name": "Mihály Farkas",
-      "country": "HUN",
-      "sum": 669,
-      "targets": [
-       8,
-       8,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 16,
-      "total": 685,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:29:01Z"
+  "updated": "2026-09-05T11:31:02Z"
  }
 }
