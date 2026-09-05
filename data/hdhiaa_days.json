@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788598502.4667845,
   "day3Csv": "2026-09-05 10:55:03"
  },
- "updated": "2026-09-05T09:41:15Z",
+ "updated": "2026-09-05T09:43:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34763,7 +34763,7 @@
     "id": 97593,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T09:41:02Z",
+    "updated": "2026-09-05T09:43:02Z",
     "rows": [
      {
       "rid": 721,
@@ -34775,7 +34775,7 @@
        5,
        0,
        5,
-       null,
+       0,
        null
       ],
       "finalPts": 10,
@@ -34793,10 +34793,10 @@
        8,
        5,
        8,
-       null
+       5
       ],
-      "finalPts": 31,
-      "total": 425,
+      "finalPts": 36,
+      "total": 430,
       "rank": 2
      },
      {
@@ -34809,11 +34809,11 @@
        0,
        8,
        5,
-       null,
-       null
+       0,
+       8
       ],
-      "finalPts": 13,
-      "total": 412,
+      "finalPts": 21,
+      "total": 420,
       "rank": 3
      },
      {
@@ -34843,11 +34843,11 @@
        5,
        5,
        8,
-       null,
+       5,
        null
       ],
-      "finalPts": 18,
-      "total": 373,
+      "finalPts": 23,
+      "total": 378,
       "rank": 5
      },
      {
@@ -35093,8 +35093,25 @@
     "id": 97596,
     "title": "Traditional Longbow (TR-LB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T09:41:02Z",
+    "updated": "2026-09-05T09:43:02Z",
     "rows": [
+     {
+      "rid": 457,
+      "name": "Ivan Racek",
+      "country": "CZE",
+      "sum": 620,
+      "targets": [
+       5,
+       8,
+       10,
+       10,
+       10,
+       8
+      ],
+      "finalPts": 51,
+      "total": 671,
+      "rank": 1
+     },
      {
       "rid": 544,
       "name": "Petr Šrámek",
@@ -35106,27 +35123,10 @@
        10,
        10,
        10,
-       null
+       5
       ],
-      "finalPts": 45,
-      "total": 659,
-      "rank": 1
-     },
-     {
-      "rid": 457,
-      "name": "Ivan Racek",
-      "country": "CZE",
-      "sum": 620,
-      "targets": [
-       5,
-       8,
-       10,
-       10,
-       null,
-       null
-      ],
-      "finalPts": 33,
-      "total": 653,
+      "finalPts": 50,
+      "total": 664,
       "rank": 2
      },
      {
@@ -35139,11 +35139,11 @@
        8,
        8,
        5,
-       null,
+       8,
        null
       ],
-      "finalPts": 29,
-      "total": 651,
+      "finalPts": 37,
+      "total": 659,
       "rank": 3
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T09:41:02Z"
+  "updated": "2026-09-05T09:43:02Z"
  }
 }
