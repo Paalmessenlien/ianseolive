@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788598502.4667845,
   "day3Csv": "2026-09-05 10:55:03"
  },
- "updated": "2026-09-05T09:37:14Z",
+ "updated": "2026-09-05T09:39:15Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34763,7 +34763,7 @@
     "id": 97593,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T09:37:01Z",
+    "updated": "2026-09-05T09:39:02Z",
     "rows": [
      {
       "rid": 721,
@@ -34774,12 +34774,12 @@
        0,
        5,
        0,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 5,
-      "total": 432,
+      "finalPts": 10,
+      "total": 437,
       "rank": 1
      },
      {
@@ -34791,12 +34791,12 @@
        5,
        5,
        8,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 412,
+      "finalPts": 23,
+      "total": 417,
       "rank": 2
      },
      {
@@ -34808,12 +34808,12 @@
        0,
        0,
        8,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 407,
+      "finalPts": 13,
+      "total": 412,
       "rank": 3
      },
      {
@@ -34824,13 +34824,13 @@
       "targets": [
        0,
        0,
-       null,
-       null,
+       10,
+       8,
        null,
        null
       ],
-      "finalPts": 0,
-      "total": 386,
+      "finalPts": 18,
+      "total": 404,
       "rank": 4
      },
      {
@@ -34842,12 +34842,12 @@
        0,
        5,
        5,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 365,
+      "finalPts": 18,
+      "total": 373,
       "rank": 5
      },
      {
@@ -34859,12 +34859,12 @@
        5,
        5,
        5,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 15,
-      "total": 361,
+      "finalPts": 20,
+      "total": 366,
       "rank": 6
      }
     ]
@@ -35093,25 +35093,8 @@
     "id": 97596,
     "title": "Traditional Longbow (TR-LB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T09:37:01Z",
+    "updated": "2026-09-05T09:39:02Z",
     "rows": [
-     {
-      "rid": 708,
-      "name": "Martin Müller",
-      "country": "CZE",
-      "sum": 622,
-      "targets": [
-       8,
-       8,
-       8,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 24,
-      "total": 646,
-      "rank": 1
-     },
      {
       "rid": 457,
       "name": "Ivan Racek",
@@ -35121,12 +35104,29 @@
        5,
        8,
        10,
-       null,
+       10,
        null,
        null
       ],
-      "finalPts": 23,
-      "total": 643,
+      "finalPts": 33,
+      "total": 653,
+      "rank": 1
+     },
+     {
+      "rid": 708,
+      "name": "Martin Müller",
+      "country": "CZE",
+      "sum": 622,
+      "targets": [
+       8,
+       8,
+       8,
+       5,
+       null,
+       null
+      ],
+      "finalPts": 29,
+      "total": 651,
       "rank": 2
      },
      {
@@ -35138,12 +35138,12 @@
        5,
        10,
        10,
-       null,
+       10,
        null,
        null
       ],
-      "finalPts": 25,
-      "total": 639,
+      "finalPts": 35,
+      "total": 649,
       "rank": 3
      },
      {
@@ -35172,12 +35172,12 @@
        5,
        10,
        8,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 23,
-      "total": 622,
+      "finalPts": 28,
+      "total": 627,
       "rank": 5
      },
      {
@@ -35189,12 +35189,12 @@
        8,
        5,
        5,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 609,
+      "finalPts": 26,
+      "total": 617,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T09:37:01Z"
+  "updated": "2026-09-05T09:39:02Z"
  }
 }
