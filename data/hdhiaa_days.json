@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788602582.6548536,
   "day3Csv": "2026-09-05 12:03:03"
  },
- "updated": "2026-09-05T10:19:15Z",
+ "updated": "2026-09-05T10:21:15Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34872,8 +34872,8 @@
    "97594": {
     "id": 97594,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Male",
-    "complete": false,
-    "updated": "2026-09-05T10:19:02Z",
+    "complete": true,
+    "updated": "2026-09-05T10:21:02Z",
     "rows": [
      {
       "rid": 724,
@@ -34886,10 +34886,10 @@
        0,
        5,
        12,
-       null
+       8
       ],
-      "finalPts": 22,
-      "total": 571,
+      "finalPts": 30,
+      "total": 579,
       "rank": 1
      },
      {
@@ -34903,10 +34903,10 @@
        8,
        8,
        10,
-       null
+       5
       ],
-      "finalPts": 36,
-      "total": 564,
+      "finalPts": 41,
+      "total": 569,
       "rank": 2
      },
      {
@@ -34920,10 +34920,10 @@
        5,
        8,
        5,
-       null
+       8
       ],
-      "finalPts": 31,
-      "total": 560,
+      "finalPts": 39,
+      "total": 568,
       "rank": 3
      },
      {
@@ -34937,10 +34937,10 @@
        8,
        0,
        5,
-       null
+       5
       ],
-      "finalPts": 29,
-      "total": 558,
+      "finalPts": 34,
+      "total": 563,
       "rank": 4
      },
      {
@@ -34954,10 +34954,10 @@
        8,
        8,
        5,
-       null
+       8
       ],
-      "finalPts": 31,
-      "total": 537,
+      "finalPts": 39,
+      "total": 545,
       "rank": 5
      },
      {
@@ -34971,7 +34971,7 @@
        5,
        5,
        12,
-       null
+       0
       ],
       "finalPts": 35,
       "total": 509,
@@ -35203,8 +35203,25 @@
     "id": 97597,
     "title": "Traditional Longbow (TR-LB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T10:19:02Z",
+    "updated": "2026-09-05T10:21:02Z",
     "rows": [
+     {
+      "rid": 779,
+      "name": "Dirk Oestreich",
+      "country": "GER",
+      "sum": 606,
+      "targets": [
+       10,
+       12,
+       10,
+       8,
+       5,
+       10
+      ],
+      "finalPts": 55,
+      "total": 661,
+      "rank": 1
+     },
      {
       "rid": 585,
       "name": "Dušan Binder",
@@ -35220,23 +35237,6 @@
       ],
       "finalPts": 37,
       "total": 660,
-      "rank": 1
-     },
-     {
-      "rid": 779,
-      "name": "Dirk Oestreich",
-      "country": "GER",
-      "sum": 606,
-      "targets": [
-       10,
-       12,
-       10,
-       8,
-       5,
-       null
-      ],
-      "finalPts": 45,
-      "total": 651,
       "rank": 2
      },
      {
@@ -35250,10 +35250,10 @@
        5,
        8,
        10,
-       null
+       5
       ],
-      "finalPts": 33,
-      "total": 641,
+      "finalPts": 38,
+      "total": 646,
       "rank": 3
      },
      {
@@ -35267,10 +35267,10 @@
        10,
        5,
        12,
-       null
+       10
       ],
-      "finalPts": 40,
-      "total": 594,
+      "finalPts": 50,
+      "total": 604,
       "rank": 4
      },
      {
@@ -35284,10 +35284,10 @@
        10,
        5,
        8,
-       null
+       5
       ],
-      "finalPts": 36,
-      "total": 587,
+      "finalPts": 41,
+      "total": 592,
       "rank": 5
      },
      {
@@ -35301,10 +35301,10 @@
        5,
        5,
        12,
-       null
+       5
       ],
-      "finalPts": 38,
-      "total": 584,
+      "finalPts": 43,
+      "total": 589,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T10:19:02Z"
+  "updated": "2026-09-05T10:21:02Z"
  }
 }
