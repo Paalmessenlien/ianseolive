@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:11:14Z",
+ "updated": "2026-09-05T11:13:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33883,8 +33883,25 @@
     "id": 97585,
     "title": "Crossbow (CRB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:11:02Z",
+    "updated": "2026-09-05T11:13:02Z",
     "rows": [
+     {
+      "rid": 216,
+      "name": "József Tóth",
+      "country": "HUN",
+      "sum": 835,
+      "targets": [
+       12,
+       12,
+       12,
+       12,
+       10,
+       10
+      ],
+      "finalPts": 68,
+      "total": 903,
+      "rank": 1
+     },
      {
       "rid": 533,
       "name": "Lubos Belacek",
@@ -33900,23 +33917,6 @@
       ],
       "finalPts": 56,
       "total": 902,
-      "rank": 1
-     },
-     {
-      "rid": 216,
-      "name": "József Tóth",
-      "country": "HUN",
-      "sum": 835,
-      "targets": [
-       12,
-       12,
-       12,
-       12,
-       10,
-       null
-      ],
-      "finalPts": 58,
-      "total": 893,
       "rank": 2
      },
      {
@@ -34213,8 +34213,42 @@
     "id": 97588,
     "title": "Hunter 3D (HU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:11:02Z",
+    "updated": "2026-09-05T11:13:02Z",
     "rows": [
+     {
+      "rid": 307,
+      "name": "Andras Szollar",
+      "country": "HUN",
+      "sum": 769,
+      "targets": [
+       5,
+       8,
+       8,
+       8,
+       8,
+       8
+      ],
+      "finalPts": 45,
+      "total": 814,
+      "rank": 1
+     },
+     {
+      "rid": 314,
+      "name": "Racskó Gyula",
+      "country": "SVK",
+      "sum": 770,
+      "targets": [
+       8,
+       8,
+       8,
+       10,
+       8,
+       null
+      ],
+      "finalPts": 42,
+      "total": 812,
+      "rank": 2
+     },
      {
       "rid": 308,
       "name": "Zoltán Huszár",
@@ -34230,40 +34264,6 @@
       ],
       "finalPts": 52,
       "total": 811,
-      "rank": 1
-     },
-     {
-      "rid": 314,
-      "name": "Racskó Gyula",
-      "country": "SVK",
-      "sum": 770,
-      "targets": [
-       8,
-       8,
-       8,
-       10,
-       null,
-       null
-      ],
-      "finalPts": 34,
-      "total": 804,
-      "rank": 2
-     },
-     {
-      "rid": 307,
-      "name": "Andras Szollar",
-      "country": "HUN",
-      "sum": 769,
-      "targets": [
-       5,
-       8,
-       8,
-       8,
-       null,
-       null
-      ],
-      "finalPts": 29,
-      "total": 798,
       "rank": 3
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:11:02Z"
+  "updated": "2026-09-05T11:13:02Z"
  }
 }
