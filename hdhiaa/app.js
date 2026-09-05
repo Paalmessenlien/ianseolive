@@ -26,6 +26,7 @@ const state = {
   country: store.get('ianseolive-hdhiaa-country', null),
   day: store.get('ianseolive-hdhiaa-day', 'tot'),   // 'tot' | '1' | '2' | ...
   catView: null,   // tittel på åpen klasse-sheet
+  finalView: null, // id på åpen finale-sheet
   picker: false,
   search: '',
   refreshing: false,
@@ -100,25 +101,43 @@ function catRows(cat) {
   return allCountries() ? rows.filter((r) => r.view.scored) : rows;
 }
 
-// pallposisjoner (1–3 blant de som har score i aktiv visning) for valgt land
+// pallposisjoner (1–3 blant de som har score i aktiv visning) for valgt land.
+// Klasser med ferdigspilt finale teller med finale-resultatet i stedet.
 function podiumRows() {
+  const finKeys = completedFinalKeys();
   const out = [];
-  for (const c of DATA.categories || [])
+  for (const c of DATA.categories || []) {
+    if (finKeys.has(normCatKey(c.title))) continue;
     for (const r of rankedRows(c))
       if (r.view.scored && r.vpos >= 1 && r.vpos <= 3 && (allCountries() || r.country === state.country))
         out.push(Object.assign({ cat: c }, r));
+  }
+  for (const g of allFinalGroups())
+    if (g.complete)
+      for (const r of g.rows)
+        if (r.rank >= 1 && r.rank <= 3 && (allCountries() || r.country === state.country))
+          out.push({ cat: { title: finalCatTitle(g.title) }, name: r.name, country: r.country,
+            vpos: r.rank, view: { scored: true, pts: r.total } });
   return out.sort((a, b) => a.vpos - b.vpos || a.cat.title.localeCompare(b.cat.title));
 }
 
 function medalTable() {
+  const finKeys = completedFinalKeys();
   const t = {};
-  for (const c of DATA.categories || [])
+  const add = (code, name, pos) => {
+    const e = t[code] || (t[code] = { code, name, g: 0, s: 0, b: 0 });
+    if (pos === 1) e.g++; else if (pos === 2) e.s++; else e.b++;
+  };
+  for (const c of DATA.categories || []) {
+    if (finKeys.has(normCatKey(c.title))) continue;
     for (const r of rankedRows(c))
-      if (r.view.scored && r.vpos >= 1 && r.vpos <= 3) {
-        const e = t[r.country] || (t[r.country] = { code: r.country, name: r.countryName, g: 0, s: 0, b: 0 });
-        if (r.vpos === 1) e.g++; else if (r.vpos === 2) e.s++; else e.b++;
-      }
-  return Object.values(t).sort((a, b) => b.g - a.g || b.s - a.s || b.b - a.b || a.name.localeCompare(b.name));
+      if (r.view.scored && r.vpos >= 1 && r.vpos <= 3) add(r.country, r.countryName, r.vpos);
+  }
+  for (const g of allFinalGroups())
+    if (g.complete)
+      for (const r of g.rows)
+        if (r.rank >= 1 && r.rank <= 3) add(r.country, r.country, r.rank);
+  return Object.values(t).sort((a, b) => b.g - a.g || b.s - a.s || b.b - a.b || String(a.name).localeCompare(String(b.name)));
 }
 
 function eventOver() {
@@ -161,6 +180,29 @@ function dayTabs() {
 
 function viewLabel() {
   return state.day === 'tot' ? 'Sammenlagt' : `Dag ${state.day}`;
+}
+
+/* ---------- finaler ---------- */
+
+// Gruppe-titler fra finale-feeden: «Barebow (BB) Adults (21-54 years) · Female»
+// -> samme form som kategori-titlene våre
+const finalCatTitle = (t) => String(t || '').replace(/^(\S.*?\))\s+/, '$1 — ').replace(/\s+·\s+/, ' — ');
+const normCatKey = (t) => String(t || '').toLowerCase().replace(/[—·]/g, ' ').replace(/\s+/g, ' ').trim();
+
+function allFinalGroups() {
+  return (DATA.finals && DATA.finals.groups) || [];
+}
+
+// aktive (i gang, ikke ferdige) først, så kommende, ferdige sist — nyest aktivitet øverst
+function finalGroups() {
+  const st = (g) => g.complete ? 2 : (g.rows.some((r) => r.finalPts != null) ? 0 : 1);
+  return allFinalGroups()
+    .filter((g) => allCountries() || g.rows.some((r) => r.country === state.country))
+    .sort((a, b) => st(a) - st(b) || String(b.updated).localeCompare(String(a.updated)) || a.title.localeCompare(b.title));
+}
+
+function completedFinalKeys() {
+  return new Set(allFinalGroups().filter((g) => g.complete).map((g) => normCatKey(g.title)));
 }
 
 /* ---------- stil-hjelpere (samme idiom som hovedappen) ---------- */
@@ -378,6 +420,7 @@ function vMain() {
   return `<main style="${style({ flex: '1 1 auto', 'overflow-y': 'auto', padding: '14px 14px 20px',
       display: 'flex', 'flex-direction': 'column', gap: '12px' })}">
     ${vSummary()}
+    ${vFinals()}
     ${allCountries() ? vMedalTable() : ''}
     ${cards || `<p style="${style({ color: CLR.muted, font: '400 13px "Inter",sans-serif', 'text-align': 'center', padding: '30px 10px' })}">Ingen resultater ennå for ${esc(countryMeta(state.country).name)}${state.day !== 'tot' ? ' dag ' + esc(state.day) : ''}.</p>`}
     <p style="${style({ margin: '4px 0 0', 'text-align': 'center', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">
@@ -386,7 +429,114 @@ function vMain() {
   </main>`;
 }
 
-/* ---------- sheets ---------- */
+/* ---------- finale-views ---------- */
+
+function vTargets(targets) {
+  const n = (DATA.finals && DATA.finals.targetCount) || 6;
+  const col = (s) => s === '11' ? CLR.signal : s === '10' ? CLR.fg : s === '0' ? '#B23A2E' : CLR.muted;
+  const cells = [];
+  for (let i = 0; i < n; i++) {
+    const v = (targets || [])[i];
+    cells.push(`<span style="${style({ 'min-width': '18px', 'text-align': 'center', padding: '1px 3px',
+      'border-radius': '5px', border: '1px solid ' + CLR.border,
+      background: v == null ? CLR.surface : CLR.paper,
+      font: '600 10.5px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums',
+      color: v == null ? CLR.border : col(String(v)) })}">${v == null ? '·' : esc(v)}</span>`);
+  }
+  return `<span style="${style({ display: 'inline-flex', 'flex-wrap': 'wrap', gap: '3px', 'margin-top': '4px' })}">${cells.join('')}</span>`;
+}
+
+function finalStatus(g) {
+  const started = g.rows.some((r) => r.finalPts != null || (r.targets || []).some((t) => t != null));
+  const updMs = Date.parse(g.updated || '');
+  const fresh = !isNaN(updMs) && (Date.now() - updMs) < 20 * 60000;
+  if (g.complete) return { label: 'Ferdig', live: false };
+  if (started && fresh) return { label: 'LIVE', live: true };
+  if (started) return { label: 'I gang', live: false };
+  return { label: 'Ikke startet', live: false };
+}
+
+function vFinalRow(r, g, mine, detail) {
+  const started = r.finalPts != null || (r.targets || []).some((t) => t != null);
+  const sub = started
+    ? `kval ${r.sum} + finale ${r.finalPts ?? 0}`
+    : `kval ${r.sum}${r.country && (detail || allCountries()) ? '' : ''}`;
+  return `<div style="${style({ display: 'flex', 'align-items': 'center', gap: '10px', padding: '9px 0',
+      'border-top': '1px solid ' + CLR.border, background: mine ? CLR.paper : 'transparent',
+      margin: mine ? '0 -6px' : '0', 'padding-left': mine ? '6px' : '0', 'padding-right': mine ? '6px' : '0',
+      'border-radius': mine ? '10px' : '0' })}">
+    <span style="${rankStyle(r.rank || 0, mine)}">${r.rank || '–'}</span>
+    <span style="${style({ flex: '1 1 auto', 'min-width': '0' })}">
+      <span style="${style({ display: 'block', font: '600 13.5px "Inter",sans-serif', 'white-space': 'nowrap',
+        overflow: 'hidden', 'text-overflow': 'ellipsis' })}">${esc(r.name)}<span style="${style({ font: '600 11px "Inter",sans-serif',
+        color: CLR.muted })}">&nbsp;${esc(r.country)}</span></span>
+      <span style="${style({ display: 'block', font: '400 11.5px "Inter",sans-serif', color: CLR.muted })}">${esc(sub)}</span>
+      ${vTargets(r.targets)}
+    </span>
+    <span style="${style({ 'text-align': 'right', flex: 'none' })}">
+      <span style="${style({ display: 'block', font: '700 16px "Inter",sans-serif', 'font-variant-numeric': 'tabular-nums' })}">${started ? r.total : r.sum}</span>
+      <span style="${style({ display: 'block', font: '400 10.5px "Inter",sans-serif', color: CLR.muted,
+        'text-transform': 'uppercase', 'letter-spacing': '0.08em' })}">${started ? 'totalt' : 'kval'}</span>
+    </span>
+  </div>`;
+}
+
+function vFinalCard(g) {
+  const st = finalStatus(g);
+  const mine = (r) => !allCountries() && r.country === state.country;
+  const rows = [...g.rows].sort((a, b) => a.rank - b.rank);
+  const shown = allCountries() ? rows.slice(0, 3) : rows;
+  const more = allCountries() && rows.length > 3;
+  const badge = st.live
+    ? `<span style="${style({ display: 'inline-flex', 'align-items': 'center', gap: '6px',
+        font: '400 11px "Inter",sans-serif', color: CLR.muted })}"><span style="${style({ width: '8px', height: '8px',
+        'border-radius': '9999px', background: CLR.signal, display: 'inline-block',
+        animation: 'amber-pulse 1.6s infinite' })}"></span><strong style="color:${CLR.signal}">LIVE</strong></span>`
+    : `<span style="${style({ display: 'inline-block', 'margin-top': '3px', padding: '2px 8px',
+        'border-radius': '9999px', border: '1.5px solid ' + (g.complete ? CLR.muted : CLR.border),
+        color: g.complete ? CLR.muted : CLR.muted,
+        font: '600 10px "Inter",sans-serif', 'letter-spacing': '0.1em', 'text-transform': 'uppercase' })}">${st.label}</span>`;
+  return `<section data-action="final" data-gid="${g.id}" style="${style({ background: CLR.surface,
+      border: '2px solid ' + CLR.fg, 'border-radius': '18px', padding: '12px 14px 8px', cursor: 'pointer',
+      'box-shadow': '4px 4px 0 0 ' + CLR.border })}">
+    <div style="${style({ display: 'flex', 'align-items': 'center', gap: '8px' })}">
+      <div style="${style({ flex: '1 1 auto', 'min-width': '0' })}">
+        <h3 style="${style({ margin: 0, font: '700 14px "Spectral",serif' })}">${esc(shortCat(finalCatTitle(g.title)))}</h3>
+        ${badge}
+      </div>
+      ${SVG.chevronRight}
+    </div>
+    ${shown.map((r) => vFinalRow(r, g, mine(r))).join('')}
+    ${more ? `<p style="${style({ margin: '6px 0 8px', font: '600 11.5px "Inter",sans-serif', color: CLR.action })}">Vis finale →</p>` : '<div style="height:4px"></div>'}
+  </section>`;
+}
+
+function vFinals() {
+  const gs = finalGroups();
+  if (!gs.length) return '';
+  const nLive = gs.filter((g) => finalStatus(g).live).length;
+  return `<section style="${style({ padding: '4px 4px 0' })}">
+      <div style="${style({ display: 'flex', 'justify-content': 'space-between', 'align-items': 'baseline' })}">
+        <h2 style="${style({ margin: 0, font: '700 15px "Spectral",serif' })}">${SVG.trophy} Finaler</h2>
+        <span style="${style({ font: '400 12px "Inter",sans-serif', color: CLR.muted })}">${nLive ? nLive + ' live · ' : ''}${gs.length} klasser</span>
+      </div>
+    </section>`
+    + gs.map(vFinalCard).join('');
+}
+
+function vFinalSheet() {
+  const g = allFinalGroups().find((x) => x.id === state.finalView);
+  if (!g) return '';
+  const st = finalStatus(g);
+  const rows = [...g.rows].sort((a, b) => a.rank - b.rank);
+  return sheet(esc(shortCat(finalCatTitle(g.title))), `
+    <p style="${style({ margin: '0 0 8px', font: '400 12px "Inter",sans-serif', color: CLR.muted })}">
+      Finale · ${(DATA.finals && DATA.finals.targetCount) || 6} blinker · ${st.label.toLowerCase()}${g.updated
+        ? ' · siste score ' + esc(g.updated.slice(11, 16)) : ''}</p>
+    ${rows.map((r) => vFinalRow(r, g, !allCountries() && r.country === state.country, true)).join('')}`);
+}
+
+
 
 function vPicker() {
   const q = state.search.trim().toLowerCase();
@@ -446,7 +596,8 @@ function sheet(title, body) {
 function render() {
   const frame = document.getElementById('frame');
   frame.innerHTML = vHeader() + vDayBar() + vMain()
-    + (state.catView ? vCatSheet() : state.picker || !state.country ? vPicker() : '');
+    + (state.catView ? vCatSheet() : state.finalView ? vFinalSheet()
+    : state.picker || !state.country ? vPicker() : '');
 }
 
 document.getElementById('frame').addEventListener('click', (e) => {
@@ -463,9 +614,10 @@ document.getElementById('frame').addEventListener('click', (e) => {
     state.day = el.dataset.day;
     store.set('ianseolive-hdhiaa-day', state.day);
   }
-  else if (a === 'cat') { state.catView = el.dataset.cat; }
+  else if (a === 'cat') { state.catView = el.dataset.cat; state.finalView = null; }
+  else if (a === 'final') { state.finalView = Number(el.dataset.gid); state.catView = null; }
   else if (a === 'close-sheet' && !e.target.closest('[data-sheet]') || a === 'close-sheet' && e.target.closest('button')) {
-    state.catView = null; state.picker = false;
+    state.catView = null; state.finalView = null; state.picker = false;
   }
   render();
 });

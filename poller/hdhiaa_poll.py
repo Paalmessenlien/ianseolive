@@ -51,6 +51,7 @@ STANDINGS_URL = f"{BASE}/api/races/{RACE_ID}/live-standings"
 GROUPS_URL = f"{BASE}/competition/{SLUG}/groups.json"
 INBOX_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/live-inbox.json"
 CSV_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}/results/export.csv"
+FINAL_URL = f"{BASE}/race/{RACE_ID}/{SLUG}/final-projector.json"
 PAGE_URL = f"{BASE}/competition/{RACE_ID}/{SLUG}"
 OUT_FILE = ROOT / "data" / "hdhiaa.json"
 DAYS_FILE = ROOT / "data" / "hdhiaa_days.json"        # per-dag resultatlager (i git)
@@ -95,28 +96,35 @@ def save_state(state: dict) -> None:
 
 
 def check_live() -> tuple:
-    """Er det kommet nye data siden sist? Returnerer (endret, standings|None).
+    """Er det kommet nye data siden sist?
+    Returnerer (endret, standings|None, standings_raw|None, final_raw|None).
 
     To signaler, billigste først:
     1. inbox-feeden (~7 KB): nye opplastings-id-er enn state.lastInboxId.
        (Kan være avslått/404 — da hoppes den over.)
-    2. Hvis inbox er tom/uendret: hent stillingene (~325 KB) og sammenlign
-       innholds-hash. De oppdateres også via andre kanaler enn inbox.
+    2. Hvis inbox er tom/uendret: hent stillingene + finale-prosjektoren og
+       sammenlign innholds-hash. De oppdateres også via andre kanaler enn
+       inbox — og finalene oppdateres KUN via projektoren.
     """
     state = load_state()
     if state.get("lastInboxId") is None and not state.get("lastStandingsHash"):
-        return True, None, None  # første kjøring: alltid full henting
+        return True, None, None, None  # første kjøring: alltid full henting
     try:
         inbox = fetch_json(INBOX_URL)
         ids = [i.get("id", 0) for i in inbox.get("items", [])]
         if ids and max(ids) > state.get("lastInboxId", 0):
-            return True, None, None
+            return True, None, None, None
     except Exception as exc:
         print(f"warn: inbox-sjekk: {exc}", file=sys.stderr)
     raw = fetch_text(STANDINGS_URL)
-    if hashlib.md5(raw.encode()).hexdigest() != state.get("lastStandingsHash"):
-        return True, json.loads(raw), raw
-    return False, None, None
+    try:
+        final_raw = fetch_text(FINAL_URL)
+    except Exception as exc:
+        print(f"warn: final-sjekk: {exc}", file=sys.stderr)
+        final_raw = ""
+    if hashlib.md5((raw + final_raw).encode()).hexdigest() != state.get("lastStandingsHash"):
+        return True, json.loads(raw), raw, final_raw
+    return False, None, None, None
 
 
 def load_groups(standings: dict) -> dict:
@@ -413,30 +421,86 @@ def merge_daily_csvs(store: dict, rounds: dict, current_day: int, live_active: b
     return updated
 
 
+def merge_finals(store: dict, final_data: dict) -> int:
+    """Flett finale-prosjektoren inn i lageret. Per gruppe (klasse i finalen):
+    topp 6 med kval-sum + per-blink-scorer i finalen etter hvert som de
+    skytes. Returnerer antall grupper."""
+    groups_in = final_data.get("groups") or []
+    if not groups_in:
+        return 0
+    prev = store.get("finals", {}).get("groups", {})
+    groups = {}
+    ts = now_iso()
+    n_changed = 0
+    for g in groups_in:
+        gid = str(g.get("id"))
+        rows = [{
+            "rid": r.get("applyId"),
+            "name": re.sub(r"\s+", " ", r.get("name") or "").strip(),
+            "country": r.get("countryCode") or "",
+            "sum": r.get("sum") or 0,
+            "targets": r.get("targetScores") or [],
+            "finalPts": r.get("finalPts"),
+            "total": r.get("total") or 0,
+            "rank": r.get("rank") or 0,
+        } for r in g.get("rows", [])]
+        old = prev.get(gid) or {}
+        if old.get("rows") == rows and old.get("complete") == bool(g.get("complete")):
+            updated = old.get("updated", ts)
+        else:
+            updated = ts
+            n_changed += 1
+        groups[gid] = {
+            "id": g.get("id"),
+            "title": g.get("sortKey") or g.get("groupTitle") or "",
+            "complete": bool(g.get("complete")),
+            "updated": updated,
+            "rows": rows,
+        }
+    store["finals"] = {
+        "targetCount": final_data.get("targetCount") or 0,
+        "groups": groups,
+        "updated": ts,
+    }
+    if n_changed:
+        print(f"finaler: {len(groups)} grupper, {n_changed} med nye scorer")
+    return len(groups)
+
+
 def main() -> int:
     if "--force" not in sys.argv and (until := paused()):
         print(f"paused until {until}")
         return 0
     live_mode = "--live" in sys.argv
-    standings = standings_raw = None
+    standings = standings_raw = final_raw = None
     if live_mode:
         try:
-            changed, standings, standings_raw = check_live()
+            changed, standings, standings_raw, final_raw = check_live()
             if not changed:
                 print("no new scores")
                 return 0
         except Exception as exc:  # ved sjekk-feil: gjør full henting likevel
             print(f"warn: live-check: {exc}", file=sys.stderr)
-            standings = standings_raw = None
+            standings = standings_raw = final_raw = None
     race = fetch_json(RACE_URL).get("data", {})
     if standings is None:
         standings_raw = fetch_text(STANDINGS_URL)
         standings = json.loads(standings_raw)
+    if final_raw is None:
+        try:
+            final_raw = fetch_text(FINAL_URL)
+        except Exception as exc:  # finalene er en bonus — ikke stopp pollen
+            print(f"warn: final: {exc}", file=sys.stderr)
+            final_raw = ""
 
     store = load_days()
     current_day, total_days, n_live = merge_live(store, standings)
     if not current_day:
         current_day = store.get("meta", {}).get("currentDay", 0)
+    try:
+        merge_finals(store, json.loads(final_raw) if final_raw else {})
+    except Exception as exc:
+        print(f"warn: final-parse: {exc}", file=sys.stderr)
 
     # Offisielle dagsresultater: per-dag CSV via runde-id-ene på stevnesiden
     # (fanger også score-korrigeringer). Fallback uten id-er: sammenlagt-CSV
@@ -536,6 +600,7 @@ def main() -> int:
             "country": country,
             "countryName": country_name,
             "group": group,
+            "rid": rid,
             "scored": bool(days) or bool(cum),
             "total": total,
             "arrows": sum(d.get("arrows", 0) for d in days.values()) or cum.get("through", 0) * ARROWS_PER_DAY,
@@ -623,6 +688,12 @@ def main() -> int:
         "defaultCountry": "NOR" if "NOR" in countries else (country_list[0]["code"] if country_list else ""),
         "countries": country_list,
         "categories": categories,
+        "finals": {
+            "targetCount": store.get("finals", {}).get("targetCount", 0),
+            "updated": store.get("finals", {}).get("updated", ""),
+            "groups": sorted(store.get("finals", {}).get("groups", {}).values(),
+                             key=lambda g: g["title"]),
+        },
     }
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -637,7 +708,7 @@ def main() -> int:
     save_state({
         # id-ene kan resettes av hdhiaa — behold alltid høyeste sette
         "lastInboxId": max([prev_state.get("lastInboxId", 0)] + inbox_ids),
-        "lastStandingsHash": hashlib.md5(standings_raw.encode()).hexdigest(),
+        "lastStandingsHash": hashlib.md5((standings_raw + final_raw).encode()).hexdigest(),
     })
     bust_asset_cache()
     return 0
