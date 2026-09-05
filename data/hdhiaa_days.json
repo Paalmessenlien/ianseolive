@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T12:01:14Z",
+ "updated": "2026-09-05T12:03:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33773,7 +33773,7 @@
     "id": 97584,
     "title": "Compound Unlimited (CU) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T12:01:02Z",
+    "updated": "2026-09-05T12:03:02Z",
     "rows": [
      {
       "rid": 476,
@@ -33801,12 +33801,12 @@
        10,
        10,
        10,
-       null,
+       10,
        null,
        null
       ],
-      "finalPts": 30,
-      "total": 826,
+      "finalPts": 40,
+      "total": 836,
       "rank": 2
      },
      {
@@ -33818,12 +33818,12 @@
        10,
        8,
        10,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 28,
-      "total": 815,
+      "finalPts": 36,
+      "total": 823,
       "rank": 3
      },
      {
@@ -33844,6 +33844,23 @@
       "rank": 4
      },
      {
+      "rid": 941,
+      "name": "Branko Starčević",
+      "country": "CRO",
+      "sum": 763,
+      "targets": [
+       10,
+       10,
+       10,
+       12,
+       null,
+       null
+      ],
+      "finalPts": 42,
+      "total": 805,
+      "rank": 5
+     },
+     {
       "rid": 520,
       "name": "Robert Brnad",
       "country": "CRO",
@@ -33858,23 +33875,6 @@
       ],
       "finalPts": 40,
       "total": 802,
-      "rank": 5
-     },
-     {
-      "rid": 941,
-      "name": "Branko Starčević",
-      "country": "CRO",
-      "sum": 763,
-      "targets": [
-       10,
-       10,
-       10,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 30,
-      "total": 793,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T12:01:02Z"
+  "updated": "2026-09-05T12:03:02Z"
  }
 }
