@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T09:43:14Z",
+ "generated": "2026-09-05T09:45:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T09:43:02Z",
+  "updated": "2026-09-05T09:45:01Z",
   "groups": [
    {
     "id": 97578,
@@ -50191,8 +50191,8 @@
    {
     "id": 97593,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Female",
-    "complete": false,
-    "updated": "2026-09-05T09:43:02Z",
+    "complete": true,
+    "updated": "2026-09-05T09:45:01Z",
     "rows": [
      {
       "rid": 721,
@@ -50205,7 +50205,7 @@
        0,
        5,
        0,
-       null
+       0
       ],
       "finalPts": 10,
       "total": 437,
@@ -50256,10 +50256,10 @@
        10,
        8,
        0,
-       null
+       10
       ],
-      "finalPts": 18,
-      "total": 404,
+      "finalPts": 28,
+      "total": 414,
       "rank": 4
      },
      {
@@ -50273,10 +50273,10 @@
        5,
        8,
        5,
-       null
+       5
       ],
-      "finalPts": 23,
-      "total": 378,
+      "finalPts": 28,
+      "total": 383,
       "rank": 5
      },
      {
@@ -50290,10 +50290,10 @@
        5,
        5,
        0,
-       null
+       5
       ],
-      "finalPts": 20,
-      "total": 366,
+      "finalPts": 25,
+      "total": 371,
       "rank": 6
      }
     ]
@@ -50521,8 +50521,8 @@
    {
     "id": 97596,
     "title": "Traditional Longbow (TR-LB) Adults (21-54 years) · Male",
-    "complete": false,
-    "updated": "2026-09-05T09:43:02Z",
+    "complete": true,
+    "updated": "2026-09-05T09:45:01Z",
     "rows": [
      {
       "rid": 457,
@@ -50542,6 +50542,23 @@
       "rank": 1
      },
      {
+      "rid": 708,
+      "name": "Martin Müller",
+      "country": "CZE",
+      "sum": 622,
+      "targets": [
+       8,
+       8,
+       8,
+       5,
+       8,
+       10
+      ],
+      "finalPts": 47,
+      "total": 669,
+      "rank": 2
+     },
+     {
       "rid": 544,
       "name": "Petr Šrámek",
       "country": "CZE",
@@ -50556,23 +50573,6 @@
       ],
       "finalPts": 50,
       "total": 664,
-      "rank": 2
-     },
-     {
-      "rid": 708,
-      "name": "Martin Müller",
-      "country": "CZE",
-      "sum": 622,
-      "targets": [
-       8,
-       8,
-       8,
-       5,
-       8,
-       null
-      ],
-      "finalPts": 37,
-      "total": 659,
       "rank": 3
      },
      {
@@ -50586,10 +50586,10 @@
        10,
        10,
        8,
-       null
+       8
       ],
-      "finalPts": 48,
-      "total": 646,
+      "finalPts": 56,
+      "total": 654,
       "rank": 4
      },
      {
@@ -50603,10 +50603,10 @@
        8,
        5,
        10,
-       null
+       12
       ],
-      "finalPts": 38,
-      "total": 637,
+      "finalPts": 50,
+      "total": 649,
       "rank": 5
      },
      {
@@ -50620,10 +50620,10 @@
        5,
        8,
        12,
-       null
+       8
       ],
-      "finalPts": 38,
-      "total": 629,
+      "finalPts": 46,
+      "total": 637,
       "rank": 6
      }
     ]
