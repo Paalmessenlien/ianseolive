@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788598502.4667845,
   "day3Csv": "2026-09-05 10:55:03"
  },
- "updated": "2026-09-05T09:09:14Z",
+ "updated": "2026-09-05T09:11:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33443,7 +33443,7 @@
     "id": 97581,
     "title": "Barebow (BB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T09:09:01Z",
+    "updated": "2026-09-05T09:11:01Z",
     "rows": [
      {
       "rid": 683,
@@ -33503,15 +33503,32 @@
       "sum": 700,
       "targets": [
        12,
-       null,
+       12,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 12,
-      "total": 712,
+      "finalPts": 24,
+      "total": 724,
       "rank": 4
+     },
+     {
+      "rid": 824,
+      "name": "Kurt Jelinek",
+      "country": "AUT",
+      "sum": 688,
+      "targets": [
+       10,
+       10,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 20,
+      "total": 708,
+      "rank": 5
      },
      {
       "rid": 617,
@@ -33528,23 +33545,6 @@
       ],
       "finalPts": 16,
       "total": 703,
-      "rank": 5
-     },
-     {
-      "rid": 824,
-      "name": "Kurt Jelinek",
-      "country": "AUT",
-      "sum": 688,
-      "targets": [
-       10,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 10,
-      "total": 698,
       "rank": 6
      }
     ]
@@ -34543,7 +34543,7 @@
     "id": 97591,
     "title": "Primitive Bow and Horsebow (PB-HB) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T09:09:01Z",
+    "updated": "2026-09-05T09:11:01Z",
     "rows": [
      {
       "rid": 997,
@@ -34637,14 +34637,14 @@
       "sum": 373,
       "targets": [
        0,
-       null,
+       5,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 0,
-      "total": 373,
+      "finalPts": 5,
+      "total": 378,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T09:09:01Z"
+  "updated": "2026-09-05T09:11:01Z"
  }
 }
