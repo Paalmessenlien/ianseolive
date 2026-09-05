@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:09:14Z",
+ "updated": "2026-09-05T11:11:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33883,7 +33883,7 @@
     "id": 97585,
     "title": "Crossbow (CRB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:09:02Z",
+    "updated": "2026-09-05T11:11:02Z",
     "rows": [
      {
       "rid": 533,
@@ -33895,11 +33895,11 @@
        12,
        10,
        12,
-       null,
+       10,
        null
       ],
-      "finalPts": 46,
-      "total": 892,
+      "finalPts": 56,
+      "total": 902,
       "rank": 1
      },
      {
@@ -33912,11 +33912,11 @@
        12,
        12,
        12,
-       null,
+       10,
        null
       ],
-      "finalPts": 48,
-      "total": 883,
+      "finalPts": 58,
+      "total": 893,
       "rank": 2
      },
      {
@@ -33929,11 +33929,11 @@
        8,
        10,
        12,
-       null,
+       12,
        null
       ],
-      "finalPts": 40,
-      "total": 871,
+      "finalPts": 52,
+      "total": 883,
       "rank": 3
      },
      {
@@ -33946,11 +33946,11 @@
        12,
        8,
        10,
-       null,
+       10,
        null
       ],
-      "finalPts": 40,
-      "total": 870,
+      "finalPts": 50,
+      "total": 880,
       "rank": 4
      },
      {
@@ -33963,11 +33963,11 @@
        10,
        10,
        10,
-       null,
+       10,
        null
       ],
-      "finalPts": 38,
-      "total": 859,
+      "finalPts": 48,
+      "total": 869,
       "rank": 5
      },
      {
@@ -33980,11 +33980,11 @@
        8,
        12,
        12,
-       null,
+       10,
        null
       ],
-      "finalPts": 40,
-      "total": 849,
+      "finalPts": 50,
+      "total": 859,
       "rank": 6
      }
     ]
@@ -34213,8 +34213,25 @@
     "id": 97588,
     "title": "Hunter 3D (HU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:09:02Z",
+    "updated": "2026-09-05T11:11:02Z",
     "rows": [
+     {
+      "rid": 308,
+      "name": "Zoltán Huszár",
+      "country": "HUN",
+      "sum": 759,
+      "targets": [
+       12,
+       12,
+       8,
+       12,
+       8,
+       null
+      ],
+      "finalPts": 52,
+      "total": 811,
+      "rank": 1
+     },
      {
       "rid": 314,
       "name": "Racskó Gyula",
@@ -34230,23 +34247,6 @@
       ],
       "finalPts": 34,
       "total": 804,
-      "rank": 1
-     },
-     {
-      "rid": 308,
-      "name": "Zoltán Huszár",
-      "country": "HUN",
-      "sum": 759,
-      "targets": [
-       12,
-       12,
-       8,
-       12,
-       null,
-       null
-      ],
-      "finalPts": 44,
-      "total": 803,
       "rank": 2
      },
      {
@@ -34276,11 +34276,11 @@
        8,
        8,
        8,
-       null,
+       10,
        null
       ],
-      "finalPts": 32,
-      "total": 788,
+      "finalPts": 42,
+      "total": 798,
       "rank": 4
      },
      {
@@ -34293,11 +34293,11 @@
        12,
        10,
        10,
-       null,
+       8,
        null
       ],
-      "finalPts": 40,
-      "total": 781,
+      "finalPts": 48,
+      "total": 789,
       "rank": 5
      },
      {
@@ -34310,11 +34310,11 @@
        12,
        8,
        8,
-       null,
+       8,
        null
       ],
-      "finalPts": 38,
-      "total": 772,
+      "finalPts": 46,
+      "total": 780,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:09:02Z"
+  "updated": "2026-09-05T11:11:02Z"
  }
 }
