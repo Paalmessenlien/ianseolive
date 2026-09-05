@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T12:29:15Z",
+ "generated": "2026-09-05T12:31:15Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T12:29:02Z",
+  "updated": "2026-09-05T12:31:02Z",
   "groups": [
    {
     "id": 97578,
@@ -48982,7 +48982,7 @@
     "id": 97582,
     "title": "Compound Unlimited (CU) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T12:29:02Z",
+    "updated": "2026-09-05T12:31:02Z",
     "rows": [
      {
       "rid": 327,
@@ -48993,12 +48993,12 @@
        10,
        10,
        8,
-       null,
+       12,
        null,
        null
       ],
-      "finalPts": 28,
-      "total": 801,
+      "finalPts": 40,
+      "total": 813,
       "rank": 1
      },
      {
@@ -49010,12 +49010,12 @@
        8,
        8,
        8,
-       null,
+       10,
        null,
        null
       ],
-      "finalPts": 24,
-      "total": 785,
+      "finalPts": 34,
+      "total": 795,
       "rank": 2
      },
      {
@@ -49027,12 +49027,12 @@
        0,
        8,
        8,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 683,
+      "finalPts": 24,
+      "total": 691,
       "rank": 3
      },
      {
@@ -49044,12 +49044,12 @@
        10,
        12,
        0,
-       null,
+       12,
        null,
        null
       ],
-      "finalPts": 22,
-      "total": 677,
+      "finalPts": 34,
+      "total": 689,
       "rank": 4
      },
      {
@@ -49061,12 +49061,12 @@
        10,
        5,
        0,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 15,
-      "total": 630,
+      "finalPts": 23,
+      "total": 638,
       "rank": 5
      },
      {
@@ -49077,13 +49077,13 @@
       "targets": [
        8,
        10,
-       null,
-       null,
+       5,
+       8,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 592,
+      "finalPts": 31,
+      "total": 605,
       "rank": 6
      }
     ]
@@ -49092,7 +49092,7 @@
     "id": 97583,
     "title": "Compound Unlimited (CU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T12:29:02Z",
+    "updated": "2026-09-05T12:31:02Z",
     "rows": [
      {
       "rid": 738,
@@ -49103,12 +49103,12 @@
        10,
        8,
        10,
-       null,
+       10,
        null,
        null
       ],
-      "finalPts": 28,
-      "total": 865,
+      "finalPts": 38,
+      "total": 875,
       "rank": 1
      },
      {
@@ -49120,13 +49120,47 @@
        10,
        10,
        8,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 28,
-      "total": 857,
+      "finalPts": 33,
+      "total": 862,
       "rank": 2
+     },
+     {
+      "rid": 832,
+      "name": "Jon Rebernik",
+      "country": "SLO",
+      "sum": 812,
+      "targets": [
+       12,
+       12,
+       10,
+       8,
+       null,
+       null
+      ],
+      "finalPts": 42,
+      "total": 854,
+      "rank": 3
+     },
+     {
+      "rid": 409,
+      "name": "Harald Ruhmer",
+      "country": "AUT",
+      "sum": 815,
+      "targets": [
+       12,
+       8,
+       10,
+       8,
+       null,
+       null
+      ],
+      "finalPts": 38,
+      "total": 853,
+      "rank": 4
      },
      {
       "rid": 575,
@@ -49143,40 +49177,6 @@
       ],
       "finalPts": 32,
       "total": 849,
-      "rank": 3
-     },
-     {
-      "rid": 832,
-      "name": "Jon Rebernik",
-      "country": "SLO",
-      "sum": 812,
-      "targets": [
-       12,
-       12,
-       10,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 34,
-      "total": 846,
-      "rank": 4
-     },
-     {
-      "rid": 409,
-      "name": "Harald Ruhmer",
-      "country": "AUT",
-      "sum": 815,
-      "targets": [
-       12,
-       8,
-       10,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 30,
-      "total": 845,
       "rank": 5
      },
      {
@@ -49188,12 +49188,12 @@
        8,
        10,
        12,
-       null,
+       12,
        null,
        null
       ],
-      "finalPts": 30,
-      "total": 830,
+      "finalPts": 42,
+      "total": 842,
       "rank": 6
      }
     ]
