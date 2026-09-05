@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T09:39:15Z",
+ "generated": "2026-09-05T09:41:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T09:39:02Z",
+  "updated": "2026-09-05T09:41:02Z",
   "groups": [
    {
     "id": 97578,
@@ -50192,7 +50192,7 @@
     "id": 97593,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T09:39:02Z",
+    "updated": "2026-09-05T09:41:02Z",
     "rows": [
      {
       "rid": 721,
@@ -50221,11 +50221,11 @@
        5,
        8,
        5,
-       null,
+       8,
        null
       ],
-      "finalPts": 23,
-      "total": 417,
+      "finalPts": 31,
+      "total": 425,
       "rank": 2
      },
      {
@@ -50255,7 +50255,7 @@
        0,
        10,
        8,
-       null,
+       0,
        null
       ],
       "finalPts": 18,
@@ -50289,7 +50289,7 @@
        5,
        5,
        5,
-       null,
+       0,
        null
       ],
       "finalPts": 20,
@@ -50522,8 +50522,25 @@
     "id": 97596,
     "title": "Traditional Longbow (TR-LB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T09:39:02Z",
+    "updated": "2026-09-05T09:41:02Z",
     "rows": [
+     {
+      "rid": 544,
+      "name": "Petr Šrámek",
+      "country": "CZE",
+      "sum": 614,
+      "targets": [
+       5,
+       10,
+       10,
+       10,
+       10,
+       null
+      ],
+      "finalPts": 45,
+      "total": 659,
+      "rank": 1
+     },
      {
       "rid": 457,
       "name": "Ivan Racek",
@@ -50539,7 +50556,7 @@
       ],
       "finalPts": 33,
       "total": 653,
-      "rank": 1
+      "rank": 2
      },
      {
       "rid": 708,
@@ -50556,23 +50573,6 @@
       ],
       "finalPts": 29,
       "total": 651,
-      "rank": 2
-     },
-     {
-      "rid": 544,
-      "name": "Petr Šrámek",
-      "country": "CZE",
-      "sum": 614,
-      "targets": [
-       5,
-       10,
-       10,
-       10,
-       null,
-       null
-      ],
-      "finalPts": 35,
-      "total": 649,
       "rank": 3
      },
      {
@@ -50584,12 +50584,12 @@
        12,
        8,
        10,
-       null,
-       null,
+       10,
+       8,
        null
       ],
-      "finalPts": 30,
-      "total": 628,
+      "finalPts": 48,
+      "total": 646,
       "rank": 4
      },
      {
@@ -50602,11 +50602,11 @@
        10,
        8,
        5,
-       null,
+       10,
        null
       ],
-      "finalPts": 28,
-      "total": 627,
+      "finalPts": 38,
+      "total": 637,
       "rank": 5
      },
      {
@@ -50619,11 +50619,11 @@
        5,
        5,
        8,
-       null,
+       12,
        null
       ],
-      "finalPts": 26,
-      "total": 617,
+      "finalPts": 38,
+      "total": 629,
       "rank": 6
      }
     ]
