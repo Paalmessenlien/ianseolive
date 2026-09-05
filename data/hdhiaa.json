@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T08:47:14Z",
+ "generated": "2026-09-05T08:49:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T08:47:02Z",
+  "updated": "2026-09-05T08:49:02Z",
   "groups": [
    {
     "id": 97578,
@@ -48652,7 +48652,7 @@
     "id": 97579,
     "title": "Barebow (BB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T08:47:02Z",
+    "updated": "2026-09-05T08:49:02Z",
     "rows": [
      {
       "rid": 910,
@@ -48664,11 +48664,11 @@
        8,
        10,
        8,
-       null,
+       12,
        null
       ],
-      "finalPts": 34,
-      "total": 819,
+      "finalPts": 46,
+      "total": 831,
       "rank": 1
      },
      {
@@ -48681,12 +48681,29 @@
        8,
        12,
        8,
-       null,
+       10,
        null
       ],
-      "finalPts": 33,
-      "total": 801,
+      "finalPts": 43,
+      "total": 811,
       "rank": 2
+     },
+     {
+      "rid": 553,
+      "name": "Djordje Rankovic",
+      "country": "SRB",
+      "sum": 755,
+      "targets": [
+       10,
+       12,
+       8,
+       8,
+       5,
+       null
+      ],
+      "finalPts": 43,
+      "total": 798,
+      "rank": 3
      },
      {
       "rid": 549,
@@ -48703,23 +48720,6 @@
       ],
       "finalPts": 36,
       "total": 794,
-      "rank": 3
-     },
-     {
-      "rid": 553,
-      "name": "Djordje Rankovic",
-      "country": "SRB",
-      "sum": 755,
-      "targets": [
-       10,
-       12,
-       8,
-       8,
-       null,
-       null
-      ],
-      "finalPts": 38,
-      "total": 793,
       "rank": 4
      },
      {
@@ -48732,11 +48732,11 @@
        8,
        8,
        8,
-       null,
+       8,
        null
       ],
-      "finalPts": 32,
-      "total": 783,
+      "finalPts": 40,
+      "total": 791,
       "rank": 5
      },
      {
@@ -48749,11 +48749,11 @@
        10,
        8,
        12,
-       null,
+       10,
        null
       ],
-      "finalPts": 38,
-      "total": 776,
+      "finalPts": 48,
+      "total": 786,
       "rank": 6
      }
     ]
