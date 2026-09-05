@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T11:03:14Z",
+ "generated": "2026-09-05T11:05:15Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T11:03:02Z",
+  "updated": "2026-09-05T11:05:02Z",
   "groups": [
    {
     "id": 97578,
@@ -49312,7 +49312,7 @@
     "id": 97585,
     "title": "Crossbow (CRB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:03:02Z",
+    "updated": "2026-09-05T11:05:02Z",
     "rows": [
      {
       "rid": 533,
@@ -49320,15 +49320,15 @@
       "country": "SVK",
       "sum": 846,
       "targets": [
-       0,
        12,
-       null,
+       12,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 12,
-      "total": 858,
+      "finalPts": 34,
+      "total": 880,
       "rank": 1
      },
      {
@@ -49337,15 +49337,15 @@
       "country": "HUN",
       "sum": 835,
       "targets": [
-       0,
        12,
-       null,
+       12,
+       12,
        null,
        null,
        null
       ],
-      "finalPts": 12,
-      "total": 847,
+      "finalPts": 36,
+      "total": 871,
       "rank": 2
      },
      {
@@ -49355,14 +49355,14 @@
       "sum": 831,
       "targets": [
        10,
-       null,
-       null,
+       8,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 841,
+      "finalPts": 28,
+      "total": 859,
       "rank": 3
      },
      {
@@ -49372,14 +49372,14 @@
       "sum": 830,
       "targets": [
        10,
-       null,
+       12,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 840,
+      "finalPts": 22,
+      "total": 852,
       "rank": 4
      },
      {
@@ -49388,15 +49388,15 @@
       "country": "CZE",
       "sum": 821,
       "targets": [
-       0,
-       null,
-       null,
+       8,
+       10,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 0,
-      "total": 821,
+      "finalPts": 28,
+      "total": 849,
       "rank": 5
      },
      {
@@ -49405,15 +49405,15 @@
       "country": "CZE",
       "sum": 809,
       "targets": [
-       0,
-       0,
-       null,
+       8,
+       8,
+       12,
        null,
        null,
        null
       ],
-      "finalPts": 0,
-      "total": 809,
+      "finalPts": 28,
+      "total": 837,
       "rank": 6
      }
     ]
@@ -49642,7 +49642,7 @@
     "id": 97588,
     "title": "Hunter 3D (HU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:03:02Z",
+    "updated": "2026-09-05T11:05:02Z",
     "rows": [
      {
       "rid": 314,
@@ -49652,14 +49652,31 @@
       "targets": [
        8,
        8,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 786,
+      "finalPts": 24,
+      "total": 794,
       "rank": 1
+     },
+     {
+      "rid": 307,
+      "name": "Andras Szollar",
+      "country": "HUN",
+      "sum": 769,
+      "targets": [
+       5,
+       8,
+       8,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 21,
+      "total": 790,
+      "rank": 2
      },
      {
       "rid": 308,
@@ -49676,23 +49693,6 @@
       ],
       "finalPts": 24,
       "total": 783,
-      "rank": 2
-     },
-     {
-      "rid": 307,
-      "name": "Andras Szollar",
-      "country": "HUN",
-      "sum": 769,
-      "targets": [
-       5,
-       8,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 13,
-      "total": 782,
       "rank": 3
      },
      {
@@ -49720,13 +49720,13 @@
       "targets": [
        8,
        12,
-       null,
+       10,
        null,
        null,
        null
       ],
-      "finalPts": 20,
-      "total": 761,
+      "finalPts": 30,
+      "total": 771,
       "rank": 5
      },
      {
@@ -49737,13 +49737,13 @@
       "targets": [
        10,
        12,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 22,
-      "total": 756,
+      "finalPts": 30,
+      "total": 764,
       "rank": 6
      }
     ]
