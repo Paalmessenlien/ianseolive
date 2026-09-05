@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788602582.6548536,
   "day3Csv": "2026-09-05 12:03:03"
  },
- "updated": "2026-09-05T10:21:15Z",
+ "updated": "2026-09-05T10:22:18Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -35202,9 +35202,26 @@
    "97597": {
     "id": 97597,
     "title": "Traditional Longbow (TR-LB) Veteran (55 years of age or older) · Male",
-    "complete": false,
-    "updated": "2026-09-05T10:21:02Z",
+    "complete": true,
+    "updated": "2026-09-05T10:22:05Z",
     "rows": [
+     {
+      "rid": 585,
+      "name": "Dušan Binder",
+      "country": "SVK",
+      "sum": 623,
+      "targets": [
+       5,
+       10,
+       5,
+       12,
+       5,
+       5
+      ],
+      "finalPts": 42,
+      "total": 665,
+      "rank": 1
+     },
      {
       "rid": 779,
       "name": "Dirk Oestreich",
@@ -35220,23 +35237,6 @@
       ],
       "finalPts": 55,
       "total": 661,
-      "rank": 1
-     },
-     {
-      "rid": 585,
-      "name": "Dušan Binder",
-      "country": "SVK",
-      "sum": 623,
-      "targets": [
-       5,
-       10,
-       5,
-       12,
-       5,
-       null
-      ],
-      "finalPts": 37,
-      "total": 660,
       "rank": 2
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T10:21:02Z"
+  "updated": "2026-09-05T10:22:05Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T10:21:15Z",
+ "generated": "2026-09-05T10:22:18Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T10:21:02Z",
+  "updated": "2026-09-05T10:22:05Z",
   "groups": [
    {
     "id": 97578,
@@ -50631,9 +50631,26 @@
    {
     "id": 97597,
     "title": "Traditional Longbow (TR-LB) Veteran (55 years of age or older) · Male",
-    "complete": false,
-    "updated": "2026-09-05T10:21:02Z",
+    "complete": true,
+    "updated": "2026-09-05T10:22:05Z",
     "rows": [
+     {
+      "rid": 585,
+      "name": "Dušan Binder",
+      "country": "SVK",
+      "sum": 623,
+      "targets": [
+       5,
+       10,
+       5,
+       12,
+       5,
+       5
+      ],
+      "finalPts": 42,
+      "total": 665,
+      "rank": 1
+     },
      {
       "rid": 779,
       "name": "Dirk Oestreich",
@@ -50649,23 +50666,6 @@
       ],
       "finalPts": 55,
       "total": 661,
-      "rank": 1
-     },
-     {
-      "rid": 585,
-      "name": "Dušan Binder",
-      "country": "SVK",
-      "sum": 623,
-      "targets": [
-       5,
-       10,
-       5,
-       12,
-       5,
-       null
-      ],
-      "finalPts": 37,
-      "total": 660,
       "rank": 2
      },
      {
