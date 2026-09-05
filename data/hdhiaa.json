@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T11:37:14Z",
+ "generated": "2026-09-05T11:39:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T11:37:02Z",
+  "updated": "2026-09-05T11:39:02Z",
   "groups": [
    {
     "id": 97578,
@@ -49422,7 +49422,7 @@
     "id": 97586,
     "title": "Crossbow (CRB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:37:02Z",
+    "updated": "2026-09-05T11:39:02Z",
     "rows": [
      {
       "rid": 646,
@@ -49442,6 +49442,23 @@
       "rank": 1
      },
      {
+      "rid": 917,
+      "name": "Jens Schiffer",
+      "country": "GER",
+      "sum": 772,
+      "targets": [
+       10,
+       10,
+       10,
+       10,
+       5,
+       10
+      ],
+      "finalPts": 55,
+      "total": 827,
+      "rank": 2
+     },
+     {
       "rid": 1060,
       "name": "Jiří Klabouch",
       "country": "CZE",
@@ -49456,23 +49473,6 @@
       ],
       "finalPts": 48,
       "total": 818,
-      "rank": 2
-     },
-     {
-      "rid": 917,
-      "name": "Jens Schiffer",
-      "country": "GER",
-      "sum": 772,
-      "targets": [
-       10,
-       10,
-       10,
-       10,
-       5,
-       null
-      ],
-      "finalPts": 45,
-      "total": 817,
       "rank": 3
      },
      {
@@ -49752,7 +49752,7 @@
     "id": 97589,
     "title": "Hunter 3D (HU) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:37:02Z",
+    "updated": "2026-09-05T11:39:02Z",
     "rows": [
      {
       "rid": 990,
@@ -49764,11 +49764,11 @@
        8,
        8,
        8,
-       null,
+       8,
        null
       ],
-      "finalPts": 36,
-      "total": 763,
+      "finalPts": 44,
+      "total": 771,
       "rank": 1
      },
      {
