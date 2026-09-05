@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788591125.8700697,
   "day3Csv": "2026-09-05 08:52:07"
  },
- "updated": "2026-09-05T07:23:14Z",
+ "updated": "2026-09-05T07:25:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -35423,7 +35423,7 @@
     "id": 97599,
     "title": "Traditional Recurve (TR-RB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T07:22:05Z",
+    "updated": "2026-09-05T07:25:02Z",
     "rows": [
      {
       "rid": 573,
@@ -35435,11 +35435,11 @@
        8,
        8,
        10,
-       null,
+       8,
        null
       ],
-      "finalPts": 34,
-      "total": 766,
+      "finalPts": 42,
+      "total": 774,
       "rank": 1
      },
      {
@@ -35453,10 +35453,10 @@
        12,
        10,
        12,
-       null
+       8
       ],
-      "finalPts": 42,
-      "total": 761,
+      "finalPts": 50,
+      "total": 769,
       "rank": 2
      },
      {
@@ -35465,33 +35465,16 @@
       "country": "DEN",
       "sum": 715,
       "targets": [
-       null,
+       10,
        null,
        10,
        10,
        10,
        10
       ],
-      "finalPts": 40,
-      "total": 755,
+      "finalPts": 50,
+      "total": 765,
       "rank": 3
-     },
-     {
-      "rid": 239,
-      "name": "Balázs Tomsics",
-      "country": "HUN",
-      "sum": 711,
-      "targets": [
-       null,
-       null,
-       null,
-       8,
-       10,
-       12
-      ],
-      "finalPts": 30,
-      "total": 741,
-      "rank": 4
      },
      {
       "rid": 835,
@@ -35500,14 +35483,31 @@
       "sum": 707,
       "targets": [
        8,
-       null,
-       null,
+       8,
+       10,
        null,
        10,
        12
       ],
-      "finalPts": 30,
-      "total": 737,
+      "finalPts": 48,
+      "total": 755,
+      "rank": 4
+     },
+     {
+      "rid": 239,
+      "name": "Balázs Tomsics",
+      "country": "HUN",
+      "sum": 711,
+      "targets": [
+       5,
+       8,
+       null,
+       8,
+       10,
+       12
+      ],
+      "finalPts": 43,
+      "total": 754,
       "rank": 5
      },
      {
@@ -35516,15 +35516,15 @@
       "country": "AUT",
       "sum": 704,
       "targets": [
-       null,
        5,
        8,
-       null,
+       8,
+       8,
        null,
        8
       ],
-      "finalPts": 21,
-      "total": 725,
+      "finalPts": 37,
+      "total": 741,
       "rank": 6
      }
     ]
@@ -35533,7 +35533,7 @@
     "id": 97600,
     "title": "Traditional Recurve (TR-RB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T07:23:01Z",
+    "updated": "2026-09-05T07:25:02Z",
     "rows": [
      {
       "rid": 508,
@@ -35563,10 +35563,10 @@
        12,
        5,
        8,
-       null
+       8
       ],
-      "finalPts": 35,
-      "total": 581,
+      "finalPts": 43,
+      "total": 589,
       "rank": 2
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T07:23:01Z"
+  "updated": "2026-09-05T07:25:02Z"
  }
 }
