@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T07:11:14Z",
+ "generated": "2026-09-05T07:13:15Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T07:11:01Z",
+  "updated": "2026-09-05T07:13:02Z",
   "groups": [
    {
     "id": 97578,
@@ -50962,7 +50962,7 @@
     "id": 97600,
     "title": "Traditional Recurve (TR-RB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T07:11:01Z",
+    "updated": "2026-09-05T07:13:02Z",
     "rows": [
      {
       "rid": 508,
@@ -51033,37 +51033,37 @@
       "rank": 4
      },
      {
-      "rid": 248,
-      "name": "Samaela Bilić-Erić",
-      "country": "GRE",
-      "sum": 510,
-      "targets": [
-       null,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": null,
-      "total": 510,
-      "rank": 5
-     },
-     {
       "rid": 1328,
       "name": "Regina Wieberger",
       "country": "AUT",
       "sum": 506,
       "targets": [
-       null,
+       10,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 506,
+      "finalPts": 10,
+      "total": 516,
+      "rank": 5
+     },
+     {
+      "rid": 248,
+      "name": "Samaela Bilić-Erić",
+      "country": "GRE",
+      "sum": 510,
+      "targets": [
+       5,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 5,
+      "total": 515,
       "rank": 6
      }
     ]
