@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:25:14Z",
+ "updated": "2026-09-05T11:27:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34323,7 +34323,7 @@
     "id": 97589,
     "title": "Hunter 3D (HU) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:25:02Z",
+    "updated": "2026-09-05T11:27:02Z",
     "rows": [
      {
       "rid": 990,
@@ -34377,6 +34377,23 @@
       "rank": 3
      },
      {
+      "rid": 697,
+      "name": "Edvin Ambrož",
+      "country": "SLO",
+      "sum": 675,
+      "targets": [
+       10,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 10,
+      "total": 685,
+      "rank": 4
+     },
+     {
       "rid": 524,
       "name": "Barna Nagy",
       "country": "HUN",
@@ -34391,23 +34408,6 @@
       ],
       "finalPts": 5,
       "total": 684,
-      "rank": 4
-     },
-     {
-      "rid": 697,
-      "name": "Edvin Ambrož",
-      "country": "SLO",
-      "sum": 675,
-      "targets": [
-       null,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": null,
-      "total": 675,
       "rank": 5
      },
      {
@@ -34416,15 +34416,15 @@
       "country": "HUN",
       "sum": 669,
       "targets": [
-       null,
+       8,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 669,
+      "finalPts": 8,
+      "total": 677,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:25:02Z"
+  "updated": "2026-09-05T11:27:02Z"
  }
 }
