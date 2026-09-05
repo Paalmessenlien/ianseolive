@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788598502.4667845,
   "day3Csv": "2026-09-05 10:55:03"
  },
- "updated": "2026-09-05T08:55:16Z",
+ "updated": "2026-09-05T08:57:15Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34982,8 +34982,8 @@
    "97595": {
     "id": 97595,
     "title": "Traditional Longbow (TR-LB) Adults (21-54 years) · Female",
-    "complete": true,
-    "updated": "2026-09-05T08:55:02Z",
+    "complete": false,
+    "updated": "2026-09-05T08:57:02Z",
     "rows": [
      {
       "rid": 864,
@@ -35061,13 +35061,13 @@
       "targets": [
        0,
        8,
-       8,
+       null,
        8,
        8,
        0
       ],
-      "finalPts": 32,
-      "total": 504,
+      "finalPts": 24,
+      "total": 496,
       "rank": 5
      },
      {
@@ -35077,14 +35077,14 @@
       "sum": 456,
       "targets": [
        8,
-       8,
+       null,
        5,
        5,
        8,
        5
       ],
-      "finalPts": 39,
-      "total": 495,
+      "finalPts": 31,
+      "total": 487,
       "rank": 6
      }
     ]
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T08:55:02Z"
+  "updated": "2026-09-05T08:57:02Z"
  }
 }
