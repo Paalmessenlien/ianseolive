@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T07:25:14Z",
+ "generated": "2026-09-05T07:27:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T07:25:02Z",
+  "updated": "2026-09-05T07:27:01Z",
   "groups": [
    {
     "id": 97578,
@@ -50852,8 +50852,42 @@
     "id": 97599,
     "title": "Traditional Recurve (TR-RB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T07:25:02Z",
+    "updated": "2026-09-05T07:27:01Z",
     "rows": [
+     {
+      "rid": 183,
+      "name": "Stanislav Vejčík",
+      "country": "SVK",
+      "sum": 719,
+      "targets": [
+       8,
+       8,
+       12,
+       10,
+       12,
+       8
+      ],
+      "finalPts": 58,
+      "total": 777,
+      "rank": 1
+     },
+     {
+      "rid": 965,
+      "name": "Zibrandt Christensen",
+      "country": "DEN",
+      "sum": 715,
+      "targets": [
+       10,
+       12,
+       10,
+       10,
+       10,
+       10
+      ],
+      "finalPts": 62,
+      "total": 777,
+      "rank": 2
+     },
      {
       "rid": 573,
       "name": "Károly Hegedűs",
@@ -50869,40 +50903,6 @@
       ],
       "finalPts": 42,
       "total": 774,
-      "rank": 1
-     },
-     {
-      "rid": 183,
-      "name": "Stanislav Vejčík",
-      "country": "SVK",
-      "sum": 719,
-      "targets": [
-       null,
-       8,
-       12,
-       10,
-       12,
-       8
-      ],
-      "finalPts": 50,
-      "total": 769,
-      "rank": 2
-     },
-     {
-      "rid": 965,
-      "name": "Zibrandt Christensen",
-      "country": "DEN",
-      "sum": 715,
-      "targets": [
-       10,
-       null,
-       10,
-       10,
-       10,
-       10
-      ],
-      "finalPts": 50,
-      "total": 765,
       "rank": 3
      },
      {
@@ -50914,12 +50914,12 @@
        8,
        8,
        10,
-       null,
+       10,
        10,
        12
       ],
-      "finalPts": 48,
-      "total": 755,
+      "finalPts": 58,
+      "total": 765,
       "rank": 4
      },
      {
@@ -50930,13 +50930,13 @@
       "targets": [
        5,
        8,
-       null,
+       8,
        8,
        10,
        12
       ],
-      "finalPts": 43,
-      "total": 754,
+      "finalPts": 51,
+      "total": 762,
       "rank": 5
      },
      {
@@ -50961,8 +50961,8 @@
    {
     "id": 97600,
     "title": "Traditional Recurve (TR-RB) Veteran (55 years of age or older) · Female",
-    "complete": false,
-    "updated": "2026-09-05T07:25:02Z",
+    "complete": true,
+    "updated": "2026-09-05T07:27:01Z",
     "rows": [
      {
       "rid": 508,
@@ -50975,10 +50975,10 @@
        5,
        8,
        5,
-       null
+       12
       ],
-      "finalPts": 34,
-      "total": 617,
+      "finalPts": 46,
+      "total": 629,
       "rank": 1
      },
      {
@@ -51009,10 +51009,10 @@
        5,
        5,
        5,
-       null
+       5
       ],
-      "finalPts": 25,
-      "total": 558,
+      "finalPts": 30,
+      "total": 563,
       "rank": 3
      },
      {
@@ -51026,10 +51026,10 @@
        8,
        8,
        5,
-       null
+       8
       ],
-      "finalPts": 34,
-      "total": 545,
+      "finalPts": 42,
+      "total": 553,
       "rank": 4
      },
      {
@@ -51043,10 +51043,10 @@
        5,
        5,
        8,
-       null
+       8
       ],
-      "finalPts": 36,
-      "total": 542,
+      "finalPts": 44,
+      "total": 550,
       "rank": 5
      },
      {
@@ -51060,10 +51060,10 @@
        8,
        8,
        5,
-       null
+       8
       ],
-      "finalPts": 31,
-      "total": 541,
+      "finalPts": 39,
+      "total": 549,
       "rank": 6
      }
     ]
