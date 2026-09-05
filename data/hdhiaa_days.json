@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788594782.2861798,
   "day3Csv": "2026-09-05 09:53:03"
  },
- "updated": "2026-09-05T08:39:15Z",
+ "updated": "2026-09-05T08:41:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33223,7 +33223,7 @@
     "id": 97579,
     "title": "Barebow (BB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T08:39:02Z",
+    "updated": "2026-09-05T08:41:02Z",
     "rows": [
      {
       "rid": 910,
@@ -33249,32 +33249,15 @@
       "sum": 768,
       "targets": [
        5,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 5,
-      "total": 773,
-      "rank": 2
-     },
-     {
-      "rid": 549,
-      "name": "Primož Duša",
-      "country": "SLO",
-      "sum": 758,
-      "targets": [
        8,
        null,
        null,
        null,
-       null,
        null
       ],
-      "finalPts": 8,
-      "total": 766,
-      "rank": 3
+      "finalPts": 13,
+      "total": 781,
+      "rank": 2
      },
      {
       "rid": 553,
@@ -33283,14 +33266,31 @@
       "sum": 755,
       "targets": [
        10,
-       null,
+       12,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 765,
+      "finalPts": 22,
+      "total": 777,
+      "rank": 3
+     },
+     {
+      "rid": 549,
+      "name": "Primož Duša",
+      "country": "SLO",
+      "sum": 758,
+      "targets": [
+       8,
+       8,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 16,
+      "total": 774,
       "rank": 4
      },
      {
@@ -33300,14 +33300,14 @@
       "sum": 751,
       "targets": [
        8,
-       null,
+       8,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 759,
+      "finalPts": 16,
+      "total": 767,
       "rank": 5
      },
      {
@@ -34983,7 +34983,7 @@
     "id": 97595,
     "title": "Traditional Longbow (TR-LB) Adults (21-54 years) · Female",
     "complete": false,
-    "updated": "2026-09-05T08:39:02Z",
+    "updated": "2026-09-05T08:41:02Z",
     "rows": [
      {
       "rid": 864,
@@ -34991,15 +34991,15 @@
       "country": "AUT",
       "sum": 525,
       "targets": [
-       22,
+       12,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 22,
-      "total": 547,
+      "finalPts": 12,
+      "total": 537,
       "rank": 1
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T08:39:02Z"
+  "updated": "2026-09-05T08:41:02Z"
  }
 }
