@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788602582.6548536,
   "day3Csv": "2026-09-05 12:03:03"
  },
- "updated": "2026-09-05T10:03:16Z",
+ "updated": "2026-09-05T10:07:18Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -34873,7 +34873,7 @@
     "id": 97594,
     "title": "Primitive Bow and Horsebow (PB-HB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T07:07:23Z",
+    "updated": "2026-09-05T10:07:05Z",
     "rows": [
      {
       "rid": 724,
@@ -34881,14 +34881,14 @@
       "country": "ROU",
       "sum": 549,
       "targets": [
-       null,
+       0,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
+      "finalPts": 0,
       "total": 549,
       "rank": 1
      },
@@ -34898,15 +34898,15 @@
       "country": "HUN",
       "sum": 529,
       "targets": [
-       null,
+       8,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 529,
+      "finalPts": 8,
+      "total": 537,
       "rank": 2
      },
      {
@@ -34915,15 +34915,15 @@
       "country": "HUN",
       "sum": 529,
       "targets": [
-       null,
+       8,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 529,
+      "finalPts": 8,
+      "total": 537,
       "rank": 3
      },
      {
@@ -34932,15 +34932,15 @@
       "country": "SRB",
       "sum": 528,
       "targets": [
-       null,
+       5,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 528,
+      "finalPts": 5,
+      "total": 533,
       "rank": 4
      },
      {
@@ -34949,15 +34949,15 @@
       "country": "SVK",
       "sum": 506,
       "targets": [
-       null,
+       5,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 506,
+      "finalPts": 5,
+      "total": 511,
       "rank": 5
      },
      {
@@ -35203,7 +35203,7 @@
     "id": 97597,
     "title": "Traditional Longbow (TR-LB) Veteran (55 years of age or older) · Male",
     "complete": false,
-    "updated": "2026-09-05T07:07:23Z",
+    "updated": "2026-09-05T10:07:05Z",
     "rows": [
      {
       "rid": 585,
@@ -35211,33 +35211,16 @@
       "country": "SVK",
       "sum": 623,
       "targets": [
-       null,
+       5,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 623,
+      "finalPts": 5,
+      "total": 628,
       "rank": 1
-     },
-     {
-      "rid": 493,
-      "name": "Remo Verri",
-      "country": "ITA",
-      "sum": 608,
-      "targets": [
-       null,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": null,
-      "total": 608,
-      "rank": 2
      },
      {
       "rid": 779,
@@ -35245,15 +35228,32 @@
       "country": "GER",
       "sum": 606,
       "targets": [
-       null,
+       10,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 606,
+      "finalPts": 10,
+      "total": 616,
+      "rank": 2
+     },
+     {
+      "rid": 493,
+      "name": "Remo Verri",
+      "country": "ITA",
+      "sum": 608,
+      "targets": [
+       5,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 5,
+      "total": 613,
       "rank": 3
      },
      {
@@ -35262,15 +35262,15 @@
       "country": "AUT",
       "sum": 554,
       "targets": [
-       null,
+       5,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 554,
+      "finalPts": 5,
+      "total": 559,
       "rank": 4
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T10:03:02Z"
+  "updated": "2026-09-05T10:07:05Z"
  }
 }
