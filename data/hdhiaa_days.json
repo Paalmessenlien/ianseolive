@@ -33105,7 +33105,7 @@
   "day3Fetched": 1788606302.1129591,
   "day3Csv": "2026-09-05 13:05:03"
  },
- "updated": "2026-09-05T11:05:16Z",
+ "updated": "2026-09-05T11:07:14Z",
  "finals": {
   "targetCount": 6,
   "groups": {
@@ -33883,7 +33883,7 @@
     "id": 97585,
     "title": "Crossbow (CRB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:05:02Z",
+    "updated": "2026-09-05T11:07:02Z",
     "rows": [
      {
       "rid": 533,
@@ -33920,6 +33920,23 @@
       "rank": 2
      },
      {
+      "rid": 732,
+      "name": "Miroslav Loch",
+      "country": "SVK",
+      "sum": 830,
+      "targets": [
+       10,
+       12,
+       8,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 30,
+      "total": 860,
+      "rank": 3
+     },
+     {
       "rid": 527,
       "name": "Domenik Scharf",
       "country": "CZE",
@@ -33934,23 +33951,6 @@
       ],
       "finalPts": 28,
       "total": 859,
-      "rank": 3
-     },
-     {
-      "rid": 732,
-      "name": "Miroslav Loch",
-      "country": "SVK",
-      "sum": 830,
-      "targets": [
-       10,
-       12,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 22,
-      "total": 852,
       "rank": 4
      },
      {
@@ -34213,7 +34213,7 @@
     "id": 97588,
     "title": "Hunter 3D (HU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:05:02Z",
+    "updated": "2026-09-05T11:07:02Z",
     "rows": [
      {
       "rid": 314,
@@ -34233,6 +34233,23 @@
       "rank": 1
      },
      {
+      "rid": 308,
+      "name": "Zoltán Huszár",
+      "country": "HUN",
+      "sum": 759,
+      "targets": [
+       12,
+       12,
+       8,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 32,
+      "total": 791,
+      "rank": 2
+     },
+     {
       "rid": 307,
       "name": "Andras Szollar",
       "country": "HUN",
@@ -34247,23 +34264,6 @@
       ],
       "finalPts": 21,
       "total": 790,
-      "rank": 2
-     },
-     {
-      "rid": 308,
-      "name": "Zoltán Huszár",
-      "country": "HUN",
-      "sum": 759,
-      "targets": [
-       12,
-       12,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 24,
-      "total": 783,
       "rank": 3
      },
      {
@@ -34274,13 +34274,13 @@
       "targets": [
        8,
        8,
-       null,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 772,
+      "finalPts": 24,
+      "total": 780,
       "rank": 4
      },
      {
@@ -35750,6 +35750,6 @@
     ]
    }
   },
-  "updated": "2026-09-05T11:05:02Z"
+  "updated": "2026-09-05T11:07:02Z"
  }
 }
