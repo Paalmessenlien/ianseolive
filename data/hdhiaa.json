@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T11:01:14Z",
+ "generated": "2026-09-05T11:03:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T11:01:02Z",
+  "updated": "2026-09-05T11:03:02Z",
   "groups": [
    {
     "id": 97578,
@@ -49312,7 +49312,7 @@
     "id": 97585,
     "title": "Crossbow (CRB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:01:02Z",
+    "updated": "2026-09-05T11:03:02Z",
     "rows": [
      {
       "rid": 533,
@@ -49320,8 +49320,8 @@
       "country": "SVK",
       "sum": 846,
       "targets": [
+       0,
        12,
-       null,
        null,
        null,
        null,
@@ -49337,8 +49337,8 @@
       "country": "HUN",
       "sum": 835,
       "targets": [
+       0,
        12,
-       null,
        null,
        null,
        null,
@@ -49388,15 +49388,15 @@
       "country": "CZE",
       "sum": 821,
       "targets": [
-       8,
+       0,
        null,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 829,
+      "finalPts": 0,
+      "total": 821,
       "rank": 5
      },
      {
@@ -49405,15 +49405,15 @@
       "country": "CZE",
       "sum": 809,
       "targets": [
-       8,
+       0,
        0,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 817,
+      "finalPts": 0,
+      "total": 809,
       "rank": 6
      }
     ]
@@ -49642,7 +49642,7 @@
     "id": 97588,
     "title": "Hunter 3D (HU) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T11:01:02Z",
+    "updated": "2026-09-05T11:03:02Z",
     "rows": [
      {
       "rid": 314,
@@ -49651,32 +49651,15 @@
       "sum": 770,
       "targets": [
        8,
-       null,
+       8,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 778,
+      "finalPts": 16,
+      "total": 786,
       "rank": 1
-     },
-     {
-      "rid": 307,
-      "name": "Andras Szollar",
-      "country": "HUN",
-      "sum": 769,
-      "targets": [
-       5,
-       null,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 5,
-      "total": 774,
-      "rank": 2
      },
      {
       "rid": 308,
@@ -49685,14 +49668,31 @@
       "sum": 759,
       "targets": [
        12,
-       null,
+       12,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 12,
-      "total": 771,
+      "finalPts": 24,
+      "total": 783,
+      "rank": 2
+     },
+     {
+      "rid": 307,
+      "name": "Andras Szollar",
+      "country": "HUN",
+      "sum": 769,
+      "targets": [
+       5,
+       8,
+       null,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 13,
+      "total": 782,
       "rank": 3
      },
      {
@@ -49702,14 +49702,14 @@
       "sum": 756,
       "targets": [
        8,
-       null,
+       8,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 764,
+      "finalPts": 16,
+      "total": 772,
       "rank": 4
      },
      {
@@ -49719,14 +49719,14 @@
       "sum": 741,
       "targets": [
        8,
-       null,
+       12,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 8,
-      "total": 749,
+      "finalPts": 20,
+      "total": 761,
       "rank": 5
      },
      {
@@ -49736,14 +49736,14 @@
       "sum": 734,
       "targets": [
        10,
-       null,
+       12,
        null,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 744,
+      "finalPts": 22,
+      "total": 756,
       "rank": 6
      }
     ]
