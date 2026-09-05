@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T07:19:15Z",
+ "generated": "2026-09-05T07:21:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T07:19:02Z",
+  "updated": "2026-09-05T07:21:02Z",
   "groups": [
    {
     "id": 97578,
@@ -50852,7 +50852,7 @@
     "id": 97599,
     "title": "Traditional Recurve (TR-RB) Adults (21-54 years) · Male",
     "complete": false,
-    "updated": "2026-09-05T07:07:23Z",
+    "updated": "2026-09-05T07:21:02Z",
     "rows": [
      {
       "rid": 573,
@@ -50860,15 +50860,15 @@
       "country": "HUN",
       "sum": 732,
       "targets": [
-       null,
-       null,
-       null,
+       8,
+       8,
+       8,
        null,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 732,
+      "finalPts": 24,
+      "total": 756,
       "rank": 1
      },
      {
@@ -50878,14 +50878,14 @@
       "sum": 719,
       "targets": [
        null,
-       null,
-       null,
-       null,
+       8,
+       12,
+       10,
        null,
        null
       ],
-      "finalPts": null,
-      "total": 719,
+      "finalPts": 30,
+      "total": 749,
       "rank": 2
      },
      {
@@ -50896,13 +50896,13 @@
       "targets": [
        null,
        null,
-       null,
-       null,
-       null,
+       10,
+       10,
+       10,
        null
       ],
-      "finalPts": null,
-      "total": 715,
+      "finalPts": 30,
+      "total": 745,
       "rank": 3
      },
      {
@@ -50914,12 +50914,12 @@
        null,
        null,
        null,
-       null,
-       null,
-       null
+       8,
+       10,
+       12
       ],
-      "finalPts": null,
-      "total": 711,
+      "finalPts": 30,
+      "total": 741,
       "rank": 4
      },
      {
@@ -50928,15 +50928,15 @@
       "country": "CZE",
       "sum": 707,
       "targets": [
+       8,
        null,
        null,
        null,
-       null,
-       null,
-       null
+       10,
+       12
       ],
-      "finalPts": null,
-      "total": 707,
+      "finalPts": 30,
+      "total": 737,
       "rank": 5
      },
      {
@@ -50946,14 +50946,14 @@
       "sum": 704,
       "targets": [
        null,
+       5,
+       8,
        null,
        null,
-       null,
-       null,
-       null
+       8
       ],
-      "finalPts": null,
-      "total": 704,
+      "finalPts": 21,
+      "total": 725,
       "rank": 6
      }
     ]
@@ -50962,7 +50962,7 @@
     "id": 97600,
     "title": "Traditional Recurve (TR-RB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T07:19:02Z",
+    "updated": "2026-09-05T07:21:02Z",
     "rows": [
      {
       "rid": 508,
@@ -50973,12 +50973,12 @@
        8,
        8,
        5,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 21,
-      "total": 604,
+      "finalPts": 29,
+      "total": 612,
       "rank": 1
      },
      {
@@ -50990,12 +50990,12 @@
        0,
        10,
        12,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 22,
-      "total": 568,
+      "finalPts": 27,
+      "total": 573,
       "rank": 2
      },
      {
@@ -51007,12 +51007,12 @@
        5,
        5,
        5,
-       null,
+       5,
        null,
        null
       ],
-      "finalPts": 15,
-      "total": 548,
+      "finalPts": 20,
+      "total": 553,
       "rank": 3
      },
      {
@@ -51033,23 +51033,6 @@
       "rank": 4
      },
      {
-      "rid": 1328,
-      "name": "Regina Wieberger",
-      "country": "AUT",
-      "sum": 506,
-      "targets": [
-       10,
-       8,
-       5,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 23,
-      "total": 529,
-      "rank": 5
-     },
-     {
       "rid": 248,
       "name": "Samaela Bilić-Erić",
       "country": "GRE",
@@ -51058,12 +51041,29 @@
        5,
        5,
        8,
-       null,
+       8,
        null,
        null
       ],
-      "finalPts": 18,
-      "total": 528,
+      "finalPts": 26,
+      "total": 536,
+      "rank": 5
+     },
+     {
+      "rid": 1328,
+      "name": "Regina Wieberger",
+      "country": "AUT",
+      "sum": 506,
+      "targets": [
+       10,
+       8,
+       5,
+       5,
+       null,
+       null
+      ],
+      "finalPts": 28,
+      "total": 534,
       "rank": 6
      }
     ]
