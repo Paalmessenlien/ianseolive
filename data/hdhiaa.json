@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T07:15:14Z",
+ "generated": "2026-09-05T07:17:14Z",
  "competition": {
   "id": 4,
   "name": "World 3D Archery Championships 2026",
@@ -48536,7 +48536,7 @@
  ],
  "finals": {
   "targetCount": 6,
-  "updated": "2026-09-05T07:15:02Z",
+  "updated": "2026-09-05T07:17:01Z",
   "groups": [
    {
     "id": 97578,
@@ -50962,7 +50962,7 @@
     "id": 97600,
     "title": "Traditional Recurve (TR-RB) Veteran (55 years of age or older) · Female",
     "complete": false,
-    "updated": "2026-09-05T07:15:02Z",
+    "updated": "2026-09-05T07:17:01Z",
     "rows": [
      {
       "rid": 508,
@@ -50972,13 +50972,13 @@
       "targets": [
        8,
        8,
-       null,
+       5,
        null,
        null,
        null
       ],
-      "finalPts": 16,
-      "total": 599,
+      "finalPts": 21,
+      "total": 604,
       "rank": 1
      },
      {
@@ -50989,13 +50989,13 @@
       "targets": [
        0,
        10,
-       null,
+       12,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 556,
+      "finalPts": 22,
+      "total": 568,
       "rank": 2
      },
      {
@@ -51006,14 +51006,48 @@
       "targets": [
        5,
        5,
-       null,
+       5,
        null,
        null,
        null
       ],
-      "finalPts": 10,
-      "total": 543,
+      "finalPts": 15,
+      "total": 548,
       "rank": 3
+     },
+     {
+      "rid": 1328,
+      "name": "Regina Wieberger",
+      "country": "AUT",
+      "sum": 506,
+      "targets": [
+       10,
+       8,
+       5,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 23,
+      "total": 529,
+      "rank": 4
+     },
+     {
+      "rid": 248,
+      "name": "Samaela Bilić-Erić",
+      "country": "GRE",
+      "sum": 510,
+      "targets": [
+       5,
+       5,
+       8,
+       null,
+       null,
+       null
+      ],
+      "finalPts": 18,
+      "total": 528,
+      "rank": 5
      },
      {
       "rid": 185,
@@ -51030,40 +51064,6 @@
       ],
       "finalPts": 13,
       "total": 524,
-      "rank": 4
-     },
-     {
-      "rid": 1328,
-      "name": "Regina Wieberger",
-      "country": "AUT",
-      "sum": 506,
-      "targets": [
-       10,
-       8,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 18,
-      "total": 524,
-      "rank": 5
-     },
-     {
-      "rid": 248,
-      "name": "Samaela Bilić-Erić",
-      "country": "GRE",
-      "sum": 510,
-      "targets": [
-       5,
-       5,
-       null,
-       null,
-       null,
-       null
-      ],
-      "finalPts": 10,
-      "total": 520,
       "rank": 6
      }
     ]
