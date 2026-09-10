@@ -1,71 +1,85 @@
 {
- "generated": "2026-09-10T13:55:21Z",
+ "generated": "2026-09-10T13:58:01Z",
  "tournament": {
-  "toId": "29207",
-  "name": "NM Felt 2026",
+  "toId": "29536",
+  "name": "NM 3D 2026",
   "code": "",
-  "detailsUrl": "https://ianseo.net/Details.php?toId=29207",
-  "place": "Evenes",
-  "round": "Felt"
+  "detailsUrl": "https://ianseo.net/Details.php?toId=29536",
+  "place": "Opphaug",
+  "round": "3D"
  },
  "defaultClub": "LILLH",
  "files": {
-  "IQTDU16": "2026-08-23 11:29:12",
-  "IQLBDU16": "2026-08-23 11:29:29",
-  "IQBHU16": "2026-08-23 11:26:42",
-  "IQRHU16": "2026-08-23 11:26:58",
-  "IQBHU18": "2026-08-23 11:26:30",
-  "IQCHU18": "2026-08-23 11:30:29",
-  "IQBD": "2026-08-23 11:04:46",
-  "IQTD": "2026-08-23 11:26:46",
-  "IQLD": "2026-08-23 11:28:43",
-  "IQRD": "2026-08-23 12:14:23",
-  "IQCD": "2026-08-23 11:37:19",
-  "IQBH": "2026-08-23 11:30:02",
-  "IQTH": "2026-08-23 11:28:04",
-  "IQLH": "2026-08-23 11:26:35",
-  "IQRH": "2026-08-23 12:15:04",
-  "IQCH": "2026-08-23 11:38:13",
-  "TQLag": "2026-08-23 14:15:04",
-  "IC": "2026-08-23 12:15:04",
-  "ENS": "2026-08-22 15:19:36",
-  "ENC": "2026-08-22 15:19:36",
-  "ENA": "2026-08-22 15:19:36",
-  "ENE": "2026-08-22 15:19:36",
-  "STC": "2026-08-22 15:19:36",
-  "STE": "2026-08-22 15:19:36",
-  "Innbydelse": "2026-07-08 05:00:13",
-  "SCHEDULE": "2026-08-20 05:16:46",
-  "Besteklubb": "2026-08-23 13:13:08"
+  "ENS": "2026-09-01 19:21:29",
+  "ENC": "2026-09-01 19:21:29",
+  "ENE": "2026-09-10 13:29:25",
+  "STE": "2026-08-16 17:50:29",
+  "SCHEDULE": "2026-09-02 16:59:10"
  },
  "clubs": [
   {
+   "short": "AREND",
+   "name": "ARENDAL OG OMEGN BUESKYTTTERE"
+  },
+  {
    "short": "BERGE",
    "name": "BERGEN BUESKYTTERE"
+  },
+  {
+   "short": "BREIV",
+   "name": "BREIVOLL BUESKYTTERKLUBB"
+  },
+  {
+   "short": "BÆRUM",
+   "name": "BÆRUM OG OMEGN BUESKYTTERE"
+  },
+  {
+   "short": "DRAMM",
+   "name": "DRAMMEN BUESKYTTERE"
   },
   {
    "short": "EIDSV",
    "name": "EIDSVOLL BUESKYTTERE"
   },
   {
-   "short": "NAMSS",
-   "name": "ELVA/ NAMSSKOGAN IL - BUESKYTT"
+   "short": "FANA",
+   "name": "FANA BUESKYTTERKLUBB"
   },
   {
-   "short": "HARST",
-   "name": "HARSTAD BUESKYTTERE"
+   "short": "FJORD",
+   "name": "FJORDANE BOGESKYTARLAG"
+  },
+  {
+   "short": "HEGIL",
+   "name": "H.E.G. IL - BUESKYTTERGRUPPE"
   },
   {
    "short": "HAROY",
    "name": "HARØY BOGESKYTARLAG"
   },
   {
+   "short": "HITRA",
+   "name": "HITRA IL BUESKYTTERE"
+  },
+  {
+   "short": "GOMA",
+   "name": "IL GOMA - BUESKYTING"
+  },
+  {
    "short": "KONGS",
    "name": "KONGSVINGER BUESKYTTERKLUBB"
   },
   {
+   "short": "KVINN",
+   "name": "KVINNHERAD BOGESKYTTARKLUBB"
+  },
+  {
    "short": "LAND",
    "name": "LAND BUESKYTTERKLUBB"
+  },
+  {
+   "short": "LAUGE",
+   "name": "LAUGEN BUESKYTTERKLUBB"
   },
   {
    "short": "LILLH",
@@ -76,40 +90,36 @@
    "name": "LILLESTRØM & OMEGN BUESKYTTERE"
   },
   {
-   "short": "NBF",
-   "name": "NORGES BUESKYTTERFORBUND"
+   "short": "MOLDE",
+   "name": "MOLDE BUESKYTTERE"
   },
   {
-   "short": "OSLO",
-   "name": "OSLO BUESKYTTERE"
+   "short": "NBF",
+   "name": "NORGES BUESKYTTERFORBUND"
   },
   {
    "short": "SANDE",
    "name": "SANDEFJORD BUESKYTTERE"
   },
   {
-   "short": "SENJA",
-   "name": "SENJA BUESKYTTERKLUBB"
+   "short": "SKUDE",
+   "name": "SKUDENESHAVN BUESKYTTERKLUBB"
   },
   {
-   "short": "SORT",
-   "name": "SORTLAND BUESKYTTERKLUBB"
+   "short": "SOLOR",
+   "name": "SOLØR BUESKYTTERE"
+  },
+  {
+   "short": "SVERR",
+   "name": "SVERRESBORG BUESKYTTERE"
   },
   {
    "short": "SORUM",
    "name": "SØRUMSAND IF - BUESKYTTERGRUPP"
   },
   {
-   "short": "TINDE",
-   "name": "TINDEN BUESKYTTERKLUBB"
-  },
-  {
    "short": "ULLEN",
    "name": "ULLENSAKER BUESKYTTERKLUBB"
-  },
-  {
-   "short": "VALNE",
-   "name": "VALNESFJORD IL - BUESKYTTERGRU"
   },
   {
    "short": "YRJAR",
@@ -124,238 +134,586 @@
   "ÅLESU": [
    {
     "name": "HUSE Rikard",
-    "target": "15B",
+    "target": "3D",
+    "class": "Barebow Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "LANGELAND Odd Arne",
+    "target": "16B",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "AREND": [
+   {
+    "name": "FRIVOLL Morten",
+    "target": "14B",
+    "class": "Buejeger Buejeger",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "LARSEN Cato",
+    "target": "7C",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "BÆRUM": [
+   {
+    "name": "GRANUM Aksel",
+    "target": "3C",
     "class": "Barebow Herrer",
     "pool": "Pulje 1"
    }
   ],
   "BERGE": [
    {
-    "name": "STORESUND Benjamin",
-    "target": "7B",
+    "name": "DAHL Johan Malkenes",
+    "target": "11C",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HOLTE Ole Jørgen",
+    "target": "9B",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SÆVAREID Ole Sæbø",
+    "target": "5A",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SEKKENES Yngve",
+    "target": "8B",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SOLDAL Rune",
+    "target": "6C",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "TORSVIK Kristoffer",
+    "target": "20A",
     "class": "Recurve Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "ENGELSEN Rune",
+    "target": "25C",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "MØINICHEN BRANDTZÆG Janne",
+    "target": "10B",
+    "class": "Compound Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "STORESUND Kathrine",
+    "target": "22D",
+    "class": "Tradisjonell Damer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "BREIV": [
+   {
+    "name": "BALLER Frank",
+    "target": "17C",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SÆBØE-LARSSEN Jan Øivind",
+    "target": "18B",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HENRIKSEN Stine",
+    "target": "21B",
+    "class": "Recurve Damer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "DRAMM": [
+   {
+    "name": "HALDORHAMN Hilde Marie",
+    "target": "23A",
+    "class": "Tradisjonell Damer",
     "pool": "Pulje 1"
    }
   ],
   "EIDSV": [
    {
     "name": "ARNESEN Eirik Mathias",
-    "target": "21B",
+    "target": "13C",
     "class": "Barebow Herrer Under 18",
+    "pool": "Pulje 1"
+   }
+  ],
+  "FANA": [
+   {
+    "name": "VATNE Mats Wiig",
+    "target": "4C",
+    "class": "Barebow Herrer U16",
     "pool": "Pulje 1"
    },
    {
-    "name": "BAKKEMO Jakob Bergundhaugen",
-    "target": "15D",
-    "class": "Compound Herrer Under 18",
+    "name": "INGVALDSEN Kristina",
+    "target": "1B",
+    "class": "Barebow Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "OLSEN Nicoline",
+    "target": "4A",
+    "class": "Barebow Damer U16",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "OLSEN Renate",
+    "target": "19A",
+    "class": "Recurve Damer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "FJORD": [
+   {
+    "name": "STORØIEN Bjørn",
+    "target": "25B",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "GOMA": [
+   {
+    "name": "MEISAL PEDERSEN Ivar Jarl",
+    "target": "3A",
+    "class": "Barebow Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "MAHLE Simen",
+    "target": "21A",
+    "class": "Recurve Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "BETTEN Monica Edrikke",
+    "target": "2A",
+    "class": "Barebow Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "MOE TORVIK Hedda",
+    "target": "13D",
+    "class": "Barebow Damer Under 18",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "ULRIKSEN DRÅGEN Marthe-Emilie",
+    "target": "21C",
+    "class": "Recurve Damer U16",
     "pool": "Pulje 1"
    }
   ],
   "HAROY": [
    {
     "name": "HUSE Kjell Håvar",
-    "target": "17A",
+    "target": "17B",
     "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HUSE Ingunn",
+    "target": "15B",
+    "class": "Langbue Damer",
     "pool": "Pulje 1"
    }
   ],
-  "HARST": [
+  "HEGIL": [
    {
-    "name": "VEIMOEN-BAUER Oliver",
-    "target": "17C",
-    "class": "Langbue Herrer",
+    "name": "HERUD Linda Cathrine",
+    "target": "23C",
+    "class": "Tradisjonell Damer",
     "pool": "Pulje 1"
    },
    {
-    "name": "SØVIK Maja",
-    "target": "19D",
-    "class": "Langbue Damer U16",
+    "name": "NERGAARD Monicha",
+    "target": "22A",
+    "class": "Tradisjonell Damer",
     "pool": "Pulje 1"
    },
    {
-    "name": "BJERKE Ellinor",
-    "target": "19C",
-    "class": "Tradisjonell Damer U16",
+    "name": "NILSEN Elene",
+    "target": "24A",
+    "class": "Tradisjonell Damer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "HITRA": [
+   {
+    "name": "HAUGEN Kristian Cato",
+    "target": "5D",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "OLSEN Jørgen",
+    "target": "6D",
+    "class": "Compound Herrer",
     "pool": "Pulje 1"
    }
   ],
   "KONGS": [
    {
     "name": "SØRLIE Lars Marius",
-    "target": "15A",
+    "target": "3B",
     "class": "Barebow Herrer",
     "pool": "Pulje 1"
    },
    {
     "name": "SØRLIE Heidi",
-    "target": "23A",
+    "target": "1D",
     "class": "Barebow Damer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "KVINN": [
+   {
+    "name": "GUDDAL TARBERG Håkon",
+    "target": "4B",
+    "class": "Barebow Herrer U16",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "BAKKE Terje",
+    "target": "16C",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HOLMEDAL Hans Einar",
+    "target": "23D",
+    "class": "Tradisjonell Herrer",
     "pool": "Pulje 1"
    }
   ],
   "LAND": [
    {
-    "name": "SANDBURG Kerstin",
-    "target": "17D",
+    "name": "BJØRNERUD Nils Erik",
+    "target": "6A",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "ODDEN Asle Morten",
+    "target": "16D",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "ODDEN Torunn Tafjord",
+    "target": "22C",
     "class": "Tradisjonell Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SANDBURG Kerstin",
+    "target": "23B",
+    "class": "Tradisjonell Damer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "LAUGE": [
+   {
+    "name": "HAGERUP Trond",
+    "target": "24B",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HAGERUP Kristin",
+    "target": "1C",
+    "class": "Barebow Damer",
     "pool": "Pulje 1"
    }
   ],
   "LILLE": [
    {
-    "name": "BURHOL Simen S.",
-    "target": "5B",
-    "class": "Recurve Herrer",
-    "pool": "Pulje 1"
-   },
-   {
     "name": "HALLE Vilde Helene",
-    "target": "9A",
-    "class": "Recurve Damer",
-    "pool": "Pulje 1"
-   },
-   {
-    "name": "SEM Linda J Baginski",
-    "target": "3C",
+    "target": "19C",
     "class": "Recurve Damer",
     "pool": "Pulje 1"
    }
   ],
   "LILLH": [
    {
-    "name": "MESSENLIEN Pål",
-    "target": "15C",
-    "class": "Barebow Herrer",
+    "name": "HUUSE Gunnar",
+    "target": "17A",
+    "class": "Langbue Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "SCHIELE Laura",
-    "target": "23C",
-    "class": "Barebow Damer",
+    "name": "JENSEN Arne",
+    "target": "16A",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SKINLO Arnfinn",
+    "target": "22B",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SORTLAND Meho",
+    "target": "18D",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "STORRUSTEN Jo Bertoli",
+    "target": "2B",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "TRØEN Espen",
+    "target": "20C",
+    "class": "Recurve Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "BJØRKHAUG Bjørn-Erik",
+    "target": "25A",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SUSTAD Øystein",
+    "target": "24D",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HUUSE Bente",
+    "target": "15C",
+    "class": "Langbue Damer",
     "pool": "Pulje 1"
    }
   ],
-  "NAMSS": [
+  "MOLDE": [
    {
-    "name": "MELLINGEN Sten",
-    "target": "3B",
-    "class": "Recurve Herrer",
+    "name": "HELLWIG Sven",
+    "target": "15D",
+    "class": "Langbue Herrer",
     "pool": "Pulje 1"
    }
   ],
   "NBF": [],
-  "OSLO": [
-   {
-    "name": "HANSEN Lars Thomas",
-    "target": "19A",
-    "class": "Tradisjonell Herrer",
-    "pool": "Pulje 1"
-   }
-  ],
   "SANDE": [
    {
-    "name": "LUND Sondre Westgård",
-    "target": "7A",
-    "class": "Recurve Herrer",
+    "name": "BØE Morten",
+    "target": "8D",
+    "class": "Compound Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "MANGELRØD Hedda Lindhjem",
-    "target": "5C",
-    "class": "Recurve Damer",
+    "name": "BØE Terje",
+    "target": "9D",
+    "class": "Compound Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "NILSEN Solveig",
-    "target": "9B",
-    "class": "Recurve Damer",
-    "pool": "Pulje 1"
-   }
-  ],
-  "SENJA": [
-   {
-    "name": "DRAYTON Jan",
-    "target": "11C",
+    "name": "RUSSELL ROBERTS Eirik",
+    "target": "7B",
     "class": "Compound Herrer",
     "pool": "Pulje 1"
    }
   ],
-  "SORT": [
+  "SKUDE": [
    {
-    "name": "LYKSETH Kåre",
-    "target": "9C",
+    "name": "HAAKONSEN Haakon",
+    "target": "20D",
     "class": "Recurve Herrer",
+    "pool": "Pulje 1"
+   }
+  ],
+  "SOLOR": [
+   {
+    "name": "SÆTERSMOEN Gunnar",
+    "target": "14A",
+    "class": "Buejeger Buejeger",
     "pool": "Pulje 1"
    },
    {
-    "name": "HUSEVÅG Elisabeth",
-    "target": "23B",
-    "class": "Barebow Damer",
+    "name": "BERG Lars",
+    "target": "8A",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HANSEN Frank",
+    "target": "11B",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "HAUGEN Ottar",
+    "target": "9A",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "ØYEN Eddie Asgeir",
+    "target": "7D",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "WAALER Tobias",
+    "target": "12D",
+    "class": "Compound Herrer U16",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "RASMUSSEN SÆTERSMOEN Edvard",
+    "target": "13A",
+    "class": "Compound Herrer Under 18",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "BREIVIK Barbro",
+    "target": "14C",
+    "class": "Compound Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SÆTERSMOEN Margrethe",
+    "target": "10C",
+    "class": "Compound Damer",
     "pool": "Pulje 1"
    }
   ],
   "SORUM": [
    {
-    "name": "AARHAUG Aksel Kornelius",
-    "target": "21C",
-    "class": "Barebow Herrer U16",
-    "pool": "Pulje 1"
-   },
-   {
     "name": "BØRRUD Tor",
-    "target": "21A",
+    "target": "17D",
     "class": "Langbue Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "FLATEBY Knut",
-    "target": "17B",
+    "name": "SIGVARTSEN Morten",
+    "target": "18A",
     "class": "Langbue Herrer",
     "pool": "Pulje 1"
    },
    {
     "name": "AARHAUG Sigmund",
-    "target": "5A",
+    "target": "20B",
     "class": "Recurve Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "SIGVARTSEN Morten",
-    "target": "7C",
-    "class": "Recurve Herrer",
+    "name": "HARBITZ Stian",
+    "target": "24C",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "JACOBSEN Therese",
+    "target": "15A",
+    "class": "Langbue Damer",
     "pool": "Pulje 1"
    },
    {
     "name": "KRIBE Vera Wivi-Ann",
-    "target": "19B",
+    "target": "19D",
     "class": "Langbue Damer",
     "pool": "Pulje 1"
    }
   ],
-  "TINDE": [
+  "SVERR": [
    {
-    "name": "JOHANSEN Walter",
-    "target": "13A",
+    "name": "KONRADSEN Thor Arne",
+    "target": "2D",
+    "class": "Barebow Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "LINDAHL Marius",
+    "target": "5C",
     "class": "Compound Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "ERIKSEN Arnt Marius",
-    "target": "3A",
-    "class": "Recurve Herrer",
+    "name": "RAPHAUG Petter",
+    "target": "6B",
+    "class": "Compound Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "STORELV Adele",
-    "target": "13C",
+    "name": "ROGSTAD Marius",
+    "target": "7A",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "WAAGEN Geir",
+    "target": "11D",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "GUNNES Terje",
+    "target": "18C",
+    "class": "Langbue Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "BOJESEN-HELGETON Morten",
+    "target": "25D",
+    "class": "Tradisjonell Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "BLIKFELDT Tonje",
+    "target": "1A",
+    "class": "Barebow Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "OBRIEN Meilin",
+    "target": "13B",
     "class": "Compound Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "NGUYEN Aurora",
+    "target": "12C",
+    "class": "Compound Damer U16",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "WIK Ella",
+    "target": "12B",
+    "class": "Compound Damer U16",
     "pool": "Pulje 1"
    }
   ],
   "ULLEN": [
    {
     "name": "TEIGEN Yngve Konrad Mortensen",
-    "target": "9D",
+    "target": "19B",
     "class": "Recurve Herrer",
     "pool": "Pulje 1"
    },
@@ -366,863 +724,39 @@
     "pool": "Pulje 1"
    }
   ],
-  "VALNE": [
+  "YRJAR": [
    {
-    "name": "JOHANSEN Thomas",
-    "target": "13B",
+    "name": "HAUGSETH Robin",
+    "target": "9C",
     "class": "Compound Herrer",
     "pool": "Pulje 1"
    },
    {
-    "name": "STIFJELL Arvid Martin",
-    "target": "11B",
-    "class": "Compound Herrer",
-    "pool": "Pulje 1"
-   }
-  ],
-  "YRJAR": [
-   {
-    "name": "HAUGSETH Mads",
+    "name": "JENSSEN Håkon",
     "target": "11A",
     "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "STRANDEN John Olav",
+    "target": "5B",
+    "class": "Compound Herrer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SCHYTTE Nathalie",
+    "target": "10A",
+    "class": "Compound Damer",
+    "pool": "Pulje 1"
+   },
+   {
+    "name": "SKOGEN JENSSEN Thilde",
+    "target": "12A",
+    "class": "Compound Damer U16",
     "pool": "Pulje 1"
    }
   ]
  },
- "classes": [
-  {
-   "name": "Tradisjonell Damer Under 16",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "HARST",
-     "name": "BJERKE Ellinor",
-     "pos": 1,
-     "total": 188,
-     "arrows": 144,
-     "tens": 1,
-     "xs": 3,
-     "dist": {
-      "Gul": "77/ 1",
-      "Gul (2)": "111/ 1"
-     },
-     "target": "19C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Tradisjonell Damer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "LAND",
-     "name": "SANDBURG Kerstin",
-     "pos": 1,
-     "total": 525,
-     "arrows": 144,
-     "tens": 9,
-     "xs": 27,
-     "dist": {
-      "Gul": "271/ 1",
-      "Gul (2)": "254/ 1"
-     },
-     "target": "17D",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Tradisjonell Herrer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "OSLO",
-     "name": "HANSEN Lars Thomas",
-     "pos": 1,
-     "total": 613,
-     "arrows": 144,
-     "tens": 21,
-     "xs": 30,
-     "dist": {
-      "Gul": "306/ 1",
-      "Gul (2)": "307/ 1"
-     },
-     "target": "19A",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Langbue Damer Under 16",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "HARST",
-     "name": "SØVIK Maja",
-     "pos": 1,
-     "total": 107,
-     "arrows": 144,
-     "tens": 0,
-     "xs": 2,
-     "dist": {
-      "Gul": "54/ 1",
-      "Gul (2)": "53/ 1"
-     },
-     "target": "19D",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Langbue Damer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "SORUM",
-     "name": "KRIBE Vera Wivi-Ann",
-     "pos": 1,
-     "total": 471,
-     "arrows": 144,
-     "tens": 8,
-     "xs": 17,
-     "dist": {
-      "Gul": "231/ 1",
-      "Gul (2)": "240/ 1"
-     },
-     "target": "19B",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Langbue Herrer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "SORUM",
-     "name": "FLATEBY Knut",
-     "pos": 1,
-     "total": 488,
-     "arrows": 144,
-     "tens": 13,
-     "xs": 20,
-     "dist": {
-      "Gul": "252/ 2",
-      "Gul (2)": "236/ 1"
-     },
-     "target": "17B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HAROY",
-     "name": "HUSE Kjell Håvar",
-     "pos": 2,
-     "total": 487,
-     "arrows": 144,
-     "tens": 13,
-     "xs": 14,
-     "dist": {
-      "Gul": "254/ 1",
-      "Gul (2)": "233/ 2"
-     },
-     "target": "17A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "BØRRUD Tor",
-     "pos": 3,
-     "total": 433,
-     "arrows": 144,
-     "tens": 9,
-     "xs": 10,
-     "dist": {
-      "Gul": "204/ 3",
-      "Gul (2)": "229/ 3"
-     },
-     "target": "21A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HARST",
-     "name": "VEIMOEN-BAUER Oliver",
-     "pos": 4,
-     "total": 376,
-     "arrows": 144,
-     "tens": 3,
-     "xs": 14,
-     "dist": {
-      "Gul": "198/ 4",
-      "Gul (2)": "178/ 4"
-     },
-     "target": "17C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Barebow Herrer Under 16",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "SORUM",
-     "name": "AARHAUG Aksel Kornelius",
-     "pos": 1,
-     "total": 281,
-     "arrows": 144,
-     "tens": 2,
-     "xs": 10,
-     "dist": {
-      "Gul": "153/ 1",
-      "Gul (2)": "128/ 1"
-     },
-     "target": "21C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Barebow Herrer Under 18",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "EIDSV",
-     "name": "ARNESEN Eirik Mathias",
-     "pos": 1,
-     "total": 254,
-     "arrows": 144,
-     "tens": 2,
-     "xs": 4,
-     "dist": {
-      "Gul": "106/ 1",
-      "Gul (2)": "148/ 1"
-     },
-     "target": "21B",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Barebow Damer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "Blå (2)"
-   ],
-   "field": [
-    {
-     "club": "KONGS",
-     "name": "SØRLIE Heidi",
-     "pos": 1,
-     "total": 551,
-     "arrows": 144,
-     "tens": 20,
-     "xs": 25,
-     "dist": {
-      "Blå": "279/ 1",
-      "Blå (2)": "272/ 1"
-     },
-     "target": "23A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORT",
-     "name": "HUSEVÅG Elisabeth",
-     "pos": 2,
-     "total": 348,
-     "arrows": 144,
-     "tens": 7,
-     "xs": 12,
-     "dist": {
-      "Blå": "185/ 2",
-      "Blå (2)": "163/ 2"
-     },
-     "target": "23B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "SCHIELE Laura",
-     "pos": 3,
-     "total": 328,
-     "arrows": 144,
-     "tens": 6,
-     "xs": 8,
-     "dist": {
-      "Blå": "177/ 3",
-      "Blå (2)": "151/ 3"
-     },
-     "target": "23C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Barebow Herrer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "Blå (2)"
-   ],
-   "field": [
-    {
-     "club": "KONGS",
-     "name": "SØRLIE Lars Marius",
-     "pos": 1,
-     "total": 668,
-     "arrows": 144,
-     "tens": 35,
-     "xs": 41,
-     "dist": {
-      "Blå": "347/ 1",
-      "Blå (2)": "321/ 1"
-     },
-     "target": "15A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "ÅLESU",
-     "name": "HUSE Rikard",
-     "pos": 2,
-     "total": 555,
-     "arrows": 144,
-     "tens": 20,
-     "xs": 22,
-     "dist": {
-      "Blå": "288/ 2",
-      "Blå (2)": "267/ 2"
-     },
-     "target": "15B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "MESSENLIEN Pål",
-     "pos": 3,
-     "total": 498,
-     "arrows": 144,
-     "tens": 8,
-     "xs": 27,
-     "dist": {
-      "Blå": "254/ 3",
-      "Blå (2)": "244/ 3"
-     },
-     "target": "15C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Recurve Herrer Under 16",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Gul",
-    "Gul (2)"
-   ],
-   "field": [
-    {
-     "club": "ULLEN",
-     "name": "TEIGEN Martin Mortensen",
-     "pos": 1,
-     "total": 417,
-     "arrows": 144,
-     "tens": 5,
-     "xs": 16,
-     "dist": {
-      "Gul": "188/ 1",
-      "Gul (2)": "229/ 1"
-     },
-     "target": "21D",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Recurve Damer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "Rød (2)"
-   ],
-   "field": [
-    {
-     "club": "LILLE",
-     "name": "HALLE Vilde Helene",
-     "pos": 1,
-     "total": 575,
-     "arrows": 144,
-     "tens": 19,
-     "xs": 28,
-     "dist": {
-      "Rød": "296/ 1",
-      "Rød (2)": "279/ 1"
-     },
-     "target": "9A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SANDE",
-     "name": "NILSEN Solveig",
-     "pos": 2,
-     "total": 508,
-     "arrows": 144,
-     "tens": 17,
-     "xs": 14,
-     "dist": {
-      "Rød": "243/ 2",
-      "Rød (2)": "265/ 2"
-     },
-     "target": "9B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLE",
-     "name": "SEM Linda J Baginski",
-     "pos": 3,
-     "total": 459,
-     "arrows": 144,
-     "tens": 9,
-     "xs": 13,
-     "dist": {
-      "Rød": "232/ 4",
-      "Rød (2)": "227/ 3"
-     },
-     "target": "3C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SANDE",
-     "name": "MANGELRØD Hedda Lindhjem",
-     "pos": 4,
-     "total": 447,
-     "arrows": 144,
-     "tens": 11,
-     "xs": 11,
-     "dist": {
-      "Rød": "232/ 3",
-      "Rød (2)": "215/ 4"
-     },
-     "target": "5C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Recurve Herrer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "Rød (2)"
-   ],
-   "field": [
-    {
-     "club": "LILLE",
-     "name": "BURHOL Simen S.",
-     "pos": 1,
-     "total": 649,
-     "arrows": 144,
-     "tens": 33,
-     "xs": 39,
-     "dist": {
-      "Rød": "331/ 2",
-      "Rød (2)": "318/ 1"
-     },
-     "target": "5B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "AARHAUG Sigmund",
-     "pos": 2,
-     "total": 624,
-     "arrows": 144,
-     "tens": 23,
-     "xs": 37,
-     "dist": {
-      "Rød": "334/ 1",
-      "Rød (2)": "290/ 2"
-     },
-     "target": "5A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "SIGVARTSEN Morten",
-     "pos": 3,
-     "total": 578,
-     "arrows": 144,
-     "tens": 20,
-     "xs": 25,
-     "dist": {
-      "Rød": "311/ 3",
-      "Rød (2)": "267/ 3"
-     },
-     "target": "7C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SANDE",
-     "name": "LUND Sondre Westgård",
-     "pos": 4,
-     "total": 518,
-     "arrows": 144,
-     "tens": 10,
-     "xs": 22,
-     "dist": {
-      "Rød": "260/ 4",
-      "Rød (2)": "258/ 4"
-     },
-     "target": "7A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORT",
-     "name": "LYKSETH Kåre",
-     "pos": 5,
-     "total": 510,
-     "arrows": 144,
-     "tens": 14,
-     "xs": 19,
-     "dist": {
-      "Rød": "259/ 5",
-      "Rød (2)": "251/ 5"
-     },
-     "target": "9C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "STORESUND Benjamin",
-     "pos": 6,
-     "total": 499,
-     "arrows": 144,
-     "tens": 12,
-     "xs": 18,
-     "dist": {
-      "Rød": "250/ 6",
-      "Rød (2)": "249/ 6"
-     },
-     "target": "7B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "NAMSS",
-     "name": "MELLINGEN Sten",
-     "pos": 7,
-     "total": 446,
-     "arrows": 144,
-     "tens": 6,
-     "xs": 19,
-     "dist": {
-      "Rød": "241/ 8",
-      "Rød (2)": "205/ 7"
-     },
-     "target": "3B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "TINDE",
-     "name": "ERIKSEN Arnt Marius",
-     "pos": 8,
-     "total": 377,
-     "arrows": 144,
-     "tens": 9,
-     "xs": 16,
-     "dist": {
-      "Rød": "249/ 7",
-      "Rød (2)": "128/ 8"
-     },
-     "target": "3A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "ULLEN",
-     "name": "TEIGEN Yngve Konrad Mortensen",
-     "pos": 9,
-     "total": 302,
-     "arrows": 144,
-     "tens": 3,
-     "xs": 6,
-     "dist": {
-      "Rød": "180/ 9",
-      "Rød (2)": "122/ 9"
-     },
-     "target": "9D",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Compound Herrer Under 18",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "Blå (2)"
-   ],
-   "field": [
-    {
-     "club": "EIDSV",
-     "name": "BAKKEMO Jakob Bergundhaugen",
-     "pos": 1,
-     "total": 722,
-     "arrows": 144,
-     "tens": 60,
-     "xs": 37,
-     "dist": {
-      "Blå": "367/ 1",
-      "Blå (2)": "355/ 1"
-     },
-     "target": "15D",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Compound Damer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "Rød (2)"
-   ],
-   "field": [
-    {
-     "club": "TINDE",
-     "name": "STORELV Adele",
-     "pos": 1,
-     "total": 438,
-     "arrows": 144,
-     "tens": 25,
-     "xs": 27,
-     "dist": {
-      "Rød": "88/ 1",
-      "Rød (2)": "350/ 1"
-     },
-     "target": "13C",
-     "pool": "Pulje 1"
-    }
-   ]
-  },
-  {
-   "name": "Compound Herrer",
-   "code": "IC",
-   "team": false,
-   "official": true,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "Rød (2)"
-   ],
-   "field": [
-    {
-     "club": "YRJAR",
-     "name": "HAUGSETH Mads",
-     "pos": 1,
-     "total": 783,
-     "arrows": 144,
-     "tens": 81,
-     "xs": 48,
-     "dist": {
-      "Rød": "397/ 1",
-      "Rød (2)": "386/ 1"
-     },
-     "target": "11A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "VALNE",
-     "name": "STIFJELL Arvid Martin",
-     "pos": 2,
-     "total": 674,
-     "arrows": 144,
-     "tens": 32,
-     "xs": 55,
-     "dist": {
-      "Rød": "344/ 2",
-      "Rød (2)": "330/ 2"
-     },
-     "target": "11B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "TINDE",
-     "name": "JOHANSEN Walter",
-     "pos": 3,
-     "total": 544,
-     "arrows": 144,
-     "tens": 14,
-     "xs": 29,
-     "dist": {
-      "Rød": "266/ 4",
-      "Rød (2)": "278/ 3"
-     },
-     "target": "13A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SENJA",
-     "name": "DRAYTON Jan",
-     "pos": 4,
-     "total": 542,
-     "arrows": 144,
-     "tens": 18,
-     "xs": 25,
-     "dist": {
-      "Rød": "268/ 3",
-      "Rød (2)": "274/ 4"
-     },
-     "target": "11C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "VALNE",
-     "name": "JOHANSEN Thomas",
-     "pos": 5,
-     "total": 525,
-     "arrows": 144,
-     "tens": 6,
-     "xs": 24,
-     "dist": {
-      "Rød": "255/ 5",
-      "Rød (2)": "270/ 5"
-     },
-     "target": "13B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HARST",
-     "name": "ØYAN John-Egil",
-     "pos": 6,
-     "total": 50,
-     "arrows": 144,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Rød": "50/ 6",
-      "Rød (2)": "0"
-     },
-     "target": "",
-     "pool": ""
-    }
-   ]
-  },
-  {
-   "name": "Lag (lag)",
-   "team": true,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 432,
-   "distances": [],
-   "field": [
-    {
-     "club": "SORUM",
-     "name": "Lag",
-     "pos": 1,
-     "total": 1690,
-     "arrows": 432,
-     "tens": 56,
-     "xs": 82,
-     "dist": {},
-     "members": "AARHAUG Sigmund, FLATEBY Knut, SIGVARTSEN Morten",
-     "target": "",
-     "pool": ""
-    }
-   ],
-   "code": "TQLag"
-  }
- ],
+ "classes": [],
  "brackets": []
 }
