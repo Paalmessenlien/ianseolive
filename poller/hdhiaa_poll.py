@@ -214,12 +214,15 @@ def parse_results_csv(text: str) -> tuple:
 
 
 def paused() -> str:
-    """Returnerer pause-fristen fra config.json hvis synken er pauset nå."""
+    """Returnerer hvorfor hdhiaa-synken er av, hvis den er av (config.json)."""
     try:
         cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
-        until = (cfg.get("hdhiaa") or {}).get("pausedUntil")
+        hd = cfg.get("hdhiaa") or {}
+        if hd.get("enabled") is False:
+            return "enabled=false i config.json"
+        until = hd.get("pausedUntil")
         if until and datetime.now(timezone.utc) < datetime.fromisoformat(until):
-            return until
+            return f"pausedUntil {until}"
     except Exception:
         pass
     return ""
@@ -469,7 +472,7 @@ def merge_finals(store: dict, final_data: dict) -> int:
 
 def main() -> int:
     if "--force" not in sys.argv and (until := paused()):
-        print(f"paused until {until}")
+        print(f"hdhiaa-synk av ({until})")
         return 0
     live_mode = "--live" in sys.argv
     standings = standings_raw = final_raw = None
