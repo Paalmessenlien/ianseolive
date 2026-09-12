@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T08:55:17Z",
+ "generated": "2026-09-12T09:07:10Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -10,27 +10,28 @@
  },
  "defaultClub": "LILLH",
  "files": {
-  "IQBDU16": "2026-09-12 08:51:48",
-  "IQBHU16": "2026-09-12 08:51:47",
-  "IQRDU16": "2026-09-12 08:48:27",
-  "IQCDU16": "2026-09-12 08:48:04",
-  "IQRHU16": "2026-09-12 08:48:40",
-  "IQCHU16": "2026-09-12 08:48:22",
-  "IQBDU18": "2026-09-12 08:46:25",
-  "IQBHU18": "2026-09-12 08:45:16",
-  "IQCHU18": "2026-09-12 08:44:37",
-  "IQBD": "2026-09-12 08:53:59",
-  "IQTD": "2026-09-12 08:53:16",
-  "IQLD": "2026-09-12 08:52:04",
-  "IQRD": "2026-09-12 08:47:55",
-  "IQCD": "2026-09-12 08:49:42",
-  "IQBH": "2026-09-12 08:53:39",
-  "IQTH": "2026-09-12 08:53:24",
-  "IQLH": "2026-09-12 08:53:18",
-  "IQRH": "2026-09-12 08:48:04",
-  "IQCH": "2026-09-12 08:48:35",
-  "IQBU": "2026-09-12 08:45:53",
-  "TQLag": "2026-09-12 10:53:59",
+  "IQBDU16": "2026-09-12 09:04:23",
+  "IQBHU16": "2026-09-12 09:04:48",
+  "IQRDU16": "2026-09-12 08:57:54",
+  "IQCDU16": "2026-09-12 08:58:53",
+  "IQRHU16": "2026-09-12 08:58:34",
+  "IQCHU16": "2026-09-12 08:59:15",
+  "IQBDU18": "2026-09-12 09:05:09",
+  "IQBHU18": "2026-09-12 09:04:57",
+  "IQCHU18": "2026-09-12 09:04:18",
+  "IQBD": "2026-09-12 09:03:22",
+  "IQTD": "2026-09-12 09:03:16",
+  "IQLD": "2026-09-12 09:00:24",
+  "IQRD": "2026-09-12 08:57:59",
+  "IQCD": "2026-09-12 09:04:48",
+  "IQBH": "2026-09-12 09:03:29",
+  "IQTH": "2026-09-12 09:05:43",
+  "IQLH": "2026-09-12 09:05:48",
+  "IQRH": "2026-09-12 08:58:20",
+  "IQCH": "2026-09-12 09:04:30",
+  "IQBU": "2026-09-12 09:05:56",
+  "TQLag": "2026-09-12 11:05:56",
+  "IC": "2026-09-12 09:05:56",
   "ENS": "2026-09-10 13:29:25",
   "ENC": "2026-09-10 13:29:25",
   "ENE": "2026-09-10 13:29:25",
@@ -781,9 +782,10 @@
  },
  "classes": [
   {
-   "name": "Barebow Damer",
+   "name": "Tradisjonell Damer",
+   "code": "IC",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -792,87 +794,564 @@
    ],
    "field": [
     {
-     "club": "FANA",
-     "name": "INGVALDSEN Kristina",
+     "club": "HEGIL",
+     "name": "NERGAARD Monicha",
      "pos": 1,
-     "total": 48,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "48/ 1",
-      "11": "2"
-     },
-     "target": "1B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "BLIKFELDT Tonje",
-     "pos": 2,
-     "total": 46,
-     "arrows": 6,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Blå": "46/ 2",
-      "11": "0"
-     },
-     "target": "1A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "KONGS",
-     "name": "SØRLIE Heidi",
-     "pos": 3,
-     "total": 26,
-     "arrows": 4,
+     "total": 58,
+     "arrows": 144,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Blå": "26/ 5",
-      "11": "0"
+      "Blå": "58/ 1",
+      "11": "1"
      },
-     "target": "1D",
+     "target": "22A",
      "pool": "Pulje 1"
     },
     {
-     "club": "GOMA",
-     "name": "BETTEN Monica Edrikke",
+     "club": "HEGIL",
+     "name": "HERUD Linda Cathrine",
+     "pos": 2,
+     "total": 57,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "57/ 2",
+      "11": "0"
+     },
+     "target": "23C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LAND",
+     "name": "ODDEN Torunn Tafjord",
+     "pos": 3,
+     "total": 55,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "55/ 3",
+      "11": "0"
+     },
+     "target": "22C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LAND",
+     "name": "SANDBURG Kerstin",
      "pos": 4,
-     "total": 36,
-     "arrows": 6,
+     "total": 47,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "47/ 4",
+      "11": "0"
+     },
+     "target": "23B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "STORESUND Kathrine",
+     "pos": 5,
+     "total": 44,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Blå": "44/ 5",
+      "11": "1"
+     },
+     "target": "22D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "DRAMM",
+     "name": "HALDORHAMN Hilde Marie",
+     "pos": 6,
+     "total": 44,
+     "arrows": 144,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Blå": "36/ 3",
+      "Blå": "44/ 6",
       "11": "0"
      },
-     "target": "2A",
+     "target": "23A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "HEGIL",
+     "name": "NILSEN Elene",
+     "pos": 7,
+     "total": 40,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "40/ 7",
+      "11": "0"
+     },
+     "target": "24A",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Tradisjonell Herrer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "BERGE",
+     "name": "ENGELSEN Rune",
+     "pos": 1,
+     "total": 238,
+     "arrows": 144,
+     "tens": 20,
+     "xs": 0,
+     "dist": {
+      "Blå": "238/ 1",
+      "11": "20"
+     },
+     "target": "25C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "KVINN",
+     "name": "BAKKE Terje",
+     "pos": 2,
+     "total": 87,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 2,
+     "dist": {
+      "Blå": "87/ 2",
+      "11": "2"
+     },
+     "target": "16C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LAND",
+     "name": "ODDEN Asle Morten",
+     "pos": 3,
+     "total": 74,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Blå": "74/ 3",
+      "11": "1"
+     },
+     "target": "16D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "KVINN",
+     "name": "HOLMEDAL Hans Einar",
+     "pos": 4,
+     "total": 68,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Blå": "68/ 4",
+      "11": "1"
+     },
+     "target": "23D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SORUM",
+     "name": "HARBITZ Stian",
+     "pos": 5,
+     "total": 57,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 3,
+     "dist": {
+      "Blå": "57/ 5",
+      "11": "1"
+     },
+     "target": "24C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "FJORD",
+     "name": "STORØIEN Bjørn",
+     "pos": 6,
+     "total": 48,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Blå": "48/ 6",
+      "11": "1"
+     },
+     "target": "25B",
      "pool": "Pulje 1"
     },
     {
      "club": "LAUGE",
-     "name": "HAGERUP Kristin",
-     "pos": 5,
-     "total": 28,
-     "arrows": 6,
+     "name": "HAGERUP Trond",
+     "pos": 7,
+     "total": 42,
+     "arrows": 144,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Blå": "28/ 4",
+      "Blå": "42/ 7",
       "11": "0"
      },
-     "target": "1C",
+     "target": "24B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "BJØRKHAUG Bjørn-Erik",
+     "pos": 8,
+     "total": 26,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "26/ 8",
+      "11": "0"
+     },
+     "target": "25A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "SUSTAD Øystein",
+     "pos": 9,
+     "total": 25,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "25/ 9",
+      "11": "0"
+     },
+     "target": "24D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "BOJESEN-HELGETON Morten",
+     "pos": 10,
+     "total": 23,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "23/10",
+      "11": "0"
+     },
+     "target": "25D",
      "pool": "Pulje 1"
     }
+   ]
+  },
+  {
+   "name": "Langbue Damer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
    ],
-   "code": "IQBD"
+   "field": [
+    {
+     "club": "SORUM",
+     "name": "JACOBSEN Therese",
+     "pos": 1,
+     "total": 64,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Blå": "64/ 1",
+      "11": "2"
+     },
+     "target": "15A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "HAROY",
+     "name": "HUSE Ingunn",
+     "pos": 2,
+     "total": 58,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Blå": "58/ 2",
+      "11": "2"
+     },
+     "target": "15B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "HUUSE Bente",
+     "pos": 3,
+     "total": 55,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Blå": "55/ 3",
+      "11": "1"
+     },
+     "target": "15C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SORUM",
+     "name": "KRIBE Vera Wivi-Ann",
+     "pos": 4,
+     "total": 26,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Blå": "26/ 4",
+      "11": "1"
+     },
+     "target": "19D",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Langbue Herrer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "ÅLESU",
+     "name": "LANGELAND Odd Arne",
+     "pos": 1,
+     "total": 65,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "65/ 1",
+      "11": "0"
+     },
+     "target": "16B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SORUM",
+     "name": "BØRRUD Tor",
+     "pos": 2,
+     "total": 59,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Blå": "59/ 2",
+      "11": "1"
+     },
+     "target": "17D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "HAROY",
+     "name": "HUSE Kjell Håvar",
+     "pos": 3,
+     "total": 56,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "56/ 3",
+      "11": "0"
+     },
+     "target": "17B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BREIV",
+     "name": "BALLER Frank",
+     "pos": 4,
+     "total": 55,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Blå": "55/ 4",
+      "11": "2"
+     },
+     "target": "17C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "MOLDE",
+     "name": "HELLWIG Sven",
+     "pos": 5,
+     "total": 55,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Blå": "55/ 5",
+      "11": "1"
+     },
+     "target": "15D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "SORTLAND Meho",
+     "pos": 6,
+     "total": 51,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "51/ 6",
+      "11": "0"
+     },
+     "target": "18D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SORUM",
+     "name": "SIGVARTSEN Morten",
+     "pos": 7,
+     "total": 49,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "49/ 7",
+      "11": "0"
+     },
+     "target": "18A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "GUNNES Terje",
+     "pos": 8,
+     "total": 47,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "47/ 8",
+      "11": "0"
+     },
+     "target": "18C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "STORRUSTEN Jo Bertoli",
+     "pos": 9,
+     "total": 43,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Blå": "43/ 9",
+      "11": "0"
+     },
+     "target": "2B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "HUUSE Gunnar",
+     "pos": 10,
+     "total": 36,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "36/10",
+      "11": "0"
+     },
+     "target": "17A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BREIV",
+     "name": "SÆBØE-LARSSEN Jan Øivind",
+     "pos": 11,
+     "total": 33,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "33/11",
+      "11": "0"
+     },
+     "target": "18B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "SKINLO Arnfinn",
+     "pos": 12,
+     "total": 23,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "23/12",
+      "11": "0"
+     },
+     "target": "22B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "JENSEN Arne",
+     "pos": 13,
+     "total": 10,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "10/13",
+      "11": "0"
+     },
+     "target": "16A",
+     "pool": "Pulje 1"
+    }
+   ]
   },
   {
    "name": "Barebow Damer Under 16",
+   "code": "IC",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -885,7 +1364,7 @@
      "name": "OLSEN Nicoline",
      "pos": 1,
      "total": 18,
-     "arrows": 4,
+     "arrows": 144,
      "tens": 0,
      "xs": 0,
      "dist": {
@@ -895,13 +1374,57 @@
      "target": "4A",
      "pool": "Pulje 1"
     }
+   ]
+  },
+  {
+   "name": "Barebow Herrer Under 16",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Gul",
+    "11"
    ],
-   "code": "IQBDU16"
+   "field": [
+    {
+     "club": "KVINN",
+     "name": "GUDDAL TARBERG Håkon",
+     "pos": 1,
+     "total": 61,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Gul": "61/ 1",
+      "11": "0"
+     },
+     "target": "4B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "FANA",
+     "name": "VATNE Mats Wiig",
+     "pos": 2,
+     "total": 54,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Gul": "54/ 2",
+      "11": "1"
+     },
+     "target": "4C",
+     "pool": "Pulje 1"
+    }
+   ]
   },
   {
    "name": "Barebow Damer Under 18",
+   "code": "IC",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -913,24 +1436,142 @@
      "club": "GOMA",
      "name": "MOE TORVIK Hedda",
      "pos": 1,
-     "total": 5,
-     "arrows": 4,
+     "total": 18,
+     "arrows": 144,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Blå": "5/ 1",
+      "Blå": "18/ 1",
       "11": "0"
      },
      "target": "13D",
      "pool": "Pulje 1"
     }
+   ]
+  },
+  {
+   "name": "Barebow Herrer Under 18",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
    ],
-   "code": "IQBDU18"
+   "field": [
+    {
+     "club": "EIDSV",
+     "name": "ARNESEN Eirik Mathias",
+     "pos": 1,
+     "total": 38,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "38/ 1",
+      "11": "0"
+     },
+     "target": "13C",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Barebow Damer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "FANA",
+     "name": "INGVALDSEN Kristina",
+     "pos": 1,
+     "total": 67,
+     "arrows": 144,
+     "tens": 3,
+     "xs": 0,
+     "dist": {
+      "Blå": "67/ 1",
+      "11": "3"
+     },
+     "target": "1B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "BLIKFELDT Tonje",
+     "pos": 2,
+     "total": 59,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "59/ 2",
+      "11": "0"
+     },
+     "target": "1A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "KONGS",
+     "name": "SØRLIE Heidi",
+     "pos": 3,
+     "total": 54,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Blå": "54/ 3",
+      "11": "0"
+     },
+     "target": "1D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "GOMA",
+     "name": "BETTEN Monica Edrikke",
+     "pos": 4,
+     "total": 49,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "49/ 4",
+      "11": "0"
+     },
+     "target": "2A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LAUGE",
+     "name": "HAGERUP Kristin",
+     "pos": 5,
+     "total": 33,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "33/ 5",
+      "11": "0"
+     },
+     "target": "1C",
+     "pool": "Pulje 1"
+    }
+   ]
   },
   {
    "name": "Barebow Herrer",
+   "code": "IC",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -942,12 +1583,12 @@
      "club": "KONGS",
      "name": "SØRLIE Lars Marius",
      "pos": 1,
-     "total": 57,
-     "arrows": 6,
-     "tens": 3,
-     "xs": 0,
+     "total": 73,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 3,
      "dist": {
-      "Blå": "57/ 1",
+      "Blå": "73/ 1",
       "11": "1"
      },
      "target": "3B",
@@ -957,64 +1598,893 @@
      "club": "BÆRUM",
      "name": "GRANUM Aksel",
      "pos": 2,
-     "total": 55,
-     "arrows": 6,
+     "total": 71,
+     "arrows": 144,
      "tens": 2,
-     "xs": 0,
+     "xs": 2,
      "dist": {
-      "Blå": "55/ 2",
+      "Blå": "71/ 2",
       "11": "2"
      },
      "target": "3C",
      "pool": "Pulje 1"
     },
     {
+     "club": "ÅLESU",
+     "name": "HUSE Rikard",
+     "pos": 3,
+     "total": 63,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Blå": "63/ 3",
+      "11": "2"
+     },
+     "target": "3D",
+     "pool": "Pulje 1"
+    },
+    {
      "club": "GOMA",
      "name": "MEISAL PEDERSEN Ivar Jarl",
-     "pos": 3,
-     "total": 46,
-     "arrows": 6,
-     "tens": 2,
-     "xs": 0,
+     "pos": 4,
+     "total": 56,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
      "dist": {
-      "Blå": "46/ 3",
+      "Blå": "56/ 4",
       "11": "0"
      },
      "target": "3A",
      "pool": "Pulje 1"
     },
     {
-     "club": "ÅLESU",
-     "name": "HUSE Rikard",
-     "pos": 4,
-     "total": 41,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "41/ 4",
-      "11": "0"
-     },
-     "target": "3D",
-     "pool": "Pulje 1"
-    },
-    {
      "club": "SVERR",
      "name": "KONRADSEN Thor Arne",
      "pos": 5,
-     "total": 26,
-     "arrows": 6,
+     "total": 42,
+     "arrows": 144,
      "tens": 1,
-     "xs": 0,
+     "xs": 1,
      "dist": {
-      "Blå": "26/ 5",
+      "Blå": "42/ 5",
       "11": "1"
      },
      "target": "2D",
      "pool": "Pulje 1"
     }
+   ]
+  },
+  {
+   "name": "Recurve Damer Under 16",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Gul",
+    "11"
    ],
-   "code": "IQBH"
+   "field": [
+    {
+     "club": "GOMA",
+     "name": "ULRIKSEN DRÅGEN Marthe-Emilie",
+     "pos": 1,
+     "total": 42,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Gul": "42/ 1",
+      "11": "1"
+     },
+     "target": "21C",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Recurve Herrer Under 16",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Gul",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "ULLEN",
+     "name": "TEIGEN Martin Mortensen",
+     "pos": 1,
+     "total": 46,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Gul": "46/ 1",
+      "11": "2"
+     },
+     "target": "21D",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Recurve Damer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "LILLE",
+     "name": "HALLE Vilde Helene",
+     "pos": 1,
+     "total": 41,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "41/ 1",
+      "11": "0"
+     },
+     "target": "19C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BREIV",
+     "name": "HENRIKSEN Stine",
+     "pos": 2,
+     "total": 28,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "28/ 2",
+      "11": "0"
+     },
+     "target": "21B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "FANA",
+     "name": "OLSEN Renate",
+     "pos": 3,
+     "total": 26,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "26/ 3",
+      "11": "0"
+     },
+     "target": "19A",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Recurve Herrer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SORUM",
+     "name": "AARHAUG Sigmund",
+     "pos": 1,
+     "total": 66,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 4,
+     "dist": {
+      "Blå": "66/ 1",
+      "11": "0"
+     },
+     "target": "20B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SKUDE",
+     "name": "HAAKONSEN Haakon",
+     "pos": 2,
+     "total": 51,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Blå": "51/ 2",
+      "11": "0"
+     },
+     "target": "20D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "TORSVIK Kristoffer",
+     "pos": 3,
+     "total": 38,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Blå": "38/ 3",
+      "11": "0"
+     },
+     "target": "20A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LILLH",
+     "name": "TRØEN Espen",
+     "pos": 4,
+     "total": 37,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Blå": "37/ 4",
+      "11": "1"
+     },
+     "target": "20C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "ULLEN",
+     "name": "TEIGEN Yngve Konrad Mortensen",
+     "pos": 5,
+     "total": 21,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "21/ 5",
+      "11": "0"
+     },
+     "target": "19B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "GOMA",
+     "name": "MAHLE Simen",
+     "pos": 6,
+     "total": 18,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "18/ 6",
+      "11": "0"
+     },
+     "target": "21A",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Compound Damer Under 16",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SVERR",
+     "name": "WIK Ella",
+     "pos": 1,
+     "total": 58,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 2,
+     "dist": {
+      "Blå": "58/ 1",
+      "11": "2"
+     },
+     "target": "12B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "NGUYEN Aurora",
+     "pos": 2,
+     "total": 50,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Blå": "50/ 2",
+      "11": "1"
+     },
+     "target": "12C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "YRJAR",
+     "name": "SKOGEN JENSSEN Thilde",
+     "pos": 3,
+     "total": 31,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Blå": "31/ 3",
+      "11": "0"
+     },
+     "target": "12A",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Compound Herrer Under 16",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Blå",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SOLOR",
+     "name": "WAALER Tobias",
+     "pos": 1,
+     "total": 51,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Blå": "51/ 1",
+      "11": "0"
+     },
+     "target": "12D",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Compound Herrer Under 18",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Rød",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SOLOR",
+     "name": "RASMUSSEN SÆTERSMOEN Edvard",
+     "pos": 1,
+     "total": 46,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Rød": "46/ 1",
+      "11": "0"
+     },
+     "target": "13A",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Compound Damer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Rød",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SOLOR",
+     "name": "BREIVIK Barbro",
+     "pos": 1,
+     "total": 57,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 3,
+     "dist": {
+      "Rød": "57/ 1",
+      "11": "1"
+     },
+     "target": "14C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "OBRIEN Meilin",
+     "pos": 2,
+     "total": 43,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Rød": "43/ 2",
+      "11": "0"
+     },
+     "target": "13B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "MØINICHEN BRANDTZÆG Janne",
+     "pos": 3,
+     "total": 40,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Rød": "40/ 3",
+      "11": "0"
+     },
+     "target": "10B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "YRJAR",
+     "name": "SCHYTTE Nathalie",
+     "pos": 4,
+     "total": 33,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Rød": "33/ 4",
+      "11": "0"
+     },
+     "target": "10A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SOLOR",
+     "name": "SÆTERSMOEN Margrethe",
+     "pos": 5,
+     "total": 25,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Rød": "25/ 5",
+      "11": "0"
+     },
+     "target": "10C",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Compound Herrer",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Rød",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SVERR",
+     "name": "RAPHAUG Petter",
+     "pos": 1,
+     "total": 80,
+     "arrows": 144,
+     "tens": 4,
+     "xs": 2,
+     "dist": {
+      "Rød": "80/ 1",
+      "11": "4"
+     },
+     "target": "6B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "HITRA",
+     "name": "OLSEN Jørgen",
+     "pos": 2,
+     "total": 78,
+     "arrows": 144,
+     "tens": 3,
+     "xs": 4,
+     "dist": {
+      "Rød": "78/ 2",
+      "11": "3"
+     },
+     "target": "6D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "SOLDAL Rune",
+     "pos": 3,
+     "total": 77,
+     "arrows": 144,
+     "tens": 3,
+     "xs": 2,
+     "dist": {
+      "Rød": "77/ 3",
+      "11": "3"
+     },
+     "target": "6C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "LAND",
+     "name": "BJØRNERUD Nils Erik",
+     "pos": 4,
+     "total": 64,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 4,
+     "dist": {
+      "Rød": "64/ 4",
+      "11": "1"
+     },
+     "target": "6A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SOLOR",
+     "name": "ØYEN Eddie Asgeir",
+     "pos": 5,
+     "total": 63,
+     "arrows": 144,
+     "tens": 3,
+     "xs": 3,
+     "dist": {
+      "Rød": "63/ 5",
+      "11": "3"
+     },
+     "target": "7D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "ROGSTAD Marius",
+     "pos": 6,
+     "total": 62,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 4,
+     "dist": {
+      "Rød": "62/ 6",
+      "11": "2"
+     },
+     "target": "7A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "YRJAR",
+     "name": "JENSSEN Håkon",
+     "pos": 7,
+     "total": 61,
+     "arrows": 144,
+     "tens": 3,
+     "xs": 2,
+     "dist": {
+      "Rød": "61/ 7",
+      "11": "3"
+     },
+     "target": "11A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "YRJAR",
+     "name": "STRANDEN John Olav",
+     "pos": 8,
+     "total": 60,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 3,
+     "dist": {
+      "Rød": "60/ 8",
+      "11": "2"
+     },
+     "target": "5B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "SÆVAREID Ole Sæbø",
+     "pos": 9,
+     "total": 59,
+     "arrows": 144,
+     "tens": 3,
+     "xs": 1,
+     "dist": {
+      "Rød": "59/ 9",
+      "11": "3"
+     },
+     "target": "5A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SANDE",
+     "name": "BØE Terje",
+     "pos": 10,
+     "total": 57,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 3,
+     "dist": {
+      "Rød": "57/10",
+      "11": "2"
+     },
+     "target": "9D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "SEKKENES Yngve",
+     "pos": 11,
+     "total": 56,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Rød": "56/11",
+      "11": "2"
+     },
+     "target": "8B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "YRJAR",
+     "name": "HAUGSETH Robin",
+     "pos": 12,
+     "total": 55,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 2,
+     "dist": {
+      "Rød": "55/12",
+      "11": "2"
+     },
+     "target": "9C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "HOLTE Ole Jørgen",
+     "pos": 13,
+     "total": 54,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 3,
+     "dist": {
+      "Rød": "54/13",
+      "11": "1"
+     },
+     "target": "9B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SOLOR",
+     "name": "HANSEN Frank",
+     "pos": 14,
+     "total": 54,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Rød": "54/14",
+      "11": "0"
+     },
+     "target": "11B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SOLOR",
+     "name": "BERG Lars",
+     "pos": 15,
+     "total": 52,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Rød": "52/15",
+      "11": "1"
+     },
+     "target": "8A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "HITRA",
+     "name": "HAUGEN Kristian Cato",
+     "pos": 16,
+     "total": 51,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Rød": "51/16",
+      "11": "2"
+     },
+     "target": "5D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "LINDAHL Marius",
+     "pos": 17,
+     "total": 49,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Rød": "49/17",
+      "11": "1"
+     },
+     "target": "5C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SANDE",
+     "name": "BØE Morten",
+     "pos": 18,
+     "total": 48,
+     "arrows": 144,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Rød": "48/18",
+      "11": "2"
+     },
+     "target": "8D",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SANDE",
+     "name": "RUSSELL ROBERTS Eirik",
+     "pos": 19,
+     "total": 48,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Rød": "48/19",
+      "11": "0"
+     },
+     "target": "7B",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "AREND",
+     "name": "LARSEN Cato",
+     "pos": 20,
+     "total": 47,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Rød": "47/20",
+      "11": "0"
+     },
+     "target": "7C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "BERGE",
+     "name": "DAHL Johan Malkenes",
+     "pos": 21,
+     "total": 41,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Rød": "41/21",
+      "11": "1"
+     },
+     "target": "11C",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SOLOR",
+     "name": "HAUGEN Ottar",
+     "pos": 22,
+     "total": 36,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Rød": "36/22",
+      "11": "1"
+     },
+     "target": "9A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "SVERR",
+     "name": "WAAGEN Geir",
+     "pos": 23,
+     "total": 36,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Rød": "36/23",
+      "11": "0"
+     },
+     "target": "11D",
+     "pool": "Pulje 1"
+    }
+   ]
+  },
+  {
+   "name": "Buejeger - Buejeger",
+   "code": "IC",
+   "team": false,
+   "official": true,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Rød",
+    "11"
+   ],
+   "field": [
+    {
+     "club": "SOLOR",
+     "name": "SÆTERSMOEN Gunnar",
+     "pos": 1,
+     "total": 58,
+     "arrows": 144,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Rød": "58/ 1",
+      "11": "0"
+     },
+     "target": "14A",
+     "pool": "Pulje 1"
+    },
+    {
+     "club": "AREND",
+     "name": "FRIVOLL Morten",
+     "pos": 2,
+     "total": 50,
+     "arrows": 144,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Rød": "50/ 2",
+      "11": "1"
+     },
+     "target": "14B",
+     "pool": "Pulje 1"
+    }
+   ]
   },
   {
    "name": "Barebow Herrer U16",
@@ -1028,66 +2498,37 @@
    ],
    "field": [
     {
-     "club": "FANA",
-     "name": "VATNE Mats Wiig",
-     "pos": 1,
-     "total": 36,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Gul": "36/ 1",
-      "11": "1"
-     },
-     "target": "4C",
-     "pool": "Pulje 1"
-    },
-    {
      "club": "KVINN",
      "name": "GUDDAL TARBERG Håkon",
-     "pos": 2,
-     "total": 33,
-     "arrows": 4,
-     "tens": 2,
+     "pos": 1,
+     "total": 61,
+     "arrows": 8,
+     "tens": 3,
      "xs": 0,
      "dist": {
-      "Gul": "33/ 2",
+      "Gul": "61/ 1",
       "11": "0"
      },
      "target": "4B",
      "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQBHU16"
-  },
-  {
-   "name": "Barebow Herrer Under 18",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
+    },
     {
-     "club": "EIDSV",
-     "name": "ARNESEN Eirik Mathias",
-     "pos": 1,
-     "total": 18,
-     "arrows": 4,
-     "tens": 0,
+     "club": "FANA",
+     "name": "VATNE Mats Wiig",
+     "pos": 2,
+     "total": 54,
+     "arrows": 8,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Blå": "18/ 1",
-      "11": "0"
+      "Gul": "54/ 2",
+      "11": "1"
      },
-     "target": "13C",
+     "target": "4C",
      "pool": "Pulje 1"
     }
    ],
-   "code": "IQBHU18"
+   "code": "IQBHU16"
   },
   {
    "name": "Buejegere",
@@ -1101,126 +2542,37 @@
    ],
    "field": [
     {
-     "club": "SOLOR",
-     "name": "SÆTERSMOEN Gunnar",
-     "pos": 1,
-     "total": 38,
-     "arrows": 4,
-     "tens": 3,
-     "xs": 0,
-     "dist": {
-      "Rød": "38/ 1",
-      "11": "0"
-     },
-     "target": "14A",
-     "pool": "Pulje 1"
-    },
-    {
      "club": "AREND",
      "name": "FRIVOLL Morten",
-     "pos": 2,
-     "total": 32,
-     "arrows": 4,
-     "tens": 0,
+     "pos": 1,
+     "total": 50,
+     "arrows": 6,
+     "tens": 1,
      "xs": 0,
      "dist": {
-      "Rød": "32/ 2",
+      "Rød": "50/ 2",
       "11": "1"
      },
      "target": "14B",
      "pool": "Pulje 1"
+    },
+    {
+     "club": "SOLOR",
+     "name": "SÆTERSMOEN Gunnar",
+     "pos": 2,
+     "total": 58,
+     "arrows": 8,
+     "tens": 3,
+     "xs": 0,
+     "dist": {
+      "Rød": "58/ 1",
+      "11": "0"
+     },
+     "target": "14A",
+     "pool": "Pulje 1"
     }
    ],
    "code": "IQBU"
-  },
-  {
-   "name": "Compound Damer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "SOLOR",
-     "name": "BREIVIK Barbro",
-     "pos": 1,
-     "total": 36,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "36/ 1",
-      "11": "0"
-     },
-     "target": "14C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "MØINICHEN BRANDTZÆG Janne",
-     "pos": 2,
-     "total": 30,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "30/ 2",
-      "11": "0"
-     },
-     "target": "10B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "OBRIEN Meilin",
-     "pos": 3,
-     "total": 28,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "28/ 3",
-      "11": "0"
-     },
-     "target": "13B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "YRJAR",
-     "name": "SCHYTTE Nathalie",
-     "pos": 4,
-     "total": 13,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "13/ 4",
-      "11": "0"
-     },
-     "target": "10A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SOLOR",
-     "name": "SÆTERSMOEN Margrethe",
-     "pos": 5,
-     "total": 10,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "10/ 5",
-      "11": "0"
-     },
-     "target": "10C",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQCD"
   },
   {
    "name": "Compound Damer U16",
@@ -1237,12 +2589,12 @@
      "club": "SVERR",
      "name": "WIK Ella",
      "pos": 1,
-     "total": 40,
-     "arrows": 4,
-     "tens": 1,
+     "total": 58,
+     "arrows": 6,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Blå": "40/ 1",
+      "Blå": "58/ 1",
       "11": "2"
      },
      "target": "12B",
@@ -1252,12 +2604,12 @@
      "club": "SVERR",
      "name": "NGUYEN Aurora",
      "pos": 2,
-     "total": 37,
-     "arrows": 4,
+     "total": 50,
+     "arrows": 6,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Blå": "37/ 2",
+      "Blå": "50/ 2",
       "11": "1"
      },
      "target": "12C",
@@ -1267,12 +2619,12 @@
      "club": "YRJAR",
      "name": "SKOGEN JENSSEN Thilde",
      "pos": 3,
-     "total": 26,
-     "arrows": 4,
+     "total": 31,
+     "arrows": 6,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Blå": "26/ 3",
+      "Blå": "31/ 3",
       "11": "0"
      },
      "target": "12A",
@@ -1280,365 +2632,6 @@
     }
    ],
    "code": "IQCDU16"
-  },
-  {
-   "name": "Compound Herrer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "SANDE",
-     "name": "BØE Terje",
-     "pos": 1,
-     "total": 42,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "42/ 1",
-      "11": "2"
-     },
-     "target": "9D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HITRA",
-     "name": "OLSEN Jørgen",
-     "pos": 1,
-     "total": 42,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "42/ 1",
-      "11": "2"
-     },
-     "target": "6D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SOLOR",
-     "name": "ØYEN Eddie Asgeir",
-     "pos": 1,
-     "total": 42,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "42/ 1",
-      "11": "2"
-     },
-     "target": "7D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "ROGSTAD Marius",
-     "pos": 1,
-     "total": 42,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "42/ 1",
-      "11": "2"
-     },
-     "target": "7A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "YRJAR",
-     "name": "STRANDEN John Olav",
-     "pos": 1,
-     "total": 42,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "42/ 1",
-      "11": "2"
-     },
-     "target": "5B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "SÆVAREID Ole Sæbø",
-     "pos": 6,
-     "total": 41,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "41/ 6",
-      "11": "3"
-     },
-     "target": "5A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "YRJAR",
-     "name": "JENSSEN Håkon",
-     "pos": 7,
-     "total": 40,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Rød": "40/ 7",
-      "11": "2"
-     },
-     "target": "11A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "SOLDAL Rune",
-     "pos": 7,
-     "total": 40,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Rød": "40/ 7",
-      "11": "2"
-     },
-     "target": "6C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LAND",
-     "name": "BJØRNERUD Nils Erik",
-     "pos": 9,
-     "total": 39,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "39/ 9",
-      "11": "1"
-     },
-     "target": "6A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "YRJAR",
-     "name": "HAUGSETH Robin",
-     "pos": 9,
-     "total": 39,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "39/ 9",
-      "11": "1"
-     },
-     "target": "9C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "HOLTE Ole Jørgen",
-     "pos": 9,
-     "total": 39,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "39/ 9",
-      "11": "1"
-     },
-     "target": "9B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "RAPHAUG Petter",
-     "pos": 9,
-     "total": 39,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "39/ 9",
-      "11": "1"
-     },
-     "target": "6B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SANDE",
-     "name": "BØE Morten",
-     "pos": 13,
-     "total": 38,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "38/13",
-      "11": "2"
-     },
-     "target": "8D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HITRA",
-     "name": "HAUGEN Kristian Cato",
-     "pos": 13,
-     "total": 38,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "38/13",
-      "11": "2"
-     },
-     "target": "5D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "SEKKENES Yngve",
-     "pos": 13,
-     "total": 38,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "38/13",
-      "11": "2"
-     },
-     "target": "8B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "DAHL Johan Malkenes",
-     "pos": 16,
-     "total": 36,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "36/16",
-      "11": "1"
-     },
-     "target": "11C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SOLOR",
-     "name": "HANSEN Frank",
-     "pos": 17,
-     "total": 36,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "36/17",
-      "11": "0"
-     },
-     "target": "11B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SOLOR",
-     "name": "BERG Lars",
-     "pos": 18,
-     "total": 34,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Rød": "34/18",
-      "11": "1"
-     },
-     "target": "8A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "LINDAHL Marius",
-     "pos": 18,
-     "total": 34,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Rød": "34/18",
-      "11": "1"
-     },
-     "target": "5C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "AREND",
-     "name": "LARSEN Cato",
-     "pos": 20,
-     "total": 31,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Rød": "31/20",
-      "11": "0"
-     },
-     "target": "7C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SANDE",
-     "name": "RUSSELL ROBERTS Eirik",
-     "pos": 21,
-     "total": 30,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Rød": "30/21",
-      "11": "0"
-     },
-     "target": "7B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SOLOR",
-     "name": "HAUGEN Ottar",
-     "pos": 22,
-     "total": 20,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "20/22",
-      "11": "0"
-     },
-     "target": "9A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "WAAGEN Geir",
-     "pos": 22,
-     "total": 20,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "20/22",
-      "11": "0"
-     },
-     "target": "11D",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQCH"
   },
   {
    "name": "Compound Herrer U16",
@@ -1655,12 +2648,12 @@
      "club": "SOLOR",
      "name": "WAALER Tobias",
      "pos": 1,
-     "total": 38,
-     "arrows": 4,
+     "total": 51,
+     "arrows": 6,
      "tens": 3,
      "xs": 0,
      "dist": {
-      "Blå": "38/ 1",
+      "Blå": "51/ 1",
       "11": "0"
      },
      "target": "12D",
@@ -1668,377 +2661,6 @@
     }
    ],
    "code": "IQCHU16"
-  },
-  {
-   "name": "Compound Herrer Under 18",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Rød",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "SOLOR",
-     "name": "RASMUSSEN SÆTERSMOEN Edvard",
-     "pos": 1,
-     "total": 23,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Rød": "23/ 1",
-      "11": "0"
-     },
-     "target": "13A",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQCHU18"
-  },
-  {
-   "name": "Langbue Damer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "SORUM",
-     "name": "JACOBSEN Therese",
-     "pos": 1,
-     "total": 48,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "48/ 1",
-      "11": "2"
-     },
-     "target": "15A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HAROY",
-     "name": "HUSE Ingunn",
-     "pos": 2,
-     "total": 39,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "39/ 2",
-      "11": "1"
-     },
-     "target": "15B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "HUUSE Bente",
-     "pos": 3,
-     "total": 36,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "36/ 3",
-      "11": "0"
-     },
-     "target": "15C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "KRIBE Vera Wivi-Ann",
-     "pos": 4,
-     "total": 21,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "21/ 4",
-      "11": "1"
-     },
-     "target": "19D",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQLD"
-  },
-  {
-   "name": "Langbue Herrer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "BREIV",
-     "name": "BALLER Frank",
-     "pos": 1,
-     "total": 50,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "50/ 1",
-      "11": "2"
-     },
-     "target": "17C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "BØRRUD Tor",
-     "pos": 2,
-     "total": 44,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "44/ 2",
-      "11": "1"
-     },
-     "target": "17D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "MOLDE",
-     "name": "HELLWIG Sven",
-     "pos": 3,
-     "total": 42,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "42/ 3",
-      "11": "1"
-     },
-     "target": "15D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HAROY",
-     "name": "HUSE Kjell Håvar",
-     "pos": 4,
-     "total": 41,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "41/ 4",
-      "11": "0"
-     },
-     "target": "17B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "SIGVARTSEN Morten",
-     "pos": 5,
-     "total": 36,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "36/ 5",
-      "11": "0"
-     },
-     "target": "18A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "SORTLAND Meho",
-     "pos": 6,
-     "total": 36,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "36/ 6",
-      "11": "0"
-     },
-     "target": "18D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "ÅLESU",
-     "name": "LANGELAND Odd Arne",
-     "pos": 7,
-     "total": 34,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "34/ 7",
-      "11": "0"
-     },
-     "target": "16B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "GUNNES Terje",
-     "pos": 8,
-     "total": 34,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "34/ 8",
-      "11": "0"
-     },
-     "target": "18C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BREIV",
-     "name": "SÆBØE-LARSSEN Jan Øivind",
-     "pos": 9,
-     "total": 28,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "28/ 9",
-      "11": "0"
-     },
-     "target": "18B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "STORRUSTEN Jo Bertoli",
-     "pos": 9,
-     "total": 28,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "28/ 9",
-      "11": "0"
-     },
-     "target": "2B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "HUUSE Gunnar",
-     "pos": 11,
-     "total": 26,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "26/11",
-      "11": "0"
-     },
-     "target": "17A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "SKINLO Arnfinn",
-     "pos": 12,
-     "total": 10,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "10/12",
-      "11": "0"
-     },
-     "target": "22B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "JENSEN Arne",
-     "pos": 13,
-     "total": 5,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "5/13",
-      "11": "0"
-     },
-     "target": "16A",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQLH"
-  },
-  {
-   "name": "Recurve Damer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "LILLE",
-     "name": "HALLE Vilde Helene",
-     "pos": 1,
-     "total": 36,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Blå": "36/ 1",
-      "11": "0"
-     },
-     "target": "19C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "FANA",
-     "name": "OLSEN Renate",
-     "pos": 2,
-     "total": 26,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "26/ 2",
-      "11": "0"
-     },
-     "target": "19A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BREIV",
-     "name": "HENRIKSEN Stine",
-     "pos": 3,
-     "total": 18,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "18/ 3",
-      "11": "0"
-     },
-     "target": "21B",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQRD"
   },
   {
    "name": "Recurve Damer U16",
@@ -2055,12 +2677,12 @@
      "club": "GOMA",
      "name": "ULRIKSEN DRÅGEN Marthe-Emilie",
      "pos": 1,
-     "total": 32,
-     "arrows": 4,
+     "total": 42,
+     "arrows": 6,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Gul": "32/ 1",
+      "Gul": "42/ 1",
       "11": "1"
      },
      "target": "21C",
@@ -2068,110 +2690,6 @@
     }
    ],
    "code": "IQRDU16"
-  },
-  {
-   "name": "Recurve Herrer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "SKUDE",
-     "name": "HAAKONSEN Haakon",
-     "pos": 1,
-     "total": 38,
-     "arrows": 4,
-     "tens": 3,
-     "xs": 0,
-     "dist": {
-      "Blå": "38/ 1",
-      "11": "0"
-     },
-     "target": "20D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SORUM",
-     "name": "AARHAUG Sigmund",
-     "pos": 2,
-     "total": 36,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Blå": "36/ 2",
-      "11": "0"
-     },
-     "target": "20B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "TORSVIK Kristoffer",
-     "pos": 3,
-     "total": 28,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Blå": "28/ 3",
-      "11": "0"
-     },
-     "target": "20A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "TRØEN Espen",
-     "pos": 4,
-     "total": 21,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "21/ 4",
-      "11": "0"
-     },
-     "target": "20C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "GOMA",
-     "name": "MAHLE Simen",
-     "pos": 5,
-     "total": 13,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "13/ 5",
-      "11": "0"
-     },
-     "target": "21A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "ULLEN",
-     "name": "TEIGEN Yngve Konrad Mortensen",
-     "pos": 5,
-     "total": 13,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "13/ 5",
-      "11": "0"
-     },
-     "target": "19B",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQRH"
   },
   {
    "name": "Recurve Herrer U16",
@@ -2188,12 +2706,12 @@
      "club": "ULLEN",
      "name": "TEIGEN Martin Mortensen",
      "pos": 1,
-     "total": 30,
-     "arrows": 4,
+     "total": 46,
+     "arrows": 6,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Gul": "30/ 1",
+      "Gul": "46/ 1",
       "11": "2"
      },
      "target": "21D",
@@ -2201,289 +2719,6 @@
     }
    ],
    "code": "IQRHU16"
-  },
-  {
-   "name": "Tradisjonell Damer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "LAND",
-     "name": "ODDEN Torunn Tafjord",
-     "pos": 1,
-     "total": 39,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "39/ 1",
-      "11": "0"
-     },
-     "target": "22C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HEGIL",
-     "name": "HERUD Linda Cathrine",
-     "pos": 2,
-     "total": 39,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "39/ 2",
-      "11": "0"
-     },
-     "target": "23C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HEGIL",
-     "name": "NERGAARD Monicha",
-     "pos": 2,
-     "total": 39,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "39/ 2",
-      "11": "0"
-     },
-     "target": "22A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "HEGIL",
-     "name": "NILSEN Elene",
-     "pos": 4,
-     "total": 25,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "25/ 6",
-      "11": "0"
-     },
-     "target": "24A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LAND",
-     "name": "SANDBURG Kerstin",
-     "pos": 5,
-     "total": 34,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "34/ 4",
-      "11": "0"
-     },
-     "target": "23B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "DRAMM",
-     "name": "HALDORHAMN Hilde Marie",
-     "pos": 6,
-     "total": 34,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "34/ 5",
-      "11": "0"
-     },
-     "target": "23A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "STORESUND Kathrine",
-     "pos": 7,
-     "total": 25,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "25/ 6",
-      "11": "0"
-     },
-     "target": "22D",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQTD"
-  },
-  {
-   "name": "Tradisjonell Herrer",
-   "team": false,
-   "official": false,
-   "fieldScoring": true,
-   "totalArrows": 144,
-   "distances": [
-    "Blå",
-    "11"
-   ],
-   "field": [
-    {
-     "club": "SORUM",
-     "name": "HARBITZ Stian",
-     "pos": 1,
-     "total": 39,
-     "arrows": 4,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Blå": "39/ 5",
-      "11": "1"
-     },
-     "target": "24C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "BERGE",
-     "name": "ENGELSEN Rune",
-     "pos": 2,
-     "total": 251,
-     "arrows": 26,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "251/ 1",
-      "11": "20"
-     },
-     "target": "25C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "KVINN",
-     "name": "BAKKE Terje",
-     "pos": 3,
-     "total": 56,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Blå": "56/ 2",
-      "11": "2"
-     },
-     "target": "16C",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "KVINN",
-     "name": "HOLMEDAL Hans Einar",
-     "pos": 4,
-     "total": 48,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "48/ 3",
-      "11": "1"
-     },
-     "target": "23D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LAUGE",
-     "name": "HAGERUP Trond",
-     "pos": 5,
-     "total": 29,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "29/ 6",
-      "11": "0"
-     },
-     "target": "24B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "FJORD",
-     "name": "STORØIEN Bjørn",
-     "pos": 5,
-     "total": 29,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "29/ 6",
-      "11": "0"
-     },
-     "target": "25B",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LAND",
-     "name": "ODDEN Asle Morten",
-     "pos": 7,
-     "total": 43,
-     "arrows": 6,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "43/ 4",
-      "11": "1"
-     },
-     "target": "16D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "BJØRKHAUG Bjørn-Erik",
-     "pos": 8,
-     "total": 18,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "18/ 8",
-      "11": "0"
-     },
-     "target": "25A",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "SVERR",
-     "name": "BOJESEN-HELGETON Morten",
-     "pos": 8,
-     "total": 18,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "18/ 8",
-      "11": "0"
-     },
-     "target": "25D",
-     "pool": "Pulje 1"
-    },
-    {
-     "club": "LILLH",
-     "name": "SUSTAD Øystein",
-     "pos": 10,
-     "total": 15,
-     "arrows": 4,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Blå": "15/10",
-      "11": "0"
-     },
-     "target": "24D",
-     "pool": "Pulje 1"
-    }
-   ],
-   "code": "IQTH"
   },
   {
    "name": "Lag (lag)",
@@ -2499,24 +2734,39 @@
      "club": "BERGE",
      "name": "Lag",
      "pos": 1,
-     "total": 317,
-     "arrows": 36,
-     "tens": 1,
+     "total": 341,
+     "arrows": 40,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "11": "23"
+      "11": "24"
      },
      "members": "STORESUND Kathrine, ENGELSEN Rune, SÆVAREID Ole Sæbø",
      "target": "",
      "pool": ""
     },
     {
-     "club": "SORUM",
+     "club": "LAND",
      "name": "Lag",
      "pos": 2,
-     "total": 316,
-     "arrows": 36,
-     "tens": 4,
+     "total": 297,
+     "arrows": 40,
+     "tens": 6,
+     "xs": 0,
+     "dist": {
+      "11": "2"
+     },
+     "members": "ODDEN Torunn Tafjord, BJØRNERUD Nils Erik, ODDEN Asle Morten",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "SORUM",
+     "name": "Lag",
+     "pos": 3,
+     "total": 340,
+     "arrows": 40,
+     "tens": 7,
      "xs": 0,
      "dist": {
       "11": "3"
@@ -2528,10 +2778,10 @@
     {
      "club": "SVERR",
      "name": "Lag 1",
-     "pos": 3,
-     "total": 274,
-     "arrows": 36,
-     "tens": 4,
+     "pos": 4,
+     "total": 305,
+     "arrows": 40,
+     "tens": 6,
      "xs": 0,
      "dist": {
       "11": "2"
@@ -2541,26 +2791,11 @@
      "pool": ""
     },
     {
-     "club": "LAND",
-     "name": "Lag",
-     "pos": 4,
-     "total": 272,
-     "arrows": 36,
-     "tens": 3,
-     "xs": 0,
-     "dist": {
-      "11": "2"
-     },
-     "members": "ODDEN Torunn Tafjord, BJØRNERUD Nils Erik, ODDEN Asle Morten",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "GOMA",
      "name": "Lag",
      "pos": 5,
-     "total": 256,
-     "arrows": 36,
+     "total": 267,
+     "arrows": 40,
      "tens": 2,
      "xs": 0,
      "dist": {
@@ -2571,17 +2806,17 @@
      "pool": ""
     },
     {
-     "club": "BREIV",
-     "name": "Lag",
+     "club": "SVERR",
+     "name": "Lag 2",
      "pos": 6,
-     "total": 216,
-     "arrows": 36,
-     "tens": 2,
+     "total": 264,
+     "arrows": 40,
+     "tens": 3,
      "xs": 0,
      "dist": {
-      "11": "2"
+      "11": "5"
      },
-     "members": "HENRIKSEN Stine, BALLER Frank, SÆBØE-LARSSEN Jan Øivind",
+     "members": "BOJESEN-HELGETON Morten, KONRADSEN Thor Arne, RAPHAUG Petter",
      "target": "",
      "pool": ""
     },
@@ -2589,29 +2824,29 @@
      "club": "LILLH",
      "name": "Lag",
      "pos": 7,
-     "total": 209,
-     "arrows": 36,
-     "tens": 1,
+     "total": 260,
+     "arrows": 40,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "11": "0"
+      "11": "2"
      },
      "members": "HUUSE Bente, SORTLAND Meho, TRØEN Espen",
      "target": "",
      "pool": ""
     },
     {
-     "club": "SVERR",
-     "name": "Lag 2",
+     "club": "BREIV",
+     "name": "Lag",
      "pos": 8,
-     "total": 216,
-     "arrows": 36,
-     "tens": 2,
+     "total": 211,
+     "arrows": 40,
+     "tens": 3,
      "xs": 0,
      "dist": {
-      "11": "3"
+      "11": "2"
      },
-     "members": "WIK Ella, BOJESEN-HELGETON Morten, KONRADSEN Thor Arne",
+     "members": "HENRIKSEN Stine, BALLER Frank, SÆBØE-LARSSEN Jan Øivind",
      "target": "",
      "pool": ""
     }
