@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T15:07:11Z",
+ "generated": "2026-09-12T15:18:01Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -11,7 +11,7 @@
  "defaultClub": "LILLH",
  "files": {
   "TFLag": "2026-09-12 13:19:21",
-  "TBLag": "2026-09-12 14:58:09",
+  "TBLag": "2026-09-12 15:07:51",
   "IQBDU16": "2026-09-12 13:04:58",
   "IQBHU16": "2026-09-12 13:06:06",
   "IQRDU16": "2026-09-12 12:58:12",
@@ -2872,7 +2872,7 @@
         "name": "Sørumsand IF - Bueskyttergrupp",
         "club": "SORUM",
         "members": "AARHAUG Sigmund, HARBITZ Stian, SIGVARTSEN Morten",
-        "score": "73",
+        "score": "101",
         "bye": false,
         "so": "",
         "target": "",
@@ -2880,7 +2880,8 @@
         "sets": [
          "26",
          "23",
-         "24"
+         "24",
+         "28"
         ]
        },
        "b": {
@@ -2888,7 +2889,7 @@
         "name": "Breivoll Bueskytterklubb",
         "club": "BREIV",
         "members": "HENRIKSEN Stine, BALLER Frank, SÆBØE-LARSSEN Jan Øivind",
-        "score": "51",
+        "score": "66",
         "bye": false,
         "so": "",
         "target": "",
@@ -2896,7 +2897,8 @@
         "sets": [
          "18",
          "15",
-         "18"
+         "18",
+         "15"
         ]
        }
       },
@@ -2907,14 +2909,15 @@
         "name": "Lillehammer Bueskytterklubb",
         "club": "LILLH",
         "members": "HUUSE Bente, SUSTAD Øystein, TRØEN Espen",
-        "score": "33",
+        "score": "64",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "13",
-         "20"
+         "20",
+         "31"
         ]
        },
        "b": {
@@ -2922,14 +2925,15 @@
         "name": "Sverresborg Bueskyttere (2)",
         "club": "SVERR",
         "members": "GUNNES Terje, KONRADSEN Thor Arne, RAPHAUG Petter",
-        "score": "44",
+        "score": "69",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "21",
-         "23"
+         "23",
+         "25"
         ]
        }
       },
@@ -2940,13 +2944,14 @@
         "name": "Sverresborg Bueskyttere",
         "club": "SVERR",
         "members": "BLIKFELDT Tonje, BOJESEN-HELGETON Morten, ROGSTAD Marius",
-        "score": "26",
+        "score": "50",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "26"
+         "26",
+         "24"
         ]
        },
        "b": {
@@ -2954,13 +2959,14 @@
         "name": "Bergen Bueskyttere",
         "club": "BERGE",
         "members": "STORESUND Kathrine, ENGELSEN Rune, SOLDAL Rune",
-        "score": "24",
+        "score": "40",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "24"
+         "24",
+         "16"
         ]
        }
       },
@@ -2971,29 +2977,35 @@
         "name": "IL Goma - Bueskyting",
         "club": "GOMA",
         "members": "BETTEN Monica Edrikke, MAHLE Simen, MEISAL PEDERSEN Ivar Jarl",
-        "score": "",
+        "score": "8",
         "bye": false,
         "so": "",
-        "target": "7",
-        "when": "12-09-2026 16:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "8"
+        ]
        },
        "b": {
         "label": null,
         "name": "Land Bueskytterklubb",
         "club": "LAND",
         "members": "ODDEN Torunn Tafjord, BJØRNERUD Nils Erik, ODDEN Asle Morten",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "8",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "16"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBLag",
-   "updated": "2026-09-12 14:58:09"
+   "updated": "2026-09-12 15:07:51"
   }
  ]
 }
