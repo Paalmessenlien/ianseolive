@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T15:40:17Z",
+ "generated": "2026-09-12T15:52:10Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -11,7 +11,7 @@
  "defaultClub": "LILLH",
  "files": {
   "TFLag": "2026-09-12 15:33:56",
-  "TBLag": "2026-09-12 15:33:56",
+  "TBLag": "2026-09-12 15:47:14",
   "IQBDU16": "2026-09-12 13:04:58",
   "IQBHU16": "2026-09-12 13:06:06",
   "IQRDU16": "2026-09-12 12:58:12",
@@ -3025,22 +3025,30 @@
         "name": "Sørumsand IF - Bueskyttergrupp",
         "club": "SORUM",
         "members": "",
-        "score": "",
+        "score": "44",
         "bye": false,
         "so": "",
-        "target": "1",
-        "when": "12-09-2026 17:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "26",
+         "18"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sverresborg Bueskyttere (2)",
         "club": "SVERR",
         "members": "",
-        "score": "",
+        "score": "52",
         "bye": false,
         "so": "",
-        "target": "2",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "26",
+         "26"
+        ]
        }
       },
       {
@@ -3050,29 +3058,35 @@
         "name": "Sverresborg Bueskyttere",
         "club": "SVERR",
         "members": "",
-        "score": "",
+        "score": "26",
         "bye": false,
         "so": "",
-        "target": "3",
-        "when": "12-09-2026 17:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "26"
+        ]
        },
        "b": {
         "label": null,
         "name": "Land Bueskytterklubb",
         "club": "LAND",
         "members": "",
-        "score": "",
+        "score": "23",
         "bye": false,
         "so": "",
-        "target": "4",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "23"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBLag",
-   "updated": "2026-09-12 15:33:56"
+   "updated": "2026-09-12 15:47:14"
   }
  ]
 }
