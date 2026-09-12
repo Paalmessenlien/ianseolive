@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T15:18:01Z",
+ "generated": "2026-09-12T15:22:10Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -10,8 +10,8 @@
  },
  "defaultClub": "LILLH",
  "files": {
-  "TFLag": "2026-09-12 13:19:21",
-  "TBLag": "2026-09-12 15:07:51",
+  "TFLag": "2026-09-12 15:11:04",
+  "TBLag": "2026-09-12 15:16:24",
   "IQBDU16": "2026-09-12 13:04:58",
   "IQBHU16": "2026-09-12 13:06:06",
   "IQRDU16": "2026-09-12 12:58:12",
@@ -2909,7 +2909,7 @@
         "name": "Lillehammer Bueskytterklubb",
         "club": "LILLH",
         "members": "HUUSE Bente, SUSTAD Øystein, TRØEN Espen",
-        "score": "64",
+        "score": "86",
         "bye": false,
         "so": "",
         "target": "",
@@ -2917,7 +2917,8 @@
         "sets": [
          "13",
          "20",
-         "31"
+         "29",
+         "24"
         ]
        },
        "b": {
@@ -2925,7 +2926,7 @@
         "name": "Sverresborg Bueskyttere (2)",
         "club": "SVERR",
         "members": "GUNNES Terje, KONRADSEN Thor Arne, RAPHAUG Petter",
-        "score": "69",
+        "score": "88",
         "bye": false,
         "so": "",
         "target": "",
@@ -2933,7 +2934,8 @@
         "sets": [
          "21",
          "23",
-         "25"
+         "25",
+         "19"
         ]
        }
       },
@@ -2944,14 +2946,15 @@
         "name": "Sverresborg Bueskyttere",
         "club": "SVERR",
         "members": "BLIKFELDT Tonje, BOJESEN-HELGETON Morten, ROGSTAD Marius",
-        "score": "50",
+        "score": "80",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "26",
-         "24"
+         "24",
+         "30"
         ]
        },
        "b": {
@@ -2959,14 +2962,15 @@
         "name": "Bergen Bueskyttere",
         "club": "BERGE",
         "members": "STORESUND Kathrine, ENGELSEN Rune, SOLDAL Rune",
-        "score": "40",
+        "score": "64",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "24",
-         "16"
+         "16",
+         "24"
         ]
        }
       },
@@ -2977,13 +2981,14 @@
         "name": "IL Goma - Bueskyting",
         "club": "GOMA",
         "members": "BETTEN Monica Edrikke, MAHLE Simen, MEISAL PEDERSEN Ivar Jarl",
-        "score": "8",
+        "score": "18",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "8"
+         "8",
+         "10"
         ]
        },
        "b": {
@@ -2991,21 +2996,77 @@
         "name": "Land Bueskytterklubb",
         "club": "LAND",
         "members": "ODDEN Torunn Tafjord, BJØRNERUD Nils Erik, ODDEN Asle Morten",
-        "score": "16",
+        "score": "36",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "16"
+         "16",
+         "20"
         ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Sørumsand IF - Bueskyttergrupp",
+        "club": "SORUM",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1",
+        "when": "12-09-2026 17:15"
+       },
+       "b": {
+        "label": null,
+        "name": "Sverresborg Bueskyttere (2)",
+        "club": "SVERR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "2",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Sverresborg Bueskyttere",
+        "club": "SVERR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "3",
+        "when": "12-09-2026 17:15"
+       },
+       "b": {
+        "label": null,
+        "name": "Land Bueskytterklubb",
+        "club": "LAND",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "4",
+        "when": ""
        }
       }
      ]
     }
    ],
    "code": "TBLag",
-   "updated": "2026-09-12 15:07:51"
+   "updated": "2026-09-12 15:16:24"
   }
  ]
 }
