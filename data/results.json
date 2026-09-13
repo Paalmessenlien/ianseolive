@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T12:22:11Z",
+ "generated": "2026-09-13T12:28:27Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -11,45 +11,45 @@
  "defaultClub": "LILLH",
  "files": {
   "IFBDU16": "2026-09-13 10:15:41",
-  "IFBHU16": "2026-09-13 10:15:53",
+  "IFBHU16": "2026-09-13 12:25:12",
   "IFRDU16": "2026-09-13 10:16:07",
-  "IFCDU16": "2026-09-13 11:11:45",
+  "IFCDU16": "2026-09-13 12:25:25",
   "IFRHU16": "2026-09-13 10:16:41",
   "IFCHU16": "2026-09-13 10:16:52",
   "IFBDU18": "2026-09-13 10:17:19",
   "IFBHU18": "2026-09-13 10:17:32",
   "IFCHU18": "2026-09-13 10:17:26",
-  "IFBD": "2026-09-13 12:18:16",
-  "IFTD": "2026-09-13 11:33:06",
-  "IFLD": "2026-09-13 12:00:39",
-  "IFRD": "2026-09-13 11:52:22",
-  "IFCD": "2026-09-13 12:16:52",
-  "IFBH": "2026-09-13 11:28:02",
-  "IFTH": "2026-09-13 11:43:59",
-  "IFLH": "2026-09-13 11:56:14",
-  "IFRH": "2026-09-13 12:05:18",
-  "IFCH": "2026-09-13 12:19:39",
+  "IFBD": "2026-09-13 12:25:43",
+  "IFTD": "2026-09-13 12:25:43",
+  "IFLD": "2026-09-13 12:25:43",
+  "IFRD": "2026-09-13 12:25:43",
+  "IFCD": "2026-09-13 12:25:43",
+  "IFBH": "2026-09-13 12:25:25",
+  "IFTH": "2026-09-13 12:25:26",
+  "IFLH": "2026-09-13 12:25:26",
+  "IFRH": "2026-09-13 12:25:26",
+  "IFCH": "2026-09-13 12:25:43",
   "IFBU": "2026-09-13 10:15:45",
   "TFLag": "2026-09-13 06:31:49",
   "IBBDU16": "2026-09-13 12:15:41",
-  "IBBHU16": "2026-09-13 12:12:46",
+  "IBBHU16": "2026-09-13 12:25:12",
   "IBRDU16": "2026-09-13 12:16:07",
-  "IBCDU16": "2026-09-13 11:11:45",
+  "IBCDU16": "2026-09-13 12:25:49",
   "IBRHU16": "2026-09-13 12:16:41",
   "IBCHU16": "2026-09-13 12:16:52",
   "IBBDU18": "2026-09-13 12:17:19",
   "IBBHU18": "2026-09-13 12:17:32",
   "IBCHU18": "2026-09-13 12:17:26",
-  "IBBD": "2026-09-13 12:18:16",
-  "IBTD": "2026-09-13 12:20:20",
-  "IBLD": "2026-09-13 12:00:39",
-  "IBRD": "2026-09-13 11:52:22",
-  "IBCD": "2026-09-13 12:16:52",
-  "IBBH": "2026-09-13 11:28:02",
-  "IBTH": "2026-09-13 11:43:59",
-  "IBLH": "2026-09-13 11:56:14",
-  "IBRH": "2026-09-13 12:05:18",
-  "IBCH": "2026-09-13 12:19:39",
+  "IBBD": "2026-09-13 12:25:43",
+  "IBTD": "2026-09-13 12:25:43",
+  "IBLD": "2026-09-13 12:25:43",
+  "IBRD": "2026-09-13 12:25:43",
+  "IBCD": "2026-09-13 12:25:43",
+  "IBBH": "2026-09-13 12:25:25",
+  "IBTH": "2026-09-13 12:25:26",
+  "IBLH": "2026-09-13 12:25:26",
+  "IBRH": "2026-09-13 12:25:26",
+  "IBCH": "2026-09-13 12:25:43",
   "IBBU": "2026-09-13 10:15:45",
   "TBLag": "2026-09-13 06:31:49",
   "IEBDU16": "2026-09-13 10:06:13",
@@ -4215,7 +4215,7 @@
     }
    ],
    "code": "IBBD",
-   "updated": "2026-09-13 12:18:16"
+   "updated": "2026-09-13 12:25:43"
   },
   {
    "name": "Barebow Herrer",
@@ -4314,7 +4314,10 @@
         "bye": false,
         "so": "",
         "target": "4A",
-        "when": "13-09-2026 12:45"
+        "when": "13-09-2026 12:45",
+        "sets": [
+         "8"
+        ]
        },
        "b": {
         "label": null,
@@ -4325,7 +4328,10 @@
         "bye": false,
         "so": "",
         "target": "4B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "5"
+        ]
        }
       },
       {
@@ -4335,21 +4341,21 @@
         "name": "Konradsen Thor Arne",
         "club": "SVERR",
         "members": "",
-        "score": "",
+        "score": "8",
         "bye": false,
         "so": "",
-        "target": "3A",
-        "when": "13-09-2026 12:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Granum Aksel",
         "club": "BÆRUM",
         "members": "",
-        "score": "",
+        "score": "5",
         "bye": false,
         "so": "",
-        "target": "3B",
+        "target": "",
         "when": ""
        }
       }
@@ -4357,7 +4363,7 @@
     }
    ],
    "code": "IBBH",
-   "updated": "2026-09-13 11:28:02"
+   "updated": "2026-09-13 12:25:25"
   },
   {
    "name": "Barebow Herrer U16",
@@ -4373,12 +4379,15 @@
         "name": "Guddal Tarberg Håkon",
         "club": "KVINN",
         "members": "",
-        "score": "8",
+        "score": "31",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "8",
+         "5",
+         "10",
          "8"
         ]
        },
@@ -4387,13 +4396,16 @@
         "name": "Vatne Mats Wiig",
         "club": "FANA",
         "members": "",
-        "score": "11",
+        "score": "27",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "11"
+         "11",
+         "-",
+         "8",
+         "8"
         ]
        }
       }
@@ -4401,7 +4413,7 @@
     }
    ],
    "code": "IBBHU16",
-   "updated": "2026-09-13 12:12:46"
+   "updated": "2026-09-13 12:25:12"
   },
   {
    "name": "Buejegere",
@@ -4581,7 +4593,7 @@
     }
    ],
    "code": "IBCD",
-   "updated": "2026-09-13 12:16:52"
+   "updated": "2026-09-13 12:25:43"
   },
   {
    "name": "Compound Damer U16",
@@ -4639,29 +4651,37 @@
         "name": "Wik Ella",
         "club": "SVERR",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "2A",
-        "when": "13-09-2026 12:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "5"
+        ]
        },
        "b": {
         "label": null,
         "name": "Nguyen Aurora",
         "club": "SVERR",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "2B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "5",
+         "10"
+        ]
        }
       }
      ]
     }
    ],
    "code": "IBCDU16",
-   "updated": "2026-09-13 11:11:45"
+   "updated": "2026-09-13 12:25:49"
   },
   {
    "name": "Compound Herrer",
@@ -4714,14 +4734,16 @@
         "name": "Rogstad Marius",
         "club": "SVERR",
         "members": "",
-        "score": "18",
+        "score": "37",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "10",
-         "8"
+         "8",
+         "8",
+         "11"
         ]
        },
        "b": {
@@ -4729,13 +4751,15 @@
         "name": "Soldal Rune",
         "club": "BERGE",
         "members": "",
-        "score": "18",
+        "score": "31",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "10",
+         "8",
+         "5",
          "8"
         ]
        }
@@ -4760,8 +4784,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Rogstad Marius",
+        "club": "SVERR",
         "members": "",
         "score": "",
         "bye": false,
@@ -4785,8 +4809,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Soldal Rune",
+        "club": "BERGE",
         "members": "",
         "score": "",
         "bye": false,
@@ -4799,7 +4823,7 @@
     }
    ],
    "code": "IBCH",
-   "updated": "2026-09-13 12:19:39"
+   "updated": "2026-09-13 12:25:43"
   },
   {
    "name": "Langbue Damer",
@@ -4894,29 +4918,35 @@
         "name": "Huse Ingunn",
         "club": "HAROY",
         "members": "",
-        "score": "",
+        "score": "5",
         "bye": false,
         "so": "",
-        "target": "16A",
-        "when": "13-09-2026 12:46"
+        "target": "",
+        "when": "",
+        "sets": [
+         "5"
+        ]
        },
        "b": {
         "label": null,
         "name": "Kribe Vera Wivi-Ann",
         "club": "SORUM",
         "members": "",
-        "score": "",
+        "score": "10",
         "bye": false,
         "so": "",
-        "target": "16B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10"
+        ]
        }
       }
      ]
     }
    ],
    "code": "IBLD",
-   "updated": "2026-09-13 12:00:39"
+   "updated": "2026-09-13 12:25:43"
   },
   {
    "name": "Langbue Herrer",
@@ -5058,7 +5088,7 @@
     }
    ],
    "code": "IBLH",
-   "updated": "2026-09-13 11:56:14"
+   "updated": "2026-09-13 12:25:26"
   },
   {
    "name": "Recurve Damer",
@@ -5138,7 +5168,7 @@
     }
    ],
    "code": "IBRD",
-   "updated": "2026-09-13 11:52:22"
+   "updated": "2026-09-13 12:25:43"
   },
   {
    "name": "Recurve Herrer",
@@ -5280,7 +5310,7 @@
     }
    ],
    "code": "IBRH",
-   "updated": "2026-09-13 12:05:18"
+   "updated": "2026-09-13 12:25:26"
   },
   {
    "name": "Tradisjonell Damer",
@@ -5375,7 +5405,7 @@
         "name": "Nergaard Monicha",
         "club": "HEGIL",
         "members": "",
-        "score": "27",
+        "score": "35",
         "bye": false,
         "so": "",
         "target": "",
@@ -5383,7 +5413,8 @@
         "sets": [
          "8",
          "8",
-         "11"
+         "11",
+         "8"
         ]
        },
        "b": {
@@ -5391,13 +5422,15 @@
         "name": "Haldorhamn Hilde Marie",
         "club": "DRAMM",
         "members": "",
-        "score": "5",
+        "score": "20",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "-",
+         "5",
+         "10",
          "5"
         ]
        }
@@ -5409,7 +5442,7 @@
         "name": "Nilsen Elene",
         "club": "HEGIL",
         "members": "",
-        "score": "24",
+        "score": "32",
         "bye": false,
         "so": "",
         "target": "",
@@ -5417,7 +5450,8 @@
         "sets": [
          "5",
          "8",
-         "11"
+         "11",
+         "8"
         ]
        },
        "b": {
@@ -5433,7 +5467,8 @@
         "sets": [
          "8",
          "5",
-         "5"
+         "5",
+         "-"
         ]
        }
       }
@@ -5441,7 +5476,7 @@
     }
    ],
    "code": "IBTD",
-   "updated": "2026-09-13 12:20:20"
+   "updated": "2026-09-13 12:25:43"
   },
   {
    "name": "Tradisjonell Herrer",
@@ -5583,7 +5618,7 @@
     }
    ],
    "code": "IBTH",
-   "updated": "2026-09-13 11:43:59"
+   "updated": "2026-09-13 12:25:26"
   },
   {
    "name": "Lag (lag)",
