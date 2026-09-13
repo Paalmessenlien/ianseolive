@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T12:52:20Z",
+ "generated": "2026-09-13T12:55:23Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -23,7 +23,7 @@
   "IFTD": "2026-09-13 12:25:43",
   "IFLD": "2026-09-13 12:38:30",
   "IFRD": "2026-09-13 12:43:06",
-  "IFCD": "2026-09-13 12:49:37",
+  "IFCD": "2026-09-13 12:51:32",
   "IFBH": "2026-09-13 12:43:21",
   "IFTH": "2026-09-13 12:47:03",
   "IFLH": "2026-09-13 12:25:26",
@@ -44,13 +44,13 @@
   "IBTD": "2026-09-13 12:25:43",
   "IBLD": "2026-09-13 12:38:30",
   "IBRD": "2026-09-13 12:43:06",
-  "IBCD": "2026-09-13 12:49:37",
+  "IBCD": "2026-09-13 12:51:32",
   "IBBH": "2026-09-13 12:43:21",
-  "IBTH": "2026-09-13 12:47:03",
-  "IBLH": "2026-09-13 12:46:42",
+  "IBTH": "2026-09-13 12:50:50",
+  "IBLH": "2026-09-13 12:51:05",
   "IBRH": "2026-09-13 12:25:26",
-  "IBCH": "2026-09-13 12:25:43",
-  "IBBU": "2026-09-13 12:47:22",
+  "IBCH": "2026-09-13 12:51:40",
+  "IBBU": "2026-09-13 12:51:30",
   "TBLag": "2026-09-13 06:31:49",
   "IEBDU16": "2026-09-13 10:06:13",
   "IEBHU16": "2026-09-13 10:06:13",
@@ -4447,13 +4447,14 @@
         "name": "Sætersmoen Gunnar",
         "club": "SOLOR",
         "members": "",
-        "score": "5",
+        "score": "15",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "5"
+         "5",
+         "10"
         ]
        },
        "b": {
@@ -4461,12 +4462,13 @@
         "name": "Frivoll Morten",
         "club": "AREND",
         "members": "",
-        "score": "8",
+        "score": "16",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "8",
          "8"
         ]
        }
@@ -4475,7 +4477,7 @@
     }
    ],
    "code": "IBBU",
-   "updated": "2026-09-13 12:47:22"
+   "updated": "2026-09-13 12:51:30"
   },
   {
    "name": "Compound Damer",
@@ -4578,7 +4580,8 @@
         "sets": [
          "8",
          "5",
-         "8"
+         "8",
+         "-"
         ]
        },
        "b": {
@@ -4586,7 +4589,7 @@
         "name": "Møinichen Brandtzæg Janne",
         "club": "BERGE",
         "members": "",
-        "score": "21",
+        "score": "26",
         "bye": false,
         "so": "",
         "target": "",
@@ -4594,7 +4597,8 @@
         "sets": [
          "5",
          "8",
-         "8"
+         "8",
+         "5"
         ]
        }
       },
@@ -4639,7 +4643,7 @@
     }
    ],
    "code": "IBCD",
-   "updated": "2026-09-13 12:49:37"
+   "updated": "2026-09-13 12:51:32"
   },
   {
    "name": "Compound Damer U16",
@@ -4830,7 +4834,10 @@
         "bye": false,
         "so": "",
         "target": "22A",
-        "when": "13-09-2026 12:46"
+        "when": "13-09-2026 12:46",
+        "sets": [
+         "8"
+        ]
        },
        "b": {
         "label": null,
@@ -4841,7 +4848,10 @@
         "bye": false,
         "so": "",
         "target": "22B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "10"
+        ]
        }
       },
       {
@@ -4851,21 +4861,21 @@
         "name": "Hansen Frank",
         "club": "SOLOR",
         "members": "",
-        "score": "",
+        "score": "8",
         "bye": false,
         "so": "",
-        "target": "21A",
-        "when": "13-09-2026 12:46"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Soldal Rune",
         "club": "BERGE",
         "members": "",
-        "score": "",
+        "score": "10",
         "bye": false,
         "so": "",
-        "target": "21B",
+        "target": "",
         "when": ""
        }
       }
@@ -4873,7 +4883,7 @@
     }
    ],
    "code": "IBCH",
-   "updated": "2026-09-13 12:25:43"
+   "updated": "2026-09-13 12:51:40"
   },
   {
    "name": "Langbue Damer",
@@ -5097,12 +5107,13 @@
         "name": "Sigvartsen Morten",
         "club": "SORUM",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "8A",
-        "when": "13-09-2026 12:45",
+        "target": "",
+        "when": "",
         "sets": [
+         "5",
          "5"
         ]
        },
@@ -5111,13 +5122,14 @@
         "name": "Langeland Odd Arne",
         "club": "ÅLESU",
         "members": "",
-        "score": "",
+        "score": "10",
         "bye": false,
         "so": "",
-        "target": "8B",
+        "target": "",
         "when": "",
         "sets": [
-         "-"
+         "-",
+         "5"
         ]
        }
       },
@@ -5128,7 +5140,7 @@
         "name": "Sortland Meho",
         "club": "LILLH",
         "members": "",
-        "score": "5",
+        "score": "10",
         "bye": false,
         "so": "",
         "target": "",
@@ -5139,7 +5151,7 @@
         "name": "Baller Frank",
         "club": "BREIV",
         "members": "",
-        "score": "0",
+        "score": "5",
         "bye": false,
         "so": "",
         "target": "",
@@ -5150,7 +5162,7 @@
     }
    ],
    "code": "IBLH",
-   "updated": "2026-09-13 12:46:42"
+   "updated": "2026-09-13 12:51:05"
   },
   {
    "name": "Recurve Damer",
@@ -5652,7 +5664,8 @@
         "when": "",
         "sets": [
          "11",
-         "5"
+         "5",
+         "-"
         ]
        },
        "b": {
@@ -5660,13 +5673,14 @@
         "name": "Odden Asle Morten",
         "club": "LAND",
         "members": "",
-        "score": "18",
+        "score": "28",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "8",
+         "10",
          "10"
         ]
        }
@@ -5712,7 +5726,7 @@
     }
    ],
    "code": "IBTH",
-   "updated": "2026-09-13 12:47:03"
+   "updated": "2026-09-13 12:50:50"
   },
   {
    "name": "Lag (lag)",
