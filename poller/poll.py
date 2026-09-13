@@ -39,13 +39,14 @@ OUT_FILE = ROOT / "data" / "results.json"
 # File codes that are not archer-result pages
 SKIP_CODES = {"STC", "STE", "FOP", "SCHEDULE"}
 ROSTER_CODE = "ENC"  # entries grouped by club
-RANK_PREFIXES = ("IQ", "TQ")  # qualification rankings (individual/team)
+RANK_PREFIXES = ("IQ", "TQ", "IE")  # kvalik (individual/team) + eliminasjonsrunde
 BRACKET_PREFIXES = ("IB", "TB")  # elimination brackets (individual/team)
 # Non-distance columns, English and Norwegian ianseo templates
 FIXED_COLS = {
-    "Pos.", "Athlete", "Country", "Tot.", "X", "10",
+    "Pos.", "Athlete", "Country", "Tot.", "X", "10", "11",
     "Pl.", "Skytter", "Skyttere", "Klubb", "Tot. dist.", "Totalt", "10+X", "SO/CT",
     "Snitt", "Piler", "6", "5",  # felt: snitt, pil-antall og 6/5-telling
+    "Skive", "Klasse", "SO",  # 3D/elim: blink, klasse og shoot-off-markør
 }
 HEADER_MARKERS = ("Pos.", "Athlete", "Pl.", "Skytter")
 
@@ -371,7 +372,7 @@ def parse_rank_page(page: str, code: str) -> dict:
                 "total": total,
                 "arrows": arrows,
                 "tens": to_int(first(row, "10", "10+X", "6")),
-                "xs": to_int(row.get("X", "") or row.get("5", "")),
+                "xs": to_int(row.get("X", "") or row.get("5", "") or row.get("11", "")),
                 "dist": dist,
             }
         )
@@ -514,6 +515,8 @@ def main() -> int:
         elif is_rank:
             cls = parse_rank_page(page, code)
             if cls and cls["field"]:
+                if code.startswith("IE"):
+                    cls["name"] += " (elim)"  # skill eliminasjonsrunden fra kvalikken
                 cls["code"] = code
                 classes.append(cls)
         else:
