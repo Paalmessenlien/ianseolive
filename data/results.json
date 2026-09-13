@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T11:55:43Z",
+ "generated": "2026-09-13T12:07:20Z",
  "tournament": {
   "toId": "29536",
   "name": "NM 3D 2026",
@@ -21,13 +21,13 @@
   "IFCHU18": "2026-09-13 10:17:26",
   "IFBD": "2026-09-13 11:20:30",
   "IFTD": "2026-09-13 11:33:06",
-  "IFLD": "2026-09-13 11:45:34",
+  "IFLD": "2026-09-13 12:00:39",
   "IFRD": "2026-09-13 11:52:22",
   "IFCD": "2026-09-13 10:16:38",
   "IFBH": "2026-09-13 11:28:02",
   "IFTH": "2026-09-13 11:43:59",
-  "IFLH": "2026-09-13 11:51:45",
-  "IFRH": "2026-09-13 10:17:22",
+  "IFLH": "2026-09-13 11:56:14",
+  "IFRH": "2026-09-13 12:05:18",
   "IFCH": "2026-09-13 10:16:19",
   "IFBU": "2026-09-13 10:15:45",
   "TFLag": "2026-09-13 06:31:49",
@@ -40,15 +40,15 @@
   "IBBDU18": "2026-09-13 12:17:19",
   "IBBHU18": "2026-09-13 12:17:32",
   "IBCHU18": "2026-09-13 12:17:26",
-  "IBBD": "2026-09-13 11:53:13",
+  "IBBD": "2026-09-13 11:57:41",
   "IBTD": "2026-09-13 11:33:06",
-  "IBLD": "2026-09-13 11:45:34",
+  "IBLD": "2026-09-13 12:00:39",
   "IBRD": "2026-09-13 11:52:22",
-  "IBCD": "2026-09-13 11:53:38",
+  "IBCD": "2026-09-13 11:59:49",
   "IBBH": "2026-09-13 11:28:02",
   "IBTH": "2026-09-13 11:43:59",
-  "IBLH": "2026-09-13 11:53:16",
-  "IBRH": "2026-09-13 11:53:00",
+  "IBLH": "2026-09-13 11:56:14",
+  "IBRH": "2026-09-13 12:05:18",
   "IBCH": "2026-09-13 12:16:19",
   "IBBU": "2026-09-13 10:15:45",
   "TBLag": "2026-09-13 06:31:49",
@@ -4144,13 +4144,12 @@
         "name": "Hagerup Kristin",
         "club": "LAUGE",
         "members": "",
-        "score": "",
+        "score": "5",
         "bye": false,
         "so": "",
-        "target": "12A",
-        "when": "13-09-2026 12:46",
+        "target": "",
+        "when": "",
         "sets": [
-         "10",
          "5"
         ]
        },
@@ -4159,19 +4158,18 @@
         "name": "Sørlie Heidi",
         "club": "KONGS",
         "members": "",
-        "score": "",
+        "score": "0",
         "bye": false,
         "so": "",
-        "target": "12B",
+        "target": "",
         "when": "",
         "sets": [
-         "8",
-         "5"
+         "-"
         ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Ingvaldsen Kristina",
@@ -4181,7 +4179,12 @@
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "10",
+         "5",
+         "-"
+        ]
        },
        "b": {
         "label": null,
@@ -4192,14 +4195,19 @@
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "8",
+         "5",
+         "-"
+        ]
        }
       }
      ]
     }
    ],
    "code": "IBBD",
-   "updated": "2026-09-13 11:53:13"
+   "updated": "2026-09-13 11:57:41"
   },
   {
    "name": "Barebow Herrer",
@@ -4433,14 +4441,15 @@
         "name": "Schytte Nathalie",
         "club": "YRJAR",
         "members": "",
-        "score": "8",
+        "score": "13",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "8",
-         "-"
+         "-",
+         "5"
         ]
        },
        "b": {
@@ -4448,13 +4457,14 @@
         "name": "Breivik Barbro",
         "club": "SOLOR",
         "members": "",
-        "score": "18",
+        "score": "28",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "8",
+         "10",
          "10"
         ]
        }
@@ -4466,13 +4476,14 @@
         "name": "Møinichen Brandtzæg Janne",
         "club": "BERGE",
         "members": "",
-        "score": "8",
+        "score": "13",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "8"
+         "8",
+         "5"
         ]
        },
        "b": {
@@ -4486,7 +4497,8 @@
         "target": "",
         "when": "",
         "sets": [
-         "8"
+         "8",
+         "-"
         ]
        }
       }
@@ -4549,7 +4561,7 @@
     }
    ],
    "code": "IBCD",
-   "updated": "2026-09-13 11:53:38"
+   "updated": "2026-09-13 11:59:49"
   },
   {
    "name": "Compound Damer U16",
@@ -4645,22 +4657,28 @@
         "name": "Øyen Eddie Asgeir",
         "club": "SOLOR",
         "members": "",
-        "score": "",
+        "score": "11",
         "bye": false,
         "so": "",
-        "target": "21A",
-        "when": "13-09-2026 12:01"
+        "target": "",
+        "when": "",
+        "sets": [
+         "11"
+        ]
        },
        "b": {
         "label": null,
         "name": "Hansen Frank",
         "club": "SOLOR",
         "members": "",
-        "score": "",
+        "score": "10",
         "bye": false,
         "so": "",
-        "target": "21B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10"
+        ]
        }
       },
       {
@@ -4859,37 +4877,12 @@
         "target": "16B",
         "when": ""
        }
-      },
-      {
-       "label": "Bronze",
-       "a": {
-        "label": null,
-        "name": "Jacobsen Therese",
-        "club": "SORUM",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "15A",
-        "when": "13-09-2026 12:46"
-       },
-       "b": {
-        "label": null,
-        "name": "Huuse Bente",
-        "club": "LILLH",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "15B",
-        "when": ""
-       }
       }
      ]
     }
    ],
    "code": "IBLD",
-   "updated": "2026-09-13 11:45:34"
+   "updated": "2026-09-13 12:00:39"
   },
   {
    "name": "Langbue Herrer",
@@ -4981,8 +4974,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Sigvartsen Morten",
+        "club": "SORUM",
         "members": "",
         "score": "",
         "bye": false,
@@ -5006,8 +4999,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Sortland Meho",
+        "club": "LILLH",
         "members": "",
         "score": "",
         "bye": false,
@@ -5031,7 +5024,7 @@
     }
    ],
    "code": "IBLH",
-   "updated": "2026-09-13 11:53:16"
+   "updated": "2026-09-13 11:56:14"
   },
   {
    "name": "Recurve Damer",
@@ -5127,7 +5120,7 @@
         "name": "Aarhaug Sigmund",
         "club": "SORUM",
         "members": "",
-        "score": "27",
+        "score": "35",
         "bye": false,
         "so": "",
         "target": "",
@@ -5135,7 +5128,8 @@
         "sets": [
          "8",
          "8",
-         "11"
+         "11",
+         "8"
         ]
        },
        "b": {
@@ -5143,7 +5137,7 @@
         "name": "Mahle Simen",
         "club": "GOMA",
         "members": "",
-        "score": "13",
+        "score": "18",
         "bye": false,
         "so": "",
         "target": "",
@@ -5151,7 +5145,8 @@
         "sets": [
          "-",
          "5",
-         "8"
+         "8",
+         "5"
         ]
        }
       },
@@ -5162,12 +5157,13 @@
         "name": "Haakonsen Haakon",
         "club": "SKUDE",
         "members": "",
-        "score": "24",
+        "score": "32",
         "bye": false,
-        "so": "",
+        "so": "8",
         "target": "",
         "when": "",
         "sets": [
+         "8",
          "8",
          "8",
          "8"
@@ -5178,7 +5174,7 @@
         "name": "Torsvik Kristoffer",
         "club": "BERGE",
         "members": "",
-        "score": "27",
+        "score": "32",
         "bye": false,
         "so": "",
         "target": "",
@@ -5186,7 +5182,8 @@
         "sets": [
          "8",
          "8",
-         "11"
+         "11",
+         "5"
         ]
        }
       }
@@ -5199,8 +5196,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Aarhaug Sigmund",
+        "club": "SORUM",
         "members": "",
         "score": "",
         "bye": false,
@@ -5210,8 +5207,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Torsvik Kristoffer",
+        "club": "BERGE",
         "members": "",
         "score": "",
         "bye": false,
@@ -5224,8 +5221,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Mahle Simen",
+        "club": "GOMA",
         "members": "",
         "score": "",
         "bye": false,
@@ -5235,8 +5232,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Haakonsen Haakon",
+        "club": "SKUDE",
         "members": "",
         "score": "",
         "bye": false,
@@ -5249,7 +5246,7 @@
     }
    ],
    "code": "IBRH",
-   "updated": "2026-09-13 11:53:00"
+   "updated": "2026-09-13 12:05:18"
   },
   {
    "name": "Tradisjonell Damer",
