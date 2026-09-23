@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T17:37:09Z",
+ "generated": "2026-09-23T17:42:40Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,18 +11,18 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQRM": "2026-09-23 17:33:09",
-  "IQRW": "2026-09-23 17:31:43",
-  "IQRU21M": "2026-09-23 17:36:37",
+  "IQRM": "2026-09-23 17:41:54",
+  "IQRW": "2026-09-23 17:38:51",
+  "IQRU21M": "2026-09-23 17:37:27",
   "IQRU21W": "2026-09-23 16:58:24",
   "IQCM": "2026-09-23 17:36:41",
-  "IQCW": "2026-09-23 17:34:41",
-  "IQCU21M": "2026-09-23 17:28:57",
+  "IQCW": "2026-09-23 17:38:26",
+  "IQCU21M": "2026-09-23 17:42:06",
   "IQCU21W": "2026-09-23 17:33:10",
-  "IQBM": "2026-09-23 17:28:57",
-  "IQBW": "2026-09-23 17:36:07",
+  "IQBM": "2026-09-23 17:41:54",
+  "IQBW": "2026-09-23 17:40:58",
   "IQBU21M": "2026-09-23 17:35:06",
-  "IQBU21W": "2026-09-23 17:36:06",
+  "IQBU21W": "2026-09-23 17:41:25",
   "TQRX": "2026-09-23 15:43:03",
   "TQCX": "2026-09-23 15:43:06",
   "TQRU21X": "2026-09-23 15:42:58",
@@ -1706,32 +1706,15 @@
    ],
    "field": [
     {
-     "club": "AUS",
-     "name": "FAIRWEATHER Simon",
-     "pos": 1,
-     "total": 138,
-     "arrows": 216,
-     "tens": 13,
-     "xs": 4,
-     "dist": {
-      "Unmarked": "138/11",
-      "Marked": "0",
-      "Avg": "5.111",
-      "Arrows": "27"
-     },
-     "target": "20D",
-     "pool": "Yellow Course"
-    },
-    {
      "club": "ITA",
      "name": "SEIMANDI Giuseppe",
-     "pos": 2,
+     "pos": 1,
      "total": 153,
      "arrows": 216,
      "tens": 16,
      "xs": 3,
      "dist": {
-      "Unmarked": "153/ 3",
+      "Unmarked": "153/ 6",
       "Marked": "0",
       "Avg": "5.100",
       "Arrows": "30"
@@ -1740,20 +1723,37 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "ITA",
-     "name": "UGGERI Matteo",
+     "club": "AUS",
+     "name": "FAIRWEATHER Simon",
+     "pos": 2,
+     "total": 152,
+     "arrows": 216,
+     "tens": 14,
+     "xs": 5,
+     "dist": {
+      "Unmarked": "152/ 8",
+      "Marked": "0",
+      "Avg": "5.067",
+      "Arrows": "30"
+     },
+     "target": "20D",
+     "pool": "Yellow Course"
+    },
+    {
+     "club": "FRA",
+     "name": "JACKSON David",
      "pos": 3,
-     "total": 136,
+     "total": 152,
      "arrows": 216,
      "tens": 9,
-     "xs": 12,
+     "xs": 15,
      "dist": {
-      "Unmarked": "136/12",
+      "Unmarked": "152/ 8",
       "Marked": "0",
-      "Avg": "5.037",
-      "Arrows": "27"
+      "Avg": "5.067",
+      "Arrows": "30"
      },
-     "target": "14B",
+     "target": "13B",
      "pool": "Yellow Course"
     },
     {
@@ -1765,7 +1765,7 @@
      "tens": 11,
      "xs": 11,
      "dist": {
-      "Unmarked": "151/ 4",
+      "Unmarked": "151/10",
       "Marked": "0",
       "Avg": "5.033",
       "Arrows": "30"
@@ -1774,15 +1774,32 @@
      "pool": "Yellow Course"
     },
     {
+     "club": "ITA",
+     "name": "UGGERI Matteo",
+     "pos": 5,
+     "total": 150,
+     "arrows": 216,
+     "tens": 10,
+     "xs": 12,
+     "dist": {
+      "Unmarked": "150/11",
+      "Marked": "0",
+      "Avg": "5.000",
+      "Arrows": "30"
+     },
+     "target": "14B",
+     "pool": "Yellow Course"
+    },
+    {
      "club": "CAN",
      "name": "KENT-RODGMAN Christopher Edward",
-     "pos": 5,
+     "pos": 6,
      "total": 149,
      "arrows": 216,
      "tens": 7,
      "xs": 15,
      "dist": {
-      "Unmarked": "149/ 6",
+      "Unmarked": "149/13",
       "Marked": "0",
       "Avg": "4.967",
       "Arrows": "30"
@@ -1791,32 +1808,32 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "FRA",
-     "name": "JACKSON David",
-     "pos": 6,
-     "total": 104,
+     "club": "USA",
+     "name": "DAVIS Ryan",
+     "pos": 7,
+     "total": 193,
      "arrows": 216,
-     "tens": 5,
-     "xs": 11,
+     "tens": 11,
+     "xs": 16,
      "dist": {
-      "Unmarked": "104/26",
+      "Unmarked": "193/ 1",
       "Marked": "0",
-      "Avg": "4.952",
-      "Arrows": "21"
+      "Avg": "4.949",
+      "Arrows": "39"
      },
-     "target": "13B",
+     "target": "16C",
      "pool": "Yellow Course"
     },
     {
      "club": "GER",
      "name": "SCHAEFER Rüdiger",
-     "pos": 7,
+     "pos": 8,
      "total": 147,
      "arrows": 216,
      "tens": 8,
      "xs": 12,
      "dist": {
-      "Unmarked": "147/ 7",
+      "Unmarked": "147/15",
       "Marked": "0",
       "Avg": "4.900",
       "Arrows": "30"
@@ -1826,104 +1843,87 @@
     },
     {
      "club": "SWE",
-     "name": "JONSSON Erik",
-     "pos": 8,
-     "total": 132,
-     "arrows": 216,
-     "tens": 5,
-     "xs": 14,
-     "dist": {
-      "Unmarked": "132/16",
-      "Marked": "0",
-      "Avg": "4.889",
-      "Arrows": "27"
-     },
-     "target": "21A",
-     "pool": "Yellow Course"
-    },
-    {
-     "club": "USA",
-     "name": "DAVIS Ryan",
-     "pos": 9,
-     "total": 160,
-     "arrows": 216,
-     "tens": 7,
-     "xs": 15,
-     "dist": {
-      "Unmarked": "160/ 1",
-      "Marked": "0",
-      "Avg": "4.848",
-      "Arrows": "33"
-     },
-     "target": "16C",
-     "pool": "Yellow Course"
-    },
-    {
-     "club": "SWE",
      "name": "PETTERSSON Leo",
-     "pos": 10,
-     "total": 144,
+     "pos": 9,
+     "total": 161,
      "arrows": 216,
-     "tens": 8,
-     "xs": 9,
+     "tens": 10,
+     "xs": 10,
      "dist": {
-      "Unmarked": "144/ 8",
+      "Unmarked": "161/ 4",
       "Marked": "0",
-      "Avg": "4.800",
-      "Arrows": "30"
+      "Avg": "4.879",
+      "Arrows": "33"
      },
      "target": "23A",
      "pool": "Yellow Course"
     },
     {
-     "club": "CAN",
-     "name": "DJUKIC Jovica",
-     "pos": 11,
-     "total": 157,
+     "club": "SWE",
+     "name": "JONSSON Erik",
+     "pos": 10,
+     "total": 161,
      "arrows": 216,
-     "tens": 8,
-     "xs": 12,
+     "tens": 7,
+     "xs": 15,
      "dist": {
-      "Unmarked": "157/ 2",
+      "Unmarked": "161/ 5",
       "Marked": "0",
-      "Avg": "4.758",
+      "Avg": "4.879",
       "Arrows": "33"
      },
-     "target": "16D",
+     "target": "21A",
+     "pool": "Yellow Course"
+    },
+    {
+     "club": "GBR",
+     "name": "ANNALL James",
+     "pos": 11,
+     "total": 142,
+     "arrows": 216,
+     "tens": 9,
+     "xs": 8,
+     "dist": {
+      "Unmarked": "142/16",
+      "Marked": "0",
+      "Avg": "4.733",
+      "Arrows": "30"
+     },
+     "target": "18A",
      "pool": "Yellow Course"
     },
     {
      "club": "USA",
      "name": "DE VERA Alex",
      "pos": 12,
-     "total": 128,
+     "total": 142,
      "arrows": 216,
      "tens": 8,
-     "xs": 7,
+     "xs": 9,
      "dist": {
-      "Unmarked": "128/19",
+      "Unmarked": "142/17",
       "Marked": "0",
-      "Avg": "4.741",
-      "Arrows": "27"
+      "Avg": "4.733",
+      "Arrows": "30"
      },
      "target": "14A",
      "pool": "Yellow Course"
     },
     {
-     "club": "GBR",
-     "name": "ANNALL James",
+     "club": "CAN",
+     "name": "DJUKIC Jovica",
      "pos": 13,
-     "total": 142,
+     "total": 184,
      "arrows": 216,
      "tens": 9,
-     "xs": 8,
+     "xs": 13,
      "dist": {
-      "Unmarked": "142/ 9",
+      "Unmarked": "184/ 2",
       "Marked": "0",
-      "Avg": "4.733",
-      "Arrows": "30"
+      "Avg": "4.718",
+      "Arrows": "39"
      },
-     "target": "18A",
+     "target": "16D",
      "pool": "Yellow Course"
     },
     {
@@ -1935,7 +1935,7 @@
      "tens": 9,
      "xs": 9,
      "dist": {
-      "Unmarked": "141/10",
+      "Unmarked": "141/18",
       "Marked": "0",
       "Avg": "4.700",
       "Arrows": "30"
@@ -1944,83 +1944,66 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "SWE",
-     "name": "OLSSON Markus",
+     "club": "ESP",
+     "name": "VERA BRINGAS Cesar",
      "pos": 15,
-     "total": 151,
+     "total": 138,
      "arrows": 216,
-     "tens": 10,
-     "xs": 9,
+     "tens": 4,
+     "xs": 12,
      "dist": {
-      "Unmarked": "151/ 5",
+      "Unmarked": "138/19",
       "Marked": "0",
-      "Avg": "4.576",
-      "Arrows": "33"
+      "Avg": "4.600",
+      "Arrows": "30"
      },
-     "target": "16B",
+     "target": "13C",
      "pool": "Yellow Course"
     },
     {
      "club": "NOR",
      "name": "SORLIE Lars M",
      "pos": 16,
-     "total": 136,
+     "total": 150,
      "arrows": 216,
      "tens": 5,
-     "xs": 11,
+     "xs": 13,
      "dist": {
-      "Unmarked": "136/13",
+      "Unmarked": "150/12",
       "Marked": "0",
-      "Avg": "4.533",
-      "Arrows": "30"
+      "Avg": "4.545",
+      "Arrows": "33"
      },
      "target": "23B",
      "pool": "Yellow Course"
     },
     {
-     "club": "GER",
-     "name": "MEYER Michael",
+     "club": "SWE",
+     "name": "OLSSON Markus",
      "pos": 17,
-     "total": 122,
+     "total": 176,
      "arrows": 216,
-     "tens": 5,
-     "xs": 7,
+     "tens": 10,
+     "xs": 11,
      "dist": {
-      "Unmarked": "122/21",
+      "Unmarked": "176/ 3",
       "Marked": "0",
-      "Avg": "4.519",
-      "Arrows": "27"
+      "Avg": "4.513",
+      "Arrows": "39"
      },
-     "target": "21D",
-     "pool": "Yellow Course"
-    },
-    {
-     "club": "CZE",
-     "name": "DOBRÝ Jan",
-     "pos": 18,
-     "total": 135,
-     "arrows": 216,
-     "tens": 6,
-     "xs": 8,
-     "dist": {
-      "Unmarked": "135/14",
-      "Marked": "0",
-      "Avg": "4.500",
-      "Arrows": "30"
-     },
-     "target": "23C",
+     "target": "16B",
      "pool": "Yellow Course"
     },
     {
      "club": "USA",
      "name": "WEISSINGER Robby",
-     "pos": 19,
+     "pos": 18,
      "total": 135,
      "arrows": 216,
      "tens": 4,
      "xs": 10,
      "dist": {
-      "Unmarked": "135/15",
+      "Unmarked": "135/20",
       "Marked": "0",
       "Avg": "4.500",
       "Arrows": "30"
@@ -2029,49 +2012,83 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "ESP",
-     "name": "VERA BRINGAS Cesar",
-     "pos": 20,
-     "total": 94,
+     "club": "CZE",
+     "name": "DOBRÝ Jan",
+     "pos": 19,
+     "total": 148,
      "arrows": 216,
-     "tens": 2,
-     "xs": 8,
+     "tens": 6,
+     "xs": 9,
      "dist": {
-      "Unmarked": "94/29",
+      "Unmarked": "148/14",
       "Marked": "0",
-      "Avg": "4.476",
-      "Arrows": "21"
+      "Avg": "4.485",
+      "Arrows": "33"
      },
-     "target": "13C",
+     "target": "23C",
      "pool": "Yellow Course"
     },
     {
-     "club": "ARG",
-     "name": "LARSEN Jorge",
-     "pos": 21,
-     "total": 119,
+     "club": "HUN",
+     "name": "KAKAS Istvan",
+     "pos": 20,
+     "total": 134,
      "arrows": 216,
-     "tens": 7,
-     "xs": 5,
+     "tens": 8,
+     "xs": 7,
      "dist": {
-      "Unmarked": "119/22",
+      "Unmarked": "134/21",
       "Marked": "0",
-      "Avg": "4.407",
-      "Arrows": "27"
+      "Avg": "4.467",
+      "Arrows": "30"
      },
-     "target": "14C",
+     "target": "13A",
+     "pool": "Yellow Course"
+    },
+    {
+     "club": "GER",
+     "name": "MEYER Michael",
+     "pos": 21,
+     "total": 133,
+     "arrows": 216,
+     "tens": 5,
+     "xs": 8,
+     "dist": {
+      "Unmarked": "133/23",
+      "Marked": "0",
+      "Avg": "4.433",
+      "Arrows": "30"
+     },
+     "target": "21D",
+     "pool": "Yellow Course"
+    },
+    {
+     "club": "AUS",
+     "name": "GOODING Ross",
+     "pos": 22,
+     "total": 132,
+     "arrows": 216,
+     "tens": 4,
+     "xs": 11,
+     "dist": {
+      "Unmarked": "132/24",
+      "Marked": "0",
+      "Avg": "4.400",
+      "Arrows": "30"
+     },
+     "target": "14D",
      "pool": "Yellow Course"
     },
     {
      "club": "AUS",
      "name": "ALMARIO Cirilo",
-     "pos": 22,
+     "pos": 23,
      "total": 132,
      "arrows": 216,
      "tens": 3,
      "xs": 13,
      "dist": {
-      "Unmarked": "132/17",
+      "Unmarked": "132/24",
       "Marked": "0",
       "Avg": "4.400",
       "Arrows": "30"
@@ -2080,37 +2097,20 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "AUS",
-     "name": "GOODING Ross",
-     "pos": 23,
-     "total": 117,
+     "club": "ARG",
+     "name": "LARSEN Jorge",
+     "pos": 24,
+     "total": 130,
      "arrows": 216,
-     "tens": 3,
-     "xs": 10,
+     "tens": 7,
+     "xs": 6,
      "dist": {
-      "Unmarked": "117/23",
+      "Unmarked": "130/27",
       "Marked": "0",
       "Avg": "4.333",
-      "Arrows": "27"
+      "Arrows": "30"
      },
-     "target": "14D",
-     "pool": "Yellow Course"
-    },
-    {
-     "club": "HUN",
-     "name": "KAKAS Istvan",
-     "pos": 24,
-     "total": 89,
-     "arrows": 216,
-     "tens": 6,
-     "xs": 2,
-     "dist": {
-      "Unmarked": "89/30",
-      "Marked": "0",
-      "Avg": "4.238",
-      "Arrows": "21"
-     },
-     "target": "13A",
+     "target": "14C",
      "pool": "Yellow Course"
     },
     {
@@ -2122,7 +2122,7 @@
      "tens": 3,
      "xs": 8,
      "dist": {
-      "Unmarked": "126/20",
+      "Unmarked": "126/28",
       "Marked": "0",
       "Avg": "4.200",
       "Arrows": "30"
@@ -2139,7 +2139,7 @@
      "tens": 5,
      "xs": 2,
      "dist": {
-      "Unmarked": "100/28",
+      "Unmarked": "100/31",
       "Marked": "0",
       "Avg": "4.167",
       "Arrows": "24"
@@ -2148,52 +2148,69 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "CAN",
-     "name": "HALL Travis",
-     "pos": 27,
-     "total": 109,
-     "arrows": 216,
-     "tens": 5,
-     "xs": 3,
-     "dist": {
-      "Unmarked": "109/25",
-      "Marked": "0",
-      "Avg": "4.037",
-      "Arrows": "27"
-     },
-     "target": "21B",
-     "pool": "Yellow Course"
-    },
-    {
      "club": "AUT",
      "name": "JANTSCHGE Harald",
-     "pos": 28,
-     "total": 83,
+     "pos": 27,
+     "total": 124,
      "arrows": 216,
-     "tens": 2,
-     "xs": 4,
+     "tens": 4,
+     "xs": 8,
      "dist": {
-      "Unmarked": "83/32",
+      "Unmarked": "124/29",
       "Marked": "0",
-      "Avg": "3.952",
-      "Arrows": "21"
+      "Avg": "4.133",
+      "Arrows": "30"
      },
      "target": "13D",
      "pool": "Yellow Course"
     },
     {
+     "club": "CAN",
+     "name": "HALL Travis",
+     "pos": 28,
+     "total": 133,
+     "arrows": 216,
+     "tens": 6,
+     "xs": 4,
+     "dist": {
+      "Unmarked": "133/22",
+      "Marked": "0",
+      "Avg": "4.030",
+      "Arrows": "33"
+     },
+     "target": "21B",
+     "pool": "Yellow Course"
+    },
+    {
+     "club": "ARG",
+     "name": "MONTANÉ Germán",
+     "pos": 29,
+     "total": 131,
+     "arrows": 216,
+     "tens": 1,
+     "xs": 9,
+     "dist": {
+      "Unmarked": "131/26",
+      "Marked": "0",
+      "Avg": "3.970",
+      "Arrows": "33"
+     },
+     "target": "21C",
+     "pool": "Yellow Course"
+    },
+    {
      "club": "GER",
      "name": "STUMPF Michael",
-     "pos": 29,
-     "total": 129,
+     "pos": 30,
+     "total": 153,
      "arrows": 216,
      "tens": 4,
-     "xs": 2,
+     "xs": 3,
      "dist": {
-      "Unmarked": "129/18",
+      "Unmarked": "153/ 7",
       "Marked": "0",
-      "Avg": "3.909",
-      "Arrows": "33"
+      "Avg": "3.923",
+      "Arrows": "39"
      },
      "target": "16A",
      "pool": "Yellow Course"
@@ -2201,13 +2218,13 @@
     {
      "club": "ARG",
      "name": "STACH Emiliano Ezequiel",
-     "pos": 30,
+     "pos": 31,
      "total": 117,
      "arrows": 216,
      "tens": 2,
      "xs": 7,
      "dist": {
-      "Unmarked": "117/24",
+      "Unmarked": "117/30",
       "Marked": "0",
       "Avg": "3.900",
       "Arrows": "30"
@@ -2216,35 +2233,18 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "ARG",
-     "name": "MONTANÉ Germán",
-     "pos": 31,
-     "total": 102,
-     "arrows": 216,
-     "tens": 0,
-     "xs": 6,
-     "dist": {
-      "Unmarked": "102/27",
-      "Marked": "0",
-      "Avg": "3.778",
-      "Arrows": "27"
-     },
-     "target": "21C",
-     "pool": "Yellow Course"
-    },
-    {
      "club": "CHI",
      "name": "BARRA Bruno",
      "pos": 32,
-     "total": 86,
+     "total": 98,
      "arrows": 216,
      "tens": 1,
-     "xs": 2,
+     "xs": 3,
      "dist": {
-      "Unmarked": "86/31",
+      "Unmarked": "98/32",
       "Marked": "0",
-      "Avg": "2.867",
-      "Arrows": "30"
+      "Avg": "2.970",
+      "Arrows": "33"
      },
      "target": "23D",
      "pool": "Yellow Course"
@@ -2426,7 +2426,7 @@
      "tens": 5,
      "xs": 6,
      "dist": {
-      "Unmarked": "117/ 1",
+      "Unmarked": "117/ 2",
       "Marked": "0",
       "Avg": "4.333",
       "Arrows": "27"
@@ -2455,15 +2455,15 @@
      "club": "USA",
      "name": "CRANDALL Chloe",
      "pos": 3,
-     "total": 110,
+     "total": 126,
      "arrows": 216,
-     "tens": 5,
-     "xs": 3,
+     "tens": 6,
+     "xs": 5,
      "dist": {
-      "Unmarked": "110/ 2",
+      "Unmarked": "126/ 1",
       "Marked": "0",
-      "Avg": "3.667",
-      "Arrows": "30"
+      "Avg": "3.818",
+      "Arrows": "33"
      },
      "target": "8C",
      "pool": "Yellow Course"
@@ -2472,15 +2472,15 @@
      "club": "AUS",
      "name": "YEE Elke",
      "pos": 4,
-     "total": 92,
+     "total": 105,
      "arrows": 216,
      "tens": 0,
-     "xs": 6,
+     "xs": 7,
      "dist": {
-      "Unmarked": "92/ 4",
+      "Unmarked": "105/ 4",
       "Marked": "0",
-      "Avg": "3.067",
-      "Arrows": "30"
+      "Avg": "3.182",
+      "Arrows": "33"
      },
      "target": "8D",
      "pool": "Yellow Course"
@@ -2595,7 +2595,7 @@
      "tens": 3,
      "xs": 7,
      "dist": {
-      "Unmarked": "105/10",
+      "Unmarked": "105/11",
       "Marked": "0",
       "Avg": "4.375",
       "Arrows": "24"
@@ -2621,26 +2621,9 @@
      "pool": "Yellow Course"
     },
     {
-     "club": "FRA",
-     "name": "BAUMERT Alicia",
-     "pos": 6,
-     "total": 130,
-     "arrows": 216,
-     "tens": 4,
-     "xs": 13,
-     "dist": {
-      "Unmarked": "130/ 1",
-      "Marked": "0",
-      "Avg": "4.333",
-      "Arrows": "30"
-     },
-     "target": "8A",
-     "pool": "Yellow Course"
-    },
-    {
      "club": "AUT",
      "name": "PAYER Andrea",
-     "pos": 7,
+     "pos": 6,
      "total": 78,
      "arrows": 216,
      "tens": 2,
@@ -2652,6 +2635,23 @@
       "Arrows": "18"
      },
      "target": "4D",
+     "pool": "Yellow Course"
+    },
+    {
+     "club": "FRA",
+     "name": "BAUMERT Alicia",
+     "pos": 7,
+     "total": 142,
+     "arrows": 216,
+     "tens": 5,
+     "xs": 13,
+     "dist": {
+      "Unmarked": "142/ 1",
+      "Marked": "0",
+      "Avg": "4.303",
+      "Arrows": "33"
+     },
+     "target": "8A",
      "pool": "Yellow Course"
     },
     {
@@ -2714,7 +2714,7 @@
      "tens": 5,
      "xs": 10,
      "dist": {
-      "Unmarked": "126/ 2",
+      "Unmarked": "126/ 3",
       "Marked": "0",
       "Avg": "4.200",
       "Arrows": "30"
@@ -2748,7 +2748,7 @@
      "tens": 3,
      "xs": 11,
      "dist": {
-      "Unmarked": "110/ 8",
+      "Unmarked": "110/ 9",
       "Marked": "0",
       "Avg": "4.074",
       "Arrows": "27"
@@ -2777,15 +2777,15 @@
      "club": "ROU",
      "name": "BACIN Florentina Cristina",
      "pos": 15,
-     "total": 120,
+     "total": 132,
      "arrows": 216,
      "tens": 5,
-     "xs": 4,
+     "xs": 5,
      "dist": {
-      "Unmarked": "120/ 3",
+      "Unmarked": "132/ 2",
       "Marked": "0",
       "Avg": "4.000",
-      "Arrows": "30"
+      "Arrows": "33"
      },
      "target": "9A",
      "pool": "Yellow Course"
@@ -2850,7 +2850,7 @@
      "tens": 2,
      "xs": 10,
      "dist": {
-      "Unmarked": "110/ 9",
+      "Unmarked": "110/10",
       "Marked": "0",
       "Avg": "3.667",
       "Arrows": "30"
@@ -2879,15 +2879,15 @@
      "club": "JPN",
      "name": "UMETSU Akiko",
      "pos": 21,
-     "total": 100,
+     "total": 114,
      "arrows": 216,
      "tens": 3,
-     "xs": 3,
+     "xs": 5,
      "dist": {
-      "Unmarked": "100/11",
+      "Unmarked": "114/ 8",
       "Marked": "0",
-      "Avg": "3.333",
-      "Arrows": "30"
+      "Avg": "3.455",
+      "Arrows": "33"
      },
      "target": "8B",
      "pool": "Yellow Course"
@@ -3574,15 +3574,15 @@
      "club": "ITA",
      "name": "ALOISI Fabrizio",
      "pos": 1,
-     "total": 155,
+     "total": 294,
      "arrows": 216,
-     "tens": 20,
-     "xs": 7,
+     "tens": 40,
+     "xs": 10,
      "dist": {
-      "Unmarked": "155/15",
+      "Unmarked": "294/ 1",
       "Marked": "0",
-      "Avg": "5.741",
-      "Arrows": "27"
+      "Avg": "5.765",
+      "Arrows": "51"
      },
      "target": "20B",
      "pool": "Blue Course"
@@ -3596,7 +3596,7 @@
      "tens": 29,
      "xs": 8,
      "dist": {
-      "Unmarked": "220/ 7",
+      "Unmarked": "220/11",
       "Marked": "0",
       "Avg": "5.641",
       "Arrows": "39"
@@ -3608,15 +3608,15 @@
      "club": "USA",
      "name": "FONG Christopher",
      "pos": 3,
-     "total": 149,
+     "total": 280,
      "arrows": 216,
-     "tens": 17,
-     "xs": 7,
+     "tens": 30,
+     "xs": 16,
      "dist": {
-      "Unmarked": "149/16",
+      "Unmarked": "280/ 2",
       "Marked": "0",
-      "Avg": "5.519",
-      "Arrows": "27"
+      "Avg": "5.490",
+      "Arrows": "51"
      },
      "target": "20C",
      "pool": "Blue Course"
@@ -3630,7 +3630,7 @@
      "tens": 24,
      "xs": 11,
      "dist": {
-      "Unmarked": "214/ 8",
+      "Unmarked": "214/12",
       "Marked": "0",
       "Avg": "5.487",
       "Arrows": "39"
@@ -3639,15 +3639,32 @@
      "pool": "Blue Course"
     },
     {
+     "club": "GBR",
+     "name": "REES Ioan",
+     "pos": 5,
+     "total": 263,
+     "arrows": 216,
+     "tens": 28,
+     "xs": 16,
+     "dist": {
+      "Unmarked": "263/ 5",
+      "Marked": "0",
+      "Avg": "5.479",
+      "Arrows": "48"
+     },
+     "target": "21D",
+     "pool": "Blue Course"
+    },
+    {
      "club": "USA",
      "name": "HATHAWAY Dewey",
-     "pos": 5,
+     "pos": 6,
      "total": 213,
      "arrows": 216,
      "tens": 25,
      "xs": 9,
      "dist": {
-      "Unmarked": "213/ 9",
+      "Unmarked": "213/13",
       "Marked": "0",
       "Avg": "5.462",
       "Arrows": "39"
@@ -3658,13 +3675,13 @@
     {
      "club": "NZL",
      "name": "MCNEILLY Hector",
-     "pos": 6,
+     "pos": 7,
      "total": 262,
      "arrows": 216,
      "tens": 29,
      "xs": 13,
      "dist": {
-      "Unmarked": "262/ 1",
+      "Unmarked": "262/ 6",
       "Marked": "0",
       "Avg": "5.458",
       "Arrows": "48"
@@ -3675,35 +3692,18 @@
     {
      "club": "SLO",
      "name": "OBREZA SKERJANEC Timotej",
-     "pos": 7,
+     "pos": 8,
      "total": 229,
      "arrows": 216,
      "tens": 22,
      "xs": 17,
      "dist": {
-      "Unmarked": "229/ 5",
+      "Unmarked": "229/ 9",
       "Marked": "0",
       "Avg": "5.452",
       "Arrows": "42"
      },
      "target": "23B",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "GBR",
-     "name": "REES Ioan",
-     "pos": 8,
-     "total": 245,
-     "arrows": 216,
-     "tens": 25,
-     "xs": 16,
-     "dist": {
-      "Unmarked": "245/ 3",
-      "Marked": "0",
-      "Avg": "5.444",
-      "Arrows": "45"
-     },
-     "target": "21D",
      "pool": "Blue Course"
     },
     {
@@ -3715,7 +3715,7 @@
      "tens": 21,
      "xs": 14,
      "dist": {
-      "Unmarked": "212/10",
+      "Unmarked": "212/14",
       "Marked": "0",
       "Avg": "5.436",
       "Arrows": "39"
@@ -3724,32 +3724,15 @@
      "pool": "Blue Course"
     },
     {
-     "club": "MEX",
-     "name": "MIRANDA Mateo",
-     "pos": 10,
-     "total": 145,
-     "arrows": 216,
-     "tens": 14,
-     "xs": 11,
-     "dist": {
-      "Unmarked": "145/17",
-      "Marked": "0",
-      "Avg": "5.370",
-      "Arrows": "27"
-     },
-     "target": "20A",
-     "pool": "Blue Course"
-    },
-    {
      "club": "AUS",
      "name": "TURNER Joshua",
-     "pos": 11,
+     "pos": 10,
      "total": 209,
      "arrows": 216,
      "tens": 21,
      "xs": 12,
      "dist": {
-      "Unmarked": "209/12",
+      "Unmarked": "209/16",
       "Marked": "0",
       "Avg": "5.359",
       "Arrows": "39"
@@ -3760,13 +3743,13 @@
     {
      "club": "NZL",
      "name": "THORPE Corban",
-     "pos": 12,
+     "pos": 11,
      "total": 225,
      "arrows": 216,
      "tens": 19,
      "xs": 19,
      "dist": {
-      "Unmarked": "225/ 6",
+      "Unmarked": "225/10",
       "Marked": "0",
       "Avg": "5.357",
       "Arrows": "42"
@@ -3777,18 +3760,35 @@
     {
      "club": "AUS",
      "name": "SCHRAPE William",
-     "pos": 13,
-     "total": 142,
+     "pos": 12,
+     "total": 269,
      "arrows": 216,
-     "tens": 12,
-     "xs": 12,
+     "tens": 25,
+     "xs": 19,
      "dist": {
-      "Unmarked": "142/18",
+      "Unmarked": "269/ 3",
       "Marked": "0",
-      "Avg": "5.259",
-      "Arrows": "27"
+      "Avg": "5.275",
+      "Arrows": "51"
      },
      "target": "20D",
+     "pool": "Blue Course"
+    },
+    {
+     "club": "MEX",
+     "name": "MIRANDA Mateo",
+     "pos": 13,
+     "total": 266,
+     "arrows": 216,
+     "tens": 23,
+     "xs": 19,
+     "dist": {
+      "Unmarked": "266/ 4",
+      "Marked": "0",
+      "Avg": "5.216",
+      "Arrows": "51"
+     },
+     "target": "20A",
      "pool": "Blue Course"
     },
     {
@@ -3800,7 +3800,7 @@
      "tens": 17,
      "xs": 23,
      "dist": {
-      "Unmarked": "249/ 2",
+      "Unmarked": "249/ 7",
       "Marked": "0",
       "Avg": "5.188",
       "Arrows": "48"
@@ -3817,7 +3817,7 @@
      "tens": 17,
      "xs": 12,
      "dist": {
-      "Unmarked": "210/11",
+      "Unmarked": "210/15",
       "Marked": "0",
       "Avg": "5.000",
       "Arrows": "42"
@@ -3834,7 +3834,7 @@
      "tens": 13,
      "xs": 14,
      "dist": {
-      "Unmarked": "195/13",
+      "Unmarked": "195/17",
       "Marked": "0",
       "Avg": "5.000",
       "Arrows": "39"
@@ -3851,7 +3851,7 @@
      "tens": 15,
      "xs": 14,
      "dist": {
-      "Unmarked": "234/ 4",
+      "Unmarked": "234/ 8",
       "Marked": "0",
       "Avg": "4.875",
       "Arrows": "48"
@@ -3868,7 +3868,7 @@
      "tens": 9,
      "xs": 20,
      "dist": {
-      "Unmarked": "187/14",
+      "Unmarked": "187/18",
       "Marked": "0",
       "Avg": "4.795",
       "Arrows": "39"
@@ -4172,7 +4172,7 @@
      "tens": 25,
      "xs": 7,
      "dist": {
-      "Unmarked": "201/ 1",
+      "Unmarked": "201/ 4",
       "Marked": "0",
       "Avg": "5.583",
       "Arrows": "36"
@@ -4223,7 +4223,7 @@
      "tens": 15,
      "xs": 13,
      "dist": {
-      "Unmarked": "163/11",
+      "Unmarked": "163/12",
       "Marked": "0",
       "Avg": "5.433",
       "Arrows": "30"
@@ -4240,7 +4240,7 @@
      "tens": 21,
      "xs": 9,
      "dist": {
-      "Unmarked": "195/ 2",
+      "Unmarked": "195/ 5",
       "Marked": "0",
       "Avg": "5.417",
       "Arrows": "36"
@@ -4249,54 +4249,54 @@
      "pool": "Blue Course"
     },
     {
-     "club": "ITA",
-     "name": "MOCCIA Andrea Nicole",
+     "club": "USA",
+     "name": "NOFEL Savannah",
      "pos": 6,
-     "total": 194,
+     "total": 193,
      "arrows": 216,
-     "tens": 19,
-     "xs": 13,
+     "tens": 15,
+     "xs": 19,
      "dist": {
-      "Unmarked": "194/ 3",
+      "Unmarked": "193/ 6",
       "Marked": "0",
-      "Avg": "5.389",
+      "Avg": "5.361",
       "Arrows": "36"
      },
-     "target": "14A",
+     "target": "14C",
      "pool": "Blue Course"
     },
     {
      "club": "FRA",
      "name": "HERVE Sandra",
      "pos": 7,
-     "total": 193,
+     "total": 209,
      "arrows": 216,
-     "tens": 19,
+     "tens": 21,
      "xs": 12,
      "dist": {
-      "Unmarked": "193/ 4",
+      "Unmarked": "209/ 1",
       "Marked": "0",
-      "Avg": "5.361",
-      "Arrows": "36"
+      "Avg": "5.359",
+      "Arrows": "39"
      },
      "target": "14B",
      "pool": "Blue Course"
     },
     {
-     "club": "USA",
-     "name": "NOFEL Savannah",
+     "club": "ITA",
+     "name": "MOCCIA Andrea Nicole",
      "pos": 8,
-     "total": 193,
+     "total": 209,
      "arrows": 216,
-     "tens": 15,
-     "xs": 19,
+     "tens": 20,
+     "xs": 14,
      "dist": {
-      "Unmarked": "193/ 5",
+      "Unmarked": "209/ 2",
       "Marked": "0",
-      "Avg": "5.361",
-      "Arrows": "36"
+      "Avg": "5.359",
+      "Arrows": "39"
      },
-     "target": "14C",
+     "target": "14A",
      "pool": "Blue Course"
     },
     {
@@ -4308,7 +4308,7 @@
      "tens": 17,
      "xs": 14,
      "dist": {
-      "Unmarked": "192/ 6",
+      "Unmarked": "192/ 7",
       "Marked": "0",
       "Avg": "5.333",
       "Arrows": "36"
@@ -4342,7 +4342,7 @@
      "tens": 20,
      "xs": 7,
      "dist": {
-      "Unmarked": "191/ 7",
+      "Unmarked": "191/ 8",
       "Marked": "0",
       "Avg": "5.306",
       "Arrows": "36"
@@ -4354,15 +4354,15 @@
      "club": "NED",
      "name": "SCHWANEN Florentina",
      "pos": 12,
-     "total": 189,
+     "total": 205,
      "arrows": 216,
-     "tens": 15,
-     "xs": 15,
+     "tens": 16,
+     "xs": 17,
      "dist": {
-      "Unmarked": "189/ 8",
+      "Unmarked": "205/ 3",
       "Marked": "0",
-      "Avg": "5.250",
-      "Arrows": "36"
+      "Avg": "5.256",
+      "Arrows": "39"
      },
      "target": "15B",
      "pool": "Blue Course"
@@ -4461,7 +4461,7 @@
      "tens": 11,
      "xs": 15,
      "dist": {
-      "Unmarked": "178/ 9",
+      "Unmarked": "178/10",
       "Marked": "0",
       "Avg": "4.944",
       "Arrows": "36"
@@ -4478,7 +4478,7 @@
      "tens": 6,
      "xs": 10,
      "dist": {
-      "Unmarked": "118/22",
+      "Unmarked": "118/23",
       "Marked": "0",
       "Avg": "4.917",
       "Arrows": "24"
@@ -4495,7 +4495,7 @@
      "tens": 12,
      "xs": 9,
      "dist": {
-      "Unmarked": "173/10",
+      "Unmarked": "173/11",
       "Marked": "0",
       "Avg": "4.806",
       "Arrows": "36"
@@ -4507,15 +4507,15 @@
      "club": "ESP",
      "name": "PITARCH Maria",
      "pos": 21,
-     "total": 162,
+     "total": 180,
      "arrows": 216,
-     "tens": 10,
+     "tens": 13,
      "xs": 14,
      "dist": {
-      "Unmarked": "162/12",
+      "Unmarked": "180/ 9",
       "Marked": "0",
-      "Avg": "4.500",
-      "Arrows": "36"
+      "Avg": "4.615",
+      "Arrows": "39"
      },
      "target": "15A",
      "pool": "Blue Course"
@@ -4546,7 +4546,7 @@
      "tens": 4,
      "xs": 8,
      "dist": {
-      "Unmarked": "115/23",
+      "Unmarked": "115/24",
       "Marked": "0",
       "Avg": "4.259",
       "Arrows": "27"
@@ -4575,15 +4575,15 @@
      "club": "CHI",
      "name": "BRILLADERO Constanza",
      "pos": 25,
-     "total": 105,
+     "total": 119,
      "arrows": 216,
      "tens": 1,
-     "xs": 5,
+     "xs": 7,
      "dist": {
-      "Unmarked": "105/24",
+      "Unmarked": "119/22",
       "Marked": "0",
-      "Avg": "2.917",
-      "Arrows": "36"
+      "Avg": "3.051",
+      "Arrows": "39"
      },
      "target": "15C",
      "pool": "Blue Course"
@@ -4605,15 +4605,32 @@
    ],
    "field": [
     {
+     "club": "GER",
+     "name": "UNRUH Florian",
+     "pos": 1,
+     "total": 192,
+     "arrows": 216,
+     "tens": 19,
+     "xs": 11,
+     "dist": {
+      "Unmarked": "192/ 1",
+      "Marked": "0",
+      "Avg": "5.333",
+      "Arrows": "36"
+     },
+     "target": "11C",
+     "pool": "Red Course"
+    },
+    {
      "club": "ITA",
      "name": "MUSOLESI Federico",
-     "pos": 1,
+     "pos": 2,
      "total": 175,
      "arrows": 216,
      "tens": 17,
      "xs": 10,
      "dist": {
-      "Unmarked": "175/ 4",
+      "Unmarked": "175/ 7",
       "Marked": "0",
       "Avg": "5.303",
       "Arrows": "33"
@@ -4622,26 +4639,26 @@
      "pool": "Red Course"
     },
     {
-     "club": "GER",
-     "name": "UNRUH Florian",
-     "pos": 1,
-     "total": 175,
+     "club": "USA",
+     "name": "ELLISON Brady",
+     "pos": 3,
+     "total": 188,
      "arrows": 216,
-     "tens": 17,
-     "xs": 10,
+     "tens": 15,
+     "xs": 14,
      "dist": {
-      "Unmarked": "175/ 4",
+      "Unmarked": "188/ 2",
       "Marked": "0",
-      "Avg": "5.303",
-      "Arrows": "33"
+      "Avg": "5.222",
+      "Arrows": "36"
      },
-     "target": "11C",
+     "target": "11A",
      "pool": "Red Course"
     },
     {
      "club": "FRA",
      "name": "MULOT Florent",
-     "pos": 3,
+     "pos": 4,
      "total": 109,
      "arrows": 216,
      "tens": 9,
@@ -4656,23 +4673,6 @@
      "pool": "Red Course"
     },
     {
-     "club": "USA",
-     "name": "ELLISON Brady",
-     "pos": 4,
-     "total": 171,
-     "arrows": 216,
-     "tens": 13,
-     "xs": 13,
-     "dist": {
-      "Unmarked": "171/ 6",
-      "Marked": "0",
-      "Avg": "5.182",
-      "Arrows": "33"
-     },
-     "target": "11A",
-     "pool": "Red Course"
-    },
-    {
      "club": "GER",
      "name": "HETZ Jakob",
      "pos": 5,
@@ -4681,7 +4681,7 @@
      "tens": 14,
      "xs": 15,
      "dist": {
-      "Unmarked": "186/ 1",
+      "Unmarked": "186/ 3",
       "Marked": "0",
       "Avg": "5.167",
       "Arrows": "36"
@@ -4693,15 +4693,15 @@
      "club": "ITA",
      "name": "MANDIA Massimiliano",
      "pos": 6,
-     "total": 170,
+     "total": 182,
      "arrows": 216,
      "tens": 16,
      "xs": 9,
      "dist": {
-      "Unmarked": "170/ 7",
+      "Unmarked": "182/ 4",
       "Marked": "0",
-      "Avg": "5.152",
-      "Arrows": "33"
+      "Avg": "5.056",
+      "Arrows": "36"
      },
      "target": "12A",
      "pool": "Red Course"
@@ -4715,7 +4715,7 @@
      "tens": 14,
      "xs": 10,
      "dist": {
-      "Unmarked": "182/ 2",
+      "Unmarked": "182/ 5",
       "Marked": "0",
       "Avg": "5.056",
       "Arrows": "36"
@@ -4749,7 +4749,7 @@
      "tens": 11,
      "xs": 15,
      "dist": {
-      "Unmarked": "180/ 3",
+      "Unmarked": "180/ 6",
       "Marked": "0",
       "Avg": "5.000",
       "Arrows": "36"
@@ -4834,7 +4834,7 @@
      "tens": 10,
      "xs": 14,
      "dist": {
-      "Unmarked": "162/ 8",
+      "Unmarked": "162/ 9",
       "Marked": "0",
       "Avg": "4.909",
       "Arrows": "33"
@@ -4851,7 +4851,7 @@
      "tens": 10,
      "xs": 9,
      "dist": {
-      "Unmarked": "147/15",
+      "Unmarked": "147/16",
       "Marked": "0",
       "Avg": "4.900",
       "Arrows": "30"
@@ -4897,15 +4897,15 @@
      "club": "MEX",
      "name": "ROJAS Carlos",
      "pos": 18,
-     "total": 157,
+     "total": 173,
      "arrows": 216,
-     "tens": 9,
-     "xs": 11,
+     "tens": 10,
+     "xs": 13,
      "dist": {
-      "Unmarked": "157/ 9",
+      "Unmarked": "173/ 8",
       "Marked": "0",
-      "Avg": "4.758",
-      "Arrows": "33"
+      "Avg": "4.806",
+      "Arrows": "36"
      },
      "target": "11D",
      "pool": "Red Course"
@@ -4936,7 +4936,7 @@
      "tens": 5,
      "xs": 14,
      "dist": {
-      "Unmarked": "142/16",
+      "Unmarked": "142/17",
       "Marked": "0",
       "Avg": "4.733",
       "Arrows": "30"
@@ -4953,7 +4953,7 @@
      "tens": 9,
      "xs": 11,
      "dist": {
-      "Unmarked": "154/12",
+      "Unmarked": "154/13",
       "Marked": "0",
       "Avg": "4.667",
       "Arrows": "33"
@@ -4970,7 +4970,7 @@
      "tens": 9,
      "xs": 5,
      "dist": {
-      "Unmarked": "153/13",
+      "Unmarked": "153/14",
       "Marked": "0",
       "Avg": "4.636",
       "Arrows": "33"
@@ -4987,7 +4987,7 @@
      "tens": 8,
      "xs": 10,
      "dist": {
-      "Unmarked": "151/14",
+      "Unmarked": "151/15",
       "Marked": "0",
       "Avg": "4.576",
       "Arrows": "33"
@@ -5013,15 +5013,32 @@
      "pool": "Red Course"
     },
     {
+     "club": "AUS",
+     "name": "WOMACKS Jordan",
+     "pos": 25,
+     "total": 157,
+     "arrows": 216,
+     "tens": 6,
+     "xs": 11,
+     "dist": {
+      "Unmarked": "157/11",
+      "Marked": "0",
+      "Avg": "4.361",
+      "Arrows": "36"
+     },
+     "target": "11B",
+     "pool": "Red Course"
+    },
+    {
      "club": "MEX",
      "name": "ALVAREZ Luis",
-     "pos": 25,
+     "pos": 26,
      "total": 156,
      "arrows": 216,
      "tens": 7,
      "xs": 11,
      "dist": {
-      "Unmarked": "156/11",
+      "Unmarked": "156/12",
       "Marked": "0",
       "Avg": "4.333",
       "Arrows": "36"
@@ -5032,7 +5049,7 @@
     {
      "club": "CAN",
      "name": "MOORE Greg",
-     "pos": 26,
+     "pos": 27,
      "total": 52,
      "arrows": 216,
      "tens": 2,
@@ -5044,23 +5061,6 @@
       "Arrows": "12"
      },
      "target": "9A",
-     "pool": "Red Course"
-    },
-    {
-     "club": "AUS",
-     "name": "WOMACKS Jordan",
-     "pos": 27,
-     "total": 140,
-     "arrows": 216,
-     "tens": 4,
-     "xs": 10,
-     "dist": {
-      "Unmarked": "140/17",
-      "Marked": "0",
-      "Avg": "4.242",
-      "Arrows": "33"
-     },
-     "target": "11B",
      "pool": "Red Course"
     },
     {
@@ -5190,7 +5190,7 @@
      "tens": 7,
      "xs": 9,
      "dist": {
-      "Unmarked": "128/11",
+      "Unmarked": "128/12",
       "Marked": "0",
       "Avg": "4.741",
       "Arrows": "27"
@@ -5207,7 +5207,7 @@
      "tens": 8,
      "xs": 12,
      "dist": {
-      "Unmarked": "142/ 2",
+      "Unmarked": "142/ 3",
       "Marked": "0",
       "Avg": "4.733",
       "Arrows": "30"
@@ -5224,7 +5224,7 @@
      "tens": 6,
      "xs": 9,
      "dist": {
-      "Unmarked": "127/12",
+      "Unmarked": "127/13",
       "Marked": "0",
       "Avg": "4.704",
       "Arrows": "27"
@@ -5241,7 +5241,7 @@
      "tens": 9,
      "xs": 5,
      "dist": {
-      "Unmarked": "140/ 3",
+      "Unmarked": "140/ 4",
       "Marked": "0",
       "Avg": "4.667",
       "Arrows": "30"
@@ -5253,15 +5253,15 @@
      "club": "ITA",
      "name": "AZZONI Jacopo",
      "pos": 6,
-     "total": 138,
+     "total": 149,
      "arrows": 216,
      "tens": 7,
      "xs": 9,
      "dist": {
-      "Unmarked": "138/ 5",
+      "Unmarked": "149/ 2",
       "Marked": "0",
-      "Avg": "4.600",
-      "Arrows": "30"
+      "Avg": "4.515",
+      "Arrows": "33"
      },
      "target": "2B",
      "pool": "Red Course"
@@ -5275,7 +5275,7 @@
      "tens": 5,
      "xs": 7,
      "dist": {
-      "Unmarked": "133/ 9",
+      "Unmarked": "133/10",
       "Marked": "0",
       "Avg": "4.433",
       "Arrows": "30"
@@ -5309,7 +5309,7 @@
      "tens": 1,
      "xs": 16,
      "dist": {
-      "Unmarked": "140/ 4",
+      "Unmarked": "140/ 5",
       "Marked": "0",
       "Avg": "4.242",
       "Arrows": "33"
@@ -5338,15 +5338,15 @@
      "club": "SLO",
      "name": "FRANK Gal",
      "pos": 11,
-     "total": 123,
+     "total": 135,
      "arrows": 216,
      "tens": 5,
      "xs": 7,
      "dist": {
-      "Unmarked": "123/13",
+      "Unmarked": "135/ 7",
       "Marked": "0",
-      "Avg": "4.100",
-      "Arrows": "30"
+      "Avg": "4.091",
+      "Arrows": "33"
      },
      "target": "2C",
      "pool": "Red Course"
@@ -5377,7 +5377,7 @@
      "tens": 3,
      "xs": 9,
      "dist": {
-      "Unmarked": "134/ 7",
+      "Unmarked": "134/ 8",
       "Marked": "0",
       "Avg": "4.061",
       "Arrows": "33"
@@ -5411,7 +5411,7 @@
      "tens": 6,
      "xs": 8,
      "dist": {
-      "Unmarked": "133/ 8",
+      "Unmarked": "133/ 9",
       "Marked": "0",
       "Avg": "4.030",
       "Arrows": "33"
@@ -5428,7 +5428,7 @@
      "tens": 2,
      "xs": 10,
      "dist": {
-      "Unmarked": "130/10",
+      "Unmarked": "130/11",
       "Marked": "0",
       "Avg": "3.939",
       "Arrows": "33"
@@ -5698,7 +5698,7 @@
      "tens": 5,
      "xs": 11,
      "dist": {
-      "Unmarked": "105/10",
+      "Unmarked": "105/11",
       "Marked": "0",
       "Avg": "5.000",
       "Arrows": "21"
@@ -5724,15 +5724,32 @@
      "pool": "Red Course"
     },
     {
+     "club": "GBR",
+     "name": "MEERING Sophie",
+     "pos": 4,
+     "total": 142,
+     "arrows": 216,
+     "tens": 6,
+     "xs": 12,
+     "dist": {
+      "Unmarked": "142/ 1",
+      "Marked": "0",
+      "Avg": "4.733",
+      "Arrows": "30"
+     },
+     "target": "22B",
+     "pool": "Red Course"
+    },
+    {
      "club": "SLO",
      "name": "PINTARIC Zana",
-     "pos": 4,
+     "pos": 5,
      "total": 111,
      "arrows": 216,
      "tens": 5,
      "xs": 8,
      "dist": {
-      "Unmarked": "111/ 5",
+      "Unmarked": "111/ 6",
       "Marked": "0",
       "Avg": "4.625",
       "Arrows": "24"
@@ -5741,54 +5758,37 @@
      "pool": "Red Course"
     },
     {
-     "club": "GBR",
-     "name": "MEERING Sophie",
-     "pos": 5,
-     "total": 124,
+     "club": "FRA",
+     "name": "DEVAUX Jennifer",
+     "pos": 6,
+     "total": 138,
      "arrows": 216,
-     "tens": 3,
-     "xs": 12,
+     "tens": 8,
+     "xs": 7,
      "dist": {
-      "Unmarked": "124/ 2",
+      "Unmarked": "138/ 2",
       "Marked": "0",
-      "Avg": "4.593",
-      "Arrows": "27"
+      "Avg": "4.600",
+      "Arrows": "30"
      },
-     "target": "22B",
+     "target": "22C",
      "pool": "Red Course"
     },
     {
      "club": "ITA",
      "name": "REBAGLIATI Chiara",
-     "pos": 6,
+     "pos": 7,
      "total": 110,
      "arrows": 216,
      "tens": 7,
      "xs": 7,
      "dist": {
-      "Unmarked": "110/ 7",
+      "Unmarked": "110/ 8",
       "Marked": "0",
       "Avg": "4.583",
       "Arrows": "24"
      },
      "target": "17B",
-     "pool": "Red Course"
-    },
-    {
-     "club": "FRA",
-     "name": "DEVAUX Jennifer",
-     "pos": 7,
-     "total": 122,
-     "arrows": 216,
-     "tens": 6,
-     "xs": 7,
-     "dist": {
-      "Unmarked": "122/ 3",
-      "Marked": "0",
-      "Avg": "4.519",
-      "Arrows": "27"
-     },
-     "target": "22C",
      "pool": "Red Course"
     },
     {
@@ -5817,7 +5817,7 @@
      "tens": 4,
      "xs": 12,
      "dist": {
-      "Unmarked": "133/ 1",
+      "Unmarked": "133/ 3",
       "Marked": "0",
       "Avg": "4.433",
       "Arrows": "30"
@@ -5834,7 +5834,7 @@
      "tens": 4,
      "xs": 7,
      "dist": {
-      "Unmarked": "106/ 8",
+      "Unmarked": "106/10",
       "Marked": "0",
       "Avg": "4.417",
       "Arrows": "24"
@@ -5863,15 +5863,15 @@
      "club": "GER",
      "name": "HERRMANN Svenja",
      "pos": 12,
-     "total": 116,
+     "total": 129,
      "arrows": 216,
      "tens": 2,
-     "xs": 11,
+     "xs": 12,
      "dist": {
-      "Unmarked": "116/ 4",
+      "Unmarked": "129/ 4",
       "Marked": "0",
-      "Avg": "4.296",
-      "Arrows": "27"
+      "Avg": "4.300",
+      "Arrows": "30"
      },
      "target": "23C",
      "pool": "Red Course"
@@ -5902,7 +5902,7 @@
      "tens": 3,
      "xs": 6,
      "dist": {
-      "Unmarked": "102/11",
+      "Unmarked": "102/12",
       "Marked": "0",
       "Avg": "4.250",
       "Arrows": "24"
@@ -5936,7 +5936,7 @@
      "tens": 5,
      "xs": 5,
      "dist": {
-      "Unmarked": "111/ 6",
+      "Unmarked": "111/ 7",
       "Marked": "0",
       "Avg": "4.111",
       "Arrows": "27"
@@ -5948,15 +5948,15 @@
      "club": "JPN",
      "name": "HIRATA Eri",
      "pos": 17,
-     "total": 106,
+     "total": 118,
      "arrows": 216,
      "tens": 4,
-     "xs": 4,
+     "xs": 5,
      "dist": {
-      "Unmarked": "106/ 9",
+      "Unmarked": "118/ 5",
       "Marked": "0",
-      "Avg": "3.926",
-      "Arrows": "27"
+      "Avg": "3.933",
+      "Arrows": "30"
      },
      "target": "23B",
      "pool": "Red Course"
@@ -5970,7 +5970,7 @@
      "tens": 2,
      "xs": 5,
      "dist": {
-      "Unmarked": "100/12",
+      "Unmarked": "100/13",
       "Marked": "0",
       "Avg": "3.704",
       "Arrows": "27"
@@ -5982,15 +5982,15 @@
      "club": "ROU",
      "name": "AMAISTROAIE Madalina",
      "pos": 19,
-     "total": 98,
+     "total": 110,
      "arrows": 216,
      "tens": 3,
      "xs": 4,
      "dist": {
-      "Unmarked": "98/13",
+      "Unmarked": "110/ 9",
       "Marked": "0",
-      "Avg": "3.630",
-      "Arrows": "27"
+      "Avg": "3.667",
+      "Arrows": "30"
      },
      "target": "23A",
      "pool": "Red Course"
