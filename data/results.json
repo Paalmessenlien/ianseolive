@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T21:42:13Z",
+ "generated": "2026-09-23T21:52:11Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,25 +11,25 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQRM": "2026-09-23 21:07:56",
-  "IQRW": "2026-09-23 21:17:43",
+  "IQRM": "2026-09-23 21:43:53",
+  "IQRW": "2026-09-23 21:43:54",
   "IQRU21M": "2026-09-23 21:00:59",
   "IQRU21W": "2026-09-23 21:06:54",
-  "IQCM": "2026-09-23 21:06:36",
-  "IQCW": "2026-09-23 21:34:19",
+  "IQCM": "2026-09-23 21:43:56",
+  "IQCW": "2026-09-23 21:43:36",
   "IQCU21M": "2026-09-23 20:21:06",
   "IQCU21W": "2026-09-23 21:37:24",
   "IQBM": "2026-09-23 20:42:09",
   "IQBW": "2026-09-23 21:00:48",
   "IQBU21M": "2026-09-23 20:33:01",
   "IQBU21W": "2026-09-23 20:14:38",
-  "TQMT": "2026-09-23 21:07:46",
-  "TQWT": "2026-09-23 21:07:46",
-  "TQRX": "2026-09-23 21:07:46",
-  "TQCX": "2026-09-23 21:07:46",
+  "TQMT": "2026-09-23 21:51:42",
+  "TQWT": "2026-09-23 21:51:41",
+  "TQRX": "2026-09-23 21:51:23",
+  "TQCX": "2026-09-23 21:51:40",
   "TQBX": "2026-09-23 21:07:46",
-  "TQMU21T": "2026-09-23 21:07:46",
-  "TQWU21T": "2026-09-23 21:07:46",
+  "TQMU21T": "2026-09-23 21:51:38",
+  "TQWU21T": "2026-09-23 21:51:36",
   "TQRU21X": "2026-09-23 21:07:46",
   "TQCU21X": "2026-09-23 21:07:46",
   "TQBU21X": "2026-09-23 21:07:46",
@@ -2849,72 +2849,57 @@
      "club": "GER",
      "name": "LÜPKEMANN Henning",
      "pos": 4,
-     "total": 290,
-     "arrows": 51,
-     "tens": 38,
-     "xs": 10,
+     "total": 410,
+     "arrows": 72,
+     "tens": 54,
+     "xs": 14,
      "dist": {
-      "Unmarked": "290/33",
+      "Unmarked": "410/ 4",
       "Marked": "0"
      },
      "target": "9D",
      "pool": "Blue Course"
     },
     {
+     "club": "SWE",
+     "name": "BENSCHJÖLD Jacob",
+     "pos": 5,
+     "total": 409,
+     "arrows": 72,
+     "tens": 50,
+     "xs": 21,
+     "dist": {
+      "Unmarked": "409/ 5",
+      "Marked": "0"
+     },
+     "target": "8A",
+     "pool": "Blue Course"
+    },
+    {
      "club": "FRA",
      "name": "DELOBELLE Fabien",
-     "pos": 5,
+     "pos": 6,
      "total": 409,
      "arrows": 72,
      "tens": 49,
      "xs": 23,
      "dist": {
-      "Unmarked": "409/ 4",
+      "Unmarked": "409/ 6",
       "Marked": "0"
      },
      "target": "3D",
      "pool": "Blue Course"
     },
     {
-     "club": "SLO",
-     "name": "JEVSNIK Tim",
-     "pos": 6,
-     "total": 406,
-     "arrows": 72,
-     "tens": 50,
-     "xs": 18,
-     "dist": {
-      "Unmarked": "406/ 5",
-      "Marked": "0"
-     },
-     "target": "4A",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "USA",
-     "name": "CARTER Gaius",
-     "pos": 7,
-     "total": 406,
-     "arrows": 72,
-     "tens": 49,
-     "xs": 20,
-     "dist": {
-      "Unmarked": "406/ 6",
-      "Marked": "0"
-     },
-     "target": "2C",
-     "pool": "Blue Course"
-    },
-    {
      "club": "CRO",
      "name": "BUDEN Domagoj",
-     "pos": 8,
-     "total": 304,
-     "arrows": 54,
-     "tens": 39,
-     "xs": 10,
+     "pos": 7,
+     "total": 407,
+     "arrows": 72,
+     "tens": 52,
+     "xs": 15,
      "dist": {
-      "Unmarked": "304/29",
+      "Unmarked": "407/ 7",
       "Marked": "0"
      },
      "target": "8D",
@@ -2922,14 +2907,44 @@
     },
     {
      "club": "USA",
+     "name": "CARTER Gaius",
+     "pos": 8,
+     "total": 406,
+     "arrows": 72,
+     "tens": 49,
+     "xs": 20,
+     "dist": {
+      "Unmarked": "406/ 8",
+      "Marked": "0"
+     },
+     "target": "2C",
+     "pool": "Blue Course"
+    },
+    {
+     "club": "SLO",
+     "name": "JEVSNIK Tim",
+     "pos": 8,
+     "total": 406,
+     "arrows": 72,
+     "tens": 50,
+     "xs": 18,
+     "dist": {
+      "Unmarked": "406/ 8",
+      "Marked": "0"
+     },
+     "target": "4A",
+     "pool": "Blue Course"
+    },
+    {
+     "club": "USA",
      "name": "LUTZ James",
-     "pos": 9,
+     "pos": 10,
      "total": 405,
      "arrows": 72,
      "tens": 51,
      "xs": 15,
      "dist": {
-      "Unmarked": "405/ 7",
+      "Unmarked": "405/10",
       "Marked": "0"
      },
      "target": "6C",
@@ -2938,31 +2953,16 @@
     {
      "club": "SLO",
      "name": "MODIC Stas",
-     "pos": 10,
+     "pos": 11,
      "total": 405,
      "arrows": 72,
      "tens": 50,
      "xs": 17,
      "dist": {
-      "Unmarked": "405/ 8",
+      "Unmarked": "405/11",
       "Marked": "0"
      },
      "target": "2A",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "SWE",
-     "name": "BENSCHJÖLD Jacob",
-     "pos": 11,
-     "total": 303,
-     "arrows": 54,
-     "tens": 34,
-     "xs": 19,
-     "dist": {
-      "Unmarked": "303/30",
-      "Marked": "0"
-     },
-     "target": "8A",
      "pool": "Blue Course"
     },
     {
@@ -2974,7 +2974,7 @@
      "tens": 51,
      "xs": 15,
      "dist": {
-      "Unmarked": "402/ 9",
+      "Unmarked": "402/12",
       "Marked": "0"
      },
      "target": "5D",
@@ -2989,7 +2989,7 @@
      "tens": 49,
      "xs": 17,
      "dist": {
-      "Unmarked": "401/10",
+      "Unmarked": "401/13",
       "Marked": "0"
      },
      "target": "3B",
@@ -3004,22 +3004,37 @@
      "tens": 46,
      "xs": 21,
      "dist": {
-      "Unmarked": "401/11",
+      "Unmarked": "401/14",
       "Marked": "0"
      },
      "target": "1B",
      "pool": "Blue Course"
     },
     {
+     "club": "NED",
+     "name": "REULE Jelle",
+     "pos": 15,
+     "total": 398,
+     "arrows": 72,
+     "tens": 45,
+     "xs": 22,
+     "dist": {
+      "Unmarked": "398/15",
+      "Marked": "0"
+     },
+     "target": "9B",
+     "pool": "Blue Course"
+    },
+    {
      "club": "MEX",
      "name": "VIVES LEDESMA Luis Fernando",
-     "pos": 15,
+     "pos": 16,
      "total": 398,
      "arrows": 72,
      "tens": 42,
      "xs": 26,
      "dist": {
-      "Unmarked": "398/12",
+      "Unmarked": "398/16",
       "Marked": "0"
      },
      "target": "4D",
@@ -3028,31 +3043,16 @@
     {
      "club": "SLO",
      "name": "BRENK Aljaz Matija",
-     "pos": 16,
+     "pos": 17,
      "total": 397,
      "arrows": 72,
      "tens": 46,
      "xs": 20,
      "dist": {
-      "Unmarked": "397/13",
+      "Unmarked": "397/17",
       "Marked": "0"
      },
      "target": "6A",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "NED",
-     "name": "REULE Jelle",
-     "pos": 17,
-     "total": 296,
-     "arrows": 54,
-     "tens": 33,
-     "xs": 16,
-     "dist": {
-      "Unmarked": "296/31",
-      "Marked": "0"
-     },
-     "target": "9B",
      "pool": "Blue Course"
     },
     {
@@ -3064,7 +3064,7 @@
      "tens": 42,
      "xs": 21,
      "dist": {
-      "Unmarked": "393/14",
+      "Unmarked": "393/18",
       "Marked": "0"
      },
      "target": "2B",
@@ -3079,40 +3079,40 @@
      "tens": 41,
      "xs": 21,
      "dist": {
-      "Unmarked": "391/15",
+      "Unmarked": "391/19",
       "Marked": "0"
      },
      "target": "6B",
      "pool": "Blue Course"
     },
     {
+     "club": "DEN",
+     "name": "FULLERTON Mathias",
+     "pos": 20,
+     "total": 390,
+     "arrows": 72,
+     "tens": 45,
+     "xs": 16,
+     "dist": {
+      "Unmarked": "390/20",
+      "Marked": "0"
+     },
+     "target": "8C",
+     "pool": "Blue Course"
+    },
+    {
      "club": "AUS",
      "name": "SAMI Alex",
-     "pos": 20,
+     "pos": 21,
      "total": 390,
      "arrows": 72,
      "tens": 41,
      "xs": 26,
      "dist": {
-      "Unmarked": "390/16",
+      "Unmarked": "390/21",
       "Marked": "0"
      },
      "target": "4B",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "DEN",
-     "name": "FULLERTON Mathias",
-     "pos": 21,
-     "total": 292,
-     "arrows": 54,
-     "tens": 34,
-     "xs": 12,
-     "dist": {
-      "Unmarked": "292/32",
-      "Marked": "0"
-     },
-     "target": "8C",
      "pool": "Blue Course"
     },
     {
@@ -3124,7 +3124,7 @@
      "tens": 38,
      "xs": 24,
      "dist": {
-      "Unmarked": "388/17",
+      "Unmarked": "388/22",
       "Marked": "0"
      },
      "target": "1D",
@@ -3139,7 +3139,7 @@
      "tens": 38,
      "xs": 25,
      "dist": {
-      "Unmarked": "387/18",
+      "Unmarked": "387/23",
       "Marked": "0"
      },
      "target": "2D",
@@ -3154,40 +3154,40 @@
      "tens": 38,
      "xs": 25,
      "dist": {
-      "Unmarked": "386/19",
+      "Unmarked": "386/24",
       "Marked": "0"
      },
      "target": "4C",
      "pool": "Blue Course"
     },
     {
-     "club": "ARG",
-     "name": "SALVETTI LERNOUD Federico",
-     "pos": 25,
-     "total": 273,
-     "arrows": 51,
-     "tens": 23,
-     "xs": 23,
-     "dist": {
-      "Unmarked": "273/34",
-      "Marked": "0"
-     },
-     "target": "9C",
-     "pool": "Blue Course"
-    },
-    {
      "club": "IND",
      "name": "VERMA Abhishek",
-     "pos": 26,
+     "pos": 25,
      "total": 385,
      "arrows": 72,
      "tens": 38,
      "xs": 23,
      "dist": {
-      "Unmarked": "385/20",
+      "Unmarked": "385/25",
       "Marked": "0"
      },
      "target": "1A",
+     "pool": "Blue Course"
+    },
+    {
+     "club": "ARG",
+     "name": "SALVETTI LERNOUD Federico",
+     "pos": 26,
+     "total": 383,
+     "arrows": 72,
+     "tens": 31,
+     "xs": 33,
+     "dist": {
+      "Unmarked": "383/26",
+      "Marked": "0"
+     },
+     "target": "9C",
      "pool": "Blue Course"
     },
     {
@@ -3199,7 +3199,7 @@
      "tens": 39,
      "xs": 18,
      "dist": {
-      "Unmarked": "378/21",
+      "Unmarked": "378/27",
       "Marked": "0"
      },
      "target": "3A",
@@ -3214,7 +3214,7 @@
      "tens": 34,
      "xs": 25,
      "dist": {
-      "Unmarked": "378/22",
+      "Unmarked": "378/28",
       "Marked": "0"
      },
      "target": "3C",
@@ -3229,7 +3229,7 @@
      "tens": 32,
      "xs": 28,
      "dist": {
-      "Unmarked": "376/23",
+      "Unmarked": "376/29",
       "Marked": "0"
      },
      "target": "5C",
@@ -3244,7 +3244,7 @@
      "tens": 30,
      "xs": 32,
      "dist": {
-      "Unmarked": "375/24",
+      "Unmarked": "375/30",
       "Marked": "0"
      },
      "target": "1C",
@@ -3259,7 +3259,7 @@
      "tens": 29,
      "xs": 27,
      "dist": {
-      "Unmarked": "367/25",
+      "Unmarked": "367/31",
       "Marked": "0"
      },
      "target": "5A",
@@ -3274,52 +3274,52 @@
      "tens": 28,
      "xs": 27,
      "dist": {
-      "Unmarked": "366/26",
+      "Unmarked": "366/32",
       "Marked": "0"
      },
      "target": "7C",
      "pool": "Blue Course"
     },
     {
-     "club": "MEX",
-     "name": "GARCIA AGUIRRE Ruben Eduardo",
-     "pos": 33,
-     "total": 355,
-     "arrows": 72,
-     "tens": 23,
-     "xs": 23,
-     "dist": {
-      "Unmarked": "355/27",
-      "Marked": "0"
-     },
-     "target": "6D",
-     "pool": "Blue Course"
-    },
-    {
      "club": "ESP",
      "name": "PRIETO GORRICHO Jose Manuel",
-     "pos": 34,
-     "total": 266,
-     "arrows": 54,
-     "tens": 19,
-     "xs": 18,
+     "pos": 33,
+     "total": 362,
+     "arrows": 72,
+     "tens": 28,
+     "xs": 24,
      "dist": {
-      "Unmarked": "266/35",
+      "Unmarked": "362/33",
       "Marked": "0"
      },
      "target": "8B",
      "pool": "Blue Course"
     },
     {
+     "club": "MEX",
+     "name": "GARCIA AGUIRRE Ruben Eduardo",
+     "pos": 34,
+     "total": 355,
+     "arrows": 72,
+     "tens": 23,
+     "xs": 23,
+     "dist": {
+      "Unmarked": "355/34",
+      "Marked": "0"
+     },
+     "target": "6D",
+     "pool": "Blue Course"
+    },
+    {
      "club": "CHI",
      "name": "TREJOS Diego",
      "pos": 35,
-     "total": 242,
-     "arrows": 54,
-     "tens": 9,
-     "xs": 21,
+     "total": 323,
+     "arrows": 72,
+     "tens": 14,
+     "xs": 25,
      "dist": {
-      "Unmarked": "242/36",
+      "Unmarked": "323/35",
       "Marked": "0"
      },
      "target": "9A",
@@ -3334,7 +3334,7 @@
      "tens": 19,
      "xs": 9,
      "dist": {
-      "Unmarked": "313/28",
+      "Unmarked": "313/36",
       "Marked": "0"
      },
      "target": "7A",
@@ -3886,7 +3886,7 @@
      "tens": 48,
      "xs": 15,
      "dist": {
-      "Unmarked": "387/ 4",
+      "Unmarked": "387/ 5",
       "Marked": "0"
      },
      "target": "13D",
@@ -3896,12 +3896,12 @@
      "club": "GBR",
      "name": "GIBSON Ella",
      "pos": 2,
-     "total": 386,
-     "arrows": 69,
-     "tens": 45,
-     "xs": 21,
+     "total": 403,
+     "arrows": 72,
+     "tens": 47,
+     "xs": 22,
      "dist": {
-      "Unmarked": "386/ 5",
+      "Unmarked": "403/ 1",
       "Marked": "0"
      },
      "target": "11D",
@@ -3916,7 +3916,7 @@
      "tens": 46,
      "xs": 18,
      "dist": {
-      "Unmarked": "397/ 1",
+      "Unmarked": "397/ 2",
       "Marked": "0"
      },
      "target": "14B",
@@ -3946,7 +3946,7 @@
      "tens": 39,
      "xs": 23,
      "dist": {
-      "Unmarked": "377/ 9",
+      "Unmarked": "377/12",
       "Marked": "0"
      },
      "target": "13B",
@@ -3976,7 +3976,7 @@
      "tens": 48,
      "xs": 16,
      "dist": {
-      "Unmarked": "390/ 2",
+      "Unmarked": "390/ 3",
       "Marked": "0"
      },
      "target": "10A",
@@ -3991,7 +3991,7 @@
      "tens": 34,
      "xs": 33,
      "dist": {
-      "Unmarked": "389/ 3",
+      "Unmarked": "389/ 4",
       "Marked": "0"
      },
      "target": "14C",
@@ -4016,57 +4016,57 @@
      "club": "GER",
      "name": "BÖHNKE Julia",
      "pos": 10,
-     "total": 369,
-     "arrows": 69,
-     "tens": 33,
-     "xs": 27,
+     "total": 385,
+     "arrows": 72,
+     "tens": 34,
+     "xs": 29,
      "dist": {
-      "Unmarked": "369/11",
+      "Unmarked": "385/ 7",
       "Marked": "0"
      },
      "target": "15D",
      "pool": "Blue Course"
     },
     {
-     "club": "AUT",
-     "name": "RONACHER Ingrid",
-     "pos": 11,
-     "total": 384,
-     "arrows": 72,
-     "tens": 35,
-     "xs": 26,
-     "dist": {
-      "Unmarked": "384/ 7",
-      "Marked": "0"
-     },
-     "target": "10D",
-     "pool": "Blue Course"
-    },
-    {
      "club": "NED",
      "name": "SCHWANEN Florentina",
-     "pos": 12,
-     "total": 368,
-     "arrows": 69,
-     "tens": 32,
-     "xs": 28,
+     "pos": 10,
+     "total": 385,
+     "arrows": 72,
+     "tens": 34,
+     "xs": 29,
      "dist": {
-      "Unmarked": "368/12",
+      "Unmarked": "385/ 7",
       "Marked": "0"
      },
      "target": "15B",
      "pool": "Blue Course"
     },
     {
+     "club": "AUT",
+     "name": "RONACHER Ingrid",
+     "pos": 12,
+     "total": 384,
+     "arrows": 72,
+     "tens": 35,
+     "xs": 26,
+     "dist": {
+      "Unmarked": "384/ 9",
+      "Marked": "0"
+     },
+     "target": "10D",
+     "pool": "Blue Course"
+    },
+    {
      "club": "SLO",
      "name": "KRIZE Barbra Pia",
      "pos": 13,
-     "total": 368,
-     "arrows": 69,
-     "tens": 30,
+     "total": 382,
+     "arrows": 72,
+     "tens": 31,
      "xs": 32,
      "dist": {
-      "Unmarked": "368/13",
+      "Unmarked": "382/10",
       "Marked": "0"
      },
      "target": "11C",
@@ -4081,7 +4081,7 @@
      "tens": 32,
      "xs": 32,
      "dist": {
-      "Unmarked": "381/ 8",
+      "Unmarked": "381/11",
       "Marked": "0"
      },
      "target": "10C",
@@ -4096,7 +4096,7 @@
      "tens": 19,
      "xs": 16,
      "dist": {
-      "Unmarked": "234/23",
+      "Unmarked": "234/24",
       "Marked": "0"
      },
      "target": "12D",
@@ -4126,7 +4126,7 @@
      "tens": 25,
      "xs": 35,
      "dist": {
-      "Unmarked": "372/10",
+      "Unmarked": "372/13",
       "Marked": "0"
      },
      "target": "10B",
@@ -4156,7 +4156,7 @@
      "tens": 26,
      "xs": 23,
      "dist": {
-      "Unmarked": "318/19",
+      "Unmarked": "318/20",
       "Marked": "0"
      },
      "target": "16A",
@@ -4171,7 +4171,7 @@
      "tens": 22,
      "xs": 27,
      "dist": {
-      "Unmarked": "343/16",
+      "Unmarked": "343/17",
       "Marked": "0"
      },
      "target": "13A",
@@ -4181,12 +4181,12 @@
      "club": "ESP",
      "name": "PITARCH Maria",
      "pos": 21,
-     "total": 328,
-     "arrows": 69,
-     "tens": 26,
-     "xs": 22,
+     "total": 343,
+     "arrows": 72,
+     "tens": 27,
+     "xs": 23,
      "dist": {
-      "Unmarked": "328/17",
+      "Unmarked": "343/16",
       "Marked": "0"
      },
      "target": "15A",
@@ -4196,12 +4196,12 @@
      "club": "MEX",
      "name": "QUIROGA Elma Cristina",
      "pos": 22,
-     "total": 321,
-     "arrows": 69,
-     "tens": 20,
+     "total": 335,
+     "arrows": 72,
+     "tens": 21,
      "xs": 24,
      "dist": {
-      "Unmarked": "321/18",
+      "Unmarked": "335/18",
       "Marked": "0"
      },
      "target": "11A",
@@ -4211,12 +4211,12 @@
      "club": "JPN",
      "name": "MIYATA Etsuko",
      "pos": 23,
-     "total": 318,
-     "arrows": 69,
-     "tens": 17,
+     "total": 331,
+     "arrows": 72,
+     "tens": 18,
      "xs": 22,
      "dist": {
-      "Unmarked": "318/20",
+      "Unmarked": "331/19",
       "Marked": "0"
      },
      "target": "11B",
@@ -4241,12 +4241,12 @@
      "club": "CHI",
      "name": "BRILLADERO Constanza",
      "pos": 25,
-     "total": 227,
-     "arrows": 69,
+     "total": 239,
+     "arrows": 72,
      "tens": 4,
      "xs": 12,
      "dist": {
-      "Unmarked": "227/24",
+      "Unmarked": "239/23",
       "Marked": "0"
      },
      "target": "15C",
@@ -4312,33 +4312,33 @@
      "pool": "Red Course"
     },
     {
+     "club": "GBR",
+     "name": "HUSTON Patrick",
+     "pos": 4,
+     "total": 373,
+     "arrows": 72,
+     "tens": 32,
+     "xs": 23,
+     "dist": {
+      "Unmarked": "373/ 4",
+      "Marked": "0"
+     },
+     "target": "16A",
+     "pool": "Red Course"
+    },
+    {
      "club": "AUS",
      "name": "TYACK Ryan",
-     "pos": 4,
+     "pos": 5,
      "total": 373,
      "arrows": 72,
      "tens": 31,
      "xs": 26,
      "dist": {
-      "Unmarked": "373/ 4",
+      "Unmarked": "373/ 5",
       "Marked": "0"
      },
      "target": "13B",
-     "pool": "Red Course"
-    },
-    {
-     "club": "GBR",
-     "name": "HUSTON Patrick",
-     "pos": 5,
-     "total": 356,
-     "arrows": 69,
-     "tens": 30,
-     "xs": 22,
-     "dist": {
-      "Unmarked": "356/14",
-      "Marked": "0"
-     },
-     "target": "16A",
      "pool": "Red Course"
     },
     {
@@ -4350,7 +4350,7 @@
      "tens": 28,
      "xs": 28,
      "dist": {
-      "Unmarked": "370/ 5",
+      "Unmarked": "370/ 6",
       "Marked": "0"
      },
      "target": "13C",
@@ -4365,7 +4365,7 @@
      "tens": 25,
      "xs": 35,
      "dist": {
-      "Unmarked": "370/ 6",
+      "Unmarked": "370/ 7",
       "Marked": "0"
      },
      "target": "10C",
@@ -4395,40 +4395,40 @@
      "tens": 31,
      "xs": 22,
      "dist": {
-      "Unmarked": "369/ 7",
+      "Unmarked": "369/ 8",
       "Marked": "0"
      },
      "target": "12A",
      "pool": "Red Course"
     },
     {
+     "club": "SVK",
+     "name": "FRANCU Ondrej",
+     "pos": 10,
+     "total": 368,
+     "arrows": 72,
+     "tens": 27,
+     "xs": 28,
+     "dist": {
+      "Unmarked": "368/10",
+      "Marked": "0"
+     },
+     "target": "16B",
+     "pool": "Red Course"
+    },
+    {
      "club": "FRA",
      "name": "MULOT Florent",
-     "pos": 10,
+     "pos": 11,
      "total": 367,
      "arrows": 72,
      "tens": 29,
      "xs": 24,
      "dist": {
-      "Unmarked": "367/ 9",
+      "Unmarked": "367/11",
       "Marked": "0"
      },
      "target": "10B",
-     "pool": "Red Course"
-    },
-    {
-     "club": "SVK",
-     "name": "FRANCU Ondrej",
-     "pos": 11,
-     "total": 350,
-     "arrows": 69,
-     "tens": 24,
-     "xs": 28,
-     "dist": {
-      "Unmarked": "350/17",
-      "Marked": "0"
-     },
-     "target": "16B",
      "pool": "Red Course"
     },
     {
@@ -4440,7 +4440,7 @@
      "tens": 27,
      "xs": 26,
      "dist": {
-      "Unmarked": "364/10",
+      "Unmarked": "364/12",
       "Marked": "0"
      },
      "target": "16D",
@@ -4455,7 +4455,7 @@
      "tens": 34,
      "xs": 19,
      "dist": {
-      "Unmarked": "362/11",
+      "Unmarked": "362/13",
       "Marked": "0"
      },
      "target": "9D",
@@ -4470,7 +4470,7 @@
      "tens": 25,
      "xs": 26,
      "dist": {
-      "Unmarked": "362/12",
+      "Unmarked": "362/14",
       "Marked": "0"
      },
      "target": "13A",
@@ -4485,7 +4485,7 @@
      "tens": 23,
      "xs": 27,
      "dist": {
-      "Unmarked": "358/13",
+      "Unmarked": "358/15",
       "Marked": "0"
      },
      "target": "15B",
@@ -4500,7 +4500,7 @@
      "tens": 23,
      "xs": 26,
      "dist": {
-      "Unmarked": "353/15",
+      "Unmarked": "353/16",
       "Marked": "0"
      },
      "target": "14D",
@@ -4515,7 +4515,7 @@
      "tens": 20,
      "xs": 29,
      "dist": {
-      "Unmarked": "353/16",
+      "Unmarked": "353/17",
       "Marked": "0"
      },
      "target": "15C",
@@ -5212,12 +5212,12 @@
      "club": "ITA",
      "name": "DI FRANCESCO Roberta",
      "pos": 1,
-     "total": 253,
-     "arrows": 51,
-     "tens": 17,
-     "xs": 21,
+     "total": 362,
+     "arrows": 72,
+     "tens": 27,
+     "xs": 27,
      "dist": {
-      "Unmarked": "253/12",
+      "Unmarked": "362/ 1",
       "Marked": "0"
      },
      "target": "20B",
@@ -5227,12 +5227,12 @@
      "club": "GBR",
      "name": "MEERING Sophie",
      "pos": 2,
-     "total": 218,
-     "arrows": 45,
-     "tens": 11,
-     "xs": 18,
+     "total": 350,
+     "arrows": 72,
+     "tens": 20,
+     "xs": 28,
      "dist": {
-      "Unmarked": "218/16",
+      "Unmarked": "350/ 2",
       "Marked": "0"
      },
      "target": "22B",
@@ -5247,112 +5247,22 @@
      "tens": 23,
      "xs": 25,
      "dist": {
-      "Unmarked": "348/ 1",
+      "Unmarked": "348/ 3",
       "Marked": "0"
      },
      "target": "17B",
      "pool": "Red Course"
     },
     {
-     "club": "FRA",
-     "name": "LEJEUNE Marie",
-     "pos": 4,
-     "total": 240,
-     "arrows": 51,
-     "tens": 14,
-     "xs": 15,
-     "dist": {
-      "Unmarked": "240/13",
-      "Marked": "0"
-     },
-     "target": "20C",
-     "pool": "Red Course"
-    },
-    {
-     "club": "IRL",
-     "name": "PITMAN Bryony",
-     "pos": 5,
-     "total": 338,
-     "arrows": 72,
-     "tens": 11,
-     "xs": 31,
-     "dist": {
-      "Unmarked": "338/ 2",
-      "Marked": "0"
-     },
-     "target": "18B",
-     "pool": "Red Course"
-    },
-    {
-     "club": "FRA",
-     "name": "MACHINET Audrey",
-     "pos": 6,
-     "total": 336,
-     "arrows": 72,
-     "tens": 16,
-     "xs": 25,
-     "dist": {
-      "Unmarked": "336/ 3",
-      "Marked": "0"
-     },
-     "target": "17C",
-     "pool": "Red Course"
-    },
-    {
-     "club": "AUS",
-     "name": "FEENEY Alexandra",
-     "pos": 7,
-     "total": 332,
-     "arrows": 72,
-     "tens": 19,
-     "xs": 21,
-     "dist": {
-      "Unmarked": "332/ 4",
-      "Marked": "0"
-     },
-     "target": "18D",
-     "pool": "Red Course"
-    },
-    {
-     "club": "USA",
-     "name": "ZULETA-VISSER Alex",
-     "pos": 8,
-     "total": 234,
-     "arrows": 51,
-     "tens": 10,
-     "xs": 17,
-     "dist": {
-      "Unmarked": "234/14",
-      "Marked": "0"
-     },
-     "target": "20A",
-     "pool": "Red Course"
-    },
-    {
-     "club": "SLO",
-     "name": "PINTARIC Zana",
-     "pos": 9,
-     "total": 328,
-     "arrows": 72,
-     "tens": 16,
-     "xs": 23,
-     "dist": {
-      "Unmarked": "328/ 5",
-      "Marked": "0"
-     },
-     "target": "17D",
-     "pool": "Red Course"
-    },
-    {
      "club": "USA",
      "name": "KAUFHOLD Casey",
-     "pos": 10,
-     "total": 205,
-     "arrows": 45,
-     "tens": 6,
-     "xs": 20,
+     "pos": 4,
+     "total": 345,
+     "arrows": 72,
+     "tens": 18,
+     "xs": 28,
      "dist": {
-      "Unmarked": "205/17",
+      "Unmarked": "345/ 4",
       "Marked": "0"
      },
      "target": "22A",
@@ -5361,31 +5271,121 @@
     {
      "club": "FRA",
      "name": "DEVAUX Jennifer",
-     "pos": 11,
-     "total": 204,
-     "arrows": 45,
-     "tens": 12,
-     "xs": 10,
+     "pos": 5,
+     "total": 340,
+     "arrows": 72,
+     "tens": 20,
+     "xs": 22,
      "dist": {
-      "Unmarked": "204/18",
+      "Unmarked": "340/ 5",
       "Marked": "0"
      },
      "target": "22C",
      "pool": "Red Course"
     },
     {
+     "club": "FRA",
+     "name": "LEJEUNE Marie",
+     "pos": 6,
+     "total": 339,
+     "arrows": 72,
+     "tens": 18,
+     "xs": 25,
+     "dist": {
+      "Unmarked": "339/ 6",
+      "Marked": "0"
+     },
+     "target": "20C",
+     "pool": "Red Course"
+    },
+    {
+     "club": "IRL",
+     "name": "PITMAN Bryony",
+     "pos": 7,
+     "total": 338,
+     "arrows": 72,
+     "tens": 11,
+     "xs": 31,
+     "dist": {
+      "Unmarked": "338/ 7",
+      "Marked": "0"
+     },
+     "target": "18B",
+     "pool": "Red Course"
+    },
+    {
+     "club": "USA",
+     "name": "ZULETA-VISSER Alex",
+     "pos": 8,
+     "total": 336,
+     "arrows": 72,
+     "tens": 18,
+     "xs": 22,
+     "dist": {
+      "Unmarked": "336/ 8",
+      "Marked": "0"
+     },
+     "target": "20A",
+     "pool": "Red Course"
+    },
+    {
+     "club": "FRA",
+     "name": "MACHINET Audrey",
+     "pos": 9,
+     "total": 336,
+     "arrows": 72,
+     "tens": 16,
+     "xs": 25,
+     "dist": {
+      "Unmarked": "336/ 9",
+      "Marked": "0"
+     },
+     "target": "17C",
+     "pool": "Red Course"
+    },
+    {
+     "club": "AUS",
+     "name": "FEENEY Alexandra",
+     "pos": 10,
+     "total": 332,
+     "arrows": 72,
+     "tens": 19,
+     "xs": 21,
+     "dist": {
+      "Unmarked": "332/10",
+      "Marked": "0"
+     },
+     "target": "18D",
+     "pool": "Red Course"
+    },
+    {
      "club": "SLO",
      "name": "CAVIC Urska",
-     "pos": 12,
-     "total": 229,
-     "arrows": 51,
-     "tens": 9,
-     "xs": 16,
+     "pos": 11,
+     "total": 331,
+     "arrows": 72,
+     "tens": 13,
+     "xs": 26,
      "dist": {
-      "Unmarked": "229/15",
+      "Unmarked": "331/11",
       "Marked": "0"
      },
      "target": "20D",
+     "pool": "Red Course"
+    },
+    {
+     "club": "SLO",
+     "name": "PINTARIC Zana",
+     "pos": 12,
+     "total": 328,
+     "arrows": 72,
+     "tens": 16,
+     "xs": 23,
+     "dist": {
+      "Unmarked": "328/12",
+      "Marked": "0"
+     },
+     "target": "17D",
      "pool": "Red Course"
     },
     {
@@ -5397,7 +5397,7 @@
      "tens": 14,
      "xs": 21,
      "dist": {
-      "Unmarked": "323/ 6",
+      "Unmarked": "323/13",
       "Marked": "0"
      },
      "target": "23C",
@@ -5412,7 +5412,7 @@
      "tens": 16,
      "xs": 21,
      "dist": {
-      "Unmarked": "318/ 7",
+      "Unmarked": "318/14",
       "Marked": "0"
      },
      "target": "18C",
@@ -5422,45 +5422,45 @@
      "club": "ESP",
      "name": "DE LA FUENTE TORRECILLA Iria",
      "pos": 15,
-     "total": 202,
-     "arrows": 48,
-     "tens": 7,
-     "xs": 13,
+     "total": 312,
+     "arrows": 72,
+     "tens": 13,
+     "xs": 20,
      "dist": {
-      "Unmarked": "202/19",
+      "Unmarked": "312/15",
       "Marked": "0"
      },
      "target": "21B",
      "pool": "Red Course"
     },
     {
+     "club": "CZE",
+     "name": "VANECKOVA Jindriska",
+     "pos": 16,
+     "total": 307,
+     "arrows": 72,
+     "tens": 8,
+     "xs": 24,
+     "dist": {
+      "Unmarked": "307/16",
+      "Marked": "0"
+     },
+     "target": "21C",
+     "pool": "Red Course"
+    },
+    {
      "club": "USA",
      "name": "RASOR Nicole",
-     "pos": 16,
+     "pos": 17,
      "total": 299,
      "arrows": 72,
      "tens": 9,
      "xs": 12,
      "dist": {
-      "Unmarked": "299/ 8",
+      "Unmarked": "299/17",
       "Marked": "0"
      },
      "target": "17A",
-     "pool": "Red Course"
-    },
-    {
-     "club": "CZE",
-     "name": "VANECKOVA Jindriska",
-     "pos": 17,
-     "total": 198,
-     "arrows": 48,
-     "tens": 5,
-     "xs": 15,
-     "dist": {
-      "Unmarked": "198/20",
-      "Marked": "0"
-     },
-     "target": "21C",
      "pool": "Red Course"
     },
     {
@@ -5472,7 +5472,7 @@
      "tens": 10,
      "xs": 14,
      "dist": {
-      "Unmarked": "290/ 9",
+      "Unmarked": "290/18",
       "Marked": "0"
      },
      "target": "23A",
@@ -5487,7 +5487,7 @@
      "tens": 9,
      "xs": 15,
      "dist": {
-      "Unmarked": "282/10",
+      "Unmarked": "282/19",
       "Marked": "0"
      },
      "target": "23B",
@@ -5502,7 +5502,7 @@
      "tens": 5,
      "xs": 19,
      "dist": {
-      "Unmarked": "275/11",
+      "Unmarked": "275/20",
       "Marked": "0"
      },
      "target": "18A",
@@ -5512,12 +5512,12 @@
      "club": "MEX",
      "name": "MUÑOZ GARCÍA Evvy Larissa",
      "pos": 21,
-     "total": 160,
-     "arrows": 48,
-     "tens": 1,
-     "xs": 9,
+     "total": 244,
+     "arrows": 72,
+     "tens": 4,
+     "xs": 13,
      "dist": {
-      "Unmarked": "160/21",
+      "Unmarked": "244/21",
       "Marked": "0"
      },
      "target": "21A",
@@ -5860,26 +5860,13 @@
    "distances": [],
    "field": [
     {
-     "club": "AUT",
-     "name": "Lag",
-     "pos": 1,
-     "total": 796,
-     "arrows": 141,
-     "tens": 91,
-     "xs": 26,
-     "dist": {},
-     "members": "RONACHER Ingrid, WIENER Nico",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "CRO",
      "name": "Lag",
-     "pos": 2,
-     "total": 792,
-     "arrows": 141,
-     "tens": 68,
-     "xs": 19,
+     "pos": 1,
+     "total": 811,
+     "arrows": 144,
+     "tens": 100,
+     "xs": 30,
      "dist": {},
      "members": "MLINARIC Amanda, BUDEN Domagoj",
      "target": "",
@@ -5888,11 +5875,11 @@
     {
      "club": "FRA",
      "name": "Lag",
-     "pos": 3,
-     "total": 789,
-     "arrows": 141,
-     "tens": 93,
-     "xs": 40,
+     "pos": 2,
+     "total": 806,
+     "arrows": 144,
+     "tens": 95,
+     "xs": 41,
      "dist": {},
      "members": "HERVE Sandra, DELOBELLE Fabien",
      "target": "",
@@ -5901,13 +5888,26 @@
     {
      "club": "ITA",
      "name": "Lag",
-     "pos": 4,
-     "total": 784,
-     "arrows": 141,
-     "tens": 92,
-     "xs": 37,
+     "pos": 3,
+     "total": 803,
+     "arrows": 144,
+     "tens": 105,
+     "xs": 27,
      "dist": {},
-     "members": "MOCCIA Andrea Nicole, GODANO Michea",
+     "members": "DI NARDO Giulia, GODANO Michea",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "AUT",
+     "name": "Lag",
+     "pos": 4,
+     "total": 803,
+     "arrows": 144,
+     "tens": 97,
+     "xs": 34,
+     "dist": {},
+     "members": "RONACHER Ingrid, WIENER Nico",
      "target": "",
      "pool": ""
     },
@@ -5915,23 +5915,36 @@
      "club": "NED",
      "name": "Lag",
      "pos": 5,
-     "total": 780,
-     "arrows": 141,
-     "tens": 87,
-     "xs": 42,
+     "total": 797,
+     "arrows": 144,
+     "tens": 89,
+     "xs": 43,
      "dist": {},
      "members": "SCHWANEN Florentina, SCHLOESSER Mike",
      "target": "",
      "pool": ""
     },
     {
-     "club": "USA",
+     "club": "GER",
      "name": "Lag",
      "pos": 6,
-     "total": 779,
-     "arrows": 141,
-     "tens": 82,
-     "xs": 51,
+     "total": 795,
+     "arrows": 144,
+     "tens": 88,
+     "xs": 43,
+     "dist": {},
+     "members": "BÖHNKE Julia, LÜPKEMANN Henning",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "USA",
+     "name": "Lag",
+     "pos": 7,
+     "total": 795,
+     "arrows": 144,
+     "tens": 83,
+     "xs": 53,
      "dist": {},
      "members": "NOFEL Savannah, CARTER Gaius",
      "target": "",
@@ -5940,37 +5953,37 @@
     {
      "club": "SLO",
      "name": "Lag",
-     "pos": 7,
-     "total": 778,
-     "arrows": 141,
-     "tens": 72,
-     "xs": 38,
+     "pos": 8,
+     "total": 788,
+     "arrows": 144,
+     "tens": 81,
+     "xs": 50,
      "dist": {},
      "members": "KRIZE Barbra Pia, JEVSNIK Tim",
      "target": "",
      "pool": ""
     },
     {
-     "club": "GER",
+     "club": "MEX",
      "name": "Lag",
-     "pos": 8,
-     "total": 774,
-     "arrows": 141,
-     "tens": 71,
-     "xs": 37,
+     "pos": 9,
+     "total": 757,
+     "arrows": 144,
+     "tens": 64,
+     "xs": 53,
      "dist": {},
-     "members": "BÖHNKE Julia, LÜPKEMANN Henning",
+     "members": "ALDERETE TERRAZAS Erika, VIVES LEDESMA Luis Fernando",
      "target": "",
      "pool": ""
     },
     {
      "club": "CAN",
      "name": "Lag",
-     "pos": 9,
-     "total": 735,
-     "arrows": 141,
-     "tens": 52,
-     "xs": 53,
+     "pos": 10,
+     "total": 750,
+     "arrows": 144,
+     "tens": 59,
+     "xs": 60,
      "dist": {},
      "members": "ST. AMANT Sarah, ST. AMANT Blair",
      "target": "",
@@ -5979,26 +5992,13 @@
     {
      "club": "IND",
      "name": "Lag",
-     "pos": 10,
-     "total": 734,
-     "arrows": 141,
-     "tens": 63,
-     "xs": 44,
+     "pos": 11,
+     "total": 750,
+     "arrows": 144,
+     "tens": 64,
+     "xs": 46,
      "dist": {},
      "members": "KAUR Parneet, VERMA Abhishek",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "MEX",
-     "name": "Lag",
-     "pos": 11,
-     "total": 730,
-     "arrows": 141,
-     "tens": 56,
-     "xs": 43,
-     "dist": {},
-     "members": "QUIROGA Elma Cristina, VIVES LEDESMA Luis Fernando",
      "target": "",
      "pool": ""
     },
@@ -6006,10 +6006,10 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 12,
-     "total": 681,
-     "arrows": 141,
-     "tens": 45,
-     "xs": 40,
+     "total": 705,
+     "arrows": 144,
+     "tens": 55,
+     "xs": 47,
      "dist": {},
      "members": "PITARCH Maria, PRIETO GORRICHO Jose Manuel",
      "target": "",
@@ -6019,12 +6019,12 @@
      "club": "CHI",
      "name": "Lag",
      "pos": 13,
-     "total": 540,
-     "arrows": 141,
-     "tens": 23,
-     "xs": 21,
+     "total": 562,
+     "arrows": 144,
+     "tens": 18,
+     "xs": 37,
      "dist": {},
-     "members": "BRILLADERO Constanza, NICCODEMI Angel",
+     "members": "BRILLADERO Constanza, TREJOS Diego",
      "target": "",
      "pool": ""
     }
@@ -6066,9 +6066,22 @@
      "pool": ""
     },
     {
-     "club": "USA",
+     "club": "GER",
      "name": "Lag",
      "pos": 3,
+     "total": 1128,
+     "arrows": 216,
+     "tens": 100,
+     "xs": 70,
+     "dist": {},
+     "members": "LÜPKEMANN Henning, SCHAEFER Rüdiger, UNRUH Florian",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "USA",
+     "name": "Lag",
+     "pos": 4,
      "total": 1127,
      "arrows": 216,
      "tens": 100,
@@ -6081,26 +6094,13 @@
     {
      "club": "AUS",
      "name": "Lag",
-     "pos": 4,
+     "pos": 5,
      "total": 1118,
      "arrows": 216,
      "tens": 99,
      "xs": 65,
      "dist": {},
      "members": "FAIRWEATHER Simon, NEVE Harry, TYACK Ryan",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "GER",
-     "name": "Lag",
-     "pos": 5,
-     "total": 1117,
-     "arrows": 216,
-     "tens": 84,
-     "xs": 66,
-     "dist": {},
-     "members": "LÜPKEMANN Henning, SCHAEFER Rüdiger, UNRUH Florian",
      "target": "",
      "pool": ""
     },
@@ -6118,9 +6118,35 @@
      "pool": ""
     },
     {
-     "club": "CAN",
+     "club": "CRO",
      "name": "Lag",
      "pos": 7,
+     "total": 1051,
+     "arrows": 216,
+     "tens": 87,
+     "xs": 46,
+     "dist": {},
+     "members": "BUDEN Domagoj, REMAR Alen, VELAGIC Zoran",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "ESP",
+     "name": "Lag",
+     "pos": 8,
+     "total": 1050,
+     "arrows": 216,
+     "tens": 66,
+     "xs": 69,
+     "dist": {},
+     "members": "PRIETO GORRICHO Jose Manuel, ROIG ROIG Toni, VERA BRINGAS Cesar",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "CAN",
+     "name": "Lag",
+     "pos": 9,
      "total": 1045,
      "arrows": 216,
      "tens": 69,
@@ -6131,41 +6157,15 @@
      "pool": ""
     },
     {
-     "club": "ESP",
-     "name": "Lag",
-     "pos": 8,
-     "total": 1041,
-     "arrows": 216,
-     "tens": 57,
-     "xs": 63,
-     "dist": {},
-     "members": "PRIETO GORRICHO Jose Manuel, ROIG ROIG Toni, VERA BRINGAS Cesar",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "CRO",
-     "name": "Lag",
-     "pos": 9,
-     "total": 1034,
-     "arrows": 216,
-     "tens": 74,
-     "xs": 41,
-     "dist": {},
-     "members": "BUDEN Domagoj, REMAR Alen, VELAGIC Zoran",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "CHI",
      "name": "Lag",
      "pos": 10,
-     "total": 776,
+     "total": 786,
      "arrows": 216,
-     "tens": 30,
-     "xs": 28,
+     "tens": 25,
+     "xs": 44,
      "dist": {},
-     "members": "BARRA Bruno, LIPAN Jose, NICCODEMI Angel",
+     "members": "BARRA Bruno, LIPAN Jose, TREJOS Diego",
      "target": "",
      "pool": ""
     }
@@ -6341,19 +6341,23 @@
    "team": true,
    "official": false,
    "fieldScoring": true,
-   "totalArrows": 288,
-   "distances": [],
+   "totalArrows": 144,
+   "distances": [
+    "Total"
+   ],
    "field": [
     {
      "club": "ITA",
      "name": "Lag",
      "pos": 1,
-     "total": 725,
+     "total": 0,
      "arrows": 144,
-     "tens": 57,
-     "xs": 45,
-     "dist": {},
-     "members": "REBAGLIATI Chiara, MUSOLESI Federico",
+     "tens": 63,
+     "xs": 47,
+     "dist": {
+      "Total": "740"
+     },
+     "members": "DI FRANCESCO Roberta, MUSOLESI Federico",
      "target": "",
      "pool": ""
     },
@@ -6361,25 +6365,29 @@
      "club": "GBR",
      "name": "Lag",
      "pos": 2,
-     "total": 725,
+     "total": 0,
      "arrows": 144,
-     "tens": 41,
-     "xs": 40,
-     "dist": {},
+     "tens": 52,
+     "xs": 51,
+     "dist": {
+      "Total": "723"
+     },
      "members": "MEERING Sophie, HUSTON Patrick",
      "target": "",
      "pool": ""
     },
     {
-     "club": "AUS",
+     "club": "USA",
      "name": "Lag",
      "pos": 3,
-     "total": 705,
+     "total": 0,
      "arrows": 144,
-     "tens": 50,
-     "xs": 47,
-     "dist": {},
-     "members": "FEENEY Alexandra, TYACK Ryan",
+     "tens": 46,
+     "xs": 56,
+     "dist": {
+      "Total": "714"
+     },
+     "members": "KAUFHOLD Casey, ELLISON Brady",
      "target": "",
      "pool": ""
     },
@@ -6387,24 +6395,43 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 4,
-     "total": 702,
+     "total": 0,
      "arrows": 144,
-     "tens": 43,
-     "xs": 49,
-     "dist": {},
-     "members": "MACHINET Audrey, MULOT Florent",
+     "tens": 49,
+     "xs": 46,
+     "dist": {
+      "Total": "707"
+     },
+     "members": "DEVAUX Jennifer, MULOT Florent",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "AUS",
+     "name": "Lag",
+     "pos": 5,
+     "total": 0,
+     "arrows": 144,
+     "tens": 50,
+     "xs": 47,
+     "dist": {
+      "Total": "705"
+     },
+     "members": "FEENEY Alexandra, TYACK Ryan",
      "target": "",
      "pool": ""
     },
     {
      "club": "GER",
      "name": "Lag",
-     "pos": 5,
-     "total": 701,
+     "pos": 6,
+     "total": 0,
      "arrows": 144,
      "tens": 46,
      "xs": 45,
-     "dist": {},
+     "dist": {
+      "Total": "698"
+     },
      "members": "HERRMANN Svenja, UNRUH Florian",
      "target": "",
      "pool": ""
@@ -6412,25 +6439,29 @@
     {
      "club": "SLO",
      "name": "Lag",
-     "pos": 6,
-     "total": 685,
+     "pos": 7,
+     "total": 0,
      "arrows": 144,
-     "tens": 38,
-     "xs": 49,
-     "dist": {},
-     "members": "PINTARIC Zana, RAVNIKAR Ziga",
+     "tens": 36,
+     "xs": 52,
+     "dist": {
+      "Total": "684"
+     },
+     "members": "CAVIC Urska, RAVNIKAR Ziga",
      "target": "",
      "pool": ""
     },
     {
      "club": "NED",
      "name": "Lag",
-     "pos": 7,
-     "total": 680,
+     "pos": 8,
+     "total": 0,
      "arrows": 144,
      "tens": 50,
      "xs": 40,
-     "dist": {},
+     "dist": {
+      "Total": "680"
+     },
      "members": "SCHLOESSER Gaby, BAKKER Willem",
      "target": "",
      "pool": ""
@@ -6438,26 +6469,15 @@
     {
      "club": "CZE",
      "name": "Lag",
-     "pos": 8,
-     "total": 674,
-     "arrows": 144,
-     "tens": 32,
-     "xs": 41,
-     "dist": {},
-     "members": "VANECKOVA Jindriska, KREJCI Richard",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "USA",
-     "name": "Lag",
      "pos": 9,
-     "total": 670,
+     "total": 0,
      "arrows": 144,
-     "tens": 37,
-     "xs": 40,
-     "dist": {},
-     "members": "RASOR Nicole, ELLISON Brady",
+     "tens": 35,
+     "xs": 50,
+     "dist": {
+      "Total": "671"
+     },
+     "members": "VANECKOVA Jindriska, KREJCI Richard",
      "target": "",
      "pool": ""
     },
@@ -6465,11 +6485,13 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 10,
-     "total": 662,
+     "total": 0,
      "arrows": 144,
-     "tens": 28,
-     "xs": 38,
-     "dist": {},
+     "tens": 34,
+     "xs": 45,
+     "dist": {
+      "Total": "662"
+     },
      "members": "DE LA FUENTE TORRECILLA Iria, ROIG ROIG Toni",
      "target": "",
      "pool": ""
@@ -6478,11 +6500,13 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 11,
-     "total": 606,
+     "total": 0,
      "arrows": 144,
      "tens": 22,
      "xs": 45,
-     "dist": {},
+     "dist": {
+      "Total": "606"
+     },
      "members": "CAHUANTZI SANCHEZ Maria Fernanda, ROJAS Carlos",
      "target": "",
      "pool": ""
@@ -6491,11 +6515,13 @@
      "club": "ROU",
      "name": "Lag",
      "pos": 12,
-     "total": 604,
+     "total": 0,
      "arrows": 144,
      "tens": 23,
      "xs": 37,
-     "dist": {},
+     "dist": {
+      "Total": "601"
+     },
      "members": "AMAISTROAIE Madalina, CONDURACHE Nectarios",
      "target": "",
      "pool": ""
@@ -6504,11 +6530,13 @@
      "club": "JPN",
      "name": "Lag",
      "pos": 13,
-     "total": 598,
+     "total": 0,
      "arrows": 144,
-     "tens": 22,
-     "xs": 36,
-     "dist": {},
+     "tens": 23,
+     "xs": 37,
+     "dist": {
+      "Total": "600"
+     },
      "members": "HIRATA Eri, URATA Yui",
      "target": "",
      "pool": ""
@@ -6528,25 +6556,25 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 1,
-     "total": 1043,
-     "arrows": 210,
-     "tens": 76,
-     "xs": 72,
+     "total": 1092,
+     "arrows": 216,
+     "tens": 95,
+     "xs": 64,
      "dist": {},
-     "members": "MOCCIA Andrea Nicole, NOZIGLIA Cinzia, REBAGLIATI Chiara",
+     "members": "DI FRANCESCO Roberta, DI NARDO Giulia, NOZIGLIA Cinzia",
      "target": "",
      "pool": ""
     },
     {
-     "club": "GER",
+     "club": "USA",
      "name": "Lag",
      "pos": 2,
-     "total": 1012,
-     "arrows": 210,
-     "tens": 65,
-     "xs": 67,
+     "total": 1065,
+     "arrows": 216,
+     "tens": 68,
+     "xs": 82,
      "dist": {},
-     "members": "BÖHNKE Julia, HERRMANN Svenja, KIPFERLER Nora",
+     "members": "HOLLOM Erin, KAUFHOLD Casey, NOFEL Savannah",
      "target": "",
      "pool": ""
     },
@@ -6554,25 +6582,25 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 3,
-     "total": 1006,
-     "arrows": 210,
-     "tens": 67,
-     "xs": 65,
+     "total": 1043,
+     "arrows": 216,
+     "tens": 75,
+     "xs": 63,
      "dist": {},
-     "members": "BAUMERT Alicia, HERVE Sandra, MACHINET Audrey",
+     "members": "BAUMERT Alicia, DEVAUX Jennifer, HERVE Sandra",
      "target": "",
      "pool": ""
     },
     {
-     "club": "USA",
+     "club": "GER",
      "name": "Lag",
      "pos": 4,
-     "total": 991,
-     "arrows": 210,
-     "tens": 58,
-     "xs": 64,
+     "total": 1040,
+     "arrows": 216,
+     "tens": 66,
+     "xs": 69,
      "dist": {},
-     "members": "HOLLOM Erin, NOFEL Savannah, RASOR Nicole",
+     "members": "BÖHNKE Julia, HERRMANN Svenja, KIPFERLER Nora",
      "target": "",
      "pool": ""
     },
@@ -6580,12 +6608,12 @@
      "club": "SLO",
      "name": "Lag",
      "pos": 5,
-     "total": 932,
-     "arrows": 210,
-     "tens": 46,
-     "xs": 58,
+     "total": 978,
+     "arrows": 216,
+     "tens": 53,
+     "xs": 73,
      "dist": {},
-     "members": "KARIDI Veronika, KRIZE Barbra Pia, PINTARIC Zana",
+     "members": "CAVIC Urska, KARIDI Veronika, KRIZE Barbra Pia",
      "target": "",
      "pool": ""
     },
@@ -6593,10 +6621,10 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 6,
-     "total": 928,
-     "arrows": 210,
-     "tens": 44,
-     "xs": 56,
+     "total": 960,
+     "arrows": 216,
+     "tens": 51,
+     "xs": 64,
      "dist": {},
      "members": "CANO GARCIA Ana Maria, DE LA FUENTE TORRECILLA Iria, PITARCH Maria",
      "target": "",
@@ -6606,10 +6634,10 @@
      "club": "ROU",
      "name": "Lag",
      "pos": 7,
-     "total": 919,
-     "arrows": 210,
-     "tens": 48,
-     "xs": 50,
+     "total": 944,
+     "arrows": 216,
+     "tens": 49,
+     "xs": 51,
      "dist": {},
      "members": "AMAISTROAIE Madalina, BACIN Florentina Cristina, TOPLICEANU Elena",
      "target": "",
@@ -6619,10 +6647,10 @@
      "club": "JPN",
      "name": "Lag",
      "pos": 8,
-     "total": 820,
-     "arrows": 210,
-     "tens": 24,
-     "xs": 39,
+     "total": 869,
+     "arrows": 216,
+     "tens": 32,
+     "xs": 49,
      "dist": {},
      "members": "HIRATA Eri, MIYATA Etsuko, UMETSU Akiko",
      "target": "",
@@ -6632,12 +6660,12 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 9,
-     "total": 768,
-     "arrows": 210,
-     "tens": 21,
-     "xs": 39,
+     "total": 834,
+     "arrows": 216,
+     "tens": 29,
+     "xs": 49,
      "dist": {},
-     "members": "CAHUANTZI SANCHEZ Maria Fernanda, QUIROGA Elma Cristina, TISCAREÑO MARTÍNEZ Erendira",
+     "members": "ALDERETE TERRAZAS Erika, CAHUANTZI SANCHEZ Maria Fernanda, TISCAREÑO MARTÍNEZ Erendira",
      "target": "",
      "pool": ""
     }
@@ -6653,9 +6681,22 @@
    "distances": [],
    "field": [
     {
-     "club": "USA",
+     "club": "ITA",
      "name": "Lag",
      "pos": 1,
+     "total": 983,
+     "arrows": 216,
+     "tens": 51,
+     "xs": 58,
+     "dist": {},
+     "members": "DI VITA Emma, GREZZANI Linda, MONTALDI Giorgia",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "USA",
+     "name": "Lag",
+     "pos": 2,
      "total": 969,
      "arrows": 216,
      "tens": 57,
@@ -6666,28 +6707,15 @@
      "pool": ""
     },
     {
-     "club": "ITA",
-     "name": "Lag",
-     "pos": 2,
-     "total": 961,
-     "arrows": 216,
-     "tens": 44,
-     "xs": 56,
-     "dist": {},
-     "members": "BACERIO Isabella, DI VITA Emma, GREZZANI Linda",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "AUS",
      "name": "Lag",
      "pos": 3,
-     "total": 868,
+     "total": 893,
      "arrows": 216,
-     "tens": 43,
-     "xs": 39,
+     "tens": 40,
+     "xs": 50,
      "dist": {},
-     "members": "FISHER Millie, GRIFFITHS Emily, MARTINI Ellen",
+     "members": "FISHER Millie, MARTINI Ellen, WHITEAR Eve",
      "target": "",
      "pool": ""
     }
