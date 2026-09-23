@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T21:52:11Z",
+ "generated": "2026-09-23T21:56:47Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -31,7 +31,7 @@
   "TQMU21T": "2026-09-23 21:51:38",
   "TQWU21T": "2026-09-23 21:51:36",
   "TQRU21X": "2026-09-23 21:07:46",
-  "TQCU21X": "2026-09-23 21:07:46",
+  "TQCU21X": "2026-09-23 21:51:35",
   "TQBU21X": "2026-09-23 21:07:46",
   "ENS": "2026-09-21 21:05:53",
   "ENC": "2026-09-21 21:05:53",
@@ -5767,18 +5767,22 @@
    "team": true,
    "official": false,
    "fieldScoring": true,
-   "totalArrows": 288,
-   "distances": [],
+   "totalArrows": 144,
+   "distances": [
+    "Total"
+   ],
    "field": [
     {
      "club": "USA",
      "name": "Lag",
      "pos": 1,
-     "total": 778,
+     "total": 0,
      "arrows": 144,
      "tens": 80,
      "xs": 47,
-     "dist": {},
+     "dist": {
+      "Total": "778"
+     },
      "members": "MARKLE Khloe, HATHAWAY Dewey",
      "target": "",
      "pool": ""
@@ -5787,11 +5791,13 @@
      "club": "GBR",
      "name": "Lag",
      "pos": 2,
-     "total": 776,
+     "total": 0,
      "arrows": 144,
-     "tens": 69,
-     "xs": 51,
-     "dist": {},
+     "tens": 75,
+     "xs": 56,
+     "dist": {
+      "Total": "776"
+     },
      "members": "BRUGUIER Isabella, REES Ioan",
      "target": "",
      "pool": ""
@@ -5800,12 +5806,14 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 3,
-     "total": 750,
+     "total": 0,
      "arrows": 144,
-     "tens": 72,
-     "xs": 42,
-     "dist": {},
-     "members": "BACERIO Isabella, ALOISI Fabrizio",
+     "tens": 79,
+     "xs": 44,
+     "dist": {
+      "Total": "772"
+     },
+     "members": "MONTALDI Giorgia, ALOISI Fabrizio",
      "target": "",
      "pool": ""
     },
@@ -5813,12 +5821,14 @@
      "club": "AUS",
      "name": "Lag",
      "pos": 4,
-     "total": 718,
+     "total": 0,
      "arrows": 144,
-     "tens": 64,
-     "xs": 43,
-     "dist": {},
-     "members": "GRIFFITHS Emily, TURNER Joshua",
+     "tens": 61,
+     "xs": 54,
+     "dist": {
+      "Total": "743"
+     },
+     "members": "WHITEAR Eve, TURNER Joshua",
      "target": "",
      "pool": ""
     },
@@ -5826,11 +5836,13 @@
      "club": "CAN",
      "name": "Lag",
      "pos": 5,
-     "total": 716,
+     "total": 0,
      "arrows": 144,
      "tens": 46,
      "xs": 51,
-     "dist": {},
+     "dist": {
+      "Total": "716"
+     },
      "members": "KEICHINGER Sydni, DIPLOCK Oliver",
      "target": "",
      "pool": ""
@@ -5839,11 +5851,13 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 6,
-     "total": 656,
+     "total": 0,
      "arrows": 144,
-     "tens": 40,
-     "xs": 39,
-     "dist": {},
+     "tens": 43,
+     "xs": 40,
+     "dist": {
+      "Total": "650"
+     },
      "members": "MARTINEZ Aranza, FERNÁNDEZ MELGA Patricio",
      "target": "",
      "pool": ""
