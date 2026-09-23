@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T14:52:06Z",
+ "generated": "2026-09-23T14:56:35Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,7 +11,7 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQCM": "2026-09-23 14:51:41",
+  "IQCM": "2026-09-23 14:53:13",
   "IQCW": "2026-09-23 14:36:42",
   "IQCU21M": "2026-09-23 14:51:39",
   "IQCU21W": "2026-09-23 14:46:55",
@@ -1728,43 +1728,26 @@
      "pool": "Blue Course"
     },
     {
-     "club": "DEN",
-     "name": "FULLERTON Mathias",
+     "club": "SWE",
+     "name": "BENSCHJÖLD Jacob",
      "pos": 3,
-     "total": 51,
-     "arrows": 216,
-     "tens": 7,
-     "xs": 1,
-     "dist": {
-      "Unmarked": "51/ 8",
-      "Marked": "0",
-      "Avg": "5.667",
-      "Arrows": "9"
-     },
-     "target": "8C",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "NED",
-     "name": "SCHLOESSER Mike",
-     "pos": 4,
      "total": 68,
      "arrows": 216,
-     "tens": 9,
-     "xs": 2,
+     "tens": 8,
+     "xs": 4,
      "dist": {
-      "Unmarked": "68/ 1",
+      "Unmarked": "68/ 3",
       "Marked": "0",
       "Avg": "5.667",
       "Arrows": "12"
      },
-     "target": "7B",
+     "target": "8A",
      "pool": "Blue Course"
     },
     {
      "club": "ITA",
      "name": "BRUNO Marco",
-     "pos": 5,
+     "pos": 3,
      "total": 34,
      "arrows": 216,
      "tens": 4,
@@ -1781,7 +1764,7 @@
     {
      "club": "USA",
      "name": "CARTER Gaius",
-     "pos": 5,
+     "pos": 3,
      "total": 34,
      "arrows": 216,
      "tens": 4,
@@ -1798,13 +1781,13 @@
     {
      "club": "FRA",
      "name": "DELOBELLE Fabien",
-     "pos": 5,
+     "pos": 3,
      "total": 51,
      "arrows": 216,
      "tens": 6,
      "xs": 3,
      "dist": {
-      "Unmarked": "51/ 8",
+      "Unmarked": "51/11",
       "Marked": "0",
       "Avg": "5.667",
       "Arrows": "9"
@@ -1813,15 +1796,32 @@
      "pool": "Blue Course"
     },
     {
+     "club": "DEN",
+     "name": "FULLERTON Mathias",
+     "pos": 3,
+     "total": 68,
+     "arrows": 216,
+     "tens": 9,
+     "xs": 2,
+     "dist": {
+      "Unmarked": "68/ 1",
+      "Marked": "0",
+      "Avg": "5.667",
+      "Arrows": "12"
+     },
+     "target": "8C",
+     "pool": "Blue Course"
+    },
+    {
      "club": "ITA",
      "name": "MORELLO Marco",
-     "pos": 5,
+     "pos": 3,
      "total": 51,
      "arrows": 216,
      "tens": 6,
      "xs": 3,
      "dist": {
-      "Unmarked": "51/ 8",
+      "Unmarked": "51/11",
       "Marked": "0",
       "Avg": "5.667",
       "Arrows": "9"
@@ -1830,37 +1830,37 @@
      "pool": "Blue Course"
     },
     {
+     "club": "NED",
+     "name": "SCHLOESSER Mike",
+     "pos": 3,
+     "total": 68,
+     "arrows": 216,
+     "tens": 9,
+     "xs": 2,
+     "dist": {
+      "Unmarked": "68/ 1",
+      "Marked": "0",
+      "Avg": "5.667",
+      "Arrows": "12"
+     },
+     "target": "7B",
+     "pool": "Blue Course"
+    },
+    {
      "club": "GER",
      "name": "LÜPKEMANN Henning",
-     "pos": 9,
+     "pos": 10,
      "total": 67,
      "arrows": 216,
      "tens": 8,
      "xs": 3,
      "dist": {
-      "Unmarked": "67/ 2",
+      "Unmarked": "67/ 4",
       "Marked": "0",
       "Avg": "5.583",
       "Arrows": "12"
      },
      "target": "9D",
-     "pool": "Blue Course"
-    },
-    {
-     "club": "SWE",
-     "name": "BENSCHJÖLD Jacob",
-     "pos": 10,
-     "total": 50,
-     "arrows": 216,
-     "tens": 5,
-     "xs": 4,
-     "dist": {
-      "Unmarked": "50/11",
-      "Marked": "0",
-      "Avg": "5.556",
-      "Arrows": "9"
-     },
-     "target": "8A",
      "pool": "Blue Course"
     },
     {
@@ -1872,7 +1872,7 @@
      "tens": 5,
      "xs": 7,
      "dist": {
-      "Unmarked": "65/ 3",
+      "Unmarked": "65/ 5",
       "Marked": "0",
       "Avg": "5.417",
       "Arrows": "12"
@@ -1889,7 +1889,7 @@
      "tens": 5,
      "xs": 2,
      "dist": {
-      "Unmarked": "48/13",
+      "Unmarked": "48/14",
       "Marked": "0",
       "Avg": "5.333",
       "Arrows": "9"
@@ -1923,7 +1923,7 @@
      "tens": 6,
      "xs": 4,
      "dist": {
-      "Unmarked": "63/ 4",
+      "Unmarked": "63/ 6",
       "Marked": "0",
       "Avg": "5.250",
       "Arrows": "12"
@@ -1940,7 +1940,7 @@
      "tens": 4,
      "xs": 7,
      "dist": {
-      "Unmarked": "63/ 5",
+      "Unmarked": "63/ 7",
       "Marked": "0",
       "Avg": "5.250",
       "Arrows": "12"
@@ -1974,7 +1974,7 @@
      "tens": 5,
      "xs": 1,
      "dist": {
-      "Unmarked": "45/14",
+      "Unmarked": "45/15",
       "Marked": "0",
       "Avg": "5.000",
       "Arrows": "9"
@@ -2008,7 +2008,7 @@
      "tens": 2,
      "xs": 5,
      "dist": {
-      "Unmarked": "45/15",
+      "Unmarked": "45/16",
       "Marked": "0",
       "Avg": "5.000",
       "Arrows": "9"
@@ -2037,15 +2037,15 @@
      "club": "ESP",
      "name": "PRIETO GORRICHO Jose Manuel",
      "pos": 21,
-     "total": 43,
+     "total": 55,
      "arrows": 216,
      "tens": 2,
-     "xs": 4,
+     "xs": 5,
      "dist": {
-      "Unmarked": "43/16",
+      "Unmarked": "55/ 8",
       "Marked": "0",
-      "Avg": "4.778",
-      "Arrows": "9"
+      "Avg": "4.583",
+      "Arrows": "12"
      },
      "target": "8B",
      "pool": "Blue Course"
@@ -2059,7 +2059,7 @@
      "tens": 3,
      "xs": 3,
      "dist": {
-      "Unmarked": "54/ 6",
+      "Unmarked": "54/ 9",
       "Marked": "0",
       "Avg": "4.500",
       "Arrows": "12"
@@ -2076,7 +2076,7 @@
      "tens": 1,
      "xs": 6,
      "dist": {
-      "Unmarked": "52/ 7",
+      "Unmarked": "52/10",
       "Marked": "0",
       "Avg": "4.333",
       "Arrows": "12"
@@ -2093,7 +2093,7 @@
      "tens": 2,
      "xs": 1,
      "dist": {
-      "Unmarked": "50/12",
+      "Unmarked": "50/13",
       "Marked": "0",
       "Avg": "4.167",
       "Arrows": "12"
