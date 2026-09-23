@@ -134,6 +134,7 @@ const SVG = {
   grid: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>',
   medal: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="15" r="5"/><path d="m8.5 10.5-4-7h5l2.5 4 2.5-4h5l-4 7"/></svg>',
   dots: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>',
+  clock: '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>',
 };
 
 /* ---------- del-visninger ---------- */
@@ -359,15 +360,149 @@ function vTabMer() {
   </div>`;
 }
 
+/* ---------- Tidsoversikt: program regnet om til norsk tid ---------- */
+
+/* Fra info.ianseo.net/26WAFC — tider er Yankton-lokal (CDT, UTC-5).
+   Hele mesterskapsuka (23.–27. sep 2026) er Norge CEST (UTC+2): fast +7t. */
+const YANKTON_TIL_NORGE_MIN = 7 * 60;
+const YANKTON_UTC_MIN = 5 * 60;  // lokal tid + 5t = UTC (brukes til NÅ-markering)
+
+const PROGRAM = [
+  { date: '2026-09-23', title: 'Umarkert kvalifisering', sub: 'Lewis & Clark Lake', events: [
+    { s: '09:00', e: '15:00', what: 'Compound — blå løype' },
+    { s: '10:00', e: '16:00', what: 'Recurve — rød løype', nor: true },
+    { s: '10:30', e: '16:30', what: 'Barebow — gul løype', nor: true },
+  ]},
+  { date: '2026-09-24', title: 'Markert kvalifisering', sub: 'Lewis & Clark Lake', events: [
+    { s: '09:00', e: '15:00', what: 'Compound — rød løype' },
+    { s: '10:00', e: '16:00', what: 'Barebow — gul løype', nor: true },
+    { s: '10:30', e: '16:30', what: 'Recurve — blå løype', nor: true },
+    { s: '16:30', e: '16:30', what: 'Omskyting (om nødvendig)' },
+    { s: '16:45', e: '18:00', what: '1/12-finaler: Recurve H, Compound H/D, Barebow H', nor: true },
+  ]},
+  { date: '2026-09-25', title: 'Eliminasjoner', sub: 'NEYAC', events: [
+    { s: '09:15', e: '10:15', what: '1/8-finaler U21: Recurve + Compound' },
+    { s: '10:15', e: '11:15', what: '1/4-finaler U21: alle klasser' },
+    { s: '11:15', e: '12:00', what: 'Semifinaler U21: alle klasser' },
+    { s: '13:00', e: '14:00', what: '1/8-finaler: Recurve, Compound, Barebow H/D', nor: true },
+    { s: '13:15', e: '14:00', what: '1/4-finale: Herrer U21 lag' },
+    { s: '14:00', e: '15:00', what: '1/4-finaler: Recurve, Compound, Barebow H/D', nor: true },
+    { s: '14:15', e: '15:00', what: '1/4: RU21X + CU21X · 1/2: BU21X' },
+    { s: '15:15', e: '16:00', what: 'Gullfinale: Barebow U21 mixed lag' },
+    { s: '16:00', e: '16:45', what: '1/4-finaler mixed lag: RX, CX, BX' },
+    { s: '17:00', e: '17:45', what: '1/4-finaler lag: Herrer + Damer' },
+  ]},
+  { date: '2026-09-26', title: 'Semifinaler og individuelle finaler', sub: 'NEYAC', events: [
+    { s: '09:00', e: '09:44', what: 'Semifinaler: Barebow Damer' },
+    { s: '09:16', e: '10:00', what: 'Semifinaler: Barebow Herrer', nor: true },
+    { s: '09:40', e: '10:24', what: 'Semifinaler: Recurve Damer' },
+    { s: '09:56', e: '10:40', what: 'Semifinaler: Recurve Herrer', nor: true },
+    { s: '10:20', e: '11:04', what: 'Semifinaler: Compound Damer' },
+    { s: '10:36', e: '11:20', what: 'Semifinaler: Compound Herrer' },
+    { s: '11:00', e: '13:20', what: 'U21-finaler: bronse + gull, alle klasser' },
+    { s: '13:30', e: '14:06', what: 'Premieutdeling U21 individuelt' },
+    { s: '14:30', e: '15:06', what: 'Bronsefinale: Barebow Damer' },
+    { s: '14:38', e: '15:14', what: 'Gullfinale: Barebow Damer' },
+    { s: '14:46', e: '15:22', what: 'Bronsefinale: Barebow Herrer', nor: true },
+    { s: '14:54', e: '15:30', what: 'Gullfinale: Barebow Herrer', nor: true },
+    { s: '15:10', e: '15:46', what: 'Bronsefinale: Recurve Damer' },
+    { s: '15:18', e: '15:54', what: 'Gullfinale: Recurve Damer' },
+    { s: '15:26', e: '16:02', what: 'Bronsefinale: Recurve Herrer', nor: true },
+    { s: '15:34', e: '16:10', what: 'Gullfinale: Recurve Herrer', nor: true },
+    { s: '15:50', e: '16:26', what: 'Bronsefinale: Compound Damer' },
+    { s: '15:58', e: '16:34', what: 'Gullfinale: Compound Damer' },
+    { s: '16:06', e: '16:42', what: 'Bronsefinale: Compound Herrer' },
+    { s: '16:14', e: '16:50', what: 'Gullfinale: Compound Herrer' },
+    { s: '17:00', e: '17:36', what: 'Premieutdeling senior individuelt' },
+  ]},
+  { date: '2026-09-27', title: 'Mixed lag og lagfinaler', sub: 'NEYAC', events: [
+    { s: '08:30', e: '09:15', what: 'Semifinale: Recurve U21 mixed lag' },
+    { s: '09:15', e: '10:00', what: 'Semifinale: Compound U21 mixed lag' },
+    { s: '09:30', e: '10:24', what: 'Bronse + gull: Recurve U21 mixed lag' },
+    { s: '09:45', e: '10:30', what: 'Semifinale: Barebow mixed lag' },
+    { s: '10:00', e: '10:54', what: 'Bronse + gull: Compound U21 mixed lag' },
+    { s: '10:15', e: '11:00', what: 'Semifinale: Recurve mixed lag' },
+    { s: '10:30', e: '11:24', what: 'Bronse + gull: Barebow mixed lag' },
+    { s: '10:45', e: '11:30', what: 'Semifinale: Compound mixed lag' },
+    { s: '11:00', e: '11:54', what: 'Bronse + gull: Recurve mixed lag' },
+    { s: '11:30', e: '12:24', what: 'Bronse + gull: Compound mixed lag' },
+    { s: '12:30', e: '13:06', what: 'Premieutdeling mixed lag' },
+    { s: '13:45', e: '14:30', what: 'Semifinale: Damer U21 lag' },
+    { s: '14:15', e: '15:00', what: 'Semifinale: Herrer U21 lag' },
+    { s: '14:40', e: '15:30', what: 'Gullfinale: Damer U21 lag' },
+    { s: '14:45', e: '15:30', what: 'Semifinale: Damer lag' },
+    { s: '15:00', e: '16:00', what: 'Bronse + gull: Herrer U21 lag' },
+    { s: '15:15', e: '16:00', what: 'Semifinale: Herrer lag' },
+    { s: '15:30', e: '16:30', what: 'Bronse + gull: Damer lag' },
+    { s: '16:00', e: '17:00', what: 'Bronse + gull: Herrer lag' },
+    { s: '17:05', e: '17:29', what: 'Premieutdeling lag' },
+  ]},
+];
+
+const UKEDAGER = ['Søndag', 'Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag'];
+const DAG_MS = 86400000;
+
+function progTid(date, t) {
+  // Yankton-lokal 'HH:MM' -> norsk tid; +shift dager hvis den passerer midnatt
+  const [y, m, d] = date.split('-').map(Number);
+  const [hh, mm] = t.split(':').map(Number);
+  const wall = Date.UTC(y, m - 1, d, hh, mm);
+  const oslo = wall + YANKTON_TIL_NORGE_MIN * 60000;
+  const o = new Date(oslo);
+  return {
+    label: String(o.getUTCHours()).padStart(2, '0') + ':' + String(o.getUTCMinutes()).padStart(2, '0'),
+    shift: Math.floor(oslo / DAG_MS) - Math.floor(wall / DAG_MS),
+    utc: wall + YANKTON_UTC_MIN * 60000,
+  };
+}
+
+function vTabTider() {
+  const now = Date.now();
+  const dager = PROGRAM.map((dag) => {
+    const [y, m, d] = dag.date.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    const heading = `${UKEDAGER[dt.getUTCDay()]} ${d}. ${['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'][m - 1]}.`;
+    const rows = dag.events.map((ev) => {
+      const s = progTid(dag.date, ev.s), e = progTid(dag.date, ev.e);
+      const ongoing = now >= s.utc && now < e.utc;
+      const past = now >= e.utc;
+      const norsk = s.label === e.label ? s.label : `${s.label}–${e.label}`;
+      const shiftTag = e.shift ? ' · til ' + e.label + ' neste dag' : '';
+      const yank = ev.s === ev.e ? ev.s : `${ev.s}–${ev.e}`;
+      return `
+      <div style="display:flex;gap:11px;align-items:flex-start;padding:10px 0;border-top:1px solid ${CLR.border};${past ? 'opacity:.45;' : ''}">
+        <span style="flex:none;width:86px;font:700 13.5px 'Inter',sans-serif;font-variant-numeric:tabular-nums;color:${CLR.fg}">${norsk}${e.shift ? '<sup style="color:' + CLR.action + '">+1d</sup>' : ''}</span>
+        <div style="flex:1;min-width:0">
+          <p style="margin:0;font-size:14px;line-height:1.4;color:${CLR.fg};${ev.nor ? 'font-weight:600;' : ''}">${ev.nor ? '🇳🇴 ' : ''}${esc(ev.what)}</p>
+          <p style="margin:2px 0 0;font-size:11.5px;color:${CLR.muted};font-variant-numeric:tabular-nums">Yankton ${yank}${shiftTag}</p>
+        </div>
+        ${ongoing ? `<span style="${liveStyle(true)}">Nå</span>` : ''}
+      </div>`;
+    }).join('');
+    return `
+    <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:4px 16px 8px;box-shadow:4px 4px 0 0 ${CLR.border}">
+      <p style="margin:10px 0 0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${heading} — ${esc(dag.title)}</p>
+      <p style="margin:2px 0 4px;font-size:12px;color:${CLR.muted}">${esc(dag.sub)}</p>
+      ${rows}
+    </div>`;
+  }).join('');
+  return `
+  <div style="display:flex;flex-direction:column;gap:16px">
+    <p style="margin:0;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Program fra <a href="https://info.ianseo.net/26WAFC/" target="_blank" rel="noopener" style="color:${CLR.action};font-weight:600">info.ianseo.net</a>, regnet om fra Yankton-tid (CDT) til norsk tid (+7 timer). 🇳🇴 = klasser med norske utøvere.</p>
+    ${dager}
+  </div>`;
+}
+
 function vTabBar() {
   const tab = (id, icon, label) =>
     `<button data-action="tab" data-tab="${id}" style="${tabStyle(id)}">${icon}${label}</button>`;
   return `
-  <div style="flex:none;display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
+  <div style="flex:none;display:grid;grid-template-columns:repeat(6,1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
     ${tab('klubb', SVG.target, clubTxt('tab'))}
     ${tab('klasser', SVG.list, 'Klasser')}
     ${tab('finale', SVG.medal, 'Finale')}
     ${tab('start', SVG.grid, 'Startliste')}
+    ${tab('tider', SVG.clock, 'Tider')}
     ${tab('mer', SVG.dots, 'Mer')}
   </div>`;
 }
@@ -958,7 +1093,7 @@ function vPicker() {
 /* ---------- render ---------- */
 
 function render() {
-  const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, finale: vTabFinale, start: vTabStart, mer: vTabMer }[state.tab];
+  const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, finale: vTabFinale, start: vTabStart, tider: vTabTider, mer: vTabMer }[state.tab];
   const sheets = (state.matchView ? vMatchSheet() : '') +
     (state.athlete ? vAthleteSheet() : '') +
     (!state.athlete && state.classView ? vClassSheet() : '') +
