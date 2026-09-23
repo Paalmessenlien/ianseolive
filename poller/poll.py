@@ -47,6 +47,7 @@ FIXED_COLS = {
     "Pl.", "Skytter", "Skyttere", "Klubb", "Tot. dist.", "Totalt", "10+X", "SO/CT",
     "Snitt", "Piler", "6", "5",  # felt: snitt, pil-antall og 6/5-telling
     "Skive", "Klasse", "SO",  # 3D/elim: blink, klasse og shoot-off-markør
+    "Avg", "Arrows", "Athletes",  # WA: snitt, faktisk pil-antall og lagutøvere
 }
 HEADER_MARKERS = ("Pos.", "Athlete", "Pl.", "Skytter")
 
@@ -323,6 +324,8 @@ def parse_rank_page(page: str, code: str) -> dict:
     else:
         base = 72 * len(dist_idx) if dist_idx else 144
     total_arrows = base * 3 if is_team else base
+    if is_team and code.endswith("X"):
+        total_arrows = base * 2  # mixed lag: 2 utøvere
 
     def first(row: dict, *keys: str) -> str:
         for k in keys:
@@ -337,14 +340,14 @@ def parse_rank_page(page: str, code: str) -> dict:
         row = dict(zip(columns, cells))
         if is_team:
             club_short, club_name = split_club(first(row, "Klubb", "Country"))
-            name = first(row, "Skyttere") or club_name
+            name = first(row, "Skyttere", "Athletes") or club_name
         else:
             name = first(row, "Athlete", "Skytter")
             club_short, _ = split_club(first(row, "Country", "Klubb"))
         if not name:
             continue
         dist = {labels[i]: cells[i] for i in dist_idx}
-        piler = to_int(first(row, "Piler"))  # felt: faktisk pil-antall per utøver
+        piler = to_int(first(row, "Piler", "Arrows"))  # felt/WA: faktisk pil-antall per utøver
         if official:
             arrows = total_arrows
         elif piler:
@@ -359,7 +362,7 @@ def parse_rank_page(page: str, code: str) -> dict:
         total = to_int(first(row, "Tot.", "Tot. dist.", "Totalt"))
         if is_team and not total:
             # felt-lag har ingen Totalt-kolonne — estimer fra snittet
-            snitt = first(row, "Snitt").replace(",", ".")
+            snitt = first(row, "Snitt", "Avg").replace(",", ".")
             try:
                 total = round(float(snitt) * arrows)
             except ValueError:
