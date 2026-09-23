@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T15:34:12Z",
+ "generated": "2026-09-23T15:37:07Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -14,7 +14,7 @@
   "IQRM": "2026-09-23 15:27:42",
   "IQRW": "2026-09-23 15:25:47",
   "IQRU21M": "2026-09-23 15:32:47",
-  "IQRU21W": "2026-09-23 15:24:41",
+  "IQRU21W": "2026-09-23 15:35:04",
   "IQCM": "2026-09-23 15:28:34",
   "IQCW": "2026-09-23 15:21:39",
   "IQCU21M": "2026-09-23 15:29:17",
@@ -3672,7 +3672,7 @@
      "tens": 2,
      "xs": 2,
      "dist": {
-      "Unmarked": "42/ 1",
+      "Unmarked": "42/ 3",
       "Marked": "0",
       "Avg": "4.667",
       "Arrows": "9"
@@ -3681,15 +3681,32 @@
      "pool": "Red Course"
     },
     {
+     "club": "ITA",
+     "name": "CALLEGARI Anna",
+     "pos": 2,
+     "total": 40,
+     "arrows": 216,
+     "tens": 3,
+     "xs": 1,
+     "dist": {
+      "Unmarked": "40/ 4",
+      "Marked": "0",
+      "Avg": "4.444",
+      "Arrows": "9"
+     },
+     "target": "6D",
+     "pool": "Red Course"
+    },
+    {
      "club": "GBR",
      "name": "HUGHES Emelia",
-     "pos": 2,
+     "pos": 3,
      "total": 40,
      "arrows": 216,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Unmarked": "40/ 2",
+      "Unmarked": "40/ 5",
       "Marked": "0",
       "Avg": "4.444",
       "Arrows": "9"
@@ -3700,13 +3717,13 @@
     {
      "club": "ITA",
      "name": "DI VITA Emma",
-     "pos": 3,
+     "pos": 4,
      "total": 40,
      "arrows": 216,
      "tens": 1,
      "xs": 2,
      "dist": {
-      "Unmarked": "40/ 3",
+      "Unmarked": "40/ 6",
       "Marked": "0",
       "Avg": "4.444",
       "Arrows": "9"
@@ -3715,54 +3732,37 @@
      "pool": "Red Course"
     },
     {
-     "club": "ITA",
-     "name": "CALLEGARI Anna",
-     "pos": 4,
-     "total": 26,
-     "arrows": 216,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Unmarked": "26/10",
-      "Marked": "0",
-      "Avg": "4.333",
-      "Arrows": "6"
-     },
-     "target": "6D",
-     "pool": "Red Course"
-    },
-    {
-     "club": "COL",
-     "name": "KHAN AREVALO Audrey",
-     "pos": 5,
-     "total": 39,
-     "arrows": 216,
-     "tens": 1,
-     "xs": 3,
-     "dist": {
-      "Unmarked": "39/ 4",
-      "Marked": "0",
-      "Avg": "4.333",
-      "Arrows": "9"
-     },
-     "target": "7A",
-     "pool": "Red Course"
-    },
-    {
      "club": "USA",
      "name": "FRANZONE Hailey",
-     "pos": 6,
-     "total": 38,
+     "pos": 5,
+     "total": 51,
      "arrows": 216,
      "tens": 1,
-     "xs": 3,
+     "xs": 4,
      "dist": {
-      "Unmarked": "38/ 5",
+      "Unmarked": "51/ 1",
       "Marked": "0",
-      "Avg": "4.222",
-      "Arrows": "9"
+      "Avg": "4.250",
+      "Arrows": "12"
      },
      "target": "7B",
+     "pool": "Red Course"
+    },
+    {
+     "club": "GER",
+     "name": "JANKE Frida",
+     "pos": 6,
+     "total": 37,
+     "arrows": 216,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Unmarked": "37/ 7",
+      "Marked": "0",
+      "Avg": "4.111",
+      "Arrows": "9"
+     },
+     "target": "6C",
      "pool": "Red Course"
     },
     {
@@ -3774,7 +3774,7 @@
      "tens": 0,
      "xs": 2,
      "dist": {
-      "Unmarked": "37/ 6",
+      "Unmarked": "37/ 8",
       "Marked": "0",
       "Avg": "4.111",
       "Arrows": "9"
@@ -3791,7 +3791,7 @@
      "tens": 1,
      "xs": 2,
      "dist": {
-      "Unmarked": "36/ 7",
+      "Unmarked": "36/ 9",
       "Marked": "0",
       "Avg": "4.000",
       "Arrows": "9"
@@ -3800,37 +3800,37 @@
      "pool": "Red Course"
     },
     {
+     "club": "COL",
+     "name": "KHAN AREVALO Audrey",
+     "pos": 9,
+     "total": 47,
+     "arrows": 216,
+     "tens": 1,
+     "xs": 4,
+     "dist": {
+      "Unmarked": "47/ 2",
+      "Marked": "0",
+      "Avg": "3.917",
+      "Arrows": "12"
+     },
+     "target": "7A",
+     "pool": "Red Course"
+    },
+    {
      "club": "CZE",
      "name": "VEVERKOVA Tereza",
-     "pos": 9,
+     "pos": 10,
      "total": 34,
      "arrows": 216,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Unmarked": "34/ 8",
+      "Unmarked": "34/10",
       "Marked": "0",
       "Avg": "3.778",
       "Arrows": "9"
      },
      "target": "8B",
-     "pool": "Red Course"
-    },
-    {
-     "club": "GER",
-     "name": "JANKE Frida",
-     "pos": 10,
-     "total": 21,
-     "arrows": 216,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Unmarked": "21/12",
-      "Marked": "0",
-      "Avg": "3.500",
-      "Arrows": "6"
-     },
-     "target": "6C",
      "pool": "Red Course"
     },
     {
@@ -3842,7 +3842,7 @@
      "tens": 0,
      "xs": 1,
      "dist": {
-      "Unmarked": "27/ 9",
+      "Unmarked": "27/11",
       "Marked": "0",
       "Avg": "3.000",
       "Arrows": "9"
@@ -3859,7 +3859,7 @@
      "tens": 0,
      "xs": 1,
      "dist": {
-      "Unmarked": "26/11",
+      "Unmarked": "26/12",
       "Marked": "0",
       "Avg": "2.889",
       "Arrows": "9"
