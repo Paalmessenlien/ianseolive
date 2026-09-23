@@ -556,6 +556,7 @@ def main() -> int:
             "detailsUrl": DETAILS_URL,
             "place": CONFIG.get("tournamentPlace", ""),
             "round": CONFIG.get("tournamentRound", ""),
+            "clubNoun": CONFIG.get("clubNoun", "klubb"),
         },
         "defaultClub": CONFIG["defaultClub"],
         "files": files,

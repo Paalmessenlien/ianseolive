@@ -45,6 +45,17 @@ const style = (o) => Object.entries(o).map(([k, v]) =>
 const ALL_CLUBS = 'ALLE';          // pseudo-klubb: vis alt uten klubbfilter
 const allClubs = () => state.club === ALL_CLUBS;
 
+/* Internasjonale stevner (VM/EM): «klubb» heter «land» i tekstene */
+const clubTxt = (key) => ((DATA.tournament || {}).clubNoun === 'land' ? {
+  all: 'Alle land', allLong: 'Se resultater for alle land', archers: 'Landets utøvere',
+  pick: 'Velg land', search: 'Søk land', change: 'Bytt land', follow: 'Land jeg følger',
+  tab: 'Landet', grouped: 'påmeldte gruppert etter land',
+} : {
+  all: 'Alle klubber', allLong: 'Se resultater for alle klubber', archers: 'Klubbens skyttere',
+  pick: 'Velg klubb', search: 'Søk klubb', change: 'Bytt klubb', follow: 'Klubb jeg følger',
+  tab: 'Klubben', grouped: 'påmeldte gruppert etter klubb',
+})[key];
+
 function clubRows() {
   const out = [];
   for (const c of DATA.classes || [])
@@ -66,7 +77,7 @@ function shortCls(n) {
 }
 
 function clubMeta(short) {
-  if (short === ALL_CLUBS) return { short, name: 'Alle klubber' };
+  if (short === ALL_CLUBS) return { short, name: clubTxt('all') };
   return (DATA.clubs || []).find((c) => c.short === short) || { short, name: '' };
 }
 
@@ -231,7 +242,7 @@ function vTabKlubb() {
     ${vFinalsSection()}
     <div>
       <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:10px">
-        <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${allClubs() ? 'Alle skyttere' : 'Klubbens skyttere'}</p>
+        <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${allClubs() ? 'Alle skyttere' : clubTxt('archers')}</p>
         <span style="margin-left:auto;font-size:12.5px;color:${CLR.muted};font-variant-numeric:tabular-nums">${esc(rowsNote)}</span>
       </div>
       ${list}
@@ -301,7 +312,7 @@ function vTabStart() {
   }).join('');
   return `
   <div style="display:flex;flex-direction:column;gap:20px">
-    <p style="margin:0;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Startliste hentet fra ianseos <span style="font-weight:600;color:${CLR.fg}">ENC</span> — påmeldte gruppert etter klubb. Målnummer og pulje er arrangørens.</p>
+    <p style="margin:0;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Startliste hentet fra ianseos <span style="font-weight:600;color:${CLR.fg}">ENC</span> — ${clubTxt('grouped')}. Målnummer og pulje er arrangørens.</p>
     ${sections || '<p style="font-size:14px;color:' + CLR.muted + '">Ingen startliste ennå.</p>'}
   </div>`;
 }
@@ -323,9 +334,9 @@ function vTabMer() {
   return `
   <div style="display:flex;flex-direction:column;gap:14px">
     <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:16px;box-shadow:4px 4px 0 0 ${CLR.border}">
-      <p style="margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Klubb jeg følger</p>
+      <p style="margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${clubTxt('follow')}</p>
       <p style="margin:0 0 13px;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:19px;line-height:1.2">${esc(clubMeta(state.club).name)}</p>
-      <button data-action="open-picker" style="display:inline-flex;align-items:center;gap:9px;background:transparent;color:${CLR.fg};border:2px solid ${CLR.fg};border-radius:9999px;padding:11px 20px;min-height:48px;font-size:15px;font-weight:700;cursor:pointer">Bytt klubb</button>
+      <button data-action="open-picker" style="display:inline-flex;align-items:center;gap:9px;background:transparent;color:${CLR.fg};border:2px solid ${CLR.fg};border-radius:9999px;padding:11px 20px;min-height:48px;font-size:15px;font-weight:700;cursor:pointer">${clubTxt('change')}</button>
     </div>
     <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:16px;box-shadow:4px 4px 0 0 ${CLR.border}">
       <p style="margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Slik oppdateres tallene</p>
@@ -353,7 +364,7 @@ function vTabBar() {
     `<button data-action="tab" data-tab="${id}" style="${tabStyle(id)}">${icon}${label}</button>`;
   return `
   <div style="flex:none;display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
-    ${tab('klubb', SVG.target, 'Klubben')}
+    ${tab('klubb', SVG.target, clubTxt('tab'))}
     ${tab('klasser', SVG.list, 'Klasser')}
     ${tab('finale', SVG.medal, 'Finale')}
     ${tab('start', SVG.grid, 'Startliste')}
@@ -908,7 +919,7 @@ function vBracketSheet() {
 
 function vPickerList() {
   const q = state.search.trim().toLowerCase();
-  const entries = [{ short: ALL_CLUBS, name: 'Se resultater for alle klubber' }, ...(DATA.clubs || [])];
+  const entries = [{ short: ALL_CLUBS, name: clubTxt('allLong') }, ...(DATA.clubs || [])];
   return entries
     .filter((c) => !q || (c.short + ' ' + c.name).toLowerCase().includes(q))
     .map((c) => {
@@ -934,10 +945,10 @@ function vPicker() {
     <div style="background:${CLR.paper};border-top:2px solid ${CLR.fg};border-radius:24px 24px 0 0;max-height:82%;display:flex;flex-direction:column;animation:sheet-up .3s cubic-bezier(0.34,1.56,0.64,1)">
       <div style="flex:none;padding:16px 18px 12px;border-bottom:2px solid ${CLR.fg}">
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
-          <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Velg klubb · ${(DATA.clubs || []).length} påmeldte</p>
+          <p style="margin:0;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">${clubTxt('pick')} · ${(DATA.clubs || []).length} påmeldte</p>
           <button data-action="close-picker" style="margin-left:auto;flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:9999px;border:2px solid ${CLR.fg};background:#fff;color:${CLR.fg};cursor:pointer;padding:0">${SVG.close}</button>
         </div>
-        <input id="club-search" value="${esc(state.search)}" placeholder="Søk klubb" style="width:100%;box-sizing:border-box;font-family:'Inter',sans-serif;font-size:16px;color:${CLR.fg};background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;min-height:48px">
+        <input id="club-search" value="${esc(state.search)}" placeholder="${clubTxt('search')}" style="width:100%;box-sizing:border-box;font-family:'Inter',sans-serif;font-size:16px;color:${CLR.fg};background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 14px;min-height:48px">
       </div>
       <div id="club-list" style="flex:1;min-height:0;overflow-y:auto;padding:6px 18px 22px">${vPickerList()}</div>
     </div>
