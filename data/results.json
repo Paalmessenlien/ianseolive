@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T22:31:51Z",
+ "generated": "2026-09-24T22:42:30Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -31,20 +31,21 @@
   "TFRU21X": "2026-09-24 20:13:11",
   "TFCU21X": "2026-09-24 22:05:20",
   "TFBU21X": "2026-09-24 20:13:14",
-  "IBRM": "2026-09-24 20:12:28",
+  "IBRM": "2026-09-24 22:38:18",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-24 20:12:36",
   "IBRU21W": "2026-09-24 20:12:39",
-  "IBCM": "2026-09-24 21:06:05",
+  "IBCM": "2026-09-24 22:38:55",
   "IBCW": "2026-09-24 22:31:12",
   "IBCU21M": "2026-09-24 22:05:01",
   "IBCU21W": "2026-09-24 22:05:04",
-  "IBBM": "2026-09-24 20:12:44",
+  "IBBM": "2026-09-24 22:36:30",
   "IBBW": "2026-09-24 20:12:52",
   "IBBU21M": "2026-09-24 20:12:56",
   "IBBU21W": "2026-09-24 20:12:59",
   "TBMT": "2026-09-24 21:15:26",
   "TBWT": "2026-09-24 21:47:36",
+  "TBRX": "2026-09-24 20:13:05",
   "TBCX": "2026-09-24 21:47:52",
   "TBBX": "2026-09-24 20:13:08",
   "TBMU21T": "2026-09-24 22:05:13",
@@ -58,8 +59,8 @@
   "IQRU21W": "2026-09-24 20:12:39",
   "IQCM": "2026-09-24 21:14:29",
   "IQCW": "2026-09-24 21:47:18",
-  "IQCU21M": "2026-09-24 21:59:27",
-  "IQCU21W": "2026-09-24 22:01:11",
+  "IQCU21M": "2026-09-24 22:05:01",
+  "IQCU21W": "2026-09-24 22:05:04",
   "IQBM": "2026-09-24 20:12:44",
   "IQBW": "2026-09-24 20:12:51",
   "IQBU21M": "2026-09-24 20:12:56",
@@ -69,10 +70,10 @@
   "TQRX": "2026-09-24 21:47:45",
   "TQCX": "2026-09-24 21:47:51",
   "TQBX": "2026-09-24 21:47:45",
-  "TQMU21T": "2026-09-24 21:59:24",
-  "TQWU21T": "2026-09-24 22:01:11",
+  "TQMU21T": "2026-09-24 22:05:13",
+  "TQWU21T": "2026-09-24 22:05:17",
   "TQRU21X": "2026-09-24 21:47:45",
-  "TQCU21X": "2026-09-24 22:01:12",
+  "TQCU21X": "2026-09-24 22:05:20",
   "TQBU21X": "2026-09-24 21:47:45",
   "ENS": "2026-09-24 00:00:40",
   "ENC": "2026-09-24 00:00:40",
@@ -2833,7 +2834,7 @@
   {
    "name": "Compound Men",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -2846,7 +2847,7 @@
      "name": "SCHLOESSER Mike",
      "pos": 1,
      "total": 779,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 108,
      "xs": 23,
      "dist": {
@@ -2861,7 +2862,7 @@
      "name": "WIENER Nico",
      "pos": 2,
      "total": 778,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 108,
      "xs": 23,
      "dist": {
@@ -2876,7 +2877,7 @@
      "name": "CARTER Gaius",
      "pos": 3,
      "total": 767,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 99,
      "xs": 29,
      "dist": {
@@ -2891,7 +2892,7 @@
      "name": "GODANO Michea",
      "pos": 4,
      "total": 766,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 98,
      "xs": 30,
      "dist": {
@@ -2906,7 +2907,7 @@
      "name": "BENSCHJÖLD Jacob",
      "pos": 5,
      "total": 766,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 95,
      "xs": 36,
      "dist": {
@@ -2921,7 +2922,7 @@
      "name": "GIRARD Nicolas",
      "pos": 6,
      "total": 763,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 98,
      "xs": 30,
      "dist": {
@@ -2936,7 +2937,7 @@
      "name": "BUDEN Domagoj",
      "pos": 7,
      "total": 761,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 94,
      "xs": 33,
      "dist": {
@@ -2951,7 +2952,7 @@
      "name": "DELOBELLE Fabien",
      "pos": 8,
      "total": 761,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 90,
      "xs": 41,
      "dist": {
@@ -2966,7 +2967,7 @@
      "name": "JEVSNIK Tim",
      "pos": 9,
      "total": 758,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 95,
      "xs": 32,
      "dist": {
@@ -2981,7 +2982,7 @@
      "name": "LÜPKEMANN Henning",
      "pos": 10,
      "total": 754,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 89,
      "xs": 37,
      "dist": {
@@ -2996,7 +2997,7 @@
      "name": "BRUNO Marco",
      "pos": 11,
      "total": 754,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 87,
      "xs": 40,
      "dist": {
@@ -3011,7 +3012,7 @@
      "name": "MODIC Stas",
      "pos": 12,
      "total": 752,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 87,
      "xs": 39,
      "dist": {
@@ -3026,7 +3027,7 @@
      "name": "FULLERTON Mathias",
      "pos": 13,
      "total": 747,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 89,
      "xs": 33,
      "dist": {
@@ -3041,7 +3042,7 @@
      "name": "BRENK Aljaz Matija",
      "pos": 14,
      "total": 747,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 84,
      "xs": 42,
      "dist": {
@@ -3056,7 +3057,7 @@
      "name": "LUTZ James",
      "pos": 15,
      "total": 746,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 83,
      "xs": 40,
      "dist": {
@@ -3071,7 +3072,7 @@
      "name": "NEVE Harry",
      "pos": 16,
      "total": 743,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 82,
      "xs": 39,
      "dist": {
@@ -3086,7 +3087,7 @@
      "name": "MORELLO Marco",
      "pos": 17,
      "total": 740,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 78,
      "xs": 46,
      "dist": {
@@ -3101,7 +3102,7 @@
      "name": "REULE Jelle",
      "pos": 18,
      "total": 740,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 77,
      "xs": 48,
      "dist": {
@@ -3116,7 +3117,7 @@
      "name": "VERMA Abhishek",
      "pos": 19,
      "total": 728,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 76,
      "xs": 42,
      "dist": {
@@ -3131,7 +3132,7 @@
      "name": "SAMI Alex",
      "pos": 20,
      "total": 728,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 73,
      "xs": 49,
      "dist": {
@@ -3146,7 +3147,7 @@
      "name": "VIVES LEDESMA Luis Fernando",
      "pos": 21,
      "total": 727,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 72,
      "xs": 44,
      "dist": {
@@ -3161,7 +3162,7 @@
      "name": "OLEXIENKO Justin",
      "pos": 22,
      "total": 723,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 70,
      "xs": 44,
      "dist": {
@@ -3176,7 +3177,7 @@
      "name": "HUGHES Eli",
      "pos": 23,
      "total": 723,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 68,
      "xs": 50,
      "dist": {
@@ -3191,7 +3192,7 @@
      "name": "WATSON Dustin",
      "pos": 24,
      "total": 711,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 60,
      "xs": 56,
      "dist": {
@@ -3206,7 +3207,7 @@
      "name": "LABICHE Nicolas",
      "pos": 25,
      "total": 709,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 61,
      "xs": 51,
      "dist": {
@@ -3221,7 +3222,7 @@
      "name": "SAINI Aman",
      "pos": 26,
      "total": 701,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 61,
      "xs": 48,
      "dist": {
@@ -3236,7 +3237,7 @@
      "name": "REID Larry",
      "pos": 27,
      "total": 701,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 57,
      "xs": 52,
      "dist": {
@@ -3251,7 +3252,7 @@
      "name": "SALVETTI LERNOUD Federico",
      "pos": 28,
      "total": 696,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 49,
      "xs": 60,
      "dist": {
@@ -3266,7 +3267,7 @@
      "name": "MARTÍNEZ PANIAGUA José Miguel",
      "pos": 29,
      "total": 688,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 53,
      "xs": 49,
      "dist": {
@@ -3281,7 +3282,7 @@
      "name": "YADAV Rishabh",
      "pos": 30,
      "total": 686,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 53,
      "xs": 50,
      "dist": {
@@ -3296,7 +3297,7 @@
      "name": "ST. AMANT Blair",
      "pos": 31,
      "total": 684,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 50,
      "xs": 51,
      "dist": {
@@ -3311,7 +3312,7 @@
      "name": "PRIETO GORRICHO Jose Manuel",
      "pos": 32,
      "total": 680,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 50,
      "xs": 48,
      "dist": {
@@ -3326,7 +3327,7 @@
      "name": "IBARRA BRIZUELA Jonathan Exequiel",
      "pos": 33,
      "total": 680,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 49,
      "xs": 48,
      "dist": {
@@ -3341,7 +3342,7 @@
      "name": "GARCIA AGUIRRE Ruben Eduardo",
      "pos": 34,
      "total": 671,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 45,
      "xs": 47,
      "dist": {
@@ -3356,7 +3357,7 @@
      "name": "TREJOS Diego",
      "pos": 35,
      "total": 323,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 14,
      "xs": 25,
      "dist": {
@@ -3371,7 +3372,7 @@
      "name": "NICCODEMI Angel",
      "pos": 36,
      "total": 313,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 19,
      "xs": 9,
      "dist": {
@@ -3387,7 +3388,7 @@
   {
    "name": "Compound Under 21 Men",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -3400,7 +3401,7 @@
      "name": "ALOISI Fabrizio",
      "pos": 1,
      "total": 771,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 99,
      "xs": 33,
      "dist": {
@@ -3415,7 +3416,7 @@
      "name": "KANE Grady",
      "pos": 2,
      "total": 756,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 91,
      "xs": 36,
      "dist": {
@@ -3430,7 +3431,7 @@
      "name": "HATHAWAY Dewey",
      "pos": 3,
      "total": 750,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 89,
      "xs": 34,
      "dist": {
@@ -3445,7 +3446,7 @@
      "name": "MCNEILLY Hector",
      "pos": 4,
      "total": 746,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 81,
      "xs": 46,
      "dist": {
@@ -3460,7 +3461,7 @@
      "name": "OBREZA SKERJANEC Timotej",
      "pos": 5,
      "total": 742,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 77,
      "xs": 48,
      "dist": {
@@ -3475,7 +3476,7 @@
      "name": "FONG Christopher",
      "pos": 6,
      "total": 738,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 82,
      "xs": 37,
      "dist": {
@@ -3490,7 +3491,7 @@
      "name": "REES Ioan",
      "pos": 7,
      "total": 732,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 74,
      "xs": 45,
      "dist": {
@@ -3505,7 +3506,7 @@
      "name": "TURNER Joshua",
      "pos": 8,
      "total": 725,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 66,
      "xs": 56,
      "dist": {
@@ -3520,7 +3521,7 @@
      "name": "CECCO Omar",
      "pos": 9,
      "total": 723,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 67,
      "xs": 49,
      "dist": {
@@ -3535,7 +3536,7 @@
      "name": "THORPE Corban",
      "pos": 10,
      "total": 716,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 59,
      "xs": 58,
      "dist": {
@@ -3550,7 +3551,7 @@
      "name": "NELSON Bennett",
      "pos": 11,
      "total": 699,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 60,
      "xs": 45,
      "dist": {
@@ -3565,7 +3566,7 @@
      "name": "DIPLOCK Oliver",
      "pos": 12,
      "total": 693,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 49,
      "xs": 62,
      "dist": {
@@ -3580,7 +3581,7 @@
      "name": "MIRANDA Mateo",
      "pos": 13,
      "total": 684,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 49,
      "xs": 51,
      "dist": {
@@ -3595,7 +3596,7 @@
      "name": "SCHRAPE William",
      "pos": 14,
      "total": 673,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 49,
      "xs": 53,
      "dist": {
@@ -3610,7 +3611,7 @@
      "name": "FERNÁNDEZ MELGA Patricio",
      "pos": 15,
      "total": 665,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 47,
      "xs": 46,
      "dist": {
@@ -3625,7 +3626,7 @@
      "name": "JOHNSSON Viktor",
      "pos": 16,
      "total": 661,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 38,
      "xs": 56,
      "dist": {
@@ -3640,7 +3641,7 @@
      "name": "FERNANDEZ Lorenzo",
      "pos": 17,
      "total": 649,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 44,
      "xs": 39,
      "dist": {
@@ -3655,7 +3656,7 @@
      "name": "REITMEIER Filip Maria",
      "pos": 18,
      "total": 648,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 36,
      "xs": 47,
      "dist": {
@@ -3671,7 +3672,7 @@
   {
    "name": "Compound Under 21 Women",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -3684,7 +3685,7 @@
      "name": "BRUGUIER Isabella",
      "pos": 1,
      "total": 745,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 63,
      "xs": 60,
      "dist": {
@@ -3699,7 +3700,7 @@
      "name": "ROUX Liezel-Marié",
      "pos": 2,
      "total": 733,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 63,
      "xs": 52,
      "dist": {
@@ -3714,7 +3715,7 @@
      "name": "MARKLE Khloe",
      "pos": 3,
      "total": 727,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 50,
      "xs": 68,
      "dist": {
@@ -3729,7 +3730,7 @@
      "name": "DORFNER Leoni Dana",
      "pos": 4,
      "total": 715,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 53,
      "xs": 55,
      "dist": {
@@ -3744,7 +3745,7 @@
      "name": "TONUS Lea",
      "pos": 5,
      "total": 710,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 46,
      "xs": 58,
      "dist": {
@@ -3759,7 +3760,7 @@
      "name": "MONTALDI Giorgia",
      "pos": 6,
      "total": 708,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 46,
      "xs": 60,
      "dist": {
@@ -3774,7 +3775,7 @@
      "name": "COOK Julia",
      "pos": 7,
      "total": 705,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 60,
      "xs": 42,
      "dist": {
@@ -3789,7 +3790,7 @@
      "name": "O’BRIEN Ella",
      "pos": 8,
      "total": 703,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 53,
      "xs": 44,
      "dist": {
@@ -3804,7 +3805,7 @@
      "name": "WHITEAR Eve",
      "pos": 9,
      "total": 702,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 43,
      "xs": 60,
      "dist": {
@@ -3819,7 +3820,7 @@
      "name": "BACERIO Isabella",
      "pos": 10,
      "total": 682,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 42,
      "xs": 51,
      "dist": {
@@ -3834,7 +3835,7 @@
      "name": "GRIFFITHS Emily",
      "pos": 11,
      "total": 660,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 45,
      "xs": 40,
      "dist": {
@@ -3849,7 +3850,7 @@
      "name": "KEICHINGER Sydni",
      "pos": 12,
      "total": 657,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 32,
      "xs": 37,
      "dist": {
@@ -3864,7 +3865,7 @@
      "name": "TREVENA Grace",
      "pos": 13,
      "total": 630,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 23,
      "xs": 43,
      "dist": {
@@ -3879,7 +3880,7 @@
      "name": "PINEL Anya",
      "pos": 14,
      "total": 622,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 29,
      "xs": 44,
      "dist": {
@@ -3894,7 +3895,7 @@
      "name": "MARTINEZ Aranza",
      "pos": 15,
      "total": 524,
-     "arrows": 141,
+     "arrows": 144,
      "tens": 15,
      "xs": 25,
      "dist": {
@@ -3910,7 +3911,7 @@
   {
    "name": "Compound Women",
    "team": false,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -3923,7 +3924,7 @@
      "name": "PEARCE Paige",
      "pos": 1,
      "total": 752,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 86,
      "xs": 40,
      "dist": {
@@ -3938,7 +3939,7 @@
      "name": "MLINARIC Amanda",
      "pos": 2,
      "total": 746,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 84,
      "xs": 38,
      "dist": {
@@ -3953,7 +3954,7 @@
      "name": "GIBSON Ella",
      "pos": 3,
      "total": 744,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 77,
      "xs": 51,
      "dist": {
@@ -3968,7 +3969,7 @@
      "name": "DI NARDO Giulia",
      "pos": 4,
      "total": 739,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 85,
      "xs": 39,
      "dist": {
@@ -3983,7 +3984,7 @@
      "name": "HERVE Sandra",
      "pos": 5,
      "total": 735,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 77,
      "xs": 42,
      "dist": {
@@ -3998,7 +3999,7 @@
      "name": "COX Cassidy",
      "pos": 6,
      "total": 727,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 68,
      "xs": 54,
      "dist": {
@@ -4013,7 +4014,7 @@
      "name": "NOFEL Savannah",
      "pos": 7,
      "total": 724,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 68,
      "xs": 53,
      "dist": {
@@ -4028,7 +4029,7 @@
      "name": "BÖHNKE Julia",
      "pos": 8,
      "total": 724,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 66,
      "xs": 52,
      "dist": {
@@ -4043,7 +4044,7 @@
      "name": "RET Sara",
      "pos": 9,
      "total": 723,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 65,
      "xs": 57,
      "dist": {
@@ -4058,7 +4059,7 @@
      "name": "LAURILA Anne",
      "pos": 10,
      "total": 720,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 68,
      "xs": 45,
      "dist": {
@@ -4073,7 +4074,7 @@
      "name": "SCHWANEN Florentina",
      "pos": 11,
      "total": 716,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 56,
      "xs": 64,
      "dist": {
@@ -4088,7 +4089,7 @@
      "name": "MOCCIA Andrea Nicole",
      "pos": 12,
      "total": 714,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 58,
      "xs": 59,
      "dist": {
@@ -4103,7 +4104,7 @@
      "name": "STEINER Brigitte",
      "pos": 13,
      "total": 713,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 64,
      "xs": 48,
      "dist": {
@@ -4118,7 +4119,7 @@
      "name": "RONACHER Ingrid",
      "pos": 14,
      "total": 713,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 60,
      "xs": 54,
      "dist": {
@@ -4133,7 +4134,7 @@
      "name": "REJEC Meta",
      "pos": 15,
      "total": 690,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 60,
      "xs": 41,
      "dist": {
@@ -4148,7 +4149,7 @@
      "name": "KRIZE Barbra Pia",
      "pos": 16,
      "total": 689,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 50,
      "xs": 59,
      "dist": {
@@ -4163,7 +4164,7 @@
      "name": "KAUR Parneet",
      "pos": 17,
      "total": 683,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 57,
      "xs": 45,
      "dist": {
@@ -4178,7 +4179,7 @@
      "name": "ST. AMANT Sarah",
      "pos": 18,
      "total": 681,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 41,
      "xs": 62,
      "dist": {
@@ -4193,7 +4194,7 @@
      "name": "TOPLICEANU Elena",
      "pos": 19,
      "total": 675,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 51,
      "xs": 44,
      "dist": {
@@ -4208,7 +4209,7 @@
      "name": "PITARCH Maria",
      "pos": 20,
      "total": 658,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 50,
      "xs": 49,
      "dist": {
@@ -4223,7 +4224,7 @@
      "name": "QUIROGA Elma Cristina",
      "pos": 21,
      "total": 644,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 40,
      "xs": 49,
      "dist": {
@@ -4238,7 +4239,7 @@
      "name": "MIYATA Etsuko",
      "pos": 22,
      "total": 635,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 33,
      "xs": 48,
      "dist": {
@@ -4253,7 +4254,7 @@
      "name": "ALDERETE TERRAZAS Erika",
      "pos": 23,
      "total": 623,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 33,
      "xs": 46,
      "dist": {
@@ -4268,7 +4269,7 @@
      "name": "MCCLEAN Fiona",
      "pos": 24,
      "total": 329,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 16,
      "xs": 24,
      "dist": {
@@ -4283,7 +4284,7 @@
      "name": "BRILLADERO Constanza",
      "pos": 25,
      "total": 239,
-     "arrows": 135,
+     "arrows": 144,
      "tens": 4,
      "xs": 12,
      "dist": {
@@ -5806,7 +5807,7 @@
   {
    "name": "Compound Under 21 Mixed Team (lag)",
    "team": true,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -5818,7 +5819,7 @@
      "name": "Lag",
      "pos": 1,
      "total": 0,
-     "arrows": 276,
+     "arrows": 144,
      "tens": 141,
      "xs": 104,
      "dist": {
@@ -5833,7 +5834,7 @@
      "name": "Lag",
      "pos": 2,
      "total": 0,
-     "arrows": 276,
+     "arrows": 144,
      "tens": 145,
      "xs": 93,
      "dist": {
@@ -5848,7 +5849,7 @@
      "name": "Lag",
      "pos": 3,
      "total": 0,
-     "arrows": 276,
+     "arrows": 144,
      "tens": 137,
      "xs": 105,
      "dist": {
@@ -5863,7 +5864,7 @@
      "name": "Lag",
      "pos": 4,
      "total": 0,
-     "arrows": 276,
+     "arrows": 144,
      "tens": 129,
      "xs": 108,
      "dist": {
@@ -5878,7 +5879,7 @@
      "name": "Lag",
      "pos": 5,
      "total": 0,
-     "arrows": 276,
+     "arrows": 144,
      "tens": 92,
      "xs": 82,
      "dist": {
@@ -5893,7 +5894,7 @@
      "name": "Lag",
      "pos": 6,
      "total": 0,
-     "arrows": 276,
+     "arrows": 144,
      "tens": 64,
      "xs": 76,
      "dist": {
@@ -5909,7 +5910,7 @@
   {
    "name": "Compound Mixed Team (lag)",
    "team": true,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 144,
    "distances": [
@@ -5921,7 +5922,7 @@
      "name": "Lag",
      "pos": 1,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 185,
      "xs": 69,
      "dist": {
@@ -5936,7 +5937,7 @@
      "name": "Lag",
      "pos": 2,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 178,
      "xs": 71,
      "dist": {
@@ -5951,7 +5952,7 @@
      "name": "Lag",
      "pos": 3,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 183,
      "xs": 69,
      "dist": {
@@ -5966,7 +5967,7 @@
      "name": "Lag",
      "pos": 4,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 175,
      "xs": 72,
      "dist": {
@@ -5981,7 +5982,7 @@
      "name": "Lag",
      "pos": 5,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 164,
      "xs": 87,
      "dist": {
@@ -5996,7 +5997,7 @@
      "name": "Lag",
      "pos": 6,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 172,
      "xs": 71,
      "dist": {
@@ -6011,7 +6012,7 @@
      "name": "Lag",
      "pos": 7,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 155,
      "xs": 89,
      "dist": {
@@ -6026,7 +6027,7 @@
      "name": "Lag",
      "pos": 8,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 155,
      "xs": 73,
      "dist": {
@@ -6041,7 +6042,7 @@
      "name": "Lag",
      "pos": 9,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 133,
      "xs": 87,
      "dist": {
@@ -6056,7 +6057,7 @@
      "name": "Lag",
      "pos": 10,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 101,
      "xs": 118,
      "dist": {
@@ -6071,7 +6072,7 @@
      "name": "Lag",
      "pos": 11,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 112,
      "xs": 93,
      "dist": {
@@ -6086,7 +6087,7 @@
      "name": "Lag",
      "pos": 12,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 100,
      "xs": 97,
      "dist": {
@@ -6101,7 +6102,7 @@
      "name": "Lag",
      "pos": 13,
      "total": 0,
-     "arrows": 270,
+     "arrows": 144,
      "tens": 18,
      "xs": 37,
      "dist": {
@@ -6117,7 +6118,7 @@
   {
    "name": "Men Team (lag)",
    "team": true,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 216,
    "distances": [
@@ -6129,7 +6130,7 @@
      "name": "Lag",
      "pos": 1,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 185,
      "xs": 114,
      "dist": {
@@ -6144,7 +6145,7 @@
      "name": "Lag",
      "pos": 2,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 187,
      "xs": 109,
      "dist": {
@@ -6159,7 +6160,7 @@
      "name": "Lag",
      "pos": 3,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 165,
      "xs": 124,
      "dist": {
@@ -6174,7 +6175,7 @@
      "name": "Lag",
      "pos": 4,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 168,
      "xs": 124,
      "dist": {
@@ -6189,7 +6190,7 @@
      "name": "Lag",
      "pos": 5,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 162,
      "xs": 117,
      "dist": {
@@ -6204,7 +6205,7 @@
      "name": "Lag",
      "pos": 6,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 158,
      "xs": 109,
      "dist": {
@@ -6219,7 +6220,7 @@
      "name": "Lag",
      "pos": 7,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 144,
      "xs": 91,
      "dist": {
@@ -6234,7 +6235,7 @@
      "name": "Lag",
      "pos": 8,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 107,
      "xs": 117,
      "dist": {
@@ -6249,7 +6250,7 @@
      "name": "Lag",
      "pos": 9,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 109,
      "xs": 126,
      "dist": {
@@ -6264,7 +6265,7 @@
      "name": "Lag",
      "pos": 10,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 32,
      "xs": 53,
      "dist": {
@@ -6280,7 +6281,7 @@
   {
    "name": "Men Under 21 Team (lag)",
    "team": true,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 216,
    "distances": [
@@ -6292,7 +6293,7 @@
      "name": "Lag",
      "pos": 1,
      "total": 0,
-     "arrows": 369,
+     "arrows": 216,
      "tens": 148,
      "xs": 93,
      "dist": {
@@ -6307,7 +6308,7 @@
      "name": "Lag",
      "pos": 2,
      "total": 0,
-     "arrows": 369,
+     "arrows": 216,
      "tens": 132,
      "xs": 126,
      "dist": {
@@ -6322,7 +6323,7 @@
      "name": "Lag",
      "pos": 3,
      "total": 0,
-     "arrows": 369,
+     "arrows": 216,
      "tens": 132,
      "xs": 91,
      "dist": {
@@ -6337,7 +6338,7 @@
      "name": "Lag",
      "pos": 4,
      "total": 0,
-     "arrows": 369,
+     "arrows": 216,
      "tens": 119,
      "xs": 105,
      "dist": {
@@ -6352,7 +6353,7 @@
      "name": "Lag",
      "pos": 5,
      "total": 0,
-     "arrows": 369,
+     "arrows": 216,
      "tens": 91,
      "xs": 121,
      "dist": {
@@ -6664,7 +6665,7 @@
   {
    "name": "Women Team (lag)",
    "team": true,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 216,
    "distances": [
@@ -6676,7 +6677,7 @@
      "name": "Lag",
      "pos": 1,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 150,
      "xs": 128,
      "dist": {
@@ -6691,7 +6692,7 @@
      "name": "Lag",
      "pos": 2,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 137,
      "xs": 125,
      "dist": {
@@ -6706,7 +6707,7 @@
      "name": "Lag",
      "pos": 3,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 133,
      "xs": 115,
      "dist": {
@@ -6721,7 +6722,7 @@
      "name": "Lag",
      "pos": 4,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 113,
      "xs": 127,
      "dist": {
@@ -6736,7 +6737,7 @@
      "name": "Lag",
      "pos": 5,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 97,
      "xs": 106,
      "dist": {
@@ -6751,7 +6752,7 @@
      "name": "Lag",
      "pos": 6,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 87,
      "xs": 109,
      "dist": {
@@ -6766,7 +6767,7 @@
      "name": "Lag",
      "pos": 7,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 81,
      "xs": 98,
      "dist": {
@@ -6781,7 +6782,7 @@
      "name": "Lag",
      "pos": 8,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 63,
      "xs": 92,
      "dist": {
@@ -6796,7 +6797,7 @@
      "name": "Lag",
      "pos": 9,
      "total": 0,
-     "arrows": 366,
+     "arrows": 216,
      "tens": 53,
      "xs": 84,
      "dist": {
@@ -6812,7 +6813,7 @@
   {
    "name": "Women Under 21 Team (lag)",
    "team": true,
-   "official": false,
+   "official": true,
    "fieldScoring": true,
    "totalArrows": 216,
    "distances": [
@@ -6824,7 +6825,7 @@
      "name": "Lag",
      "pos": 1,
      "total": 0,
-     "arrows": 375,
+     "arrows": 216,
      "tens": 85,
      "xs": 110,
      "dist": {
@@ -6839,7 +6840,7 @@
      "name": "Lag",
      "pos": 2,
      "total": 0,
-     "arrows": 375,
+     "arrows": 216,
      "tens": 87,
      "xs": 130,
      "dist": {
@@ -6854,7 +6855,7 @@
      "name": "Lag",
      "pos": 3,
      "total": 0,
-     "arrows": 375,
+     "arrows": 216,
      "tens": 88,
      "xs": 92,
      "dist": {
@@ -6883,22 +6884,30 @@
         "name": "Dobrý Jan",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "23",
         "bye": false,
         "so": "",
-        "target": "24A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "11",
+         "12"
+        ]
        },
        "b": {
         "label": null,
         "name": "de Vera Alex",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "25",
         "bye": false,
         "so": "",
-        "target": "24B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "10"
+        ]
        }
       },
       {
@@ -6908,22 +6917,30 @@
         "name": "Weissinger Robby",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "28",
         "bye": false,
         "so": "",
-        "target": "24C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "12"
+        ]
        },
        "b": {
         "label": null,
         "name": "Velagic Zoran",
         "club": "CRO",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "24D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "11",
+         "4"
+        ]
        }
       },
       {
@@ -6933,22 +6950,30 @@
         "name": "Kakas Istvan",
         "club": "HUN",
         "members": "",
-        "score": "",
+        "score": "27",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "12",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Vera Bringas Cesar",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "27",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "13"
+        ]
        }
       },
       {
@@ -6958,22 +6983,30 @@
         "name": "Annall James",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "25",
         "bye": false,
         "so": "",
-        "target": "1C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "11"
+        ]
        },
        "b": {
         "label": null,
         "name": "Gooding Ross",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "25",
         "bye": false,
         "so": "",
-        "target": "1D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "12",
+         "13"
+        ]
        }
       },
       {
@@ -6983,22 +7016,28 @@
         "name": "Meyer Michael",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "13",
         "bye": false,
         "so": "",
-        "target": "6A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "Djukic Jovica",
         "club": "CAN",
         "members": "",
-        "score": "",
+        "score": "13",
         "bye": false,
         "so": "",
-        "target": "6B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13"
+        ]
        }
       },
       {
@@ -7008,22 +7047,28 @@
         "name": "Schaefer Rüdiger",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "13",
         "bye": false,
         "so": "",
-        "target": "6C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "Olsson Markus",
         "club": "SWE",
         "members": "",
-        "score": "",
+        "score": "11",
         "bye": false,
         "so": "",
-        "target": "6D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "11"
+        ]
        }
       },
       {
@@ -7033,22 +7078,30 @@
         "name": "Larsen Jorge",
         "club": "ARG",
         "members": "",
-        "score": "",
+        "score": "23",
         "bye": false,
         "so": "",
-        "target": "7A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "10"
+        ]
        },
        "b": {
         "label": null,
         "name": "Kent-Rodgman Christopher Edward",
         "club": "CAN",
         "members": "",
-        "score": "",
+        "score": "23",
         "bye": false,
         "so": "",
-        "target": "7B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "12",
+         "11"
+        ]
        }
       },
       {
@@ -7058,22 +7111,30 @@
         "name": "Kelvisar Klemen",
         "club": "SLO",
         "members": "",
-        "score": "",
+        "score": "26",
         "bye": false,
         "so": "",
-        "target": "7C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "12"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sorlie Lars M",
         "club": "NOR",
         "members": "",
-        "score": "",
+        "score": "26",
         "bye": false,
         "so": "",
-        "target": "7D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "12",
+         "14"
+        ]
        }
       }
      ]
@@ -7285,7 +7346,7 @@
     }
    ],
    "code": "IBBM",
-   "updated": "2026-09-24 20:12:44"
+   "updated": "2026-09-24 22:36:30"
   },
   {
    "name": "Barebow Under 21 Men",
@@ -7754,7 +7815,10 @@
         "bye": false,
         "so": "",
         "target": "22A",
-        "when": "24-09-2026 16:45"
+        "when": "24-09-2026 16:45",
+        "sets": [
+         "16"
+        ]
        },
        "b": {
         "label": null,
@@ -7765,7 +7829,10 @@
         "bye": false,
         "so": "",
         "target": "22B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "17"
+        ]
        }
       },
       {
@@ -7779,7 +7846,10 @@
         "bye": false,
         "so": "",
         "target": "22C",
-        "when": "24-09-2026 16:45"
+        "when": "24-09-2026 16:45",
+        "sets": [
+         "18"
+        ]
        },
        "b": {
         "label": null,
@@ -7790,7 +7860,10 @@
         "bye": false,
         "so": "",
         "target": "22D",
-        "when": ""
+        "when": "",
+        "sets": [
+         "15"
+        ]
        }
       },
       {
@@ -7804,7 +7877,10 @@
         "bye": false,
         "so": "",
         "target": "23A",
-        "when": "24-09-2026 16:45"
+        "when": "24-09-2026 16:45",
+        "sets": [
+         "14"
+        ]
        },
        "b": {
         "label": null,
@@ -7815,7 +7891,10 @@
         "bye": false,
         "so": "",
         "target": "23B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "16"
+        ]
        }
       },
       {
@@ -7829,7 +7908,10 @@
         "bye": false,
         "so": "",
         "target": "23C",
-        "when": "24-09-2026 16:45"
+        "when": "24-09-2026 16:45",
+        "sets": [
+         "18"
+        ]
        },
        "b": {
         "label": null,
@@ -7840,7 +7922,10 @@
         "bye": false,
         "so": "",
         "target": "23D",
-        "when": ""
+        "when": "",
+        "sets": [
+         "12"
+        ]
        }
       },
       {
@@ -7850,21 +7935,21 @@
         "name": "Verma Abhishek",
         "club": "IND",
         "members": "",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "24A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Brenk Aljaz Matija",
         "club": "SLO",
         "members": "",
-        "score": "",
+        "score": "17",
         "bye": false,
         "so": "",
-        "target": "24B",
+        "target": "",
         "when": ""
        }
       },
@@ -7875,21 +7960,21 @@
         "name": "Bruno Marco",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "18",
         "bye": false,
         "so": "",
-        "target": "24C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Olexienko Justin",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "24D",
+        "target": "",
         "when": ""
        }
       },
@@ -7900,21 +7985,21 @@
         "name": "Hughes Eli",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "14",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Lüpkemann Henning",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "1B",
+        "target": "",
         "when": ""
        }
       },
@@ -7925,21 +8010,21 @@
         "name": "Lutz James",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "18",
         "bye": false,
         "so": "",
-        "target": "1C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Reule Jelle",
         "club": "NED",
         "members": "",
-        "score": "",
+        "score": "12",
         "bye": false,
         "so": "",
-        "target": "1D",
+        "target": "",
         "when": ""
        }
       }
@@ -8152,7 +8237,7 @@
     }
    ],
    "code": "IBCM",
-   "updated": "2026-09-24 21:06:05"
+   "updated": "2026-09-24 22:38:55"
   },
   {
    "name": "Compound Under 21 Men",
@@ -8992,22 +9077,28 @@
         "name": "Kutheius Sebastian",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "14",
         "bye": false,
         "so": "",
-        "target": "2A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "14"
+        ]
        },
        "b": {
         "label": null,
         "name": "Krejci Richard",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "8",
         "bye": false,
         "so": "",
-        "target": "2B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "8"
+        ]
        }
       },
       {
@@ -9017,22 +9108,28 @@
         "name": "Hetz Jakob",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "14",
         "bye": false,
         "so": "",
-        "target": "2C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "14"
+        ]
        },
        "b": {
         "label": null,
         "name": "Urata Yui",
         "club": "JPN",
         "members": "",
-        "score": "",
+        "score": "14",
         "bye": false,
         "so": "",
-        "target": "2D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "14"
+        ]
        }
       },
       {
@@ -9046,7 +9143,10 @@
         "bye": false,
         "so": "",
         "target": "3A",
-        "when": "24-09-2026 16:45"
+        "when": "24-09-2026 16:45",
+        "sets": [
+         "10"
+        ]
        },
        "b": {
         "label": null,
@@ -9057,7 +9157,10 @@
         "bye": false,
         "so": "",
         "target": "3B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "12"
+        ]
        }
       },
       {
@@ -9071,7 +9174,10 @@
         "bye": false,
         "so": "",
         "target": "3C",
-        "when": "24-09-2026 16:45"
+        "when": "24-09-2026 16:45",
+        "sets": [
+         "12"
+        ]
        },
        "b": {
         "label": null,
@@ -9082,7 +9188,10 @@
         "bye": false,
         "so": "",
         "target": "3D",
-        "when": ""
+        "when": "",
+        "sets": [
+         "11"
+        ]
        }
       },
       {
@@ -9142,21 +9251,21 @@
         "name": "Alvarez Luis",
         "club": "MEX",
         "members": "",
-        "score": "",
+        "score": "10",
         "bye": false,
         "so": "",
-        "target": "5A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Francu Ondrej",
         "club": "SVK",
         "members": "",
-        "score": "",
+        "score": "12",
         "bye": false,
         "so": "",
-        "target": "5B",
+        "target": "",
         "when": ""
        }
       },
@@ -9167,21 +9276,21 @@
         "name": "Ravnikar Ziga",
         "club": "SLO",
         "members": "",
-        "score": "",
+        "score": "12",
         "bye": false,
         "so": "",
-        "target": "5C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Roig Roig Toni",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "11",
         "bye": false,
         "so": "",
-        "target": "5D",
+        "target": "",
         "when": ""
        }
       }
@@ -9394,7 +9503,7 @@
     }
    ],
    "code": "IBRM",
-   "updated": "2026-09-24 20:12:28"
+   "updated": "2026-09-24 22:38:18"
   },
   {
    "name": "Recurve Under 21 Men",
@@ -10645,6 +10754,119 @@
    ],
    "code": "TBRU21X",
    "updated": "2026-09-24 20:13:11"
+  },
+  {
+   "name": "Recurve Mixed Team (lag)",
+   "team": true,
+   "rounds": [
+    {
+     "name": "1/4",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "DI FRANCESCO Roberta, BORSANI Matteo",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Slovenia",
+        "club": "SLO",
+        "members": "CAVIC Urska, RAVNIKAR Ziga",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "LEJEUNE Marie, MULOT Florent",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Germany",
+        "club": "GER",
+        "members": "HERRMANN Svenja, UNRUH Florian",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Great Britain",
+        "club": "GBR",
+        "members": "MEERING Sophie, HUSTON Patrick",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Australia",
+        "club": "AUS",
+        "members": "FEENEY Alexandra, TYACK Ryan",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Netherlands",
+        "club": "NED",
+        "members": "SCHLOESSER Gaby, BAKKER Willem",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "KAUFHOLD Casey, ELLISON Brady",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
+    }
+   ],
+   "code": "TBRX",
+   "updated": "2026-09-24 20:13:05"
   },
   {
    "name": "Women Team (lag)",
