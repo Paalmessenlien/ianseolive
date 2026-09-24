@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T21:21:32Z",
+ "generated": "2026-09-24T21:30:44Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -43,7 +43,7 @@
   "IQCM": "2026-09-24 21:14:29",
   "IQCW": "2026-09-24 21:10:20",
   "IQCU21M": "2026-09-24 21:12:59",
-  "IQCU21W": "2026-09-24 21:21:00",
+  "IQCU21W": "2026-09-24 21:23:57",
   "IQBM": "2026-09-24 20:12:44",
   "IQBW": "2026-09-24 20:12:51",
   "IQBU21M": "2026-09-24 20:12:56",
@@ -3673,7 +3673,7 @@
      "xs": 58,
      "dist": {
       "Unmarked": "383/ 1",
-      "Marked": "328/ 9"
+      "Marked": "328/11"
      },
      "target": "15A",
      "pool": "Red Course"
@@ -3688,7 +3688,7 @@
      "xs": 48,
      "dist": {
       "Unmarked": "372/ 4",
-      "Marked": "329/ 8"
+      "Marked": "329/ 9"
      },
      "target": "15D",
      "pool": "Red Course"
@@ -3703,7 +3703,7 @@
      "xs": 64,
      "dist": {
       "Unmarked": "376/ 3",
-      "Marked": "322/11"
+      "Marked": "322/12"
      },
      "target": "15C",
      "pool": "Red Course"
@@ -3724,9 +3724,24 @@
      "pool": "Red Course"
     },
     {
+     "club": "ITA",
+     "name": "MONTALDI Giorgia",
+     "pos": 5,
+     "total": 724,
+     "arrows": 144,
+     "tens": 47,
+     "xs": 62,
+     "dist": {
+      "Unmarked": "363/ 7",
+      "Marked": "361/ 3"
+     },
+     "target": "16B",
+     "pool": "Red Course"
+    },
+    {
      "club": "LUX",
      "name": "TONUS Lea",
-     "pos": 5,
+     "pos": 6,
      "total": 724,
      "arrows": 144,
      "tens": 47,
@@ -3739,61 +3754,46 @@
      "pool": "Red Course"
     },
     {
-     "club": "ITA",
-     "name": "MONTALDI Giorgia",
-     "pos": 6,
-     "total": 707,
-     "arrows": 141,
-     "tens": 45,
-     "xs": 61,
-     "dist": {
-      "Unmarked": "363/ 7",
-      "Marked": "344/ 7"
-     },
-     "target": "16B",
-     "pool": "Red Course"
-    },
-    {
-     "club": "USA",
-     "name": "O’BRIEN Ella",
-     "pos": 7,
-     "total": 717,
-     "arrows": 144,
-     "tens": 53,
-     "xs": 46,
-     "dist": {
-      "Unmarked": "364/ 6",
-      "Marked": "353/ 3"
-     },
-     "target": "17B",
-     "pool": "Red Course"
-    },
-    {
      "club": "AUS",
      "name": "WHITEAR Eve",
-     "pos": 8,
-     "total": 700,
-     "arrows": 141,
-     "tens": 41,
+     "pos": 7,
+     "total": 718,
+     "arrows": 144,
+     "tens": 44,
      "xs": 62,
      "dist": {
       "Unmarked": "355/ 9",
-      "Marked": "345/ 5"
+      "Marked": "363/ 2"
      },
      "target": "16C",
      "pool": "Red Course"
     },
     {
      "club": "USA",
+     "name": "O’BRIEN Ella",
+     "pos": 8,
+     "total": 717,
+     "arrows": 144,
+     "tens": 53,
+     "xs": 46,
+     "dist": {
+      "Unmarked": "364/ 6",
+      "Marked": "353/ 5"
+     },
+     "target": "17B",
+     "pool": "Red Course"
+    },
+    {
+     "club": "USA",
      "name": "COOK Julia",
      "pos": 9,
-     "total": 698,
-     "arrows": 141,
-     "tens": 57,
+     "total": 716,
+     "arrows": 144,
+     "tens": 60,
      "xs": 42,
      "dist": {
       "Unmarked": "372/ 5",
-      "Marked": "326/10"
+      "Marked": "344/ 7"
      },
      "target": "16A",
      "pool": "Red Course"
@@ -3808,7 +3808,7 @@
      "xs": 51,
      "dist": {
       "Unmarked": "341/10",
-      "Marked": "355/ 2"
+      "Marked": "355/ 4"
      },
      "target": "17C",
      "pool": "Red Course"
@@ -3823,7 +3823,7 @@
      "xs": 42,
      "dist": {
       "Unmarked": "330/12",
-      "Marked": "344/ 6"
+      "Marked": "344/ 8"
      },
      "target": "18A",
      "pool": "Red Course"
@@ -3832,13 +3832,13 @@
      "club": "CAN",
      "name": "KEICHINGER Sydni",
      "pos": 12,
-     "total": 654,
-     "arrows": 141,
-     "tens": 31,
-     "xs": 36,
+     "total": 670,
+     "arrows": 144,
+     "tens": 32,
+     "xs": 38,
      "dist": {
       "Unmarked": "341/11",
-      "Marked": "313/12"
+      "Marked": "329/10"
      },
      "target": "16D",
      "pool": "Red Course"
@@ -3868,7 +3868,7 @@
      "xs": 44,
      "dist": {
       "Unmarked": "293/14",
-      "Marked": "345/ 4"
+      "Marked": "345/ 6"
      },
      "target": "18B",
      "pool": "Red Course"
@@ -3877,13 +3877,13 @@
      "club": "MEX",
      "name": "MARTINEZ Aranza",
      "pos": 15,
-     "total": 533,
-     "arrows": 143,
+     "total": 536,
+     "arrows": 144,
      "tens": 16,
      "xs": 25,
      "dist": {
       "Unmarked": "275/15",
-      "Marked": "258/15"
+      "Marked": "261/15"
      },
      "target": "18C",
      "pool": "Red Course"
