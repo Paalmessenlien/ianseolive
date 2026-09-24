@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T23:22:09Z",
+ "generated": "2026-09-24T23:37:08Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,15 +11,15 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IFRM": "2026-09-24 20:12:28",
+  "IFRM": "2026-09-24 23:36:50",
   "IFRW": "2026-09-24 20:12:32",
   "IFRU21M": "2026-09-24 20:12:36",
   "IFRU21W": "2026-09-24 20:12:39",
-  "IFCM": "2026-09-24 21:06:05",
+  "IFCM": "2026-09-24 23:31:17",
   "IFCW": "2026-09-24 22:31:12",
   "IFCU21M": "2026-09-24 22:05:01",
   "IFCU21W": "2026-09-24 22:05:04",
-  "IFBM": "2026-09-24 20:12:44",
+  "IFBM": "2026-09-24 23:29:12",
   "IFBU21M": "2026-09-24 20:12:56",
   "IFBU21W": "2026-09-24 20:13:00",
   "TFMT": "2026-09-24 21:15:26",
@@ -31,15 +31,15 @@
   "TFRU21X": "2026-09-24 20:13:11",
   "TFCU21X": "2026-09-24 22:05:20",
   "TFBU21X": "2026-09-24 20:13:14",
-  "IBRM": "2026-09-24 22:38:18",
+  "IBRM": "2026-09-24 23:36:50",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-24 20:12:36",
   "IBRU21W": "2026-09-24 20:12:39",
-  "IBCM": "2026-09-24 22:38:55",
+  "IBCM": "2026-09-24 23:31:16",
   "IBCW": "2026-09-24 22:31:12",
   "IBCU21M": "2026-09-24 22:05:01",
   "IBCU21W": "2026-09-24 22:05:04",
-  "IBBM": "2026-09-24 22:36:30",
+  "IBBM": "2026-09-24 23:29:12",
   "IBBW": "2026-09-24 20:12:52",
   "IBBU21M": "2026-09-24 20:12:56",
   "IBBU21W": "2026-09-24 20:12:59",
@@ -6884,14 +6884,18 @@
         "name": "Dobrý Jan",
         "club": "CZE",
         "members": "",
-        "score": "23",
+        "score": "71",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "11",
-         "12"
+         "12",
+         "10",
+         "13",
+         "14",
+         "11"
         ]
        },
        "b": {
@@ -6899,14 +6903,18 @@
         "name": "de Vera Alex",
         "club": "USA",
         "members": "",
-        "score": "25",
+        "score": "72",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "15",
-         "10"
+         "10",
+         "15",
+         "8",
+         "13",
+         "11"
         ]
        }
       },
@@ -6917,14 +6925,18 @@
         "name": "Weissinger Robby",
         "club": "USA",
         "members": "",
-        "score": "28",
+        "score": "90",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "16",
-         "12"
+         "12",
+         "16",
+         "15",
+         "15",
+         "16"
         ]
        },
        "b": {
@@ -6932,14 +6944,18 @@
         "name": "Velagic Zoran",
         "club": "CRO",
         "members": "",
-        "score": "15",
+        "score": "65",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "11",
-         "4"
+         "4",
+         "12",
+         "14",
+         "12",
+         "12"
         ]
        }
       },
@@ -6950,14 +6966,18 @@
         "name": "Kakas Istvan",
         "club": "HUN",
         "members": "",
-        "score": "27",
+        "score": "73",
         "bye": false,
-        "so": "",
+        "so": "4",
         "target": "",
         "when": "",
         "sets": [
          "12",
-         "15"
+         "15",
+         "14",
+         "11",
+         "10",
+         "11"
         ]
        },
        "b": {
@@ -6965,14 +6985,18 @@
         "name": "Vera Bringas Cesar",
         "club": "ESP",
         "members": "",
-        "score": "27",
+        "score": "73",
         "bye": false,
-        "so": "",
+        "so": "5",
         "target": "",
         "when": "",
         "sets": [
          "14",
-         "13"
+         "13",
+         "16",
+         "14",
+         "5",
+         "11"
         ]
        }
       },
@@ -6983,14 +7007,18 @@
         "name": "Annall James",
         "club": "GBR",
         "members": "",
-        "score": "25",
+        "score": "71",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "14",
-         "11"
+         "11",
+         "12",
+         "11",
+         "10",
+         "13"
         ]
        },
        "b": {
@@ -6998,14 +7026,18 @@
         "name": "Gooding Ross",
         "club": "AUS",
         "members": "",
-        "score": "25",
+        "score": "74",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "12",
-         "13"
+         "13",
+         "13",
+         "13",
+         "9",
+         "14"
         ]
        }
       },
@@ -7016,13 +7048,18 @@
         "name": "Meyer Michael",
         "club": "GER",
         "members": "",
-        "score": "13",
+        "score": "66",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "11",
+         "8",
+         "6",
+         "11",
+         "17"
         ]
        },
        "b": {
@@ -7030,13 +7067,18 @@
         "name": "Djukic Jovica",
         "club": "CAN",
         "members": "",
-        "score": "13",
+        "score": "69",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "14",
+         "12",
+         "9",
+         "9",
+         "12"
         ]
        }
       },
@@ -7047,13 +7089,18 @@
         "name": "Schaefer Rüdiger",
         "club": "GER",
         "members": "",
-        "score": "13",
+        "score": "73",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "14",
+         "10",
+         "12",
+         "12",
+         "12"
         ]
        },
        "b": {
@@ -7061,13 +7108,18 @@
         "name": "Olsson Markus",
         "club": "SWE",
         "members": "",
-        "score": "11",
+        "score": "69",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "11"
+         "11",
+         "17",
+         "9",
+         "9",
+         "9",
+         "14"
         ]
        }
       },
@@ -7078,14 +7130,18 @@
         "name": "Larsen Jorge",
         "club": "ARG",
         "members": "",
-        "score": "23",
+        "score": "73",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "13",
-         "10"
+         "10",
+         "11",
+         "13",
+         "13",
+         "13"
         ]
        },
        "b": {
@@ -7093,14 +7149,18 @@
         "name": "Kent-Rodgman Christopher Edward",
         "club": "CAN",
         "members": "",
-        "score": "23",
+        "score": "79",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "12",
-         "11"
+         "11",
+         "13",
+         "12",
+         "15",
+         "16"
         ]
        }
       },
@@ -7111,14 +7171,18 @@
         "name": "Kelvisar Klemen",
         "club": "SLO",
         "members": "",
-        "score": "26",
+        "score": "74",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "14",
-         "12"
+         "12",
+         "11",
+         "9",
+         "15",
+         "13"
         ]
        },
        "b": {
@@ -7126,14 +7190,18 @@
         "name": "Sorlie Lars M",
         "club": "NOR",
         "members": "",
-        "score": "26",
+        "score": "80",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "12",
-         "14"
+         "14",
+         "11",
+         "15",
+         "13",
+         "15"
         ]
        }
       }
@@ -7157,8 +7225,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "de Vera Alex",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7171,8 +7239,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Weissinger Robby",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7207,8 +7275,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Vera Bringas Cesar",
+        "club": "ESP",
         "members": "",
         "score": "",
         "bye": false,
@@ -7221,8 +7289,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Gooding Ross",
+        "club": "AUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -7257,8 +7325,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Djukic Jovica",
+        "club": "CAN",
         "members": "",
         "score": "",
         "bye": false,
@@ -7271,8 +7339,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Schaefer Rüdiger",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -7307,8 +7375,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Kent-Rodgman Christopher Edward",
+        "club": "CAN",
         "members": "",
         "score": "",
         "bye": false,
@@ -7321,8 +7389,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Sorlie Lars M",
+        "club": "NOR",
         "members": "",
         "score": "",
         "bye": false,
@@ -7346,7 +7414,7 @@
     }
    ],
    "code": "IBBM",
-   "updated": "2026-09-24 22:36:30"
+   "updated": "2026-09-24 23:29:12"
   },
   {
    "name": "Barebow Under 21 Men",
@@ -7811,13 +7879,18 @@
         "name": "Morello Marco",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "105",
         "bye": false,
         "so": "",
-        "target": "22A",
-        "when": "24-09-2026 16:45",
+        "target": "",
+        "when": "",
         "sets": [
-         "16"
+         "16",
+         "18",
+         "18",
+         "18",
+         "18",
+         "17"
         ]
        },
        "b": {
@@ -7825,12 +7898,17 @@
         "name": "Neve Harry",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "103",
         "bye": false,
         "so": "",
-        "target": "22B",
+        "target": "",
         "when": "",
         "sets": [
+         "16",
+         "18",
+         "18",
+         "18",
+         "16",
          "17"
         ]
        }
@@ -7842,12 +7920,17 @@
         "name": "Jevsnik Tim",
         "club": "SLO",
         "members": "",
-        "score": "",
+        "score": "106",
         "bye": false,
         "so": "",
-        "target": "22C",
-        "when": "24-09-2026 16:45",
+        "target": "",
+        "when": "",
         "sets": [
+         "17",
+         "18",
+         "18",
+         "17",
+         "18",
          "18"
         ]
        },
@@ -7856,13 +7939,18 @@
         "name": "Watson Dustin",
         "club": "CAN",
         "members": "",
-        "score": "",
+        "score": "101",
         "bye": false,
         "so": "",
-        "target": "22D",
+        "target": "",
         "when": "",
         "sets": [
-         "15"
+         "16",
+         "17",
+         "18",
+         "15",
+         "17",
+         "18"
         ]
        }
       },
@@ -7873,13 +7961,18 @@
         "name": "Vives Ledesma Luis Fernando",
         "club": "MEX",
         "members": "",
-        "score": "",
+        "score": "98",
         "bye": false,
         "so": "",
-        "target": "23A",
-        "when": "24-09-2026 16:45",
+        "target": "",
+        "when": "",
         "sets": [
-         "14"
+         "15",
+         "17",
+         "14",
+         "16",
+         "18",
+         "18"
         ]
        },
        "b": {
@@ -7887,12 +7980,17 @@
         "name": "Modic Stas",
         "club": "SLO",
         "members": "",
-        "score": "",
+        "score": "99",
         "bye": false,
         "so": "",
-        "target": "23B",
+        "target": "",
         "when": "",
         "sets": [
+         "15",
+         "16",
+         "16",
+         "18",
+         "18",
          "16"
         ]
        }
@@ -7904,12 +8002,17 @@
         "name": "Fullerton Mathias",
         "club": "DEN",
         "members": "",
-        "score": "",
+        "score": "108",
         "bye": false,
         "so": "",
-        "target": "23C",
-        "when": "24-09-2026 16:45",
+        "target": "",
+        "when": "",
         "sets": [
+         "18",
+         "18",
+         "18",
+         "18",
+         "18",
          "18"
         ]
        },
@@ -7918,13 +8021,18 @@
         "name": "Sami Alex",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "102",
         "bye": false,
         "so": "",
-        "target": "23D",
+        "target": "",
         "when": "",
         "sets": [
-         "12"
+         "18",
+         "18",
+         "16",
+         "15",
+         "17",
+         "18"
         ]
        }
       },
@@ -7935,22 +8043,38 @@
         "name": "Verma Abhishek",
         "club": "IND",
         "members": "",
-        "score": "16",
+        "score": "100",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "16",
+         "16",
+         "16",
+         "17",
+         "18",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "Brenk Aljaz Matija",
         "club": "SLO",
         "members": "",
-        "score": "17",
+        "score": "103",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "17",
+         "16",
+         "17",
+         "18",
+         "18",
+         "17"
+        ]
        }
       },
       {
@@ -7960,22 +8084,38 @@
         "name": "Bruno Marco",
         "club": "ITA",
         "members": "",
-        "score": "18",
+        "score": "105",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "18",
+         "17",
+         "17",
+         "18",
+         "18",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "Olexienko Justin",
         "club": "AUS",
         "members": "",
-        "score": "15",
+        "score": "98",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "15",
+         "16",
+         "17",
+         "18",
+         "17",
+         "15"
+        ]
        }
       },
       {
@@ -7985,22 +8125,38 @@
         "name": "Hughes Eli",
         "club": "USA",
         "members": "",
-        "score": "14",
+        "score": "93",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "14",
+         "15",
+         "18",
+         "17",
+         "17",
+         "12"
+        ]
        },
        "b": {
         "label": null,
         "name": "Lüpkemann Henning",
         "club": "GER",
         "members": "",
-        "score": "16",
+        "score": "102",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "16",
+         "17",
+         "18",
+         "18",
+         "18",
+         "15"
+        ]
        }
       },
       {
@@ -8010,22 +8166,38 @@
         "name": "Lutz James",
         "club": "USA",
         "members": "",
-        "score": "18",
+        "score": "107",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "18",
+         "18",
+         "18",
+         "18",
+         "18",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "Reule Jelle",
         "club": "NED",
         "members": "",
-        "score": "12",
+        "score": "96",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "12",
+         "17",
+         "17",
+         "18",
+         "16",
+         "16"
+        ]
        }
       }
      ]
@@ -8048,8 +8220,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Morello Marco",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -8062,8 +8234,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Jevsnik Tim",
+        "club": "SLO",
         "members": "",
         "score": "",
         "bye": false,
@@ -8098,8 +8270,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Modic Stas",
+        "club": "SLO",
         "members": "",
         "score": "",
         "bye": false,
@@ -8112,8 +8284,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Fullerton Mathias",
+        "club": "DEN",
         "members": "",
         "score": "",
         "bye": false,
@@ -8148,8 +8320,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Brenk Aljaz Matija",
+        "club": "SLO",
         "members": "",
         "score": "",
         "bye": false,
@@ -8162,8 +8334,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Bruno Marco",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -8198,8 +8370,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Lüpkemann Henning",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -8212,8 +8384,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Lutz James",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -8237,7 +8409,7 @@
     }
    ],
    "code": "IBCM",
-   "updated": "2026-09-24 22:38:55"
+   "updated": "2026-09-24 23:31:16"
   },
   {
    "name": "Compound Under 21 Men",
@@ -9077,13 +9249,18 @@
         "name": "Kutheius Sebastian",
         "club": "GER",
         "members": "",
-        "score": "14",
+        "score": "88",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "14"
+         "14",
+         "17",
+         "17",
+         "12",
+         "12",
+         "16"
         ]
        },
        "b": {
@@ -9091,13 +9268,18 @@
         "name": "Krejci Richard",
         "club": "CZE",
         "members": "",
-        "score": "8",
+        "score": "84",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "8"
+         "8",
+         "17",
+         "15",
+         "12",
+         "16",
+         "16"
         ]
        }
       },
@@ -9108,13 +9290,18 @@
         "name": "Hetz Jakob",
         "club": "GER",
         "members": "",
-        "score": "14",
+        "score": "93",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "14"
+         "14",
+         "16",
+         "16",
+         "17",
+         "15",
+         "15"
         ]
        },
        "b": {
@@ -9122,13 +9309,18 @@
         "name": "Urata Yui",
         "club": "JPN",
         "members": "",
-        "score": "14",
+        "score": "91",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "14"
+         "14",
+         "17",
+         "17",
+         "14",
+         "14",
+         "15"
         ]
        }
       },
@@ -9139,13 +9331,18 @@
         "name": "Remar Alen",
         "club": "CRO",
         "members": "",
-        "score": "",
+        "score": "78",
         "bye": false,
         "so": "",
-        "target": "3A",
-        "when": "24-09-2026 16:45",
+        "target": "",
+        "when": "",
         "sets": [
-         "10"
+         "14",
+         "17",
+         "11",
+         "10",
+         "14",
+         "12"
         ]
        },
        "b": {
@@ -9153,13 +9350,18 @@
         "name": "Smith Alex",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "89",
         "bye": false,
         "so": "",
-        "target": "3B",
+        "target": "",
         "when": "",
         "sets": [
-         "12"
+         "15",
+         "16",
+         "14",
+         "15",
+         "16",
+         "13"
         ]
        }
       },
@@ -9170,13 +9372,18 @@
         "name": "Bakker Willem",
         "club": "NED",
         "members": "",
-        "score": "",
+        "score": "93",
         "bye": false,
         "so": "",
-        "target": "3C",
-        "when": "24-09-2026 16:45",
+        "target": "",
+        "when": "",
         "sets": [
-         "12"
+         "18",
+         "17",
+         "17",
+         "15",
+         "15",
+         "11"
         ]
        },
        "b": {
@@ -9184,13 +9391,18 @@
         "name": "Rojas Carlos",
         "club": "MEX",
         "members": "",
-        "score": "",
+        "score": "83",
         "bye": false,
         "so": "",
-        "target": "3D",
+        "target": "",
         "when": "",
         "sets": [
-         "11"
+         "17",
+         "17",
+         "11",
+         "12",
+         "12",
+         "14"
         ]
        }
       },
@@ -9201,22 +9413,30 @@
         "name": "Shanny Itay",
         "club": "ISR",
         "members": "",
-        "score": "",
+        "score": "33",
         "bye": false,
         "so": "",
-        "target": "4A",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "16"
+        ]
        },
        "b": {
         "label": null,
         "name": "Mulot Florent",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "26",
         "bye": false,
         "so": "",
-        "target": "4B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "12"
+        ]
        }
       },
       {
@@ -9226,22 +9446,30 @@
         "name": "Nofel Matthew",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "29",
         "bye": false,
         "so": "",
-        "target": "4C",
-        "when": "24-09-2026 16:45"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "14"
+        ]
        },
        "b": {
         "label": null,
         "name": "Pike William",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "28",
         "bye": false,
         "so": "",
-        "target": "4D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "13"
+        ]
        }
       },
       {
@@ -9251,22 +9479,38 @@
         "name": "Alvarez Luis",
         "club": "MEX",
         "members": "",
-        "score": "10",
+        "score": "80",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "10",
+         "13",
+         "16",
+         "14",
+         "13",
+         "14"
+        ]
        },
        "b": {
         "label": null,
         "name": "Francu Ondrej",
         "club": "SVK",
         "members": "",
-        "score": "12",
+        "score": "88",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "12",
+         "13",
+         "16",
+         "15",
+         "15",
+         "17"
+        ]
        }
       },
       {
@@ -9276,22 +9520,38 @@
         "name": "Ravnikar Ziga",
         "club": "SLO",
         "members": "",
-        "score": "12",
+        "score": "82",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "12",
+         "14",
+         "14",
+         "12",
+         "16",
+         "14"
+        ]
        },
        "b": {
         "label": null,
         "name": "Roig Roig Toni",
         "club": "ESP",
         "members": "",
-        "score": "11",
+        "score": "73",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "11",
+         "12",
+         "13",
+         "9",
+         "14",
+         "14"
+        ]
        }
       }
      ]
@@ -9328,8 +9588,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Hetz Jakob",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -9364,8 +9624,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Smith Alex",
+        "club": "AUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -9378,8 +9638,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Bakker Willem",
+        "club": "NED",
         "members": "",
         "score": "",
         "bye": false,
@@ -9503,7 +9763,7 @@
     }
    ],
    "code": "IBRM",
-   "updated": "2026-09-24 22:38:18"
+   "updated": "2026-09-24 23:36:50"
   },
   {
    "name": "Recurve Under 21 Men",
