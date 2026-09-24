@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T21:42:14Z",
+ "generated": "2026-09-24T21:57:03Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -16,10 +16,13 @@
   "IFRU21M": "2026-09-24 20:12:36",
   "IFRU21W": "2026-09-24 20:12:39",
   "IFCM": "2026-09-24 21:06:05",
+  "IFCW": "2026-09-24 21:47:19",
   "IFBM": "2026-09-24 20:12:44",
   "IFBU21M": "2026-09-24 20:12:56",
   "IFBU21W": "2026-09-24 20:13:00",
   "TFMT": "2026-09-24 21:15:26",
+  "TFWT": "2026-09-24 21:47:36",
+  "TFCX": "2026-09-24 21:47:52",
   "TFBX": "2026-09-24 20:13:08",
   "TFRU21X": "2026-09-24 20:13:11",
   "TFBU21X": "2026-09-24 20:13:14",
@@ -28,11 +31,14 @@
   "IBRU21M": "2026-09-24 20:12:36",
   "IBRU21W": "2026-09-24 20:12:39",
   "IBCM": "2026-09-24 21:06:05",
+  "IBCW": "2026-09-24 21:47:18",
   "IBBM": "2026-09-24 20:12:44",
   "IBBW": "2026-09-24 20:12:52",
   "IBBU21M": "2026-09-24 20:12:56",
   "IBBU21W": "2026-09-24 20:12:59",
   "TBMT": "2026-09-24 21:15:26",
+  "TBWT": "2026-09-24 21:47:36",
+  "TBCX": "2026-09-24 21:47:52",
   "TBBX": "2026-09-24 20:13:08",
   "TBRU21X": "2026-09-24 20:13:11",
   "TBBU21X": "2026-09-24 20:13:14",
@@ -41,23 +47,23 @@
   "IQRU21M": "2026-09-24 20:12:36",
   "IQRU21W": "2026-09-24 20:12:39",
   "IQCM": "2026-09-24 21:14:29",
-  "IQCW": "2026-09-24 21:41:32",
-  "IQCU21M": "2026-09-24 21:35:39",
+  "IQCW": "2026-09-24 21:47:18",
+  "IQCU21M": "2026-09-24 21:47:59",
   "IQCU21W": "2026-09-24 21:41:18",
   "IQBM": "2026-09-24 20:12:44",
   "IQBW": "2026-09-24 20:12:51",
   "IQBU21M": "2026-09-24 20:12:56",
   "IQBU21W": "2026-09-24 20:12:59",
-  "TQMT": "2026-09-24 21:14:47",
-  "TQWT": "2026-09-24 21:41:32",
-  "TQRX": "2026-09-24 20:34:23",
-  "TQCX": "2026-09-24 21:41:32",
-  "TQBX": "2026-09-24 20:34:23",
-  "TQMU21T": "2026-09-24 20:34:23",
-  "TQWU21T": "2026-09-24 20:34:23",
-  "TQRU21X": "2026-09-24 20:34:23",
-  "TQCU21X": "2026-09-24 20:34:23",
-  "TQBU21X": "2026-09-24 20:34:23",
+  "TQMT": "2026-09-24 21:47:45",
+  "TQWT": "2026-09-24 21:47:45",
+  "TQRX": "2026-09-24 21:47:45",
+  "TQCX": "2026-09-24 21:47:51",
+  "TQBX": "2026-09-24 21:47:45",
+  "TQMU21T": "2026-09-24 21:47:45",
+  "TQWU21T": "2026-09-24 21:47:45",
+  "TQRU21X": "2026-09-24 21:47:45",
+  "TQCU21X": "2026-09-24 21:47:45",
+  "TQBU21X": "2026-09-24 21:47:45",
   "ENS": "2026-09-24 00:00:40",
   "ENC": "2026-09-24 00:00:40",
   "ENA": "2026-09-24 00:00:40",
@@ -3389,7 +3395,7 @@
      "xs": 33,
      "dist": {
       "Unmarked": "409/ 1",
-      "Marked": "362/ 2"
+      "Marked": "362/ 1"
      },
      "target": "10A",
      "pool": "Red Course"
@@ -3404,7 +3410,7 @@
      "xs": 36,
      "dist": {
       "Unmarked": "399/ 3",
-      "Marked": "357/ 3"
+      "Marked": "357/ 2"
      },
      "target": "11A",
      "pool": "Red Course"
@@ -3419,7 +3425,7 @@
      "xs": 34,
      "dist": {
       "Unmarked": "402/ 2",
-      "Marked": "348/ 5"
+      "Marked": "348/ 4"
      },
      "target": "10B",
      "pool": "Red Course"
@@ -3434,7 +3440,7 @@
      "xs": 46,
      "dist": {
       "Unmarked": "392/ 6",
-      "Marked": "354/ 4"
+      "Marked": "354/ 3"
      },
      "target": "11B",
      "pool": "Red Course"
@@ -3449,7 +3455,7 @@
      "xs": 48,
      "dist": {
       "Unmarked": "398/ 4",
-      "Marked": "344/ 7"
+      "Marked": "344/ 6"
      },
      "target": "10C",
      "pool": "Red Course"
@@ -3464,7 +3470,7 @@
      "xs": 37,
      "dist": {
       "Unmarked": "391/ 7",
-      "Marked": "347/ 6"
+      "Marked": "347/ 5"
      },
      "target": "12A",
      "pool": "Red Course"
@@ -3479,7 +3485,7 @@
      "xs": 45,
      "dist": {
       "Unmarked": "393/ 5",
-      "Marked": "339/ 9"
+      "Marked": "339/ 7"
      },
      "target": "10D",
      "pool": "Red Course"
@@ -3494,7 +3500,7 @@
      "xs": 56,
      "dist": {
       "Unmarked": "388/ 8",
-      "Marked": "337/11"
+      "Marked": "337/ 8"
      },
      "target": "11C",
      "pool": "Red Course"
@@ -3509,7 +3515,7 @@
      "xs": 49,
      "dist": {
       "Unmarked": "387/ 9",
-      "Marked": "336/12"
+      "Marked": "336/ 9"
      },
      "target": "11D",
      "pool": "Red Course"
@@ -3524,7 +3530,7 @@
      "xs": 58,
      "dist": {
       "Unmarked": "386/10",
-      "Marked": "330/13"
+      "Marked": "330/11"
      },
      "target": "12B",
      "pool": "Red Course"
@@ -3533,13 +3539,13 @@
      "club": "CAN",
      "name": "NELSON Bennett",
      "pos": 11,
-     "total": 730,
-     "arrows": 141,
-     "tens": 62,
-     "xs": 48,
+     "total": 699,
+     "arrows": 135,
+     "tens": 60,
+     "xs": 45,
      "dist": {
       "Unmarked": "364/16",
-      "Marked": "366/ 1"
+      "Marked": "335/10"
      },
      "target": "13C",
      "pool": "Red Course"
@@ -3563,13 +3569,13 @@
      "club": "MEX",
      "name": "MIRANDA Mateo",
      "pos": 13,
-     "total": 714,
-     "arrows": 141,
-     "tens": 50,
-     "xs": 55,
+     "total": 684,
+     "arrows": 135,
+     "tens": 49,
+     "xs": 51,
      "dist": {
       "Unmarked": "373/13",
-      "Marked": "341/ 8"
+      "Marked": "311/15"
      },
      "target": "13A",
      "pool": "Red Course"
@@ -3578,13 +3584,13 @@
      "club": "AUS",
      "name": "SCHRAPE William",
      "pos": 14,
-     "total": 705,
-     "arrows": 141,
-     "tens": 53,
+     "total": 673,
+     "arrows": 135,
+     "tens": 49,
      "xs": 53,
      "dist": {
       "Unmarked": "366/15",
-      "Marked": "339/10"
+      "Marked": "307/16"
      },
      "target": "13B",
      "pool": "Red Course"
@@ -3608,13 +3614,13 @@
      "club": "SWE",
      "name": "JOHNSSON Viktor",
      "pos": 16,
-     "total": 674,
-     "arrows": 138,
-     "tens": 37,
+     "total": 688,
+     "arrows": 141,
+     "tens": 38,
      "xs": 59,
      "dist": {
       "Unmarked": "359/17",
-      "Marked": "315/15"
+      "Marked": "329/12"
      },
      "target": "14B",
      "pool": "Red Course"
@@ -3623,13 +3629,13 @@
      "club": "CZE",
      "name": "REITMEIER Filip Maria",
      "pos": 17,
-     "total": 663,
-     "arrows": 138,
-     "tens": 37,
-     "xs": 48,
+     "total": 678,
+     "arrows": 141,
+     "tens": 38,
+     "xs": 49,
      "dist": {
       "Unmarked": "356/18",
-      "Marked": "307/16"
+      "Marked": "322/13"
      },
      "target": "14C",
      "pool": "Red Course"
@@ -3638,13 +3644,13 @@
      "club": "MEX",
      "name": "FERNANDEZ Lorenzo",
      "pos": 18,
-     "total": 661,
-     "arrows": 138,
+     "total": 675,
+     "arrows": 141,
      "tens": 45,
-     "xs": 39,
+     "xs": 41,
      "dist": {
       "Unmarked": "369/14",
-      "Marked": "292/17"
+      "Marked": "306/17"
      },
      "target": "14A",
      "pool": "Red Course"
@@ -5799,10 +5805,10 @@
      "club": "USA",
      "name": "Lag",
      "pos": 1,
-     "total": 1453,
-     "arrows": 270,
-     "tens": 137,
-     "xs": 97,
+     "total": 1499,
+     "arrows": 279,
+     "tens": 141,
+     "xs": 104,
      "dist": {},
      "members": "MARKLE Khloe, KANE Grady",
      "target": "",
@@ -5812,10 +5818,10 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 2,
-     "total": 1444,
-     "arrows": 270,
-     "tens": 140,
-     "xs": 92,
+     "total": 1495,
+     "arrows": 279,
+     "tens": 146,
+     "xs": 95,
      "dist": {},
      "members": "MONTALDI Giorgia, ALOISI Fabrizio",
      "target": "",
@@ -5825,10 +5831,10 @@
      "club": "GBR",
      "name": "Lag",
      "pos": 3,
-     "total": 1444,
-     "arrows": 270,
-     "tens": 131,
-     "xs": 100,
+     "total": 1493,
+     "arrows": 279,
+     "tens": 137,
+     "xs": 105,
      "dist": {},
      "members": "BRUGUIER Isabella, REES Ioan",
      "target": "",
@@ -5838,12 +5844,12 @@
      "club": "AUS",
      "name": "Lag",
      "pos": 4,
-     "total": 1397,
-     "arrows": 270,
-     "tens": 106,
-     "xs": 116,
+     "total": 1474,
+     "arrows": 279,
+     "tens": 129,
+     "xs": 108,
      "dist": {},
-     "members": "WHITEAR Eve, TURNER Joshua",
+     "members": "ROUX Liezel-Marié, TURNER Joshua",
      "target": "",
      "pool": ""
     },
@@ -5851,12 +5857,12 @@
      "club": "CAN",
      "name": "Lag",
      "pos": 5,
-     "total": 1316,
-     "arrows": 270,
-     "tens": 77,
-     "xs": 97,
+     "total": 1369,
+     "arrows": 279,
+     "tens": 92,
+     "xs": 83,
      "dist": {},
-     "members": "KEICHINGER Sydni, DIPLOCK Oliver",
+     "members": "KEICHINGER Sydni, NELSON Bennett",
      "target": "",
      "pool": ""
     },
@@ -5864,12 +5870,12 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 6,
-     "total": 1167,
-     "arrows": 270,
-     "tens": 60,
-     "xs": 69,
+     "total": 1220,
+     "arrows": 279,
+     "tens": 65,
+     "xs": 76,
      "dist": {},
-     "members": "MARTINEZ Aranza, FERNÁNDEZ MELGA Patricio",
+     "members": "MARTINEZ Aranza, MIRANDA Mateo",
      "target": "",
      "pool": ""
     }
@@ -5881,18 +5887,22 @@
    "team": true,
    "official": false,
    "fieldScoring": true,
-   "totalArrows": 288,
-   "distances": [],
+   "totalArrows": 144,
+   "distances": [
+    "Total"
+   ],
    "field": [
     {
      "club": "USA",
      "name": "Lag",
      "pos": 1,
-     "total": 1519,
+     "total": 0,
      "arrows": 270,
      "tens": 185,
      "xs": 69,
-     "dist": {},
+     "dist": {
+      "Total": "1519"
+     },
      "members": "PEARCE Paige, CARTER Gaius",
      "target": "",
      "pool": ""
@@ -5901,11 +5911,13 @@
      "club": "CRO",
      "name": "Lag",
      "pos": 2,
-     "total": 1507,
+     "total": 0,
      "arrows": 270,
      "tens": 178,
      "xs": 71,
-     "dist": {},
+     "dist": {
+      "Total": "1507"
+     },
      "members": "MLINARIC Amanda, BUDEN Domagoj",
      "target": "",
      "pool": ""
@@ -5914,11 +5926,13 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 3,
-     "total": 1505,
+     "total": 0,
      "arrows": 270,
      "tens": 183,
      "xs": 69,
-     "dist": {},
+     "dist": {
+      "Total": "1505"
+     },
      "members": "DI NARDO Giulia, GODANO Michea",
      "target": "",
      "pool": ""
@@ -5927,11 +5941,13 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 4,
-     "total": 1498,
+     "total": 0,
      "arrows": 270,
      "tens": 175,
      "xs": 72,
-     "dist": {},
+     "dist": {
+      "Total": "1498"
+     },
      "members": "HERVE Sandra, GIRARD Nicolas",
      "target": "",
      "pool": ""
@@ -5940,11 +5956,13 @@
      "club": "NED",
      "name": "Lag",
      "pos": 5,
-     "total": 1495,
+     "total": 0,
      "arrows": 270,
      "tens": 164,
      "xs": 87,
-     "dist": {},
+     "dist": {
+      "Total": "1495"
+     },
      "members": "SCHWANEN Florentina, SCHLOESSER Mike",
      "target": "",
      "pool": ""
@@ -5953,11 +5971,13 @@
      "club": "AUT",
      "name": "Lag",
      "pos": 6,
-     "total": 1491,
+     "total": 0,
      "arrows": 270,
      "tens": 172,
      "xs": 71,
-     "dist": {},
+     "dist": {
+      "Total": "1491"
+     },
      "members": "STEINER Brigitte, WIENER Nico",
      "target": "",
      "pool": ""
@@ -5966,11 +5986,13 @@
      "club": "GER",
      "name": "Lag",
      "pos": 7,
-     "total": 1478,
+     "total": 0,
      "arrows": 270,
      "tens": 155,
      "xs": 89,
-     "dist": {},
+     "dist": {
+      "Total": "1478"
+     },
      "members": "BÖHNKE Julia, LÜPKEMANN Henning",
      "target": "",
      "pool": ""
@@ -5979,11 +6001,13 @@
      "club": "SLO",
      "name": "Lag",
      "pos": 8,
-     "total": 1448,
+     "total": 0,
      "arrows": 270,
      "tens": 155,
      "xs": 73,
-     "dist": {},
+     "dist": {
+      "Total": "1448"
+     },
      "members": "REJEC Meta, JEVSNIK Tim",
      "target": "",
      "pool": ""
@@ -5992,11 +6016,13 @@
      "club": "IND",
      "name": "Lag",
      "pos": 9,
-     "total": 1411,
+     "total": 0,
      "arrows": 270,
      "tens": 133,
      "xs": 87,
-     "dist": {},
+     "dist": {
+      "Total": "1411"
+     },
      "members": "KAUR Parneet, VERMA Abhishek",
      "target": "",
      "pool": ""
@@ -6005,11 +6031,13 @@
      "club": "CAN",
      "name": "Lag",
      "pos": 10,
-     "total": 1392,
+     "total": 0,
      "arrows": 270,
      "tens": 101,
      "xs": 118,
-     "dist": {},
+     "dist": {
+      "Total": "1392"
+     },
      "members": "ST. AMANT Sarah, WATSON Dustin",
      "target": "",
      "pool": ""
@@ -6018,11 +6046,13 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 11,
-     "total": 1371,
+     "total": 0,
      "arrows": 270,
      "tens": 112,
      "xs": 93,
-     "dist": {},
+     "dist": {
+      "Total": "1371"
+     },
      "members": "QUIROGA Elma Cristina, VIVES LEDESMA Luis Fernando",
      "target": "",
      "pool": ""
@@ -6031,11 +6061,13 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 12,
-     "total": 1338,
+     "total": 0,
      "arrows": 270,
      "tens": 100,
      "xs": 97,
-     "dist": {},
+     "dist": {
+      "Total": "1338"
+     },
      "members": "PITARCH Maria, PRIETO GORRICHO Jose Manuel",
      "target": "",
      "pool": ""
@@ -6044,11 +6076,13 @@
      "club": "CHI",
      "name": "Lag",
      "pos": 13,
-     "total": 562,
+     "total": 0,
      "arrows": 270,
      "tens": 18,
      "xs": 37,
-     "dist": {},
+     "dist": {
+      "Total": "562"
+     },
      "members": "BRILLADERO Constanza, TREJOS Diego",
      "target": "",
      "pool": ""
@@ -6283,10 +6317,10 @@
      "club": "SWE",
      "name": "Lag",
      "pos": 5,
-     "total": 1719,
+     "total": 1723,
      "arrows": 369,
-     "tens": 88,
-     "xs": 118,
+     "tens": 90,
+     "xs": 124,
      "dist": {},
      "members": "DYMEN Loke, JOHNSSON Viktor, ROHLIN Ludvig",
      "target": "",
@@ -6596,18 +6630,22 @@
    "team": true,
    "official": false,
    "fieldScoring": true,
-   "totalArrows": 432,
-   "distances": [],
+   "totalArrows": 216,
+   "distances": [
+    "Total"
+   ],
    "field": [
     {
      "club": "ITA",
      "name": "Lag",
      "pos": 1,
-     "total": 1866,
+     "total": 0,
      "arrows": 366,
      "tens": 150,
      "xs": 128,
-     "dist": {},
+     "dist": {
+      "Total": "1866"
+     },
      "members": "DI FRANCESCO Roberta, DI NARDO Giulia, STROBBE Eleonora",
      "target": "",
      "pool": ""
@@ -6616,11 +6654,13 @@
      "club": "USA",
      "name": "Lag",
      "pos": 2,
-     "total": 1837,
+     "total": 0,
      "arrows": 366,
      "tens": 137,
      "xs": 125,
-     "dist": {},
+     "dist": {
+      "Total": "1837"
+     },
      "members": "HOLLOM Erin, KAUFHOLD Casey, PEARCE Paige",
      "target": "",
      "pool": ""
@@ -6629,11 +6669,13 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 3,
-     "total": 1801,
+     "total": 0,
      "arrows": 366,
      "tens": 133,
      "xs": 115,
-     "dist": {},
+     "dist": {
+      "Total": "1801"
+     },
      "members": "BAUMERT Alicia, HERVE Sandra, LEJEUNE Marie",
      "target": "",
      "pool": ""
@@ -6642,11 +6684,13 @@
      "club": "GER",
      "name": "Lag",
      "pos": 4,
-     "total": 1774,
+     "total": 0,
      "arrows": 366,
      "tens": 113,
      "xs": 127,
-     "dist": {},
+     "dist": {
+      "Total": "1774"
+     },
      "members": "BÖHNKE Julia, HERRMANN Svenja, KIPFERLER Nora",
      "target": "",
      "pool": ""
@@ -6655,11 +6699,13 @@
      "club": "SLO",
      "name": "Lag",
      "pos": 5,
-     "total": 1663,
+     "total": 0,
      "arrows": 366,
      "tens": 97,
      "xs": 106,
-     "dist": {},
+     "dist": {
+      "Total": "1663"
+     },
      "members": "CAVIC Urska, KARIDI Veronika, REJEC Meta",
      "target": "",
      "pool": ""
@@ -6668,11 +6714,13 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 6,
-     "total": 1640,
+     "total": 0,
      "arrows": 366,
      "tens": 87,
      "xs": 109,
-     "dist": {},
+     "dist": {
+      "Total": "1640"
+     },
      "members": "CANO GARCIA Ana Maria, DE LA FUENTE TORRECILLA Iria, PITARCH Maria",
      "target": "",
      "pool": ""
@@ -6681,11 +6729,13 @@
      "club": "ROU",
      "name": "Lag",
      "pos": 7,
-     "total": 1631,
+     "total": 0,
      "arrows": 366,
      "tens": 81,
      "xs": 98,
-     "dist": {},
+     "dist": {
+      "Total": "1631"
+     },
      "members": "AMAISTROAIE Madalina, BACIN Florentina Cristina, TOPLICEANU Elena",
      "target": "",
      "pool": ""
@@ -6694,11 +6744,13 @@
      "club": "JPN",
      "name": "Lag",
      "pos": 8,
-     "total": 1534,
+     "total": 0,
      "arrows": 366,
      "tens": 63,
      "xs": 92,
-     "dist": {},
+     "dist": {
+      "Total": "1534"
+     },
      "members": "HIRATA Eri, MIYATA Etsuko, UMETSU Akiko",
      "target": "",
      "pool": ""
@@ -6707,11 +6759,13 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 9,
-     "total": 1440,
+     "total": 0,
      "arrows": 366,
      "tens": 53,
      "xs": 84,
-     "dist": {},
+     "dist": {
+      "Total": "1440"
+     },
      "members": "CAHUANTZI SANCHEZ Maria Fernanda, QUIROGA Elma Cristina, TISCAREÑO MARTÍNEZ Erendira",
      "target": "",
      "pool": ""
@@ -6731,10 +6785,10 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 1,
-     "total": 1681,
-     "arrows": 369,
-     "tens": 80,
-     "xs": 109,
+     "total": 1732,
+     "arrows": 378,
+     "tens": 86,
+     "xs": 112,
      "dist": {},
      "members": "DI VITA Emma, GREZZANI Linda, MONTALDI Giorgia",
      "target": "",
@@ -6744,10 +6798,10 @@
      "club": "USA",
      "name": "Lag",
      "pos": 2,
-     "total": 1671,
-     "arrows": 369,
-     "tens": 83,
-     "xs": 123,
+     "total": 1720,
+     "arrows": 378,
+     "tens": 87,
+     "xs": 130,
      "dist": {},
      "members": "CRANDALL Chloe, KIPPES Abigail, MARKLE Khloe",
      "target": "",
@@ -6757,12 +6811,12 @@
      "club": "AUS",
      "name": "Lag",
      "pos": 3,
-     "total": 1551,
-     "arrows": 369,
-     "tens": 65,
-     "xs": 100,
+     "total": 1625,
+     "arrows": 378,
+     "tens": 88,
+     "xs": 92,
      "dist": {},
-     "members": "FISHER Millie, MARTINI Ellen, WHITEAR Eve",
+     "members": "FISHER Millie, MARTINI Ellen, ROUX Liezel-Marié",
      "target": "",
      "pool": ""
     }
@@ -8057,6 +8111,424 @@
    "updated": "2026-09-24 21:06:05"
   },
   {
+   "name": "Compound Women",
+   "team": false,
+   "rounds": [
+    {
+     "name": "1/12",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Kaur Parneet",
+        "club": "IND",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "18A",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "Krize Barbra Pia",
+        "club": "SLO",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "18B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Ret Sara",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "18C",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "McClean Fiona",
+        "club": "CAN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "18D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Quiroga Elma Cristina",
+        "club": "MEX",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "19A",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "Moccia Andrea Nicole",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "19B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Steiner Brigitte",
+        "club": "AUT",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "19C",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "Pitarch Maria",
+        "club": "ESP",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "19D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Topliceanu Elena",
+        "club": "ROU",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20A",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "Ronacher Ingrid",
+        "club": "AUT",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Schwanen Florentina",
+        "club": "NED",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20C",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "Miyata Etsuko",
+        "club": "JPN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Alderete Terrazas Erika",
+        "club": "MEX",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "21A",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "Laurila Anne",
+        "club": "FIN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "21B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Rejec Meta",
+        "club": "SLO",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "21C",
+        "when": "24-09-2026 16:45"
+       },
+       "b": {
+        "label": null,
+        "name": "St. Amant Sarah",
+        "club": "CAN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "21D",
+        "when": ""
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/8",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Pearce Paige",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "5A",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "5B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "5C",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Böhnke Julia",
+        "club": "GER",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "5D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Herve Sandra",
+        "club": "FRA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "6A",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "6B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "6C",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Di Nardo Giulia",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "6D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Gibson Ella",
+        "club": "GBR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "7A",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "7B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "7C",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Cox Cassidy",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "7D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Nofel Savannah",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "8A",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "8B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "8C",
+        "when": "25-09-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Mlinaric Amanda",
+        "club": "CRO",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "8D",
+        "when": ""
+       }
+      }
+     ]
+    }
+   ],
+   "code": "IBCW",
+   "updated": "2026-09-24 21:47:18"
+  },
+  {
    "name": "Recurve Men",
    "team": false,
    "rounds": [
@@ -9270,6 +9742,119 @@
    "updated": "2026-09-24 20:13:08"
   },
   {
+   "name": "Compound Mixed Team (lag)",
+   "team": true,
+   "rounds": [
+    {
+     "name": "1/4",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "PEARCE Paige, CARTER Gaius",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Slovenia",
+        "club": "SLO",
+        "members": "REJEC Meta, JEVSNIK Tim",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Netherlands",
+        "club": "NED",
+        "members": "SCHWANEN Florentina, SCHLOESSER Mike",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "HERVE Sandra, GIRARD Nicolas",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "DI NARDO Giulia, GODANO Michea",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Austria",
+        "club": "AUT",
+        "members": "STEINER Brigitte, WIENER Nico",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Germany",
+        "club": "GER",
+        "members": "BÖHNKE Julia, LÜPKEMANN Henning",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Croatia",
+        "club": "CRO",
+        "members": "MLINARIC Amanda, BUDEN Domagoj",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      }
+     ]
+    }
+   ],
+   "code": "TBCX",
+   "updated": "2026-09-24 21:47:52"
+  },
+  {
    "name": "Men Team (lag)",
    "team": true,
    "rounds": [
@@ -9449,6 +10034,119 @@
    ],
    "code": "TBRU21X",
    "updated": "2026-09-24 20:13:11"
+  },
+  {
+   "name": "Women Team (lag)",
+   "team": true,
+   "rounds": [
+    {
+     "name": "1/4",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "DI FRANCESCO Roberta, DI NARDO Giulia, STROBBE Eleonora",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "25-09-2026 11:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Japan",
+        "club": "JPN",
+        "members": "HIRATA Eri, MIYATA Etsuko, UMETSU Akiko",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Slovenia",
+        "club": "SLO",
+        "members": "CAVIC Urska, KARIDI Veronika, REJEC Meta",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "26A",
+        "when": "25-09-2026 11:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Germany",
+        "club": "GER",
+        "members": "BÖHNKE Julia, HERRMANN Svenja, KIPFERLER Nora",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "26B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "BAUMERT Alicia, HERVE Sandra, LEJEUNE Marie",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "27A",
+        "when": "25-09-2026 11:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Spain",
+        "club": "ESP",
+        "members": "CANO GARCIA Ana Maria, DE LA FUENTE TORRECILLA Iria, PITARCH Maria",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "27B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Romania",
+        "club": "ROU",
+        "members": "AMAISTROAIE Madalina, BACIN Florentina Cristina, TOPLICEANU Elena",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "28A",
+        "when": "25-09-2026 11:00"
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "HOLLOM Erin, KAUFHOLD Casey, PEARCE Paige",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "28B",
+        "when": ""
+       }
+      }
+     ]
+    }
+   ],
+   "code": "TBWT",
+   "updated": "2026-09-24 21:47:36"
   }
  ]
 }
