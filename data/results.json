@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T19:56:57Z",
+ "generated": "2026-09-25T20:21:26Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -26,8 +26,9 @@
   "TFMT": "2026-09-25 15:57:20",
   "TFWT": "2026-09-25 16:37:53",
   "TFMU21T": "2026-09-25 18:00:16",
-  "TFCU21X": "2026-09-25 19:55:05",
-  "TFBU21X": "2026-09-25 19:54:58",
+  "TFRU21X": "2026-09-25 19:57:57",
+  "TFCU21X": "2026-09-25 19:58:22",
+  "TFBU21X": "2026-09-25 19:58:12",
   "IBRM": "2026-09-25 19:30:49",
   "IBRW": "2026-09-25 19:29:45",
   "IBRU21M": "2026-09-25 17:35:12",
@@ -47,9 +48,9 @@
   "TBBX": "2026-09-24 20:13:08",
   "TBMU21T": "2026-09-25 18:00:16",
   "TBWU21T": "2026-09-24 22:05:17",
-  "TBRU21X": "2026-09-24 20:13:11",
-  "TBCU21X": "2026-09-25 19:55:05",
-  "TBBU21X": "2026-09-25 19:54:58",
+  "TBRU21X": "2026-09-25 19:57:57",
+  "TBCU21X": "2026-09-25 19:58:22",
+  "TBBU21X": "2026-09-25 19:58:12",
   "IQRM": "2026-09-24 20:12:28",
   "IQRW": "2026-09-24 20:12:32",
   "IQRU21M": "2026-09-24 20:12:36",
@@ -14160,7 +14161,7 @@
     }
    ],
    "code": "TBBU21X",
-   "updated": "2026-09-25 19:54:58"
+   "updated": "2026-09-25 19:58:12"
   },
   {
    "name": "Barebow Mixed Team (lag)",
@@ -14289,7 +14290,7 @@
         "name": "Canada",
         "club": "CAN",
         "members": "KEICHINGER Sydni, NELSON Bennett",
-        "score": "59",
+        "score": "81",
         "bye": false,
         "so": "",
         "target": "",
@@ -14297,7 +14298,8 @@
         "sets": [
          "19",
          "21",
-         "19"
+         "19",
+         "22"
         ]
        },
        "b": {
@@ -14305,7 +14307,7 @@
         "name": "Australia",
         "club": "AUS",
         "members": "ROUX Liezel-Marié, TURNER Joshua",
-        "score": "62",
+        "score": "83",
         "bye": false,
         "so": "",
         "target": "",
@@ -14313,7 +14315,8 @@
         "sets": [
          "20",
          "22",
-         "20"
+         "20",
+         "21"
         ]
        }
       },
@@ -14374,8 +14377,33 @@
        },
        "b": {
         "label": null,
+        "name": "Australia",
+        "club": "AUS",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
         "name": "Great Britain",
         "club": "GBR",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
         "members": "",
         "score": "0",
         "bye": false,
@@ -14388,7 +14416,7 @@
     }
    ],
    "code": "TBCU21X",
-   "updated": "2026-09-25 19:55:05"
+   "updated": "2026-09-25 19:58:22"
   },
   {
    "name": "Compound Mixed Team (lag)",
@@ -14838,22 +14866,34 @@
         "name": "Great Britain",
         "club": "GBR",
         "members": "HUGHES Emelia, GRAY Edward",
-        "score": "",
+        "score": "71",
         "bye": false,
         "so": "",
-        "target": "28A",
-        "when": "25-09-2026 14:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "21",
+         "15",
+         "18"
+        ]
        },
        "b": {
         "label": null,
         "name": "Czechia",
         "club": "CZE",
         "members": "VEVERKOVA Tereza, VOJVODIK Rudolf",
-        "score": "",
+        "score": "63",
         "bye": false,
         "so": "",
-        "target": "28B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "14",
+         "17",
+         "17"
+        ]
        }
       }
      ]
@@ -14876,8 +14916,33 @@
        },
        "b": {
         "label": null,
+        "name": "Great Britain",
+        "club": "GBR",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
         "name": "Italy",
         "club": "ITA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
         "members": "",
         "score": "0",
         "bye": false,
@@ -14890,7 +14955,7 @@
     }
    ],
    "code": "TBRU21X",
-   "updated": "2026-09-24 20:13:11"
+   "updated": "2026-09-25 19:57:57"
   },
   {
    "name": "Recurve Mixed Team (lag)",
