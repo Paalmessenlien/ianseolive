@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T15:44:46Z",
+ "generated": "2026-09-25T15:58:32Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,6 +11,7 @@
  },
  "defaultClub": "NOR",
  "files": {
+  "TFMT": "2026-09-25 15:57:20",
   "IBRM": "2026-09-24 23:38:06",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-25 15:30:50",
@@ -23,7 +24,7 @@
   "IBBW": "2026-09-24 20:12:52",
   "IBBU21M": "2026-09-24 20:12:56",
   "IBBU21W": "2026-09-24 20:12:59",
-  "TBMT": "2026-09-24 21:15:26",
+  "TBMT": "2026-09-25 15:57:20",
   "TBWT": "2026-09-24 21:47:36",
   "TBRX": "2026-09-24 20:13:05",
   "TBCX": "2026-09-24 21:47:52",
@@ -11990,22 +11991,34 @@
         "name": "Italy",
         "club": "ITA",
         "members": "BARBIERI Simone, BORSANI Matteo, GODANO Michea",
-        "score": "",
+        "score": "61",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "25-09-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "15",
+         "14",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "Spain",
         "club": "ESP",
         "members": "PRIETO GORRICHO Jose Manuel, ROIG ROIG Toni, VERA BRINGAS Cesar",
-        "score": "",
+        "score": "56",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "12",
+         "15",
+         "16"
+        ]
        }
       },
       {
@@ -12015,22 +12028,34 @@
         "name": "Australia",
         "club": "AUS",
         "members": "FAIRWEATHER Simon, NEVE Harry, TYACK Ryan",
-        "score": "",
+        "score": "54",
         "bye": false,
         "so": "",
-        "target": "26A",
-        "when": "25-09-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "13",
+         "14",
+         "11"
+        ]
        },
        "b": {
         "label": null,
         "name": "France",
         "club": "FRA",
         "members": "GIRARD Nicolas, JACKSON David, MULOT Florent",
-        "score": "",
+        "score": "58",
         "bye": false,
         "so": "",
-        "target": "26B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "13",
+         "15",
+         "15"
+        ]
        }
       },
       {
@@ -12040,22 +12065,34 @@
         "name": "Germany",
         "club": "GER",
         "members": "LÜPKEMANN Henning, SCHAEFER Rüdiger, UNRUH Florian",
-        "score": "",
+        "score": "56",
         "bye": false,
         "so": "",
-        "target": "27A",
-        "when": "25-09-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "15",
+         "15",
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "Slovenia",
         "club": "SLO",
         "members": "JEVSNIK Tim, KELVISAR Klemen, RAVNIKAR Ziga",
-        "score": "",
+        "score": "54",
         "bye": false,
         "so": "",
-        "target": "27B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "16",
+         "15",
+         "13"
+        ]
        }
       },
       {
@@ -12065,21 +12102,88 @@
         "name": "Croatia",
         "club": "CRO",
         "members": "BUDEN Domagoj, REMAR Alen, VELAGIC Zoran",
-        "score": "",
+        "score": "56",
         "bye": false,
         "so": "",
-        "target": "28A",
-        "when": "25-09-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "12",
+         "13",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "CARTER Gaius, DAVIS Ryan, ELLISON Brady",
-        "score": "",
+        "score": "65",
         "bye": false,
         "so": "",
-        "target": "28B",
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "16",
+         "16",
+         "15"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Germany",
+        "club": "GER",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
         "when": ""
        }
       }
@@ -12087,7 +12191,7 @@
     }
    ],
    "code": "TBMT",
-   "updated": "2026-09-24 21:15:26"
+   "updated": "2026-09-25 15:57:20"
   },
   {
    "name": "Men Under 21 Team (lag)",
