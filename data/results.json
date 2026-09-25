@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T17:07:09Z",
+ "generated": "2026-09-25T17:22:08Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -13,7 +13,7 @@
  "files": {
   "IFRU21M": "2026-09-25 16:52:39",
   "IFRU21W": "2026-09-25 16:54:26",
-  "IFCU21M": "2026-09-25 16:51:02",
+  "IFCU21M": "2026-09-25 17:12:59",
   "IFCU21W": "2026-09-25 16:53:54",
   "IFBU21M": "2026-09-25 16:53:00",
   "IFBU21W": "2026-09-25 16:53:17",
@@ -25,7 +25,7 @@
   "IBRU21W": "2026-09-25 16:54:26",
   "IBCM": "2026-09-24 23:31:16",
   "IBCW": "2026-09-24 23:50:20",
-  "IBCU21M": "2026-09-25 16:51:02",
+  "IBCU21M": "2026-09-25 17:12:59",
   "IBCU21W": "2026-09-25 16:53:54",
   "IBBM": "2026-09-24 23:29:12",
   "IBBW": "2026-09-24 20:12:52",
@@ -9154,12 +9154,15 @@
         "name": "Aloisi Fabrizio",
         "club": "ITA",
         "members": "",
-        "score": "17",
+        "score": "69",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "17",
+         "17",
+         "18",
          "17"
         ]
        },
@@ -9168,13 +9171,16 @@
         "name": "McNeilly Hector",
         "club": "NZL",
         "members": "",
-        "score": "11",
+        "score": "57",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "11"
+         "11",
+         "18",
+         "16",
+         "12"
         ]
        }
       },
@@ -9185,13 +9191,16 @@
         "name": "Fong Christopher",
         "club": "USA",
         "members": "",
-        "score": "16",
+        "score": "64",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "16"
+         "16",
+         "18",
+         "16",
+         "14"
         ]
        },
        "b": {
@@ -9199,13 +9208,16 @@
         "name": "Kane Grady",
         "club": "USA",
         "members": "",
-        "score": "16",
+        "score": "66",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "16"
+         "16",
+         "18",
+         "18",
+         "14"
         ]
        }
       }
@@ -9218,8 +9230,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Aloisi Fabrizio",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -9229,8 +9241,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Kane Grady",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -9243,8 +9255,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "McNeilly Hector",
+        "club": "NZL",
         "members": "",
         "score": "",
         "bye": false,
@@ -9254,8 +9266,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Fong Christopher",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -9268,7 +9280,7 @@
     }
    ],
    "code": "IBCU21M",
-   "updated": "2026-09-25 16:51:02"
+   "updated": "2026-09-25 17:12:59"
   },
   {
    "name": "Compound Under 21 Women",
@@ -12936,21 +12948,21 @@
         "name": "Great Britain",
         "club": "GBR",
         "members": "HUGHES Emelia, GRAY Edward",
-        "score": "0",
+        "score": "",
         "bye": false,
         "so": "",
-        "target": "",
-        "when": ""
+        "target": "28A",
+        "when": "25-09-2026 14:15"
        },
        "b": {
         "label": null,
         "name": "Czechia",
         "club": "CZE",
-        "members": "TOVARNICKA Monika, VOJVODIK Rudolf",
-        "score": "0",
+        "members": "VEVERKOVA Tereza, VOJVODIK Rudolf",
+        "score": "",
         "bye": false,
         "so": "",
-        "target": "",
+        "target": "28B",
         "when": ""
        }
       }
