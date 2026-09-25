@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T17:21:06Z",
+ "generated": "2026-09-25T17:31:42Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,26 +11,29 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IFRU21M": "2026-09-25 16:52:39",
+  "IFRM": "2026-09-25 17:30:02",
+  "IFRU21M": "2026-09-25 17:28:39",
   "IFRU21W": "2026-09-25 16:54:26",
+  "IFCM": "2026-09-25 17:30:03",
+  "IFCW": "2026-09-25 17:30:03",
   "IFCU21M": "2026-09-25 17:12:59",
-  "IFCU21W": "2026-09-25 16:53:54",
-  "IFBU21M": "2026-09-25 16:53:00",
-  "IFBU21W": "2026-09-25 16:53:17",
+  "IFCU21W": "2026-09-25 17:27:39",
+  "IFBU21M": "2026-09-25 17:28:15",
+  "IFBU21W": "2026-09-25 17:29:04",
   "TFMT": "2026-09-25 15:57:20",
   "TFWT": "2026-09-25 16:37:53",
-  "IBRM": "2026-09-24 23:38:06",
+  "IBRM": "2026-09-25 17:30:02",
   "IBRW": "2026-09-24 20:12:32",
-  "IBRU21M": "2026-09-25 16:52:39",
+  "IBRU21M": "2026-09-25 17:28:39",
   "IBRU21W": "2026-09-25 16:54:26",
-  "IBCM": "2026-09-24 23:31:16",
-  "IBCW": "2026-09-24 23:50:20",
+  "IBCM": "2026-09-25 17:30:03",
+  "IBCW": "2026-09-25 17:30:03",
   "IBCU21M": "2026-09-25 17:12:59",
-  "IBCU21W": "2026-09-25 16:53:54",
+  "IBCU21W": "2026-09-25 17:27:39",
   "IBBM": "2026-09-24 23:29:12",
   "IBBW": "2026-09-24 20:12:52",
-  "IBBU21M": "2026-09-25 16:53:00",
-  "IBBU21W": "2026-09-25 16:53:17",
+  "IBBU21M": "2026-09-25 17:28:15",
+  "IBBU21W": "2026-09-25 17:29:04",
   "TBMT": "2026-09-25 15:57:20",
   "TBWT": "2026-09-25 16:37:53",
   "TBRX": "2026-09-24 20:13:05",
@@ -7546,13 +7549,16 @@
         "name": "Hicks Oliver",
         "club": "GBR",
         "members": "",
-        "score": "16",
+        "score": "54",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "16"
+         "16",
+         "11",
+         "16",
+         "11"
         ]
        },
        "b": {
@@ -7560,13 +7566,16 @@
         "name": "Olmstead Jacob",
         "club": "USA",
         "members": "",
-        "score": "7",
+        "score": "31",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "7"
+         "7",
+         "7",
+         "9",
+         "8"
         ]
        }
       },
@@ -7577,13 +7586,16 @@
         "name": "Locchi Giulio",
         "club": "ITA",
         "members": "",
-        "score": "11",
+        "score": "43",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "11"
+         "11",
+         "9",
+         "9",
+         "14"
         ]
        },
        "b": {
@@ -7591,13 +7603,16 @@
         "name": "Rohlin Ludvig",
         "club": "SWE",
         "members": "",
-        "score": "15",
+        "score": "52",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "15"
+         "15",
+         "12",
+         "15",
+         "10"
         ]
        }
       }
@@ -7610,8 +7625,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Hicks Oliver",
+        "club": "GBR",
         "members": "",
         "score": "",
         "bye": false,
@@ -7621,8 +7636,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Rohlin Ludvig",
+        "club": "SWE",
         "members": "",
         "score": "",
         "bye": false,
@@ -7635,8 +7650,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Olmstead Jacob",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7646,8 +7661,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Locchi Giulio",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7660,7 +7675,7 @@
     }
    ],
    "code": "IBBU21M",
-   "updated": "2026-09-25 16:53:00"
+   "updated": "2026-09-25 17:28:15"
   },
   {
    "name": "Barebow Under 21 Women",
@@ -7763,13 +7778,16 @@
         "name": "Grezzani Linda",
         "club": "ITA",
         "members": "",
-        "score": "8",
+        "score": "42",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "8"
+         "8",
+         "10",
+         "13",
+         "11"
         ]
        },
        "b": {
@@ -7777,13 +7795,16 @@
         "name": "Yee Elke",
         "club": "AUS",
         "members": "",
-        "score": "9",
+        "score": "38",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "9"
+         "9",
+         "9",
+         "10",
+         "10"
         ]
        }
       },
@@ -7794,12 +7815,15 @@
         "name": "Fisher Millie",
         "club": "AUS",
         "members": "",
-        "score": "10",
+        "score": "38",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "10",
+         "7",
+         "11",
          "10"
         ]
        },
@@ -7808,13 +7832,16 @@
         "name": "Crandall Chloe",
         "club": "USA",
         "members": "",
-        "score": "13",
+        "score": "42",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "8",
+         "7",
+         "14"
         ]
        }
       }
@@ -7827,8 +7854,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Grezzani Linda",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7838,8 +7865,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Crandall Chloe",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7852,8 +7879,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Yee Elke",
+        "club": "AUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -7863,8 +7890,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Fisher Millie",
+        "club": "AUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -7877,7 +7904,7 @@
     }
    ],
    "code": "IBBU21W",
-   "updated": "2026-09-25 16:53:17"
+   "updated": "2026-09-25 17:29:04"
   },
   {
    "name": "Barebow Women",
@@ -8633,10 +8660,65 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 16:14"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 16:06"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "IBCM",
-   "updated": "2026-09-24 23:31:16"
+   "updated": "2026-09-25 17:30:03"
   },
   {
    "name": "Compound Under 21 Men",
@@ -9757,13 +9839,16 @@
         "name": "Bruguier Isabella",
         "club": "GBR",
         "members": "",
-        "score": "18",
+        "score": "66",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "18"
+         "18",
+         "16",
+         "16",
+         "16"
         ]
        },
        "b": {
@@ -9771,14 +9856,16 @@
         "name": "Dorfner Leoni Dana",
         "club": "GER",
         "members": "",
-        "score": "35",
+        "score": "53",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "18",
-         "17"
+         "17",
+         "10",
+         "13",
+         "13"
         ]
        }
       },
@@ -9789,13 +9876,16 @@
         "name": "Montaldi Giorgia",
         "club": "ITA",
         "members": "",
-        "score": "16",
+        "score": "61",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "16"
+         "16",
+         "14",
+         "17",
+         "14"
         ]
        },
        "b": {
@@ -9803,12 +9893,15 @@
         "name": "Cook Julia",
         "club": "USA",
         "members": "",
-        "score": "17",
+        "score": "63",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "17",
+         "17",
+         "12",
          "17"
         ]
        }
@@ -9822,8 +9915,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Bruguier Isabella",
+        "club": "GBR",
         "members": "",
         "score": "",
         "bye": false,
@@ -9833,8 +9926,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Cook Julia",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -9847,8 +9940,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Dorfner Leoni Dana",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -9858,8 +9951,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Montaldi Giorgia",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -9872,7 +9965,7 @@
     }
    ],
    "code": "IBCU21W",
-   "updated": "2026-09-25 16:53:54"
+   "updated": "2026-09-25 17:27:39"
   },
   {
    "name": "Compound Women",
@@ -10432,7 +10525,7 @@
     }
    ],
    "code": "IBCW",
-   "updated": "2026-09-24 23:50:20"
+   "updated": "2026-09-25 17:30:03"
   },
   {
    "name": "Recurve Men",
@@ -10975,10 +11068,65 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 15:34"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 15:26"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "IBRM",
-   "updated": "2026-09-24 23:38:06"
+   "updated": "2026-09-25 17:30:02"
   },
   {
    "name": "Recurve Under 21 Men",
@@ -11496,13 +11644,16 @@
         "name": "Oliver Méndez Neil",
         "club": "MEX",
         "members": "",
-        "score": "7",
+        "score": "42",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "7"
+         "7",
+         "11",
+         "13",
+         "11"
         ]
        },
        "b": {
@@ -11510,13 +11661,16 @@
         "name": "Azzoni Jacopo",
         "club": "ITA",
         "members": "",
-        "score": "10",
+        "score": "48",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "10"
+         "10",
+         "16",
+         "10",
+         "12"
         ]
        }
       },
@@ -11527,13 +11681,16 @@
         "name": "Miller Jackson",
         "club": "USA",
         "members": "",
-        "score": "13",
+        "score": "57",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "12",
+         "18",
+         "14"
         ]
        },
        "b": {
@@ -11541,13 +11698,16 @@
         "name": "Baillion Jeremy",
         "club": "FRA",
         "members": "",
-        "score": "15",
+        "score": "52",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "15"
+         "15",
+         "9",
+         "16",
+         "12"
         ]
        }
       }
@@ -11560,8 +11720,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Azzoni Jacopo",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -11571,8 +11731,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Miller Jackson",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -11585,8 +11745,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Oliver Méndez Neil",
+        "club": "MEX",
         "members": "",
         "score": "",
         "bye": false,
@@ -11596,8 +11756,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Baillion Jeremy",
+        "club": "FRA",
         "members": "",
         "score": "",
         "bye": false,
@@ -11610,7 +11770,7 @@
     }
    ],
    "code": "IBRU21M",
-   "updated": "2026-09-25 16:52:39"
+   "updated": "2026-09-25 17:28:39"
   },
   {
    "name": "Recurve Under 21 Women",
