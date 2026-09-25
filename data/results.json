@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T14:57:13Z",
+ "generated": "2026-09-25T15:24:06Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,13 +11,14 @@
  },
  "defaultClub": "NOR",
  "files": {
+  "IFCU21M": "2026-09-25 15:09:00",
   "IBRM": "2026-09-24 23:38:06",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-24 20:12:36",
   "IBRU21W": "2026-09-24 20:12:39",
   "IBCM": "2026-09-24 23:31:16",
   "IBCW": "2026-09-24 23:50:20",
-  "IBCU21M": "2026-09-24 22:05:01",
+  "IBCU21M": "2026-09-25 15:09:00",
   "IBCU21W": "2026-09-24 22:05:04",
   "IBBM": "2026-09-24 23:29:12",
   "IBBW": "2026-09-24 20:12:52",
@@ -8405,22 +8406,38 @@
         "name": "Aloisi Fabrizio",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "99",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "25-09-2026 09:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "17",
+         "17",
+         "17",
+         "16",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "Johnsson Viktor",
         "club": "SWE",
         "members": "",
-        "score": "",
+        "score": "88",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "17",
+         "13",
+         "15",
+         "11",
+         "16"
+        ]
        }
       },
       {
@@ -8430,11 +8447,299 @@
         "name": "Cecco Omar",
         "club": "ITA",
         "members": "",
+        "score": "97",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "18",
+         "15",
+         "15",
+         "17",
+         "17"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Turner Joshua",
+        "club": "AUS",
+        "members": "",
+        "score": "101",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "17",
+         "17",
+         "16",
+         "16",
+         "18"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Obreza Skerjanec Timotej",
+        "club": "SLO",
+        "members": "",
+        "score": "99",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "16",
+         "17",
+         "16",
+         "18",
+         "16"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Diplock Oliver",
+        "club": "CAN",
+        "members": "",
+        "score": "95",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "16",
+         "16",
+         "16",
+         "16",
+         "16"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Miranda Mateo",
+        "club": "MEX",
+        "members": "",
+        "score": "92",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "16",
+         "17",
+         "15",
+         "15",
+         "13"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "McNeilly Hector",
+        "club": "NZL",
+        "members": "",
+        "score": "98",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "18",
+         "17",
+         "15",
+         "17",
+         "14"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Hathaway Dewey",
+        "club": "USA",
+        "members": "",
+        "score": "99",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "17",
+         "17",
+         "16",
+         "17",
+         "15"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Schrape William",
+        "club": "AUS",
+        "members": "",
+        "score": "90",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "14",
+         "14",
+         "17",
+         "15",
+         "15"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Nelson Bennett",
+        "club": "CAN",
+        "members": "",
+        "score": "91",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "15",
+         "16",
+         "18",
+         "14",
+         "13"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Fong Christopher",
+        "club": "USA",
+        "members": "",
+        "score": "101",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "18",
+         "16",
+         "18",
+         "18",
+         "16"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Rees Ioan",
+        "club": "GBR",
+        "members": "",
+        "score": "80",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "14",
+         "18",
+         "14",
+         "17"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Thorpe Corban",
+        "club": "NZL",
+        "members": "",
+        "score": "81",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "16",
+         "16",
+         "17",
+         "14"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Fernández Melga Patricio",
+        "club": "MEX",
+        "members": "",
+        "score": "80",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "15",
+         "16",
+         "16",
+         "16"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Kane Grady",
+        "club": "USA",
+        "members": "",
+        "score": "80",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "17",
+         "17",
+         "14",
+         "16"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/4",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Aloisi Fabrizio",
+        "club": "ITA",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "1C",
-        "when": "25-09-2026 09:15"
+        "target": "8A",
+        "when": "25-09-2026 10:15"
        },
        "b": {
         "label": null,
@@ -8444,7 +8749,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "1D",
+        "target": "8B",
         "when": ""
        }
       },
@@ -8458,33 +8763,8 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "2A",
-        "when": "25-09-2026 09:15"
-       },
-       "b": {
-        "label": null,
-        "name": "Diplock Oliver",
-        "club": "CAN",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "2B",
-        "when": ""
-       }
-      },
-      {
-       "label": "",
-       "a": {
-        "label": null,
-        "name": "Miranda Mateo",
-        "club": "MEX",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "2C",
-        "when": "25-09-2026 09:15"
+        "target": "8C",
+        "when": "25-09-2026 10:15"
        },
        "b": {
         "label": null,
@@ -8494,7 +8774,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "2D",
+        "target": "8D",
         "when": ""
        }
       },
@@ -8508,33 +8788,8 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "3A",
-        "when": "25-09-2026 09:15"
-       },
-       "b": {
-        "label": null,
-        "name": "Schrape William",
-        "club": "AUS",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "3B",
-        "when": ""
-       }
-      },
-      {
-       "label": "",
-       "a": {
-        "label": null,
-        "name": "Nelson Bennett",
-        "club": "CAN",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "3C",
-        "when": "25-09-2026 09:15"
+        "target": "10A",
+        "when": "25-09-2026 10:15"
        },
        "b": {
         "label": null,
@@ -8544,57 +8799,62 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "3D",
+        "target": "10B",
+        "when": ""
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 12:44"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
         "when": ""
        }
       },
       {
-       "label": "",
+       "label": "Bronze",
        "a": {
         "label": null,
-        "name": "Rees Ioan",
-        "club": "GBR",
+        "name": "",
+        "club": "",
         "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "4A",
-        "when": "25-09-2026 09:15"
+        "target": "1A",
+        "when": "26-09-2026 12:36"
        },
        "b": {
         "label": null,
-        "name": "Thorpe Corban",
-        "club": "NZL",
+        "name": "",
+        "club": "",
         "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "4B",
-        "when": ""
-       }
-      },
-      {
-       "label": "",
-       "a": {
-        "label": null,
-        "name": "Fernández Melga Patricio",
-        "club": "MEX",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "4C",
-        "when": "25-09-2026 09:15"
-       },
-       "b": {
-        "label": null,
-        "name": "Kane Grady",
-        "club": "USA",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "4D",
+        "target": "1B",
         "when": ""
        }
       }
@@ -8602,7 +8862,7 @@
     }
    ],
    "code": "IBCU21M",
-   "updated": "2026-09-24 22:05:01"
+   "updated": "2026-09-25 15:09:00"
   },
   {
    "name": "Compound Under 21 Women",
