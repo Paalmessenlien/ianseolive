@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T20:52:09Z",
+ "generated": "2026-09-25T21:07:09Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -12,7 +12,7 @@
  "defaultClub": "NOR",
  "files": {
   "IFRM": "2026-09-25 20:42:27",
-  "IFRW": "2026-09-25 19:29:45",
+  "IFRW": "2026-09-25 20:55:25",
   "IFRU21M": "2026-09-25 17:35:12",
   "IFRU21W": "2026-09-25 17:35:12",
   "IFCM": "2026-09-25 20:40:40",
@@ -30,7 +30,7 @@
   "TFCU21X": "2026-09-25 20:40:08",
   "TFBU21X": "2026-09-25 20:39:54",
   "IBRM": "2026-09-25 20:42:27",
-  "IBRW": "2026-09-25 19:29:45",
+  "IBRW": "2026-09-25 20:55:25",
   "IBRU21M": "2026-09-25 17:35:12",
   "IBRU21W": "2026-09-25 17:35:12",
   "IBCM": "2026-09-25 20:40:40",
@@ -14476,22 +14476,38 @@
         "name": "Di Francesco Roberta",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "87",
         "bye": false,
         "so": "",
-        "target": "22A",
-        "when": "25-09-2026 14:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "13",
+         "14",
+         "15",
+         "13",
+         "16"
+        ]
        },
        "b": {
         "label": null,
         "name": "Herrmann Svenja",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "78",
         "bye": false,
         "so": "",
-        "target": "22B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "13",
+         "14",
+         "12",
+         "12",
+         "12"
+        ]
        }
       },
       {
@@ -14501,21 +14517,149 @@
         "name": "Kaufhold Casey",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "87",
         "bye": false,
         "so": "",
-        "target": "22C",
-        "when": "25-09-2026 14:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "15",
+         "13",
+         "13",
+         "16",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Schloesser Gaby",
         "club": "NED",
         "members": "",
+        "score": "84",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "14",
+         "15",
+         "12",
+         "15",
+         "14"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Pintaric Zana",
+        "club": "SLO",
+        "members": "",
+        "score": "75",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "12",
+         "11",
+         "11",
+         "14",
+         "13",
+         "14"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Pitman Bryony",
+        "club": "IRL",
+        "members": "",
+        "score": "74",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "11",
+         "10",
+         "12",
+         "15",
+         "12",
+         "14"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Machinet Audrey",
+        "club": "FRA",
+        "members": "",
+        "score": "81",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "12",
+         "14",
+         "11",
+         "13",
+         "15",
+         "16"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Rebagliati Chiara",
+        "club": "ITA",
+        "members": "",
+        "score": "80",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "9",
+         "15",
+         "13",
+         "14",
+         "14",
+         "15"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Di Francesco Roberta",
+        "club": "ITA",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "22D",
+        "target": "1A",
+        "when": "26-09-2026 09:40"
+       },
+       "b": {
+        "label": null,
+        "name": "Kaufhold Casey",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
         "when": ""
        }
       },
@@ -14529,24 +14673,10 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "24A",
-        "when": "25-09-2026 14:00"
+        "target": "1A",
+        "when": "26-09-2026 09:48"
        },
        "b": {
-        "label": null,
-        "name": "Pitman Bryony",
-        "club": "IRL",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "24B",
-        "when": ""
-       }
-      },
-      {
-       "label": "",
-       "a": {
         "label": null,
         "name": "Machinet Audrey",
         "club": "FRA",
@@ -14554,18 +14684,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "24C",
-        "when": "25-09-2026 14:00"
-       },
-       "b": {
-        "label": null,
-        "name": "Rebagliati Chiara",
-        "club": "ITA",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "24D",
+        "target": "1B",
         "when": ""
        }
       }
@@ -14628,7 +14747,7 @@
     }
    ],
    "code": "IBRW",
-   "updated": "2026-09-25 19:29:45"
+   "updated": "2026-09-25 20:55:25"
   },
   {
    "name": "Barebow Under 21 Mixed Team (lag)",
