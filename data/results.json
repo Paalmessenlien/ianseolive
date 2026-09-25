@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T15:07:09Z",
+ "generated": "2026-09-25T15:22:08Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,14 +11,14 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IFCU21M": "2026-09-25 15:05:50",
+  "IFCU21M": "2026-09-25 15:09:00",
   "IBRM": "2026-09-24 23:38:06",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-24 20:12:36",
   "IBRU21W": "2026-09-24 20:12:39",
   "IBCM": "2026-09-24 23:31:16",
   "IBCW": "2026-09-24 23:50:20",
-  "IBCU21M": "2026-09-25 15:05:50",
+  "IBCU21M": "2026-09-25 15:09:00",
   "IBCU21W": "2026-09-24 22:05:04",
   "IBBM": "2026-09-24 23:29:12",
   "IBBW": "2026-09-24 20:12:52",
@@ -8570,7 +8570,7 @@
         "name": "Hathaway Dewey",
         "club": "USA",
         "members": "",
-        "score": "84",
+        "score": "99",
         "bye": false,
         "so": "",
         "target": "",
@@ -8580,7 +8580,8 @@
          "17",
          "17",
          "16",
-         "17"
+         "17",
+         "15"
         ]
        },
        "b": {
@@ -8588,7 +8589,7 @@
         "name": "Schrape William",
         "club": "AUS",
         "members": "",
-        "score": "75",
+        "score": "90",
         "bye": false,
         "so": "",
         "target": "",
@@ -8598,6 +8599,7 @@
          "14",
          "14",
          "17",
+         "15",
          "15"
         ]
        }
@@ -8609,7 +8611,7 @@
         "name": "Nelson Bennett",
         "club": "CAN",
         "members": "",
-        "score": "78",
+        "score": "91",
         "bye": false,
         "so": "",
         "target": "",
@@ -8619,7 +8621,8 @@
          "15",
          "16",
          "18",
-         "14"
+         "14",
+         "13"
         ]
        },
        "b": {
@@ -8627,7 +8630,7 @@
         "name": "Fong Christopher",
         "club": "USA",
         "members": "",
-        "score": "85",
+        "score": "101",
         "bye": false,
         "so": "",
         "target": "",
@@ -8637,7 +8640,8 @@
          "18",
          "16",
          "18",
-         "18"
+         "18",
+         "16"
         ]
        }
       },
@@ -8773,6 +8777,31 @@
         "target": "8D",
         "when": ""
        }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Hathaway Dewey",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "10A",
+        "when": "25-09-2026 10:15"
+       },
+       "b": {
+        "label": null,
+        "name": "Fong Christopher",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "10B",
+        "when": ""
+       }
       }
      ]
     },
@@ -8833,7 +8862,7 @@
     }
    ],
    "code": "IBCU21M",
-   "updated": "2026-09-25 15:05:50"
+   "updated": "2026-09-25 15:09:00"
   },
   {
    "name": "Compound Under 21 Women",
