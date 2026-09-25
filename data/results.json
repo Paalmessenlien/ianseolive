@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T17:57:14Z",
+ "generated": "2026-09-25T18:26:59Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -23,6 +23,7 @@
   "IFBU21W": "2026-09-25 17:35:12",
   "TFMT": "2026-09-25 15:57:20",
   "TFWT": "2026-09-25 16:37:53",
+  "TFMU21T": "2026-09-25 18:00:16",
   "IBRM": "2026-09-25 17:30:02",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-25 17:35:12",
@@ -40,7 +41,7 @@
   "TBRX": "2026-09-24 20:13:05",
   "TBCX": "2026-09-24 21:47:52",
   "TBBX": "2026-09-24 20:13:08",
-  "TBMU21T": "2026-09-24 22:05:13",
+  "TBMU21T": "2026-09-25 18:00:16",
   "TBWU21T": "2026-09-24 22:05:17",
   "TBRU21X": "2026-09-24 20:13:11",
   "TBCU21X": "2026-09-24 22:05:20",
@@ -13108,22 +13109,34 @@
         "name": "Sweden",
         "club": "SWE",
         "members": "DYMEN Loke, JOHNSSON Viktor, ROHLIN Ludvig",
-        "score": "0",
+        "score": "54",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "11",
+         "13",
+         "14",
+         "16"
+        ]
        },
        "b": {
         "label": null,
         "name": "Great Britain",
         "club": "GBR",
         "members": "GRAY Edward, HICKS Oliver, REES Ioan",
-        "score": "0",
+        "score": "63",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "15",
+         "16",
+         "18",
+         "14"
+        ]
        }
       }
      ]
@@ -13146,8 +13159,33 @@
        },
        "b": {
         "label": null,
+        "name": "Great Britain",
+        "club": "GBR",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
         "name": "USA",
         "club": "USA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Australia",
+        "club": "AUS",
         "members": "",
         "score": "0",
         "bye": false,
@@ -13160,7 +13198,7 @@
     }
    ],
    "code": "TBMU21T",
-   "updated": "2026-09-24 22:05:13"
+   "updated": "2026-09-25 18:00:16"
   },
   {
    "name": "Recurve Under 21 Mixed Team (lag)",
