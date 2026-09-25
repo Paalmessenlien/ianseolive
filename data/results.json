@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T16:37:08Z",
+ "generated": "2026-09-25T16:52:09Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,24 +11,24 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IFRU21W": "2026-09-25 16:36:35",
-  "IFCU21M": "2026-09-25 16:35:35",
+  "IFCU21M": "2026-09-25 16:51:02",
+  "IFBU21M": "2026-09-25 16:51:51",
   "TFMT": "2026-09-25 15:57:20",
-  "TFWT": "2026-09-25 16:33:08",
+  "TFWT": "2026-09-25 16:37:53",
   "IBRM": "2026-09-24 23:38:06",
   "IBRW": "2026-09-24 20:12:32",
   "IBRU21M": "2026-09-25 16:31:27",
   "IBRU21W": "2026-09-25 16:36:35",
   "IBCM": "2026-09-24 23:31:16",
   "IBCW": "2026-09-24 23:50:20",
-  "IBCU21M": "2026-09-25 16:35:35",
+  "IBCU21M": "2026-09-25 16:51:02",
   "IBCU21W": "2026-09-25 16:29:41",
   "IBBM": "2026-09-24 23:29:12",
   "IBBW": "2026-09-24 20:12:52",
-  "IBBU21M": "2026-09-25 16:26:34",
+  "IBBU21M": "2026-09-25 16:51:51",
   "IBBU21W": "2026-09-25 16:09:39",
   "TBMT": "2026-09-25 15:57:20",
-  "TBWT": "2026-09-25 16:33:08",
+  "TBWT": "2026-09-25 16:37:53",
   "TBRX": "2026-09-24 20:13:05",
   "TBCX": "2026-09-24 21:47:52",
   "TBBX": "2026-09-24 20:13:08",
@@ -7474,7 +7474,7 @@
         "name": "Urgelles Gabriel",
         "club": "USA",
         "members": "",
-        "score": "46",
+        "score": "48",
         "bye": false,
         "so": "",
         "target": "",
@@ -7485,7 +7485,7 @@
          "7",
          "13",
          "5",
-         "8"
+         "10"
         ]
        }
       },
@@ -7542,22 +7542,28 @@
         "name": "Hicks Oliver",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "2A",
-        "when": "25-09-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16"
+        ]
        },
        "b": {
         "label": null,
         "name": "Olmstead Jacob",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "7",
         "bye": false,
         "so": "",
-        "target": "2B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "7"
+        ]
        }
       },
       {
@@ -7567,22 +7573,28 @@
         "name": "Locchi Giulio",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "11",
         "bye": false,
         "so": "",
-        "target": "2C",
-        "when": "25-09-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "11"
+        ]
        },
        "b": {
         "label": null,
         "name": "Rohlin Ludvig",
         "club": "SWE",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "2D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15"
+        ]
        }
       }
      ]
@@ -7644,7 +7656,7 @@
     }
    ],
    "code": "IBBU21M",
-   "updated": "2026-09-25 16:26:34"
+   "updated": "2026-09-25 16:51:51"
   },
   {
    "name": "Barebow Under 21 Women",
@@ -9126,22 +9138,28 @@
         "name": "Aloisi Fabrizio",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "17",
         "bye": false,
         "so": "",
-        "target": "17A",
-        "when": "25-09-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "McNeilly Hector",
         "club": "NZL",
         "members": "",
-        "score": "",
+        "score": "11",
         "bye": false,
         "so": "",
-        "target": "17B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "11"
+        ]
        }
       },
       {
@@ -9151,22 +9169,28 @@
         "name": "Fong Christopher",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "17C",
-        "when": "25-09-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16"
+        ]
        },
        "b": {
         "label": null,
         "name": "Kane Grady",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "17D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "16"
+        ]
        }
       }
      ]
@@ -9228,7 +9252,7 @@
     }
    ],
    "code": "IBCU21M",
-   "updated": "2026-09-25 16:35:35"
+   "updated": "2026-09-25 16:51:02"
   },
   {
    "name": "Compound Under 21 Women",
@@ -13240,7 +13264,7 @@
     }
    ],
    "code": "TBWT",
-   "updated": "2026-09-25 16:33:08"
+   "updated": "2026-09-25 16:37:53"
   },
   {
    "name": "Women Under 21 Team (lag)",
