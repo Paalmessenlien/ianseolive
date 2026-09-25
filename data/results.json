@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T17:31:42Z",
+ "generated": "2026-09-25T17:44:41Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -12,28 +12,29 @@
  "defaultClub": "NOR",
  "files": {
   "IFRM": "2026-09-25 17:30:02",
-  "IFRU21M": "2026-09-25 17:28:39",
-  "IFRU21W": "2026-09-25 16:54:26",
+  "IFRU21M": "2026-09-25 17:35:12",
+  "IFRU21W": "2026-09-25 17:35:12",
   "IFCM": "2026-09-25 17:30:03",
   "IFCW": "2026-09-25 17:30:03",
-  "IFCU21M": "2026-09-25 17:12:59",
-  "IFCU21W": "2026-09-25 17:27:39",
-  "IFBU21M": "2026-09-25 17:28:15",
-  "IFBU21W": "2026-09-25 17:29:04",
+  "IFCU21M": "2026-09-25 17:35:12",
+  "IFCU21W": "2026-09-25 17:35:12",
+  "IFBM": "2026-09-25 17:32:39",
+  "IFBU21M": "2026-09-25 17:35:12",
+  "IFBU21W": "2026-09-25 17:35:12",
   "TFMT": "2026-09-25 15:57:20",
   "TFWT": "2026-09-25 16:37:53",
   "IBRM": "2026-09-25 17:30:02",
   "IBRW": "2026-09-24 20:12:32",
-  "IBRU21M": "2026-09-25 17:28:39",
-  "IBRU21W": "2026-09-25 16:54:26",
+  "IBRU21M": "2026-09-25 17:35:12",
+  "IBRU21W": "2026-09-25 17:35:12",
   "IBCM": "2026-09-25 17:30:03",
   "IBCW": "2026-09-25 17:30:03",
-  "IBCU21M": "2026-09-25 17:12:59",
-  "IBCU21W": "2026-09-25 17:27:39",
-  "IBBM": "2026-09-24 23:29:12",
+  "IBCU21M": "2026-09-25 17:35:12",
+  "IBCU21W": "2026-09-25 17:35:12",
+  "IBBM": "2026-09-25 17:32:39",
   "IBBW": "2026-09-24 20:12:52",
-  "IBBU21M": "2026-09-25 17:28:15",
-  "IBBU21W": "2026-09-25 17:29:04",
+  "IBBU21M": "2026-09-25 17:35:12",
+  "IBBU21W": "2026-09-25 17:35:12",
   "TBMT": "2026-09-25 15:57:20",
   "TBWT": "2026-09-25 16:37:53",
   "TBRX": "2026-09-24 20:13:05",
@@ -7402,10 +7403,65 @@
        }
       }
      ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 14:54"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "26-09-2026 14:46"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      }
+     ]
     }
    ],
    "code": "IBBM",
-   "updated": "2026-09-24 23:29:12"
+   "updated": "2026-09-25 17:32:39"
   },
   {
    "name": "Barebow Under 21 Men",
@@ -7675,7 +7731,7 @@
     }
    ],
    "code": "IBBU21M",
-   "updated": "2026-09-25 17:28:15"
+   "updated": "2026-09-25 17:35:12"
   },
   {
    "name": "Barebow Under 21 Women",
@@ -7904,7 +7960,7 @@
     }
    ],
    "code": "IBBU21W",
-   "updated": "2026-09-25 17:29:04"
+   "updated": "2026-09-25 17:35:12"
   },
   {
    "name": "Barebow Women",
@@ -9362,7 +9418,7 @@
     }
    ],
    "code": "IBCU21M",
-   "updated": "2026-09-25 17:12:59"
+   "updated": "2026-09-25 17:35:12"
   },
   {
    "name": "Compound Under 21 Women",
@@ -9965,7 +10021,7 @@
     }
    ],
    "code": "IBCU21W",
-   "updated": "2026-09-25 17:27:39"
+   "updated": "2026-09-25 17:35:12"
   },
   {
    "name": "Compound Women",
@@ -11770,7 +11826,7 @@
     }
    ],
    "code": "IBRU21M",
-   "updated": "2026-09-25 17:28:39"
+   "updated": "2026-09-25 17:35:12"
   },
   {
    "name": "Recurve Under 21 Women",
@@ -12124,13 +12180,16 @@
         "name": "Janke Frida",
         "club": "GER",
         "members": "",
-        "score": "14",
+        "score": "53",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "14"
+         "14",
+         "14",
+         "14",
+         "11"
         ]
        },
        "b": {
@@ -12138,13 +12197,16 @@
         "name": "Di Vita Emma",
         "club": "ITA",
         "members": "",
-        "score": "13",
+        "score": "55",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "14",
+         "13",
+         "15"
         ]
        }
       },
@@ -12155,13 +12217,16 @@
         "name": "Franzone Hailey",
         "club": "USA",
         "members": "",
-        "score": "16",
+        "score": "56",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "16"
+         "16",
+         "16",
+         "12",
+         "12"
         ]
        },
        "b": {
@@ -12169,13 +12234,16 @@
         "name": "Veverkova Tereza",
         "club": "CZE",
         "members": "",
-        "score": "11",
+        "score": "47",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "11"
+         "11",
+         "12",
+         "14",
+         "10"
         ]
        }
       }
@@ -12188,8 +12256,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Di Vita Emma",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -12199,8 +12267,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Franzone Hailey",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -12213,8 +12281,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Janke Frida",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -12224,8 +12292,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Veverkova Tereza",
+        "club": "CZE",
         "members": "",
         "score": "",
         "bye": false,
@@ -12238,7 +12306,7 @@
     }
    ],
    "code": "IBRU21W",
-   "updated": "2026-09-25 16:54:26"
+   "updated": "2026-09-25 17:35:12"
   },
   {
    "name": "Recurve Women",
