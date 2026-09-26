@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T14:57:04Z",
+ "generated": "2026-09-26T15:21:13Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -11,15 +11,15 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IFRM": "2026-09-25 20:42:27",
-  "IFRW": "2026-09-25 20:55:25",
+  "IFRM": "2026-09-26 15:18:49",
+  "IFRW": "2026-09-26 15:12:25",
   "IFRU21M": "2026-09-25 17:35:12",
   "IFRU21W": "2026-09-25 17:35:12",
   "IFCM": "2026-09-25 20:40:40",
   "IFCW": "2026-09-25 20:41:37",
   "IFCU21M": "2026-09-25 17:35:12",
   "IFCU21W": "2026-09-25 17:35:12",
-  "IFBM": "2026-09-26 14:38:31",
+  "IFBM": "2026-09-26 14:43:48",
   "IFBW": "2026-09-26 14:33:10",
   "IFBU21M": "2026-09-25 17:35:12",
   "IFBU21W": "2026-09-25 17:35:12",
@@ -32,15 +32,15 @@
   "TFRU21X": "2026-09-25 19:57:57",
   "TFCU21X": "2026-09-25 20:40:08",
   "TFBU21X": "2026-09-25 21:32:13",
-  "IBRM": "2026-09-25 20:42:27",
-  "IBRW": "2026-09-25 20:55:25",
+  "IBRM": "2026-09-26 15:18:49",
+  "IBRW": "2026-09-26 15:12:25",
   "IBRU21M": "2026-09-25 17:35:12",
   "IBRU21W": "2026-09-25 17:35:12",
   "IBCM": "2026-09-25 20:40:40",
   "IBCW": "2026-09-25 20:41:36",
   "IBCU21M": "2026-09-25 17:35:12",
   "IBCU21W": "2026-09-25 17:35:12",
-  "IBBM": "2026-09-26 14:40:36",
+  "IBBM": "2026-09-26 14:44:15",
   "IBBW": "2026-09-26 14:34:20",
   "IBBU21M": "2026-09-25 17:35:12",
   "IBBU21W": "2026-09-25 17:35:12",
@@ -7757,7 +7757,7 @@
         "name": "Jonsson Erik",
         "club": "SWE",
         "members": "",
-        "score": "44",
+        "score": "59",
         "bye": false,
         "so": "",
         "target": "",
@@ -7765,6 +7765,7 @@
         "sets": [
          "16",
          "13",
+         "15",
          "15"
         ]
        },
@@ -7773,7 +7774,7 @@
         "name": "Kent-Rodgman Christopher Edward",
         "club": "CAN",
         "members": "",
-        "score": "35",
+        "score": "46",
         "bye": false,
         "so": "",
         "target": "",
@@ -7781,7 +7782,8 @@
         "sets": [
          "9",
          "12",
-         "14"
+         "14",
+         "11"
         ]
        }
       }
@@ -7805,8 +7807,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Jonsson Erik",
+        "club": "SWE",
         "members": "",
         "score": "",
         "bye": false,
@@ -7830,8 +7832,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Kent-Rodgman Christopher Edward",
+        "club": "CAN",
         "members": "",
         "score": "",
         "bye": false,
@@ -7844,7 +7846,7 @@
     }
    ],
    "code": "IBBM",
-   "updated": "2026-09-26 14:40:36"
+   "updated": "2026-09-26 14:44:15"
   },
   {
    "name": "Barebow Under 21 Men",
@@ -12950,22 +12952,34 @@
         "name": "Unruh Florian",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "65",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "26-09-2026 09:56"
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "15",
+         "17",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Dror Roy",
         "club": "ISR",
         "members": "",
-        "score": "",
+        "score": "62",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "14",
+         "17",
+         "13"
+        ]
        }
       },
       {
@@ -12975,22 +12989,30 @@
         "name": "Shanny Itay",
         "club": "ISR",
         "members": "",
-        "score": "",
+        "score": "30",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "26-09-2026 10:04"
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "Ellison Brady",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "32",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "15"
+        ]
        }
       }
      ]
@@ -13002,8 +13024,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Unruh Florian",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -13027,8 +13049,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Dror Roy",
+        "club": "ISR",
         "members": "",
         "score": "",
         "bye": false,
@@ -13052,7 +13074,7 @@
     }
    ],
    "code": "IBRM",
-   "updated": "2026-09-25 20:42:27"
+   "updated": "2026-09-26 15:18:49"
   },
   {
    "name": "Recurve Under 21 Men",
@@ -14694,22 +14716,34 @@
         "name": "Di Francesco Roberta",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "56",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "26-09-2026 09:40"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "12",
+         "15",
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "Kaufhold Casey",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "59",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "13",
+         "18",
+         "11"
+        ]
        }
       },
       {
@@ -14719,11 +14753,53 @@
         "name": "Pintaric Zana",
         "club": "SLO",
         "members": "",
+        "score": "52",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "11",
+         "14",
+         "12"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Machinet Audrey",
+        "club": "FRA",
+        "members": "",
+        "score": "58",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "13",
+         "16",
+         "15"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "Kaufhold Casey",
+        "club": "USA",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
         "target": "1A",
-        "when": "26-09-2026 09:48"
+        "when": "26-09-2026 15:18"
        },
        "b": {
         "label": null,
@@ -14736,43 +14812,13 @@
         "target": "1B",
         "when": ""
        }
-      }
-     ]
-    },
-    {
-     "name": "Finals",
-     "matches": [
-      {
-       "label": "Gold",
-       "a": {
-        "label": null,
-        "name": "",
-        "club": "",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "1A",
-        "when": "26-09-2026 15:18"
-       },
-       "b": {
-        "label": null,
-        "name": "",
-        "club": "",
-        "members": "",
-        "score": "",
-        "bye": false,
-        "so": "",
-        "target": "1B",
-        "when": ""
-       }
       },
       {
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Di Francesco Roberta",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -14782,8 +14828,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Pintaric Zana",
+        "club": "SLO",
         "members": "",
         "score": "",
         "bye": false,
@@ -14796,7 +14842,7 @@
     }
    ],
    "code": "IBRW",
-   "updated": "2026-09-25 20:55:25"
+   "updated": "2026-09-26 15:12:25"
   },
   {
    "name": "Barebow Under 21 Mixed Team (lag)",
