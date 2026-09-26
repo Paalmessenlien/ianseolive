@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T16:07:17Z",
+ "generated": "2026-09-26T16:22:10Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -15,14 +15,14 @@
   "IFRW": "2026-09-26 15:12:25",
   "IFRU21M": "2026-09-25 17:35:12",
   "IFRU21W": "2026-09-25 17:35:12",
-  "IFCM": "2026-09-26 16:04:07",
+  "IFCM": "2026-09-26 16:09:08",
   "IFCW": "2026-09-26 15:59:03",
   "IFCU21M": "2026-09-25 17:35:12",
   "IFCU21W": "2026-09-25 17:35:12",
   "IFBM": "2026-09-26 14:43:48",
   "IFBW": "2026-09-26 14:33:10",
   "IFBU21M": "2026-09-25 17:35:12",
-  "IFBU21W": "2026-09-25 17:35:12",
+  "IFBU21W": "2026-09-26 16:20:26",
   "TFMT": "2026-09-25 15:57:20",
   "TFWT": "2026-09-25 16:37:53",
   "TFRX": "2026-09-25 21:56:07",
@@ -36,14 +36,14 @@
   "IBRW": "2026-09-26 15:12:25",
   "IBRU21M": "2026-09-25 17:35:12",
   "IBRU21W": "2026-09-25 17:35:12",
-  "IBCM": "2026-09-26 16:04:07",
+  "IBCM": "2026-09-26 16:09:08",
   "IBCW": "2026-09-26 15:59:03",
   "IBCU21M": "2026-09-25 17:35:12",
   "IBCU21W": "2026-09-25 17:35:12",
   "IBBM": "2026-09-26 14:44:15",
   "IBBW": "2026-09-26 14:34:20",
   "IBBU21M": "2026-09-25 17:35:12",
-  "IBBU21W": "2026-09-25 17:35:12",
+  "IBBU21W": "2026-09-26 16:20:26",
   "TBMT": "2026-09-25 15:57:20",
   "TBWT": "2026-09-25 16:37:53",
   "TBRX": "2026-09-25 21:56:07",
@@ -8298,54 +8298,76 @@
         "name": "Grezzani Linda",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "43",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "26-09-2026 11:08"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "13",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Crandall Chloe",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "39",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "11",
+         "15"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Yee Elke",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "20",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "26-09-2026 11:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "4",
+         "5",
+         "7",
+         "4"
+        ]
        },
        "b": {
         "label": null,
         "name": "Fisher Millie",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "34",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "9",
+         "8",
+         "11",
+         "6"
+        ]
        }
       }
      ]
     }
    ],
    "code": "IBBU21W",
-   "updated": "2026-09-25 17:35:12"
+   "updated": "2026-09-26 16:20:26"
   },
   {
    "name": "Barebow Women",
@@ -9877,7 +9899,7 @@
         "name": "Carter Gaius",
         "club": "USA",
         "members": "",
-        "score": "53",
+        "score": "68",
         "bye": false,
         "so": "",
         "target": "",
@@ -9885,7 +9907,8 @@
         "sets": [
          "18",
          "17",
-         "18"
+         "18",
+         "15"
         ]
        },
        "b": {
@@ -9893,7 +9916,7 @@
         "name": "Buden Domagoj",
         "club": "CRO",
         "members": "",
-        "score": "53",
+        "score": "67",
         "bye": false,
         "so": "",
         "target": "",
@@ -9901,7 +9924,8 @@
         "sets": [
          "17",
          "18",
-         "18"
+         "18",
+         "14"
         ]
        }
       }
@@ -9925,8 +9949,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Carter Gaius",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -9950,8 +9974,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Buden Domagoj",
+        "club": "CRO",
         "members": "",
         "score": "",
         "bye": false,
@@ -9964,7 +9988,7 @@
     }
    ],
    "code": "IBCM",
-   "updated": "2026-09-26 16:04:07"
+   "updated": "2026-09-26 16:09:08"
   },
   {
    "name": "Compound Under 21 Men",
