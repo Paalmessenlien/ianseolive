@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T19:07:18Z",
+ "generated": "2026-09-27T19:18:35Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -29,6 +29,7 @@
   "TFCX": "2026-09-27 17:04:11",
   "TFBX": "2026-09-27 16:08:43",
   "TFMU21T": "2026-09-25 18:00:16",
+  "TFWU21T": "2026-09-27 19:11:55",
   "TFRU21X": "2026-09-27 15:06:35",
   "TFCU21X": "2026-09-27 15:36:52",
   "TFBU21X": "2026-09-25 21:32:13",
@@ -50,7 +51,7 @@
   "TBCX": "2026-09-27 17:04:15",
   "TBBX": "2026-09-27 16:08:43",
   "TBMU21T": "2026-09-25 18:00:16",
-  "TBWU21T": "2026-09-24 22:05:17",
+  "TBWU21T": "2026-09-27 19:11:55",
   "TBRU21X": "2026-09-27 15:06:40",
   "TBCU21X": "2026-09-27 15:36:52",
   "TBBU21X": "2026-09-25 21:32:13",
@@ -17240,21 +17241,63 @@
         "name": "Australia",
         "club": "AUS",
         "members": "FISHER Millie, MARTINI Ellen, ROUX Liezel-Marié",
-        "score": "0",
+        "score": "53",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "12",
+         "17",
+         "12",
+         "12"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "CRANDALL Chloe, KIPPES Abigail, MARKLE Khloe",
-        "score": "0",
+        "score": "60",
         "bye": false,
         "so": "",
         "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "17",
+         "14",
+         "14"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "27-09-2026 14:40"
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
         "when": ""
        }
       }
@@ -17262,7 +17305,7 @@
     }
    ],
    "code": "TBWU21T",
-   "updated": "2026-09-24 22:05:17"
+   "updated": "2026-09-27 19:11:55"
   }
  ]
 }
