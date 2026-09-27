@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T20:07:18Z",
+ "generated": "2026-09-27T20:22:09Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -24,12 +24,12 @@
   "IFBU21M": "2026-09-26 16:36:22",
   "IFBU21W": "2026-09-26 16:25:44",
   "TFMT": "2026-09-25 15:57:20",
-  "TFWT": "2026-09-27 20:02:40",
+  "TFWT": "2026-09-27 20:15:12",
   "TFRX": "2026-09-27 16:39:41",
   "TFCX": "2026-09-27 17:04:11",
   "TFBX": "2026-09-27 16:08:43",
-  "TFMU21T": "2026-09-27 19:35:09",
-  "TFWU21T": "2026-09-27 19:38:54",
+  "TFMU21T": "2026-09-27 20:20:51",
+  "TFWU21T": "2026-09-27 20:14:28",
   "TFRU21X": "2026-09-27 15:06:35",
   "TFCU21X": "2026-09-27 15:36:52",
   "TFBU21X": "2026-09-25 21:32:13",
@@ -46,12 +46,12 @@
   "IBBU21M": "2026-09-26 16:36:22",
   "IBBU21W": "2026-09-26 16:25:44",
   "TBMT": "2026-09-25 15:57:20",
-  "TBWT": "2026-09-27 20:02:40",
+  "TBWT": "2026-09-27 20:15:12",
   "TBRX": "2026-09-27 16:39:44",
   "TBCX": "2026-09-27 17:04:15",
   "TBBX": "2026-09-27 16:08:43",
-  "TBMU21T": "2026-09-27 19:35:09",
-  "TBWU21T": "2026-09-27 19:38:54",
+  "TBMU21T": "2026-09-27 20:20:51",
+  "TBWU21T": "2026-09-27 20:14:28",
   "TBRU21X": "2026-09-27 15:06:40",
   "TBCU21X": "2026-09-27 15:36:52",
   "TBBU21X": "2026-09-25 21:32:13",
@@ -86,7 +86,7 @@
   "Schedule": "2026-09-24 23:44:40",
   "TransportSchedule": "2026-09-23 02:12:13",
   "IndividualMatchesScorecards": "2026-09-26 21:36:28",
-  "MEDLST": "2026-09-27 17:04:11",
+  "MEDLST": "2026-09-27 20:20:51",
   "MEDSTD": "2026-09-26 21:33:24",
   "STF": "2026-09-27 13:13:40"
  },
@@ -16514,54 +16514,72 @@
         "name": "Great Britain",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "18",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 15:10"
+        "target": "",
+        "when": "",
+        "sets": [
+         "18"
+        ]
        },
        "b": {
         "label": null,
         "name": "Australia",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "51",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 15:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "16",
+         "12",
+         "7"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "50",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "13",
+         "13",
+         "11"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBMU21T",
-   "updated": "2026-09-27 19:35:09"
+   "updated": "2026-09-27 20:20:51"
   },
   {
    "name": "Recurve Under 21 Mixed Team (lag)",
@@ -17257,14 +17275,16 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "31",
+        "score": "58",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "16",
-         "15"
+         "15",
+         "13",
+         "14"
         ]
        },
        "b": {
@@ -17272,14 +17292,16 @@
         "name": "Germany",
         "club": "GER",
         "members": "",
-        "score": "26",
+        "score": "52",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "8",
-         "18"
+         "18",
+         "13",
+         "13"
         ]
        }
       },
@@ -17326,8 +17348,19 @@
      "name": "Finals",
      "matches": [
       {
-       "label": "Bronze",
+       "label": "Gold",
        "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "27-09-2026 15:40"
+       },
+       "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
@@ -17337,6 +17370,20 @@
         "so": "",
         "target": "1B",
         "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "Germany",
+        "club": "GER",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "27-09-2026 15:30"
        },
        "b": {
         "label": null,
@@ -17354,7 +17401,7 @@
     }
    ],
    "code": "TBWT",
-   "updated": "2026-09-27 20:02:40"
+   "updated": "2026-09-27 20:15:12"
   },
   {
    "name": "Women Under 21 Team (lag)",
@@ -17412,29 +17459,41 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "49",
         "bye": false,
-        "so": "",
-        "target": "1A",
-        "when": "27-09-2026 14:40"
+        "so": "13",
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "11",
+         "12",
+         "9"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "49",
         "bye": false,
-        "so": "",
-        "target": "1B",
-        "when": ""
+        "so": "15",
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "12",
+         "15",
+         "12"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBWU21T",
-   "updated": "2026-09-27 19:38:54"
+   "updated": "2026-09-27 20:14:28"
   }
  ]
 }
