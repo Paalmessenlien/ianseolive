@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T21:22:18Z",
+ "generated": "2026-09-27T21:30:54Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -23,7 +23,7 @@
   "IFBW": "2026-09-26 20:00:57",
   "IFBU21M": "2026-09-26 16:36:22",
   "IFBU21W": "2026-09-26 16:25:44",
-  "TFMT": "2026-09-27 20:38:53",
+  "TFMT": "2026-09-27 21:27:31",
   "TFWT": "2026-09-27 21:17:44",
   "TFRX": "2026-09-27 16:39:41",
   "TFCX": "2026-09-27 17:04:11",
@@ -45,7 +45,7 @@
   "IBBW": "2026-09-26 20:00:57",
   "IBBU21M": "2026-09-26 16:36:22",
   "IBBU21W": "2026-09-26 16:25:44",
-  "TBMT": "2026-09-27 20:38:53",
+  "TBMT": "2026-09-27 21:27:31",
   "TBWT": "2026-09-27 21:17:49",
   "TBRX": "2026-09-27 16:39:44",
   "TBCX": "2026-09-27 17:04:15",
@@ -86,7 +86,7 @@
   "Schedule": "2026-09-24 23:44:40",
   "TransportSchedule": "2026-09-23 02:12:13",
   "IndividualMatchesScorecards": "2026-09-26 21:36:28",
-  "MEDLST": "2026-09-27 21:17:44",
+  "MEDLST": "2026-09-27 21:27:31",
   "MEDSTD": "2026-09-26 21:33:24",
   "STF": "2026-09-27 13:13:40"
  },
@@ -16409,54 +16409,72 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "13",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 16:10"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "14",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "14"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "France",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "52",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 16:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "12",
+         "15",
+         "8"
+        ]
        },
        "b": {
         "label": null,
         "name": "Germany",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "53",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "14",
+         "12",
+         "15",
+         "12"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBMT",
-   "updated": "2026-09-27 20:38:53"
+   "updated": "2026-09-27 21:27:31"
   },
   {
    "name": "Men Under 21 Team (lag)",
