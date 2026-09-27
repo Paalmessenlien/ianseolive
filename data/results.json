@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T14:52:19Z",
+ "generated": "2026-09-27T14:57:00Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -29,7 +29,7 @@
   "TFCX": "2026-09-25 21:55:43",
   "TFBX": "2026-09-25 21:55:24",
   "TFMU21T": "2026-09-25 18:00:16",
-  "TFRU21X": "2026-09-27 14:01:31",
+  "TFRU21X": "2026-09-27 14:55:16",
   "TFCU21X": "2026-09-27 14:36:28",
   "TFBU21X": "2026-09-25 21:32:13",
   "IBRM": "2026-09-26 20:52:26",
@@ -51,7 +51,7 @@
   "TBBX": "2026-09-25 21:55:24",
   "TBMU21T": "2026-09-25 18:00:16",
   "TBWU21T": "2026-09-24 22:05:17",
-  "TBRU21X": "2026-09-27 14:01:31",
+  "TBRU21X": "2026-09-27 14:55:16",
   "TBCU21X": "2026-09-27 14:36:28",
   "TBBU21X": "2026-09-25 21:32:13",
   "IQRM": "2026-09-24 20:12:28",
@@ -16388,54 +16388,74 @@
         "name": "Great Britain",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "32",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 09:40"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "17"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "39",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "18"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Australia",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "80",
         "bye": false,
         "so": "",
-        "target": "2A",
-        "when": "27-09-2026 09:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "20",
+         "19",
+         "20"
+        ]
        },
        "b": {
         "label": null,
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "72",
         "bye": false,
         "so": "",
-        "target": "2B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "17",
+         "21",
+         "19",
+         "15"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBRU21X",
-   "updated": "2026-09-27 14:01:31"
+   "updated": "2026-09-27 14:55:16"
   },
   {
    "name": "Recurve Mixed Team (lag)",
