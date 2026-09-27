@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T16:22:08Z",
+ "generated": "2026-09-27T16:24:22Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -25,7 +25,7 @@
   "IFBU21W": "2026-09-26 16:25:44",
   "TFMT": "2026-09-25 15:57:20",
   "TFWT": "2026-09-25 16:37:53",
-  "TFRX": "2026-09-27 15:38:48",
+  "TFRX": "2026-09-27 16:23:17",
   "TFCX": "2026-09-27 16:01:00",
   "TFBX": "2026-09-27 16:08:43",
   "TFMU21T": "2026-09-25 18:00:16",
@@ -46,7 +46,7 @@
   "IBBU21W": "2026-09-26 16:25:44",
   "TBMT": "2026-09-25 15:57:20",
   "TBWT": "2026-09-25 16:37:53",
-  "TBRX": "2026-09-27 15:38:48",
+  "TBRX": "2026-09-27 16:23:17",
   "TBCX": "2026-09-27 16:01:00",
   "TBBX": "2026-09-27 16:08:43",
   "TBMU21T": "2026-09-25 18:00:16",
@@ -16913,54 +16913,74 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "42",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 11:10"
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "21"
+        ]
        },
        "b": {
         "label": null,
         "name": "Australia",
         "club": "AUS",
         "members": "",
-        "score": "",
+        "score": "38",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "19",
+         "19"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Germany",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "69",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "27-09-2026 11:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "19",
+         "19",
+         "20",
+         "11"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "81",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "22",
+         "19",
+         "19",
+         "21"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBRX",
-   "updated": "2026-09-27 15:38:48"
+   "updated": "2026-09-27 16:23:17"
   },
   {
    "name": "Women Team (lag)",
