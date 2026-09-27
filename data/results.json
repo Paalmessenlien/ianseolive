@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T19:57:20Z",
+ "generated": "2026-09-27T20:07:18Z",
  "tournament": {
   "toId": "30175",
   "name": "VM felt 2026",
@@ -24,7 +24,7 @@
   "IFBU21M": "2026-09-26 16:36:22",
   "IFBU21W": "2026-09-26 16:25:44",
   "TFMT": "2026-09-25 15:57:20",
-  "TFWT": "2026-09-25 16:37:53",
+  "TFWT": "2026-09-27 20:02:40",
   "TFRX": "2026-09-27 16:39:41",
   "TFCX": "2026-09-27 17:04:11",
   "TFBX": "2026-09-27 16:08:43",
@@ -46,7 +46,7 @@
   "IBBU21M": "2026-09-26 16:36:22",
   "IBBU21W": "2026-09-26 16:25:44",
   "TBMT": "2026-09-25 15:57:20",
-  "TBWT": "2026-09-25 16:37:53",
+  "TBWT": "2026-09-27 20:02:40",
   "TBRX": "2026-09-27 16:39:44",
   "TBCX": "2026-09-27 17:04:15",
   "TBBX": "2026-09-27 16:08:43",
@@ -17257,22 +17257,30 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "0",
+        "score": "31",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "16",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Germany",
         "club": "GER",
         "members": "",
-        "score": "0",
+        "score": "26",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "8",
+         "18"
+        ]
        }
       },
       {
@@ -17282,21 +17290,63 @@
         "name": "Spain",
         "club": "ESP",
         "members": "",
-        "score": "0",
+        "score": "51",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "13",
+         "15",
+         "12",
+         "11"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "0",
+        "score": "62",
         "bye": false,
         "so": "",
         "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "14",
+         "15",
+         "17"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Spain",
+        "club": "ESP",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
         "when": ""
        }
       }
@@ -17304,7 +17354,7 @@
     }
    ],
    "code": "TBWT",
-   "updated": "2026-09-25 16:37:53"
+   "updated": "2026-09-27 20:02:40"
   },
   {
    "name": "Women Under 21 Team (lag)",
