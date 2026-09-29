@@ -606,10 +606,13 @@ function vAthleteSheet() {
     background: isFollowing ? CLR.accent : 'transparent',
     color: isFollowing ? CLR.fg : '#fff', font: '700 13.5px "Inter",sans-serif', cursor: 'pointer' });
 
+  const hitLabel = String((DATA.tournament || {}).round || '').toLowerCase() === '3d'
+    ? '10 + 11'
+    : cl.fieldScoring ? '6 + 5' : '10 + X';
   const stats = [
     { k: 'Plass', v: `${a.pos}/${(cl.field || []).length}` },
     { k: 'Snitt pr. pil', v: a.arrows ? (a.total / a.arrows).toFixed(2) : '–' },
-    { k: cl.fieldScoring ? '6 + 5' : '10 + X', v: `${a.tens}+${a.xs}` },
+    { k: hitLabel, v: `${a.tens}+${a.xs}` },
   ].map((s) => `
     <div style="background:#fff;border:2px solid ${CLR.fg};border-radius:16px;padding:12px 11px">
       <span style="display:block;font-family:'Spectral',Georgia,serif;font-weight:600;font-size:24px;line-height:1;color:${CLR.action};font-variant-numeric:tabular-nums">${esc(s.v)}</span>
@@ -745,7 +748,7 @@ function vClassSheet() {
     </div>
     <div style="flex:1;min-height:0;overflow-y:auto;padding:14px 18px 26px">
       <div style="display:flex;align-items:center;gap:10px;padding:0 4px 8px;border-bottom:2px solid ${CLR.fg};font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.muted}">
-        <span style="width:34px">Pl.</span><span style="flex:1">Skytter</span><span style="width:46px;text-align:right">Sum</span><span style="width:34px;text-align:right">${cl.fieldScoring ? '6+5' : '10+X'}</span>
+        <span style="width:34px">Pl.</span><span style="flex:1">Skytter</span><span style="width:46px;text-align:right">Sum</span><span style="width:34px;text-align:right">${String((DATA.tournament || {}).round || '').toLowerCase() === '3d' ? '10+11' : cl.fieldScoring ? '6+5' : '10+X'}</span>
       </div>
       ${rows}
       <p style="margin:14px 0 0;font-size:13px;line-height:1.6;color:${CLR.muted}">${esc(note)}</p>
