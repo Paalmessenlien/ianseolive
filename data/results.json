@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T15:12:03Z",
+ "generated": "2026-09-29T15:17:02Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -11,9 +11,11 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQCM": "2026-09-29 15:10:49",
-  "IQCW": "2026-09-29 15:11:51",
-  "IQTM": "2026-09-29 15:07:29",
+  "IQCM": "2026-09-29 15:15:57",
+  "IQCW": "2026-09-29 15:15:19",
+  "IQBW": "2026-09-29 15:16:06",
+  "IQLM": "2026-09-29 15:13:33",
+  "IQTM": "2026-09-29 15:15:54",
   "ENS": "2026-09-28 14:34:36",
   "ENC": "2026-09-28 14:34:36",
   "ENA": "2026-09-28 14:34:36",
@@ -1649,6 +1651,260 @@
  },
  "classes": [
   {
+   "name": "Barebow Women",
+   "team": false,
+   "official": false,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Course 1",
+    "Course 2"
+   ],
+   "field": [
+    {
+     "club": "USA",
+     "name": "JONES Ava",
+     "pos": 1,
+     "total": 39,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Course 1": "39/ 1",
+      "Course 2": "0"
+     },
+     "target": "12C",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "ITA",
+     "name": "STROBBE Eleonora",
+     "pos": 2,
+     "total": 37,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Course 1": "37/ 2",
+      "Course 2": "0"
+     },
+     "target": "13A",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "FRA",
+     "name": "CHEVRIER Virginie",
+     "pos": 3,
+     "total": 35,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "35/ 3",
+      "Course 2": "0"
+     },
+     "target": "10B",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "GER",
+     "name": "SCHÄFER Christine",
+     "pos": 4,
+     "total": 34,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "34/ 4",
+      "Course 2": "0"
+     },
+     "target": "12D",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "RUS",
+     "name": "MITULIA Kseniia",
+     "pos": 5,
+     "total": 33,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "33/ 5",
+      "Course 2": "0"
+     },
+     "target": "10A",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "FRA",
+     "name": "BAUMERT Alicia",
+     "pos": 6,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "29/ 6",
+      "Course 2": "0"
+     },
+     "target": "12B",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "RUS",
+     "name": "IAKUNINA Kristina",
+     "pos": 7,
+     "total": 28,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "28/ 7",
+      "Course 2": "0"
+     },
+     "target": "12A",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "USA",
+     "name": "HOLLOM Erin",
+     "pos": 8,
+     "total": 20,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/ 8",
+      "Course 2": "0"
+     },
+     "target": "10C",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "ITA",
+     "name": "NOZIGLIA Cinzia",
+     "pos": 9,
+     "total": 19,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "19/ 9",
+      "Course 2": "0"
+     },
+     "target": "11A",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "GBR",
+     "name": "REES Elizabeth",
+     "pos": 9,
+     "total": 19,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "19/ 9",
+      "Course 2": "0"
+     },
+     "target": "13D",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "GER",
+     "name": "SEIBT Judith",
+     "pos": 11,
+     "total": 16,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "16/11",
+      "Course 2": "0"
+     },
+     "target": "10D",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "ARG",
+     "name": "MARTINEZ Elis Daniela",
+     "pos": 12,
+     "total": 13,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "13/12",
+      "Course 2": "0"
+     },
+     "target": "11C",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "ARG",
+     "name": "RIOS Noris Patricia",
+     "pos": 13,
+     "total": 10,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "10/13",
+      "Course 2": "0"
+     },
+     "target": "13C",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "MEX",
+     "name": "MATA Maria",
+     "pos": 14,
+     "total": 8,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "8/14",
+      "Course 2": "0"
+     },
+     "target": "13B",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "MEX",
+     "name": "TISCAREÑO MARTÍNEZ Erendira",
+     "pos": 14,
+     "total": 8,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "8/14",
+      "Course 2": "0"
+     },
+     "target": "11B",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "GBR",
+     "name": "HAKE Sarah",
+     "pos": 16,
+     "total": 5,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "5/16",
+      "Course 2": "0"
+     },
+     "target": "11D",
+     "pool": "Barebow Men and Women, Traditional Women"
+    }
+   ],
+   "code": "IQBW"
+  },
+  {
    "name": "Compound Men",
    "team": false,
    "official": false,
@@ -1713,7 +1969,7 @@
      "tens": 5,
      "xs": 7,
      "dist": {
-      "Course 1": "127/ 4",
+      "Course 1": "127/ 6",
       "Course 2": "0"
      },
      "target": "6B",
@@ -1758,7 +2014,7 @@
      "tens": 4,
      "xs": 7,
      "dist": {
-      "Course 1": "125/ 5",
+      "Course 1": "125/ 7",
       "Course 2": "0"
      },
      "target": "6D",
@@ -1773,7 +2029,7 @@
      "tens": 4,
      "xs": 5,
      "dist": {
-      "Course 1": "103/14",
+      "Course 1": "103/15",
       "Course 2": "0"
      },
      "target": "7D",
@@ -1788,7 +2044,7 @@
      "tens": 6,
      "xs": 5,
      "dist": {
-      "Course 1": "123/ 6",
+      "Course 1": "123/ 8",
       "Course 2": "0"
      },
      "target": "6C",
@@ -1848,7 +2104,7 @@
      "tens": 5,
      "xs": 3,
      "dist": {
-      "Course 1": "99/17",
+      "Course 1": "99/18",
       "Course 2": "0"
      },
      "target": "7A",
@@ -1856,32 +2112,32 @@
     },
     {
      "club": "DEN",
-     "name": "ANDERSEN Stig",
+     "name": "NIELSEN Mathias Nedergård",
      "pos": 14,
+     "total": 137,
+     "arrows": 14,
+     "tens": 8,
+     "xs": 3,
+     "dist": {
+      "Course 1": "137/ 4",
+      "Course 2": "0"
+     },
+     "target": "11A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "DEN",
+     "name": "ANDERSEN Stig",
+     "pos": 15,
      "total": 117,
      "arrows": 12,
      "tens": 3,
      "xs": 5,
      "dist": {
-      "Course 1": "117/ 7",
+      "Course 1": "117/ 9",
       "Course 2": "0"
      },
      "target": "9A",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "DEN",
-     "name": "NIELSEN Mathias Nedergård",
-     "pos": 15,
-     "total": 116,
-     "arrows": 12,
-     "tens": 7,
-     "xs": 2,
-     "dist": {
-      "Course 1": "116/ 8",
-      "Course 2": "0"
-     },
-     "target": "11A",
      "pool": "Compound Men and Women"
     },
     {
@@ -1893,7 +2149,7 @@
      "tens": 5,
      "xs": 3,
      "dist": {
-      "Course 1": "115/ 9",
+      "Course 1": "115/10",
       "Course 2": "0"
      },
      "target": "5C",
@@ -1923,16 +2179,31 @@
      "tens": 7,
      "xs": 2,
      "dist": {
-      "Course 1": "113/10",
+      "Course 1": "113/11",
       "Course 2": "0"
      },
      "target": "6A",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "FIN",
+     "name": "PIRPPU Timo",
+     "pos": 19,
+     "total": 131,
+     "arrows": 14,
+     "tens": 8,
+     "xs": 3,
+     "dist": {
+      "Course 1": "131/ 5",
+      "Course 2": "0"
+     },
+     "target": "11B",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "RUS",
      "name": "ZUBALEVICH Artem",
-     "pos": 19,
+     "pos": 20,
      "total": 37,
      "arrows": 4,
      "tens": 1,
@@ -1947,13 +2218,13 @@
     {
      "club": "USA",
      "name": "KANE Grady",
-     "pos": 20,
+     "pos": 21,
      "total": 111,
      "arrows": 12,
      "tens": 6,
      "xs": 1,
      "dist": {
-      "Course 1": "111/11",
+      "Course 1": "111/12",
       "Course 2": "0"
      },
      "target": "5D",
@@ -1962,7 +2233,7 @@
     {
      "club": "CAN",
      "name": "MEYERS Curtis",
-     "pos": 21,
+     "pos": 22,
      "total": 92,
      "arrows": 10,
      "tens": 3,
@@ -1972,21 +2243,6 @@
       "Course 2": "0"
      },
      "target": "7C",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "FIN",
-     "name": "PIRPPU Timo",
-     "pos": 22,
-     "total": 110,
-     "arrows": 12,
-     "tens": 7,
-     "xs": 2,
-     "dist": {
-      "Course 1": "110/12",
-      "Course 2": "0"
-     },
-     "target": "11B",
      "pool": "Compound Men and Women"
     },
     {
@@ -2013,7 +2269,7 @@
      "tens": 8,
      "xs": 0,
      "dist": {
-      "Course 1": "109/13",
+      "Course 1": "109/14",
       "Course 2": "0"
      },
      "target": "5B",
@@ -2118,7 +2374,7 @@
      "tens": 2,
      "xs": 4,
      "dist": {
-      "Course 1": "101/15",
+      "Course 1": "101/16",
       "Course 2": "0"
      },
      "target": "9C",
@@ -2133,7 +2389,7 @@
      "tens": 4,
      "xs": 1,
      "dist": {
-      "Course 1": "101/16",
+      "Course 1": "101/17",
       "Course 2": "0"
      },
      "target": "9B",
@@ -2163,7 +2419,7 @@
      "tens": 3,
      "xs": 1,
      "dist": {
-      "Course 1": "96/18",
+      "Course 1": "96/19",
       "Course 2": "0"
      },
      "target": "9D",
@@ -2173,12 +2429,12 @@
      "club": "CHI",
      "name": "TREJOS Diego",
      "pos": 35,
-     "total": 93,
-     "arrows": 12,
+     "total": 109,
+     "arrows": 14,
      "tens": 3,
      "xs": 1,
      "dist": {
-      "Course 1": "93/19",
+      "Course 1": "109/13",
       "Course 2": "0"
      },
      "target": "11C",
@@ -2267,7 +2523,7 @@
      "tens": 3,
      "xs": 5,
      "dist": {
-      "Course 1": "101/10",
+      "Course 1": "101/16",
       "Course 2": "0"
      },
      "target": "21B",
@@ -2282,7 +2538,7 @@
      "tens": 7,
      "xs": 3,
      "dist": {
-      "Course 1": "119/ 1",
+      "Course 1": "119/ 5",
       "Course 2": "0"
      },
      "target": "16A",
@@ -2292,42 +2548,27 @@
      "club": "RUS",
      "name": "SARUKHANOVA Anna",
      "pos": 3,
-     "total": 118,
-     "arrows": 12,
-     "tens": 5,
+     "total": 138,
+     "arrows": 14,
+     "tens": 7,
      "xs": 4,
      "dist": {
-      "Course 1": "118/ 2",
+      "Course 1": "138/ 1",
       "Course 2": "0"
      },
      "target": "15D",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "FRA",
-     "name": "AMA-CORMERAIS Aude",
-     "pos": 4,
-     "total": 98,
-     "arrows": 10,
-     "tens": 3,
-     "xs": 4,
-     "dist": {
-      "Course 1": "98/12",
-      "Course 2": "0"
-     },
-     "target": "19A",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "ITA",
      "name": "FRANCHINI Irene",
-     "pos": 5,
+     "pos": 4,
      "total": 98,
      "arrows": 10,
      "tens": 6,
      "xs": 3,
      "dist": {
-      "Course 1": "98/13",
+      "Course 1": "98/18",
       "Course 2": "0"
      },
      "target": "19D",
@@ -2335,17 +2576,32 @@
     },
     {
      "club": "FRA",
-     "name": "JEANNIN Lucie",
-     "pos": 6,
-     "total": 113,
+     "name": "AMA-CORMERAIS Aude",
+     "pos": 5,
+     "total": 116,
      "arrows": 12,
      "tens": 4,
-     "xs": 3,
+     "xs": 4,
      "dist": {
-      "Course 1": "113/ 3",
+      "Course 1": "116/ 6",
       "Course 2": "0"
      },
-     "target": "14A",
+     "target": "19A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "AUT",
+     "name": "RONACHER Ingrid",
+     "pos": 6,
+     "total": 133,
+     "arrows": 14,
+     "tens": 6,
+     "xs": 3,
+     "dist": {
+      "Course 1": "133/ 2",
+      "Course 2": "0"
+     },
+     "target": "15C",
      "pool": "Compound Men and Women"
     },
     {
@@ -2357,7 +2613,7 @@
      "tens": 4,
      "xs": 2,
      "dist": {
-      "Course 1": "94/15",
+      "Course 1": "94/19",
       "Course 2": "0"
      },
      "target": "20A",
@@ -2372,7 +2628,7 @@
      "tens": 5,
      "xs": 4,
      "dist": {
-      "Course 1": "112/ 5",
+      "Course 1": "112/10",
       "Course 2": "0"
      },
      "target": "16D",
@@ -2387,7 +2643,7 @@
      "tens": 2,
      "xs": 6,
      "dist": {
-      "Course 1": "112/ 4",
+      "Course 1": "112/ 9",
       "Course 2": "0"
      },
      "target": "16C",
@@ -2402,7 +2658,7 @@
      "tens": 3,
      "xs": 5,
      "dist": {
-      "Course 1": "93/16",
+      "Course 1": "93/20",
       "Course 2": "0"
      },
      "target": "17C",
@@ -2417,40 +2673,40 @@
      "tens": 3,
      "xs": 4,
      "dist": {
-      "Course 1": "111/ 6",
+      "Course 1": "111/11",
       "Course 2": "0"
      },
      "target": "16B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "AUT",
-     "name": "RONACHER Ingrid",
+     "club": "DEN",
+     "name": "JENSEN Penille",
      "pos": 12,
      "total": 111,
      "arrows": 12,
      "tens": 6,
-     "xs": 1,
-     "dist": {
-      "Course 1": "111/ 7",
-      "Course 2": "0"
-     },
-     "target": "15C",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "DEN",
-     "name": "JENSEN Penille",
-     "pos": 13,
-     "total": 91,
-     "arrows": 10,
-     "tens": 4,
      "xs": 2,
      "dist": {
-      "Course 1": "91/17",
+      "Course 1": "111/12",
       "Course 2": "0"
      },
      "target": "22B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FRA",
+     "name": "JEANNIN Lucie",
+     "pos": 13,
+     "total": 128,
+     "arrows": 14,
+     "tens": 5,
+     "xs": 3,
+     "dist": {
+      "Course 1": "128/ 3",
+      "Course 2": "0"
+     },
+     "target": "14A",
      "pool": "Compound Men and Women"
     },
     {
@@ -2462,67 +2718,52 @@
      "tens": 4,
      "xs": 1,
      "dist": {
-      "Course 1": "91/18",
+      "Course 1": "91/21",
       "Course 2": "0"
      },
      "target": "21A",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "GBR",
-     "name": "MIDROUILLET Cecile",
-     "pos": 15,
-     "total": 90,
-     "arrows": 10,
-     "tens": 2,
-     "xs": 4,
-     "dist": {
-      "Course 1": "90/19",
-      "Course 2": "0"
-     },
-     "target": "17A",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "CAN",
-     "name": "HIGGINS Monica",
-     "pos": 16,
-     "total": 106,
-     "arrows": 12,
-     "tens": 2,
-     "xs": 4,
-     "dist": {
-      "Course 1": "106/ 8",
-      "Course 2": "0"
-     },
-     "target": "14B",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "SLO",
      "name": "KRIZE Barbra Pia",
-     "pos": 17,
-     "total": 88,
-     "arrows": 10,
-     "tens": 4,
-     "xs": 1,
+     "pos": 15,
+     "total": 109,
+     "arrows": 12,
+     "tens": 5,
+     "xs": 2,
      "dist": {
-      "Course 1": "88/20",
+      "Course 1": "109/13",
       "Course 2": "0"
      },
      "target": "22A",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "GBR",
+     "name": "MIDROUILLET Cecile",
+     "pos": 16,
+     "total": 90,
+     "arrows": 10,
+     "tens": 2,
+     "xs": 4,
+     "dist": {
+      "Course 1": "90/22",
+      "Course 2": "0"
+     },
+     "target": "17A",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "RUS",
      "name": "GUK Maria",
-     "pos": 18,
+     "pos": 17,
      "total": 87,
      "arrows": 10,
      "tens": 2,
      "xs": 3,
      "dist": {
-      "Course 1": "87/21",
+      "Course 1": "87/23",
       "Course 2": "0"
      },
      "target": "17D",
@@ -2531,43 +2772,58 @@
     {
      "club": "ESP",
      "name": "PITARCH Maria",
-     "pos": 18,
+     "pos": 17,
      "total": 87,
      "arrows": 10,
      "tens": 2,
      "xs": 3,
      "dist": {
-      "Course 1": "87/21",
+      "Course 1": "87/23",
       "Course 2": "0"
      },
      "target": "20B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "USA",
-     "name": "BLAKEY Jewel",
-     "pos": 20,
-     "total": 101,
+     "club": "MEX",
+     "name": "ALDERETE TERRAZAS Erika",
+     "pos": 19,
+     "total": 103,
      "arrows": 12,
      "tens": 5,
-     "xs": 2,
+     "xs": 1,
      "dist": {
-      "Course 1": "101/11",
+      "Course 1": "103/14",
       "Course 2": "0"
      },
-     "target": "14C",
+     "target": "22C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CAN",
+     "name": "HIGGINS Monica",
+     "pos": 20,
+     "total": 119,
+     "arrows": 14,
+     "tens": 2,
+     "xs": 4,
+     "dist": {
+      "Course 1": "119/ 4",
+      "Course 2": "0"
+     },
+     "target": "14B",
      "pool": "Compound Men and Women"
     },
     {
      "club": "CAN",
      "name": "ST. AMANT Sarah",
      "pos": 21,
-     "total": 84,
-     "arrows": 10,
+     "total": 100,
+     "arrows": 12,
      "tens": 5,
      "xs": 1,
      "dist": {
-      "Course 1": "84/23",
+      "Course 1": "100/17",
       "Course 2": "0"
      },
      "target": "19B",
@@ -2582,55 +2838,55 @@
      "tens": 4,
      "xs": 1,
      "dist": {
-      "Course 1": "83/24",
+      "Course 1": "83/25",
       "Course 2": "0"
      },
      "target": "20C",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "MEX",
-     "name": "ALDERETE TERRAZAS Erika",
+     "club": "ITA",
+     "name": "MARCACCINI Maddalena",
      "pos": 23,
-     "total": 83,
-     "arrows": 10,
-     "tens": 3,
-     "xs": 1,
+     "total": 116,
+     "arrows": 14,
+     "tens": 7,
+     "xs": 2,
      "dist": {
-      "Course 1": "83/24",
+      "Course 1": "116/ 7",
       "Course 2": "0"
      },
-     "target": "22C",
+     "target": "14D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "USA",
+     "name": "BLAKEY Jewel",
+     "pos": 24,
+     "total": 116,
+     "arrows": 14,
+     "tens": 6,
+     "xs": 2,
+     "dist": {
+      "Course 1": "116/ 8",
+      "Course 2": "0"
+     },
+     "target": "14C",
      "pool": "Compound Men and Women"
     },
     {
      "club": "GER",
      "name": "DORFNER Leoni Dana",
-     "pos": 24,
+     "pos": 25,
      "total": 81,
      "arrows": 10,
      "tens": 2,
      "xs": 2,
      "dist": {
-      "Course 1": "81/27",
+      "Course 1": "81/28",
       "Course 2": "0"
      },
      "target": "21D",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "ITA",
-     "name": "MARCACCINI Maddalena",
-     "pos": 25,
-     "total": 96,
-     "arrows": 12,
-     "tens": 5,
-     "xs": 2,
-     "dist": {
-      "Course 1": "96/14",
-      "Course 2": "0"
-     },
-     "target": "14D",
      "pool": "Compound Men and Women"
     },
     {
@@ -2642,7 +2898,7 @@
      "tens": 4,
      "xs": 1,
      "dist": {
-      "Course 1": "77/28",
+      "Course 1": "77/29",
       "Course 2": "0"
      },
      "target": "20D",
@@ -2657,7 +2913,7 @@
      "tens": 3,
      "xs": 3,
      "dist": {
-      "Course 1": "102/ 9",
+      "Course 1": "102/15",
       "Course 2": "0"
      },
      "target": "15A",
@@ -2672,74 +2928,133 @@
      "tens": 3,
      "xs": 0,
      "dist": {
-      "Course 1": "71/29",
+      "Course 1": "71/31",
       "Course 2": "0"
      },
      "target": "17B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "AUS",
-     "name": "GRIFFITHS Emily",
-     "pos": 29,
-     "total": 69,
-     "arrows": 10,
-     "tens": 3,
-     "xs": 0,
-     "dist": {
-      "Course 1": "69/30",
-      "Course 2": "0"
-     },
-     "target": "21C",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "USA",
      "name": "SINCLAIR Gracelyn",
-     "pos": 30,
-     "total": 62,
-     "arrows": 10,
-     "tens": 2,
-     "xs": 0,
+     "pos": 29,
+     "total": 83,
+     "arrows": 12,
+     "tens": 3,
+     "xs": 1,
      "dist": {
-      "Course 1": "62/31",
+      "Course 1": "83/26",
       "Course 2": "0"
      },
      "target": "19C",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "ARG",
-     "name": "GENTA Yesica Carla",
-     "pos": 31,
-     "total": 83,
-     "arrows": 14,
+     "club": "AUS",
+     "name": "GRIFFITHS Emily",
+     "pos": 30,
+     "total": 69,
+     "arrows": 10,
      "tens": 3,
-     "xs": 1,
+     "xs": 0,
      "dist": {
-      "Course 1": "83/24",
+      "Course 1": "69/32",
       "Course 2": "0"
      },
-     "target": "15B",
+     "target": "21C",
      "pool": "Compound Men and Women"
     },
     {
      "club": "CHI",
      "name": "BRILLADERO Constanza",
-     "pos": 32,
-     "total": 59,
-     "arrows": 10,
+     "pos": 31,
+     "total": 72,
+     "arrows": 12,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "59/32",
+      "Course 1": "72/30",
       "Course 2": "0"
      },
      "target": "22D",
      "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ARG",
+     "name": "GENTA Yesica Carla",
+     "pos": 32,
+     "total": 83,
+     "arrows": 14,
+     "tens": 3,
+     "xs": 1,
+     "dist": {
+      "Course 1": "83/26",
+      "Course 2": "0"
+     },
+     "target": "15B",
+     "pool": "Compound Men and Women"
     }
    ],
    "code": "IQCW"
+  },
+  {
+   "name": "Longbow Men",
+   "team": false,
+   "official": false,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Course 1",
+    "Course 2"
+   ],
+   "field": [
+    {
+     "club": "NOR",
+     "name": "SIGVARTSEN Morten",
+     "pos": 1,
+     "total": 25,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "25/ 1",
+      "Course 2": "0"
+     },
+     "target": "24B",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "CHI",
+     "name": "CAVADA HERRERA Juan Pablo",
+     "pos": 2,
+     "total": 21,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "21/ 2",
+      "Course 2": "0"
+     },
+     "target": "24A",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "CRO",
+     "name": "KRUSIC Igor",
+     "pos": 3,
+     "total": 20,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/ 3",
+      "Course 2": "0"
+     },
+     "target": "24C",
+     "pool": "Longbow Men and Women, Traditional Men"
+    }
+   ],
+   "code": "IQLM"
   },
   {
    "name": "Traditional Men",
@@ -2753,120 +3068,15 @@
    ],
    "field": [
     {
-     "club": "CZE",
-     "name": "KULHAVY Pavel",
-     "pos": 1,
-     "total": 22,
-     "arrows": 2,
-     "tens": 0,
-     "xs": 2,
-     "dist": {
-      "Course 1": "22/ 1",
-      "Course 2": "0"
-     },
-     "target": "5D",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "DEN",
-     "name": "CHRISTENSEN Zibrandt",
-     "pos": 2,
-     "total": 21,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 1,
-     "dist": {
-      "Course 1": "21/ 2",
-      "Course 2": "0"
-     },
-     "target": "6D",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "SLO",
-     "name": "KOCMAN Marjan",
-     "pos": 3,
-     "total": 20,
-     "arrows": 2,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Course 1": "20/ 3",
-      "Course 2": "0"
-     },
-     "target": "7A",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "CAN",
-     "name": "ROUNDELL Ben",
-     "pos": 3,
-     "total": 20,
-     "arrows": 2,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Course 1": "20/ 3",
-      "Course 2": "0"
-     },
-     "target": "1B",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "CZE",
-     "name": "MADURKAY Petr",
-     "pos": 5,
-     "total": 19,
-     "arrows": 2,
-     "tens": 0,
-     "xs": 1,
-     "dist": {
-      "Course 1": "19/ 5",
-      "Course 2": "0"
-     },
-     "target": "1D",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "MEX",
-     "name": "DE LA ROCHA Sergio",
-     "pos": 6,
-     "total": 18,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Course 1": "18/ 6",
-      "Course 2": "0"
-     },
-     "target": "1A",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "ITA",
-     "name": "GHEDA Kevin",
-     "pos": 6,
-     "total": 18,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Course 1": "18/ 6",
-      "Course 2": "0"
-     },
-     "target": "4B",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
      "club": "ARG",
      "name": "GONZALEZ Maximiliano",
-     "pos": 6,
-     "total": 18,
-     "arrows": 2,
+     "pos": 1,
+     "total": 40,
+     "arrows": 4,
      "tens": 1,
-     "xs": 0,
+     "xs": 2,
      "dist": {
-      "Course 1": "18/ 6",
+      "Course 1": "40/ 1",
       "Course 2": "0"
      },
      "target": "4A",
@@ -2875,283 +3085,178 @@
     {
      "club": "USA",
      "name": "HASSON Cody",
-     "pos": 6,
-     "total": 18,
-     "arrows": 2,
+     "pos": 1,
+     "total": 40,
+     "arrows": 4,
      "tens": 1,
-     "xs": 0,
+     "xs": 2,
      "dist": {
-      "Course 1": "18/ 6",
+      "Course 1": "40/ 1",
       "Course 2": "0"
      },
      "target": "5C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "CRO",
-     "name": "MAROSEVIC Dario",
-     "pos": 6,
-     "total": 18,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Course 1": "18/ 6",
-      "Course 2": "0"
-     },
-     "target": "7C",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "ARG",
-     "name": "RIPA Nicolas Ariel",
-     "pos": 6,
-     "total": 18,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Course 1": "18/ 6",
-      "Course 2": "0"
-     },
-     "target": "2A",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "SWE",
-     "name": "KALLENBERG Johnny",
-     "pos": 12,
-     "total": 16,
-     "arrows": 2,
-     "tens": 0,
+     "club": "SLO",
+     "name": "KOCMAN Marjan",
+     "pos": 3,
+     "total": 39,
+     "arrows": 4,
+     "tens": 2,
      "xs": 1,
      "dist": {
-      "Course 1": "16/12",
+      "Course 1": "39/ 3",
       "Course 2": "0"
      },
-     "target": "8A",
+     "target": "7A",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "RUS",
-     "name": "ALKIN Viktor",
-     "pos": 13,
-     "total": 16,
-     "arrows": 2,
-     "tens": 0,
+     "club": "ITA",
+     "name": "GHEDA Kevin",
+     "pos": 4,
+     "total": 38,
+     "arrows": 4,
+     "tens": 3,
      "xs": 0,
      "dist": {
-      "Course 1": "16/13",
+      "Course 1": "38/ 4",
       "Course 2": "0"
      },
-     "target": "8B",
+     "target": "4B",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
      "club": "DEN",
-     "name": "OLSEN Jens",
-     "pos": 13,
-     "total": 16,
-     "arrows": 2,
-     "tens": 0,
-     "xs": 0,
+     "name": "CHRISTENSEN Zibrandt",
+     "pos": 5,
+     "total": 36,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 1,
      "dist": {
-      "Course 1": "16/13",
+      "Course 1": "36/ 5",
       "Course 2": "0"
      },
-     "target": "8D",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "ARG",
-     "name": "SALDIVIA Lucio Vidal",
-     "pos": 13,
-     "total": 16,
-     "arrows": 2,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Course 1": "16/13",
-      "Course 2": "0"
-     },
-     "target": "6A",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "NOR",
-     "name": "HARBITZ Stian",
-     "pos": 16,
-     "total": 15,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Course 1": "15/16",
-      "Course 2": "0"
-     },
-     "target": "8C",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "GBR",
-     "name": "O'SHEA Aaron",
-     "pos": 16,
-     "total": 15,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
-     "dist": {
-      "Course 1": "15/16",
-      "Course 2": "0"
-     },
-     "target": "4D",
+     "target": "6D",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
      "club": "CZE",
      "name": "ROZNOVSKY Tomas",
-     "pos": 16,
-     "total": 15,
-     "arrows": 2,
-     "tens": 1,
-     "xs": 0,
+     "pos": 5,
+     "total": 36,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 1,
      "dist": {
-      "Course 1": "15/16",
+      "Course 1": "36/ 5",
       "Course 2": "0"
      },
      "target": "3D",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "USA",
-     "name": "STARKS Jon",
-     "pos": 16,
-     "total": 15,
-     "arrows": 2,
-     "tens": 1,
+     "club": "ARG",
+     "name": "RIPA Nicolas Ariel",
+     "pos": 7,
+     "total": 36,
+     "arrows": 4,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "15/16",
+      "Course 1": "36/ 7",
       "Course 2": "0"
      },
-     "target": "1C",
+     "target": "2A",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "ISR",
-     "name": "YAEGER Yossef",
-     "pos": 16,
-     "total": 15,
-     "arrows": 2,
+     "club": "MEX",
+     "name": "DE LA ROCHA Sergio",
+     "pos": 8,
+     "total": 34,
+     "arrows": 4,
      "tens": 1,
-     "xs": 0,
+     "xs": 1,
      "dist": {
-      "Course 1": "15/16",
+      "Course 1": "34/ 8",
       "Course 2": "0"
      },
-     "target": "9B",
+     "target": "1A",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "GBR",
-     "name": "ALLAM Steven",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
+     "club": "ARG",
+     "name": "SALDIVIA Lucio Vidal",
+     "pos": 8,
+     "total": 34,
+     "arrows": 4,
+     "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "13/21",
+      "Course 1": "34/ 8",
       "Course 2": "0"
      },
-     "target": "2D",
+     "target": "6A",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
      "club": "GER",
      "name": "GLEICH Jürgen",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
+     "pos": 10,
+     "total": 33,
+     "arrows": 4,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "13/21",
+      "Course 1": "33/10",
       "Course 2": "0"
      },
      "target": "2C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "GER",
-     "name": "GRÄTZ-VEIT Ulrich",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
+     "club": "CRO",
+     "name": "MAROSEVIC Dario",
+     "pos": 10,
+     "total": 33,
+     "arrows": 4,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "13/21",
+      "Course 1": "33/10",
       "Course 2": "0"
      },
-     "target": "4C",
+     "target": "7C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "USA",
-     "name": "JONES Daniel",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
+     "club": "CAN",
+     "name": "ROUNDELL Ben",
+     "pos": 10,
+     "total": 33,
+     "arrows": 4,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "13/21",
+      "Course 1": "33/10",
       "Course 2": "0"
      },
-     "target": "3C",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "ESP",
-     "name": "LOPEZ UBAGO Joaquin",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Course 1": "13/21",
-      "Course 2": "0"
-     },
-     "target": "7B",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "GER",
-     "name": "SEIBT Andreas",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
-     "xs": 0,
-     "dist": {
-      "Course 1": "13/21",
-      "Course 2": "0"
-     },
-     "target": "6C",
+     "target": "1B",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
      "club": "RUS",
      "name": "SULTYGOV Adam",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
+     "pos": 10,
+     "total": 33,
+     "arrows": 4,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "13/21",
+      "Course 1": "33/10",
       "Course 2": "0"
      },
      "target": "6B",
@@ -3160,121 +3265,346 @@
     {
      "club": "CAN",
      "name": "ZOTO Gentian",
-     "pos": 21,
-     "total": 13,
-     "arrows": 2,
-     "tens": 0,
+     "pos": 10,
+     "total": 33,
+     "arrows": 4,
+     "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "13/21",
+      "Course 1": "33/10",
       "Course 2": "0"
      },
      "target": "5B",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "IRL",
-     "name": "BALAZ Marek",
-     "pos": 29,
-     "total": 10,
-     "arrows": 2,
+     "club": "CZE",
+     "name": "KULHAVY Pavel",
+     "pos": 15,
+     "total": 32,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Course 1": "32/15",
+      "Course 2": "0"
+     },
+     "target": "5D",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "USA",
+     "name": "STARKS Jon",
+     "pos": 16,
+     "total": 31,
+     "arrows": 4,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "10/29",
+      "Course 1": "31/16",
       "Course 2": "0"
      },
-     "target": "7D",
+     "target": "1C",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "SWE",
+     "name": "KALLENBERG Johnny",
+     "pos": 17,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "29/17",
+      "Course 2": "0"
+     },
+     "target": "8A",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "CZE",
+     "name": "MADURKAY Petr",
+     "pos": 17,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "29/17",
+      "Course 2": "0"
+     },
+     "target": "1D",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "RUS",
+     "name": "ALKIN Viktor",
+     "pos": 19,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "29/19",
+      "Course 2": "0"
+     },
+     "target": "8B",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "ESP",
+     "name": "LOPEZ UBAGO Joaquin",
+     "pos": 19,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "29/19",
+      "Course 2": "0"
+     },
+     "target": "7B",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "DEN",
+     "name": "OLSEN Jens",
+     "pos": 19,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "29/19",
+      "Course 2": "0"
+     },
+     "target": "8D",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "GER",
+     "name": "SEIBT Andreas",
+     "pos": 19,
+     "total": 29,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "29/19",
+      "Course 2": "0"
+     },
+     "target": "6C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
      "club": "MEX",
      "name": "CARO CORPUS Rafael Antonio",
-     "pos": 30,
-     "total": 10,
-     "arrows": 2,
-     "tens": 0,
+     "pos": 23,
+     "total": 28,
+     "arrows": 4,
+     "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "10/30",
+      "Course 1": "28/23",
       "Course 2": "0"
      },
      "target": "3A",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "MEX",
-     "name": "LOZANO RODRIGUEZ David",
-     "pos": 30,
-     "total": 10,
-     "arrows": 2,
-     "tens": 0,
+     "club": "NOR",
+     "name": "HARBITZ Stian",
+     "pos": 23,
+     "total": 28,
+     "arrows": 4,
+     "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "10/30",
+      "Course 1": "28/23",
       "Course 2": "0"
      },
-     "target": "5A",
+     "target": "8C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "ITA",
-     "name": "PITTALUGA Fabio",
-     "pos": 32,
-     "total": 8,
-     "arrows": 2,
-     "tens": 0,
+     "club": "USA",
+     "name": "JONES Daniel",
+     "pos": 23,
+     "total": 28,
+     "arrows": 4,
+     "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "8/32",
+      "Course 1": "28/23",
       "Course 2": "0"
      },
-     "target": "2B",
+     "target": "3C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "CAN",
-     "name": "BRITTON Marc",
-     "pos": 33,
-     "total": 5,
-     "arrows": 2,
+     "club": "GBR",
+     "name": "O'SHEA Aaron",
+     "pos": 23,
+     "total": 28,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "28/23",
+      "Course 2": "0"
+     },
+     "target": "4D",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "GBR",
+     "name": "ALLAM Steven",
+     "pos": 27,
+     "total": 26,
+     "arrows": 4,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Course 1": "5/33",
+      "Course 1": "26/27",
       "Course 2": "0"
      },
-     "target": "3B",
+     "target": "2D",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "IRL",
+     "name": "BALAZ Marek",
+     "pos": 28,
+     "total": 25,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "25/28",
+      "Course 2": "0"
+     },
+     "target": "7D",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "ISR",
+     "name": "YAEGER Yossef",
+     "pos": 29,
+     "total": 25,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "25/29",
+      "Course 2": "0"
+     },
+     "target": "9B",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
      "club": "FRA",
      "name": "BUON Jérémie",
-     "pos": 33,
-     "total": 5,
-     "arrows": 2,
+     "pos": 30,
+     "total": 24,
+     "arrows": 4,
      "tens": 0,
-     "xs": 0,
+     "xs": 1,
      "dist": {
-      "Course 1": "5/33",
+      "Course 1": "24/30",
       "Course 2": "0"
      },
      "target": "9C",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "URU",
-     "name": "ROSANO Gonzalo",
-     "pos": 33,
-     "total": 5,
-     "arrows": 2,
+     "club": "GER",
+     "name": "GRÄTZ-VEIT Ulrich",
+     "pos": 31,
+     "total": 23,
+     "arrows": 4,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Course 1": "5/33",
+      "Course 1": "23/31",
+      "Course 2": "0"
+     },
+     "target": "4C",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "MEX",
+     "name": "LOZANO RODRIGUEZ David",
+     "pos": 31,
+     "total": 23,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "23/31",
+      "Course 2": "0"
+     },
+     "target": "5A",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "CAN",
+     "name": "BRITTON Marc",
+     "pos": 33,
+     "total": 21,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "21/33",
+      "Course 2": "0"
+     },
+     "target": "3B",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "ITA",
+     "name": "PITTALUGA Fabio",
+     "pos": 33,
+     "total": 21,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "21/33",
+      "Course 2": "0"
+     },
+     "target": "2B",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "URU",
+     "name": "ROSANO Gonzalo",
+     "pos": 35,
+     "total": 20,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/35",
       "Course 2": "0"
      },
      "target": "9A",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "AUT",
+     "name": "SIREC Christian",
+     "pos": 36,
+     "total": 18,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/36",
+      "Course 2": "0"
+     },
+     "target": "9D",
      "pool": "Longbow Men and Women, Traditional Men"
     }
    ],
