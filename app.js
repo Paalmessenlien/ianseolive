@@ -362,10 +362,74 @@ function vTabMer() {
 
 /* ---------- Tidsoversikt: program regnet om til norsk tid ---------- */
 
-/* Fra info.ianseo.net/26WAFC — tider er Yankton-lokal (CDT, UTC-5).
-   Hele mesterskapsuka (23.–27. sep 2026) er Norge CEST (UTC+2): fast +7t. */
+/* Fra info.ianseo.net — tider er Yankton-lokal (CDT, UTC-5).
+   Begge mesterskapsukene (sep/okt 2026) er Norge CEST (UTC+2): fast +7t. */
 const YANKTON_TIL_NORGE_MIN = 7 * 60;
 const YANKTON_UTC_MIN = 5 * 60;  // lokal tid + 5t = UTC (brukes til NÅ-markering)
+
+/* VM 3D 2026 (toId 30357), fra info.ianseo.net/26W3DC */
+const PROGRAM_3D = [
+  { date: '2026-09-29', title: '1. kvalifiseringsrunde', sub: 'Lewis & Clark Lake', events: [
+    { s: '09:00', e: '15:00', what: 'Compound H/D — Badlands-løypa', nor: true },
+    { s: '10:00', e: '16:00', what: 'Barebow H/D + Tradisjonell D — Missouri-løypa', nor: true },
+    { s: '10:00', e: '16:00', what: 'Longbow H/D + Tradisjonell H — Rushmore-løypa', nor: true },
+  ]},
+  { date: '2026-09-30', title: '2. kvalifiseringsrunde', sub: 'Lewis & Clark Lake', events: [
+    { s: '09:00', e: '15:00', what: 'Compound H/D — Missouri-løypa', nor: true },
+    { s: '10:00', e: '16:00', what: 'Barebow H/D + Tradisjonell D — Rushmore-løypa', nor: true },
+    { s: '10:00', e: '16:00', what: 'Longbow H/D + Tradisjonell H — Badlands-løypa', nor: true },
+    { s: '16:30', e: '16:30', what: 'Omskyting (om nødvendig)' },
+    { s: '16:45', e: '18:00', what: '1/12-elim: Compound, Barebow, Longbow, Tradisjonell H/D', nor: true },
+  ]},
+  { date: '2026-10-01', title: 'Eliminasjoner', sub: 'NEYAC', events: [
+    { s: '09:15', e: '10:15', what: '1/8-finaler: Longbow + Tradisjonell H/D', nor: true },
+    { s: '10:15', e: '11:15', what: '1/4-finaler: Longbow + Tradisjonell H/D', nor: true },
+    { s: '11:15', e: '12:15', what: '1/4: CX + BX · semifinaler: Longbow + Tradisjonell H/D', nor: true },
+    { s: '13:00', e: '14:00', what: '1/8-finaler: Compound + Barebow H/D', nor: true },
+    { s: '14:00', e: '15:00', what: '1/4-finaler: Compound + Barebow H/D', nor: true },
+    { s: '15:00', e: '16:00', what: '1/4: LX + TX · semifinaler: Compound + Barebow H/D', nor: true },
+  ]},
+  { date: '2026-10-02', title: 'Individuelle finaler', sub: 'NEYAC', events: [
+    { s: '09:00', e: '09:36', what: 'Bronsefinale: Longbow Damer' },
+    { s: '09:08', e: '09:44', what: 'Gullfinale: Longbow Damer' },
+    { s: '09:16', e: '09:52', what: 'Bronsefinale: Longbow Herrer', nor: true },
+    { s: '09:24', e: '10:00', what: 'Gullfinale: Longbow Herrer', nor: true },
+    { s: '10:00', e: '10:15', what: 'Premieutdeling Longbow' },
+    { s: '10:15', e: '10:51', what: 'Bronsefinale: Tradisjonell Damer', nor: true },
+    { s: '10:23', e: '10:59', what: 'Gullfinale: Tradisjonell Damer', nor: true },
+    { s: '10:31', e: '11:07', what: 'Bronsefinale: Tradisjonell Herrer', nor: true },
+    { s: '10:39', e: '11:15', what: 'Gullfinale: Tradisjonell Herrer', nor: true },
+    { s: '11:15', e: '11:30', what: 'Premieutdeling Tradisjonell' },
+    { s: '14:00', e: '14:36', what: 'Bronsefinale: Compound Damer' },
+    { s: '14:08', e: '14:44', what: 'Gullfinale: Compound Damer' },
+    { s: '14:16', e: '14:52', what: 'Bronsefinale: Compound Herrer', nor: true },
+    { s: '14:24', e: '15:00', what: 'Gullfinale: Compound Herrer', nor: true },
+    { s: '15:00', e: '15:15', what: 'Premieutdeling Compound' },
+    { s: '15:15', e: '15:51', what: 'Bronsefinale: Barebow Damer', nor: true },
+    { s: '15:23', e: '15:59', what: 'Gullfinale: Barebow Damer', nor: true },
+    { s: '15:31', e: '16:07', what: 'Bronsefinale: Barebow Herrer', nor: true },
+    { s: '15:39', e: '16:15', what: 'Gullfinale: Barebow Herrer', nor: true },
+    { s: '16:15', e: '16:30', what: 'Premieutdeling Barebow' },
+  ]},
+  { date: '2026-10-03', title: 'Lag og mixed lag — eliminasjoner og finaler', sub: 'NEYAC', events: [
+    { s: '08:30', e: '09:30', what: 'Semifinaler mixed lag: CX, BX, LX, TX' },
+    { s: '09:30', e: '10:30', what: '1/4-finaler lag: Herrer + Damer' },
+    { s: '10:30', e: '11:30', what: 'Semifinaler lag: Herrer + Damer' },
+    { s: '12:00', e: '13:00', what: 'Bronsefinaler mixed lag: TX, LX, CX, BX' },
+    { s: '13:20', e: '13:40', what: 'Bronsefinale: Damer lag' },
+    { s: '13:40', e: '14:00', what: 'Bronsefinale: Herrer lag' },
+    { s: '15:00', e: '16:20', what: 'Gullfinaler mixed lag: TX, LX, CX, BX' },
+    { s: '16:20', e: '16:40', what: 'Gullfinale: Damer lag' },
+    { s: '16:40', e: '17:00', what: 'Gullfinale: Herrer lag' },
+    { s: '17:00', e: '17:30', what: 'Premieutdeling lag og mixed lag' },
+  ]},
+];
+
+const PROGRAMS = {
+  '30175': { program: PROGRAM, link: 'https://info.ianseo.net/26WAFC/' },   // VM felt
+  '30357': { program: PROGRAM_3D, link: 'https://info.ianseo.net/26W3DC/' }, // VM 3D
+};
+const progFor = () => PROGRAMS[(DATA.tournament || {}).toId] || null;
 
 const PROGRAM = [
   { date: '2026-09-23', title: 'Umarkert kvalifisering', sub: 'Lewis & Clark Lake', events: [
@@ -457,8 +521,10 @@ function progTid(date, t) {
 }
 
 function vTabTider() {
+  const prog = progFor();
+  if (!prog) return '<p style="font-size:14px;color:' + CLR.muted + '">Ingen tidsoversikt for dette stevnet.</p>';
   const now = Date.now();
-  const dager = PROGRAM.map((dag) => {
+  const dager = prog.program.map((dag) => {
     const [y, m, d] = dag.date.split('-').map(Number);
     const dt = new Date(Date.UTC(y, m - 1, d));
     const heading = `${UKEDAGER[dt.getUTCDay()]} ${d}. ${['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'][m - 1]}.`;
@@ -488,7 +554,7 @@ function vTabTider() {
   }).join('');
   return `
   <div style="display:flex;flex-direction:column;gap:16px">
-    <p style="margin:0;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Program fra <a href="https://info.ianseo.net/26WAFC/" target="_blank" rel="noopener" style="color:${CLR.action};font-weight:600">info.ianseo.net</a>, regnet om fra Yankton-tid (CDT) til norsk tid (+7 timer). 🇳🇴 = klasser med norske utøvere.</p>
+    <p style="margin:0;font-size:15.5px;line-height:1.6;color:${CLR.muted}">Program fra <a href="${prog.link}" target="_blank" rel="noopener" style="color:${CLR.action};font-weight:600">info.ianseo.net</a>, regnet om fra Yankton-tid (CDT) til norsk tid (+7 timer). 🇳🇴 = klasser med norske utøvere.</p>
     ${dager}
   </div>`;
 }
@@ -496,8 +562,8 @@ function vTabTider() {
 function vTabBar() {
   const tab = (id, icon, label) =>
     `<button data-action="tab" data-tab="${id}" style="${tabStyle(id)}">${icon}${label}</button>`;
-  // Tider-fanen er hardkodet mot VM-felt-programmet — skjul for andre stevner
-  const tider = (DATA.tournament || {}).toId === '30175';
+  // Tider-fanen vises bare for stevner med registrert program (VM felt / VM 3D)
+  const tider = !!progFor();
   return `
   <div style="flex:none;display:grid;grid-template-columns:repeat(${tider ? 6 : 5},1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
     ${tab('klubb', SVG.target, clubTxt('tab'))}
