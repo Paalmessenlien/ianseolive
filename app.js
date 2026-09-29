@@ -9,8 +9,7 @@ const CLR = {
 };
 
 const DATA_URL = new URLSearchParams(location.search).get('data') || 'data/results.json';
-const REFRESH_DATA_MS = 120_000; // henter data.json på nytt
-const TICK_MS = 30_000;          // oppdaterer «oppdatert X min siden»
+const TICK_MS = 30_000;          // oppdaterer «oppdatert X min siden» (ingen henting)
 
 let DATA = { tournament: {}, clubs: [], roster: {}, classes: [], generated: '' };
 
@@ -157,18 +156,17 @@ function vHeader() {
 
 function vStrip() {
   const age = ageMin();
-  const updatedText = state.refreshing ? 'Henter fra ianseo…' : age === 0 ? 'Oppdatert nå' : `Oppdatert ${age} min siden`;
-  const nextText = state.refreshing ? '' : age >= 5 ? 'neste snart' : `neste om ${Math.max(1, 5 - age)} min`;
-  const bar = style({ display: 'block', height: '100%', width: Math.min(100, age * 20) + '%',
-    background: age >= 4 ? CLR.signal : CLR.action, transition: 'width .4s ease-out' });
+  const updatedText = state.refreshing ? 'Henter nye tall…' : age === 0 ? 'Oppdatert nå' : `Oppdatert ${age} min siden`;
+  const btn = state.refreshing
+    ? `<span style="margin-left:auto;font-size:12.5px;color:${CLR.muted};white-space:nowrap">vent…</span>`
+    : `<button data-action="refresh" style="margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:6px;background:transparent;color:${CLR.fg};border:2px solid ${CLR.fg};border-radius:9999px;padding:6px 13px;min-height:34px;font-size:12.5px;font-weight:700;cursor:pointer">↻ Hent nye tall</button>`;
   return `
   <div style="flex:none;background:#fff;border-bottom:2px solid ${CLR.fg};padding:9px 18px 10px">
     <div style="display:flex;align-items:center;gap:9px">
       <span style="flex:none;width:10px;height:10px;border-radius:50%;background:${CLR.signal};border:2px solid ${CLR.fg};animation:amber-pulse 2.6s ease-out infinite"></span>
       <span style="font-size:13px;font-weight:600;color:${CLR.fg};white-space:nowrap">${esc(updatedText)}</span>
-      <span style="font-size:12px;color:${CLR.muted};margin-left:auto;white-space:nowrap">${esc(nextText)}</span>
+      ${btn}
     </div>
-    <div style="margin-top:8px;height:4px;border-radius:9999px;background:${CLR.border};overflow:hidden"><span style="${bar}"></span></div>
   </div>`;
 }
 
@@ -1264,6 +1262,7 @@ document.getElementById('frame').addEventListener('click', (e) => {
     store.set('ianseolive-notify', state.notify);
     render();
   }
+  else if (a === 'refresh') refreshData();
 });
 
 // søk i klubbvelgeren uten full re-render (beholder fokus)
@@ -1289,8 +1288,7 @@ document.getElementById('frame').addEventListener('input', (e) => {
     document.title = `Ianseolive · ${t.name}`;
     document.getElementById('caption-top').innerHTML = `ᛇ&nbsp;&nbsp;Ianseolive · ${esc(t.name)}`;
   }
-  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — hentes hvert 15. minutt mens stevnet pågår.`;
+  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — serveren henter hvert 15. minutt; «Hent nye tall» laster siste versjon.`;
   render();
   setInterval(render, TICK_MS);
-  setInterval(refreshData, REFRESH_DATA_MS);
 })();
