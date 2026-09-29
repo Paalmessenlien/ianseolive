@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:17:02Z",
+ "generated": "2026-09-29T14:22:02Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -11,6 +11,8 @@
  },
  "defaultClub": "NOR",
  "files": {
+  "IQCM": "2026-09-29 14:21:25",
+  "IQCW": "2026-09-29 14:19:17",
   "ENS": "2026-09-28 14:34:36",
   "ENC": "2026-09-28 14:34:36",
   "ENA": "2026-09-28 14:34:36",
@@ -1644,6 +1646,635 @@
    }
   ]
  },
- "classes": [],
+ "classes": [
+  {
+   "name": "Compound Men",
+   "team": false,
+   "official": false,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Course 1",
+    "Course 2"
+   ],
+   "field": [
+    {
+     "club": "FRA",
+     "name": "PAUNER Joan",
+     "pos": 1,
+     "total": 22,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Course 1": "22/ 8",
+      "Course 2": "0"
+     },
+     "target": "3C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "SUT Jesse",
+     "pos": 1,
+     "total": 22,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Course 1": "22/ 8",
+      "Course 2": "0"
+     },
+     "target": "3B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "NOR",
+     "name": "ROGSTAD Marius",
+     "pos": 3,
+     "total": 43,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 3,
+     "dist": {
+      "Course 1": "43/ 1",
+      "Course 2": "0"
+     },
+     "target": "10C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "GBR",
+     "name": "BALL Zachary",
+     "pos": 4,
+     "total": 42,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 2,
+     "dist": {
+      "Course 1": "42/ 2",
+      "Course 2": "0"
+     },
+     "target": "10A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "SLO",
+     "name": "MODIC Stas",
+     "pos": 5,
+     "total": 40,
+     "arrows": 4,
+     "tens": 4,
+     "xs": 0,
+     "dist": {
+      "Course 1": "40/ 4",
+      "Course 2": "0"
+     },
+     "target": "1D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "RUS",
+     "name": "NIKONOV Ivan",
+     "pos": 5,
+     "total": 20,
+     "arrows": 2,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/10",
+      "Course 2": "0"
+     },
+     "target": "3A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "PAGNONI Federico",
+     "pos": 5,
+     "total": 40,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Course 1": "40/ 3",
+      "Course 2": "0"
+     },
+     "target": "1B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FIN",
+     "name": "PIRPPU Timo",
+     "pos": 5,
+     "total": 20,
+     "arrows": 2,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/10",
+      "Course 2": "0"
+     },
+     "target": "11B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "AUS",
+     "name": "SAMI Alex",
+     "pos": 5,
+     "total": 20,
+     "arrows": 2,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/10",
+      "Course 2": "0"
+     },
+     "target": "10D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "IRL",
+     "name": "O'CONNOR Alan",
+     "pos": 10,
+     "total": 19,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "19/13",
+      "Course 2": "0"
+     },
+     "target": "11D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "RUS",
+     "name": "ZUBALEVICH Artem",
+     "pos": 11,
+     "total": 37,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Course 1": "37/ 5",
+      "Course 2": "0"
+     },
+     "target": "1A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FRA",
+     "name": "BARET Benjamin",
+     "pos": 12,
+     "total": 36,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Course 1": "36/ 6",
+      "Course 2": "0"
+     },
+     "target": "1C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "MEX",
+     "name": "BENAVIDES Gilberto",
+     "pos": 13,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/14",
+      "Course 2": "0"
+     },
+     "target": "2B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "SLO",
+     "name": "BRENK Aljaz Matija",
+     "pos": 13,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/14",
+      "Course 2": "0"
+     },
+     "target": "3D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CAN",
+     "name": "MUMMERY Curtis",
+     "pos": 13,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/14",
+      "Course 2": "0"
+     },
+     "target": "2C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "DEN",
+     "name": "NIELSEN Mathias Nedergård",
+     "pos": 13,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/14",
+      "Course 2": "0"
+     },
+     "target": "11A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ESP",
+     "name": "PRIETO GORRICHO Jose Manuel",
+     "pos": 13,
+     "total": 36,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "36/ 7",
+      "Course 2": "0"
+     },
+     "target": "10B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "USA",
+     "name": "WINEY Adam Brown",
+     "pos": 18,
+     "total": 16,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "16/18",
+      "Course 2": "0"
+     },
+     "target": "2D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ARG",
+     "name": "LETTIERI Juan Andres",
+     "pos": 19,
+     "total": 15,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "15/19",
+      "Course 2": "0"
+     },
+     "target": "2A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CHI",
+     "name": "TREJOS Diego",
+     "pos": 20,
+     "total": 13,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "13/20",
+      "Course 2": "0"
+     },
+     "target": "11C",
+     "pool": "Compound Men and Women"
+    }
+   ],
+   "code": "IQCM"
+  },
+  {
+   "name": "Compound Women",
+   "team": false,
+   "official": false,
+   "fieldScoring": true,
+   "totalArrows": 144,
+   "distances": [
+    "Course 1",
+    "Course 2"
+   ],
+   "field": [
+    {
+     "club": "USA",
+     "name": "FRANCKA Amy",
+     "pos": 1,
+     "total": 22,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 2,
+     "dist": {
+      "Course 1": "22/ 7",
+      "Course 2": "0"
+     },
+     "target": "16C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "AUT",
+     "name": "STEINER Brigitte",
+     "pos": 1,
+     "total": 44,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 4,
+     "dist": {
+      "Course 1": "44/ 1",
+      "Course 2": "0"
+     },
+     "target": "17C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "GBR",
+     "name": "MIDROUILLET Cecile",
+     "pos": 3,
+     "total": 43,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 3,
+     "dist": {
+      "Course 1": "43/ 2",
+      "Course 2": "0"
+     },
+     "target": "17A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FIN",
+     "name": "LAURILA Anne",
+     "pos": 4,
+     "total": 21,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 1,
+     "dist": {
+      "Course 1": "21/ 8",
+      "Course 2": "0"
+     },
+     "target": "21B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "BALDO Elisa",
+     "pos": 5,
+     "total": 20,
+     "arrows": 2,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/ 9",
+      "Course 2": "0"
+     },
+     "target": "16D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "RUS",
+     "name": "GUK Maria",
+     "pos": 6,
+     "total": 39,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Course 1": "39/ 3",
+      "Course 2": "0"
+     },
+     "target": "17D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ARG",
+     "name": "GIROUX Claudine Marie Sylvianne",
+     "pos": 7,
+     "total": 38,
+     "arrows": 4,
+     "tens": 3,
+     "xs": 0,
+     "dist": {
+      "Course 1": "38/ 4",
+      "Course 2": "0"
+     },
+     "target": "17B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FRA",
+     "name": "AMA-CORMERAIS Aude",
+     "pos": 8,
+     "total": 36,
+     "arrows": 4,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "36/ 5",
+      "Course 2": "0"
+     },
+     "target": "19A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FRA",
+     "name": "NOIROT Auriane",
+     "pos": 8,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/10",
+      "Course 2": "0"
+     },
+     "target": "16A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "IRL",
+     "name": "O'CONNOR Sharon",
+     "pos": 8,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/10",
+      "Course 2": "0"
+     },
+     "target": "20D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "SLO",
+     "name": "REJEC Meta",
+     "pos": 8,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/10",
+      "Course 2": "0"
+     },
+     "target": "20A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CAN",
+     "name": "WIENS Andrea",
+     "pos": 8,
+     "total": 18,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "18/10",
+      "Course 2": "0"
+     },
+     "target": "16B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CAN",
+     "name": "ST. AMANT Sarah",
+     "pos": 13,
+     "total": 35,
+     "arrows": 4,
+     "tens": 3,
+     "xs": 0,
+     "dist": {
+      "Course 1": "35/ 6",
+      "Course 2": "0"
+     },
+     "target": "19B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ESP",
+     "name": "PITARCH Maria",
+     "pos": 14,
+     "total": 16,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 1,
+     "dist": {
+      "Course 1": "16/14",
+      "Course 2": "0"
+     },
+     "target": "20B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "SWE",
+     "name": "HELMERSSON Camilla",
+     "pos": 15,
+     "total": 16,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "16/15",
+      "Course 2": "0"
+     },
+     "target": "21A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "GER",
+     "name": "DORFNER Leoni Dana",
+     "pos": 16,
+     "total": 15,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "15/16",
+      "Course 2": "0"
+     },
+     "target": "21D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "FRANCHINI Irene",
+     "pos": 16,
+     "total": 15,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "15/16",
+      "Course 2": "0"
+     },
+     "target": "19D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "MEX",
+     "name": "BENAVENTE Maria",
+     "pos": 18,
+     "total": 10,
+     "arrows": 2,
+     "tens": 1,
+     "xs": 0,
+     "dist": {
+      "Course 1": "10/19",
+      "Course 2": "0"
+     },
+     "target": "20C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "AUS",
+     "name": "GRIFFITHS Emily",
+     "pos": 19,
+     "total": 10,
+     "arrows": 2,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "10/20",
+      "Course 2": "0"
+     },
+     "target": "21C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "USA",
+     "name": "SINCLAIR Gracelyn",
+     "pos": 20,
+     "total": 13,
+     "arrows": 4,
+     "tens": 0,
+     "xs": 0,
+     "dist": {
+      "Course 1": "13/18",
+      "Course 2": "0"
+     },
+     "target": "19C",
+     "pool": "Compound Men and Women"
+    }
+   ],
+   "code": "IQCW"
+  }
+ ],
  "brackets": []
 }
