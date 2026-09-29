@@ -36,6 +36,13 @@ DETAILS_URL = f"https://ianseo.net/Details.php?toId={TO_ID}"
 TOURDATA_URL = f"https://ianseo.net/TourData/{YEAR}/{TO_ID}"
 OUT_FILE = ROOT / "data" / "results.json"
 
+# Live-kilde: info.ianseo.net/<slug> har løpende kvalik-stillinger (oppdateres
+# pil for pil), mens TourData-filene er periodiske eksporter.
+INFO_SLUG = CONFIG.get("infoSlug", "")
+INFO_URL = f"https://info.ianseo.net/{INFO_SLUG}" if INFO_SLUG else ""
+IS_3D = CONFIG.get("tournamentRound", "").strip().lower() == "3d"
+ARROWS_PER_COURSE = 48 if IS_3D else 72  # 3D: 2 piler x 24 blink, felt: 3 x 24
+
 # File codes that are not archer-result pages
 SKIP_CODES = {"STC", "STE", "FOP", "SCHEDULE"}
 ROSTER_CODE = "ENC"  # entries grouped by club
@@ -465,6 +472,125 @@ def parse_ic_page(page: str) -> list:
     return classes
 
 
+def info_qual_links() -> list:
+    """Finn Qualification-lenker på info-sidens index (dedupet, i rekkefølge)."""
+    page = fetch(f"{INFO_URL}/")
+    out = []
+    for href in re.findall(r'href="(/[^"]*?/Qualification/\?[^"]*)"', page):
+        href = html.unescape(href)
+        if href not in out:
+            out.append(href)
+    return out
+
+
+def split_members(s: str) -> str:
+    """'DAVENPORT MichaelHASSON Cody' -> 'DAVENPORT Michael, HASSON Cody'"""
+    return re.sub(r"(?<=[a-zæøåáéü])(?=[A-ZÆØÅÁÉÜ])", ", ", s or "")
+
+
+def parse_info_qual(page: str) -> list:
+    """Parse en info.ianseo.net Qualification-side -> klasser i vanlig skjema.
+
+    Individuelle seksjoner: tittelrad (1 celle), så headerrad, så datarader
+    [pos, blink, navn, '', kode, land, løype..., tot, 11, 10].
+    Lag-seksjoner: tittel+header flettet i samme rad, datarader
+    [pos, '', kode, land, utøvere, total, 11, 10].
+    """
+    rows = parse_rows(page)
+    classes = {}
+    header, title, status, ts, field, is_team = None, None, "", "", [], False
+    n_courses = 0
+
+    def flush():
+        if not title or not field:
+            return
+        members_n = 0
+        if is_team:
+            for f in field:
+                f["members"] = split_members(f["name"])
+                f["name"] = "Lag"
+                members_n = max(members_n, f["members"].count(",") + 1)
+        status_up = status.upper()
+        official = "OFFICIAL" in status_up
+        m = re.search(r"After (\d+) Arrows", status, re.I)
+        progress = int(m.group(1)) if m else None
+        total_arrows = max(1, n_courses) * ARROWS_PER_COURSE
+        if is_team:
+            total_arrows *= max(1, members_n)
+        for f in field:
+            if official:
+                f["arrows"] = total_arrows
+            elif is_team:
+                f["arrows"] = progress if progress is not None else total_arrows
+            else:
+                filled = sum(1 for v in f["dist"].values() if re.match(r"^[1-9]", v or ""))
+                f["arrows"] = filled * ARROWS_PER_COURSE
+        classes[title] = {
+            "name": f"{title} (lag)" if is_team else title,
+            "team": is_team,
+            "official": official,
+            "fieldScoring": True,
+            "totalArrows": total_arrows,
+            "distances": [f"Course {i + 1}" for i in range(n_courses)] if not is_team else [],
+            "field": sorted(field, key=lambda f: f["pos"] or 9999),
+            "code": "INFO",
+            "updated": ts,
+        }
+
+    def section_meta(text: str):
+        """'Barebow Men [After 48 Arrows]2026-09-29 18:57:41 UTC' -> (tittel, status, ts).
+        Statusbraketten mangler for klasser som ikke har registrerte piler ennå."""
+        m = re.match(r"(.*?)(?:\[(.*?)\])?\s*(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d UTC)?\s*$", text)
+        if not m:
+            return None
+        return m.group(1).strip(), m.group(2) or "", m.group(3) or ""
+
+    TS_RE = re.compile(r"\d{4}-\d\d-\d\d \d\d:\d\d:\d\d UTC")
+
+    for cells in rows:
+        # ny seksjon: individuell tittelrad, eller lag-rad med tittel+header flettet
+        if len(cells) == 1 and TS_RE.search(cells[0]):
+            flush()
+            meta = section_meta(cells[0])
+            title, status, ts = meta if meta else (None, "", "")
+            title = re.sub(r"^Teams?\s+", "", title or "")
+            header, field, is_team, n_courses = None, [], False, 0
+            continue
+        if len(cells) > 1 and TS_RE.search(cells[0]) and cells[0].rstrip().endswith("Pos."):
+            flush()
+            meta = section_meta(re.sub(r"\s*Pos\.\s*$", "", cells[0]))
+            title, status, ts = meta if meta else (None, "", "")
+            title = re.sub(r"^Teams?\s+", "", title or "")
+            header, field, is_team, n_courses = cells[1:], [], True, 2  # WA-kvalik: alltid 2 løyper
+            continue
+        if title is None:
+            continue
+        if header is None:
+            if cells[0] == "Pos.":
+                header = cells
+                n_courses = sum(1 for c in cells if c.startswith("Course"))
+            continue
+        if len(cells) - len(header) != (3 if is_team else 2) or not re.match(r"^\d+$", cells[0] or ""):
+            continue  # subtotal/duplikatrader
+        if is_team:
+            field.append({
+                "club": cells[2], "name": cells[4],
+                "pos": to_int(cells[0]), "total": to_int(cells[5]),
+                "tens": to_int(cells[7]), "xs": to_int(cells[6]),  # 10- og 11-kolonnen
+                "arrows": 0, "dist": {},
+            })
+        else:
+            dist = {f"Course {i + 1}": cells[6 + i] for i in range(n_courses)}
+            field.append({
+                "club": cells[4], "name": cells[2], "target": cells[1],
+                "pos": to_int(cells[0]), "total": to_int(cells[6 + n_courses]),
+                "tens": to_int(cells[8 + n_courses]), "xs": to_int(cells[7 + n_courses]),
+                "arrows": 0, "dist": dist,
+            })
+    flush()
+    return list(classes.values())
+
+
 def parse_roster(page: str) -> dict:
     """Parse ENC.php (entries grouped by club) -> {short: [{name, target, class, pool}]}"""
     roster = {}
@@ -532,6 +658,23 @@ def main() -> int:
     # IC (endelige felt-resultater) overstyrer IQ-klasser med samme navn
     ic_names = {c["name"] for c in ic_classes}
     classes = ic_classes + [c for c in classes if c["name"] not in ic_names]
+
+    # Live-kvalik fra info.ianseo.net (ferskere enn TourData-eksportene)
+    if INFO_URL:
+        live = {}
+        live_ts = ""
+        for link in info_qual_links():
+            try:
+                for cls in parse_info_qual(fetch(f"https://info.ianseo.net{link}")):
+                    live.setdefault(cls["name"], cls)  # samme klasse kan ligge på flere sider
+                    live_ts = max(live_ts, cls.get("updated") or "")
+            except Exception as exc:  # TourData-dataene gjelder fortsatt
+                print(f"warn: info {link}: {exc}", file=sys.stderr)
+        live_classes = list(live.values())
+        if live_classes:
+            live_names = {c["name"] for c in live_classes}
+            classes = live_classes + [c for c in classes if c["name"] not in live_names]
+            files["INFO"] = live_ts
 
     # join roster info (target/pool) onto result rows
     for cls in classes:
