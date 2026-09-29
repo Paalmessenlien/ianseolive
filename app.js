@@ -425,11 +425,13 @@ const PROGRAM_3D = [
   ]},
 ];
 
-const PROGRAMS = {
-  '30175': { program: PROGRAM, link: 'https://info.ianseo.net/26WAFC/' },   // VM felt
-  '30357': { program: PROGRAM_3D, link: 'https://info.ianseo.net/26W3DC/' }, // VM 3D
-};
-const progFor = () => PROGRAMS[(DATA.tournament || {}).toId] || null;
+// lat oppslag — PROGRAM/PROGRAM_3D er const og må være initialisert før kall
+function progFor() {
+  const id = (DATA.tournament || {}).toId;
+  if (id === '30175') return { program: PROGRAM, link: 'https://info.ianseo.net/26WAFC/' };   // VM felt
+  if (id === '30357') return { program: PROGRAM_3D, link: 'https://info.ianseo.net/26W3DC/' }; // VM 3D
+  return null;
+}
 
 const PROGRAM = [
   { date: '2026-09-23', title: 'Umarkert kvalifisering', sub: 'Lewis & Clark Lake', events: [
