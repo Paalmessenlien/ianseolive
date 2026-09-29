@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:32:02Z",
+ "generated": "2026-09-29T14:37:02Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -11,7 +11,7 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQCM": "2026-09-29 14:21:25",
+  "IQCM": "2026-09-29 14:34:08",
   "IQCW": "2026-09-29 14:30:27",
   "ENS": "2026-09-28 14:34:36",
   "ENC": "2026-09-28 14:34:36",
@@ -1667,7 +1667,7 @@
      "tens": 0,
      "xs": 2,
      "dist": {
-      "Course 1": "22/ 8",
+      "Course 1": "22/13",
       "Course 2": "0"
      },
      "target": "3C",
@@ -1682,7 +1682,7 @@
      "tens": 0,
      "xs": 2,
      "dist": {
-      "Course 1": "22/ 8",
+      "Course 1": "22/13",
       "Course 2": "0"
      },
      "target": "3B",
@@ -1697,7 +1697,7 @@
      "tens": 1,
      "xs": 3,
      "dist": {
-      "Course 1": "43/ 1",
+      "Course 1": "43/ 5",
       "Course 2": "0"
      },
      "target": "10C",
@@ -1712,40 +1712,10 @@
      "tens": 2,
      "xs": 2,
      "dist": {
-      "Course 1": "42/ 2",
+      "Course 1": "42/ 6",
       "Course 2": "0"
      },
      "target": "10A",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "SLO",
-     "name": "MODIC Stas",
-     "pos": 5,
-     "total": 40,
-     "arrows": 4,
-     "tens": 4,
-     "xs": 0,
-     "dist": {
-      "Course 1": "40/ 4",
-      "Course 2": "0"
-     },
-     "target": "1D",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "RUS",
-     "name": "NIKONOV Ivan",
-     "pos": 5,
-     "total": 20,
-     "arrows": 2,
-     "tens": 2,
-     "xs": 0,
-     "dist": {
-      "Course 1": "20/10",
-      "Course 2": "0"
-     },
-     "target": "3A",
      "pool": "Compound Men and Women"
     },
     {
@@ -1757,40 +1727,70 @@
      "tens": 1,
      "xs": 2,
      "dist": {
-      "Course 1": "40/ 3",
+      "Course 1": "40/ 7",
       "Course 2": "0"
      },
      "target": "1B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "FIN",
-     "name": "PIRPPU Timo",
-     "pos": 5,
+     "club": "SLO",
+     "name": "MODIC Stas",
+     "pos": 6,
+     "total": 40,
+     "arrows": 4,
+     "tens": 4,
+     "xs": 0,
+     "dist": {
+      "Course 1": "40/ 8",
+      "Course 2": "0"
+     },
+     "target": "1D",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "RUS",
+     "name": "NIKONOV Ivan",
+     "pos": 6,
      "total": 20,
      "arrows": 2,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "20/10",
+      "Course 1": "20/15",
+      "Course 2": "0"
+     },
+     "target": "3A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "FIN",
+     "name": "PIRPPU Timo",
+     "pos": 6,
+     "total": 20,
+     "arrows": 2,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "20/15",
       "Course 2": "0"
      },
      "target": "11B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "AUS",
-     "name": "SAMI Alex",
-     "pos": 5,
-     "total": 20,
-     "arrows": 2,
-     "tens": 2,
-     "xs": 0,
+     "club": "DEN",
+     "name": "ANDERSEN Stig",
+     "pos": 9,
+     "total": 59,
+     "arrows": 6,
+     "tens": 1,
+     "xs": 3,
      "dist": {
-      "Course 1": "20/10",
+      "Course 1": "59/ 1",
       "Course 2": "0"
      },
-     "target": "10D",
+     "target": "9A",
      "pool": "Compound Men and Women"
     },
     {
@@ -1802,7 +1802,7 @@
      "tens": 0,
      "xs": 1,
      "dist": {
-      "Course 1": "19/13",
+      "Course 1": "19/17",
       "Course 2": "0"
      },
      "target": "11D",
@@ -1817,22 +1817,52 @@
      "tens": 1,
      "xs": 1,
      "dist": {
-      "Course 1": "37/ 5",
+      "Course 1": "37/ 9",
       "Course 2": "0"
      },
      "target": "1A",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "FIN",
+     "name": "ALANEN Matti",
+     "pos": 12,
+     "total": 55,
+     "arrows": 6,
+     "tens": 2,
+     "xs": 1,
+     "dist": {
+      "Course 1": "55/ 2",
+      "Course 2": "0"
+     },
+     "target": "9B",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CHI",
+     "name": "NICCODEMI Angel",
+     "pos": 13,
+     "total": 54,
+     "arrows": 6,
+     "tens": 0,
+     "xs": 3,
+     "dist": {
+      "Course 1": "54/ 3",
+      "Course 2": "0"
+     },
+     "target": "9C",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "FRA",
      "name": "BARET Benjamin",
-     "pos": 12,
+     "pos": 14,
      "total": 36,
      "arrows": 4,
      "tens": 2,
      "xs": 1,
      "dist": {
-      "Course 1": "36/ 6",
+      "Course 1": "36/10",
       "Course 2": "0"
      },
      "target": "1C",
@@ -1841,13 +1871,13 @@
     {
      "club": "MEX",
      "name": "BENAVIDES Gilberto",
-     "pos": 13,
+     "pos": 15,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/14",
+      "Course 1": "18/18",
       "Course 2": "0"
      },
      "target": "2B",
@@ -1856,13 +1886,13 @@
     {
      "club": "SLO",
      "name": "BRENK Aljaz Matija",
-     "pos": 13,
+     "pos": 15,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/14",
+      "Course 1": "18/18",
       "Course 2": "0"
      },
      "target": "3D",
@@ -1871,13 +1901,13 @@
     {
      "club": "CAN",
      "name": "MUMMERY Curtis",
-     "pos": 13,
+     "pos": 15,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/14",
+      "Course 1": "18/18",
       "Course 2": "0"
      },
      "target": "2C",
@@ -1886,13 +1916,13 @@
     {
      "club": "DEN",
      "name": "NIELSEN Mathias Nedergård",
-     "pos": 13,
+     "pos": 15,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/14",
+      "Course 1": "18/18",
       "Course 2": "0"
      },
      "target": "11A",
@@ -1901,43 +1931,73 @@
     {
      "club": "ESP",
      "name": "PRIETO GORRICHO Jose Manuel",
-     "pos": 13,
+     "pos": 15,
      "total": 36,
      "arrows": 4,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "36/ 7",
+      "Course 1": "36/11",
       "Course 2": "0"
      },
      "target": "10B",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "IRL",
+     "name": "DOYLE Larry",
+     "pos": 20,
+     "total": 49,
+     "arrows": 6,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "49/ 4",
+      "Course 2": "0"
+     },
+     "target": "9D",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "USA",
      "name": "WINEY Adam Brown",
-     "pos": 18,
+     "pos": 21,
      "total": 16,
      "arrows": 2,
      "tens": 0,
      "xs": 1,
      "dist": {
-      "Course 1": "16/18",
+      "Course 1": "16/22",
       "Course 2": "0"
      },
      "target": "2D",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "AUS",
+     "name": "SAMI Alex",
+     "pos": 22,
+     "total": 30,
+     "arrows": 4,
+     "tens": 3,
+     "xs": 0,
+     "dist": {
+      "Course 1": "30/12",
+      "Course 2": "0"
+     },
+     "target": "10D",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "ARG",
      "name": "LETTIERI Juan Andres",
-     "pos": 19,
+     "pos": 23,
      "total": 15,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "15/19",
+      "Course 1": "15/23",
       "Course 2": "0"
      },
      "target": "2A",
@@ -1946,13 +2006,13 @@
     {
      "club": "CHI",
      "name": "TREJOS Diego",
-     "pos": 20,
+     "pos": 24,
      "total": 13,
      "arrows": 2,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Course 1": "13/20",
+      "Course 1": "13/24",
       "Course 2": "0"
      },
      "target": "11C",
