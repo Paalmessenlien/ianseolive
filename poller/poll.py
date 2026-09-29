@@ -496,7 +496,12 @@ def parse_info_qual(page: str) -> list:
     Lag-seksjoner: tittel+header flettet i samme rad, datarader
     [pos, '', kode, land, utøvere, total, 11, 10].
     """
-    rows = parse_rows(page)
+    rows = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", page, re.S | re.I):
+        cells = [clean(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S | re.I)]
+        if any(cells):
+            id_m = re.search(r"Info\.php\?Id=(\d+)", tr)
+            rows.append((cells, id_m.group(1) if id_m else ""))
     classes = {}
     header, title, status, ts, field, is_team = None, None, "", "", [], False
     n_courses = 0
@@ -547,7 +552,7 @@ def parse_info_qual(page: str) -> list:
 
     TS_RE = re.compile(r"\d{4}-\d\d-\d\d \d\d:\d\d:\d\d UTC")
 
-    for cells in rows:
+    for cells, info_id in rows:
         # ny seksjon: individuell tittelrad, eller lag-rad med tittel+header flettet
         if len(cells) == 1 and TS_RE.search(cells[0]):
             flush()
@@ -585,10 +590,47 @@ def parse_info_qual(page: str) -> list:
                 "club": cells[4], "name": cells[2], "target": cells[1],
                 "pos": to_int(cells[0]), "total": to_int(cells[6 + n_courses]),
                 "tens": to_int(cells[8 + n_courses]), "xs": to_int(cells[7 + n_courses]),
-                "arrows": 0, "dist": dist,
+                "arrows": 0, "dist": dist, "infoId": info_id,
             })
     flush()
     return list(classes.values())
+
+
+def parse_scorecard(page: str) -> dict:
+    """Parse et info-scorekort (ViewScore=1&Entry=N) -> {løype: {targets, total, elev, ten}}.
+
+    Én <table class="ScoreScore"> per løype; radene er uavsluttede <tr>:
+    <tr><th>blink</th><td>pil1</td><td>pil2</td><td>sum</td><td ScoreTotal>løpende</td><td>11</td><td>10</td>
+    """
+    courses = {}
+    for m in re.finditer(r'<table class="ScoreScore"[^>]*>(.*?)</table>', page, re.S):
+        tbl = m.group(1)
+        hdr = re.search(r"<th>([^<]*)</th>", tbl)
+        label = clean(hdr.group(1)) if hdr else "Løype"
+        targets = [
+            {
+                "n": int(t.group(1)),
+                "a": [t.group(2).strip(), t.group(3).strip()],
+                "sum": to_int(t.group(4)),
+                "run": to_int(t.group(5)),
+            }
+            for t in re.finditer(
+                r'<tr><th>(\d+)</th><td>([^<]*)</td><td>([^<]*)</td><td>([^<]*)</td>'
+                r'<td class="ScoreTotal">([^<]*)</td><td>([^<]*)</td><td>([^<]*)</td>',
+                tbl,
+            )
+        ]
+        tot = re.search(
+            r'RowTotal.*?<td[^>]*>\s*(\d+)\s*</td>\s*<td[^>]*>\s*(\d+)\s*</td>\s*<td[^>]*>\s*(\d+)\s*</td>',
+            tbl, re.S,
+        )
+        courses[label] = {
+            "targets": targets,
+            "total": to_int(tot.group(1)) if tot else 0,
+            "elev": to_int(tot.group(2)) if tot else 0,
+            "ten": to_int(tot.group(3)) if tot else 0,
+        }
+    return courses
 
 
 def parse_roster(page: str) -> dict:
@@ -666,15 +708,36 @@ def main() -> int:
         for link in info_qual_links():
             try:
                 for cls in parse_info_qual(fetch(f"https://info.ianseo.net{link}")):
+                    cls["infoLink"] = link
                     live.setdefault(cls["name"], cls)  # samme klasse kan ligge på flere sider
                     live_ts = max(live_ts, cls.get("updated") or "")
             except Exception as exc:  # TourData-dataene gjelder fortsatt
                 print(f"warn: info {link}: {exc}", file=sys.stderr)
         live_classes = list(live.values())
+        for cls in live_classes:
+            for f in cls["field"]:
+                if f.get("infoId"):
+                    f["scoreUrl"] = f"https://info.ianseo.net{cls['infoLink']}&ViewScore=1&Entry={f['infoId']}"
         if live_classes:
             live_names = {c["name"] for c in live_classes}
             classes = live_classes + [c for c in classes if c["name"] not in live_names]
             files["INFO"] = live_ts
+
+    # scorekort (per blink) hentes kun for klubben/landet vi følger — resten
+    # får scoreUrl så frontend kan lenke direkte til ianseo
+    scorecards = {}
+    for cls in classes:
+        if cls.get("code") != "INFO" or cls.get("team"):
+            continue
+        for f in cls["field"]:
+            if f["club"] != CONFIG.get("defaultClub") or not f.get("scoreUrl"):
+                continue
+            try:
+                courses = parse_scorecard(fetch(f["scoreUrl"]))
+                if courses:
+                    scorecards[f["name"]] = {"url": f["scoreUrl"], "courses": courses}
+            except Exception as exc:
+                print(f"warn: scorekort {f['name']}: {exc}", file=sys.stderr)
 
     # join roster info (target/pool) onto result rows
     for cls in classes:
@@ -710,6 +773,7 @@ def main() -> int:
         "roster": roster,
         "classes": classes,
         "brackets": brackets,
+        "scorecards": scorecards,
     }
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)

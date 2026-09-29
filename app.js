@@ -575,6 +575,25 @@ function vTabBar() {
   </div>`;
 }
 
+function vScorecard(sc) {
+  const chip = (v) => `<span style="flex:1;display:grid;place-items:center;height:30px;border-radius:8px;border:2px solid ${v === '11' ? CLR.signal : v === '10' ? CLR.accent : '#d9d4cb'};background:${CLR.surface};font:600 13.5px 'Inter',sans-serif;font-variant-numeric:tabular-nums;color:${v === 'M' || parseInt(v) <= 5 ? CLR.muted : CLR.fg}">${esc(v)}</span>`;
+  return Object.entries(sc.courses || {}).map(([label, c]) => {
+    const rows = (c.targets || []).map((t) => `
+      <div style="display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:2px solid #e8e3da">
+        <span style="flex:none;width:24px;font-size:12px;font-weight:600;color:${CLR.muted};font-variant-numeric:tabular-nums">${t.n}</span>
+        <span style="flex:none;display:flex;gap:5px;width:76px">${t.a.map(chip).join('')}</span>
+        <span style="flex:none;width:30px;text-align:right;font-size:14px;font-weight:700;font-variant-numeric:tabular-nums">${t.sum}</span>
+        <span style="flex:none;width:38px;text-align:right;font-size:13px;color:${CLR.muted};font-variant-numeric:tabular-nums">${t.run}</span>
+      </div>`).join('');
+    return `
+    <div style="margin-bottom:18px">
+      <p style="margin:0 0 4px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Scorekort — ${esc(label)}</p>
+      <p style="margin:0 0 8px;font-size:12px;color:${CLR.muted};font-variant-numeric:tabular-nums">${c.total} poeng · 11/10: ${c.elev}+${c.ten}</p>
+      <div style="display:flex;flex-direction:column;gap:0">${rows}</div>
+    </div>`;
+  }).join('');
+}
+
 function vAthleteSheet() {
   const a = state.athlete;
   const cl = (DATA.classes || []).find((c) => c.name === a.cls) || { field: [] };
@@ -652,6 +671,13 @@ function vAthleteSheet() {
       <p style="margin:0 0 10px;font-size:12.5px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:${CLR.action}">Finaler og eliminering</p>
       <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px">${finalsItems.map(vMatchCard).join('')}</div>` : '';
 
+  // scorekort per blink (hentes for landet vi følger) + lenke til ianseos eget
+  const sc = (DATA.scorecards || {})[a.name];
+  const scSection = sc ? `<div style="margin-bottom:6px">${vScorecard(sc)}</div>` : '';
+  const scLink = a.scoreUrl
+    ? `<p style="margin:14px 0 0;font-size:13.5px"><a href="${esc(a.scoreUrl)}" target="_blank" rel="noopener" style="color:${CLR.action};font-weight:600">Åpne live scorekort hos ianseo →</a></p>`
+    : '';
+
   return `
   <div style="position:absolute;inset:0;background:${CLR.paper};display:flex;flex-direction:column;animation:sheet-up .34s cubic-bezier(0.34,1.56,0.64,1)">
     <div style="flex:none;background:${CLR.fg};color:#fff;padding:14px 18px 20px;position:relative;overflow:hidden">
@@ -675,7 +701,9 @@ function vAthleteSheet() {
     <div style="flex:1;min-height:0;overflow-y:auto;padding:16px 18px 26px">
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:20px">${stats}</div>
       ${finalsSection}
+      ${scSection}
       ${scoreSection}
+      ${scLink}
       <p style="margin:14px 0 0;font-size:13px;line-height:1.6;color:${CLR.muted}">${esc(note)}</p>
     </div>
   </div>`;
