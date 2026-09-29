@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:58:39Z",
+ "generated": "2026-09-29T15:02:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -11,7 +11,7 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQCM": "2026-09-29 14:55:45",
+  "IQCM": "2026-09-29 15:01:51",
   "IQCW": "2026-09-29 14:52:52",
   "ENS": "2026-09-28 14:34:36",
   "ENC": "2026-09-28 14:34:36",
@@ -1667,7 +1667,7 @@
      "tens": 0,
      "xs": 2,
      "dist": {
-      "Course 1": "22/20",
+      "Course 1": "22/24",
       "Course 2": "0"
      },
      "target": "3C",
@@ -1682,7 +1682,7 @@
      "tens": 0,
      "xs": 2,
      "dist": {
-      "Course 1": "22/20",
+      "Course 1": "22/24",
       "Course 2": "0"
      },
      "target": "3B",
@@ -1697,22 +1697,37 @@
      "tens": 1,
      "xs": 3,
      "dist": {
-      "Course 1": "43/12",
+      "Course 1": "43/16",
       "Course 2": "0"
      },
      "target": "10C",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "ITA",
+     "name": "GODANO Michea",
+     "pos": 4,
+     "total": 127,
+     "arrows": 12,
+     "tens": 5,
+     "xs": 7,
+     "dist": {
+      "Course 1": "127/ 4",
+      "Course 2": "0"
+     },
+     "target": "6B",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "GBR",
      "name": "BALL Zachary",
-     "pos": 4,
+     "pos": 5,
      "total": 42,
      "arrows": 4,
      "tens": 2,
      "xs": 2,
      "dist": {
-      "Course 1": "42/13",
+      "Course 1": "42/17",
       "Course 2": "0"
      },
      "target": "10A",
@@ -1722,42 +1737,87 @@
      "club": "AUT",
      "name": "WIENER Nico",
      "pos": 5,
-     "total": 125,
-     "arrows": 12,
+     "total": 147,
+     "arrows": 14,
      "tens": 7,
-     "xs": 5,
+     "xs": 7,
      "dist": {
-      "Course 1": "125/ 1",
+      "Course 1": "147/ 1",
       "Course 2": "0"
      },
      "target": "12C",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "SLO",
+     "name": "JEVSNIK Tim",
+     "pos": 7,
+     "total": 125,
+     "arrows": 12,
+     "tens": 4,
+     "xs": 7,
+     "dist": {
+      "Course 1": "125/ 5",
+      "Course 2": "0"
+     },
+     "target": "6D",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "USA",
      "name": "TODD James",
-     "pos": 6,
+     "pos": 8,
      "total": 103,
      "arrows": 10,
      "tens": 4,
      "xs": 5,
      "dist": {
-      "Course 1": "103/ 4",
+      "Course 1": "103/ 8",
       "Course 2": "0"
      },
      "target": "7D",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "FRA",
+     "name": "ALBANESE Rémy",
+     "pos": 9,
+     "total": 123,
+     "arrows": 12,
+     "tens": 6,
+     "xs": 5,
+     "dist": {
+      "Course 1": "123/ 6",
+      "Course 2": "0"
+     },
+     "target": "6C",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "PAGNONI Federico",
+     "pos": 10,
+     "total": 40,
+     "arrows": 4,
+     "tens": 1,
+     "xs": 2,
+     "dist": {
+      "Course 1": "40/18",
+      "Course 2": "0"
+     },
+     "target": "1B",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "SLO",
      "name": "MODIC Stas",
-     "pos": 7,
+     "pos": 11,
      "total": 40,
      "arrows": 4,
      "tens": 4,
      "xs": 0,
      "dist": {
-      "Course 1": "40/15",
+      "Course 1": "40/19",
       "Course 2": "0"
      },
      "target": "1D",
@@ -1766,43 +1826,28 @@
     {
      "club": "RUS",
      "name": "NIKONOV Ivan",
-     "pos": 7,
+     "pos": 11,
      "total": 20,
      "arrows": 2,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "20/22",
+      "Course 1": "20/26",
       "Course 2": "0"
      },
      "target": "3A",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "ITA",
-     "name": "PAGNONI Federico",
-     "pos": 7,
-     "total": 40,
-     "arrows": 4,
-     "tens": 1,
-     "xs": 2,
-     "dist": {
-      "Course 1": "40/14",
-      "Course 2": "0"
-     },
-     "target": "1B",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "FIN",
      "name": "PIRPPU Timo",
-     "pos": 7,
+     "pos": 11,
      "total": 20,
      "arrows": 2,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "20/22",
+      "Course 1": "20/26",
       "Course 2": "0"
      },
      "target": "11B",
@@ -1811,58 +1856,58 @@
     {
      "club": "ARG",
      "name": "GIORGI Paolo",
-     "pos": 11,
+     "pos": 14,
      "total": 99,
      "arrows": 10,
      "tens": 5,
      "xs": 3,
      "dist": {
-      "Course 1": "99/ 5",
+      "Course 1": "99/ 9",
       "Course 2": "0"
      },
      "target": "7A",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "DEN",
-     "name": "ANDERSEN Stig",
-     "pos": 12,
-     "total": 59,
-     "arrows": 6,
-     "tens": 1,
-     "xs": 3,
-     "dist": {
-      "Course 1": "59/ 8",
-      "Course 2": "0"
-     },
-     "target": "9A",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "SWE",
      "name": "BENSCHJÖLD Jacob",
-     "pos": 13,
-     "total": 115,
-     "arrows": 12,
+     "pos": 15,
+     "total": 137,
+     "arrows": 14,
      "tens": 5,
-     "xs": 4,
+     "xs": 6,
      "dist": {
-      "Course 1": "115/ 2",
+      "Course 1": "137/ 2",
       "Course 2": "0"
      },
      "target": "12B",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "DEN",
+     "name": "ANDERSEN Stig",
+     "pos": 16,
+     "total": 96,
+     "arrows": 10,
+     "tens": 2,
+     "xs": 4,
+     "dist": {
+      "Course 1": "96/10",
+      "Course 2": "0"
+     },
+     "target": "9A",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "IRL",
      "name": "O'CONNOR Alan",
-     "pos": 14,
+     "pos": 17,
      "total": 19,
      "arrows": 2,
      "tens": 0,
      "xs": 1,
      "dist": {
-      "Course 1": "19/24",
+      "Course 1": "19/28",
       "Course 2": "0"
      },
      "target": "11D",
@@ -1870,14 +1915,44 @@
     },
     {
      "club": "RUS",
+     "name": "KALUGIN Viacheslav",
+     "pos": 18,
+     "total": 113,
+     "arrows": 12,
+     "tens": 7,
+     "xs": 2,
+     "dist": {
+      "Course 1": "113/ 7",
+      "Course 2": "0"
+     },
+     "target": "6A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "CRO",
+     "name": "BRNAD Robert",
+     "pos": 19,
+     "total": 131,
+     "arrows": 14,
+     "tens": 8,
+     "xs": 3,
+     "dist": {
+      "Course 1": "131/ 3",
+      "Course 2": "0"
+     },
+     "target": "12A",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "RUS",
      "name": "ZUBALEVICH Artem",
-     "pos": 15,
+     "pos": 20,
      "total": 37,
      "arrows": 4,
      "tens": 1,
      "xs": 1,
      "dist": {
-      "Course 1": "37/16",
+      "Course 1": "37/20",
       "Course 2": "0"
      },
      "target": "1A",
@@ -1886,73 +1961,43 @@
     {
      "club": "CAN",
      "name": "MEYERS Curtis",
-     "pos": 16,
+     "pos": 21,
      "total": 92,
      "arrows": 10,
      "tens": 3,
      "xs": 3,
      "dist": {
-      "Course 1": "92/ 6",
+      "Course 1": "92/11",
       "Course 2": "0"
      },
      "target": "7C",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "FIN",
-     "name": "ALANEN Matti",
-     "pos": 17,
-     "total": 55,
-     "arrows": 6,
-     "tens": 2,
-     "xs": 1,
-     "dist": {
-      "Course 1": "55/ 9",
-      "Course 2": "0"
-     },
-     "target": "9B",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "MEX",
      "name": "APARICIO AGUILERA Jorge Alonso",
-     "pos": 18,
+     "pos": 22,
      "total": 91,
      "arrows": 10,
      "tens": 7,
      "xs": 0,
      "dist": {
-      "Course 1": "91/ 7",
+      "Course 1": "91/12",
       "Course 2": "0"
      },
      "target": "7B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "CRO",
-     "name": "BRNAD Robert",
-     "pos": 19,
-     "total": 109,
-     "arrows": 12,
-     "tens": 8,
-     "xs": 1,
-     "dist": {
-      "Course 1": "109/ 3",
-      "Course 2": "0"
-     },
-     "target": "12A",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "FRA",
      "name": "BARET Benjamin",
-     "pos": 20,
+     "pos": 23,
      "total": 36,
      "arrows": 4,
      "tens": 2,
      "xs": 1,
      "dist": {
-      "Course 1": "36/17",
+      "Course 1": "36/21",
       "Course 2": "0"
      },
      "target": "1C",
@@ -1961,13 +2006,13 @@
     {
      "club": "MEX",
      "name": "BENAVIDES Gilberto",
-     "pos": 20,
+     "pos": 23,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/25",
+      "Course 1": "18/29",
       "Course 2": "0"
      },
      "target": "2B",
@@ -1976,13 +2021,13 @@
     {
      "club": "SLO",
      "name": "BRENK Aljaz Matija",
-     "pos": 20,
+     "pos": 23,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/25",
+      "Course 1": "18/29",
       "Course 2": "0"
      },
      "target": "3D",
@@ -1991,13 +2036,13 @@
     {
      "club": "CAN",
      "name": "MUMMERY Curtis",
-     "pos": 20,
+     "pos": 23,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/25",
+      "Course 1": "18/29",
       "Course 2": "0"
      },
      "target": "2C",
@@ -2006,13 +2051,13 @@
     {
      "club": "CHI",
      "name": "NICCODEMI Angel",
-     "pos": 20,
-     "total": 54,
-     "arrows": 6,
-     "tens": 0,
+     "pos": 23,
+     "total": 72,
+     "arrows": 8,
+     "tens": 1,
      "xs": 3,
      "dist": {
-      "Course 1": "54/10",
+      "Course 1": "72/14",
       "Course 2": "0"
      },
      "target": "9C",
@@ -2021,13 +2066,13 @@
     {
      "club": "DEN",
      "name": "NIELSEN Mathias Nedergård",
-     "pos": 20,
+     "pos": 23,
      "total": 18,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "18/25",
+      "Course 1": "18/29",
       "Course 2": "0"
      },
      "target": "11A",
@@ -2036,43 +2081,43 @@
     {
      "club": "ESP",
      "name": "PRIETO GORRICHO Jose Manuel",
-     "pos": 20,
+     "pos": 23,
      "total": 36,
      "arrows": 4,
      "tens": 2,
      "xs": 0,
      "dist": {
-      "Course 1": "36/18",
+      "Course 1": "36/22",
       "Course 2": "0"
      },
      "target": "10B",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "IRL",
-     "name": "DOYLE Larry",
-     "pos": 27,
-     "total": 49,
-     "arrows": 6,
+     "club": "FIN",
+     "name": "ALANEN Matti",
+     "pos": 30,
+     "total": 81,
+     "arrows": 10,
      "tens": 2,
-     "xs": 0,
+     "xs": 1,
      "dist": {
-      "Course 1": "49/11",
+      "Course 1": "81/13",
       "Course 2": "0"
      },
-     "target": "9D",
+     "target": "9B",
      "pool": "Compound Men and Women"
     },
     {
      "club": "USA",
      "name": "WINEY Adam Brown",
-     "pos": 28,
+     "pos": 31,
      "total": 16,
      "arrows": 2,
      "tens": 0,
      "xs": 1,
      "dist": {
-      "Course 1": "16/29",
+      "Course 1": "16/33",
       "Course 2": "0"
      },
      "target": "2D",
@@ -2081,13 +2126,13 @@
     {
      "club": "AUS",
      "name": "SAMI Alex",
-     "pos": 29,
+     "pos": 32,
      "total": 30,
      "arrows": 4,
      "tens": 3,
      "xs": 0,
      "dist": {
-      "Course 1": "30/19",
+      "Course 1": "30/23",
       "Course 2": "0"
      },
      "target": "10D",
@@ -2096,28 +2141,43 @@
     {
      "club": "ARG",
      "name": "LETTIERI Juan Andres",
-     "pos": 30,
+     "pos": 33,
      "total": 15,
      "arrows": 2,
      "tens": 1,
      "xs": 0,
      "dist": {
-      "Course 1": "15/30",
+      "Course 1": "15/34",
       "Course 2": "0"
      },
      "target": "2A",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "IRL",
+     "name": "DOYLE Larry",
+     "pos": 34,
+     "total": 59,
+     "arrows": 8,
+     "tens": 2,
+     "xs": 0,
+     "dist": {
+      "Course 1": "59/15",
+      "Course 2": "0"
+     },
+     "target": "9D",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "CHI",
      "name": "TREJOS Diego",
-     "pos": 31,
+     "pos": 35,
      "total": 13,
      "arrows": 2,
      "tens": 0,
      "xs": 0,
      "dist": {
-      "Course 1": "13/31",
+      "Course 1": "13/35",
       "Course 2": "0"
      },
      "target": "11C",
