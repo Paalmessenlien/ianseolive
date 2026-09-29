@@ -1288,7 +1288,7 @@ document.getElementById('frame').addEventListener('input', (e) => {
     document.title = `Ianseolive · ${t.name}`;
     document.getElementById('caption-top').innerHTML = `ᛇ&nbsp;&nbsp;Ianseolive · ${esc(t.name)}`;
   }
-  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — serveren henter hvert 15. minutt; «Hent nye tall» laster siste versjon.`;
+  caption.innerHTML = `Data fra <a href="${esc(t.detailsUrl || '#')}" target="_blank" rel="noopener">ianseo toId ${esc(t.toId || '28659')}</a> — serveren henter hvert 5. minutt; «Hent nye tall» laster siste versjon.`;
   render();
   setInterval(render, TICK_MS);
 })();
