@@ -496,13 +496,15 @@ function vTabTider() {
 function vTabBar() {
   const tab = (id, icon, label) =>
     `<button data-action="tab" data-tab="${id}" style="${tabStyle(id)}">${icon}${label}</button>`;
+  // Tider-fanen er hardkodet mot VM-felt-programmet — skjul for andre stevner
+  const tider = (DATA.tournament || {}).toId === '30175';
   return `
-  <div style="flex:none;display:grid;grid-template-columns:repeat(6,1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
+  <div style="flex:none;display:grid;grid-template-columns:repeat(${tider ? 6 : 5},1fr);gap:4px;background:${CLR.fg};border-top:2px solid ${CLR.fg};padding:8px 10px 12px">
     ${tab('klubb', SVG.target, clubTxt('tab'))}
     ${tab('klasser', SVG.list, 'Klasser')}
     ${tab('finale', SVG.medal, 'Finale')}
     ${tab('start', SVG.grid, 'Startliste')}
-    ${tab('tider', SVG.clock, 'Tider')}
+    ${tider ? tab('tider', SVG.clock, 'Tider') : ''}
     ${tab('mer', SVG.dots, 'Mer')}
   </div>`;
 }
@@ -1093,7 +1095,8 @@ function vPicker() {
 /* ---------- render ---------- */
 
 function render() {
-  const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, finale: vTabFinale, start: vTabStart, tider: vTabTider, mer: vTabMer }[state.tab];
+  const tabView = { klubb: vTabKlubb, klasser: vTabKlasser, finale: vTabFinale, start: vTabStart, tider: vTabTider, mer: vTabMer }[state.tab]
+    || vTabKlubb;  // fallback hvis lagret fane ikke finnes for dette stevnet
   const sheets = (state.matchView ? vMatchSheet() : '') +
     (state.athlete ? vAthleteSheet() : '') +
     (!state.athlete && state.classView ? vClassSheet() : '') +
