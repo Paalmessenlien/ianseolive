@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T15:57:06Z",
+ "generated": "2026-09-30T15:58:43Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -11,14 +11,14 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IQCM": "2026-09-30 15:56:00",
+  "IQCM": "2026-09-30 15:58:04",
   "IQCW": "2026-09-30 15:55:27",
   "IQBM": "2026-09-30 15:54:40",
-  "IQBW": "2026-09-30 15:56:22",
-  "IQLM": "2026-09-30 15:56:40",
+  "IQBW": "2026-09-30 15:57:47",
+  "IQLM": "2026-09-30 15:57:52",
   "IQLW": "2026-09-30 15:55:12",
   "IQTM": "2026-09-30 15:56:27",
-  "IQTW": "2026-09-30 15:56:06",
+  "IQTW": "2026-09-30 15:58:01",
   "TQMT": "2026-09-30 15:38:51",
   "TQWT": "2026-09-30 15:38:51",
   "TQCX": "2026-09-30 15:38:51",
@@ -33,7 +33,7 @@
   "STE": "2026-09-29 20:36:56",
   "Schedule": "2026-09-30 12:50:38",
   "STF": "2026-09-28 19:31:27",
-  "INFO": "2026-09-30 15:56:55 UTC"
+  "INFO": "2026-09-30 15:58:27 UTC"
  },
  "clubs": [
   {
@@ -1676,7 +1676,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "507/ 1",
-      "Course 2": "269/ 2"
+      "Course 2": "269/ 7"
      },
      "infoId": "412187",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412187",
@@ -1693,7 +1693,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "504/ 2",
-      "Course 2": "265/ 5"
+      "Course 2": "265/10"
      },
      "infoId": "412263",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412263",
@@ -1704,13 +1704,13 @@
      "name": "MODIC Stas",
      "target": "2B",
      "pos": 3,
-     "total": 748,
+     "total": 769,
      "tens": 10,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "494/ 6",
-      "Course 2": "254/ 7"
+      "Course 2": "275/ 3"
      },
      "infoId": "412371",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412371",
@@ -1738,13 +1738,13 @@
      "name": "PAUNER Joan",
      "target": "2C",
      "pos": 5,
-     "total": 747,
+     "total": 767,
      "tens": 10,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "491/ 7",
-      "Course 2": "256/ 6"
+      "Course 2": "276/ 2"
      },
      "infoId": "412265",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412265",
@@ -1755,50 +1755,50 @@
      "name": "WINEY Adam Brown",
      "target": "2A",
      "pos": 6,
-     "total": 745,
+     "total": 765,
      "tens": 10,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "494/ 4",
-      "Course 2": "251/10"
+      "Course 2": "271/ 6"
      },
      "infoId": "412394",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412394",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "ITA",
-     "name": "SUT Jesse",
-     "target": "2D",
-     "pos": 7,
-     "total": 744,
-     "tens": 10,
-     "xs": 72,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "491/ 8",
-      "Course 2": "253/ 8"
-     },
-     "infoId": "412311",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412311",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "USA",
      "name": "TODD James",
      "target": "1C",
-     "pos": 8,
+     "pos": 7,
      "total": 764,
      "tens": 10,
      "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "498/ 3",
-      "Course 2": "266/ 4"
+      "Course 2": "266/ 9"
      },
      "infoId": "412393",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412393",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "SUT Jesse",
+     "target": "2D",
+     "pos": 8,
+     "total": 763,
+     "tens": 10,
+     "xs": 74,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "491/ 8",
+      "Course 2": "272/ 4"
+     },
+     "infoId": "412311",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412311",
      "pool": "Compound Men and Women"
     },
     {
@@ -1812,7 +1812,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "494/ 4",
-      "Course 2": "267/ 3"
+      "Course 2": "267/ 8"
      },
      "infoId": "412309",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412309",
@@ -1823,13 +1823,13 @@
      "name": "JEVSNIK Tim",
      "target": "3B",
      "pos": 10,
-     "total": 740,
+     "total": 760,
      "tens": 10,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "488/10",
-      "Course 2": "252/ 9"
+      "Course 2": "272/ 4"
      },
      "infoId": "412370",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412370",
@@ -1840,13 +1840,13 @@
      "name": "ZUBALEVICH Artem",
      "target": "3C",
      "pos": 11,
-     "total": 730,
+     "total": 749,
      "tens": 10,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "485/11",
-      "Course 2": "245/11"
+      "Course 2": "264/11"
      },
      "infoId": "412353",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412353",
@@ -1857,13 +1857,13 @@
      "name": "PAGNONI Federico",
      "target": "3D",
      "pos": 12,
-     "total": 727,
+     "total": 745,
      "tens": 10,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "484/12",
-      "Course 2": "243/12"
+      "Course 2": "261/12"
      },
      "infoId": "412310",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412310",
@@ -1948,44 +1948,44 @@
      "arrows": 96,
      "dist": {
       "Course 1": "475/17",
-      "Course 2": "232/18"
+      "Course 2": "232/22"
      },
      "infoId": "412264",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412264",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "RUS",
+     "name": "KALUGIN Viacheslav",
+     "target": "7A",
+     "pos": 18,
+     "total": 726,
+     "tens": 9,
+     "xs": 74,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "473/19",
+      "Course 2": "253/14"
+     },
+     "infoId": "412351",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412351",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "FIN",
      "name": "PIRPPU Timo",
      "target": "6D",
-     "pos": 18,
+     "pos": 19,
      "total": 705,
      "tens": 9,
      "xs": 72,
      "arrows": 96,
      "dist": {
       "Course 1": "470/21",
-      "Course 2": "235/17"
+      "Course 2": "235/21"
      },
      "infoId": "412259",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412259",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "RUS",
-     "name": "KALUGIN Viacheslav",
-     "target": "7A",
-     "pos": 19,
-     "total": 704,
-     "tens": 9,
-     "xs": 72,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "473/19",
-      "Course 2": "231/19"
-     },
-     "infoId": "412351",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412351",
      "pool": "Compound Men and Women"
     },
     {
@@ -1999,7 +1999,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "473/18",
-      "Course 2": "230/23"
+      "Course 2": "230/24"
      },
      "infoId": "412352",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412352",
@@ -2016,7 +2016,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "471/20",
-      "Course 2": "230/21"
+      "Course 2": "230/23"
      },
      "infoId": "412237",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412237",
@@ -2027,13 +2027,13 @@
      "name": "ANDERSEN Stig",
      "target": "9B",
      "pos": 22,
-     "total": 698,
+     "total": 718,
      "tens": 9,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "463/26",
-      "Course 2": "235/16"
+      "Course 2": "255/13"
      },
      "infoId": "412236",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412236",
@@ -2044,13 +2044,13 @@
      "name": "ST. AMANT Blair",
      "target": "9A",
      "pos": 23,
-     "total": 693,
+     "total": 713,
      "tens": 9,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "465/24",
-      "Course 2": "228/27"
+      "Course 2": "248/17"
      },
      "infoId": "412198",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412198",
@@ -2078,13 +2078,13 @@
      "name": "PRIETO GORRICHO Jose Manuel",
      "target": "9C",
      "pos": 25,
-     "total": 690,
+     "total": 710,
      "tens": 9,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "459/27",
-      "Course 2": "231/20"
+      "Course 2": "251/15"
      },
      "infoId": "412249",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412249",
@@ -2135,7 +2135,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "447/30",
-      "Course 2": "239/13"
+      "Course 2": "239/18"
      },
      "infoId": "412369",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412369",
@@ -2152,7 +2152,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "448/29",
-      "Course 2": "236/15"
+      "Course 2": "236/20"
      },
      "infoId": "412197",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412197",
@@ -2163,13 +2163,13 @@
      "name": "BRNAD Robert",
      "target": "9D",
      "pos": 30,
-     "total": 679,
+     "total": 698,
      "tens": 9,
-     "xs": 72,
+     "xs": 74,
      "arrows": 96,
      "dist": {
       "Course 1": "449/28",
-      "Course 2": "230/22"
+      "Course 2": "249/16"
      },
      "infoId": "412166",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412166",
@@ -2186,7 +2186,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "439/32",
-      "Course 2": "238/14"
+      "Course 2": "238/19"
      },
      "infoId": "412167",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412167",
@@ -2220,7 +2220,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "425/33",
-      "Course 2": "228/25"
+      "Course 2": "228/26"
      },
      "infoId": "412169",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412169",
@@ -2237,7 +2237,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "420/34",
-      "Course 2": "228/26"
+      "Course 2": "228/27"
      },
      "infoId": "412303",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412303",
@@ -2254,7 +2254,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "409/35",
-      "Course 2": "229/24"
+      "Course 2": "229/25"
      },
      "infoId": "412328",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412328",
@@ -2330,7 +2330,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:56:00 UTC",
+   "updated": "2026-09-30 15:58:04 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW"
   },
   {
@@ -2355,7 +2355,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "475/ 4",
-      "Course 2": "208/ 6"
+      "Course 2": "208/ 9"
      },
      "infoId": "412260",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412260",
@@ -2366,13 +2366,13 @@
      "name": "FRANCHINI Irene",
      "target": "14A",
      "pos": 2,
-     "total": 683,
+     "total": 701,
      "tens": 10,
-     "xs": 68,
+     "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "489/ 1",
-      "Course 2": "194/10"
+      "Course 2": "212/ 5"
      },
      "infoId": "412313",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412313",
@@ -2383,13 +2383,13 @@
      "name": "RONACHER Ingrid",
      "target": "14B",
      "pos": 3,
-     "total": 674,
+     "total": 694,
      "tens": 9,
-     "xs": 68,
+     "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "485/ 2",
-      "Course 2": "189/12"
+      "Course 2": "209/ 7"
      },
      "infoId": "412188",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412188",
@@ -2440,7 +2440,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "472/ 7",
-      "Course 2": "211/ 5"
+      "Course 2": "211/ 6"
      },
      "infoId": "412268",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412268",
@@ -2457,7 +2457,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "476/ 3",
-      "Course 2": "184/14"
+      "Course 2": "184/17"
      },
      "infoId": "412355",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412355",
@@ -2474,7 +2474,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "461/ 9",
-      "Course 2": "208/ 7"
+      "Course 2": "208/10"
      },
      "infoId": "412189",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412189",
@@ -2491,7 +2491,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "473/ 5",
-      "Course 2": "195/ 9"
+      "Course 2": "195/13"
      },
      "infoId": "412372",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412372",
@@ -2525,7 +2525,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "446/14",
-      "Course 2": "191/11"
+      "Course 2": "191/14"
      },
      "infoId": "412201",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412201",
@@ -2553,13 +2553,13 @@
      "name": "HIGGINS Monica",
      "target": "19A",
      "pos": 13,
-     "total": 593,
+     "total": 648,
      "tens": 9,
-     "xs": 64,
+     "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "439/16",
-      "Course 2": "154/17"
+      "Course 2": "209/ 8"
      },
      "infoId": "412199",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412199",
@@ -2576,7 +2576,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "452/11",
-      "Course 2": "175/16"
+      "Course 2": "175/20"
      },
      "infoId": "412267",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412267",
@@ -2593,24 +2593,41 @@
      "arrows": 96,
      "dist": {
       "Course 1": "436/18",
-      "Course 2": "187/13"
+      "Course 2": "187/16"
      },
      "infoId": "412314",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412314",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "RUS",
+     "name": "GUK Maria",
+     "target": "19C",
+     "pos": 16,
+     "total": 621,
+     "tens": 9,
+     "xs": 68,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "431/20",
+      "Course 2": "190/15"
+     },
+     "infoId": "412354",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412354",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "USA",
      "name": "FRANCKA Amy",
      "target": "16C",
-     "pos": 16,
+     "pos": 17,
      "total": 657,
      "tens": 9,
      "xs": 72,
      "arrows": 96,
      "dist": {
       "Course 1": "449/12",
-      "Course 2": "208/ 8"
+      "Course 2": "208/11"
      },
      "infoId": "412396",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412396",
@@ -2620,14 +2637,14 @@
      "club": "SWE",
      "name": "HELMERSSON Camilla",
      "target": "18C",
-     "pos": 17,
+     "pos": 18,
      "total": 620,
      "tens": 9,
      "xs": 68,
      "arrows": 96,
      "dist": {
       "Course 1": "445/15",
-      "Course 2": "175/15"
+      "Course 2": "175/19"
      },
      "infoId": "412382",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412382",
@@ -2637,34 +2654,17 @@
      "club": "ESP",
      "name": "PITARCH Maria",
      "target": "19B",
-     "pos": 18,
-     "total": 582,
+     "pos": 19,
+     "total": 638,
      "tens": 9,
-     "xs": 64,
+     "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "433/19",
-      "Course 2": "149/19"
+      "Course 2": "205/12"
      },
      "infoId": "412250",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412250",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "RUS",
-     "name": "GUK Maria",
-     "target": "19C",
-     "pos": 19,
-     "total": 580,
-     "tens": 9,
-     "xs": 64,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "431/20",
-      "Course 2": "149/18"
-     },
-     "infoId": "412354",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412354",
      "pool": "Compound Men and Women"
     },
     {
@@ -2678,7 +2678,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "436/17",
-      "Course 2": "143/20"
+      "Course 2": "143/21"
      },
      "infoId": "412200",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412200",
@@ -2689,13 +2689,13 @@
      "name": "DORFNER Leoni Dana",
      "target": "19D",
      "pos": 21,
-     "total": 562,
+     "total": 603,
      "tens": 8,
-     "xs": 64,
+     "xs": 68,
      "arrows": 96,
      "dist": {
       "Course 1": "428/21",
-      "Course 2": "134/23"
+      "Course 2": "175/18"
      },
      "infoId": "412293",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412293",
@@ -2712,7 +2712,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "425/22",
-      "Course 2": "136/22"
+      "Course 2": "136/23"
      },
      "infoId": "412278",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412278",
@@ -2729,7 +2729,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "422/23",
-      "Course 2": "138/21"
+      "Course 2": "138/22"
      },
      "infoId": "412395",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412395",
@@ -2890,7 +2890,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:55:27 UTC",
+   "updated": "2026-09-30 15:58:26 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW"
   },
   {
@@ -2905,12 +2905,12 @@
      "club": "DEN",
      "name": "Lag",
      "pos": 1,
-     "total": 2274,
+     "total": 2451,
      "tens": 9,
-     "xs": 250,
+     "xs": 264,
      "arrows": 384,
      "dist": {},
-     "members": "ANDERSEN Stig, ANDERSEN Klaes, CHRISTENSEN Zibrandt, EBERT Thomas",
+     "members": "ANDERSEN Stig, ANDERSEN Klaes, CHRISTENSEN Zibrandt, ØCHKENHOLT Oliver",
      "target": "",
      "pool": ""
     },
@@ -2918,38 +2918,38 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 2,
-     "total": 2164,
+     "total": 2306,
      "tens": 9,
-     "xs": 238,
+     "xs": 250,
      "arrows": 384,
      "dist": {},
-     "members": "BARET Benjamin, BUON Jérémie, GARDEUR Robin, JACKSON David",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "ITA",
-     "name": "Lag",
-     "pos": 3,
-     "total": 2031,
-     "tens": 8,
-     "xs": 228,
-     "arrows": 384,
-     "dist": {},
-     "members": "GHEDA Kevin, GODANO Michea, LAZZARONI Enzo, NOCETI Alessio",
+     "members": "ALBANESE Rémy, BUON Jérémie, GARDEUR Robin, JACKSON David",
      "target": "",
      "pool": ""
     },
     {
      "club": "USA",
      "name": "Lag",
-     "pos": 4,
-     "total": 2196,
-     "tens": 8,
-     "xs": 248,
+     "pos": 3,
+     "total": 2437,
+     "tens": 9,
+     "xs": 270,
      "arrows": 384,
      "dist": {},
-     "members": "DAVENPORT Michael, JONES Jeremiah, KANE Grady, STARKS Jon",
+     "members": "JONES Daniel, SHAW Nathan, WILKINS Lee, WINEY Adam Brown",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "ITA",
+     "name": "Lag",
+     "pos": 4,
+     "total": 2465,
+     "tens": 8,
+     "xs": 274,
+     "arrows": 384,
+     "dist": {},
+     "members": "LAZZARONI Enzo, PITTALUGA Fabio, SEIMANDI Giuseppe, SUT Jesse",
      "target": "",
      "pool": ""
     },
@@ -2957,12 +2957,12 @@
      "club": "RUS",
      "name": "Lag",
      "pos": 5,
-     "total": 2133,
+     "total": 2432,
      "tens": 8,
-     "xs": 242,
+     "xs": 272,
      "arrows": 384,
      "dist": {},
-     "members": "ALKIN Viktor, NIKONOV Ivan, PODDEVALIN Mikhail, TSYBIKZHAPOV Oleg",
+     "members": "ALKIN Viktor, DARKHANOV Viktor, PODDEVALIN Mikhail, ZUBALEVICH Artem",
      "target": "",
      "pool": ""
     },
@@ -2970,22 +2970,35 @@
      "club": "GBR",
      "name": "Lag",
      "pos": 6,
-     "total": 2137,
+     "total": 2360,
      "tens": 8,
-     "xs": 246,
+     "xs": 268,
      "arrows": 384,
      "dist": {},
-     "members": "ALLAM Steven, BALL Zachary, GRAYSON Allen, POCKETT Edward",
+     "members": "BALL Zachary, GRAYSON Allen, O'SHEA Aaron, POCKETT Edward",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "ARG",
+     "name": "Lag",
+     "pos": 7,
+     "total": 2338,
+     "tens": 8,
+     "xs": 268,
+     "arrows": 384,
+     "dist": {},
+     "members": "GIORGI Paolo, LARSEN Jorge, LOPEZ Guillermo Daniel, SALDIVIA Lucio Vidal",
      "target": "",
      "pool": ""
     },
     {
      "club": "ESP",
      "name": "Lag",
-     "pos": 7,
-     "total": 2039,
+     "pos": 8,
+     "total": 2265,
      "tens": 8,
-     "xs": 236,
+     "xs": 260,
      "arrows": 384,
      "dist": {},
      "members": "LOPEZ UBAGO Joaquin, PRIETO GORRICHO Jose Manuel, VÁZQUEZ GARCÍA Iván, VERA BRINGAS Cesar",
@@ -2995,10 +3008,10 @@
     {
      "club": "AUT",
      "name": "Lag",
-     "pos": 8,
-     "total": 1920,
+     "pos": 9,
+     "total": 2260,
      "tens": 8,
-     "xs": 226,
+     "xs": 260,
      "arrows": 384,
      "dist": {},
      "members": "HARG Franz, KLEIN-WEINBERGER Christian, SIREC Christian, WIENER Nico",
@@ -3006,51 +3019,12 @@
      "pool": ""
     },
     {
-     "club": "CRO",
-     "name": "Lag",
-     "pos": 9,
-     "total": 2036,
-     "tens": 8,
-     "xs": 240,
-     "arrows": 384,
-     "dist": {},
-     "members": "BRNAD Robert, KRUSIC Igor, MAROSEVIC Dario, VELAGIC Zoran",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "ARG",
-     "name": "Lag",
-     "pos": 10,
-     "total": 2135,
-     "tens": 8,
-     "xs": 252,
-     "arrows": 384,
-     "dist": {},
-     "members": "GIORGI Paolo, GONZALEZ Maximiliano, LARSEN Jorge, LOPEZ Guillermo Daniel",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "CAN",
-     "name": "Lag",
-     "pos": 11,
-     "total": 2132,
-     "tens": 8,
-     "xs": 252,
-     "arrows": 384,
-     "dist": {},
-     "members": "DJUKIC Jovica, PHILLIPS-WATTS Brent, ROUNDELL Ben, ST. AMANT Blair",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "SWE",
      "name": "Lag",
-     "pos": 12,
-     "total": 1781,
+     "pos": 10,
+     "total": 2349,
      "tens": 8,
-     "xs": 212,
+     "xs": 272,
      "arrows": 384,
      "dist": {},
      "members": "BENSCHJÖLD Jacob, KALLENBERG Johnny, LARSSON ÅHLSTRÖM Patrik, PETTERSSON Leo",
@@ -3058,12 +3032,51 @@
      "pool": ""
     },
     {
-     "club": "NOR",
+     "club": "CRO",
+     "name": "Lag",
+     "pos": 11,
+     "total": 2316,
+     "tens": 8,
+     "xs": 270,
+     "arrows": 384,
+     "dist": {},
+     "members": "BRNAD Robert, KRUSIC Igor, MAROSEVIC Dario, VELAGIC Zoran",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "SLO",
+     "name": "Lag",
+     "pos": 12,
+     "total": 2298,
+     "tens": 8,
+     "xs": 272,
+     "arrows": 384,
+     "dist": {},
+     "members": "KELVISAR Klemen, KOCMAN Marjan, MODIC Stas, VUILOV Andrei",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "CAN",
      "name": "Lag",
      "pos": 13,
-     "total": 1954,
+     "total": 2297,
      "tens": 8,
-     "xs": 238,
+     "xs": 272,
+     "arrows": 384,
+     "dist": {},
+     "members": "DJUKIC Jovica, PHILLIPS-WATTS Brent, ST. AMANT Blair, ZOTO Gentian",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "NOR",
+     "name": "Lag",
+     "pos": 14,
+     "total": 2250,
+     "tens": 8,
+     "xs": 270,
      "arrows": 384,
      "dist": {},
      "members": "HARBITZ Stian, ROGSTAD Marius, SIGVARTSEN Morten, SORLIE Lars M",
@@ -3071,34 +3084,21 @@
      "pool": ""
     },
     {
-     "club": "SLO",
-     "name": "Lag",
-     "pos": 14,
-     "total": 1944,
-     "tens": 8,
-     "xs": 238,
-     "arrows": 384,
-     "dist": {},
-     "members": "BRENK Aljaz Matija, KELVISAR Klemen, KOCMAN Marjan, VUILOV Andrei",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "MEX",
      "name": "Lag",
      "pos": 15,
-     "total": 2007,
+     "total": 2128,
      "tens": 8,
-     "xs": 248,
+     "xs": 262,
      "arrows": 384,
      "dist": {},
-     "members": "BENAVIDES Gilberto, CARO CORPUS Rafael Antonio, JAVALERA Erick, NUÑEZ MARTÍNEZ Fernando",
+     "members": "BENAVIDES Gilberto, JAVALERA Erick, LOZANO RODRIGUEZ David, NUÑEZ MARTÍNEZ Fernando",
      "target": "",
      "pool": ""
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:38:51 UTC",
+   "updated": "2026-09-30 15:58:27 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=1&Event[]=MT&Event[]=WT&Event[]=CX"
   },
   {
@@ -3113,12 +3113,12 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 1,
-     "total": 2183,
+     "total": 2317,
      "tens": 8,
-     "xs": 250,
+     "xs": 266,
      "arrows": 384,
      "dist": {},
-     "members": "BALDO Elisa, BASSI Iuana, NOZIGLIA Cinzia, SALTALAMACCHIA Serena",
+     "members": "BASSI Iuana, FRANCHINI Irene, NOZIGLIA Cinzia, SALTALAMACCHIA Serena",
      "target": "",
      "pool": ""
     },
@@ -3126,12 +3126,12 @@
      "club": "AUT",
      "name": "Lag",
      "pos": 2,
-     "total": 2115,
+     "total": 2296,
      "tens": 8,
-     "xs": 246,
+     "xs": 264,
      "arrows": 384,
      "dist": {},
-     "members": "LEITNER Rosemarie, PITSCHMANN Johanna, STEINER Brigitte, WEINBERGER Claudia",
+     "members": "LEITNER Rosemarie, PITSCHMANN Johanna, RONACHER Ingrid, WEINBERGER Claudia",
      "target": "",
      "pool": ""
     },
@@ -3139,9 +3139,9 @@
      "club": "USA",
      "name": "Lag",
      "pos": 3,
-     "total": 2094,
+     "total": 2245,
      "tens": 8,
-     "xs": 250,
+     "xs": 268,
      "arrows": 384,
      "dist": {},
      "members": "BATES Joella, FRANCKA Amy, JONES Ava, JONES Julie",
@@ -3152,35 +3152,22 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 4,
-     "total": 2090,
+     "total": 2215,
      "tens": 8,
-     "xs": 250,
+     "xs": 266,
      "arrows": 384,
      "dist": {},
-     "members": "CHEVRIER Virginie, LAFAURIE Cecile, NOIROT Auriane, SORAIS CHATEAUGIRON Anne",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "RUS",
-     "name": "Lag",
-     "pos": 5,
-     "total": 1997,
-     "tens": 8,
-     "xs": 246,
-     "arrows": 384,
-     "dist": {},
-     "members": "KURNEEVA Liudmila, MITULIA Kseniia, SARUKHANOVA Anna, TIMOFEEVA Olga",
+     "members": "AMA-CORMERAIS Aude, BAUMERT Alicia, LAFAURIE Cecile, SORAIS CHATEAUGIRON Anne",
      "target": "",
      "pool": ""
     },
     {
      "club": "ESP",
      "name": "Lag",
-     "pos": 6,
-     "total": 1981,
+     "pos": 5,
+     "total": 2154,
      "tens": 8,
-     "xs": 246,
+     "xs": 266,
      "arrows": 384,
      "dist": {},
      "members": "CANO GARCIA Ana Maria, GARRIDO LAZARO Encarna, PALACIO PÉREZ Aía, PITARCH Maria",
@@ -3188,12 +3175,25 @@
      "pool": ""
     },
     {
+     "club": "RUS",
+     "name": "Lag",
+     "pos": 6,
+     "total": 2100,
+     "tens": 8,
+     "xs": 260,
+     "arrows": 384,
+     "dist": {},
+     "members": "KURNEEVA Liudmila, MITULIA Kseniia, SARUKHANOVA Anna, TIMOFEEVA Olga",
+     "target": "",
+     "pool": ""
+    },
+    {
      "club": "GBR",
      "name": "Lag",
      "pos": 7,
-     "total": 1936,
+     "total": 2053,
      "tens": 7,
-     "xs": 244,
+     "xs": 258,
      "arrows": 384,
      "dist": {},
      "members": "BRUGUIER Isabella, JONES Georgiana, REES Elizabeth, REESE Isabel",
@@ -3204,9 +3204,9 @@
      "club": "DEN",
      "name": "Lag",
      "pos": 8,
-     "total": 1942,
+     "total": 2053,
      "tens": 7,
-     "xs": 246,
+     "xs": 264,
      "arrows": 384,
      "dist": {},
      "members": "BRUMMER Laila, HAUGE Louise, HOLTEN Rikke, JENSEN Penille",
@@ -3217,12 +3217,12 @@
      "club": "CAN",
      "name": "Lag",
      "pos": 9,
-     "total": 1881,
+     "total": 1968,
      "tens": 7,
-     "xs": 244,
+     "xs": 256,
      "arrows": 384,
      "dist": {},
-     "members": "DRYDEN Trudy, SPARKES Miranda, VAN DER GIESSEN Sabrina, WIENS Andrea",
+     "members": "DRYDEN Trudy, HIGGINS Monica, SPARKES Miranda, VAN DER GIESSEN Sabrina",
      "target": "",
      "pool": ""
     },
@@ -3230,9 +3230,9 @@
      "club": "ARG",
      "name": "Lag",
      "pos": 10,
-     "total": 1602,
+     "total": 1665,
      "tens": 6,
-     "xs": 234,
+     "xs": 242,
      "arrows": 384,
      "dist": {},
      "members": "ESCALADA Carolina, GENTA Yesica Carla, MARTINEZ Elis Daniela, VERDUN Verónica Patricia",
@@ -3241,7 +3241,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:38:51 UTC",
+   "updated": "2026-09-30 15:58:27 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=1&Event[]=MT&Event[]=WT&Event[]=CX"
   },
   {
@@ -3253,38 +3253,64 @@
    "distances": [],
    "field": [
     {
-     "club": "ITA",
+     "club": "AUT",
      "name": "Lag",
      "pos": 1,
-     "total": 1202,
+     "total": 1450,
      "tens": 10,
-     "xs": 120,
+     "xs": 142,
      "arrows": 192,
      "dist": {},
-     "members": "BALDO Elisa, GODANO Michea",
+     "members": "RONACHER Ingrid, WIENER Nico",
      "target": "",
      "pool": ""
     },
     {
-     "club": "AUT",
+     "club": "ITA",
      "name": "Lag",
      "pos": 2,
-     "total": 1199,
-     "tens": 9,
-     "xs": 120,
+     "total": 1464,
+     "tens": 10,
+     "xs": 144,
      "arrows": 192,
      "dist": {},
-     "members": "STEINER Brigitte, WIENER Nico",
+     "members": "FRANCHINI Irene, SUT Jesse",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "FRA",
+     "name": "Lag",
+     "pos": 3,
+     "total": 1476,
+     "tens": 10,
+     "xs": 146,
+     "arrows": 192,
+     "dist": {},
+     "members": "AMA-CORMERAIS Aude, ALBANESE Rémy",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "RUS",
+     "name": "Lag",
+     "pos": 4,
+     "total": 1409,
+     "tens": 9,
+     "xs": 142,
+     "arrows": 192,
+     "dist": {},
+     "members": "SARUKHANOVA Anna, ZUBALEVICH Artem",
      "target": "",
      "pool": ""
     },
     {
      "club": "FIN",
      "name": "Lag",
-     "pos": 3,
-     "total": 1289,
+     "pos": 5,
+     "total": 1388,
      "tens": 9,
-     "xs": 130,
+     "xs": 140,
      "arrows": 192,
      "dist": {},
      "members": "LAURILA Anne, PIRPPU Timo",
@@ -3292,38 +3318,25 @@
      "pool": ""
     },
     {
-     "club": "FRA",
+     "club": "SLO",
      "name": "Lag",
-     "pos": 4,
-     "total": 1351,
+     "pos": 6,
+     "total": 1442,
      "tens": 9,
-     "xs": 138,
+     "xs": 146,
      "arrows": 192,
      "dist": {},
-     "members": "NOIROT Auriane, BARET Benjamin",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "RUS",
-     "name": "Lag",
-     "pos": 5,
-     "total": 1286,
-     "tens": 9,
-     "xs": 132,
-     "arrows": 192,
-     "dist": {},
-     "members": "SARUKHANOVA Anna, NIKONOV Ivan",
+     "members": "REJEC Meta, MODIC Stas",
      "target": "",
      "pool": ""
     },
     {
      "club": "SWE",
      "name": "Lag",
-     "pos": 6,
-     "total": 1094,
+     "pos": 7,
+     "total": 1388,
      "tens": 9,
-     "xs": 114,
+     "xs": 142,
      "arrows": 192,
      "dist": {},
      "members": "HELMERSSON Camilla, BENSCHJÖLD Jacob",
@@ -3331,12 +3344,25 @@
      "pool": ""
     },
     {
+     "club": "USA",
+     "name": "Lag",
+     "pos": 8,
+     "total": 1422,
+     "tens": 9,
+     "xs": 146,
+     "arrows": 192,
+     "dist": {},
+     "members": "FRANCKA Amy, WINEY Adam Brown",
+     "target": "",
+     "pool": ""
+    },
+    {
      "club": "DEN",
      "name": "Lag",
-     "pos": 7,
-     "total": 1323,
+     "pos": 9,
+     "total": 1404,
      "tens": 9,
-     "xs": 138,
+     "xs": 146,
      "arrows": 192,
      "dist": {},
      "members": "JENSEN Penille, ANDERSEN Stig",
@@ -3344,41 +3370,15 @@
      "pool": ""
     },
     {
-     "club": "SLO",
-     "name": "Lag",
-     "pos": 8,
-     "total": 1298,
-     "tens": 9,
-     "xs": 136,
-     "arrows": 192,
-     "dist": {},
-     "members": "KRIZE Barbra Pia, BRENK Aljaz Matija",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "USA",
-     "name": "Lag",
-     "pos": 9,
-     "total": 1273,
-     "tens": 9,
-     "xs": 134,
-     "arrows": 192,
-     "dist": {},
-     "members": "FRANCKA Amy, KANE Grady",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "CAN",
      "name": "Lag",
      "pos": 10,
-     "total": 1291,
+     "total": 1361,
      "tens": 9,
-     "xs": 136,
+     "xs": 144,
      "arrows": 192,
      "dist": {},
-     "members": "WIENS Andrea, ST. AMANT Blair",
+     "members": "HIGGINS Monica, ST. AMANT Blair",
      "target": "",
      "pool": ""
     },
@@ -3386,9 +3386,9 @@
      "club": "GBR",
      "name": "Lag",
      "pos": 11,
-     "total": 1218,
+     "total": 1261,
      "tens": 9,
-     "xs": 130,
+     "xs": 134,
      "arrows": 192,
      "dist": {},
      "members": "BRUGUIER Isabella, BALL Zachary",
@@ -3399,9 +3399,9 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 12,
-     "total": 1250,
+     "total": 1348,
      "tens": 9,
-     "xs": 134,
+     "xs": 144,
      "arrows": 192,
      "dist": {},
      "members": "PITARCH Maria, PRIETO GORRICHO Jose Manuel",
@@ -3412,9 +3412,9 @@
      "club": "MEX",
      "name": "Lag",
      "pos": 13,
-     "total": 1187,
+     "total": 1223,
      "tens": 9,
-     "xs": 130,
+     "xs": 134,
      "arrows": 192,
      "dist": {},
      "members": "BENAVENTE Maria, BENAVIDES Gilberto",
@@ -3425,9 +3425,9 @@
      "club": "AUS",
      "name": "Lag",
      "pos": 14,
-     "total": 1082,
+     "total": 1123,
      "tens": 8,
-     "xs": 122,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "GRIFFITHS Emily, SAMI Alex",
@@ -3438,9 +3438,9 @@
      "club": "ARG",
      "name": "Lag",
      "pos": 15,
-     "total": 1074,
+     "total": 1116,
      "tens": 8,
-     "xs": 126,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
      "members": "GENTA Yesica Carla, GIORGI Paolo",
@@ -3451,9 +3451,9 @@
      "club": "IRL",
      "name": "Lag",
      "pos": 16,
-     "total": 973,
-     "tens": 7,
-     "xs": 122,
+     "total": 1009,
+     "tens": 8,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "O'CONNOR Sharon, O'CONNOR Alan",
@@ -3464,9 +3464,9 @@
      "club": "CHI",
      "name": "Lag",
      "pos": 17,
-     "total": 900,
+     "total": 936,
      "tens": 7,
-     "xs": 122,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "BRILLADERO Constanza, TREJOS Diego",
@@ -3475,7 +3475,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:38:51 UTC",
+   "updated": "2026-09-30 15:58:27 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=1&Event[]=MT&Event[]=WT&Event[]=CX"
   },
   {
@@ -4230,7 +4230,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "406/13",
-      "Course 2": "128/ 9"
+      "Course 2": "128/11"
      },
      "infoId": "412284",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412284",
@@ -4241,13 +4241,13 @@
      "name": "BAUMERT Alicia",
      "target": "4B",
      "pos": 10,
-     "total": 509,
+     "total": 527,
      "tens": 8,
-     "xs": 62,
+     "xs": 64,
      "arrows": 96,
      "dist": {
       "Course 1": "394/14",
-      "Course 2": "115/10"
+      "Course 2": "133/ 9"
      },
      "infoId": "412270",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412270",
@@ -4264,7 +4264,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "410/10",
-      "Course 2": "115/11"
+      "Course 2": "115/13"
      },
      "infoId": "412271",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412271",
@@ -4289,36 +4289,36 @@
     },
     {
      "club": "RUS",
-     "name": "IAKUNINA Kristina",
-     "target": "3C",
+     "name": "BLANTER Yulia",
+     "target": "4C",
      "pos": 13,
      "total": 521,
      "tens": 8,
      "xs": 64,
      "arrows": 96,
      "dist": {
-      "Course 1": "408/11",
-      "Course 2": "113/12"
+      "Course 1": "392/15",
+      "Course 2": "129/10"
      },
-     "infoId": "412360",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412360",
+     "infoId": "412359",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412359",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
      "club": "RUS",
-     "name": "BLANTER Yulia",
-     "target": "4C",
+     "name": "IAKUNINA Kristina",
+     "target": "3C",
      "pos": 14,
-     "total": 503,
+     "total": 521,
      "tens": 8,
-     "xs": 62,
+     "xs": 64,
      "arrows": 96,
      "dist": {
-      "Course 1": "392/15",
-      "Course 2": "111/13"
+      "Course 1": "408/11",
+      "Course 2": "113/14"
      },
-     "infoId": "412359",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412359",
+     "infoId": "412360",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412360",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4326,13 +4326,13 @@
      "name": "CANO GARCIA Ana Maria",
      "target": "4D",
      "pos": 15,
-     "total": 501,
+     "total": 517,
      "tens": 8,
-     "xs": 62,
+     "xs": 64,
      "arrows": 96,
      "dist": {
       "Course 1": "391/16",
-      "Course 2": "110/14"
+      "Course 2": "126/12"
      },
      "infoId": "412252",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412252",
@@ -4510,7 +4510,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:56:52 UTC",
+   "updated": "2026-09-30 15:57:47 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW"
   },
   {
@@ -4858,7 +4858,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "365/14",
-      "Course 2": "106/22"
+      "Course 2": "106/23"
      },
      "infoId": "412349",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412349",
@@ -4892,7 +4892,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "364/15",
-      "Course 2": "104/23"
+      "Course 2": "104/24"
      },
      "infoId": "412340",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412340",
@@ -4926,7 +4926,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "328/23",
-      "Course 2": "100/24"
+      "Course 2": "100/25"
      },
      "infoId": "412246",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412246",
@@ -4937,13 +4937,13 @@
      "name": "VICENCIO OROSCO Nancy Alejandra",
      "target": "24A",
      "pos": 25,
-     "total": 403,
+     "total": 418,
      "tens": 6,
-     "xs": 64,
+     "xs": 66,
      "arrows": 96,
      "dist": {
       "Course 1": "326/25",
-      "Course 2": "77/28"
+      "Course 2": "92/26"
      },
      "infoId": "412341",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412341",
@@ -4954,13 +4954,13 @@
      "name": "DEMELO Karen Ann",
      "target": "24B",
      "pos": 26,
-     "total": 389,
+     "total": 407,
      "tens": 6,
-     "xs": 64,
+     "xs": 66,
      "arrows": 96,
      "dist": {
       "Course 1": "301/26",
-      "Course 2": "88/27"
+      "Course 2": "106/22"
      },
      "infoId": "412211",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412211",
@@ -4977,7 +4977,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "286/27",
-      "Course 2": "91/25"
+      "Course 2": "91/27"
      },
      "infoId": "412307",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412307",
@@ -4994,7 +4994,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "286/28",
-      "Course 2": "89/26"
+      "Course 2": "89/28"
      },
      "infoId": "412179",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412179",
@@ -5002,7 +5002,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:56:06 UTC",
+   "updated": "2026-09-30 15:58:19 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW"
   },
   {
@@ -5017,12 +5017,12 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 1,
-     "total": 1144,
+     "total": 1245,
      "tens": 9,
-     "xs": 120,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
-     "members": "NOZIGLIA Cinzia, NOCETI Alessio",
+     "members": "NOZIGLIA Cinzia, SEIMANDI Giuseppe",
      "target": "",
      "pool": ""
     },
@@ -5030,12 +5030,12 @@
      "club": "USA",
      "name": "Lag",
      "pos": 2,
-     "total": 1124,
+     "total": 1222,
      "tens": 9,
-     "xs": 120,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
-     "members": "JONES Ava, JONES Jeremiah",
+     "members": "JONES Ava, SHAW Nathan",
      "target": "",
      "pool": ""
     },
@@ -5043,9 +5043,9 @@
      "club": "AUT",
      "name": "Lag",
      "pos": 3,
-     "total": 1042,
+     "total": 1095,
      "tens": 9,
-     "xs": 112,
+     "xs": 118,
      "arrows": 192,
      "dist": {},
      "members": "LEITNER Rosemarie, KLEIN-WEINBERGER Christian",
@@ -5053,25 +5053,12 @@
      "pool": ""
     },
     {
-     "club": "FRA",
-     "name": "Lag",
-     "pos": 4,
-     "total": 1065,
-     "tens": 9,
-     "xs": 116,
-     "arrows": 192,
-     "dist": {},
-     "members": "CHEVRIER Virginie, JACKSON David",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "GER",
      "name": "Lag",
-     "pos": 5,
-     "total": 1040,
+     "pos": 4,
+     "total": 1095,
      "tens": 9,
-     "xs": 114,
+     "xs": 120,
      "arrows": 192,
      "dist": {},
      "members": "SCHÄFER Christine, SCHAEFER Rüdiger",
@@ -5081,13 +5068,26 @@
     {
      "club": "DEN",
      "name": "Lag",
-     "pos": 6,
-     "total": 1093,
-     "tens": 8,
-     "xs": 124,
+     "pos": 5,
+     "total": 1204,
+     "tens": 9,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
-     "members": "HAUGE Louise, EBERT Thomas",
+     "members": "HAUGE Louise, ØCHKENHOLT Oliver",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "FRA",
+     "name": "Lag",
+     "pos": 6,
+     "total": 1080,
+     "tens": 9,
+     "xs": 120,
+     "arrows": 192,
+     "dist": {},
+     "members": "BAUMERT Alicia, JACKSON David",
      "target": "",
      "pool": ""
     },
@@ -5095,9 +5095,9 @@
      "club": "ESP",
      "name": "Lag",
      "pos": 7,
-     "total": 1022,
+     "total": 1059,
      "tens": 8,
-     "xs": 116,
+     "xs": 120,
      "arrows": 192,
      "dist": {},
      "members": "CANO GARCIA Ana Maria, VERA BRINGAS Cesar",
@@ -5108,9 +5108,9 @@
      "club": "GBR",
      "name": "Lag",
      "pos": 8,
-     "total": 1054,
+     "total": 1145,
      "tens": 8,
-     "xs": 120,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
      "members": "REES Elizabeth, POCKETT Edward",
@@ -5121,12 +5121,12 @@
      "club": "RUS",
      "name": "Lag",
      "pos": 9,
-     "total": 1087,
+     "total": 1126,
      "tens": 8,
-     "xs": 124,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
-     "members": "MITULIA Kseniia, TSYBIKZHAPOV Oleg",
+     "members": "MITULIA Kseniia, DARKHANOV Viktor",
      "target": "",
      "pool": ""
     },
@@ -5134,9 +5134,9 @@
      "club": "NOR",
      "name": "Lag",
      "pos": 10,
-     "total": 1030,
+     "total": 1071,
      "tens": 8,
-     "xs": 120,
+     "xs": 124,
      "arrows": 192,
      "dist": {},
      "members": "INGVALDSEN Kristina, SORLIE Lars M",
@@ -5147,9 +5147,9 @@
      "club": "ARG",
      "name": "Lag",
      "pos": 11,
-     "total": 1019,
+     "total": 1051,
      "tens": 8,
-     "xs": 122,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "MARTINEZ Elis Daniela, LARSEN Jorge",
@@ -5160,9 +5160,9 @@
      "club": "CZE",
      "name": "Lag",
      "pos": 12,
-     "total": 1017,
+     "total": 1042,
      "tens": 8,
-     "xs": 122,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "VEVERKOVA Tereza, DOBRÝ Jan",
@@ -5173,9 +5173,9 @@
      "club": "CAN",
      "name": "Lag",
      "pos": 13,
-     "total": 965,
+     "total": 1031,
      "tens": 8,
-     "xs": 118,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "VAN DER GIESSEN Sabrina, DJUKIC Jovica",
@@ -5184,7 +5184,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:38:51 UTC",
+   "updated": "2026-09-30 15:58:27 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=1&Event[]=MT&Event[]=WT&Event[]=BX&Event[]=TX"
   },
   {
@@ -5199,9 +5199,9 @@
      "club": "GER",
      "name": "Lag",
      "pos": 1,
-     "total": 999,
+     "total": 1043,
      "tens": 8,
-     "xs": 116,
+     "xs": 122,
      "arrows": 192,
      "dist": {},
      "members": "WENZL Judith, GLEICH Jürgen",
@@ -5212,74 +5212,22 @@
      "club": "ITA",
      "name": "Lag",
      "pos": 2,
-     "total": 977,
+     "total": 1119,
      "tens": 8,
-     "xs": 116,
+     "xs": 134,
      "arrows": 192,
      "dist": {},
-     "members": "SALTALAMACCHIA Serena, GHEDA Kevin",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "CZE",
-     "name": "Lag",
-     "pos": 3,
-     "total": 970,
-     "tens": 8,
-     "xs": 116,
-     "arrows": 192,
-     "dist": {},
-     "members": "BLAHUSOVA Martina, ROZNOVSKY Tomas",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "DEN",
-     "name": "Lag",
-     "pos": 4,
-     "total": 919,
-     "tens": 8,
-     "xs": 112,
-     "arrows": 192,
-     "dist": {},
-     "members": "HOLTEN Rikke, CHRISTENSEN Zibrandt",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "USA",
-     "name": "Lag",
-     "pos": 5,
-     "total": 995,
-     "tens": 8,
-     "xs": 122,
-     "arrows": 192,
-     "dist": {},
-     "members": "JONES Julie, STARKS Jon",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "CAN",
-     "name": "Lag",
-     "pos": 6,
-     "total": 985,
-     "tens": 8,
-     "xs": 122,
-     "arrows": 192,
-     "dist": {},
-     "members": "DRYDEN Trudy, ROUNDELL Ben",
+     "members": "SALTALAMACCHIA Serena, PITTALUGA Fabio",
      "target": "",
      "pool": ""
     },
     {
      "club": "ESP",
      "name": "Lag",
-     "pos": 7,
-     "total": 885,
+     "pos": 3,
+     "total": 1074,
      "tens": 8,
-     "xs": 110,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
      "members": "PALACIO PÉREZ Aía, LOPEZ UBAGO Joaquin",
@@ -5287,12 +5235,25 @@
      "pool": ""
     },
     {
+     "club": "USA",
+     "name": "Lag",
+     "pos": 4,
+     "total": 1069,
+     "tens": 8,
+     "xs": 130,
+     "arrows": 192,
+     "dist": {},
+     "members": "JONES Julie, JONES Daniel",
+     "target": "",
+     "pool": ""
+    },
+    {
      "club": "AUT",
      "name": "Lag",
-     "pos": 8,
-     "total": 964,
+     "pos": 5,
+     "total": 1074,
      "tens": 8,
-     "xs": 120,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "WEINBERGER Claudia, SIREC Christian",
@@ -5302,10 +5263,10 @@
     {
      "club": "SLO",
      "name": "Lag",
-     "pos": 9,
-     "total": 883,
+     "pos": 6,
+     "total": 1052,
      "tens": 8,
-     "xs": 110,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
      "members": "PAVACIC Mojca, KOCMAN Marjan",
@@ -5313,12 +5274,51 @@
      "pool": ""
     },
     {
+     "club": "CAN",
+     "name": "Lag",
+     "pos": 7,
+     "total": 1063,
+     "tens": 8,
+     "xs": 132,
+     "arrows": 192,
+     "dist": {},
+     "members": "DRYDEN Trudy, ZOTO Gentian",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "ARG",
+     "name": "Lag",
+     "pos": 8,
+     "total": 1061,
+     "tens": 8,
+     "xs": 132,
+     "arrows": 192,
+     "dist": {},
+     "members": "ESCALADA Carolina, SALDIVIA Lucio Vidal",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "GBR",
+     "name": "Lag",
+     "pos": 9,
+     "total": 1043,
+     "tens": 8,
+     "xs": 130,
+     "arrows": 192,
+     "dist": {},
+     "members": "REESE Isabel, O'SHEA Aaron",
+     "target": "",
+     "pool": ""
+    },
+    {
      "club": "SWE",
      "name": "Lag",
      "pos": 10,
-     "total": 878,
+     "total": 1051,
      "tens": 7,
-     "xs": 110,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "OSTERLUND Helena, KALLENBERG Johnny",
@@ -5329,9 +5329,9 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 11,
-     "total": 903,
+     "total": 936,
      "tens": 7,
-     "xs": 114,
+     "xs": 118,
      "arrows": 192,
      "dist": {},
      "members": "SORAIS CHATEAUGIRON Anne, BUON Jérémie",
@@ -5339,12 +5339,25 @@
      "pool": ""
     },
     {
-     "club": "RUS",
+     "club": "DEN",
      "name": "Lag",
      "pos": 12,
-     "total": 855,
+     "total": 963,
      "tens": 7,
-     "xs": 110,
+     "xs": 122,
+     "arrows": 192,
+     "dist": {},
+     "members": "HOLTEN Rikke, CHRISTENSEN Zibrandt",
+     "target": "",
+     "pool": ""
+    },
+    {
+     "club": "RUS",
+     "name": "Lag",
+     "pos": 13,
+     "total": 1039,
+     "tens": 7,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "TIMOFEEVA Olga, ALKIN Viktor",
@@ -5352,38 +5365,12 @@
      "pool": ""
     },
     {
-     "club": "GBR",
-     "name": "Lag",
-     "pos": 13,
-     "total": 930,
-     "tens": 7,
-     "xs": 120,
-     "arrows": 192,
-     "dist": {},
-     "members": "REESE Isabel, ALLAM Steven",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "MEX",
-     "name": "Lag",
-     "pos": 14,
-     "total": 922,
-     "tens": 7,
-     "xs": 122,
-     "arrows": 192,
-     "dist": {},
-     "members": "HOSSFELD Claudia, CARO CORPUS Rafael Antonio",
-     "target": "",
-     "pool": ""
-    },
-    {
      "club": "NOR",
      "name": "Lag",
-     "pos": 15,
-     "total": 830,
+     "pos": 14,
+     "total": 1028,
      "tens": 7,
-     "xs": 110,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "NERGAARD Monicha, HARBITZ Stian",
@@ -5391,38 +5378,38 @@
      "pool": ""
     },
     {
-     "club": "ARG",
+     "club": "CZE",
      "name": "Lag",
-     "pos": 16,
-     "total": 913,
+     "pos": 15,
+     "total": 1013,
      "tens": 7,
-     "xs": 122,
+     "xs": 134,
      "arrows": 192,
      "dist": {},
-     "members": "ESCALADA Carolina, GONZALEZ Maximiliano",
+     "members": "BLAHUSOVA Martina, MADURKAY Petr",
      "target": "",
      "pool": ""
     },
     {
-     "club": "IRL",
+     "club": "MEX",
      "name": "Lag",
-     "pos": 17,
-     "total": 906,
+     "pos": 16,
+     "total": 979,
      "tens": 7,
-     "xs": 122,
+     "xs": 130,
      "arrows": 192,
      "dist": {},
-     "members": "JAY Michelle, BALAZ Marek",
+     "members": "HOSSFELD Claudia, LOZANO RODRIGUEZ David",
      "target": "",
      "pool": ""
     },
     {
      "club": "URU",
      "name": "Lag",
-     "pos": 18,
-     "total": 860,
+     "pos": 17,
+     "total": 946,
      "tens": 7,
-     "xs": 116,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "ZAPATA ACOSTA Daniela Gabriela, ROSANO Gonzalo",
@@ -5430,12 +5417,25 @@
      "pool": ""
     },
     {
+     "club": "IRL",
+     "name": "Lag",
+     "pos": 18,
+     "total": 950,
+     "tens": 7,
+     "xs": 130,
+     "arrows": 192,
+     "dist": {},
+     "members": "JAY Michelle, BALAZ Marek",
+     "target": "",
+     "pool": ""
+    },
+    {
      "club": "ISR",
      "name": "Lag",
      "pos": 19,
-     "total": 692,
+     "total": 765,
      "tens": 5,
-     "xs": 116,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "YAEGER Marietta, YAEGER Yossef",
@@ -5444,7 +5444,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:38:51 UTC",
+   "updated": "2026-09-30 15:58:27 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=1&Event[]=MT&Event[]=WT&Event[]=BX&Event[]=TX"
   },
   {
@@ -5537,7 +5537,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "399/ 3",
-      "Course 2": "151/14"
+      "Course 2": "151/16"
      },
      "infoId": "412405",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412405",
@@ -5588,7 +5588,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "375/ 9",
-      "Course 2": "151/13"
+      "Course 2": "151/14"
      },
      "infoId": "412404",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412404",
@@ -5605,7 +5605,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "383/ 5",
-      "Course 2": "140/19"
+      "Course 2": "140/22"
      },
      "infoId": "412273",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412273",
@@ -5622,7 +5622,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "367/10",
-      "Course 2": "153/10"
+      "Course 2": "153/11"
      },
      "infoId": "412286",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412286",
@@ -5656,7 +5656,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "353/13",
-      "Course 2": "151/12"
+      "Course 2": "151/13"
      },
      "infoId": "412224",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412224",
@@ -5673,7 +5673,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "355/12",
-      "Course 2": "148/15"
+      "Course 2": "148/17"
      },
      "infoId": "412362",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412362",
@@ -5707,7 +5707,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "348/14",
-      "Course 2": "152/11"
+      "Course 2": "152/12"
      },
      "infoId": "412319",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412319",
@@ -5724,7 +5724,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "338/17",
-      "Course 2": "154/ 9"
+      "Course 2": "154/10"
      },
      "infoId": "412389",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412389",
@@ -5741,7 +5741,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "330/19",
-      "Course 2": "143/17"
+      "Course 2": "143/20"
      },
      "infoId": "412192",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412192",
@@ -5758,7 +5758,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "331/18",
-      "Course 2": "142/18"
+      "Course 2": "142/21"
      },
      "infoId": "412287",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412287",
@@ -5775,7 +5775,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "339/16",
-      "Course 2": "131/24"
+      "Course 2": "131/25"
      },
      "infoId": "412207",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412207",
@@ -5786,13 +5786,13 @@
      "name": "ZEILER NIELSEN Peter",
      "target": "16A",
      "pos": 20,
-     "total": 450,
+     "total": 468,
      "tens": 6,
-     "xs": 66,
+     "xs": 68,
      "arrows": 96,
      "dist": {
       "Course 1": "321/21",
-      "Course 2": "129/25"
+      "Course 2": "147/18"
      },
      "infoId": "412244",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412244",
@@ -5816,37 +5816,37 @@
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
+     "club": "MEX",
+     "name": "NUÑEZ MARTÍNEZ Fernando",
+     "target": "16C",
+     "pos": 22,
+     "total": 453,
+     "tens": 6,
+     "xs": 68,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "296/23",
+      "Course 2": "157/ 8"
+     },
+     "infoId": "412339",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412339",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
      "club": "GBR",
      "name": "EDWARDS Ian",
      "target": "16B",
-     "pos": 22,
+     "pos": 23,
      "total": 451,
      "tens": 6,
      "xs": 68,
      "arrows": 96,
      "dist": {
       "Course 1": "305/22",
-      "Course 2": "146/16"
+      "Course 2": "146/19"
      },
      "infoId": "412285",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412285",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "MEX",
-     "name": "NUÑEZ MARTÍNEZ Fernando",
-     "target": "16C",
-     "pos": 23,
-     "total": 435,
-     "tens": 6,
-     "xs": 66,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "296/23",
-      "Course 2": "139/20"
-     },
-     "infoId": "412339",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412339",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -5854,13 +5854,13 @@
      "name": "LARSSON ÅHLSTRÖM Patrik",
      "target": "16D",
      "pos": 24,
-     "total": 423,
+     "total": 441,
      "tens": 6,
-     "xs": 66,
+     "xs": 68,
      "arrows": 96,
      "dist": {
       "Course 1": "290/25",
-      "Course 2": "133/23"
+      "Course 2": "151/15"
      },
      "infoId": "412385",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412385",
@@ -5877,7 +5877,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "291/24",
-      "Course 2": "134/22"
+      "Course 2": "134/24"
      },
      "infoId": "412337",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412337",
@@ -5894,7 +5894,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "288/26",
-      "Course 2": "134/21"
+      "Course 2": "134/23"
      },
      "infoId": "412348",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412348",
@@ -5987,7 +5987,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:56:55 UTC",
+   "updated": "2026-09-30 15:57:52 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM"
   },
   {
@@ -6986,9 +6986,9 @@
      "club": "FRA",
      "name": "Lag",
      "pos": 1,
-     "total": 935,
+     "total": 1029,
      "tens": 7,
-     "xs": 120,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "LAFAURIE Cecile, GARDEUR Robin",
@@ -6999,9 +6999,9 @@
      "club": "RUS",
      "name": "Lag",
      "pos": 2,
-     "total": 902,
+     "total": 958,
      "tens": 7,
-     "xs": 122,
+     "xs": 128,
      "arrows": 192,
      "dist": {},
      "members": "KURNEEVA Liudmila, PODDEVALIN Mikhail",
@@ -7012,35 +7012,22 @@
      "club": "USA",
      "name": "Lag",
      "pos": 3,
-     "total": 898,
+     "total": 969,
      "tens": 7,
-     "xs": 122,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
-     "members": "BATES Joella, DAVENPORT Michael",
-     "target": "",
-     "pool": ""
-    },
-    {
-     "club": "ITA",
-     "name": "Lag",
-     "pos": 4,
-     "total": 891,
-     "tens": 7,
-     "xs": 122,
-     "arrows": 192,
-     "dist": {},
-     "members": "BASSI Iuana, LAZZARONI Enzo",
+     "members": "BATES Joella, WILKINS Lee",
      "target": "",
      "pool": ""
     },
     {
      "club": "GBR",
      "name": "Lag",
-     "pos": 5,
-     "total": 871,
+     "pos": 4,
+     "total": 964,
      "tens": 7,
-     "xs": 120,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "JONES Georgiana, GRAYSON Allen",
@@ -7050,10 +7037,10 @@
     {
      "club": "DEN",
      "name": "Lag",
-     "pos": 6,
-     "total": 881,
+     "pos": 5,
+     "total": 933,
      "tens": 7,
-     "xs": 122,
+     "xs": 128,
      "arrows": 192,
      "dist": {},
      "members": "BRUMMER Laila, ANDERSEN Klaes",
@@ -7061,12 +7048,25 @@
      "pool": ""
     },
     {
+     "club": "ITA",
+     "name": "Lag",
+     "pos": 6,
+     "total": 954,
+     "tens": 7,
+     "xs": 132,
+     "arrows": 192,
+     "dist": {},
+     "members": "BASSI Iuana, LAZZARONI Enzo",
+     "target": "",
+     "pool": ""
+    },
+    {
      "club": "ESP",
      "name": "Lag",
      "pos": 7,
-     "total": 863,
+     "total": 938,
      "tens": 7,
-     "xs": 122,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "GARRIDO LAZARO Encarna, VÁZQUEZ GARCÍA Iván",
@@ -7077,9 +7077,9 @@
      "club": "AUT",
      "name": "Lag",
      "pos": 8,
-     "total": 830,
-     "tens": 6,
-     "xs": 120,
+     "total": 937,
+     "tens": 7,
+     "xs": 132,
      "arrows": 192,
      "dist": {},
      "members": "PITSCHMANN Johanna, HARG Franz",
@@ -7090,9 +7090,9 @@
      "club": "CZE",
      "name": "Lag",
      "pos": 9,
-     "total": 829,
+     "total": 881,
      "tens": 6,
-     "xs": 120,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "DVORAKOVA Petra, MULLER Martin",
@@ -7103,9 +7103,9 @@
      "club": "CAN",
      "name": "Lag",
      "pos": 10,
-     "total": 772,
+     "total": 810,
      "tens": 6,
-     "xs": 120,
+     "xs": 126,
      "arrows": 192,
      "dist": {},
      "members": "SPARKES Miranda, PHILLIPS-WATTS Brent",
@@ -7116,9 +7116,9 @@
      "club": "ARG",
      "name": "Lag",
      "pos": 11,
-     "total": 731,
+     "total": 775,
      "tens": 6,
-     "xs": 116,
+     "xs": 122,
      "arrows": 192,
      "dist": {},
      "members": "VERDUN Verónica Patricia, LOPEZ Guillermo Daniel",
@@ -7129,9 +7129,9 @@
      "club": "SLO",
      "name": "Lag",
      "pos": 12,
-     "total": 678,
+     "total": 709,
      "tens": 5,
-     "xs": 116,
+     "xs": 122,
      "arrows": 192,
      "dist": {},
      "members": "LJUBEJ Tanja, VUILOV Andrei",
@@ -7140,7 +7140,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 15:38:51 UTC",
+   "updated": "2026-09-30 15:58:27 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=1&Event[]=MT&Event[]=WT&Event[]=LX&Event[]=TX"
   }
  ],
