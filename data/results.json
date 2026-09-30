@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T17:56:38Z",
+ "generated": "2026-09-30T17:57:13Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -13,7 +13,7 @@
  "files": {
   "IQCM": "2026-09-30 17:56:07",
   "IQCW": "2026-09-30 17:55:24",
-  "IQBM": "2026-09-30 17:54:11",
+  "IQBM": "2026-09-30 17:56:21",
   "IQBW": "2026-09-30 17:55:41",
   "IQLM": "2026-09-30 17:53:53",
   "IQLW": "2026-09-30 17:54:09",
@@ -33,7 +33,7 @@
   "STE": "2026-09-29 20:36:56",
   "Schedule": "2026-09-30 12:50:38",
   "STF": "2026-09-28 19:31:27",
-  "INFO": "2026-09-30 17:56:21 UTC"
+  "INFO": "2026-09-30 17:57:02 UTC"
  },
  "clubs": [
   {
@@ -3609,27 +3609,10 @@
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "DEN",
-     "name": "ØCHKENHOLT Oliver",
-     "target": "10C",
-     "pos": 8,
-     "total": 882,
-     "tens": 9,
-     "xs": 94,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "449/12",
-      "Course 2": "433/ 4"
-     },
-     "infoId": "412240",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412240",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "USA",
      "name": "HUDSON Matt",
      "target": "9A",
-     "pos": 9,
+     "pos": 8,
      "total": 788,
      "tens": 9,
      "xs": 84,
@@ -3646,17 +3629,34 @@
      "club": "ITA",
      "name": "NOCETI Alessio",
      "target": "11A",
-     "pos": 10,
+     "pos": 9,
      "total": 879,
      "tens": 9,
      "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "449/11",
-      "Course 2": "430/ 5"
+      "Course 2": "430/ 6"
      },
      "infoId": "412315",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412315",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "DEN",
+     "name": "ØCHKENHOLT Oliver",
+     "target": "10C",
+     "pos": 10,
+     "total": 897,
+     "tens": 9,
+     "xs": 96,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "449/12",
+      "Course 2": "448/ 2"
+     },
+     "infoId": "412240",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412240",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -3670,41 +3670,24 @@
      "arrows": 96,
      "dist": {
       "Course 1": "435/16",
-      "Course 2": "441/ 2"
+      "Course 2": "441/ 3"
      },
      "infoId": "412282",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412282",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "USA",
-     "name": "SHAW Nathan",
-     "target": "10D",
-     "pos": 12,
-     "total": 871,
-     "tens": 9,
-     "xs": 94,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "447/13",
-      "Course 2": "424/ 6"
-     },
-     "infoId": "412400",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412400",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "SWE",
      "name": "PETTERSSON Leo",
      "target": "10B",
-     "pos": 13,
+     "pos": 12,
      "total": 888,
      "tens": 9,
      "xs": 96,
      "arrows": 96,
      "dist": {
       "Course 1": "450/10",
-      "Course 2": "438/ 3"
+      "Course 2": "438/ 5"
      },
      "infoId": "412383",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412383",
@@ -3714,7 +3697,7 @@
      "club": "AUT",
      "name": "KLEIN-WEINBERGER Christian",
      "target": "9C",
-     "pos": 14,
+     "pos": 13,
      "total": 776,
      "tens": 9,
      "xs": 84,
@@ -3725,6 +3708,23 @@
      },
      "infoId": "412190",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412190",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "USA",
+     "name": "SHAW Nathan",
+     "target": "10D",
+     "pos": 14,
+     "total": 886,
+     "tens": 9,
+     "xs": 96,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "447/13",
+      "Course 2": "439/ 4"
+     },
+     "infoId": "412400",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412400",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -6368,7 +6368,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "459/ 1",
-      "Course 2": "434/ 1"
+      "Course 2": "434/ 2"
      },
      "infoId": "412247",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412247",
@@ -6385,7 +6385,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "432/ 2",
-      "Course 2": "430/ 2"
+      "Course 2": "430/ 3"
      },
      "infoId": "412235",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412235",
@@ -6396,13 +6396,13 @@
      "name": "GHEDA Kevin",
      "target": "2A",
      "pos": 3,
-     "total": 831,
+     "total": 849,
      "tens": 9,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "409/ 5",
-      "Course 2": "422/ 4"
+      "Course 2": "440/ 1"
      },
      "infoId": "412326",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412326",
@@ -6487,7 +6487,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "376/20",
-      "Course 2": "423/ 3"
+      "Course 2": "423/ 4"
      },
      "infoId": "412256",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412256",
@@ -6971,7 +6971,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:55:10 UTC",
+   "updated": "2026-09-30 17:57:02 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM"
   },
   {
