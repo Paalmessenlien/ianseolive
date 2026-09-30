@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T17:37:13Z",
+ "generated": "2026-09-30T17:42:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -12,13 +12,13 @@
  "defaultClub": "NOR",
  "files": {
   "IQCM": "2026-09-30 17:35:36",
-  "IQCW": "2026-09-30 17:32:04",
-  "IQBM": "2026-09-30 17:35:54",
-  "IQBW": "2026-09-30 17:36:02",
-  "IQLM": "2026-09-30 17:35:52",
-  "IQLW": "2026-09-30 17:34:06",
-  "IQTM": "2026-09-30 17:36:41",
-  "IQTW": "2026-09-30 17:36:41",
+  "IQCW": "2026-09-30 17:39:10",
+  "IQBM": "2026-09-30 17:40:54",
+  "IQBW": "2026-09-30 17:39:21",
+  "IQLM": "2026-09-30 17:41:40",
+  "IQLW": "2026-09-30 17:41:39",
+  "IQTM": "2026-09-30 17:41:36",
+  "IQTW": "2026-09-30 17:41:42",
   "TQMT": "2026-09-30 16:38:46",
   "TQWT": "2026-09-30 16:38:46",
   "TQCX": "2026-09-30 16:38:46",
@@ -33,7 +33,7 @@
   "STE": "2026-09-29 20:36:56",
   "Schedule": "2026-09-30 12:50:38",
   "STF": "2026-09-28 19:31:27",
-  "INFO": "2026-09-30 17:37:00 UTC"
+  "INFO": "2026-09-30 17:41:42 UTC"
  },
  "clubs": [
   {
@@ -1880,7 +1880,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "475/16",
-      "Course 2": "425/13"
+      "Course 2": "425/17"
      },
      "infoId": "412277",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412277",
@@ -1897,7 +1897,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "478/14",
-      "Course 2": "416/15"
+      "Course 2": "416/19"
      },
      "infoId": "412392",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412392",
@@ -1914,7 +1914,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "476/15",
-      "Course 2": "417/14"
+      "Course 2": "417/18"
      },
      "infoId": "412196",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412196",
@@ -1925,13 +1925,13 @@
      "name": "NIELSEN Mathias Nedergård",
      "target": "6C",
      "pos": 16,
-     "total": 885,
+     "total": 906,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "471/20",
-      "Course 2": "414/16"
+      "Course 2": "435/13"
      },
      "infoId": "412237",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412237",
@@ -1942,13 +1942,13 @@
      "name": "NIKONOV Ivan",
      "target": "6B",
      "pos": 17,
-     "total": 884,
+     "total": 905,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "473/18",
-      "Course 2": "411/17"
+      "Course 2": "432/14"
      },
      "infoId": "412352",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412352",
@@ -1959,13 +1959,13 @@
      "name": "BARET Benjamin",
      "target": "6A",
      "pos": 18,
-     "total": 884,
+     "total": 904,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "475/17",
-      "Course 2": "409/18"
+      "Course 2": "429/15"
      },
      "infoId": "412264",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412264",
@@ -1989,10 +1989,27 @@
      "pool": "Compound Men and Women"
     },
     {
+     "club": "FIN",
+     "name": "PIRPPU Timo",
+     "target": "6D",
+     "pos": 20,
+     "total": 899,
+     "tens": 9,
+     "xs": 92,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "470/21",
+      "Course 2": "429/16"
+     },
+     "infoId": "412259",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412259",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "RUS",
      "name": "KALUGIN Viacheslav",
      "target": "7A",
-     "pos": 20,
+     "pos": 21,
      "total": 878,
      "tens": 9,
      "xs": 90,
@@ -2009,7 +2026,7 @@
      "club": "DEN",
      "name": "ANDERSEN Stig",
      "target": "9B",
-     "pos": 21,
+     "pos": 22,
      "total": 839,
      "tens": 9,
      "xs": 86,
@@ -2020,23 +2037,6 @@
      },
      "infoId": "412236",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412236",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "FIN",
-     "name": "PIRPPU Timo",
-     "target": "6D",
-     "pos": 22,
-     "total": 878,
-     "tens": 9,
-     "xs": 90,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "470/21",
-      "Course 2": "408/19"
-     },
-     "infoId": "412259",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412259",
      "pool": "Compound Men and Women"
     },
     {
@@ -2355,7 +2355,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "485/ 2",
-      "Course 2": "251/15"
+      "Course 2": "251/19"
      },
      "infoId": "412188",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412188",
@@ -2372,7 +2372,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "489/ 1",
-      "Course 2": "246/17"
+      "Course 2": "246/21"
      },
      "infoId": "412313",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412313",
@@ -2389,7 +2389,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "475/ 4",
-      "Course 2": "259/11"
+      "Course 2": "259/15"
      },
      "infoId": "412260",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412260",
@@ -2406,7 +2406,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "473/ 6",
-      "Course 2": "255/12"
+      "Course 2": "255/16"
      },
      "infoId": "412312",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412312",
@@ -2423,7 +2423,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "468/ 8",
-      "Course 2": "239/18"
+      "Course 2": "239/22"
      },
      "infoId": "412266",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412266",
@@ -2440,7 +2440,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "472/ 7",
-      "Course 2": "252/14"
+      "Course 2": "252/18"
      },
      "infoId": "412268",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412268",
@@ -2457,7 +2457,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "476/ 3",
-      "Course 2": "236/20"
+      "Course 2": "236/24"
      },
      "infoId": "412355",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412355",
@@ -2474,7 +2474,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "461/ 9",
-      "Course 2": "250/16"
+      "Course 2": "250/20"
      },
      "infoId": "412189",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412189",
@@ -2491,7 +2491,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "473/ 5",
-      "Course 2": "237/19"
+      "Course 2": "237/23"
      },
      "infoId": "412372",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412372",
@@ -2508,24 +2508,41 @@
      "arrows": 96,
      "dist": {
       "Course 1": "456/10",
-      "Course 2": "230/21"
+      "Course 2": "230/25"
      },
      "infoId": "412238",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412238",
      "pool": "Compound Men and Women"
     },
     {
+     "club": "SWE",
+     "name": "HELMERSSON Camilla",
+     "target": "18C",
+     "pos": 11,
+     "total": 824,
+     "tens": 9,
+     "xs": 88,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "445/15",
+      "Course 2": "379/ 1"
+     },
+     "infoId": "412382",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412382",
+     "pool": "Compound Men and Women"
+    },
+    {
      "club": "CAN",
      "name": "WIENS Andrea",
      "target": "18B",
-     "pos": 11,
-     "total": 637,
+     "pos": 12,
+     "total": 823,
      "tens": 9,
-     "xs": 68,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "446/14",
-      "Course 2": "191/28"
+      "Course 2": "377/ 2"
      },
      "infoId": "412201",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412201",
@@ -2535,14 +2552,14 @@
      "club": "SLO",
      "name": "REJEC Meta",
      "target": "16D",
-     "pos": 12,
+     "pos": 13,
      "total": 673,
      "tens": 9,
      "xs": 72,
      "arrows": 96,
      "dist": {
       "Course 1": "448/13",
-      "Course 2": "225/22"
+      "Course 2": "225/26"
      },
      "infoId": "412373",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412373",
@@ -2552,14 +2569,14 @@
      "club": "CAN",
      "name": "HIGGINS Monica",
      "target": "19A",
-     "pos": 13,
+     "pos": 14,
      "total": 648,
      "tens": 9,
      "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "439/16",
-      "Course 2": "209/23"
+      "Course 2": "209/27"
      },
      "infoId": "412199",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412199",
@@ -2569,14 +2586,14 @@
      "club": "FRA",
      "name": "JEANNIN Lucie",
      "target": "18A",
-     "pos": 14,
-     "total": 627,
+     "pos": 15,
+     "total": 810,
      "tens": 9,
-     "xs": 68,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "452/11",
-      "Course 2": "175/31"
+      "Course 2": "358/ 4"
      },
      "infoId": "412267",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412267",
@@ -2586,34 +2603,17 @@
      "club": "CAN",
      "name": "ST. AMANT Sarah",
      "target": "20A",
-     "pos": 15,
-     "total": 792,
+     "pos": 16,
+     "total": 807,
      "tens": 9,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "436/17",
-      "Course 2": "356/ 1"
+      "Course 2": "371/ 3"
      },
      "infoId": "412200",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412200",
-     "pool": "Compound Men and Women"
-    },
-    {
-     "club": "ITA",
-     "name": "MARCACCINI Maddalena",
-     "target": "18D",
-     "pos": 16,
-     "total": 623,
-     "tens": 9,
-     "xs": 68,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "436/18",
-      "Course 2": "187/29"
-     },
-     "infoId": "412314",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412314",
      "pool": "Compound Men and Women"
     },
     {
@@ -2627,41 +2627,24 @@
      "arrows": 96,
      "dist": {
       "Course 1": "449/12",
-      "Course 2": "208/24"
+      "Course 2": "208/28"
      },
      "infoId": "412396",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412396",
      "pool": "Compound Men and Women"
     },
     {
-     "club": "SWE",
-     "name": "HELMERSSON Camilla",
-     "target": "18C",
-     "pos": 18,
-     "total": 620,
-     "tens": 9,
-     "xs": 68,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "445/15",
-      "Course 2": "175/30"
-     },
-     "infoId": "412382",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412382",
-     "pool": "Compound Men and Women"
-    },
-    {
      "club": "ESP",
      "name": "PITARCH Maria",
      "target": "19B",
-     "pos": 19,
+     "pos": 18,
      "total": 638,
      "tens": 9,
      "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "433/19",
-      "Course 2": "205/25"
+      "Course 2": "205/29"
      },
      "infoId": "412250",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412250",
@@ -2671,17 +2654,34 @@
      "club": "RUS",
      "name": "GUK Maria",
      "target": "19C",
-     "pos": 20,
+     "pos": 19,
      "total": 634,
      "tens": 9,
      "xs": 70,
      "arrows": 96,
      "dist": {
       "Course 1": "431/20",
-      "Course 2": "203/26"
+      "Course 2": "203/30"
      },
      "infoId": "412354",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412354",
+     "pool": "Compound Men and Women"
+    },
+    {
+     "club": "ITA",
+     "name": "MARCACCINI Maddalena",
+     "target": "18D",
+     "pos": 20,
+     "total": 789,
+     "tens": 8,
+     "xs": 88,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "436/18",
+      "Course 2": "353/ 5"
+     },
+     "infoId": "412314",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412314",
      "pool": "Compound Men and Women"
     },
     {
@@ -2695,7 +2695,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "428/21",
-      "Course 2": "194/27"
+      "Course 2": "194/31"
      },
      "infoId": "412293",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412293",
@@ -2706,13 +2706,13 @@
      "name": "BLAKEY Jewel",
      "target": "20C",
      "pos": 22,
-     "total": 749,
+     "total": 767,
      "tens": 8,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "422/23",
-      "Course 2": "327/ 2"
+      "Course 2": "345/ 6"
      },
      "infoId": "412395",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412395",
@@ -2729,7 +2729,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "403/27",
-      "Course 2": "322/ 3"
+      "Course 2": "322/ 8"
      },
      "infoId": "412397",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412397",
@@ -2740,13 +2740,13 @@
      "name": "BRUGUIER Isabella",
      "target": "20B",
      "pos": 24,
-     "total": 726,
+     "total": 748,
      "tens": 8,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "425/22",
-      "Course 2": "301/ 4"
+      "Course 2": "323/ 7"
      },
      "infoId": "412278",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412278",
@@ -2763,7 +2763,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "411/26",
-      "Course 2": "296/ 5"
+      "Course 2": "296/ 9"
      },
      "infoId": "412331",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412331",
@@ -2780,7 +2780,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "412/25",
-      "Course 2": "292/ 6"
+      "Course 2": "292/11"
      },
      "infoId": "412279",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412279",
@@ -2791,13 +2791,13 @@
      "name": "BENAVENTE Maria",
      "target": "20D",
      "pos": 27,
-     "total": 700,
+     "total": 715,
      "tens": 8,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "419/24",
-      "Course 2": "281/ 9"
+      "Course 2": "296/10"
      },
      "infoId": "412332",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412332",
@@ -2814,7 +2814,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "387/28",
-      "Course 2": "285/ 8"
+      "Course 2": "285/13"
      },
      "infoId": "412184",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412184",
@@ -2831,7 +2831,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "361/29",
-      "Course 2": "270/10"
+      "Course 2": "270/14"
      },
      "infoId": "412170",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412170",
@@ -2848,7 +2848,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "318/31",
-      "Course 2": "292/ 7"
+      "Course 2": "292/12"
      },
      "infoId": "412304",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412304",
@@ -2865,7 +2865,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "347/30",
-      "Course 2": "255/13"
+      "Course 2": "255/17"
      },
      "infoId": "412171",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW&ViewScore=1&Entry=412171",
@@ -2890,7 +2890,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:32:04 UTC",
+   "updated": "2026-09-30 17:39:10 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=CM&Event[]=CW"
   },
   {
@@ -3494,40 +3494,23 @@
      "name": "JACKSON David",
      "target": "8C",
      "pos": 1,
-     "total": 846,
+     "total": 867,
      "tens": 9,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "470/ 3",
-      "Course 2": "376/14"
+      "Course 2": "397/ 8"
      },
      "infoId": "412269",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412269",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "ESP",
-     "name": "VERA BRINGAS Cesar",
-     "target": "8B",
-     "pos": 2,
-     "total": 834,
-     "tens": 9,
-     "xs": 86,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "471/ 2",
-      "Course 2": "363/20"
-     },
-     "infoId": "412251",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412251",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "ITA",
      "name": "SEIMANDI Giuseppe",
      "target": "10A",
-     "pos": 3,
+     "pos": 2,
      "total": 891,
      "tens": 9,
      "xs": 92,
@@ -3544,17 +3527,34 @@
      "club": "RUS",
      "name": "BUDIAK Vitalii",
      "target": "9B",
-     "pos": 4,
+     "pos": 3,
      "total": 812,
      "tens": 9,
      "xs": 84,
      "arrows": 96,
      "dist": {
       "Course 1": "459/ 6",
-      "Course 2": "353/23"
+      "Course 2": "353/25"
      },
      "infoId": "412356",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412356",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "ESP",
+     "name": "VERA BRINGAS Cesar",
+     "target": "8B",
+     "pos": 4,
+     "total": 850,
+     "tens": 9,
+     "xs": 88,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "471/ 2",
+      "Course 2": "379/16"
+     },
+     "infoId": "412251",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412251",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -3562,13 +3562,13 @@
      "name": "HICKS Oliver",
      "target": "8A",
      "pos": 5,
-     "total": 819,
+     "total": 838,
      "tens": 9,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "473/ 1",
-      "Course 2": "346/26"
+      "Course 2": "365/21"
      },
      "infoId": "412281",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412281",
@@ -3579,13 +3579,13 @@
      "name": "SCHAEFER Rüdiger",
      "target": "8D",
      "pos": 6,
-     "total": 819,
+     "total": 838,
      "tens": 9,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "464/ 4",
-      "Course 2": "355/22"
+      "Course 2": "374/17"
      },
      "infoId": "412294",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412294",
@@ -3596,13 +3596,13 @@
      "name": "NOCETI Alessio",
      "target": "11A",
      "pos": 7,
-     "total": 850,
+     "total": 866,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "449/11",
-      "Course 2": "401/ 6"
+      "Course 2": "417/ 3"
      },
      "infoId": "412315",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412315",
@@ -3619,7 +3619,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "456/ 8",
-      "Course 2": "333/28"
+      "Course 2": "333/30"
      },
      "infoId": "412384",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412384",
@@ -3636,7 +3636,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "449/12",
-      "Course 2": "415/ 2"
+      "Course 2": "415/ 4"
      },
      "infoId": "412240",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412240",
@@ -3653,7 +3653,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "460/ 5",
-      "Course 2": "328/29"
+      "Course 2": "328/31"
      },
      "infoId": "412398",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412398",
@@ -3670,7 +3670,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "450/10",
-      "Course 2": "407/ 3"
+      "Course 2": "407/ 5"
      },
      "infoId": "412383",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412383",
@@ -3681,13 +3681,13 @@
      "name": "POCKETT Edward",
      "target": "11D",
      "pos": 12,
-     "total": 838,
+     "total": 856,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "435/16",
-      "Course 2": "403/ 5"
+      "Course 2": "421/ 2"
      },
      "infoId": "412282",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412282",
@@ -3704,7 +3704,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "447/13",
-      "Course 2": "403/ 4"
+      "Course 2": "403/ 6"
      },
      "infoId": "412400",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412400",
@@ -3732,13 +3732,13 @@
      "name": "VELAGIC Zoran",
      "target": "11B",
      "pos": 15,
-     "total": 822,
+     "total": 843,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "444/14",
-      "Course 2": "378/13"
+      "Course 2": "399/ 7"
      },
      "infoId": "412223",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412223",
@@ -3755,7 +3755,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "433/18",
-      "Course 2": "384/ 7"
+      "Course 2": "384/10"
      },
      "infoId": "412280",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412280",
@@ -3772,7 +3772,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "431/19",
-      "Course 2": "384/ 8"
+      "Course 2": "384/11"
      },
      "infoId": "412399",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412399",
@@ -3789,7 +3789,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "435/17",
-      "Course 2": "380/12"
+      "Course 2": "380/15"
      },
      "infoId": "412202",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412202",
@@ -3800,13 +3800,13 @@
      "name": "KELVISAR Klemen",
      "target": "11C",
      "pos": 19,
-     "total": 811,
+     "total": 829,
      "tens": 9,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "436/15",
-      "Course 2": "375/15"
+      "Course 2": "393/ 9"
      },
      "infoId": "412374",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412374",
@@ -3823,7 +3823,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "430/20",
-      "Course 2": "380/10"
+      "Course 2": "380/13"
      },
      "infoId": "412375",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412375",
@@ -3840,7 +3840,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "430/21",
-      "Course 2": "380/10"
+      "Course 2": "380/13"
      },
      "infoId": "412346",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412346",
@@ -3857,7 +3857,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "426/23",
-      "Course 2": "383/ 9"
+      "Course 2": "383/12"
      },
      "infoId": "412185",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412185",
@@ -3874,7 +3874,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "427/22",
-      "Course 2": "366/17"
+      "Course 2": "366/20"
      },
      "infoId": "412261",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412261",
@@ -3885,13 +3885,13 @@
      "name": "EBERT Thomas",
      "target": "14A",
      "pos": 24,
-     "total": 781,
+     "total": 799,
      "tens": 8,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "425/24",
-      "Course 2": "356/21"
+      "Course 2": "374/19"
      },
      "infoId": "412239",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412239",
@@ -3908,7 +3908,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "404/28",
-      "Course 2": "374/16"
+      "Course 2": "374/18"
      },
      "infoId": "412172",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412172",
@@ -3925,7 +3925,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "423/26",
-      "Course 2": "350/24"
+      "Course 2": "350/26"
      },
      "infoId": "412226",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412226",
@@ -3942,7 +3942,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "407/27",
-      "Course 2": "365/18"
+      "Course 2": "365/22"
      },
      "infoId": "412358",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412358",
@@ -3959,7 +3959,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "425/24",
-      "Course 2": "345/27"
+      "Course 2": "345/28"
      },
      "infoId": "412357",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412357",
@@ -3976,7 +3976,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "395/30",
-      "Course 2": "365/19"
+      "Course 2": "365/23"
      },
      "infoId": "412203",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412203",
@@ -3987,13 +3987,13 @@
      "name": "PETRELLI Anyelo Gabriel",
      "target": "15B",
      "pos": 30,
-     "total": 740,
+     "total": 755,
      "tens": 8,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "391/31",
-      "Course 2": "349/25"
+      "Course 2": "364/24"
      },
      "infoId": "412173",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412173",
@@ -4004,13 +4004,13 @@
      "name": "MALEBRANCHE Eric",
      "target": "15A",
      "pos": 31,
-     "total": 721,
+     "total": 742,
      "tens": 8,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "403/29",
-      "Course 2": "318/31"
+      "Course 2": "339/29"
      },
      "infoId": "412204",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412204",
@@ -4021,13 +4021,13 @@
      "name": "JAVALERA Erick",
      "target": "15C",
      "pos": 32,
-     "total": 698,
+     "total": 718,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "371/32",
-      "Course 2": "327/30"
+      "Course 2": "347/27"
      },
      "infoId": "412334",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412334",
@@ -4069,7 +4069,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:35:54 UTC",
+   "updated": "2026-09-30 17:40:54 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW"
   },
   {
@@ -4179,7 +4179,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "418/ 7",
-      "Course 2": "331/ 6"
+      "Course 2": "331/ 7"
      },
      "infoId": "412241",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412241",
@@ -4196,7 +4196,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "422/ 5",
-      "Course 2": "325/ 7"
+      "Course 2": "325/ 9"
      },
      "infoId": "412361",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412361",
@@ -4213,7 +4213,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "416/ 8",
-      "Course 2": "322/ 8"
+      "Course 2": "322/10"
      },
      "infoId": "412257",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412257",
@@ -4230,7 +4230,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "394/14",
-      "Course 2": "308/10"
+      "Course 2": "308/12"
      },
      "infoId": "412270",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412270",
@@ -4247,7 +4247,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "410/10",
-      "Course 2": "290/15"
+      "Course 2": "290/17"
      },
      "infoId": "412271",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412271",
@@ -4264,7 +4264,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "408/11",
-      "Course 2": "291/14"
+      "Course 2": "291/16"
      },
      "infoId": "412360",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412360",
@@ -4281,7 +4281,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "391/16",
-      "Course 2": "299/12"
+      "Course 2": "299/14"
      },
      "infoId": "412252",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412252",
@@ -4298,44 +4298,44 @@
      "arrows": 96,
      "dist": {
       "Course 1": "392/15",
-      "Course 2": "295/13"
+      "Course 2": "295/15"
      },
      "infoId": "412359",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412359",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "NOR",
-     "name": "INGVALDSEN Kristina",
-     "target": "5C",
-     "pos": 14,
-     "total": 651,
-     "tens": 8,
-     "xs": 80,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "383/19",
-      "Course 2": "268/18"
-     },
-     "infoId": "412347",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412347",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "GBR",
      "name": "REES Elizabeth",
      "target": "4A",
-     "pos": 15,
+     "pos": 14,
      "total": 679,
      "tens": 8,
      "xs": 84,
      "arrows": 96,
      "dist": {
       "Course 1": "406/13",
-      "Course 2": "273/16"
+      "Course 2": "273/21"
      },
      "infoId": "412284",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412284",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "NOR",
+     "name": "INGVALDSEN Kristina",
+     "target": "5C",
+     "pos": 15,
+     "total": 711,
+     "tens": 8,
+     "xs": 88,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "383/19",
+      "Course 2": "328/ 8"
+     },
+     "infoId": "412347",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412347",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4343,50 +4343,50 @@
      "name": "HOLLOM Erin",
      "target": "6B",
      "pos": 16,
-     "total": 687,
-     "tens": 7,
-     "xs": 86,
+     "total": 706,
+     "tens": 8,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "368/21",
-      "Course 2": "319/ 9"
+      "Course 2": "338/ 6"
      },
      "infoId": "412402",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412402",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
+     "club": "USA",
+     "name": "CRANDALL Chloe",
+     "target": "5B",
+     "pos": 17,
+     "total": 695,
+     "tens": 7,
+     "xs": 88,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "387/18",
+      "Course 2": "308/13"
+     },
+     "infoId": "412401",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412401",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
      "club": "ARG",
      "name": "MARTINEZ Elis Daniela",
      "target": "3D",
-     "pos": 17,
+     "pos": 18,
      "total": 661,
      "tens": 7,
      "xs": 84,
      "arrows": 96,
      "dist": {
       "Course 1": "406/12",
-      "Course 2": "255/20"
+      "Course 2": "255/23"
      },
      "infoId": "412174",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412174",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
-     "club": "USA",
-     "name": "CRANDALL Chloe",
-     "target": "5B",
-     "pos": 18,
-     "total": 628,
-     "tens": 7,
-     "xs": 80,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "387/18",
-      "Course 2": "241/23"
-     },
-     "infoId": "412401",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412401",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4400,7 +4400,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "411/ 9",
-      "Course 2": "247/22"
+      "Course 2": "247/25"
      },
      "infoId": "412227",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412227",
@@ -4411,13 +4411,13 @@
      "name": "HAKE Sarah",
      "target": "5A",
      "pos": 20,
-     "total": 616,
+     "total": 676,
      "tens": 7,
-     "xs": 80,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "391/17",
-      "Course 2": "225/25"
+      "Course 2": "285/19"
      },
      "infoId": "412283",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412283",
@@ -4428,13 +4428,13 @@
      "name": "ARCE Maria Jose",
      "target": "7B",
      "pos": 21,
-     "total": 657,
+     "total": 672,
      "tens": 7,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "356/23",
-      "Course 2": "301/11"
+      "Course 2": "316/11"
      },
      "infoId": "412219",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412219",
@@ -4445,13 +4445,13 @@
      "name": "VAN DER GIESSEN Sabrina",
      "target": "6C",
      "pos": 22,
-     "total": 630,
+     "total": 646,
      "tens": 7,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "366/22",
-      "Course 2": "264/19"
+      "Course 2": "280/20"
      },
      "infoId": "412205",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412205",
@@ -4462,13 +4462,13 @@
      "name": "SEIBT Judith",
      "target": "6A",
      "pos": 23,
-     "total": 610,
+     "total": 628,
      "tens": 7,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "380/20",
-      "Course 2": "230/24"
+      "Course 2": "248/24"
      },
      "infoId": "412296",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412296",
@@ -4479,13 +4479,13 @@
      "name": "RIOS Noris Patricia",
      "target": "7C",
      "pos": 24,
-     "total": 609,
+     "total": 625,
      "tens": 7,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "338/24",
-      "Course 2": "271/17"
+      "Course 2": "287/18"
      },
      "infoId": "412175",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412175",
@@ -4496,13 +4496,13 @@
      "name": "TISCAREÑO MARTÍNEZ Erendira",
      "target": "7A",
      "pos": 25,
-     "total": 543,
+     "total": 554,
      "tens": 6,
-     "xs": 86,
+     "xs": 88,
      "arrows": 96,
      "dist": {
       "Course 1": "295/25",
-      "Course 2": "248/21"
+      "Course 2": "259/22"
      },
      "infoId": "412336",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412336",
@@ -4510,7 +4510,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:36:02 UTC",
+   "updated": "2026-09-30 17:39:21 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW"
   },
   {
@@ -4535,78 +4535,78 @@
      "arrows": 96,
      "dist": {
       "Course 1": "403/ 1",
-      "Course 2": "322/ 2"
+      "Course 2": "322/ 9"
      },
      "infoId": "412194",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412194",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "ITA",
-     "name": "SALTALAMACCHIA Serena",
-     "target": "18C",
-     "pos": 2,
-     "total": 712,
-     "tens": 8,
-     "xs": 86,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "399/ 3",
-      "Course 2": "313/ 4"
-     },
-     "infoId": "412324",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412324",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "CAN",
      "name": "DRYDEN Trudy",
      "target": "19A",
-     "pos": 3,
-     "total": 686,
+     "pos": 2,
+     "total": 762,
      "tens": 8,
-     "xs": 84,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "396/ 5",
-      "Course 2": "290/10"
+      "Course 2": "366/ 2"
      },
      "infoId": "412212",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412212",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "ESP",
-     "name": "PALACIO PÉREZ Aía",
-     "target": "18D",
-     "pos": 4,
-     "total": 700,
+     "club": "ITA",
+     "name": "SALTALAMACCHIA Serena",
+     "target": "18C",
+     "pos": 3,
+     "total": 712,
      "tens": 8,
      "xs": 86,
      "arrows": 96,
      "dist": {
-      "Course 1": "396/ 4",
-      "Course 2": "304/ 6"
+      "Course 1": "399/ 3",
+      "Course 2": "313/11"
      },
-     "infoId": "412255",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412255",
+     "infoId": "412324",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412324",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
      "club": "GER",
      "name": "WENZL Judith",
      "target": "19C",
-     "pos": 5,
-     "total": 682,
+     "pos": 4,
+     "total": 759,
      "tens": 8,
-     "xs": 84,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "392/ 7",
-      "Course 2": "290/11"
+      "Course 2": "367/ 1"
      },
      "infoId": "412298",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412298",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "ESP",
+     "name": "PALACIO PÉREZ Aía",
+     "target": "18D",
+     "pos": 5,
+     "total": 700,
+     "tens": 8,
+     "xs": 86,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "396/ 4",
+      "Course 2": "304/16"
+     },
+     "infoId": "412255",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412255",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4614,13 +4614,13 @@
      "name": "VANNINI Sabrina",
      "target": "19B",
      "pos": 6,
-     "total": 673,
-     "tens": 8,
-     "xs": 84,
+     "total": 735,
+     "tens": 7,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "394/ 6",
-      "Course 2": "279/17"
+      "Course 2": "341/ 3"
      },
      "infoId": "412325",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412325",
@@ -4637,44 +4637,44 @@
      "arrows": 96,
      "dist": {
       "Course 1": "400/ 2",
-      "Course 2": "284/14"
+      "Course 2": "284/21"
      },
      "infoId": "412412",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412412",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "CAN",
-     "name": "BRITTON Katie Maria",
-     "target": "20A",
-     "pos": 8,
-     "total": 620,
-     "tens": 7,
-     "xs": 78,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "387/ 8",
-      "Course 2": "233/23"
-     },
-     "infoId": "412210",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412210",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "SWE",
      "name": "OSTERLUND Helena",
      "target": "19D",
-     "pos": 9,
-     "total": 657,
+     "pos": 8,
+     "total": 725,
      "tens": 7,
-     "xs": 84,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "387/ 8",
-      "Course 2": "270/18"
+      "Course 2": "338/ 5"
      },
      "infoId": "412386",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412386",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "CAN",
+     "name": "BRITTON Katie Maria",
+     "target": "20A",
+     "pos": 9,
+     "total": 715,
+     "tens": 7,
+     "xs": 92,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "387/ 8",
+      "Course 2": "328/ 7"
+     },
+     "infoId": "412210",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412210",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4682,50 +4682,50 @@
      "name": "PAVACIC Mojca",
      "target": "20B",
      "pos": 10,
-     "total": 607,
+     "total": 697,
      "tens": 7,
-     "xs": 78,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "387/ 8",
-      "Course 2": "220/26"
+      "Course 2": "310/14"
      },
      "infoId": "412378",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412378",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "CZE",
-     "name": "BLAHUSOVA Martina",
-     "target": "20C",
-     "pos": 11,
-     "total": 591,
-     "tens": 7,
-     "xs": 78,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "381/11",
-      "Course 2": "210/27"
-     },
-     "infoId": "412230",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412230",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "ARG",
      "name": "ESCALADA Carolina",
      "target": "22B",
-     "pos": 12,
-     "total": 676,
+     "pos": 11,
+     "total": 695,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "354/18",
-      "Course 2": "322/ 3"
+      "Course 2": "341/ 4"
      },
      "infoId": "412178",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412178",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "FRA",
+     "name": "SORAIS CHATEAUGIRON Anne",
+     "target": "20D",
+     "pos": 12,
+     "total": 685,
+     "tens": 7,
+     "xs": 92,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "378/12",
+      "Course 2": "307/15"
+     },
+     "infoId": "412275",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412275",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4733,84 +4733,84 @@
      "name": "REESE Isabel",
      "target": "22A",
      "pos": 13,
-     "total": 666,
+     "total": 684,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "354/17",
-      "Course 2": "312/ 5"
+      "Course 2": "330/ 6"
      },
      "infoId": "412289",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412289",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
+     "club": "CZE",
+     "name": "BLAHUSOVA Martina",
+     "target": "20C",
+     "pos": 14,
+     "total": 675,
+     "tens": 7,
+     "xs": 92,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "381/11",
+      "Course 2": "294/20"
+     },
+     "infoId": "412230",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412230",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
      "club": "IRL",
      "name": "JAY Michelle",
      "target": "21D",
-     "pos": 14,
-     "total": 657,
+     "pos": 15,
+     "total": 672,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "355/16",
-      "Course 2": "302/ 7"
+      "Course 2": "317/10"
      },
      "infoId": "412305",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412305",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "FRA",
-     "name": "SORAIS CHATEAUGIRON Anne",
-     "target": "20D",
-     "pos": 15,
-     "total": 568,
-     "tens": 7,
-     "xs": 78,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "378/12",
-      "Course 2": "190/28"
-     },
-     "infoId": "412275",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412275",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
-     "club": "RUS",
-     "name": "TIMOFEEVA Olga",
-     "target": "21A",
-     "pos": 16,
-     "total": 652,
-     "tens": 7,
-     "xs": 90,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "366/13",
-      "Course 2": "286/13"
-     },
-     "infoId": "412366",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412366",
-     "pool": "Barebow Men and Women, Traditional Women"
-    },
-    {
      "club": "MEX",
      "name": "HOSSFELD Claudia",
      "target": "21C",
-     "pos": 17,
-     "total": 651,
+     "pos": 16,
+     "total": 667,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "364/15",
-      "Course 2": "287/12"
+      "Course 2": "303/17"
      },
      "infoId": "412340",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412340",
+     "pool": "Barebow Men and Women, Traditional Women"
+    },
+    {
+     "club": "CZE",
+     "name": "KORABECNA Jarmila",
+     "target": "22C",
+     "pos": 17,
+     "total": 666,
+     "tens": 7,
+     "xs": 92,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "353/19",
+      "Course 2": "313/12"
+     },
+     "infoId": "412231",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412231",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4824,27 +4824,27 @@
      "arrows": 96,
      "dist": {
       "Course 1": "327/24",
-      "Course 2": "323/ 1"
+      "Course 2": "323/ 8"
      },
      "infoId": "412390",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412390",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
-     "club": "CZE",
-     "name": "KORABECNA Jarmila",
-     "target": "22C",
+     "club": "RUS",
+     "name": "TIMOFEEVA Olga",
+     "target": "21A",
      "pos": 19,
-     "total": 647,
+     "total": 662,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
-      "Course 1": "353/19",
-      "Course 2": "294/ 8"
+      "Course 1": "366/13",
+      "Course 2": "296/19"
      },
-     "infoId": "412231",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412231",
+     "infoId": "412366",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412366",
      "pool": "Barebow Men and Women, Traditional Women"
     },
     {
@@ -4852,13 +4852,13 @@
      "name": "CORREA Stephanie",
      "target": "22D",
      "pos": 20,
-     "total": 631,
+     "total": 649,
      "tens": 7,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "348/20",
-      "Course 2": "283/15"
+      "Course 2": "301/18"
      },
      "infoId": "412411",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412411",
@@ -4869,13 +4869,13 @@
      "name": "NERGAARD Monicha",
      "target": "21B",
      "pos": 21,
-     "total": 628,
-     "tens": 6,
-     "xs": 90,
+     "total": 646,
+     "tens": 7,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "365/14",
-      "Course 2": "263/20"
+      "Course 2": "281/22"
      },
      "infoId": "412349",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412349",
@@ -4886,13 +4886,13 @@
      "name": "PESKOVA Zuzana",
      "target": "23A",
      "pos": 22,
-     "total": 627,
-     "tens": 6,
-     "xs": 90,
+     "total": 646,
+     "tens": 7,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "335/21",
-      "Course 2": "292/ 9"
+      "Course 2": "311/13"
      },
      "infoId": "412232",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412232",
@@ -4909,7 +4909,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "330/22",
-      "Course 2": "280/16"
+      "Course 2": "280/23"
      },
      "infoId": "412410",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412410",
@@ -4926,7 +4926,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "328/23",
-      "Course 2": "265/19"
+      "Course 2": "265/24"
      },
      "infoId": "412246",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412246",
@@ -4943,7 +4943,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "326/25",
-      "Course 2": "232/24"
+      "Course 2": "232/27"
      },
      "infoId": "412341",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412341",
@@ -4960,7 +4960,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "301/26",
-      "Course 2": "250/22"
+      "Course 2": "250/26"
      },
      "infoId": "412211",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412211",
@@ -4977,7 +4977,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "286/27",
-      "Course 2": "257/21"
+      "Course 2": "257/25"
      },
      "infoId": "412307",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412307",
@@ -4994,7 +4994,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "286/28",
-      "Course 2": "230/25"
+      "Course 2": "230/28"
      },
      "infoId": "412179",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW&ViewScore=1&Entry=412179",
@@ -5002,7 +5002,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:37:00 UTC",
+   "updated": "2026-09-30 17:41:42 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=BM&Event[]=BW&Event[]=TW"
   },
   {
@@ -5469,7 +5469,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "415/ 1",
-      "Course 2": "306/20"
+      "Course 2": "306/24"
      },
      "infoId": "412242",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412242",
@@ -5486,7 +5486,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "401/ 2",
-      "Course 2": "315/19"
+      "Course 2": "315/23"
      },
      "infoId": "412363",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412363",
@@ -5494,33 +5494,16 @@
     },
     {
      "club": "USA",
-     "name": "DAVENPORT Michael",
-     "target": "11C",
-     "pos": 3,
-     "total": 683,
-     "tens": 8,
-     "xs": 82,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "399/ 3",
-      "Course 2": "284/26"
-     },
-     "infoId": "412405",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412405",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "USA",
      "name": "WILKINS Lee",
      "target": "12D",
-     "pos": 4,
-     "total": 672,
+     "pos": 3,
+     "total": 792,
      "tens": 8,
-     "xs": 82,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "376/ 8",
-      "Course 2": "296/22"
+      "Course 2": "416/ 2"
      },
      "infoId": "412406",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412406",
@@ -5530,17 +5513,34 @@
      "club": "FRA",
      "name": "GARDEUR Robin",
      "target": "12B",
+     "pos": 4,
+     "total": 806,
+     "tens": 8,
+     "xs": 96,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "378/ 6",
+      "Course 2": "428/ 1"
+     },
+     "infoId": "412272",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412272",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "USA",
+     "name": "DAVENPORT Michael",
+     "target": "11C",
      "pos": 5,
-     "total": 671,
+     "total": 683,
      "tens": 8,
      "xs": 82,
      "arrows": 96,
      "dist": {
-      "Course 1": "378/ 6",
-      "Course 2": "293/23"
+      "Course 1": "399/ 3",
+      "Course 2": "284/27"
      },
-     "infoId": "412272",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412272",
+     "infoId": "412405",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412405",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -5548,13 +5548,13 @@
      "name": "MULLER Martin",
      "target": "12C",
      "pos": 6,
-     "total": 666,
+     "total": 784,
      "tens": 8,
-     "xs": 82,
+     "xs": 96,
      "arrows": 96,
      "dist": {
       "Course 1": "378/ 7",
-      "Course 2": "288/25"
+      "Course 2": "406/ 3"
      },
      "infoId": "412228",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412228",
@@ -5571,7 +5571,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "375/ 9",
-      "Course 2": "382/ 2"
+      "Course 2": "382/ 5"
      },
      "infoId": "412404",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412404",
@@ -5588,44 +5588,44 @@
      "arrows": 96,
      "dist": {
       "Course 1": "356/11",
-      "Course 2": "401/ 1"
+      "Course 2": "401/ 4"
      },
      "infoId": "412320",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412320",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
+     "club": "ARG",
+     "name": "LOPEZ Guillermo Daniel",
+     "target": "12A",
+     "pos": 9,
+     "total": 758,
+     "tens": 7,
+     "xs": 96,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "385/ 4",
+      "Course 2": "373/ 6"
+     },
+     "infoId": "412176",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412176",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
      "club": "CRO",
      "name": "KRUSIC Igor",
      "target": "14A",
-     "pos": 9,
+     "pos": 10,
      "total": 722,
      "tens": 7,
      "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "353/13",
-      "Course 2": "369/ 3"
+      "Course 2": "369/ 7"
      },
      "infoId": "412224",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412224",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "ARG",
-     "name": "LOPEZ Guillermo Daniel",
-     "target": "12A",
-     "pos": 10,
-     "total": 636,
-     "tens": 7,
-     "xs": 82,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "385/ 4",
-      "Course 2": "251/28"
-     },
-     "infoId": "412176",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412176",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -5639,7 +5639,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "343/15",
-      "Course 2": "365/ 5"
+      "Course 2": "365/ 9"
      },
      "infoId": "412253",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412253",
@@ -5656,7 +5656,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "355/12",
-      "Course 2": "367/ 4"
+      "Course 2": "367/ 8"
      },
      "infoId": "412362",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412362",
@@ -5690,7 +5690,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "367/10",
-      "Course 2": "350/ 6"
+      "Course 2": "350/10"
      },
      "infoId": "412286",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412286",
@@ -5707,7 +5707,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "348/14",
-      "Course 2": "345/ 7"
+      "Course 2": "345/11"
      },
      "infoId": "412319",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412319",
@@ -5724,7 +5724,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "338/17",
-      "Course 2": "337/10"
+      "Course 2": "337/14"
      },
      "infoId": "412389",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412389",
@@ -5741,7 +5741,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "330/19",
-      "Course 2": "339/ 9"
+      "Course 2": "339/13"
      },
      "infoId": "412192",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412192",
@@ -5758,7 +5758,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "331/18",
-      "Course 2": "336/11"
+      "Course 2": "336/15"
      },
      "infoId": "412287",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412287",
@@ -5775,7 +5775,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "321/21",
-      "Course 2": "322/16"
+      "Course 2": "322/20"
      },
      "infoId": "412244",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412244",
@@ -5792,7 +5792,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "339/16",
-      "Course 2": "330/13"
+      "Course 2": "330/17"
      },
      "infoId": "412207",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412207",
@@ -5809,7 +5809,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "329/20",
-      "Course 2": "321/17"
+      "Course 2": "321/21"
      },
      "infoId": "412243",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412243",
@@ -5826,7 +5826,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "305/22",
-      "Course 2": "325/15"
+      "Course 2": "325/19"
      },
      "infoId": "412285",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412285",
@@ -5843,7 +5843,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "290/25",
-      "Course 2": "335/12"
+      "Course 2": "335/16"
      },
      "infoId": "412385",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412385",
@@ -5860,7 +5860,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "296/23",
-      "Course 2": "326/14"
+      "Course 2": "326/18"
      },
      "infoId": "412339",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412339",
@@ -5877,7 +5877,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "291/24",
-      "Course 2": "340/ 8"
+      "Course 2": "340/12"
      },
      "infoId": "412337",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412337",
@@ -5894,7 +5894,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "288/26",
-      "Course 2": "317/18"
+      "Course 2": "317/22"
      },
      "infoId": "412348",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412348",
@@ -5911,7 +5911,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "277/27",
-      "Course 2": "306/21"
+      "Course 2": "306/24"
      },
      "infoId": "412376",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412376",
@@ -5922,13 +5922,13 @@
      "name": "LOZOYA Rodolfo",
      "target": "18B",
      "pos": 28,
-     "total": 540,
-     "tens": 6,
-     "xs": 90,
+     "total": 548,
+     "tens": 5,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "250/30",
-      "Course 2": "290/24"
+      "Course 2": "298/26"
      },
      "infoId": "412338",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412338",
@@ -5939,13 +5939,13 @@
      "name": "MURPHY William James",
      "target": "18A",
      "pos": 29,
-     "total": 511,
+     "total": 526,
      "tens": 5,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "252/28",
-      "Course 2": "259/27"
+      "Course 2": "274/28"
      },
      "infoId": "412206",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412206",
@@ -5962,7 +5962,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "252/29",
-      "Course 2": "232/30"
+      "Course 2": "232/31"
      },
      "infoId": "412220",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412220",
@@ -5973,13 +5973,13 @@
      "name": "DEL RIO Mariano",
      "target": "18C",
      "pos": 31,
-     "total": 465,
+     "total": 475,
      "tens": 5,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "240/31",
-      "Course 2": "225/31"
+      "Course 2": "235/30"
      },
      "infoId": "412221",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412221",
@@ -5987,7 +5987,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:35:52 UTC",
+   "updated": "2026-09-30 17:41:40 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM"
   },
   {
@@ -6006,13 +6006,13 @@
      "name": "LAFAURIE Cecile",
      "target": "19A",
      "pos": 1,
-     "total": 684,
+     "total": 694,
      "tens": 7,
-     "xs": 88,
+     "xs": 90,
      "arrows": 96,
      "dist": {
       "Course 1": "362/ 1",
-      "Course 2": "322/11"
+      "Course 2": "332/10"
      },
      "infoId": "412274",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412274",
@@ -6023,13 +6023,13 @@
      "name": "PITSCHMANN Johanna",
      "target": "19B",
      "pos": 2,
-     "total": 668,
+     "total": 678,
      "tens": 7,
-     "xs": 88,
+     "xs": 90,
      "arrows": 96,
      "dist": {
       "Course 1": "334/ 2",
-      "Course 2": "334/ 7"
+      "Course 2": "344/ 7"
      },
      "infoId": "412193",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412193",
@@ -6040,30 +6040,47 @@
      "name": "VIRMASALO Paula",
      "target": "19C",
      "pos": 3,
-     "total": 651,
+     "total": 664,
      "tens": 7,
-     "xs": 88,
+     "xs": 90,
      "arrows": 96,
      "dist": {
       "Course 1": "328/ 3",
-      "Course 2": "323/ 9"
+      "Course 2": "336/ 9"
      },
      "infoId": "412262",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412262",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
+     "club": "GBR",
+     "name": "JONES Georgiana",
+     "target": "19D",
+     "pos": 4,
+     "total": 655,
+     "tens": 7,
+     "xs": 90,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "327/ 4",
+      "Course 2": "328/13"
+     },
+     "infoId": "412288",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412288",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
      "club": "ITA",
      "name": "BASSI Iuana",
      "target": "20B",
-     "pos": 4,
-     "total": 675,
+     "pos": 5,
+     "total": 680,
      "tens": 7,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "311/ 6",
-      "Course 2": "364/ 1"
+      "Course 2": "369/ 1"
      },
      "infoId": "412321",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412321",
@@ -6073,34 +6090,17 @@
      "club": "AUS",
      "name": "HU May",
      "target": "20D",
-     "pos": 5,
-     "total": 672,
+     "pos": 6,
+     "total": 677,
      "tens": 7,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "309/ 8",
-      "Course 2": "363/ 2"
+      "Course 2": "368/ 2"
      },
      "infoId": "412186",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412186",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "GBR",
-     "name": "JONES Georgiana",
-     "target": "19D",
-     "pos": 6,
-     "total": 640,
-     "tens": 7,
-     "xs": 88,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "327/ 4",
-      "Course 2": "313/14"
-     },
-     "infoId": "412288",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412288",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -6108,50 +6108,50 @@
      "name": "GARRIDO LAZARO Encarna",
      "target": "20A",
      "pos": 7,
-     "total": 664,
+     "total": 672,
      "tens": 7,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "312/ 5",
-      "Course 2": "352/ 3"
+      "Course 2": "360/ 3"
      },
      "infoId": "412254",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412254",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
-     "club": "RUS",
-     "name": "KURNEEVA Liudmila",
-     "target": "21A",
-     "pos": 8,
-     "total": 639,
-     "tens": 6,
-     "xs": 92,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "295/ 9",
-      "Course 2": "344/ 4"
-     },
-     "infoId": "412365",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412365",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
      "club": "ITA",
      "name": "SACCHETTI Paola",
      "target": "21B",
-     "pos": 9,
-     "total": 637,
+     "pos": 8,
+     "total": 652,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "293/10",
-      "Course 2": "344/ 4"
+      "Course 2": "359/ 4"
      },
      "infoId": "412323",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412323",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
+     "club": "RUS",
+     "name": "KURNEEVA Liudmila",
+     "target": "21A",
+     "pos": 9,
+     "total": 644,
+     "tens": 6,
+     "xs": 94,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "295/ 9",
+      "Course 2": "349/ 6"
+     },
+     "infoId": "412365",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412365",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -6159,13 +6159,13 @@
      "name": "BATES Joella",
      "target": "20C",
      "pos": 10,
-     "total": 634,
+     "total": 639,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "309/ 7",
-      "Course 2": "325/ 8"
+      "Course 2": "330/11"
      },
      "infoId": "412407",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412407",
@@ -6176,13 +6176,13 @@
      "name": "TIMBERLAKE Kim",
      "target": "21C",
      "pos": 11,
-     "total": 603,
+     "total": 618,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "280/11",
-      "Course 2": "323/10"
+      "Course 2": "338/ 8"
      },
      "infoId": "412409",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412409",
@@ -6193,13 +6193,13 @@
      "name": "GIORGETTI Maria Cristina",
      "target": "22A",
      "pos": 12,
-     "total": 598,
+     "total": 608,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "279/12",
-      "Course 2": "319/12"
+      "Course 2": "329/12"
      },
      "infoId": "412322",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412322",
@@ -6210,13 +6210,13 @@
      "name": "SPARKES Miranda",
      "target": "22D",
      "pos": 13,
-     "total": 592,
+     "total": 607,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "254/16",
-      "Course 2": "338/ 6"
+      "Course 2": "353/ 5"
      },
      "infoId": "412208",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412208",
@@ -6227,13 +6227,13 @@
      "name": "BUCHANAN Jayme",
      "target": "22C",
      "pos": 14,
-     "total": 580,
+     "total": 590,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "266/15",
-      "Course 2": "314/13"
+      "Course 2": "324/14"
      },
      "infoId": "412408",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412408",
@@ -6244,13 +6244,13 @@
      "name": "BRUMMER Laila",
      "target": "21D",
      "pos": 15,
-     "total": 560,
+     "total": 573,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "267/13",
-      "Course 2": "293/17"
+      "Course 2": "306/17"
      },
      "infoId": "412245",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412245",
@@ -6261,13 +6261,13 @@
      "name": "LJUBEJ Tanja",
      "target": "23B",
      "pos": 16,
-     "total": 555,
+     "total": 568,
      "tens": 6,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "247/18",
-      "Course 2": "308/15"
+      "Course 2": "321/15"
      },
      "infoId": "412377",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412377",
@@ -6278,13 +6278,13 @@
      "name": "GARIAEVA Natalia",
      "target": "23A",
      "pos": 17,
-     "total": 539,
+     "total": 549,
      "tens": 5,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "250/17",
-      "Course 2": "289/18"
+      "Course 2": "299/18"
      },
      "infoId": "412364",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412364",
@@ -6295,13 +6295,13 @@
      "name": "VANDER HOEK Ellen",
      "target": "23C",
      "pos": 18,
-     "total": 533,
+     "total": 538,
      "tens": 5,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "225/19",
-      "Course 2": "308/16"
+      "Course 2": "313/16"
      },
      "infoId": "412209",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412209",
@@ -6312,13 +6312,13 @@
      "name": "DVORAKOVA Petra",
      "target": "22B",
      "pos": 19,
-     "total": 525,
+     "total": 535,
      "tens": 5,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "267/14",
-      "Course 2": "258/19"
+      "Course 2": "268/19"
      },
      "infoId": "412229",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412229",
@@ -6329,13 +6329,13 @@
      "name": "VERDUN Verónica Patricia",
      "target": "23D",
      "pos": 20,
-     "total": 403,
+     "total": 418,
      "tens": 4,
-     "xs": 92,
+     "xs": 94,
      "arrows": 96,
      "dist": {
       "Course 1": "178/20",
-      "Course 2": "225/20"
+      "Course 2": "240/20"
      },
      "infoId": "412177",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412177",
@@ -6343,7 +6343,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:34:06 UTC",
+   "updated": "2026-09-30 17:41:39 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM"
   },
   {
@@ -6430,13 +6430,13 @@
      "name": "RIPA Nicolas Ariel",
      "target": "2B",
      "pos": 5,
-     "total": 772,
+     "total": 792,
      "tens": 8,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "408/ 6",
-      "Course 2": "364/14"
+      "Course 2": "384/ 7"
      },
      "infoId": "412181",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412181",
@@ -6453,7 +6453,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "402/ 7",
-      "Course 2": "369/11"
+      "Course 2": "369/14"
      },
      "infoId": "412182",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412182",
@@ -6470,44 +6470,44 @@
      "arrows": 96,
      "dist": {
       "Course 1": "392/11",
-      "Course 2": "379/ 6"
+      "Course 2": "379/ 8"
      },
      "infoId": "412327",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412327",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
+     "club": "ESP",
+     "name": "LOPEZ UBAGO Joaquin",
+     "target": "5D",
+     "pos": 8,
+     "total": 762,
+     "tens": 8,
+     "xs": 90,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "376/20",
+      "Course 2": "386/ 6"
+     },
+     "infoId": "412256",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412256",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
      "club": "NOR",
      "name": "HARBITZ Stian",
      "target": "3D",
-     "pos": 8,
+     "pos": 9,
      "total": 761,
      "tens": 8,
      "xs": 90,
      "arrows": 96,
      "dist": {
       "Course 1": "390/12",
-      "Course 2": "371/10"
+      "Course 2": "371/13"
      },
      "infoId": "412350",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412350",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "ESP",
-     "name": "LOPEZ UBAGO Joaquin",
-     "target": "5D",
-     "pos": 9,
-     "total": 744,
-     "tens": 8,
-     "xs": 88,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "376/20",
-      "Course 2": "368/12"
-     },
-     "infoId": "412256",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412256",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -6515,13 +6515,13 @@
      "name": "OLSEN Jens",
      "target": "2D",
      "pos": 10,
-     "total": 758,
+     "total": 776,
      "tens": 8,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "399/ 8",
-      "Course 2": "359/18"
+      "Course 2": "377/10"
      },
      "infoId": "412248",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412248",
@@ -6538,7 +6538,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "414/ 4",
-      "Course 2": "360/17"
+      "Course 2": "360/19"
      },
      "infoId": "412413",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412413",
@@ -6555,7 +6555,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "397/10",
-      "Course 2": "359/19"
+      "Course 2": "359/20"
      },
      "infoId": "412367",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412367",
@@ -6572,7 +6572,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "385/15",
-      "Course 2": "366/13"
+      "Course 2": "366/16"
      },
      "infoId": "412387",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412387",
@@ -6583,13 +6583,13 @@
      "name": "BUON Jérémie",
      "target": "2C",
      "pos": 14,
-     "total": 749,
+     "total": 767,
      "tens": 8,
-     "xs": 90,
+     "xs": 92,
      "arrows": 96,
      "dist": {
       "Course 1": "399/ 8",
-      "Course 2": "350/22"
+      "Course 2": "368/15"
      },
      "infoId": "412276",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412276",
@@ -6606,7 +6606,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "387/13",
-      "Course 2": "361/16"
+      "Course 2": "361/18"
      },
      "infoId": "412379",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412379",
@@ -6640,7 +6640,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "360/26",
-      "Course 2": "378/ 7"
+      "Course 2": "378/ 9"
      },
      "infoId": "412215",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412215",
@@ -6657,7 +6657,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "361/24",
-      "Course 2": "375/ 8"
+      "Course 2": "375/11"
      },
      "infoId": "412415",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412415",
@@ -6691,7 +6691,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "378/18",
-      "Course 2": "353/20"
+      "Course 2": "353/21"
      },
      "infoId": "412225",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412225",
@@ -6708,7 +6708,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "360/25",
-      "Course 2": "371/ 9"
+      "Course 2": "371/12"
      },
      "infoId": "412344",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412344",
@@ -6742,7 +6742,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "365/22",
-      "Course 2": "362/15"
+      "Course 2": "362/17"
      },
      "infoId": "412342",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412342",
@@ -6810,7 +6810,7 @@
      "arrows": 96,
      "dist": {
       "Course 1": "361/23",
-      "Course 2": "352/21"
+      "Course 2": "352/22"
      },
      "infoId": "412391",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412391",
@@ -6838,13 +6838,13 @@
      "name": "BRITTON Marc",
      "target": "8A",
      "pos": 29,
-     "total": 611,
+     "total": 626,
      "tens": 7,
-     "xs": 80,
+     "xs": 82,
      "arrows": 96,
      "dist": {
       "Course 1": "357/29",
-      "Course 2": "254/32"
+      "Course 2": "269/32"
      },
      "infoId": "412213",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412213",
@@ -6855,23 +6855,40 @@
      "name": "GONZALEZ Maximiliano",
      "target": "8C",
      "pos": 30,
-     "total": 593,
+     "total": 608,
      "tens": 7,
-     "xs": 78,
+     "xs": 80,
      "arrows": 96,
      "dist": {
       "Course 1": "350/31",
-      "Course 2": "243/33"
+      "Course 2": "258/33"
      },
      "infoId": "412180",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412180",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
+     "club": "IRL",
+     "name": "BALAZ Marek",
+     "target": "8B",
+     "pos": 31,
+     "total": 607,
+     "tens": 7,
+     "xs": 80,
+     "arrows": 96,
+     "dist": {
+      "Course 1": "355/30",
+      "Course 2": "252/34"
+     },
+     "infoId": "412306",
+     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412306",
+     "pool": "Longbow Men and Women, Traditional Men"
+    },
+    {
      "club": "CZE",
      "name": "MADURKAY Petr",
      "target": "9A",
-     "pos": 31,
+     "pos": 32,
      "total": 648,
      "tens": 7,
      "xs": 86,
@@ -6882,23 +6899,6 @@
      },
      "infoId": "412234",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412234",
-     "pool": "Longbow Men and Women, Traditional Men"
-    },
-    {
-     "club": "IRL",
-     "name": "BALAZ Marek",
-     "target": "8B",
-     "pos": 32,
-     "total": 587,
-     "tens": 7,
-     "xs": 78,
-     "arrows": 96,
-     "dist": {
-      "Course 1": "355/30",
-      "Course 2": "232/34"
-     },
-     "infoId": "412306",
-     "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412306",
      "pool": "Longbow Men and Women, Traditional Men"
     },
     {
@@ -6923,13 +6923,13 @@
      "name": "SEIBT Andreas",
      "target": "8D",
      "pos": 34,
-     "total": 566,
+     "total": 582,
      "tens": 7,
-     "xs": 78,
+     "xs": 80,
      "arrows": 96,
      "dist": {
       "Course 1": "348/32",
-      "Course 2": "218/35"
+      "Course 2": "234/35"
      },
      "infoId": "412301",
      "scoreUrl": "https://info.ianseo.net/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM&ViewScore=1&Entry=412301",
@@ -6971,7 +6971,7 @@
     }
    ],
    "code": "INFO",
-   "updated": "2026-09-30 17:36:57 UTC",
+   "updated": "2026-09-30 17:41:36 UTC",
    "infoLink": "/26WA3DC/Qualification/?type=0&Event[]=LM&Event[]=LW&Event[]=TM"
   },
   {
