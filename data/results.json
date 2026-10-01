@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T21:17:07Z",
+ "generated": "2026-10-01T21:22:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -11,7 +11,7 @@
  },
  "defaultClub": "NOR",
  "files": {
-  "IFCM": "2026-10-01 20:00:18",
+  "IFCM": "2026-10-01 21:17:28",
   "IFCW": "2026-10-01 21:01:56",
   "IFBM": "2026-10-01 21:01:27",
   "IFBW": "2026-10-01 21:02:07",
@@ -23,7 +23,7 @@
   "TFBX": "2026-10-01 16:57:38",
   "TFLX": "2026-10-01 20:26:00",
   "TFTX": "2026-10-01 20:57:41",
-  "IBCM": "2026-10-01 20:00:18",
+  "IBCM": "2026-10-01 21:17:28",
   "IBCW": "2026-10-01 21:01:56",
   "IBBM": "2026-10-01 21:01:27",
   "IBBW": "2026-10-01 21:02:07",
@@ -9452,12 +9452,17 @@
         "name": "Wiener Nico",
         "club": "AUT",
         "members": "",
-        "score": "22",
+        "score": "130",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "22",
+         "22",
+         "20",
+         "22",
+         "22",
          "22"
         ]
        },
@@ -9466,13 +9471,18 @@
         "name": "Benschjöld Jacob",
         "club": "SWE",
         "members": "",
-        "score": "20",
+        "score": "122",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "20"
+         "20",
+         "16",
+         "21",
+         "21",
+         "22",
+         "22"
         ]
        }
       },
@@ -9483,12 +9493,17 @@
         "name": "Godano Michea",
         "club": "ITA",
         "members": "",
-        "score": "22",
+        "score": "125",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "22",
+         "18",
+         "21",
+         "20",
+         "22",
          "22"
         ]
        },
@@ -9497,13 +9512,18 @@
         "name": "Zubalevich Artem",
         "club": "RUS",
         "members": "",
-        "score": "21",
+        "score": "124",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "21"
+         "21",
+         "18",
+         "20",
+         "22",
+         "21",
+         "22"
         ]
        }
       },
@@ -9514,22 +9534,38 @@
         "name": "Albanese Rémy",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "127",
         "bye": false,
         "so": "",
-        "target": "10A",
-        "when": "01-10-2026 14:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "19",
+         "22",
+         "22",
+         "22",
+         "21",
+         "21"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sut Jesse",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "128",
         "bye": false,
         "so": "",
-        "target": "10B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "21",
+         "22",
+         "21",
+         "22",
+         "21"
+        ]
        }
       },
       {
@@ -9539,21 +9575,86 @@
         "name": "Jevsnik Tim",
         "club": "SLO",
         "members": "",
-        "score": "",
+        "score": "64",
         "bye": false,
         "so": "",
-        "target": "10C",
-        "when": "01-10-2026 14:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "22",
+         "22"
+        ]
        },
        "b": {
         "label": null,
         "name": "Modic Stas",
         "club": "SLO",
         "members": "",
+        "score": "63",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "21",
+         "22"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Wiener Nico",
+        "club": "AUT",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "10D",
+        "target": "16A",
+        "when": "01-10-2026 15:30"
+       },
+       "b": {
+        "label": null,
+        "name": "Godano Michea",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "16B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Sut Jesse",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "16C",
+        "when": "01-10-2026 15:30"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "16D",
         "when": ""
        }
       }
@@ -9616,7 +9717,7 @@
     }
    ],
    "code": "IBCM",
-   "updated": "2026-10-01 20:00:18"
+   "updated": "2026-10-01 21:17:28"
   },
   {
    "name": "Compound Women",
