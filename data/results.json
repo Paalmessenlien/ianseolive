@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T16:12:06Z",
+ "generated": "2026-10-01T16:17:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -15,21 +15,22 @@
   "IFCW": "2026-09-30 21:52:12",
   "IFBM": "2026-09-30 21:51:39",
   "IFBW": "2026-09-30 21:51:26",
-  "IFLM": "2026-10-01 15:37:37",
+  "IFLM": "2026-10-01 16:15:19",
   "IFLW": "2026-10-01 16:05:05",
   "IFTM": "2026-10-01 15:38:44",
-  "IFTW": "2026-10-01 15:45:34",
+  "IFTW": "2026-10-01 16:16:08",
+  "TFCX": "2026-10-01 16:16:04",
   "IBCM": "2026-09-30 21:51:51",
   "IBCW": "2026-09-30 21:52:12",
   "IBBM": "2026-09-30 21:51:39",
   "IBBW": "2026-09-30 21:51:26",
-  "IBLM": "2026-10-01 15:37:37",
+  "IBLM": "2026-10-01 16:15:19",
   "IBLW": "2026-10-01 16:05:10",
   "IBTM": "2026-10-01 15:38:44",
-  "IBTW": "2026-10-01 15:45:34",
+  "IBTW": "2026-10-01 16:16:13",
   "TBMT": "2026-09-30 19:03:33",
   "TBWT": "2026-09-30 19:03:35",
-  "TBCX": "2026-09-30 19:03:37",
+  "TBCX": "2026-10-01 16:16:04",
   "TBBX": "2026-09-30 19:03:41",
   "TBLX": "2026-09-30 19:03:46",
   "TBTX": "2026-09-30 19:03:49",
@@ -9946,22 +9947,38 @@
         "name": "Harg Franz",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "94",
         "bye": false,
         "so": "",
-        "target": "8A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "16",
+         "18",
+         "8",
+         "19",
+         "20"
+        ]
        },
        "b": {
         "label": null,
         "name": "Lazzaroni Enzo",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "85",
         "bye": false,
         "so": "",
-        "target": "8B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "8",
+         "16",
+         "19",
+         "16",
+         "16"
+        ]
        }
       },
       {
@@ -9971,22 +9988,38 @@
         "name": "Gardeur Robin",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "89",
         "bye": false,
         "so": "",
-        "target": "8C",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "8",
+         "13",
+         "15",
+         "20",
+         "20"
+        ]
        },
        "b": {
         "label": null,
         "name": "Larsson Åhlström Patrik",
         "club": "SWE",
         "members": "",
-        "score": "",
+        "score": "79",
         "bye": false,
         "so": "",
-        "target": "8D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "5",
+         "16",
+         "13",
+         "13",
+         "16"
+        ]
        }
       },
       {
@@ -9996,22 +10029,36 @@
         "name": "Grayson Allen",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "71",
         "bye": false,
         "so": "",
-        "target": "10A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "8",
+         "16",
+         "16",
+         "13"
+        ]
        },
        "b": {
         "label": null,
         "name": "Edwards Ian",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "75",
         "bye": false,
         "so": "",
-        "target": "10B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "15",
+         "15",
+         "19",
+         "13"
+        ]
        }
       },
       {
@@ -10021,21 +10068,65 @@
         "name": "Krusic Igor",
         "club": "CRO",
         "members": "",
-        "score": "",
+        "score": "72",
         "bye": false,
         "so": "",
-        "target": "10C",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "5",
+         "18",
+         "18",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Poddevalin Mikhail",
         "club": "RUS",
         "members": "",
+        "score": "82",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "13",
+         "20",
+         "18",
+         "13"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Harg Franz",
+        "club": "AUT",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "10D",
+        "target": "16A",
+        "when": "01-10-2026 11:15"
+       },
+       "b": {
+        "label": null,
+        "name": "Gardeur Robin",
+        "club": "FRA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "16B",
         "when": ""
        }
       }
@@ -10098,7 +10189,7 @@
     }
    ],
    "code": "IBLM",
-   "updated": "2026-10-01 15:37:37"
+   "updated": "2026-10-01 16:15:19"
   },
   {
    "name": "Longbow Women",
@@ -12153,13 +12244,17 @@
         "name": "Korabecna Jarmila",
         "club": "CZE",
         "members": "",
-        "score": "13",
+        "score": "83",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "13"
+         "13",
+         "18",
+         "13",
+         "21",
+         "18"
         ]
        },
        "b": {
@@ -12167,13 +12262,17 @@
         "name": "Britton Katie Maria",
         "club": "CAN",
         "members": "",
-        "score": "10",
+        "score": "79",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "10"
+         "10",
+         "16",
+         "13",
+         "21",
+         "19"
         ]
        }
       },
@@ -12184,13 +12283,17 @@
         "name": "Wenzl Judith",
         "club": "GER",
         "members": "",
-        "score": "18",
+        "score": "94",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "18"
+         "18",
+         "18",
+         "16",
+         "21",
+         "21"
         ]
        },
        "b": {
@@ -12198,13 +12301,17 @@
         "name": "Palacio Pérez Aía",
         "club": "ESP",
         "members": "",
-        "score": "0",
+        "score": "79",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "-"
+         "16",
+         "16",
+         "18",
+         "16",
+         "13"
         ]
        }
       },
@@ -12215,22 +12322,38 @@
         "name": "Blahusova Martina",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "98",
         "bye": false,
         "so": "",
-        "target": "22A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "19",
+         "16",
+         "11",
+         "18",
+         "21"
+        ]
        },
        "b": {
         "label": null,
         "name": "Escalada Carolina",
         "club": "ARG",
         "members": "",
-        "score": "",
+        "score": "93",
         "bye": false,
         "so": "",
-        "target": "22B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "18",
+         "16",
+         "5",
+         "20",
+         "21"
+        ]
        }
       },
       {
@@ -12240,21 +12363,67 @@
         "name": "Jones Julie",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "93",
         "bye": false,
         "so": "",
-        "target": "22C",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "16",
+         "13",
+         "15",
+         "16",
+         "20"
+        ]
        },
        "b": {
         "label": null,
         "name": "Timofeeva Olga",
         "club": "RUS",
         "members": "",
+        "score": "87",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "13",
+         "13",
+         "8",
+         "19",
+         "19"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Blahusova Martina",
+        "club": "CZE",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "22D",
+        "target": "4C",
+        "when": "01-10-2026 11:15"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "4D",
         "when": ""
        }
       }
@@ -12317,7 +12486,7 @@
     }
    ],
    "code": "IBTW",
-   "updated": "2026-10-01 15:45:34"
+   "updated": "2026-10-01 16:16:13"
   },
   {
    "name": "Barebow Mixed Team (lag)",
@@ -12446,22 +12615,34 @@
         "name": "Austria",
         "club": "AUT",
         "members": "RONACHER Ingrid, WIENER Nico",
-        "score": "",
+        "score": "166",
         "bye": false,
         "so": "",
-        "target": "13A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "38",
+         "44",
+         "42",
+         "42"
+        ]
        },
        "b": {
         "label": null,
         "name": "Denmark",
         "club": "DEN",
         "members": "JENSEN Penille, NIELSEN Mathias Nedergård",
-        "score": "",
+        "score": "152",
         "bye": false,
         "so": "",
-        "target": "13B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "33",
+         "41",
+         "40",
+         "38"
+        ]
        }
       },
       {
@@ -12471,22 +12652,34 @@
         "name": "Finland",
         "club": "FIN",
         "members": "LAURILA Anne, PIRPPU Timo",
-        "score": "",
+        "score": "157",
         "bye": false,
         "so": "",
-        "target": "14A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "42",
+         "40",
+         "35",
+         "40"
+        ]
        },
        "b": {
         "label": null,
         "name": "Slovenia",
         "club": "SLO",
         "members": "KRIZE Barbra Pia, MODIC Stas",
-        "score": "",
+        "score": "156",
         "bye": false,
         "so": "",
-        "target": "14B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "41",
+         "37",
+         "39",
+         "39"
+        ]
        }
       },
       {
@@ -12496,22 +12689,34 @@
         "name": "France",
         "club": "FRA",
         "members": "AMA-CORMERAIS Aude, PAUNER Joan",
-        "score": "",
+        "score": "169",
         "bye": false,
         "so": "",
-        "target": "15A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "42",
+         "43",
+         "40",
+         "44"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sweden",
         "club": "SWE",
         "members": "HELMERSSON Camilla, BENSCHJÖLD Jacob",
-        "score": "",
+        "score": "157",
         "bye": false,
         "so": "",
-        "target": "15B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "36",
+         "41",
+         "37",
+         "43"
+        ]
        }
       },
       {
@@ -12521,21 +12726,88 @@
         "name": "Russia",
         "club": "RUS",
         "members": "SARUKHANOVA Anna, ZUBALEVICH Artem",
-        "score": "",
+        "score": "150",
         "bye": false,
         "so": "",
-        "target": "16A",
-        "when": "01-10-2026 10:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "42",
+         "28",
+         "43",
+         "37"
+        ]
        },
        "b": {
         "label": null,
         "name": "Italy",
         "club": "ITA",
         "members": "FRANCHINI Irene, GODANO Michea",
-        "score": "",
+        "score": "161",
         "bye": false,
         "so": "",
-        "target": "16B",
+        "target": "",
+        "when": "",
+        "sets": [
+         "40",
+         "41",
+         "44",
+         "36"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Austria",
+        "club": "AUT",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Finland",
+        "club": "FIN",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
         "when": ""
        }
       }
@@ -12543,7 +12815,7 @@
     }
    ],
    "code": "TBCX",
-   "updated": "2026-09-30 19:03:37"
+   "updated": "2026-10-01 16:16:04"
   },
   {
    "name": "Longbow Mixed Team (lag)",
