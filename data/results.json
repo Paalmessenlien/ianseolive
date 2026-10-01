@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T19:52:07Z",
+ "generated": "2026-10-01T19:57:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -12,9 +12,9 @@
  "defaultClub": "NOR",
  "files": {
   "IFCM": "2026-10-01 19:46:38",
-  "IFCW": "2026-10-01 19:39:15",
-  "IFBM": "2026-10-01 19:37:28",
-  "IFBW": "2026-10-01 19:28:13",
+  "IFCW": "2026-10-01 19:56:53",
+  "IFBM": "2026-10-01 19:56:28",
+  "IFBW": "2026-10-01 19:56:40",
   "IFLM": "2026-10-01 17:11:28",
   "IFLW": "2026-10-01 17:12:47",
   "IFTM": "2026-10-01 17:11:53",
@@ -22,9 +22,9 @@
   "TFCX": "2026-10-01 16:17:54",
   "TFBX": "2026-10-01 16:57:38",
   "IBCM": "2026-10-01 19:46:38",
-  "IBCW": "2026-10-01 19:39:15",
-  "IBBM": "2026-10-01 19:37:28",
-  "IBBW": "2026-10-01 19:28:13",
+  "IBCW": "2026-10-01 19:56:53",
+  "IBBM": "2026-10-01 19:56:28",
+  "IBBW": "2026-10-01 19:56:43",
   "IBLM": "2026-10-01 17:11:28",
   "IBLW": "2026-10-01 17:12:47",
   "IBTM": "2026-10-01 17:11:53",
@@ -7548,7 +7548,10 @@
         "bye": false,
         "so": "",
         "target": "16A",
-        "when": "01-10-2026 14:30"
+        "when": "01-10-2026 14:30",
+        "sets": [
+         "20"
+        ]
        },
        "b": {
         "label": null,
@@ -7559,7 +7562,10 @@
         "bye": false,
         "so": "",
         "target": "16B",
-        "when": ""
+        "when": "",
+        "sets": [
+         "15"
+        ]
        }
       },
       {
@@ -7572,7 +7578,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "16A",
+        "target": "16C",
         "when": "01-10-2026 14:30"
        },
        "b": {
@@ -7583,7 +7589,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "16B",
+        "target": "16D",
         "when": ""
        }
       },
@@ -7594,21 +7600,21 @@
         "name": "Klein-Weinberger Christian",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "20",
         "bye": false,
         "so": "",
-        "target": "18A",
-        "when": "01-10-2026 14:30"
+        "target": "",
+        "when": ""
        },
        "b": {
         "label": null,
         "name": "Hicks Oliver",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "18B",
+        "target": "",
         "when": ""
        }
       },
@@ -7696,7 +7702,7 @@
     }
    ],
    "code": "IBBM",
-   "updated": "2026-10-01 19:37:28"
+   "updated": "2026-10-01 19:56:28"
   },
   {
    "name": "Barebow Women",
@@ -8378,22 +8384,28 @@
         "name": "Noziglia Cinzia",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "16",
         "bye": false,
         "so": "",
-        "target": "20A",
-        "when": "01-10-2026 14:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sirkel-Suviste Inge",
         "club": "EST",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "20B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15"
+        ]
        }
       },
       {
@@ -8403,22 +8415,28 @@
         "name": "Ingvaldsen Kristina",
         "club": "NOR",
         "members": "",
-        "score": "",
+        "score": "15",
         "bye": false,
         "so": "",
-        "target": "20C",
-        "when": "01-10-2026 14:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Leitner Rosemarie",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "19",
         "bye": false,
         "so": "",
-        "target": "20D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "19"
+        ]
        }
       },
       {
@@ -8530,7 +8548,7 @@
     }
    ],
    "code": "IBBW",
-   "updated": "2026-10-01 19:28:13"
+   "updated": "2026-10-01 19:56:43"
   },
   {
    "name": "Compound Men",
@@ -10198,7 +10216,7 @@
     }
    ],
    "code": "IBCW",
-   "updated": "2026-10-01 19:39:15"
+   "updated": "2026-10-01 19:56:53"
   },
   {
    "name": "Longbow Men",
