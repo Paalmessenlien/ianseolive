@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T21:27:07Z",
+ "generated": "2026-10-01T21:32:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -12,8 +12,8 @@
  "defaultClub": "NOR",
  "files": {
   "IFCM": "2026-10-01 21:23:51",
-  "IFCW": "2026-10-01 21:01:56",
-  "IFBM": "2026-10-01 21:01:27",
+  "IFCW": "2026-10-01 21:30:35",
+  "IFBM": "2026-10-01 21:30:07",
   "IFBW": "2026-10-01 21:23:23",
   "IFLM": "2026-10-01 17:11:28",
   "IFLW": "2026-10-01 17:12:47",
@@ -24,8 +24,8 @@
   "TFLX": "2026-10-01 20:26:00",
   "TFTX": "2026-10-01 20:57:41",
   "IBCM": "2026-10-01 21:23:51",
-  "IBCW": "2026-10-01 21:01:56",
-  "IBBM": "2026-10-01 21:01:27",
+  "IBCW": "2026-10-01 21:30:35",
+  "IBBM": "2026-10-01 21:30:07",
   "IBBW": "2026-10-01 21:23:23",
   "IBLM": "2026-10-01 17:11:28",
   "IBLW": "2026-10-01 17:12:47",
@@ -7715,22 +7715,34 @@
         "name": "Jackson David",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "80",
         "bye": false,
         "so": "",
-        "target": "24A",
-        "when": "01-10-2026 15:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "15",
+         "22",
+         "22"
+        ]
        },
        "b": {
         "label": null,
         "name": "Budiak Vitalii",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "68",
         "bye": false,
         "so": "",
-        "target": "24B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "10",
+         "19",
+         "21"
+        ]
        }
       },
       {
@@ -7740,22 +7752,34 @@
         "name": "Hicks Oliver",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "72",
         "bye": false,
         "so": "",
-        "target": "24C",
-        "when": "01-10-2026 15:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "13",
+         "18",
+         "21"
+        ]
        },
        "b": {
         "label": null,
         "name": "Vera Bringas Cesar",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "83",
         "bye": false,
         "so": "",
-        "target": "24D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "19",
+         "22",
+         "22"
+        ]
        }
       }
      ]
@@ -7767,8 +7791,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Jackson David",
+        "club": "FRA",
         "members": "",
         "score": "",
         "bye": false,
@@ -7778,8 +7802,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Vera Bringas Cesar",
+        "club": "ESP",
         "members": "",
         "score": "",
         "bye": false,
@@ -7792,8 +7816,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Budiak Vitalii",
+        "club": "RUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -7803,8 +7827,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Hicks Oliver",
+        "club": "GBR",
         "members": "",
         "score": "",
         "bye": false,
@@ -7817,7 +7841,7 @@
     }
    ],
    "code": "IBBM",
-   "updated": "2026-10-01 21:01:27"
+   "updated": "2026-10-01 21:30:07"
   },
   {
    "name": "Barebow Women",
@@ -10592,22 +10616,34 @@
         "name": "Ronacher Ingrid",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "82",
         "bye": false,
         "so": "",
-        "target": "20A",
-        "when": "01-10-2026 15:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "21",
+         "20",
+         "20"
+        ]
        },
        "b": {
         "label": null,
         "name": "Wiens Andrea",
         "club": "CAN",
         "members": "",
-        "score": "",
+        "score": "75",
         "bye": false,
         "so": "",
-        "target": "20B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "16",
+         "19",
+         "20"
+        ]
        }
       },
       {
@@ -10617,22 +10653,34 @@
         "name": "Ama-cormerais Aude",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "82",
         "bye": false,
         "so": "",
-        "target": "20C",
-        "when": "01-10-2026 15:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "21",
+         "21",
+         "21",
+         "19"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sarukhanova Anna",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "69",
         "bye": false,
         "so": "",
-        "target": "20D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "15",
+         "15",
+         "20",
+         "19"
+        ]
        }
       }
      ]
@@ -10644,8 +10692,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Ronacher Ingrid",
+        "club": "AUT",
         "members": "",
         "score": "",
         "bye": false,
@@ -10655,8 +10703,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Ama-cormerais Aude",
+        "club": "FRA",
         "members": "",
         "score": "",
         "bye": false,
@@ -10669,8 +10717,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Wiens Andrea",
+        "club": "CAN",
         "members": "",
         "score": "",
         "bye": false,
@@ -10680,8 +10728,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Sarukhanova Anna",
+        "club": "RUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -10694,7 +10742,7 @@
     }
    ],
    "code": "IBCW",
-   "updated": "2026-10-01 21:01:56"
+   "updated": "2026-10-01 21:30:35"
   },
   {
    "name": "Longbow Men",
