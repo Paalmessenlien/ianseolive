@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T16:27:07Z",
+ "generated": "2026-10-01T16:32:06Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -16,7 +16,7 @@
   "IFBM": "2026-09-30 21:51:39",
   "IFBW": "2026-09-30 21:51:26",
   "IFLM": "2026-10-01 16:21:57",
-  "IFLW": "2026-10-01 16:05:05",
+  "IFLW": "2026-10-01 16:29:39",
   "IFTM": "2026-10-01 16:24:46",
   "IFTW": "2026-10-01 16:22:31",
   "TFCX": "2026-10-01 16:17:54",
@@ -25,7 +25,7 @@
   "IBBM": "2026-09-30 21:51:39",
   "IBBW": "2026-09-30 21:51:26",
   "IBLM": "2026-10-01 16:21:57",
-  "IBLW": "2026-10-01 16:05:10",
+  "IBLW": "2026-10-01 16:29:39",
   "IBTM": "2026-10-01 16:24:46",
   "IBTW": "2026-10-01 16:22:31",
   "TBMT": "2026-09-30 19:03:33",
@@ -10567,7 +10567,7 @@
         "name": "Lafaurie Cecile",
         "club": "FRA",
         "members": "",
-        "score": "49",
+        "score": "90",
         "bye": false,
         "so": "",
         "target": "",
@@ -10575,7 +10575,10 @@
         "sets": [
          "13",
          "18",
-         "18"
+         "18",
+         "13",
+         "13",
+         "15"
         ]
        },
        "b": {
@@ -10583,7 +10586,7 @@
         "name": "Kurneeva Liudmila",
         "club": "RUS",
         "members": "",
-        "score": "47",
+        "score": "75",
         "bye": false,
         "so": "",
         "target": "",
@@ -10591,7 +10594,10 @@
         "sets": [
          "16",
          "16",
-         "15"
+         "15",
+         "10",
+         "5",
+         "13"
         ]
        }
       },
@@ -10602,7 +10608,7 @@
         "name": "Bassi Iuana",
         "club": "ITA",
         "members": "",
-        "score": "39",
+        "score": "86",
         "bye": false,
         "so": "",
         "target": "",
@@ -10610,7 +10616,10 @@
         "sets": [
          "8",
          "18",
-         "13"
+         "13",
+         "18",
+         "19",
+         "10"
         ]
        },
        "b": {
@@ -10618,7 +10627,7 @@
         "name": "Jones Georgiana",
         "club": "GBR",
         "members": "",
-        "score": "44",
+        "score": "85",
         "bye": false,
         "so": "",
         "target": "",
@@ -10626,7 +10635,10 @@
         "sets": [
          "13",
          "16",
-         "15"
+         "15",
+         "15",
+         "13",
+         "13"
         ]
        }
       },
@@ -10637,7 +10649,7 @@
         "name": "Virmasalo Paula",
         "club": "FIN",
         "members": "",
-        "score": "25",
+        "score": "66",
         "bye": false,
         "so": "",
         "target": "",
@@ -10645,7 +10657,10 @@
         "sets": [
          "10",
          "-",
-         "15"
+         "16",
+         "10",
+         "20",
+         "10"
         ]
        },
        "b": {
@@ -10653,14 +10668,18 @@
         "name": "Timberlake Kim",
         "club": "USA",
         "members": "",
-        "score": "30",
+        "score": "96",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "10",
-         "20"
+         "20",
+         "18",
+         "13",
+         "16",
+         "19"
         ]
        }
       },
@@ -10671,14 +10690,18 @@
         "name": "Bates Joella",
         "club": "USA",
         "members": "",
-        "score": "28",
+        "score": "79",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
          "10",
-         "18"
+         "18",
+         "15",
+         "10",
+         "10",
+         "16"
         ]
        },
        "b": {
@@ -10686,7 +10709,7 @@
         "name": "Pitschmann Johanna",
         "club": "AUT",
         "members": "",
-        "score": "50",
+        "score": "103",
         "bye": false,
         "so": "",
         "target": "",
@@ -10694,8 +10717,66 @@
         "sets": [
          "19",
          "15",
-         "16"
+         "16",
+         "18",
+         "15",
+         "20"
         ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Lafaurie Cecile",
+        "club": "FRA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20A",
+        "when": "01-10-2026 11:15"
+       },
+       "b": {
+        "label": null,
+        "name": "Bassi Iuana",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20B",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Timberlake Kim",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20C",
+        "when": "01-10-2026 11:15"
+       },
+       "b": {
+        "label": null,
+        "name": "Pitschmann Johanna",
+        "club": "AUT",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "20D",
+        "when": ""
        }
       }
      ]
@@ -10757,7 +10838,7 @@
     }
    ],
    "code": "IBLW",
-   "updated": "2026-10-01 16:05:10"
+   "updated": "2026-10-01 16:29:39"
   },
   {
    "name": "Traditional Men",
