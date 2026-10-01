@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T15:27:06Z",
+ "generated": "2026-10-01T15:32:06Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -16,7 +16,7 @@
   "IFBM": "2026-09-30 21:51:39",
   "IFBW": "2026-09-30 21:51:26",
   "IFLM": "2026-10-01 15:20:36",
-  "IFLW": "2026-10-01 15:25:49",
+  "IFLW": "2026-10-01 15:28:34",
   "IFTM": "2026-10-01 15:25:53",
   "IFTW": "2026-10-01 15:25:55",
   "IBCM": "2026-09-30 21:51:51",
@@ -24,7 +24,7 @@
   "IBBM": "2026-09-30 21:51:39",
   "IBBW": "2026-09-30 21:51:26",
   "IBLM": "2026-10-01 15:20:36",
-  "IBLW": "2026-10-01 15:25:49",
+  "IBLW": "2026-10-01 15:28:34",
   "IBTM": "2026-10-01 15:25:53",
   "IBTW": "2026-10-01 15:25:55",
   "TBMT": "2026-09-30 19:03:33",
@@ -10196,13 +10196,18 @@
         "name": "Bassi Iuana",
         "club": "ITA",
         "members": "",
-        "score": "21",
+        "score": "88",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "21"
+         "21",
+         "10",
+         "15",
+         "13",
+         "16",
+         "13"
         ]
        },
        "b": {
@@ -10210,13 +10215,18 @@
         "name": "Giorgetti Maria Cristina",
         "club": "ITA",
         "members": "",
-        "score": "15",
+        "score": "61",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "15"
+         "15",
+         "13",
+         "13",
+         "5",
+         "5",
+         "10"
         ]
        }
       },
@@ -10227,13 +10237,18 @@
         "name": "Sparkes Miranda",
         "club": "CAN",
         "members": "",
-        "score": "15",
+        "score": "64",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "15"
+         "15",
+         "13",
+         "10",
+         "5",
+         "13",
+         "8"
         ]
        },
        "b": {
@@ -10241,12 +10256,17 @@
         "name": "Jones Georgiana",
         "club": "GBR",
         "members": "",
-        "score": "10",
+        "score": "64",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "10",
+         "13",
+         "10",
+         "5",
+         "16",
          "10"
         ]
        }
@@ -10423,6 +10443,31 @@
        "label": "",
        "a": {
         "label": null,
+        "name": "Bassi Iuana",
+        "club": "ITA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "12C",
+        "when": "01-10-2026 10:15"
+       },
+       "b": {
+        "label": null,
+        "name": "",
+        "club": "",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "12D",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
         "name": "Bates Joella",
         "club": "USA",
         "members": "",
@@ -10503,7 +10548,7 @@
     }
    ],
    "code": "IBLW",
-   "updated": "2026-10-01 15:25:49"
+   "updated": "2026-10-01 15:28:34"
   },
   {
    "name": "Traditional Men",
