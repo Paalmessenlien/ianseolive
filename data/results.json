@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T16:57:45Z",
+ "generated": "2026-10-01T17:22:59Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -15,24 +15,24 @@
   "IFCW": "2026-09-30 21:52:12",
   "IFBM": "2026-09-30 21:51:39",
   "IFBW": "2026-09-30 21:51:26",
-  "IFLM": "2026-10-01 16:40:12",
-  "IFLW": "2026-10-01 16:39:53",
-  "IFTM": "2026-10-01 16:40:42",
-  "IFTW": "2026-10-01 16:38:04",
+  "IFLM": "2026-10-01 17:11:28",
+  "IFLW": "2026-10-01 17:12:47",
+  "IFTM": "2026-10-01 17:11:53",
+  "IFTW": "2026-10-01 17:12:53",
   "TFCX": "2026-10-01 16:17:54",
-  "TFBX": "2026-10-01 16:57:08",
+  "TFBX": "2026-10-01 16:57:38",
   "IBCM": "2026-09-30 21:51:51",
   "IBCW": "2026-09-30 21:52:12",
   "IBBM": "2026-09-30 21:51:39",
   "IBBW": "2026-09-30 21:51:26",
-  "IBLM": "2026-10-01 16:40:14",
-  "IBLW": "2026-10-01 16:39:53",
-  "IBTM": "2026-10-01 16:40:42",
-  "IBTW": "2026-10-01 16:38:04",
+  "IBLM": "2026-10-01 17:11:28",
+  "IBLW": "2026-10-01 17:12:47",
+  "IBTM": "2026-10-01 17:11:53",
+  "IBTW": "2026-10-01 17:12:53",
   "TBMT": "2026-09-30 19:03:33",
   "TBWT": "2026-09-30 19:03:35",
   "TBCX": "2026-10-01 16:17:54",
-  "TBBX": "2026-10-01 16:57:08",
+  "TBBX": "2026-10-01 16:57:37",
   "TBLX": "2026-09-30 19:03:46",
   "TBTX": "2026-09-30 19:03:49",
   "IQCM": "2026-09-30 19:03:04",
@@ -10117,12 +10117,15 @@
         "name": "Harg Franz",
         "club": "AUT",
         "members": "",
-        "score": "15",
+        "score": "58",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "15",
+         "10",
+         "18",
          "15"
         ]
        },
@@ -10131,13 +10134,16 @@
         "name": "Gardeur Robin",
         "club": "FRA",
         "members": "",
-        "score": "20",
+        "score": "63",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "20"
+         "20",
+         "13",
+         "15",
+         "15"
         ]
        }
       },
@@ -10148,13 +10154,16 @@
         "name": "Grayson Allen",
         "club": "GBR",
         "members": "",
-        "score": "15",
+        "score": "56",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "15"
+         "15",
+         "13",
+         "18",
+         "10"
         ]
        },
        "b": {
@@ -10162,13 +10171,16 @@
         "name": "Poddevalin Mikhail",
         "club": "RUS",
         "members": "",
-        "score": "20",
+        "score": "62",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "20"
+         "20",
+         "10",
+         "19",
+         "13"
         ]
        }
       }
@@ -10181,8 +10193,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Gardeur Robin",
+        "club": "FRA",
         "members": "",
         "score": "",
         "bye": false,
@@ -10192,8 +10204,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Poddevalin Mikhail",
+        "club": "RUS",
         "members": "",
         "score": "",
         "bye": false,
@@ -10206,8 +10218,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Harg Franz",
+        "club": "AUT",
         "members": "",
         "score": "",
         "bye": false,
@@ -10217,8 +10229,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Grayson Allen",
+        "club": "GBR",
         "members": "",
         "score": "",
         "bye": false,
@@ -10231,7 +10243,7 @@
     }
    ],
    "code": "IBLM",
-   "updated": "2026-10-01 16:40:14"
+   "updated": "2026-10-01 17:11:28"
   },
   {
    "name": "Longbow Women",
@@ -10749,22 +10761,34 @@
         "name": "Lafaurie Cecile",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "65",
         "bye": false,
         "so": "",
-        "target": "20A",
-        "when": "01-10-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "21",
+         "13",
+         "15"
+        ]
        },
        "b": {
         "label": null,
         "name": "Bassi Iuana",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "49",
         "bye": false,
         "so": "",
-        "target": "20B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "8",
+         "18",
+         "13",
+         "10"
+        ]
        }
       },
       {
@@ -10774,22 +10798,34 @@
         "name": "Timberlake Kim",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "54",
         "bye": false,
         "so": "",
-        "target": "20C",
-        "when": "01-10-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "13",
+         "10",
+         "18"
+        ]
        },
        "b": {
         "label": null,
         "name": "Pitschmann Johanna",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "60",
         "bye": false,
         "so": "",
-        "target": "20D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "21",
+         "13",
+         "16"
+        ]
        }
       }
      ]
@@ -10801,8 +10837,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Lafaurie Cecile",
+        "club": "FRA",
         "members": "",
         "score": "",
         "bye": false,
@@ -10812,8 +10848,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Pitschmann Johanna",
+        "club": "AUT",
         "members": "",
         "score": "",
         "bye": false,
@@ -10826,8 +10862,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Bassi Iuana",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -10837,8 +10873,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Timberlake Kim",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -10851,7 +10887,7 @@
     }
    ],
    "code": "IBLW",
-   "updated": "2026-10-01 16:39:53"
+   "updated": "2026-10-01 17:12:47"
   },
   {
    "name": "Traditional Men",
@@ -11702,13 +11738,16 @@
         "name": "Christensen Zibrandt",
         "club": "DEN",
         "members": "",
-        "score": "19",
+        "score": "79",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "19"
+         "19",
+         "18",
+         "20",
+         "22"
         ]
        },
        "b": {
@@ -11716,13 +11755,16 @@
         "name": "Kallenberg Johnny",
         "club": "SWE",
         "members": "",
-        "score": "19",
+        "score": "77",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "19"
+         "19",
+         "15",
+         "22",
+         "21"
         ]
        }
       },
@@ -11733,13 +11775,16 @@
         "name": "Gheda Kevin",
         "club": "ITA",
         "members": "",
-        "score": "19",
+        "score": "81",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
-         "19"
+         "19",
+         "18",
+         "22",
+         "22"
         ]
        },
        "b": {
@@ -11747,12 +11792,15 @@
         "name": "Olsen Jens",
         "club": "DEN",
         "members": "",
-        "score": "21",
+        "score": "76",
         "bye": false,
         "so": "",
         "target": "",
         "when": "",
         "sets": [
+         "21",
+         "13",
+         "21",
          "21"
         ]
        }
@@ -11766,8 +11814,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Christensen Zibrandt",
+        "club": "DEN",
         "members": "",
         "score": "",
         "bye": false,
@@ -11777,8 +11825,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Gheda Kevin",
+        "club": "ITA",
         "members": "",
         "score": "",
         "bye": false,
@@ -11791,8 +11839,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Kallenberg Johnny",
+        "club": "SWE",
         "members": "",
         "score": "",
         "bye": false,
@@ -11802,8 +11850,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Olsen Jens",
+        "club": "DEN",
         "members": "",
         "score": "",
         "bye": false,
@@ -11816,7 +11864,7 @@
     }
    ],
    "code": "IBTM",
-   "updated": "2026-10-01 16:40:42"
+   "updated": "2026-10-01 17:11:53"
   },
   {
    "name": "Traditional Women",
@@ -12667,22 +12715,34 @@
         "name": "Korabecna Jarmila",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "49",
         "bye": false,
         "so": "",
-        "target": "4A",
-        "when": "01-10-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "8",
+         "10",
+         "21",
+         "10"
+        ]
        },
        "b": {
         "label": null,
         "name": "Wenzl Judith",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "65",
         "bye": false,
         "so": "",
-        "target": "4B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "16",
+         "21",
+         "18"
+        ]
        }
       },
       {
@@ -12692,22 +12752,34 @@
         "name": "Blahusova Martina",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "49",
         "bye": false,
         "so": "",
-        "target": "4C",
-        "when": "01-10-2026 11:15"
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "15",
+         "16",
+         "8"
+        ]
        },
        "b": {
         "label": null,
         "name": "Jones Julie",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "52",
         "bye": false,
         "so": "",
-        "target": "4D",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "13",
+         "16",
+         "13"
+        ]
        }
       }
      ]
@@ -12719,8 +12791,8 @@
        "label": "Gold",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Wenzl Judith",
+        "club": "GER",
         "members": "",
         "score": "",
         "bye": false,
@@ -12730,8 +12802,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Jones Julie",
+        "club": "USA",
         "members": "",
         "score": "",
         "bye": false,
@@ -12744,8 +12816,8 @@
        "label": "Bronze",
        "a": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Korabecna Jarmila",
+        "club": "CZE",
         "members": "",
         "score": "",
         "bye": false,
@@ -12755,8 +12827,8 @@
        },
        "b": {
         "label": null,
-        "name": "",
-        "club": "",
+        "name": "Blahusova Martina",
+        "club": "CZE",
         "members": "",
         "score": "",
         "bye": false,
@@ -12769,7 +12841,7 @@
     }
    ],
    "code": "IBTW",
-   "updated": "2026-10-01 16:38:04"
+   "updated": "2026-10-01 17:12:53"
   },
   {
    "name": "Barebow Mixed Team (lag)",
@@ -12935,8 +13007,8 @@
        "label": "",
        "a": {
         "label": null,
-        "name": "Russia",
-        "club": "RUS",
+        "name": "Spain",
+        "club": "ESP",
         "members": "",
         "score": "0",
         "bye": false,
@@ -12946,8 +13018,33 @@
        },
        "b": {
         "label": null,
+        "name": "Russia",
+        "club": "RUS",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
         "name": "Denmark",
         "club": "DEN",
+        "members": "",
+        "score": "0",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
         "members": "",
         "score": "0",
         "bye": false,
@@ -12960,7 +13057,7 @@
     }
    ],
    "code": "TBBX",
-   "updated": "2026-10-01 16:57:08"
+   "updated": "2026-10-01 16:57:37"
   },
   {
    "name": "Compound Mixed Team (lag)",
