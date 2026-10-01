@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T16:46:19Z",
+ "generated": "2026-10-01T16:57:45Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -20,6 +20,7 @@
   "IFTM": "2026-10-01 16:40:42",
   "IFTW": "2026-10-01 16:38:04",
   "TFCX": "2026-10-01 16:17:54",
+  "TFBX": "2026-10-01 16:57:08",
   "IBCM": "2026-09-30 21:51:51",
   "IBCW": "2026-09-30 21:52:12",
   "IBBM": "2026-09-30 21:51:39",
@@ -31,7 +32,7 @@
   "TBMT": "2026-09-30 19:03:33",
   "TBWT": "2026-09-30 19:03:35",
   "TBCX": "2026-10-01 16:17:54",
-  "TBBX": "2026-09-30 19:03:41",
+  "TBBX": "2026-10-01 16:57:08",
   "TBLX": "2026-09-30 19:03:46",
   "TBTX": "2026-09-30 19:03:49",
   "IQCM": "2026-09-30 19:03:04",
@@ -12784,22 +12785,34 @@
         "name": "Italy",
         "club": "ITA",
         "members": "NOZIGLIA Cinzia, SEIMANDI Giuseppe",
-        "score": "0",
+        "score": "128",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "25",
+         "43",
+         "34",
+         "26"
+        ]
        },
        "b": {
         "label": null,
         "name": "Spain",
         "club": "ESP",
         "members": "CANO GARCIA Ana Maria, VERA BRINGAS Cesar",
-        "score": "0",
+        "score": "136",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "33",
+         "43",
+         "32",
+         "28"
+        ]
        }
       },
       {
@@ -12809,22 +12822,34 @@
         "name": "France",
         "club": "FRA",
         "members": "BAUMERT Alicia, JACKSON David",
-        "score": "0",
+        "score": "154",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "44",
+         "31",
+         "36",
+         "43"
+        ]
        },
        "b": {
         "label": null,
         "name": "Russia",
         "club": "RUS",
         "members": "MITULIA Kseniia, BUDIAK Vitalii",
-        "score": "0",
+        "score": "164",
         "bye": false,
         "so": "",
         "target": "",
-        "when": ""
+        "when": "",
+        "sets": [
+         "43",
+         "39",
+         "38",
+         "44"
+        ]
        }
       },
       {
@@ -12834,6 +12859,85 @@
         "name": "Germany",
         "club": "GER",
         "members": "SCHÄFER Christine, SCHAEFER Rüdiger",
+        "score": "136",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "34",
+         "44",
+         "38"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Denmark",
+        "club": "DEN",
+        "members": "HAUGE Louise, ØCHKENHOLT Oliver",
+        "score": "138",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "26",
+         "30",
+         "43",
+         "39"
+        ]
+       }
+      },
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Austria",
+        "club": "AUT",
+        "members": "LEITNER Rosemarie, KLEIN-WEINBERGER Christian",
+        "score": "136",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "36",
+         "42",
+         "38",
+         "20"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "JONES Ava, HUDSON Matt",
+        "score": "150",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "40",
+         "43",
+         "38",
+         "29"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "1/2",
+     "matches": [
+      {
+       "label": "",
+       "a": {
+        "label": null,
+        "name": "Russia",
+        "club": "RUS",
+        "members": "",
         "score": "0",
         "bye": false,
         "so": "",
@@ -12844,32 +12948,7 @@
         "label": null,
         "name": "Denmark",
         "club": "DEN",
-        "members": "HAUGE Louise, ØCHKENHOLT Oliver",
-        "score": "0",
-        "bye": false,
-        "so": "",
-        "target": "",
-        "when": ""
-       }
-      },
-      {
-       "label": "",
-       "a": {
-        "label": null,
-        "name": "Austria",
-        "club": "AUT",
-        "members": "LEITNER Rosemarie, KLEIN-WEINBERGER Christian",
-        "score": "0",
-        "bye": false,
-        "so": "",
-        "target": "",
-        "when": ""
-       },
-       "b": {
-        "label": null,
-        "name": "USA",
-        "club": "USA",
-        "members": "JONES Ava, HUDSON Matt",
+        "members": "",
         "score": "0",
         "bye": false,
         "so": "",
@@ -12881,7 +12960,7 @@
     }
    ],
    "code": "TBBX",
-   "updated": "2026-09-30 19:03:41"
+   "updated": "2026-10-01 16:57:08"
   },
   {
    "name": "Compound Mixed Team (lag)",
