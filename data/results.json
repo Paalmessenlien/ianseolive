@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T16:32:06Z",
+ "generated": "2026-10-02T16:37:06Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -19,8 +19,8 @@
   "IFLW": "2026-10-01 17:12:47",
   "IFTM": "2026-10-01 17:11:53",
   "IFTW": "2026-10-01 17:12:53",
-  "TFMT": "2026-10-02 15:50:49",
-  "TFWT": "2026-10-02 15:50:38",
+  "TFMT": "2026-10-02 16:34:38",
+  "TFWT": "2026-10-02 16:34:16",
   "TFCX": "2026-10-02 14:41:02",
   "TFBX": "2026-10-02 14:36:51",
   "TFLX": "2026-10-02 14:34:41",
@@ -33,8 +33,8 @@
   "IBLW": "2026-10-01 17:12:47",
   "IBTM": "2026-10-01 17:11:53",
   "IBTW": "2026-10-01 17:12:53",
-  "TBMT": "2026-10-02 15:50:49",
-  "TBWT": "2026-10-02 15:50:38",
+  "TBMT": "2026-10-02 16:34:38",
+  "TBWT": "2026-10-02 16:34:16",
   "TBCX": "2026-10-02 14:41:02",
   "TBBX": "2026-10-02 14:36:51",
   "TBLX": "2026-10-02 14:34:41",
@@ -15403,22 +15403,34 @@
         "name": "Denmark",
         "club": "DEN",
         "members": "",
-        "score": "",
+        "score": "142",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 10:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "39",
+         "42",
+         "23",
+         "38"
+        ]
        },
        "b": {
         "label": null,
         "name": "Russia",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "150",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "37",
+         "40",
+         "36",
+         "37"
+        ]
        }
       },
       {
@@ -15428,11 +15440,78 @@
         "name": "France",
         "club": "FRA",
         "members": "",
+        "score": "159",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "35",
+         "41",
+         "41",
+         "42"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "",
+        "score": "147",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "33",
+         "39",
+         "32",
+         "43"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "Russia",
+        "club": "RUS",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "3A",
-        "when": "02-10-2026 10:30"
+        "target": "1A",
+        "when": "02-10-2026 15:10"
+       },
+       "b": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "Denmark",
+        "club": "DEN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "02-10-2026 15:00"
        },
        "b": {
         "label": null,
@@ -15442,7 +15521,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "3B",
+        "target": "1B",
         "when": ""
        }
       }
@@ -15450,7 +15529,7 @@
     }
    ],
    "code": "TBMT",
-   "updated": "2026-10-02 15:50:49"
+   "updated": "2026-10-02 16:34:38"
   },
   {
    "name": "Traditional Mixed Team (lag)",
@@ -15914,22 +15993,34 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "146",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 10:31"
+        "target": "",
+        "when": "",
+        "sets": [
+         "38",
+         "31",
+         "38",
+         "39"
+        ]
        },
        "b": {
         "label": null,
         "name": "Spain",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "125",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "36",
+         "35",
+         "28",
+         "26"
+        ]
        }
       },
       {
@@ -15939,11 +16030,53 @@
         "name": "Russia",
         "club": "RUS",
         "members": "",
+        "score": "114",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "31",
+         "29",
+         "26",
+         "28"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Austria",
+        "club": "AUT",
+        "members": "",
+        "score": "140",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "38",
+         "34",
+         "33",
+         "35"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "Italy",
+        "club": "ITA",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "3A",
-        "when": "02-10-2026 10:31"
+        "target": "1A",
+        "when": "02-10-2026 14:50"
        },
        "b": {
         "label": null,
@@ -15953,7 +16086,32 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "3B",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "Spain",
+        "club": "ESP",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "2A",
+        "when": "02-10-2026 14:40"
+       },
+       "b": {
+        "label": null,
+        "name": "Russia",
+        "club": "RUS",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "2B",
         "when": ""
        }
       }
@@ -15961,7 +16119,7 @@
     }
    ],
    "code": "TBWT",
-   "updated": "2026-10-02 15:50:38"
+   "updated": "2026-10-02 16:34:16"
   }
  ],
  "scorecards": {}
