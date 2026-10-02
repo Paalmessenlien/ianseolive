@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T20:34:59Z",
+ "generated": "2026-10-02T20:46:50Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -19,7 +19,7 @@
   "IFLW": "2026-10-01 17:12:47",
   "IFTM": "2026-10-01 17:11:53",
   "IFTW": "2026-10-01 17:12:53",
-  "TFMT": "2026-10-02 16:34:38",
+  "TFMT": "2026-10-02 20:39:07",
   "TFWT": "2026-10-02 20:26:06",
   "TFCX": "2026-10-02 19:19:14",
   "TFBX": "2026-10-02 18:59:41",
@@ -33,7 +33,7 @@
   "IBLW": "2026-10-01 17:12:47",
   "IBTM": "2026-10-01 17:11:53",
   "IBTW": "2026-10-01 17:12:53",
-  "TBMT": "2026-10-02 16:34:38",
+  "TBMT": "2026-10-02 20:39:07",
   "TBWT": "2026-10-02 20:26:06",
   "TBCX": "2026-10-02 19:19:14",
   "TBBX": "2026-10-02 18:59:41",
@@ -15556,54 +15556,74 @@
         "name": "Russia",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "42",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 15:10"
+        "target": "",
+        "when": "",
+        "sets": [
+         "37",
+         "5"
+        ]
        },
        "b": {
         "label": null,
         "name": "France",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "65",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "35",
+         "30"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Denmark",
         "club": "DEN",
         "members": "",
-        "score": "",
+        "score": "101",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 15:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "30",
+         "10",
+         "33",
+         "28"
+        ]
        },
        "b": {
         "label": null,
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "136",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "33",
+         "39",
+         "33",
+         "31"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBMT",
-   "updated": "2026-10-02 16:34:38"
+   "updated": "2026-10-02 20:39:07"
   },
   {
    "name": "Traditional Mixed Team (lag)",
