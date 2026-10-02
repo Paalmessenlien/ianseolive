@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T19:57:03Z",
+ "generated": "2026-10-02T20:23:27Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -20,7 +20,7 @@
   "IFTM": "2026-10-01 17:11:53",
   "IFTW": "2026-10-01 17:12:53",
   "TFMT": "2026-10-02 16:34:38",
-  "TFWT": "2026-10-02 16:34:16",
+  "TFWT": "2026-10-02 20:18:15",
   "TFCX": "2026-10-02 19:19:14",
   "TFBX": "2026-10-02 18:59:41",
   "TFLX": "2026-10-02 18:39:29",
@@ -34,7 +34,7 @@
   "IBTM": "2026-10-01 17:11:53",
   "IBTW": "2026-10-01 17:12:53",
   "TBMT": "2026-10-02 16:34:38",
-  "TBWT": "2026-10-02 16:34:16",
+  "TBWT": "2026-10-02 20:18:15",
   "TBCX": "2026-10-02 19:19:14",
   "TBBX": "2026-10-02 18:59:41",
   "TBLX": "2026-10-02 18:39:29",
@@ -16170,54 +16170,76 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "82",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 14:50"
+        "target": "",
+        "when": "",
+        "sets": [
+         "26",
+         "26",
+         "30"
+        ]
        },
        "b": {
         "label": null,
         "name": "Austria",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "85",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "29",
+         "28",
+         "28"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Spain",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "149",
         "bye": false,
         "so": "",
-        "target": "2A",
-        "when": "02-10-2026 14:40"
+        "target": "",
+        "when": "",
+        "sets": [
+         "44",
+         "34",
+         "37",
+         "34"
+        ]
        },
        "b": {
         "label": null,
         "name": "Russia",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "110",
         "bye": false,
         "so": "",
-        "target": "2B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "36",
+         "27",
+         "26",
+         "21"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBWT",
-   "updated": "2026-10-02 16:34:16"
+   "updated": "2026-10-02 20:18:15"
   }
  ],
  "scorecards": {}
