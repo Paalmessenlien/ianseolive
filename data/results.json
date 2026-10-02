@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T19:12:07Z",
+ "generated": "2026-10-02T19:17:06Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -21,7 +21,7 @@
   "IFTW": "2026-10-01 17:12:53",
   "TFMT": "2026-10-02 16:34:38",
   "TFWT": "2026-10-02 16:34:16",
-  "TFCX": "2026-10-02 14:41:02",
+  "TFCX": "2026-10-02 19:12:03",
   "TFBX": "2026-10-02 18:59:41",
   "TFLX": "2026-10-02 18:39:29",
   "TFTX": "2026-10-02 18:18:10",
@@ -35,7 +35,7 @@
   "IBTW": "2026-10-01 17:12:53",
   "TBMT": "2026-10-02 16:34:38",
   "TBWT": "2026-10-02 16:34:16",
-  "TBCX": "2026-10-02 14:41:02",
+  "TBCX": "2026-10-02 19:12:03",
   "TBBX": "2026-10-02 18:59:41",
   "TBLX": "2026-10-02 18:39:29",
   "TBTX": "2026-10-02 18:18:10",
@@ -14918,54 +14918,76 @@
         "name": "Austria",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "114",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 13:40"
+        "target": "",
+        "when": "",
+        "sets": [
+         "42",
+         "29",
+         "43"
+        ]
        },
        "b": {
         "label": null,
         "name": "France",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "109",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "41",
+         "28",
+         "40"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Finland",
         "club": "FIN",
         "members": "",
-        "score": "",
+        "score": "149",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 13:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "41",
+         "29",
+         "40",
+         "39"
+        ]
        },
        "b": {
         "label": null,
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "160",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "41",
+         "40",
+         "42",
+         "37"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBCX",
-   "updated": "2026-10-02 14:41:02"
+   "updated": "2026-10-02 19:12:03"
   },
   {
    "name": "Longbow Mixed Team (lag)",
