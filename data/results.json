@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T14:32:07Z",
+ "generated": "2026-10-02T14:37:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -20,9 +20,9 @@
   "IFTM": "2026-10-01 17:11:53",
   "IFTW": "2026-10-01 17:12:53",
   "TFCX": "2026-10-01 16:17:54",
-  "TFBX": "2026-10-01 16:57:38",
-  "TFLX": "2026-10-01 20:26:00",
-  "TFTX": "2026-10-01 20:57:41",
+  "TFBX": "2026-10-02 14:36:51",
+  "TFLX": "2026-10-02 14:34:41",
+  "TFTX": "2026-10-02 14:33:51",
   "IBCM": "2026-10-01 21:59:53",
   "IBCW": "2026-10-01 21:30:35",
   "IBBM": "2026-10-01 21:30:07",
@@ -34,9 +34,9 @@
   "TBMT": "2026-09-30 19:03:33",
   "TBWT": "2026-09-30 19:03:35",
   "TBCX": "2026-10-01 16:17:54",
-  "TBBX": "2026-10-01 16:57:37",
-  "TBLX": "2026-10-01 20:26:00",
-  "TBTX": "2026-10-01 20:57:41",
+  "TBBX": "2026-10-02 14:36:51",
+  "TBLX": "2026-10-02 14:34:41",
+  "TBTX": "2026-10-02 14:33:51",
   "IQCM": "2026-09-30 19:03:04",
   "IQCW": "2026-09-30 19:03:08",
   "IQBM": "2026-09-30 19:03:12",
@@ -14516,22 +14516,34 @@
         "name": "Spain",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "120",
         "bye": false,
         "so": "",
-        "target": "13A",
-        "when": "02-10-2026 08:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "33",
+         "33",
+         "36",
+         "18"
+        ]
        },
        "b": {
         "label": null,
         "name": "Russia",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "137",
         "bye": false,
         "so": "",
-        "target": "13B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "36",
+         "31",
+         "39",
+         "31"
+        ]
        }
       },
       {
@@ -14541,11 +14553,53 @@
         "name": "Denmark",
         "club": "DEN",
         "members": "",
+        "score": "141",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "34",
+         "40",
+         "29",
+         "38"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "",
+        "score": "152",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "40",
+         "38",
+         "34",
+         "40"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "Russia",
+        "club": "RUS",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "14A",
-        "when": "02-10-2026 08:30"
+        "target": "1A",
+        "when": "02-10-2026 13:20"
        },
        "b": {
         "label": null,
@@ -14555,7 +14609,32 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "14B",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "Spain",
+        "club": "ESP",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "02-10-2026 13:10"
+       },
+       "b": {
+        "label": null,
+        "name": "Denmark",
+        "club": "DEN",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
         "when": ""
        }
       }
@@ -14563,7 +14642,7 @@
     }
    ],
    "code": "TBBX",
-   "updated": "2026-10-01 16:57:37"
+   "updated": "2026-10-02 14:36:51"
   },
   {
    "name": "Compound Mixed Team (lag)",
@@ -14948,22 +15027,34 @@
         "name": "France",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "110",
         "bye": false,
         "so": "",
-        "target": "15A",
-        "when": "02-10-2026 08:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "23",
+         "25",
+         "30",
+         "32"
+        ]
        },
        "b": {
         "label": null,
         "name": "Austria",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "105",
         "bye": false,
         "so": "",
-        "target": "15B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "31",
+         "20",
+         "28",
+         "26"
+        ]
        }
       },
       {
@@ -14973,11 +15064,78 @@
         "name": "Great Britain",
         "club": "GBR",
         "members": "",
+        "score": "109",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "23",
+         "26",
+         "31",
+         "29"
+        ]
+       },
+       "b": {
+        "label": null,
+        "name": "Denmark",
+        "club": "DEN",
+        "members": "",
+        "score": "101",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "5",
+         "33",
+         "28",
+         "35"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Gold",
+       "a": {
+        "label": null,
+        "name": "France",
+        "club": "FRA",
+        "members": "",
         "score": "",
         "bye": false,
         "so": "",
-        "target": "16A",
-        "when": "02-10-2026 08:30"
+        "target": "1A",
+        "when": "02-10-2026 13:00"
+       },
+       "b": {
+        "label": null,
+        "name": "Great Britain",
+        "club": "GBR",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
+        "when": ""
+       }
+      },
+      {
+       "label": "Bronze",
+       "a": {
+        "label": null,
+        "name": "Austria",
+        "club": "AUT",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1A",
+        "when": "02-10-2026 12:50"
        },
        "b": {
         "label": null,
@@ -14987,7 +15145,7 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "16B",
+        "target": "1B",
         "when": ""
        }
       }
@@ -14995,7 +15153,7 @@
     }
    ],
    "code": "TBLX",
-   "updated": "2026-10-01 20:26:00"
+   "updated": "2026-10-02 14:34:41"
   },
   {
    "name": "Men Team (lag)",
@@ -15277,22 +15435,34 @@
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "123",
         "bye": false,
         "so": "",
-        "target": "17A",
-        "when": "02-10-2026 08:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "26",
+         "37",
+         "29",
+         "31"
+        ]
        },
        "b": {
         "label": null,
         "name": "Czechia",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "128",
         "bye": false,
         "so": "",
-        "target": "17B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "31",
+         "39",
+         "33",
+         "25"
+        ]
        }
       },
       {
@@ -15302,13 +15472,44 @@
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "98",
         "bye": false,
         "so": "",
-        "target": "18A",
-        "when": "02-10-2026 08:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "34",
+         "18",
+         "26",
+         "20"
+        ]
        },
        "b": {
+        "label": null,
+        "name": "Sweden",
+        "club": "SWE",
+        "members": "",
+        "score": "101",
+        "bye": false,
+        "so": "",
+        "target": "",
+        "when": "",
+        "sets": [
+         "35",
+         "8",
+         "31",
+         "27"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "Finals",
+     "matches": [
+      {
+       "label": "Bronze",
+       "a": {
         "label": null,
         "name": "Sweden",
         "club": "SWE",
@@ -15316,7 +15517,18 @@
         "score": "",
         "bye": false,
         "so": "",
-        "target": "18B",
+        "target": "1B",
+        "when": ""
+       },
+       "b": {
+        "label": null,
+        "name": "USA",
+        "club": "USA",
+        "members": "",
+        "score": "",
+        "bye": false,
+        "so": "",
+        "target": "1B",
         "when": ""
        }
       }
@@ -15324,7 +15536,7 @@
     }
    ],
    "code": "TBTX",
-   "updated": "2026-10-01 20:57:41"
+   "updated": "2026-10-02 14:33:51"
   },
   {
    "name": "Women Team (lag)",
