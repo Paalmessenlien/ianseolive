@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T18:47:07Z",
+ "generated": "2026-10-02T18:52:06Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -22,7 +22,7 @@
   "TFMT": "2026-10-02 16:34:38",
   "TFWT": "2026-10-02 16:34:16",
   "TFCX": "2026-10-02 14:41:02",
-  "TFBX": "2026-10-02 14:36:51",
+  "TFBX": "2026-10-02 18:48:44",
   "TFLX": "2026-10-02 18:39:29",
   "TFTX": "2026-10-02 18:18:10",
   "IBCM": "2026-10-01 21:59:53",
@@ -36,7 +36,7 @@
   "TBMT": "2026-10-02 16:34:38",
   "TBWT": "2026-10-02 16:34:16",
   "TBCX": "2026-10-02 14:41:02",
-  "TBBX": "2026-10-02 14:36:51",
+  "TBBX": "2026-10-02 18:48:44",
   "TBLX": "2026-10-02 18:39:29",
   "TBTX": "2026-10-02 18:18:10",
   "IQCM": "2026-09-30 19:03:04",
@@ -14599,54 +14599,76 @@
         "name": "Russia",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "110",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 13:20"
+        "target": "",
+        "when": "",
+        "sets": [
+         "42",
+         "26",
+         "42"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "89",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "37",
+         "15",
+         "37"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Spain",
         "club": "ESP",
         "members": "",
-        "score": "",
+        "score": "121",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 13:10"
+        "target": "",
+        "when": "",
+        "sets": [
+         "26",
+         "34",
+         "41",
+         "20"
+        ]
        },
        "b": {
         "label": null,
         "name": "Denmark",
         "club": "DEN",
         "members": "",
-        "score": "",
+        "score": "130",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "29",
+         "33",
+         "37",
+         "31"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBBX",
-   "updated": "2026-10-02 14:36:51"
+   "updated": "2026-10-02 18:48:44"
   },
   {
    "name": "Compound Mixed Team (lag)",
