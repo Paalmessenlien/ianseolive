@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T17:57:05Z",
+ "generated": "2026-10-02T18:30:03Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -23,8 +23,8 @@
   "TFWT": "2026-10-02 16:34:16",
   "TFCX": "2026-10-02 14:41:02",
   "TFBX": "2026-10-02 14:36:51",
-  "TFLX": "2026-10-02 14:34:41",
-  "TFTX": "2026-10-02 14:37:14",
+  "TFLX": "2026-10-02 18:27:30",
+  "TFTX": "2026-10-02 18:18:10",
   "IBCM": "2026-10-01 21:59:53",
   "IBCW": "2026-10-01 21:30:35",
   "IBBM": "2026-10-01 21:30:07",
@@ -37,8 +37,8 @@
   "TBWT": "2026-10-02 16:34:16",
   "TBCX": "2026-10-02 14:41:02",
   "TBBX": "2026-10-02 14:36:51",
-  "TBLX": "2026-10-02 14:34:41",
-  "TBTX": "2026-10-02 14:37:14",
+  "TBLX": "2026-10-02 18:27:30",
+  "TBTX": "2026-10-02 18:18:10",
   "IQCM": "2026-09-30 19:03:04",
   "IQCW": "2026-09-30 19:03:08",
   "IQBM": "2026-09-30 19:03:12",
@@ -15189,54 +15189,74 @@
         "name": "France",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "64",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 13:00"
+        "target": "",
+        "when": "",
+        "sets": [
+         "33",
+         "31"
+        ]
        },
        "b": {
         "label": null,
         "name": "Great Britain",
         "club": "GBR",
         "members": "",
-        "score": "",
+        "score": "55",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "25",
+         "30"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Austria",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "94",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 12:50"
+        "target": "",
+        "when": "",
+        "sets": [
+         "23",
+         "10",
+         "38",
+         "23"
+        ]
        },
        "b": {
         "label": null,
         "name": "Denmark",
         "club": "DEN",
         "members": "",
-        "score": "",
+        "score": "95",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "36",
+         "13",
+         "36",
+         "10"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBLX",
-   "updated": "2026-10-02 14:34:41"
+   "updated": "2026-10-02 18:27:30"
   },
   {
    "name": "Men Team (lag)",
@@ -15779,54 +15799,78 @@
         "name": "Czechia",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "120",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 12:40"
+        "target": "",
+        "when": "",
+        "sets": [
+         "29",
+         "21",
+         "42",
+         "28"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sweden",
         "club": "SWE",
         "members": "",
-        "score": "",
+        "score": "116",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "23",
+         "28",
+         "42",
+         "23"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Italy",
         "club": "ITA",
         "members": "",
-        "score": "",
+        "score": "112",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "02-10-2026 12:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "29",
+         "31",
+         "23",
+         "29"
+        ]
        },
        "b": {
         "label": null,
         "name": "USA",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "113",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "36",
+         "29",
+         "28"
+        ]
        }
       }
      ]
     }
    ],
    "code": "TBTX",
-   "updated": "2026-10-02 14:37:14"
+   "updated": "2026-10-02 18:18:10"
   },
   {
    "name": "Women Team (lag)",
