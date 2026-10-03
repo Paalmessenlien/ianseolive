@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T15:17:06Z",
+ "generated": "2026-10-03T15:22:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -18,7 +18,7 @@
   "IFLM": "2026-10-03 15:12:52",
   "IFLW": "2026-10-03 14:58:16",
   "IFTM": "2026-10-01 17:11:53",
-  "IFTW": "2026-10-01 17:12:53",
+  "IFTW": "2026-10-03 15:20:04",
   "TFMT": "2026-10-02 20:50:45",
   "TFWT": "2026-10-02 20:26:06",
   "TFCX": "2026-10-02 19:19:14",
@@ -32,7 +32,7 @@
   "IBLM": "2026-10-03 15:12:52",
   "IBLW": "2026-10-03 14:58:16",
   "IBTM": "2026-10-01 17:11:53",
-  "IBTW": "2026-10-01 17:12:53",
+  "IBTW": "2026-10-03 15:20:04",
   "TBMT": "2026-10-02 20:50:45",
   "TBWT": "2026-10-02 20:26:06",
   "TBCX": "2026-10-02 19:19:14",
@@ -14356,54 +14356,74 @@
         "name": "Wenzl Judith",
         "club": "GER",
         "members": "",
-        "score": "",
+        "score": "37",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "03-10-2026 10:10"
+        "target": "",
+        "when": "",
+        "sets": [
+         "19",
+         "18"
+        ]
        },
        "b": {
         "label": null,
         "name": "Jones Julie",
         "club": "USA",
         "members": "",
-        "score": "",
+        "score": "33",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "20",
+         "13"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Korabecna Jarmila",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "49",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "03-10-2026 10:02"
+        "target": "",
+        "when": "",
+        "sets": [
+         "16",
+         "5",
+         "18",
+         "10"
+        ]
        },
        "b": {
         "label": null,
         "name": "Blahusova Martina",
         "club": "CZE",
         "members": "",
-        "score": "",
+        "score": "51",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "10",
+         "21",
+         "10"
+        ]
        }
       }
      ]
     }
    ],
    "code": "IBTW",
-   "updated": "2026-10-01 17:12:53"
+   "updated": "2026-10-03 15:20:04"
   },
   {
    "name": "Barebow Mixed Team (lag)",
