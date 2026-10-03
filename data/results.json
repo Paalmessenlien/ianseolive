@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T18:47:07Z",
+ "generated": "2026-10-03T18:52:07Z",
  "tournament": {
   "toId": "30357",
   "name": "VM 3D 2026",
@@ -12,7 +12,7 @@
  "defaultClub": "NOR",
  "files": {
   "IFCM": "2026-10-01 21:59:53",
-  "IFCW": "2026-10-01 21:30:35",
+  "IFCW": "2026-10-03 18:50:44",
   "IFBM": "2026-10-01 21:30:07",
   "IFBW": "2026-10-01 21:23:23",
   "IFLM": "2026-10-03 15:12:52",
@@ -26,7 +26,7 @@
   "TFLX": "2026-10-02 18:39:29",
   "TFTX": "2026-10-02 18:18:10",
   "IBCM": "2026-10-01 21:59:53",
-  "IBCW": "2026-10-01 21:30:35",
+  "IBCW": "2026-10-03 18:50:44",
   "IBBM": "2026-10-01 21:30:07",
   "IBBW": "2026-10-01 21:23:23",
   "IBLM": "2026-10-03 15:12:52",
@@ -10733,54 +10733,74 @@
         "name": "Ronacher Ingrid",
         "club": "AUT",
         "members": "",
-        "score": "",
+        "score": "32",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "03-10-2026 13:38"
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "19"
+        ]
        },
        "b": {
         "label": null,
         "name": "Ama-cormerais Aude",
         "club": "FRA",
         "members": "",
-        "score": "",
+        "score": "32",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "10",
+         "22"
+        ]
        }
       },
       {
-       "label": "Bronze",
+       "label": "Bronse",
        "a": {
         "label": null,
         "name": "Wiens Andrea",
         "club": "CAN",
         "members": "",
-        "score": "",
+        "score": "76",
         "bye": false,
         "so": "",
-        "target": "1A",
-        "when": "03-10-2026 13:30"
+        "target": "",
+        "when": "",
+        "sets": [
+         "18",
+         "18",
+         "21",
+         "19"
+        ]
        },
        "b": {
         "label": null,
         "name": "Sarukhanova Anna",
         "club": "RUS",
         "members": "",
-        "score": "",
+        "score": "67",
         "bye": false,
         "so": "",
-        "target": "1B",
-        "when": ""
+        "target": "",
+        "when": "",
+        "sets": [
+         "13",
+         "18",
+         "21",
+         "15"
+        ]
        }
       }
      ]
     }
    ],
    "code": "IBCW",
-   "updated": "2026-10-01 21:30:35"
+   "updated": "2026-10-03 18:50:44"
   },
   {
    "name": "Longbow Men",
